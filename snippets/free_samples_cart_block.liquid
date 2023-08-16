@@ -1,0 +1,198 @@
+{% comment %}
+  Free Gifts Images - Snippet
+{% endcomment %}
+
+{% assign freeSampleCollectionHandle = 'free-samples' %}
+
+{% style %}
+  {%- capture default_sizes -%}
+    80px, 92px, 160px, 184px, 240px, 276px
+  {%- endcapture -%}
+
+  {%- capture sizes -%}
+    {%- if include.sizes -%}
+      {{ include.sizes }}
+    {%- else -%}
+      {{ default_sizes }}
+    {%- endif -%}
+  {%- endcapture -%}
+
+  {%- assign image_sizes = sizes | remove: ' ' | split: ',' -%}
+  {%- assign image_widths = '100,180,320,360,480,552' | split: ',' -%}
+
+  {%- for i in (0..image_sizes.size) -%}
+    {%- assign media_query = image_sizes[i] | append: 'px' -%}
+
+    @media (max-width: {{ media_query }}) {
+      .line-item__image[srcset],
+      .free-gift-product-img[srcset] {
+        content: attr(data-srcset-{{ image_sizes[i] }});
+      }
+    }
+  {%- endfor -%}
+{% endstyle %}
+
+<!-- Dein HTML-Code für die Free Gifts -->
+<div class="free-gift-images-container">
+  {% for product in collections[freeSampleCollectionHandle].products %}
+    <div class="free-gift-column">
+      <div class="free-gift-products">
+        <button class="free-gift-product-img-container" data-product-id="{{ product.variants.first.id }}">
+          <div class="img-only-container-free-gifts">
+            <img class="free-gift-product-img product__thumbnail line-item__image" data-srcset-80="{{ product.featured_image.src | img_url: '80x80', 'jpg' }}"
+              data-srcset-92="{{ product.featured_image.src | img_url: '92x92', 'jpg' }}"
+              data-srcset-160="{{ product.featured_image.src | img_url: '160x160', 'jpg' }}"
+              data-srcset-184="{{ product.featured_image.src | img_url: '184x184', 'jpg' }}"
+              data-srcset-240="{{ product.featured_image.src | img_url: '240x240', 'jpg' }}"
+              data-srcset-276="{{ product.featured_image.src | img_url: '276x276', 'jpg' }}"
+              src="{{ product.featured_image.src | img_url: '552x', 'jpg' }}" alt="{{ product.title }}" loading="lazy" width="552">
+          </div>
+          <div class="content-box-free-gifts">
+            <p>{{ product.title }} <br>
+              {{ product.description }}<br><br>{{ "general.free_gifts.free" | t }}</p>
+            <span class="add-to-cart-button">
+              {% if selectedProducts contains product.variants.first.id %}
+                Remove
+              {% else %}
+                Add
+              {% endif %}
+            </span>
+          </div>
+        </button>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const freeGiftButtons = document.querySelectorAll('.free-gift-product-img-container');
+    const selectedProductsKey = 'selectedProducts';
+    let selectedProducts = JSON.parse(localStorage.getItem(selectedProductsKey)) || [];
+
+    freeGiftButtons.forEach(button => {
+      const productId = button.getAttribute('data-product-id');
+      const isSelected = selectedProducts.includes(productId);
+
+      if (isSelected) {
+        button.classList.add('selected');
+        button.querySelector('.add-to-cart-button').textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
+      } else {
+        button.querySelector('.add-to-cart-button').textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
+      }
+
+      button.addEventListener('click', function () {
+        const isSelected = this.classList.contains('selected');
+
+        if (!isSelected && selectedProducts.length < 2) {
+          this.classList.add('selected');
+          selectedProducts.push(productId);
+          addToCart(productId);
+          button.querySelector('.add-to-cart-button').textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
+        } else if (isSelected) {
+          this.classList.remove('selected');
+          selectedProducts = selectedProducts.filter(id => id !== productId);
+          removeFromCart(productId);
+          button.querySelector('.add-to-cart-button').textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
+        }
+
+        localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+        updateGrayOut();
+      });
+
+    updateGrayOut(); // Initialer Aufruf der Funktion zum Aktualisieren des Ausgrauens und der Klickbarkeit
+  });
+
+  // Funktion zum Aktualisieren des Ausgrauens und der Klickbarkeit
+  function updateGrayOut() {
+    if (selectedProducts.length === 2) {
+      freeGiftButtons.forEach(button => {
+        const productId = button.getAttribute('data-product-id');
+        if (!selectedProducts.includes(productId)) {
+          button.classList.add('grayed-out');
+          button.querySelector('.add-to-cart-button').classList.add('grayed-out');
+          button.style.pointerEvents = 'none';
+        } else {
+          button.classList.remove('grayed-out');
+          button.querySelector('.add-to-cart-button').classList.remove('grayed-out');
+          button.style.pointerEvents = 'auto';
+        }
+      });
+    } else {
+      freeGiftButtons.forEach(button => {
+        button.classList.remove('grayed-out');
+        button.querySelector('.add-to-cart-button').classList.remove('grayed-out');
+        button.style.pointerEvents = 'auto';
+      });
+    }
+  }
+
+  // Funktion zum Entfernen der Produkte aus dem Warenkorb beim Neuladen der Warenkorb-Seite
+  function removeSelectedProductsFromCartOnCheckoutPage() {
+    if (window.location.pathname === '/cart') {
+      const productsToRemove = [...selectedProducts];
+      selectedProducts = [];
+      productsToRemove.forEach(productId => removeFromCart(productId));
+      localStorage.removeItem(selectedProductsKey);
+      updateGrayOut(); // Aktualisiere das Ausgrauen und die Klickbarkeit nach dem Entfernen
+    }
+  }
+
+  // Überprüfe, ob die Seite neu geladen wird und entferne die Produkte aus dem Warenkorb
+  window.onpageshow = function (event) {
+    if (event.persisted) {
+      removeSelectedProductsFromCartOnCheckoutPage();
+    }
+  };
+
+  // Entferne die Produkte nicht beim Betreten des Checkout-Bereichs
+  if (window.location.pathname !== '/cart') {
+    removeSelectedProductsFromCartOnCheckoutPage();
+  }
+
+  function addToCart(productId) {
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        quantity: 1,
+        id: productId
+      })
+    })
+    .then(response => {
+      if (response.ok) {
+      } else {
+        console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb.');
+      }
+    })
+    .catch(error => {
+      console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb:', error);
+    });
+  }
+
+  function removeFromCart(productId) {
+    fetch('/cart/update.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        updates: {
+          [productId]: 0
+        }
+      })
+    })
+    .then(response => {
+      if (response.ok) {
+      } else {
+        console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb.');
+      }
+    })
+    .catch(error => {
+      console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb:', error);
+    });
+  }
+});
+</script>

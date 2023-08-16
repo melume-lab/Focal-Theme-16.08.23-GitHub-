@@ -1,0 +1,495 @@
+<style>
+
+ 
+ 
+  {%- comment -%}
+  .list--unstyled {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the list items horizontally */
+    /* Additional styles for ul if needed */
+    padding: 0; /* Remove default padding */
+  }
+{%- endcomment -%}
+
+  .link-bar__link-item {
+    /* Additional styles for list items if needed */
+    margin: 10px; /* Adjust margin as needed for spacing between items */
+    padding: 5px; /* Add padding to create spacing within each link item */
+    line-height: 1.2; /* Adjust line-height to control the link item height */
+  }
+    .custom-container {
+      border-bottom: 1px solid rgb(var(--border-color));
+    }
+  
+</style>
+
+<section>
+  <div class="custom-container">
+  <div class="container">
+    {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+      <header class="section__header text-container" style="margin-bottom: 0px">
+        {%- if section.settings.subheading != blank -%}
+          <h2 class="heading heading--small">{{ section.settings.subheading | escape }}</h2>
+        {%- endif -%}
+      </header>
+    {%- endif -%}
+  
+    <div class="linklist-container">
+      <ul class="list--unstyled" style="display: flex; flex-wrap: wrap; justify-content: center" role="list">
+        
+        {% if section.settings.a and section.settings.a_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.a }}" class="link-bar__link link--animated">{{ section.settings.a_name }}</a>
+          </li>
+        {% endif %}
+        
+        {% if section.settings.b and section.settings.b_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.b }}" class="link-bar__link link--animated">{{ section.settings.b_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.c and section.settings.c_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.c }}" class="link-bar__link link--animated">{{ section.settings.c_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.d and section.settings.d_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.d }}" class="link-bar__link link--animated">{{ section.settings.d_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.e and section.settings.e_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.e }}" class="link-bar__link link--animated">{{ section.settings.e_name }}</a>
+          </li>
+        {% endif %}
+        
+        {% if section.settings.f and section.settings.f_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.f }}" class="link-bar__link link--animated">{{ section.settings.f_name }}</a>
+          </li>
+        {% endif %}
+        
+        {% if section.settings.g and section.settings.g_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.g }}" class="link-bar__link link--animated">{{ section.settings.g_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.h and section.settings.h_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.h }}" class="link-bar__link link--animated">{{ section.settings.h_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.i and section.settings.i_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.i }}" class="link-bar__link link--animated">{{ section.settings.i_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.j and section.settings.j_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.j }}" class="link-bar__link link--animated">{{ section.settings.j_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.k and section.settings.k_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.k }}" class="link-bar__link link--animated">{{ section.settings.k_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.l and section.settings.l_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.l }}" class="link-bar__link link--animated">{{ section.settings.l_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.m and section.settings.m_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.m }}" class="link-bar__link link--animated">{{ section.settings.m_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.n and section.settings.n_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.n }}" class="link-bar__link link--animated">{{ section.settings.n_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.o and section.settings.o_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.o }}" class="link-bar__link link--animated">{{ section.settings.o_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.p and section.settings.p_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.p }}" class="link-bar__link link--animated">{{ section.settings.p_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.q and section.settings.q_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.q }}" class="link-bar__link link--animated">{{ section.settings.q_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.r and section.settings.r_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.r }}" class="link-bar__link link--animated">{{ section.settings.r_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.s and section.settings.s_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.s }}" class="link-bar__link link--animated">{{ section.settings.s_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.t and section.settings.t_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.t }}" class="link-bar__link link--animated">{{ section.settings.t_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.u and section.settings.u_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.u }}" class="link-bar__link link--animated">{{ section.settings.u_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.v and section.settings.v_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.v }}" class="link-bar__link link--animated">{{ section.settings.v_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.w and section.settings.w_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.w }}" class="link-bar__link link--animated">{{ section.settings.w_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.x and section.settings.x_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.x }}" class="link-bar__link link--animated">{{ section.settings.x_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.y and section.settings.y_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.y }}" class="link-bar__link link--animated">{{ section.settings.y_name }}</a>
+          </li>
+        {% endif %}
+        {% if section.settings.z and section.settings.z_name %}
+          <li class="link-bar__link-item">
+            <a href="{{ section.settings.z }}" class="link-bar__link link--animated">{{ section.settings.z_name }}</a>
+          </li>
+        {% endif %}
+        
+      
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="{% if section.settings.include_horizontal_margins %}container{% endif %} {% if section.settings.include_vertical_margins %}vertical-breather{% endif %}">
+  {%- for block in section.blocks -%}
+    {%- render block -%}
+  {%- endfor -%}
+</div>
+
+
+{% schema %}
+  
+    {
+  "name": "ABC Links",
+  "class": "shopify-section--membership",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Your subheading"
+    },
+    {
+      "type": "text",
+      "id": "a_name",
+      "label": "A button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "a",
+        "label": "A"
+    },
+     {
+      "type": "text",
+      "id": "b_name",
+      "label": "B button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "b",
+        "label": "B"
+    },
+     {
+      "type": "text",
+      "id": "c_name",
+      "label": "C button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "c",
+        "label": "C"
+    },
+     {
+      "type": "text",
+      "id": "d_name",
+      "label": "D button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "d",
+        "label": "D"
+    },
+     {
+      "type": "text",
+      "id": "e_name",
+      "label": "E button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "e",
+        "label": "E"
+    },
+     {
+      "type": "text",
+      "id": "f_name",
+      "label": "F button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "f",
+        "label": "F"
+    },
+     {
+      "type": "text",
+      "id": "g_name",
+      "label": "G button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "g",
+        "label": "G"
+    },
+     {
+      "type": "text",
+      "id": "h_name",
+      "label": "H button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "h",
+        "label": "H"
+    },
+     {
+      "type": "text",
+      "id": "i_name",
+      "label": "I button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "i",
+        "label": "I"
+    },
+     {
+      "type": "text",
+      "id": "j_name",
+      "label": "J button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "j",
+        "label": "J"
+    },
+     {
+      "type": "text",
+      "id": "k_name",
+      "label": "K button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "k",
+        "label": "K"
+    },
+     {
+      "type": "text",
+      "id": "l_name",
+      "label": "L button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "l",
+        "label": "L"
+    },
+     {
+      "type": "text",
+      "id": "m_name",
+      "label": "M button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "m",
+        "label": "M"
+    },
+     {
+      "type": "text",
+      "id": "n_name",
+      "label": "N button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "n",
+        "label": "N"
+    },
+     {
+      "type": "text",
+      "id": "o_name",
+      "label": "O button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "o",
+        "label": "O"
+    },
+     {
+      "type": "text",
+      "id": "p_name",
+      "label": "P button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "p",
+        "label": "P"
+    },
+     {
+      "type": "text",
+      "id": "q_name",
+      "label": "Q button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "q",
+        "label": "Q"
+    },
+     {
+      "type": "text",
+      "id": "r_name",
+      "label": "R button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "r",
+        "label": "R"
+    },
+     {
+      "type": "text",
+      "id": "s_name",
+      "label": "S button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "s",
+        "label": "S"
+    },
+     {
+      "type": "text",
+      "id": "t_name",
+      "label": "T button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "t",
+        "label": "T"
+    },
+     {
+      "type": "text",
+      "id": "u_name",
+      "label": "U button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "u",
+        "label": "U"
+    },
+     {
+      "type": "text",
+      "id": "v_name",
+      "label": "V button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "v",
+        "label": "V"
+    },
+     {
+      "type": "text",
+      "id": "w_name",
+      "label": "W button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "w",
+        "label": "W"
+    },
+     {
+      "type": "text",
+      "id": "x_name",
+      "label": "X button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "x",
+        "label": "X"
+    },
+     {
+      "type": "text",
+      "id": "y_name",
+      "label": "Y button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "y",
+        "label": "Y"
+    },
+     {
+      "type": "text",
+      "id": "z_name",
+      "label": "Z button Name"    
+    },
+    {
+    
+        "type": "url",
+        "id": "z",
+        "label": "Z"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ABC Links"
+    }
+  ]
+}
+{% endschema %}
