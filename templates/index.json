@@ -1,1 +1,526 @@
-{"sections":{"d107d64a-9a4a-4cca-81db-17804a8cd886":{"type":"MS_Slideshow","blocks":{"65e3801c-f80d-4458-bd03-14e51445cc9a":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Rotating_Banner_2160x1018_2_neu_de6a7f6e-5eea-4f4f-a276-cbf984474ace.jpg","mobile_image":"shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_2_ccb27f72-9038-4644-8358-326c177eff4a.jpg","text_position":"middle_left","subheading":"","title":"Melumé Skin Club","html":"UNLOCK A WORLD OF BENEFITS","content":"<p>Second Content<\/p>","button_1_text":"JOIN NOW","button_1_link":"shopify:\/\/pages\/skin-club","button_2_text":"","button_2_link":"shopify:\/\/pages\/skin-club","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#f6f5f2","overlay_opacity":0}},"e5be906f-707c-4e16-bc7b-9785c2ee7b1e":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rotating_Banner_2160x1018_1_bc28bd36-d05e-43ec-b4d2-c9a5cd8a49a2.jpg","mobile_image":"shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_1_ca6c3ca9-3ed1-4d35-96e8-09c0ad7af8d3.jpg","text_position":"middle_left","subheading":"","title":"Supercharged Formulas","html":"FOR SKINSATIONAL RESULTS","content":"","button_1_text":"Shop Now","button_1_link":"shopify:\/\/collections\/all-melume-products","button_2_text":"","button_2_link":"","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#f6f5f2","overlay_opacity":0}},"71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rotating_Banner_2160x1018_3_fc80a9a8-c79a-41f4-8adc-9bea6e48f4ce.jpg","mobile_image":"shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_3.jpg","text_position":"middle_left","subheading":"","title":"Biomimetic Water-Free Vitamin C","html":"THE BRIGHTENING MULTITASKER","content":"<p>Second Content<\/p>","button_1_text":"Shop Now","button_1_link":"shopify:\/\/collections\/vitamin-c-collection","button_2_text":"","button_2_link":"","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#f6f5f2","overlay_opacity":0}},"1a0a45d5-aa51-4163-8042-53e3f71313b8":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Rotating_Banner_2160x1018_RETINOL_1.jpg","mobile_image":"shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_2_2.jpg","text_position":"middle_left","subheading":"","title":"The Ultimate Biomimetic Skin Makeover","html":"","content":"<p>Second Content<\/p>","button_1_text":"Shop now","button_1_link":"shopify:\/\/products\/a-mazing-retinol-retinal-emulsion","button_2_text":"","button_2_link":"","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["65e3801c-f80d-4458-bd03-14e51445cc9a","e5be906f-707c-4e16-bc7b-9785c2ee7b1e","71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d","1a0a45d5-aa51-4163-8042-53e3f71313b8"],"custom_css":["h2 {font-size: 44px;}",".content-box {max-width: 350px;}"],"settings":{"section_height":"medium","transition_type":"sweep","autoplay":true,"cycle_speed":5,"background":"rgba(0,0,0,0)"}},"featured-collections":{"type":"featured-collections","blocks":{"collection-1":{"type":"collection","settings":{"collection":"all-melume-products","label":"","button_text":"","button_url":""}}},"block_order":["collection-1"],"settings":{"subheading":"","title":"","content":"","products_count":16,"products_per_row":4,"stack_products":false,"show_cta":true,"background":"rgba(0,0,0,0)","text_color":"#000000","button_background":"#000000","button_text_color":"rgba(0,0,0,0)"}},"ca0c5096-1d01-4633-b886-f5860dace2d5":{"type":"MS_image-with-text","disabled":true,"blocks":{"template--17779321536779__ca0c5096-1d01-4633-b886-f5860dace2d5-1683795524816c4121-0":{"type":"item","settings":{"tab_label":"Item","subheading":"","title":"The melumé skin club.","title2":"","html-two":"","html-three":"","content":"<p>GET REWARDED FOR YOU COMMITMENT TO YOUR FAVORITE PRODUCTS.<\/p>","button_text":"Subscribe","button_link":""}}},"block_order":["template--17779321536779__ca0c5096-1d01-4633-b886-f5860dace2d5-1683795524816c4121-0"],"settings":{"reveal_on_scroll":true,"background_type":"full_width","background_overlap":"image","image_position":"right","text_alignment":"left","cycle_speed":8,"over-subheading":"","over-title":"","html":"","background":"#f9f8f9","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"6005f883-7ed9-4b30-b1b0-b0eea1843985":{"type":"image-with-text-overlay","disabled":true,"custom_css":[],"settings":{"reveal_on_scroll":false,"section_height":"large","image":"shopify:\/\/shop_images\/Banner_2000x980_6.jpg","subheading":"","title":"melumé skin club","content":"<p>SKINCARE LOVERS: JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p><p><\/p>","html":"","button_text":"SUBSCRIBE","button_link":"","link_style":"button","background_type":"full_width","text_width":"small","text_position":"middle_left","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#f6f5f2","overlay_opacity":0}},"d4101780-2e56-4efa-ad4e-1f6a01c86756":{"type":"image-with-text-block","custom_css":[".content-box--left {background-color: rgba(1, 1, 1, 0);}",".content-box-custom-width {max-width: 500px;}"],"settings":{"reveal_on_scroll":false,"image":"shopify:\/\/shop_images\/Banner_2000x980_6.jpg","mobile_image":"shopify:\/\/shop_images\/Banner_Mobile.png","subheading":"","title":"Melumé Skin Club","html":"","content":"<p>SKINCARE LOVERS: JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p>","button_text":"Learn More","button_link":"shopify:\/\/pages\/skin-club","background_type":"full_width","text_position":"left","text_alignment":"left","text_background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"02de4337-28c3-479a-9083-f3abeabe91f9":{"type":"MS_image-with-text","blocks":{"template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Banner_2000x980_8_solo_b9f8f001-689d-407b-ae97-1271f828d490.png","tab_label":"","subheading":"","title":"Make sure to auto-replenish your favorite products & save 30% on every order.","title2":"","html-two":"","html-three":"","content":"","button_text":"","button_link":""}}},"block_order":["template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"],"custom_css":[".image-with-text__wrapper {margin-top: 50px; margin-bottom: 50px;}"],"settings":{"reveal_on_scroll":false,"background_type":"full_width","background_overlap":"both","image_position":"right","text_alignment":"left","cycle_speed":8,"over-subheading":"","over-title":"","html":"","background":"#000000","text_color":"#ffffff","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"93718f47-35b8-4de0-ae30-3d053255cb71":{"type":"MS_Imagewithtextleft","disabled":true,"settings":{"reveal_on_scroll":false,"section_height":"large","subheading":"","title":"","content":"","html":"","button_text":"","button_link":"","link_style":"button","background_type":"full_width","text_width":"medium","text_position":"middle_left","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#ffffff","overlay_opacity":0}},"f739f549-4b9d-4ee5-8a0a-110539394f01":{"type":"image-with-text-overlay","disabled":true,"custom_css":["h3 {font-size: 44px; text-align: left; max-width: 500px;}",".content-box--right {margin-left: 70%; text-align: left;}",".custom-60-section-content {max-width: 100%;}"],"settings":{"reveal_on_scroll":true,"section_height":"medium","subheading":"","title":"Exclusive GMOD™  Complex","content":"","html":"","button_text":"Learn more","button_link":"shopify:\/\/pages\/discover","link_style":"button","background_type":"full_width","text_width":"medium","text_position":"middle_right","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"a5134d3a-3df0-4272-84a2-e1aee4cf7b37":{"type":"image-with-text-block","custom_css":["h3 {font-weight: 1000;}",".content-box-custom-width {max-width: 400px;}"],"settings":{"reveal_on_scroll":false,"image":"shopify:\/\/shop_images\/Rotating_Banner_Wide.png","mobile_image":"shopify:\/\/shop_images\/Split_Banner_1000x590_1.jpg","subheading":"","title":"Exclusive GMOD™  Complex","html":"","content":"","button_text":"Learn more","button_link":"shopify:\/\/pages\/discover","background_type":"full_width","text_position":"right","text_alignment":"left","text_background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"27f6c016-30ff-460b-80e5-2aa5271ee5bc":{"type":"MS_image-with-text","blocks":{"template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/Solo_Image_1400x1400_1.jpg","tab_label":"","subheading":"","title":"","title2":"","html-two":"<h3 class=\"heading h3\">With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our exclusive GMOD™ complex and powerful cosmeceutical &amp; botanical ingredients ensures a skinsational experience and incredible results!\n<\/h3>","html-three":"","content":"","button_text":"","button_link":""}}},"block_order":["template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0"],"custom_css":["h3 {font-weight: 1000;"],"settings":{"reveal_on_scroll":false,"background_type":"full_width","background_overlap":"both","image_position":"right","text_alignment":"left","cycle_speed":8,"over-subheading":"","over-title":"","html":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"3e1119cb-4bd5-4dd6-9e3f-f707a2d03966":{"type":"image-with-text-block","custom_css":[".content-box {max-width: 750px; background: rgba(0, 0, 0, 0);}"],"settings":{"reveal_on_scroll":false,"image":"shopify:\/\/shop_images\/Banner_neue_Section_2_bdb38405-d12d-4867-a43f-1039b17d2952.png","mobile_image":"shopify:\/\/shop_images\/Home_Icon_Section_aff3bdd2-8e05-4f6c-92ed-d56df8d10910.png","subheading":"","title":"","html":"<h3 class=\"heading h3\">The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.<\/h3>","content":"","button_text":"","button_link":"","background_type":"full_width","text_position":"right","text_alignment":"left","text_background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}},"4cb96c4e-f6bf-403a-bf61-960a96060549":{"type":"MS_Imagewithtextleft","settings":{"reveal_on_scroll":false,"section_height":"medium","image":"shopify:\/\/shop_images\/Split_Banner_1000x590_2_aac62559-008c-435d-a0d5-053cba72dffd.jpg","subheading":"","title":"Skincare Lovers Education","content":"<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS<\/p>","html":"","button_text":"EXPLORE","button_link":"shopify:\/\/pages\/ingredient-library","link_style":"button","background_type":"full_width","text_width":"small","text_position":"middle_left","text_color":"#000000","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#ffffff","overlay_opacity":0}},"55fdc1b9-fa3a-4685-973c-0b567f332b6f":{"type":"MS_Textwithproductimage","blocks":{"template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0":{"type":"item","settings":{"section_height":"medium","image":"shopify:\/\/shop_images\/Retinol_Collection_2.png","tab_label":"Item","subheading":"","title":"The Retinol Collection","content":"","button_text":"SHOP NOW","button_link":"shopify:\/\/collections\/retinol-collection"}}},"block_order":["template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0"],"custom_css":[".image-with-text__content-wrapper {max-width: 200px; margin-left: 100px;}"],"settings":{"reveal_on_scroll":false,"background_type":"full_width","background_overlap":"image","image_position":"right","text_alignment":"left","cycle_speed":8,"accent_background":"rgba(0,0,0,0)","text_color":"#000000","button_background":"#000000","button_text_color":"rgba(0,0,0,0)"}},"bd656b79-4959-47ed-93e7-3d1fe17b8ced":{"type":"custom-html","disabled":true,"custom_css":["h3 {padding-top: 100px; padding-bottom: 7px;}"],"settings":{"subheading":"","title":"Thoughtfully Formulated","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"d734dfcf-fa26-4061-9e14-92a8029c34a8":{"type":"custom-html","custom_css":[".column-small {margin: 0px;}",".column-container {max-width: 1000px; margin-left: auto; margin-right: auto;}"],"settings":{"subheading":"","title":"Thoughtfully Formulated","html":"<div class=\"column-container\">\n\n<div class=\"column-small\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>WORRY-FREE<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>PH-APPROPRIATE<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>BIOCOMPATIBLE<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>SCIENCE &amp; PLANT POWERED<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n<\/div>\n\n<div class=\"column-small\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>DERMATOLOGICALLY TESTED<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>SECOND SKIN TECHNOLOGY<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>EXCLUSIVE GMOD™<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>BIOMIMETIC<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<\/div>\n<\/div>","add_vertical_spacing":true,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"780ea883-b201-4222-a7a3-0825049eb059":{"type":"image-with-text-block","custom_css":[".content-box {width: 100%; max-width: 750px; background: rgba(0, 0, 0, 0);}","h3 {font-weight: 1000;}"],"settings":{"reveal_on_scroll":false,"image":"shopify:\/\/shop_images\/Banner_2000x980_1.jpg","mobile_image":"shopify:\/\/shop_images\/Blob_Mobile.png","subheading":"","title":"","html":"<h3 class=\"heading h3\">Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our exclusive GMOD™ complex stemming from bio-science.<\/h3>","content":"","button_text":"LEARN MORE","button_link":"\/pages\/discover#shopify-section-template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3","background_type":"full_width","text_position":"left","text_alignment":"left","text_background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}}},"order":["d107d64a-9a4a-4cca-81db-17804a8cd886","featured-collections","ca0c5096-1d01-4633-b886-f5860dace2d5","6005f883-7ed9-4b30-b1b0-b0eea1843985","d4101780-2e56-4efa-ad4e-1f6a01c86756","02de4337-28c3-479a-9083-f3abeabe91f9","93718f47-35b8-4de0-ae30-3d053255cb71","f739f549-4b9d-4ee5-8a0a-110539394f01","a5134d3a-3df0-4272-84a2-e1aee4cf7b37","27f6c016-30ff-460b-80e5-2aa5271ee5bc","3e1119cb-4bd5-4dd6-9e3f-f707a2d03966","4cb96c4e-f6bf-403a-bf61-960a96060549","55fdc1b9-fa3a-4685-973c-0b567f332b6f","bd656b79-4959-47ed-93e7-3d1fe17b8ced","d734dfcf-fa26-4061-9e14-92a8029c34a8","780ea883-b201-4222-a7a3-0825049eb059"]}
+{
+  "sections": {
+    "d107d64a-9a4a-4cca-81db-17804a8cd886": {
+      "type": "MS_Slideshow",
+      "blocks": {
+        "65e3801c-f80d-4458-bd03-14e51445cc9a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "Melumé Skin Club",
+            "html": "UNLOCK A WORLD OF BENEFITS",
+            "content": "<p>Second Content<\/p>",
+            "button_1_text": "JOIN NOW",
+            "button_1_link": "shopify:\/\/pages\/skin-club",
+            "button_2_text": "",
+            "button_2_link": "shopify:\/\/pages\/skin-club",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#f6f5f2",
+            "overlay_opacity": 0
+          }
+        },
+        "e5be906f-707c-4e16-bc7b-9785c2ee7b1e": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "Supercharged Formulas",
+            "html": "FOR SKINSATIONAL RESULTS",
+            "content": "",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/all-melume-products",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#f6f5f2",
+            "overlay_opacity": 0
+          }
+        },
+        "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "Biomimetic Water-Free Vitamin C",
+            "html": "THE BRIGHTENING MULTITASKER",
+            "content": "<p>Second Content<\/p>",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/vitamin-c-collection",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#f6f5f2",
+            "overlay_opacity": 0
+          }
+        },
+        "1a0a45d5-aa51-4163-8042-53e3f71313b8": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "The Ultimate Biomimetic Skin Makeover",
+            "html": "",
+            "content": "<p>Second Content<\/p>",
+            "button_1_text": "Shop now",
+            "button_1_link": "shopify:\/\/products\/a-mazing-retinol-retinal-emulsion",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "65e3801c-f80d-4458-bd03-14e51445cc9a",
+        "e5be906f-707c-4e16-bc7b-9785c2ee7b1e",
+        "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d",
+        "1a0a45d5-aa51-4163-8042-53e3f71313b8"
+      ],
+      "custom_css": [
+        "h2 {font-size: 44px;}",
+        ".content-box {max-width: 350px;}"
+      ],
+      "settings": {
+        "section_height": "medium",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 16,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ca0c5096-1d01-4633-b886-f5860dace2d5": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--17779321536779__ca0c5096-1d01-4633-b886-f5860dace2d5-1683795524816c4121-0": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "The melumé skin club.",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "<p>GET REWARDED FOR YOU COMMITMENT TO YOUR FAVORITE PRODUCTS.<\/p>",
+            "button_text": "Subscribe",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779321536779__ca0c5096-1d01-4633-b886-f5860dace2d5-1683795524816c4121-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "#f9f8f9",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6005f883-7ed9-4b30-b1b0-b0eea1843985": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "large",
+        "subheading": "",
+        "title": "melumé skin club",
+        "content": "<p>SKINCARE LOVERS: JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p><p><\/p>",
+        "html": "",
+        "button_text": "SUBSCRIBE",
+        "button_link": "",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_left",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#f6f5f2",
+        "overlay_opacity": 0
+      }
+    },
+    "d4101780-2e56-4efa-ad4e-1f6a01c86756": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
+        ".content-box-custom-width {max-width: 500px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "subheading": "",
+        "title": "Melumé Skin Club",
+        "html": "",
+        "content": "<p>SKINCARE LOVERS: JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p>",
+        "button_text": "Learn More",
+        "button_link": "shopify:\/\/pages\/skin-club",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "02de4337-28c3-479a-9083-f3abeabe91f9": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "",
+            "title": "Make sure to auto-replenish your favorite products & save 30% on every order.",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
+      ],
+      "custom_css": [
+        ".image-with-text__wrapper {margin-top: 50px; margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "93718f47-35b8-4de0-ae30-3d053255cb71": {
+      "type": "MS_Imagewithtextleft",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_left",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "f739f549-4b9d-4ee5-8a0a-110539394f01": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 44px; text-align: left; max-width: 500px;}",
+        ".content-box--right {margin-left: 70%; text-align: left;}",
+        ".custom-60-section-content {max-width: 100%;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "subheading": "",
+        "title": "Exclusive GMOD™  Complex",
+        "content": "",
+        "html": "",
+        "button_text": "Learn more",
+        "button_link": "shopify:\/\/pages\/discover",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_right",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "a5134d3a-3df0-4272-84a2-e1aee4cf7b37": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        "h3 {font-weight: 1000;}",
+        ".content-box-custom-width {max-width: 400px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "subheading": "",
+        "title": "Exclusive GMOD™  Complex",
+        "html": "",
+        "content": "",
+        "button_text": "Learn more",
+        "button_link": "shopify:\/\/pages\/discover",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "27f6c016-30ff-460b-80e5-2aa5271ee5bc": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "title2": "",
+            "html-two": "<h3 class=\"heading h3\">With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our exclusive GMOD™ complex and powerful cosmeceutical &amp; botanical ingredients ensures a skinsational experience and incredible results!\n<\/h3>",
+            "html-three": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 1000;"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3e1119cb-4bd5-4dd6-9e3f-f707a2d03966": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".content-box {max-width: 750px; background: rgba(0, 0, 0, 0);}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "subheading": "",
+        "title": "",
+        "html": "<h3 class=\"heading h3\">The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.<\/h3>",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4cb96c4e-f6bf-403a-bf61-960a96060549": {
+      "type": "MS_Imagewithtextleft",
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "medium",
+        "subheading": "",
+        "title": "Skincare Lovers Education",
+        "content": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS<\/p>",
+        "html": "",
+        "button_text": "EXPLORE",
+        "button_link": "shopify:\/\/pages\/ingredient-library",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_left",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "55fdc1b9-fa3a-4685-973c-0b567f332b6f": {
+      "type": "MS_Textwithproductimage",
+      "blocks": {
+        "template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0": {
+          "type": "item",
+          "settings": {
+            "section_height": "medium",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "The Retinol Collection",
+            "content": "",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/retinol-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0"
+      ],
+      "custom_css": [
+        ".image-with-text__content-wrapper {max-width: 200px; margin-left: 100px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "bd656b79-4959-47ed-93e7-3d1fe17b8ced": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        "h3 {padding-top: 100px; padding-bottom: 7px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Thoughtfully Formulated",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d734dfcf-fa26-4061-9e14-92a8029c34a8": {
+      "type": "custom-html",
+      "custom_css": [
+        ".column-small {margin: 0px;}",
+        ".column-container {max-width: 1000px; margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Thoughtfully Formulated",
+        "html": "<div class=\"column-container\">\n\n<div class=\"column-small\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>WORRY-FREE<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>PH-APPROPRIATE<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>BIOCOMPATIBLE<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>SCIENCE &amp; PLANT POWERED<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n<\/div>\n\n<div class=\"column-small\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>DERMATOLOGICALLY TESTED<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>SECOND SKIN TECHNOLOGY<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>EXCLUSIVE GMOD™<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: 1px;\nmargin-bottom: 1px;\nmargin-left: -22px;\">\n<li style=\"text-align: left\">\n<p>BIOMIMETIC<\/p>\n<\/li>\n<\/ul>\n<hr style=\"border-width: 0.5px;\" color=\"#CECECE\">\n\n<\/div>\n<\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "780ea883-b201-4222-a7a3-0825049eb059": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".content-box {width: 100%; max-width: 750px; background: rgba(0, 0, 0, 0);}",
+        "h3 {font-weight: 1000;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "subheading": "",
+        "title": "",
+        "html": "<h3 class=\"heading h3\">Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our exclusive GMOD™ complex stemming from bio-science.<\/h3>",
+        "content": "",
+        "button_text": "LEARN MORE",
+        "button_link": "\/pages\/discover#shopify-section-template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "d107d64a-9a4a-4cca-81db-17804a8cd886",
+    "featured-collections",
+    "ca0c5096-1d01-4633-b886-f5860dace2d5",
+    "6005f883-7ed9-4b30-b1b0-b0eea1843985",
+    "d4101780-2e56-4efa-ad4e-1f6a01c86756",
+    "02de4337-28c3-479a-9083-f3abeabe91f9",
+    "93718f47-35b8-4de0-ae30-3d053255cb71",
+    "f739f549-4b9d-4ee5-8a0a-110539394f01",
+    "a5134d3a-3df0-4272-84a2-e1aee4cf7b37",
+    "27f6c016-30ff-460b-80e5-2aa5271ee5bc",
+    "3e1119cb-4bd5-4dd6-9e3f-f707a2d03966",
+    "4cb96c4e-f6bf-403a-bf61-960a96060549",
+    "55fdc1b9-fa3a-4685-973c-0b567f332b6f",
+    "bd656b79-4959-47ed-93e7-3d1fe17b8ced",
+    "d734dfcf-fa26-4061-9e14-92a8029c34a8",
+    "780ea883-b201-4222-a7a3-0825049eb059"
+  ]
+}
