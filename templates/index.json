@@ -28,13 +28,15 @@
         "e5be906f-707c-4e16-bc7b-9785c2ee7b1e": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_1_bc28bd36-d05e-43ec-b4d2-c9a5cd8a49a2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_1_ca6c3ca9-3ed1-4d35-96e8-09c0ad7af8d3.jpg",
             "text_position": "middle_left",
             "subheading": "",
             "title": "Supercharged Formulas",
             "html": "FOR SKINSATIONAL RESULTS",
             "content": "",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/all-melume-products",
+            "button_1_link": "shopify:\/\/collections\/all-products",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#000000",
