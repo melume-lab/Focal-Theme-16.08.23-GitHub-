@@ -187,6 +187,7 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/Gruppe_11.png",
             "custom_icon_width": 130,
             "title": "FREE SHIPPING AND RETURNS",
             "big-title": "",
@@ -207,6 +208,7 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/Gruppe_12.png",
             "custom_icon_width": 130,
             "title": "LUXURY SAMPLES AT CHECKOUT",
             "big-title": "",
@@ -227,6 +229,7 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/Gruppe_16.png",
             "custom_icon_width": 130,
             "title": "SAVE AND COLLECT REWARDS",
             "big-title": "",
