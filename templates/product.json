@@ -93,8 +93,7 @@
           "type": "cttitle",
           "settings": {
             "title": "{{ product.metafields.custom.ingredient_or_material.value }}",
-            "answer": "{{ product.metafields.custom.ingredients | metafield_tag }}",
-            "answer2": "{{ product.metafields.custom.ingredients_small | metafield_tag }}"
+            "answer2": "{{ product.metafields.custom.ingredients | metafield_tag }}"
           }
         },
         "cf2f58ad-e964-4315-945a-1d89be7de4b7": {
@@ -252,7 +251,7 @@
         "template--17116456550680__8be7376e-a723-46aa-8c6b-9f3a2e39e3cc-167517639602de0d02-0": {
           "type": "collection",
           "settings": {
-            "collection": "all-products",
+            "collection": "all-melume-products",
             "label": "",
             "button_text": "",
             "button_url": ""
