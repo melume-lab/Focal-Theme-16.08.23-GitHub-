@@ -70,6 +70,8 @@
         "1a0a45d5-aa51-4163-8042-53e3f71313b8": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_RETINOL_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_2_2.jpg",
             "text_position": "middle_left",
             "subheading": "",
             "title": "The Ultimate Biomimetic Skin Makeover",
