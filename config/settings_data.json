@@ -123,6 +123,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/Melume_Logo_52c8eec7-d391-449f-938b-2b251a2fb95d.svg",
           "logo_max_width": 140,
           "mobile_logo_max_width": 100,
           "navigation_menu": "main-menu",
