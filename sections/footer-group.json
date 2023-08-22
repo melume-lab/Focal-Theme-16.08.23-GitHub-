@@ -125,6 +125,7 @@
       "type": "newsletter",
       "settings": {
         "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/Newsletter_Background_f5e64d33-c537-4ec8-9180-1e95a7f1f60f.png",
         "subheading": "Subscribe to our melumé newsletter",
         "title": "15€ off your next order",
         "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPS.<\/p>",
