@@ -507,6 +507,8 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/Banner_2000x980_1_7aab11c4-dcf3-4b42-97e6-b3aa6a5bbaef.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Blob_Mobile.png",
         "subheading": "",
         "title": "",
         "html": "<h3 class=\"heading h3\">Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our exclusive GMOD™ complex stemming from bio-science.<\/h3>",
