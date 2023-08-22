@@ -1,1 +1,81 @@
-{"sections":{"main":{"type":"main-cart","blocks":{"totals":{"type":"totals","settings":{}},"order_note":{"type":"order_note","settings":{"open_by_default":false}},"2fd748b0-0cb3-4a4b-a382-60c26b2d545f":{"type":"express_checkout_buttons","settings":{}}},"block_order":["totals","order_note","2fd748b0-0cb3-4a4b-a382-60c26b2d545f"],"custom_css":[],"settings":{"show_payment_methods":true,"show_shipping_estimator":true,"shipping_estimator_default_country":"Germany","empty_button_link":"shopify:\/\/collections\/all"}},"cart-recommendations":{"type":"cart-recommendations","disabled":true,"settings":{"title":"You may also like"}},"a526140f-402f-44e7-87a6-bb15c58f5d9a":{"type":"featured-collections","blocks":{"template--17915595686155__a526140f-402f-44e7-87a6-bb15c58f5d9a-16861286769e540993-0":{"type":"collection","settings":{"collection":"all-melume-products","label":"","button_text":"","button_url":""}}},"block_order":["template--17915595686155__a526140f-402f-44e7-87a6-bb15c58f5d9a-16861286769e540993-0"],"settings":{"subheading":"","title":"Complete Your Routine","content":"","products_count":8,"products_per_row":4,"stack_products":false,"show_cta":true,"background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)","button_background":"rgba(0,0,0,0)","button_text_color":"rgba(0,0,0,0)"}}},"order":["main","cart-recommendations","a526140f-402f-44e7-87a6-bb15c58f5d9a"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+          }
+        },
+        "order_note": {
+          "type": "order_note",
+          "settings": {
+            "open_by_default": false
+          }
+        },
+        "2fd748b0-0cb3-4a4b-a382-60c26b2d545f": {
+          "type": "express_checkout_buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "order_note",
+        "2fd748b0-0cb3-4a4b-a382-60c26b2d545f"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_payment_methods": true,
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "Germany",
+        "empty_button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "cart-recommendations": {
+      "type": "cart-recommendations",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like"
+      }
+    },
+    "a526140f-402f-44e7-87a6-bb15c58f5d9a": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915595686155__a526140f-402f-44e7-87a6-bb15c58f5d9a-16861286769e540993-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17915595686155__a526140f-402f-44e7-87a6-bb15c58f5d9a-16861286769e540993-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Complete Your Routine",
+        "content": "",
+        "products_count": 16,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cart-recommendations",
+    "a526140f-402f-44e7-87a6-bb15c58f5d9a"
+  ]
+}
