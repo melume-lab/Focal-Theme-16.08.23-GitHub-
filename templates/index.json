@@ -413,6 +413,7 @@
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Split_Banner_1000x590_2_a2aba190-2f71-4216-9e44-8a1c7e70fd74.jpg",
         "subheading": "",
         "title": "Skincare Lovers Education",
         "content": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS<\/p>",
@@ -437,6 +438,7 @@
           "type": "item",
           "settings": {
             "section_height": "medium",
+            "image": "shopify:\/\/shop_images\/Retinol_Collection_2.png",
             "tab_label": "Item",
             "subheading": "",
             "title": "The Retinol Collection",
