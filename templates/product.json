@@ -93,7 +93,8 @@
           "type": "cttitle",
           "settings": {
             "title": "{{ product.metafields.custom.ingredient_or_material.value }}",
-            "answer2": "{{ product.metafields.custom.ingredients | metafield_tag }}"
+            "answer": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "answer2": "{{ product.metafields.custom.ingredients_small | metafield_tag }}"
           }
         },
         "cf2f58ad-e964-4315-945a-1d89be7de4b7": {
