@@ -56,7 +56,7 @@
     <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
        {%- if customer -%}
          <p>
-           <span class="custom-loyalty-text">YOU HAVE  </span>
+           <span class="custom-loyalty-text">YOU HAVE</span>
            <span class="custom-loyalty-points">
              {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
              {%- for digit in aj_point -%}
