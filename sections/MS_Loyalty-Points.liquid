@@ -39,12 +39,15 @@
 }
 
 .custom-loyalty-text {
-  font-weight: bold; /* Added to make the points amount bold */
-  margin-right: 5px; /* Added some spacing between "YOU HAVE" and points */
+  font-weight: normal; /* Set font weight to normal for "YOU HAVE" */
 }
 
 .custom-loyalty-points {
-  font-weight: normal; /* Set font weight back to normal for the points */
+  font-weight: bold; /* Added to make the points amount bold */
+}
+
+.custom-loyalty-phrase {
+  font-weight: normal; /* Set font weight to normal for the phrase "skin club points" or "skin club point" */
 }
 </style>
 
@@ -53,14 +56,14 @@
     <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
        {%- if customer -%}
          <p>
-           <span class="custom-loyalty-text">YOU HAVE</span>
+           <span class="custom-loyalty-text">YOU HAVE </span>
            <span class="custom-loyalty-points">
              {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
              {%- for digit in aj_point -%}
                {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
                {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
              {% endfor %}
-             {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}
+             <span class="custom-loyalty-phrase"> {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}</span>
            </span>
          </p>
        {%- else -%}
@@ -71,6 +74,8 @@
     </a>
   {%- endif -%}
 </div>
+
+
 
 
 
