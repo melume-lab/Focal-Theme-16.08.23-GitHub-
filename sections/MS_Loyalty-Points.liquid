@@ -32,22 +32,22 @@
 .custom-loyalty-container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Added to vertically center align text */
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .custom-loyalty-text {
-  font-weight: normal; /* Set font weight to normal for "YOU HAVE" */
+  font-weight: normal;
 }
 
 .custom-loyalty-points {
-  font-weight: bold; /* Added to make the points amount bold */
+  font-weight: bold;
 }
 
 .custom-loyalty-phrase {
-  font-weight: normal; /* Set font weight to normal for the phrase "skin club points" or "skin club point" */
+  font-weight: normal;
 }
 </style>
 
@@ -56,7 +56,7 @@
     <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
        {%- if customer -%}
          <p>
-           <span class="custom-loyalty-text">YOU HAVE </span>
+           <span class="custom-loyalty-text">YOU HAVE  </span>
            <span class="custom-loyalty-points">
              {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
              {%- for digit in aj_point -%}
