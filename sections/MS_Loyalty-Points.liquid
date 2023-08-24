@@ -14,9 +14,10 @@
     <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
        {%- if customer -%}
           {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
-         <p>YOU HAVE</p>
+         
           {%- for digit in aj_point -%}
             {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
+      <p>YOU HAVE</p>
             {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
           {% endfor %}
            {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}
