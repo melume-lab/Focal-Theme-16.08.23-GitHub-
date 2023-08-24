@@ -1,6 +1,6 @@
 {
   "sections": {
-    "961f193b-c62c-4244-9324-845ebc4add57": {
+    "4eb1160d-9557-41cc-a6f1-32ae92677688": {
       "type": "custom-liquid",
       "settings": {
         "subheading": "",
@@ -214,7 +214,7 @@
     }
   },
   "order": [
-    "961f193b-c62c-4244-9324-845ebc4add57",
+    "4eb1160d-9557-41cc-a6f1-32ae92677688",
     "4f7695e6-8d2f-4a65-8a32-d5add29cf957",
     "main",
     "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889"
