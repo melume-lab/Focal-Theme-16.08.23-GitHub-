@@ -12,7 +12,8 @@
 <div class="custom-loyalty-container">
   {%- if shop.customer_accounts_enabled -%}
     <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
-       {%- if customer -%}<p>YOU HAVE</p>
+       {%- if customer -%}
+         <p>YOU HAVE</p>
           {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
           {%- for digit in aj_point -%}
             {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
@@ -25,6 +26,53 @@
     </a>
   {%- endif -%}
 </div>
+
+
+<style>
+.custom-loyalty-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Added to vertically center align text */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.custom-loyalty-text {
+  font-weight: bold; /* Added to make the points amount bold */
+  margin-right: 5px; /* Added some spacing between "YOU HAVE" and points */
+}
+
+.custom-loyalty-points {
+  font-weight: normal; /* Set font weight back to normal for the points */
+}
+</style>
+
+<div class="custom-loyalty-container">
+  {%- if shop.customer_accounts_enabled -%}
+    <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
+       {%- if customer -%}
+         <p>
+           <span class="custom-loyalty-text">YOU HAVE</span>
+           <span class="custom-loyalty-points">
+             {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
+             {%- for digit in aj_point -%}
+               {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
+               {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
+             {% endfor %}
+             {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}
+           </span>
+         </p>
+       {%- else -%}
+         <p>
+           <span class="custom-loyalty-text">YOU DON'T HAVE ANY SKIN CLUB POINTS YET</span>
+         </p>
+       {%- endif -%}
+    </a>
+  {%- endif -%}
+</div>
+
+
 
 
 
