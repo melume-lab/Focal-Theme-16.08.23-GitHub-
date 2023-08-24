@@ -12,12 +12,12 @@
 <div class="custom-loyalty-container">
   {%- if shop.customer_accounts_enabled -%}
     <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
-       {%- if customer -%}
+       {%- if customer -%}<p>YOU HAVE</p>
           {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
           {%- for digit in aj_point -%}
             {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
             {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
-          {% endfor %} <p>YOU HAVE</p>
+          {% endfor %} 
            {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}
        {%- else -%}
           YOU DON'T HAVE ANY SKIN CLUB POINTS YET
