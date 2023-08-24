@@ -17,9 +17,9 @@
             {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
             {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
           {% endfor %}
-          <p>You have</p>{{ customer.metafields.avada_joy.point | pluralize: 'Point', 'Points' }}
+          <p>YOU HAVE</p>{{ customer.metafields.avada_joy.point | pluralize: 'POINT', 'POINTS' }}
        {%- else -%}
-          You don't have any Skin Club Points yet
+          YOU DON'T HAVE ANY SKIN CLUB POINTS YET
         {%- endif -%}
     </a>
   {%- endif -%}
