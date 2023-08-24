@@ -1,17 +1,31 @@
-{%- if shop.customer_accounts_enabled -%}
-  <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
-     {%- if customer -%}
-        {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
-        {%- for digit in aj_point -%}
-          {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
-          {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
-        {% endfor %}
-        {{ customer.metafields.avada_joy.point | pluralize: 'Point', 'Points' }}
-     {%- else -%}
-        Rewards
-      {%- endif -%}
-  </a>
-{%- endif -%}
+<style>
+.custom-loyalty-container {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  margin: 20px;
+}
+</style>
+
+
+<div class="custom-loyalty-container">
+  {%- if shop.customer_accounts_enabled -%}
+    <a type="button" href="#" class="btn--link" onclick="avadaJoyTrigger();" style="line-height: 40px; cursor: pointer">
+       {%- if customer -%}
+          {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}
+          {%- for digit in aj_point -%}
+            {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}
+            {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}
+          {% endfor %}
+          <p>You have</p>{{ customer.metafields.avada_joy.point | pluralize: 'Point', 'Points' }}
+       {%- else -%}
+          You don't have any Skin Club Points yet
+        {%- endif -%}
+    </a>
+  {%- endif -%}
+</div>
+
+
 
 {% schema %}
   {
