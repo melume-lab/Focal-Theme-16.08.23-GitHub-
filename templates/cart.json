@@ -18,12 +18,19 @@
           "type": "express_checkout_buttons",
           "settings": {
           }
+        },
+        "33dcc0f8-51fd-4266-a36d-15b561779703": {
+          "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/joy-points-calculator-block\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "settings": {
+            "points_calculator_alignment": "right"
+          }
         }
       },
       "block_order": [
         "totals",
         "order_note",
-        "2fd748b0-0cb3-4a4b-a382-60c26b2d545f"
+        "2fd748b0-0cb3-4a4b-a382-60c26b2d545f",
+        "33dcc0f8-51fd-4266-a36d-15b561779703"
       ],
       "custom_css": [
 
