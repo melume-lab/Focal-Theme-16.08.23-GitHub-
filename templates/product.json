@@ -93,7 +93,7 @@
           "type": "cttitle",
           "settings": {
             "title": "{{ product.metafields.custom.ingredient_or_material.value }}",
-            "answer": "<p>Write content to help your customers to better understand your products.<\/p>",
+            "answer": "{{ product.metafields.custom.ingredients | metafield_tag }}",
             "answer2": "{{ product.metafields.custom.ingredients | metafield_tag }}"
           }
         },
