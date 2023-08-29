@@ -10,10 +10,6 @@ button#op-button{
     display: none !important;
 }
 
-.klaviyo-form-RYb3RV input.needsclick:hover{
-  border: 1px solid rgb(180, 187, 195) !important;
-}
-
 
 @media screen and (max-width: 740px) {
   .hidden-phone {
@@ -61,7 +57,7 @@ button#op-button{
   .klaviyo-form.klaviyo-form-RYb3RV input{
     height: 35px !important;
   }
-  
+
 }
 
 @media screen and (min-width: 741px) and (max-width: 999px) {
