@@ -60,7 +60,7 @@ button#op-button{
   }
 
 
-  .klaviyo-form-RYb3RV input.needsclick:hover{
+  .klaviyo-form-RYb3RV > .needsclick > .needsclick > .needsclick > .needsclick > .needsclick > .needsclick input.needsclick:hover{
     border: 1px solid rgb(180, 187, 195) !important;
   }
 
