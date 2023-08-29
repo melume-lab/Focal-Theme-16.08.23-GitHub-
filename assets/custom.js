@@ -182,7 +182,7 @@ $(document).ready(function() {
 });
 
 function checkNewsletterAvailability() {
-    const element = $('.klaviyo-form-VGkVX6');
+    const element = $('.klaviyo-form-RYb3RV');
     if (element.length > 0) {
         // Element is available, execute your code here
         element.closest('.content-box').addClass('klaviyo-news-letter');
