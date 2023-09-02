@@ -250,4 +250,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+
+  
+    const btnShopNowOrbe = document.getElementById('md-btn__form__onSubmit');
+
+    btnShopNowOrbe.addEventListener('click', function(event) {
+        alert("Shop now");
+    });
 });
