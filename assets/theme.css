@@ -16615,6 +16615,6 @@ display: flex;
 
 #orbeCountryList li a[data-country="DE"],
 #orbeCountryList li a[data-country="US"],
-#orbeCountryList li a[data-country="UK"] {
+#orbeCountryList li a[data-country="GB"] {
     display: inline-block; /* or any other display value you prefer */
 }
