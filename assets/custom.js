@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const btnCountrySelectionElements = document.querySelector('.md-form__select__country__list-link');
+    const btnCountrySelectionElements = document.querySelectorAll('.md-form__select__country__list-link');
     btnCountrySelectionElements.forEach(function(btnCountrySelectionElement) {
         // Add a click event listener to the <a> element
         btnCountrySelectionElement.addEventListener('click', function(event) {
