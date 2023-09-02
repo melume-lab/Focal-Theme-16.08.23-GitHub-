@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const btnCountrySelectionElements = document.querySelector('.md-form__select__country__list-link');
+    const btnCountrySelectionElements = document.querySelectorAll('.md-form__select__country__list-link');
     btnCountrySelectionElements.forEach(function(btnCountrySelectionElement) {
         // Add a click event listener to the <a> element
         btnCountrySelectionElement.addEventListener('click', function(event) {
@@ -239,6 +239,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Use the value as needed
             console.log('data-country value:', dataCountryValue);
             // You can replace the console.log with any action you want to perform
+
+            const imgChangeCountryElement = document.getElementById('img-change-country');
+            imgChangeCountryElement.src = 'new-image.jpg';
         });
     });
 });
