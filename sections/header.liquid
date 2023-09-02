@@ -331,7 +331,7 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
                       {%- endif -%}
 
           <button id="btn-change-country" type="button" is="toggle-button" class="popover-button text--xsmall" aria-expanded="false" aria-controls="header-localization-form-locale">
-              <img src="https://cdn.shopify.com/s/files/1/0570/3797/9847/files/en.png?v=1689676500" alt="Language Image" width="20" height="20">                     
+              <img id="img-change-country" src="https://cdn.shopify.com/s/files/1/0570/3797/9847/files/en.png?v=1689676500" alt="Language Image" width="20" height="20">                     
           </button>
           {%- if section.settings.header_layout != 'logo_center_search_open' -%}
             <a href="{{ routes.search_url }}" is="toggle-link" class="header__icon-wrapper tap-area hidden-pocket hidden-lap {% unless section.settings.show_icons %}hidden-desk{% endunless %}" aria-label="{{ 'search.general.title' | t | escape }}" aria-controls="search-drawer" aria-expanded="false">
