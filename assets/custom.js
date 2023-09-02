@@ -212,3 +212,17 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 /* END - Only display DE, US & GB FOR Orbe Popup */
 
+
+/* START - Open Orbe Popup */
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the element by its ID
+  const btnChangeCountry = document.getElementById('btn-change-country');
+  
+  // Add a click event listener to the element
+  btnChangeCountry.addEventListener('click', function() {
+      // Your JavaScript code to execute when the element is clicked
+      orbito.openAndRefreshModal();
+      // You can perform any other actions you want here
+  });
+});
+/* END - Open Orbe Popup */
