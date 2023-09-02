@@ -229,14 +229,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const btnCountrySelectionElement = document.querySelector('.md-form__select__country__list-link');
-    // Add a click event listener to the <a> element
-    btnCountrySelectionElement.addEventListener('click', function(event) {
-        // Get the value of the data-country attribute
-        const dataCountryValue = btnCountrySelectionElement.getAttribute('data-country');
-    
-        // Use the value as needed
-        console.log('data-country value:', dataCountryValue);
-        // You can replace the console.log with any action you want to perform
+    const btnCountrySelectionElements = document.querySelector('.md-form__select__country__list-link');
+    btnCountrySelectionElements.forEach(function(btnCountrySelectionElement) {
+        // Add a click event listener to the <a> element
+        btnCountrySelectionElement.addEventListener('click', function(event) {
+            // Get the value of the data-country attribute
+            const dataCountryValue = btnCountrySelectionElement.getAttribute('data-country');
+        
+            // Use the value as needed
+            console.log('data-country value:', dataCountryValue);
+            // You can replace the console.log with any action you want to perform
+        });
     });
 });
