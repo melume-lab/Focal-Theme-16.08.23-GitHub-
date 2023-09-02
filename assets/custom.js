@@ -226,3 +226,15 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 /* END - Open Orbe Popup */
+
+
+const btnCountrySelectionElement = document.querySelector('.md-form__select__country__list-link');
+// Add a click event listener to the <a> element
+btnCountrySelectionElement.addEventListener('click', function(event) {
+    // Get the value of the data-country attribute
+    const dataCountryValue = btnCountrySelectionElement.getAttribute('data-country');
+
+    // Use the value as needed
+    console.log('data-country value:', dataCountryValue);
+    // You can replace the console.log with any action you want to perform
+});
