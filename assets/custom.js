@@ -194,21 +194,21 @@ function checkNewsletterAvailability() {
 
 
 /* START - Only display DE, US & GB FOR Orbe Popup */
-// document.addEventListener('DOMContentLoaded', function() {
-//     // Get all <li> elements
-//     const liElements = document.querySelectorAll('#orbeCountryList li');
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all <li> elements
+    const liElements = document.querySelectorAll('#orbeCountryList li');
 
-//     // Loop through the <li> elements
-//     liElements.forEach(function(liElement) {
-//         // Get the <a> element within each <li>
-//         const aElement = liElement.querySelector('a');
+    // Loop through the <li> elements
+    liElements.forEach(function(liElement) {
+        // Get the <a> element within each <li>
+        const aElement = liElement.querySelector('a');
 
-//         // Check if the <a> element has data-country attribute not equal to "DE" or "US"
-//         if (aElement && aElement.getAttribute('data-country') !== 'DE' && aElement.getAttribute('data-country') !== 'US' && aElement.getAttribute('data-country') !== 'GB') {
-//             // Remove the <li> element if the condition is met
-//             liElement.remove();
-//         }
-//     });
-// });
+        // Check if the <a> element has data-country attribute not equal to "DE" or "US"
+        if (aElement && aElement.getAttribute('data-country') !== 'DE' && aElement.getAttribute('data-country') !== 'US' && aElement.getAttribute('data-country') !== 'GB') {
+            // Remove the <li> element if the condition is met
+            liElement.remove();
+        }
+    });
+});
 /* END - Only display DE, US & GB FOR Orbe Popup */
 
