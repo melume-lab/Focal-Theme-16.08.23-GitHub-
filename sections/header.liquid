@@ -330,7 +330,7 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
                         {%- endform -%}
                       {%- endif -%}
 
-          <button type="button" is="toggle-button" class="popover-button text--xsmall" aria-expanded="false" aria-controls="header-localization-form-locale">
+          <button id="btn-change-country" type="button" is="toggle-button" class="popover-button text--xsmall" aria-expanded="false" aria-controls="header-localization-form-locale">
               <img src="https://cdn.shopify.com/s/files/1/0570/3797/9847/files/en.png?v=1689676500" alt="Language Image" width="20" height="20">                     
           </button>
           {%- if section.settings.header_layout != 'logo_center_search_open' -%}
