@@ -193,6 +193,7 @@ function checkNewsletterAvailability() {
 }
 
 
+/* START - Only display DE, US & GB FOR Orbe Popup */
 document.addEventListener('DOMContentLoaded', function() {
     // Get all <li> elements
     const liElements = document.querySelectorAll('#orbeCountryList li');
@@ -209,4 +210,5 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+/* END - Only display DE, US & GB FOR Orbe Popup */
 
