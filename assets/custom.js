@@ -252,8 +252,6 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             imgChangeCountryElementUs.css('display', 'block');
         }
-        imgChangeCountryElement.setAttribute('data-src', imageUrl);
-        imgChangeCountryElement.src = imageUrl;
 
         // Hide Pop up on next reload
         const closeButton = document.querySelector('.md-modal-closeButtonAction');
