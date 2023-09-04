@@ -239,14 +239,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         console.log('data-country value:', dataCountryValue);
 
-        const imgChangeCountryElement = document.getElementById('img-change-country');
-        var imageUrl = 'https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865'
+        const imgChangeCountryElementUs = document.getElementById('img-change-country-us');
+        const imgChangeCountryElementDe = document.getElementById('img-change-country-de');
+        const imgChangeCountryElementUk = document.getElementById('img-change-country-uk');
+        imgChangeCountryElementUs.css('display', 'none');
+        imgChangeCountryElementDe.css('display', 'none');
+        imgChangeCountryElementUk.css('display', 'none');
         if (dataCountryValue == "GB") {
-            imageUrl = 'https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png';
+            imgChangeCountryElementUk.css('display', 'block');
         } else if (dataCountryValue == "DE") {
-            imageUrl = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930";
+            imgChangeCountryElementDe.css('display', 'block');
         } else {
-            imageUrl = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865";
+            imgChangeCountryElementUs.css('display', 'block');
         }
         imgChangeCountryElement.setAttribute('data-src', imageUrl);
         imgChangeCountryElement.src = imageUrl;
