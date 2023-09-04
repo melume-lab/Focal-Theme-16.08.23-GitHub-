@@ -241,11 +241,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const imgChangeCountryElement = document.getElementById('img-change-country');
         if (dataCountryValue == "GB") {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/en_22fc2bf5-481d-465e-8fc7-0e7424adb52a.png?v=1693661140";
+            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png";
         } else if (dataCountryValue == "DE") {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de_54f5679b-0397-4777-b3b0-6d8bef07eb0a.png?v=1693661149";
+            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930";
         } else {
             imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865";
+        }
+
+        // Hide Pop up on next reload
+        const closeButton = document.querySelector('.md-modal-closeButtonAction');
+        // Check if the button was found
+        if (closeButton) {
+            // Programmatically click the button
+            closeButton.click();
         }
     });
 });
