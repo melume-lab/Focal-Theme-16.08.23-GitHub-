@@ -241,9 +241,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const imgChangeCountryElement = document.getElementById('img-change-country');
         if (dataCountryValue == "GB") {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png";
+            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/en_22fc2bf5-481d-465e-8fc7-0e7424adb52a.png?v=1693661140";
         } else if (dataCountryValue == "DE") {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930";
+            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de_54f5679b-0397-4777-b3b0-6d8bef07eb0a.png?v=1693661149";
         } else {
             imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865";
         }
