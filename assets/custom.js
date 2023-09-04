@@ -248,8 +248,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             imageUrl = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865";
         }
-        imgChangeCountryElement.src = imageUrl;
         imgChangeCountryElement.setAttribute('data-src', imageUrl);
+        imgChangeCountryElement.src = imageUrl;
 
         // Hide Pop up on next reload
         const closeButton = document.querySelector('.md-modal-closeButtonAction');
