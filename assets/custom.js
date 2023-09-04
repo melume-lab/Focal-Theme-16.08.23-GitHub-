@@ -246,11 +246,11 @@ document.addEventListener('DOMContentLoaded', function() {
         imgChangeCountryElementDe.css('display', 'none');
         imgChangeCountryElementUk.css('display', 'none');
         if (dataCountryValue == "GB") {
-            imgChangeCountryElementUk.css('display', 'block');
+            imgChangeCountryElementDe.style.display = 'block';
         } else if (dataCountryValue == "DE") {
-            imgChangeCountryElementDe.css('display', 'block');
+            imgChangeCountryElementDe.style.display = 'block';
         } else {
-            imgChangeCountryElementUs.css('display', 'block');
+            imgChangeCountryElementUs.style.display = 'block';
         }
 
         // Hide Pop up on next reload
