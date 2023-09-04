@@ -240,13 +240,16 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('data-country value:', dataCountryValue);
 
         const imgChangeCountryElement = document.getElementById('img-change-country');
+        var imageUrl = 'https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865'
         if (dataCountryValue == "GB") {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png";
+            imageUrl = 'https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png';
         } else if (dataCountryValue == "DE") {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930";
+            imageUrl = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930";
         } else {
-            imgChangeCountryElement.src = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865";
+            imageUrl = "https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865";
         }
+        imgChangeCountryElement.src = imageUrl;
+        imgChangeCountryElement.setAttribute('data-src', imageUrl);
 
         // Hide Pop up on next reload
         const closeButton = document.querySelector('.md-modal-closeButtonAction');
