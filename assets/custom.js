@@ -315,5 +315,5 @@ document.addEventListener('DOMContentLoaded', function() {
             spanElement.textContent = 'Europe & UK (€)';
         }
     }
-    
 });
+/* END - Change country name */
