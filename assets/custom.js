@@ -292,5 +292,28 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     }
+
+
+    var buttonUSElement = document.querySelector('button#md-form__select__country[data-value="US"]');
+    if (buttonUSElement) {
+        var spanElement = buttonUSElement.querySelector('.md-form__select__span');
+        if (spanElement) {
+            spanElement.textContent = 'USA ($)';
+        }
+    }
+    var buttonDEElement = document.querySelector('button#md-form__select__country[data-value="DE"]');
+    if (buttonDEElement) {
+        var spanElement = buttonDEElement.querySelector('.md-form__select__span');
+        if (spanElement) {
+            spanElement.textContent = 'Deutschland (€)';
+        }
+    }
+    var buttonGBElement = document.querySelector('button#md-form__select__country[data-value="GB"]');
+    if (buttonGBElement) {
+        var spanElement = buttonGBElement.querySelector('.md-form__select__span');
+        if (spanElement) {
+            spanElement.textContent = 'Europe & UK (€)';
+        }
+    }
     
 });
