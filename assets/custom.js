@@ -266,11 +266,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /* START - Change country name */
 document.addEventListener('DOMContentLoaded', function() {
-    var deLink = document.querySelector('a[data-country="DE"]');
-    if (deLink) {
-        var spanElement = deLink.querySelector('.md-form__select__span');
-        if (spanElement) {
-            spanElement.textContent = 'Deutschland (€)';
+    var ulElement = document.getElementById('orbeCountryList');
+    if (ulElement) {
+        var deLink = document.querySelector('a[data-country="DE"]');
+        if (deLink) {
+            var spanElement = deLink.querySelector('.md-form__select__span');
+            if (spanElement) {
+                spanElement.textContent = 'Deutschland (€)';
+            }
+        }
+
+        var usLink = document.querySelector('a[data-country="US"]');
+        if (usLink) {
+            var spanElement = usLink.querySelector('.md-form__select__span');
+            if (spanElement) {
+                spanElement.textContent = 'USA ($)';
+            }
+        }
+
+        var gbLink = document.querySelector('a[data-country="GB"]');
+        if (gbLink) {
+            var spanElement = gbLink.querySelector('.md-form__select__span');
+            if (spanElement) {
+                spanElement.textContent = 'Europe & UK (€)';
+            }
         }
     }
+    
 });
