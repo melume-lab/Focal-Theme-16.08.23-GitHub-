@@ -263,3 +263,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 /* END - Change country on selection change */
+
+/* START - Change country name */
+document.addEventListener('DOMContentLoaded', function() {
+    var deLink = document.querySelector('a[data-country="DE"]');
+    if (deLink) {
+        var spanElement = deLink.querySelector('.md-form__select__span');
+        if (spanElement) {
+            spanElement.textContent = 'Deutschland (€)';
+        }
+    }
+});
