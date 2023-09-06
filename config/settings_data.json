@@ -299,7 +299,7 @@
         "disabled": false,
         "settings": {
           "test_mode": true,
-          "modal_closeButton": true,
+          "modal_closeButton": false,
           "option_flag_style": "none",
           "option_currency_type": "symbol",
           "option_language": true,
