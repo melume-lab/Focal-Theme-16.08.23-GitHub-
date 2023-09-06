@@ -16626,3 +16626,6 @@ display: flex;
   text-align: center;
 }
 
+.md-modal__body .md-modal__bodyContent__helperText {
+  text-align: center;
+}
