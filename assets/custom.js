@@ -252,11 +252,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         if (dataCountryValue == "GB") {
-            imgChangeCountryElementDe.css('display', 'block');
+            imgChangeCountryElementUk.css('display', 'block');
         } else if (dataCountryValue == "DE") {
             imgChangeCountryElementDe.css('display', 'block');
         } else {
-            imgChangeCountryElementUk.css('display', 'block');
+            imgChangeCountryElementUs.css('display', 'block');
         }
 
         // Hide Pop up on next reload
