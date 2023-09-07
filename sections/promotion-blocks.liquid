@@ -123,9 +123,20 @@
                 {%- endcapture -%}
 
                 {%- if block.settings.link_url != blank -%}
-                  <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} onClick="window.location.reload(); setTimeout(window.location.reload, 5000);">
+                  <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} onclick="delayedReload()">
                     {{- block_content -}}
                   </a>
+
+                  <script>
+function delayedReload() {
+  setTimeout(function() {
+    window.location.reload();
+  }, 500); // 500 milliseconds = 0.5 seconds
+}
+    </script>
+
+  
+  
                 {%- else -%}
                   <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
                     {{- block_content -}}
