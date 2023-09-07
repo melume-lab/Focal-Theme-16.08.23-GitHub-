@@ -237,6 +237,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const formSelectCountry = document.getElementById('md-form__select__country');
         const dataCountryValue = formSelectCountry.getAttribute('data-value');
 
+        // Hide Pop up on next reload
+          const closeButton = document.querySelector('.md-modal-closeButtonAction');
+          // Check if the button was found
+          if (closeButton) {
+              // Programmatically click the button
+              closeButton.click();
+              if (closeButton.length > 0) {
+                  closeButton[0].click();
+              }
+          }
+      
         console.log('data-country value:', dataCountryValue);
         const imgChangeCountryElementUs = document.getElementById('img-change-country-us');
         const imgChangeCountryElementDe = document.getElementById('img-change-country-de');
@@ -261,16 +272,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
-        // Hide Pop up on next reload
-          const closeButton = document.querySelector('.md-modal-closeButtonAction');
-          // Check if the button was found
-          if (closeButton) {
-              // Programmatically click the button
-              closeButton.click();
-              if (closeButton.length > 0) {
-                  closeButton[0].click();
-              }
-          }
+        
     });
 });
 /* END - Change country on selection change */
