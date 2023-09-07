@@ -256,7 +256,9 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (dataCountryValue == "DE") {
             imgChangeCountryElementDe.css('display', 'block');
         } else {
-            imgChangeCountryElementUs.css('display', 'block');
+            if (imgChangeCountryElementUs) {
+                imgChangeCountryElementUs.css('display', 'block');
+            }
         }
 
         // Hide Pop up on next reload
