@@ -259,6 +259,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (closeButton) {
             // Programmatically click the button
             closeButton.click();
+            if (closeButton.length > 0) {
+                closeButton[0].click();
+            }
         }
     });
 });
