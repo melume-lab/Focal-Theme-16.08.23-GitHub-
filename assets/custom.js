@@ -239,6 +239,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         console.log('data-country value:', dataCountryValue);
 
+        // // Hide Pop up on next reload
+        // const closeButton = document.querySelector('.md-modal-closeButtonAction');
+        // // Check if the button was found
+        // if (closeButton) {
+        //     // Programmatically click the button
+        //     closeButton.click();
+        //     if (closeButton.length > 0) {
+        //         closeButton[0].click();
+        //     }
+        // }
+
         const imgChangeCountryElementUs = document.getElementById('img-change-country-us');
         const imgChangeCountryElementDe = document.getElementById('img-change-country-de');
         const imgChangeCountryElementUk = document.getElementById('img-change-country-uk');
@@ -259,17 +270,6 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             if (typeof imgChangeCountryElementUs !== "undefined") {
                 imgChangeCountryElementUs.style.display = 'block';
-            }
-        }
-
-        // Hide Pop up on next reload
-        const closeButton = document.querySelector('.md-modal-closeButtonAction');
-        // Check if the button was found
-        if (closeButton) {
-            // Programmatically click the button
-            closeButton.click();
-            if (closeButton.length > 0) {
-                closeButton[0].click();
             }
         }
     });
