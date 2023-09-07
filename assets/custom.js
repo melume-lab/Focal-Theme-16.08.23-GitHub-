@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (dataCountryValue == "DE") {
             imgChangeCountryElementDe.style.display = 'block';
         } else {
-            if (imgChangeCountryElementUs) {
+            if (typeof imgChangeCountryElementUs !== "undefined") {
                 imgChangeCountryElementUs.style.display = 'block';
             }
         }
