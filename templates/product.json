@@ -312,9 +312,9 @@
       "type": "custom-html",
       "settings": {
         "subheading": "",
-        "title": "",
+        "title": "Reviews",
         "html": "",
-        "add_vertical_spacing": true,
+        "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -326,7 +326,7 @@
         "4379e0a8-d9a5-4618-b68c-61b6384c36b2": {
           "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-block-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "settings": {
-            "air_blockreviews_summaryHeading": "Review",
+            "air_blockreviews_summaryHeading": "",
             "air_blockreviews_layout": "list",
             "air_blockreviews_singleStarColor": "#000000",
             "air_blockreviews_primaryColor": "#121212",
