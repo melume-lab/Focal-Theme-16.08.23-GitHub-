@@ -532,7 +532,26 @@
                  {%- endcase -%}
             {%- endfor -%}
 
-    
+{%- comment -%}
+  ----------------------------------------------------------------------------------------------------------------
+  VIDEO
+  ----------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+   
+  <div class="video-container">
+    {% assign media = product.metafields.custom.video.value %} 
+    {% if media.media_type == 'video' %}
+      <video preload="auto" {{ media | video_tag: controls: false, autoplay: true, loop: true }}
+    {% endif %}
+ </div>
+
+
+<script>
+  const video = document.querySelector('video');
+  if (!video.autoplay) {
+    video.controls = true;
+  }
+</script>    
 
      
         
