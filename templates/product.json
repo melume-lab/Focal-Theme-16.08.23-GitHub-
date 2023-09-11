@@ -310,6 +310,7 @@
     },
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Reviews",
