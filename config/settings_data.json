@@ -320,6 +320,18 @@
           "style_colors_cta_button": "#000000",
           "style_colors_text": "#000000"
         }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14710238943034738919": {
+        "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-embed\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
