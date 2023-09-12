@@ -43,7 +43,7 @@
           "settings": {
             "highlight": false,
             "subheading": "500 Points",
-            "title": "5 € Off",
+            "title": "5 $ Off",
             "link_text": "Redeem",
             "link_url": "#joy-open",
             "link_style": "button",
@@ -59,7 +59,7 @@
           "settings": {
             "highlight": false,
             "subheading": "1000 Points",
-            "title": "10 € Off",
+            "title": "10 $ Off",
             "link_text": "Redeem",
             "link_url": "#joy-open",
             "link_style": "button",
@@ -75,7 +75,7 @@
           "settings": {
             "highlight": false,
             "subheading": "2000 Points",
-            "title": "20 € Off",
+            "title": "20 $ Off",
             "link_text": "Redeem",
             "link_url": "#joy-open",
             "link_style": "button",
@@ -91,7 +91,7 @@
           "settings": {
             "highlight": false,
             "subheading": "3000 Points",
-            "title": "30 € Off",
+            "title": "30 $ Off",
             "link_text": "Redeem",
             "link_url": "#joy-open",
             "link_style": "button",
@@ -107,7 +107,7 @@
           "settings": {
             "highlight": false,
             "subheading": "4000 Points",
-            "title": "40 € Off",
+            "title": "40 $ Off",
             "link_text": "Redeem",
             "link_url": "#joy-open",
             "link_style": "button",
@@ -123,7 +123,7 @@
           "settings": {
             "highlight": false,
             "subheading": "5000 Points",
-            "title": "50 € Off",
+            "title": "50 $ Off",
             "link_text": "Redeem",
             "link_url": "#joy-open",
             "link_style": "button",
