@@ -232,7 +232,7 @@
         "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_2000x980_8_solo_b9f8f001-689d-407b-ae97-1271f828d490.png",
+            "image": "shopify:\/\/shop_images\/Landingpage_30.png",
             "tab_label": "",
             "subheading": "",
             "title": "Make sure to auto-replenish your favorite products & save 30% on every order.",
@@ -326,8 +326,8 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Rotating_Banner_Wide_1ae4129a-5b78-45bb-ba26-711faa87e453.png",
-        "mobile_image": "shopify:\/\/shop_images\/Split_Banner_1000x590_1.png",
+        "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_Discover_Edit.png",
+        "mobile_image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Discver.jpg",
         "subheading": "",
         "title": "Exclusive GMOD™  Complex",
         "html": "",
@@ -349,7 +349,7 @@
         "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_1_0a756320-8a8f-4d41-899c-cdcae3b08077.jpg",
+            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Lenny.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "",
