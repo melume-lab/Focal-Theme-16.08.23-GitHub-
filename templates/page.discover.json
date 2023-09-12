@@ -238,7 +238,7 @@
         "template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3-1687618883de900aad-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_WORRY_FREE.png",
+            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Lenny_worry-free.png",
             "tab_label": "Item",
             "subheading": "",
             "title": "Our Skincare is 100% Worry-free",
@@ -322,8 +322,8 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Banner_Science.png",
-        "mobile_image": "shopify:\/\/shop_images\/Banner_Science_Mobile.png",
+        "image": "shopify:\/\/shop_images\/Banner_2000x980_Dicover_Edit_Kopie.png",
+        "mobile_image": "shopify:\/\/shop_images\/Banner_2000x980_Dicover_Mobile.png",
         "subheading": "",
         "title": "Innovation & Science – Made in Germany",
         "html": "",
