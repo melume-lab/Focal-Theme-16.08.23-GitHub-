@@ -220,20 +220,6 @@ document.addEventListener('DOMContentLoaded', function() {
   btnChangeCountry.addEventListener('click', function() {
       orbito.openAndRefreshModal();
   });
-
-  const imgChangeCountryElementUs = document.getElementById('img-change-country-us');
-  const imgChangeCountryElementDe = document.getElementById('img-change-country-de');
-  const imgChangeCountryElementUk = document.getElementById('img-change-country-uk');
-  var currentCountry = localStorage.getItem("localization", "DE");
-  console.log(currentCountry);
-  if (currentCountry == "US") {
-      imgChangeCountryElementDe.css('display', 'none');
-      imgChangeCountryElementUs.css('display', 'block');
-  } else if (currentCountry == "GB") {
-      imgChangeCountryElementDe.css('display', 'none');
-      imgChangeCountryElementUk.css('display', 'block');
-  }
-
 });
 /* END - Open Orbe Popup */
 
