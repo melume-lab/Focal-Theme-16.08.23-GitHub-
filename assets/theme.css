@@ -16640,7 +16640,3 @@ display: flex;
   border-radius: 50%;
   background-size: cover;
 }
-
-.orbe-country-code--US .md-app-embed {
-	display: none !important;
-}
