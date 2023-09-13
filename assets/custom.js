@@ -251,32 +251,6 @@ document.addEventListener('DOMContentLoaded', function() {
                   closeButton[0].click();
               }
           }
-      
-        console.log('data-country value:', dataCountryValue);
-        const imgChangeCountryElementUs = document.getElementById('img-change-country-us');
-        const imgChangeCountryElementDe = document.getElementById('img-change-country-de');
-        const imgChangeCountryElementUk = document.getElementById('img-change-country-uk');
-        if (imgChangeCountryElementUs) {
-            imgChangeCountryElementUs.css('display', 'none');
-        }
-        if (imgChangeCountryElementDe) {
-            imgChangeCountryElementDe.css('display', 'none');
-        }
-        if (imgChangeCountryElementUk) {
-            imgChangeCountryElementUk.css('display', 'none');
-        }
-        
-        if (dataCountryValue == "GB") {
-            imgChangeCountryElementUk.css('display', 'block');
-        } else if (dataCountryValue == "DE") {
-            imgChangeCountryElementDe.css('display', 'block');
-        } else {
-            if (imgChangeCountryElementUs) {
-                imgChangeCountryElementUs.css('display', 'block');
-            }
-        }
-
-        
     });
 });
 /* END - Change country on selection change */
