@@ -42,6 +42,7 @@
         },
         "c6843306-a389-4746-a9bd-174bdeb77b8a": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Pay within 30 days using <strong>Klarna. <\/strong><a href=\"https:\/\/www.klarna.com\/de\/kundenservice\/wie-funktioniert-der-ratenkauf-mit-klarna\/\" target=\"_blank\" title=\"Klarna Ratenkauf\">Learn more<\/a><\/p>"
           }
