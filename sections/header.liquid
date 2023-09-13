@@ -332,10 +332,10 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
 
           <button id="btn-change-country-test" type="button" is="toggle-button" class="popover-button text--xsmall orbe-flags-{{ localization.country.iso_code | downcase }}" aria-expanded="false" aria-controls="header-localization-form-locale" style="display: none;">
           </button>
-          <button id="btn-change-country" type="button" is="toggle-button" class="popover-button text--xsmall" aria-expanded="false" aria-controls="header-localization-form-locale">
-              <img id="img-change-country-us" src="https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865" alt="Language Image" width="20" height="20" />    
-              <img id="img-change-country-de" style="display: none" src="https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930" alt="Language Image" width="20" height="20" />    
-              <img id="img-change-country-uk" style="display: none" src="https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png" alt="Language Image" width="20" height="20" />    
+          <button id="btn-change-country" type="button" is="toggle-button" class="popover-button text--xsmall orbe-flags-{{ localization.country.iso_code | downcase }}" aria-expanded="false" aria-controls="header-localization-form-locale">
+              <!-- <img id="img-change-country-us" src="https://cdn.shopify.com/s/files/1/0770/7466/1714/files/USA.png?v=1693819865" alt="Language Image" width="20" height="20" />     -->
+              <!-- <img id="img-change-country-de" style="display: none" src="https://cdn.shopify.com/s/files/1/0770/7466/1714/files/de-icon.png?v=1693819930" alt="Language Image" width="20" height="20" />     -->
+              <!-- <img id="img-change-country-uk" style="display: none" src="https://cdn.shopify.com/s/files/1/0770/7466/1714/files/gb-icon.png" alt="Language Image" width="20" height="20" />     -->
           </button>
           {%- if section.settings.header_layout != 'logo_center_search_open' -%}
             <a href="{{ routes.search_url }}" is="toggle-link" class="header__icon-wrapper tap-area hidden-pocket hidden-lap {% unless section.settings.show_icons %}hidden-desk{% endunless %}" aria-label="{{ 'search.general.title' | t | escape }}" aria-controls="search-drawer" aria-expanded="false">
