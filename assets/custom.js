@@ -220,6 +220,13 @@ document.addEventListener('DOMContentLoaded', function() {
   btnChangeCountry.addEventListener('click', function() {
       orbito.openAndRefreshModal();
   });
+
+  var parentElement = document.getElementById("orbeCountryList");  
+  var elementWithCountryGB = parentElement.querySelector('a[data-country="GB"]');
+  if (elementWithCountryGB) {
+      elementWithCountryGB.setAttribute("data-namelocales", "English");
+      elementWithCountryGB.setAttribute("data-locales", "en"); 
+  }
 });
 /* END - Open Orbe Popup */
 
