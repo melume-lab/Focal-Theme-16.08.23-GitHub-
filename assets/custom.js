@@ -221,6 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
       orbito.openAndRefreshModal();
   });
 
+  //Remove DE Language for GB(UK) Country.
   var parentElement = document.getElementById("orbeCountryList");  
   var elementWithCountryGB = parentElement.querySelector('a[data-country="GB"]');
   if (elementWithCountryGB) {
