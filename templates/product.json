@@ -127,13 +127,14 @@
         "cf2f58ad-e964-4315-945a-1d89be7de4b7"
       ],
       "custom_css": [
-        ".collapsible-toggle {font-weight: 600;}"
+        ".collapsible-toggle {font-weight: 600;}",
+        ".jdgm-star {font-weight: normal;}"
       ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "show_product_rating": true,
+        "show_product_rating": false,
         "show_sticky_add_to_cart": true,
         "show_share_buttons": false,
         "help_page": "",
