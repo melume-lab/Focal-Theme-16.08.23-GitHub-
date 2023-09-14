@@ -351,7 +351,7 @@
       "custom_css": [
         ".jdgm-star {font-weight: normal;}",
         ".jdgm-rev-widg__title {font-family: Cormorant; font-size: 280%;}",
-        ".jdgm-write-rev-link,.jdgm-ask-question-btn.jdgm-btn,.jdgm-btn {font-size: 15px; text-transform: uppercase; letter-spacing: 1.8px;}"
+        ".jdgm-write-rev-link,.jdgm-ask-question-btn.jdgm-btn,.jdgm-btn {font-size: 14px; text-transform: uppercase; letter-spacing: 1.8px;}"
       ],
       "settings": {
         "include_horizontal_margins": true,
