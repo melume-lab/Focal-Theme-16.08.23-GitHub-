@@ -200,10 +200,10 @@
         "type": "popup",
         "settings": {
           "enable": true,
-          "apparition_delay": 10,
+          "apparition_delay": 15,
           "show_only_on_index": true,
-          "show_only_for_visitors": false,
-          "show_only_once": true,
+          "show_only_for_visitors": true,
+          "show_only_once": false,
           "image": "shopify:\/\/shop_images\/Mobile_Popup_Newsletter_1000x1400px.jpg",
           "image_position": "left",
           "subheading": "MELUMÉ NEWSLETTER",
