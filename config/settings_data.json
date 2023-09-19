@@ -99,11 +99,23 @@
               "button_text": "",
               "button_link": ""
             }
+          },
+          "26764d66-98b4-412f-be3c-586927d4f7cb": {
+            "type": "message",
+            "settings": {
+              "text": "2 FREE LUXURY SAMPLES",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "message-1",
-          "ca03ee42-1f42-4bdd-bce4-16a162ac045e"
+          "ca03ee42-1f42-4bdd-bce4-16a162ac045e",
+          "26764d66-98b4-412f-be3c-586927d4f7cb"
         ],
         "settings": {
           "announcement_bar_position": "non_sticky",
