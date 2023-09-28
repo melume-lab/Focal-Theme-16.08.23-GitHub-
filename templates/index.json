@@ -5,7 +5,6 @@
       "blocks": {
         "65e3801c-f80d-4458-bd03-14e51445cc9a": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rotating_Banner_Promotion_2160x1018_RZ_FALL.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Mobile_Rotating_Banner_Promotion_1000x1400px_FALL.jpg",
