@@ -284,25 +284,39 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "3e1119cb-4bd5-4dd6-9e3f-f707a2d03966": {
-      "type": "image-with-text-block",
-      "custom_css": [
-        ".content-box {max-width: 750px; background: rgba(0, 0, 0, 0);}"
+    "464e87d8-4d86-448e-8a90-40393be76337": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_haut_Pipette_ed8fbe41-d0a3-4299-9910-cd932058d07a.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "title2": "",
+            "html-two": "<h3 class=\"heading h3\">The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.<\/h3>",
+            "html-three": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
       ],
       "settings": {
-        "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Banner_neue_Section_2_c9841b1d-0b73-4ae0-95bc-fa96b27fcf93.png",
-        "mobile_image": "shopify:\/\/shop_images\/Home_Icon_Section_aff3bdd2-8e05-4f6c-92ed-d56df8d10910.png",
-        "subheading": "",
-        "title": "",
-        "html": "<h3 class=\"heading h3\">The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.<\/h3>",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
+        "reveal_on_scroll": true,
         "background_type": "full_width",
-        "text_position": "right",
-        "text_alignment": "left",
-        "text_background": "rgba(0,0,0,0)",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -431,7 +445,7 @@
     "02de4337-28c3-479a-9083-f3abeabe91f9",
     "114a0aca-83e7-453e-89a1-ec9231dffaa8",
     "27f6c016-30ff-460b-80e5-2aa5271ee5bc",
-    "3e1119cb-4bd5-4dd6-9e3f-f707a2d03966",
+    "464e87d8-4d86-448e-8a90-40393be76337",
     "4cb96c4e-f6bf-403a-bf61-960a96060549",
     "55fdc1b9-fa3a-4685-973c-0b567f332b6f",
     "d734dfcf-fa26-4061-9e14-92a8029c34a8",
