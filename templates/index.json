@@ -136,70 +136,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "ca0c5096-1d01-4633-b886-f5860dace2d5": {
-      "type": "MS_image-with-text",
-      "blocks": {
-        "template--17779321536779__ca0c5096-1d01-4633-b886-f5860dace2d5-1683795524816c4121-0": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "The melumé skin club.",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "<p>GET REWARDED FOR YOU COMMITMENT TO YOUR FAVORITE PRODUCTS.<\/p>",
-            "button_text": "Subscribe",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17779321536779__ca0c5096-1d01-4633-b886-f5860dace2d5-1683795524816c4121-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
-        "html": "",
-        "background": "#f9f8f9",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "6005f883-7ed9-4b30-b1b0-b0eea1843985": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "large",
-        "subheading": "",
-        "title": "melumé skin club",
-        "content": "<p>SKINCARE LOVERS: JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p><p><\/p>",
-        "html": "",
-        "button_text": "SUBSCRIBE",
-        "button_link": "",
-        "link_style": "button",
-        "background_type": "full_width",
-        "text_width": "small",
-        "text_position": "middle_left",
-        "text_color": "#000000",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff",
-        "overlay_color": "#f6f5f2",
-        "overlay_opacity": 0
-      }
-    },
     "d4101780-2e56-4efa-ad4e-1f6a01c86756": {
       "type": "image-with-text-block",
       "custom_css": [
@@ -208,8 +144,8 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Banner_2000x980_Landingpage_SkinClub_Edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/Banner_2000x980_Landingpage_SkinClub_Mobile.png",
+        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Edit.png",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Mobile.png",
         "subheading": "",
         "title": "Melumé Skin Club",
         "html": "",
@@ -266,77 +202,42 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "93718f47-35b8-4de0-ae30-3d053255cb71": {
-      "type": "MS_Imagewithtextleft",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "large",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "html": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "button",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_left",
-        "text_color": "#000000",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0
-      }
-    },
-    "f739f549-4b9d-4ee5-8a0a-110539394f01": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
+    "114a0aca-83e7-453e-89a1-ec9231dffaa8": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_8cf0bb0c-3426-4c4a-9e4c-a1d1780c7230.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Exclusive GMOD™ Complex",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "",
+            "button_text": "Learn More",
+            "button_link": "shopify:\/\/pages\/discover"
+          }
+        }
+      },
+      "block_order": [
+        "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1"
+      ],
       "custom_css": [
-        "h3 {font-size: 44px; text-align: left; max-width: 500px;}",
-        ".content-box--right {margin-left: 70%; text-align: left;}",
-        ".custom-60-section-content {max-width: 100%;}"
+        "h3 {font-weight: 1000;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "medium",
-        "subheading": "",
-        "title": "Exclusive GMOD™  Complex",
-        "content": "",
-        "html": "",
-        "button_text": "Learn more",
-        "button_link": "shopify:\/\/pages\/discover",
-        "link_style": "button",
         "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_right",
-        "text_color": "#000000",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "a5134d3a-3df0-4272-84a2-e1aee4cf7b37": {
-      "type": "image-with-text-block",
-      "custom_css": [
-        "h3 {font-weight: 1000;}",
-        ".content-box-custom-width {max-width: 400px;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_Discover_Edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Discver.jpg",
-        "subheading": "",
-        "title": "Exclusive GMOD™  Complex",
-        "html": "",
-        "content": "",
-        "button_text": "Learn more",
-        "button_link": "shopify:\/\/pages\/discover",
-        "background_type": "full_width",
-        "text_position": "right",
+        "background_overlap": "image",
+        "image_position": "left",
         "text_alignment": "left",
-        "text_background": "rgba(0,0,0,0)",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -348,7 +249,7 @@
         "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Lenny.jpg",
+            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_2.png",
             "tab_label": "",
             "subheading": "",
             "title": "",
@@ -466,22 +367,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "bd656b79-4959-47ed-93e7-3d1fe17b8ced": {
-      "type": "custom-html",
-      "disabled": true,
-      "custom_css": [
-        "h3 {padding-top: 100px; padding-bottom: 7px;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Thoughtfully Formulated",
-        "html": "",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "d734dfcf-fa26-4061-9e14-92a8029c34a8": {
       "type": "custom-html",
       "custom_css": [
@@ -542,18 +427,13 @@
   "order": [
     "d107d64a-9a4a-4cca-81db-17804a8cd886",
     "featured-collections",
-    "ca0c5096-1d01-4633-b886-f5860dace2d5",
-    "6005f883-7ed9-4b30-b1b0-b0eea1843985",
     "d4101780-2e56-4efa-ad4e-1f6a01c86756",
     "02de4337-28c3-479a-9083-f3abeabe91f9",
-    "93718f47-35b8-4de0-ae30-3d053255cb71",
-    "f739f549-4b9d-4ee5-8a0a-110539394f01",
-    "a5134d3a-3df0-4272-84a2-e1aee4cf7b37",
+    "114a0aca-83e7-453e-89a1-ec9231dffaa8",
     "27f6c016-30ff-460b-80e5-2aa5271ee5bc",
     "3e1119cb-4bd5-4dd6-9e3f-f707a2d03966",
     "4cb96c4e-f6bf-403a-bf61-960a96060549",
     "55fdc1b9-fa3a-4685-973c-0b567f332b6f",
-    "bd656b79-4959-47ed-93e7-3d1fe17b8ced",
     "d734dfcf-fa26-4061-9e14-92a8029c34a8",
     "c6967e74-35d8-4d5b-8d31-5cd8732771b0",
     "780ea883-b201-4222-a7a3-0825049eb059"
