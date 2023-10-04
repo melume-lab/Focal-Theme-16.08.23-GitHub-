@@ -8,92 +8,6 @@
         "page_width": "large"
       }
     },
-    "d30de663-9f57-49a7-a652-e1579a8b8571": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-        "h3 {font-size: 44px; text-align: left; max-width: 500px;}",
-        ".content-box--right {margin-left: 70%; text-align: right;}",
-        ".custom-60-section-content {max-width: 100%;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "subheading": "",
-        "title": "Exclusive GOMD™ Complex",
-        "content": "",
-        "html": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_right",
-        "text_color": "#000000",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "5f755e99-c4a3-4002-b303-c379c8c8fb62": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-phone",
-            "custom_icon_width": 125,
-            "icontitle": "Icon title",
-            "title": "30% OFF EVERY TIME",
-            "content": "<p>SAVE ON EACH PURCHASE<br\/>AND COLLECT REWARDS.<\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "custom_icon_width": 125,
-            "icontitle": "Icon title",
-            "title": "EXCLUSIVE ACCESS",
-            "content": "<p>ONLY SUBSCRIBERS RECEIVE SPECIAL<br\/>DISCOUNTS AND GIFTS.<\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-email",
-            "custom_icon_width": 125,
-            "icontitle": "Icon title",
-            "title": "PERSONALISED ORDER",
-            "content": "<p>YOU DECIDE YOUR DELIVERY CYCLE.<br\/>PAUSE AND CANCEL ANYTIME.<\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-1",
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-2",
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "borderbottom": true,
-        "underline": true,
-        "maintitle": "My skin club subscription",
-        "button_text": "SUbscribe & 30% Discount",
-        "button_link": "",
-        "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff"
-      }
-    },
     "0f4944d4-45c0-4e56-95ed-0431aeaba252": {
       "type": "image-with-text-block",
       "custom_css": [
@@ -120,68 +34,120 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "918bce7d-b578-4fb2-a6fe-f13380350516": {
-      "type": "MS_Imagewithtextleft",
-      "disabled": true,
+    "541a8f3c-620c-4eb4-848f-d4a4ba5346ef": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "364bada7-0cb2-4996-9f5c-bcf9ca513c84": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_1.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Melilotus Officinalis",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "<p>Patentiertes Peptid, das die Haut von innen heraus verjüngt, indem es <br\/>die regenerativen Eigenschaften von Wachstumsfaktoren anregt und dabei das Level des Proteins GDF11 steigert, das Hautzellen dazu reaktiviert sich jünger zu verhalten. So werden der Zellstoffwechsel und die Synthese von Kollagen, Elastin und anderen Bestandteilen der dermalen extrazellulären Matrix in ihre jugendlichste Form versetzt. Dies verbessert drastisch die Elastizität und Festigkeit der Haut sowie das Erscheinungsbild feiner Linien, Falten und anderer Zeichen der Hautalterung. Bietet eine 360°-Verjüngung.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "364bada7-0cb2-4996-9f5c-bcf9ca513c84"
+      ],
       "custom_css": [
-        ".image-overlay__content-wrapper {padding-bottom: 0px;}"
+        ".image-with-text__image {max-width: 400px; margin-right: auto;}"
       ],
       "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "small",
-        "subheading": "",
-        "title": "",
-        "content": "<p><strong>Melilotus officinalis<\/strong>: A patented peptide that rejuvenates the skin from the inside out by targeting the regenerative power of growth factors by increasing the levels of GDF11, which reactivates the skin cells in behaving younger. <br\/>As a result, cell metabolism and the synthesis of collagen, elastin, and other components of the dermal extracellular matrix are transformed to the most youthful state. <br\/>This dramatically improves skin elasticity, firmness, and the appearance of fine lines, wrinkles, and other signs of aging.<br\/>Providing complete 360° rejuvenation.<br\/><br\/><strong>Dolichos biflorus<\/strong>: the active ingredient is obtained from Dolichos plant cell cultures: Concentrated fractions from Dolichos biflorus cell cultures provide a powerful combination of the active molecules present in the whole plant that can fight multiple signs of photo-aging: a key step in preventing and reversing premature skin aging due to UV radiation. <br\/>The active ingredient shields skin from UV damage, detoxifies cells by increasing proteasome activity, protects the “power stations” of skin cells, and helps preserve the skin genome’s integrity: providing a multi-dimensional approach to fight photo-aging.<\/p>",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
         "html": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "fill",
-        "text_position": "middle_left",
-        "text_color": "#000000",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
-      }
-    },
-    "987c9862-dd90-403c-8829-5825e72517a1": {
-      "type": "MS_Imagewithtextright",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "<p><strong>Glycokines: <\/strong>oligosaccharides of acetylated glucuronic acid obtained by bio-fermentation that structurally and functionally mimic the hyaluronic fragments found in the skin. These glycokines have been demonstrated to stimulate hyaluronic acid synthesis and sustain its turnover.<br\/>Restoring the optimal level of hyaluronic acid in the skin to make it smooth, moisturized, and youthful plump.<br\/>It helps to deliver optimal moisturizing and viscoelastic properties and increases elastin synthesis, sustaining and maintaining optimal hyaluronic acid level and renewal.<br\/>They help to smooth out wrinkles, moisturize skin surface and depth, and increase skin suppleness and resistance.<\/p>",
-        "html": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "fill",
-        "text_position": "middle_left",
-        "text_color": "#000000",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
-      }
-    },
-    "06b091c8-582b-4b8e-8ce7-6bd70c5e24db": {
-      "type": "custom-html",
-      "custom_css": [
-        ".container {max-width: 1600px;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n\n<p style=\"font-weight: 600\">MELILOTUS OFFICINALIS<\/p>\n<p> A patented peptide that rejuvenates the skin from the inside out by targeting the regenerative power of growth factors by increasing the levels of GDF11, which reactivates the skin cells in behaving younger. As a result, cell metabolism and the synthesis of collagen, elastin, and other components of the dermal extracellular matrix are transformed to the most youthful state. This dramatically improves skin elasticity, firmness, and the appearance of fine lines, wrinkles, and other signs of aging.Providing complete 360° rejuvenation<\/p>\n<\/div>\n\n  <div class=\"column\">\n\n<p style=\"font-weight: 600\">DOLICHOS BIFLORUS<\/p>\n<p>The active ingredient is obtained from Dolichos plant cell cultures: Concentrated fractions from Dolichos biflorus cell cultures provide a powerful combination of the active molecules present in the whole plant that can fight multiple signs of photo-aging: a key step in preventing and reversing premature skin aging due to UV radiation. The active ingredient shields skin from UV damage, detoxifies cells by increasing proteasome activity, protects the “power stations” of skin cells, and helps preserve the skin genome’s integrity: providing a multi-dimensional approach to fight photo-aging.<\/p>\n<\/div>\n\n<div class=\"column\">\n    <p style=\"font-weight: 600\">GLYCOKINES<\/p>\n<p>Oligosaccharides of acetylated glucuronic acid obtained by bio-fermentation that structurally and functionally mimic the hyaluronic fragments found in the skin. These glycokines have been demonstrated to stimulate hyaluronic acid synthesis and sustain its turnover. Restoring the optimal level of hyaluronic acid in the skin to make it smooth, moisturized, and youthful plump. It helps to deliver optimal moisturizing and viscoelastic properties and increases elastin synthesis, sustaining and maintaining optimal hyaluronic acid level and renewal. They help to smooth out wrinkles, moisturize skin surface and depth, and increase skin suppleness and resistance.<\/p>\n<\/div>\n\n<\/div>",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "002f030c-4339-4c71-adef-57e58427a2c6": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--19493495112018__002f030c-4339-4c71-adef-57e58427a2c6-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_2.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Dolichos Biflorus",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "<p>The active ingredient is obtained from Dolichos plant cell cultures: <br\/>Concentrated fractions from Dolichos biflorus cell cultures provide a powerful combination of the active molecules present in the whole plant that can fight multiple signs of photo-aging: a key step in preventing and reversing premature skin aging due to UV radiation. The active ingredient shields skin from UV damage, detoxifies cells by increasing proteasome activity, protects the “power stations” of skin cells, and helps preserve the skin genome’s integrity: providing a multi-dimensional approach to fight photo-aging.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19493495112018__002f030c-4339-4c71-adef-57e58427a2c6-item-1"
+      ],
+      "custom_css": [
+        ".image-with-text__image {max-width: 400px; margin-left: auto; margin-right: 0px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6beef4a4-f47d-4092-a560-1d5368780362": {
+      "type": "MS_Video_with_text",
+      "blocks": {
+        "template--19493495112018__6beef4a4-f47d-4092-a560-1d5368780362-item-1": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "",
+            "title": "Glycokines",
+            "content": "<p>Oligosaccharides of acetylated glucuronic acid obtained by <br\/>bio-fermentation that structurally and functionally mimic the hyaluronic fragments found in the skin. These glycokines have been demonstrated to stimulate hyaluronic acid synthesis and sustain its turnover. Restoring the optimal level of hyaluronic acid in the skin to make it smooth, moisturized, and youthful plump. It helps to deliver optimal moisturizing and viscoelastic properties and increases elastin synthesis, sustaining and maintaining optimal hyaluronic acid level and renewal. They help to smooth out wrinkles, moisturize skin surface and depth, and increase skin suppleness and resistance.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19493495112018__6beef4a4-f47d-4092-a560-1d5368780362-item-1"
+      ],
+      "custom_css": [
+        ".video-container {max-width: 400px; margin-right: auto;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "fad66551-b40f-4bb9-b5e9-cd736280e214": {
@@ -197,31 +163,6 @@
         "title": "Passion Makes Dreams Come True",
         "html": "",
         "content": "<p>Melumé skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_position": "right",
-        "text_alignment": "left",
-        "text_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "5ddb2c35-81d3-48f2-8946-1deb35140d35": {
-      "type": "image-with-text-block",
-      "disabled": true,
-      "custom_css": [
-        ".image-with-text-block__content:not(.image-with-text-block__content--tight) {max-width: 1000px;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/Banner_2000x980_9.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Hand_Banner_Mobile.png",
-        "subheading": "",
-        "title": "Passion makes dreams come true ",
-        "html": "",
-        "content": "<p>melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met. <\/p><p>Through dedication and the pursuit of our dream, we have developed a planet-friendly skincare brand that works and exceeds expectations in every aspect. We love the supercharged products with all of our hearts and can't wait for you to experience the results yourself. <\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -263,48 +204,6 @@
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
-        "html": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1bf8c0ce-433f-46c0-a4ca-d305a1766e15": {
-      "type": "MS_image-with-text",
-      "blocks": {
-        "template--17824560546072__1bf8c0ce-433f-46c0-a4ca-d305a1766e15-1676030227f6f80f4c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_2.jpg",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "We are committed to using onlyingredients that either directlybenefit the health of the skin orsupport the integrity of ourformulations. We never take intoaccount whether something issynthetic or natural, insteadchoosing ingredients based onbiocompatibility.",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "<p>That’s why we focus on healthy pH levels, formulations the skin recognizes, small molecular structure that’s easily absorbed, and effective active ingredients that also support and maintain the skin’s acid mantle. But what we leave out of our products is just as important as what we put into them, so you will never find what we call the Suspicious 6TM (essential oils, drying alcohols, silicones, chemical sunscreens, fragrances\/dyes, SLS) in our line.<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17824560546072__1bf8c0ce-433f-46c0-a4ca-d305a1766e15-1676030227f6f80f4c-0"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h3 {font-size: 33px;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "both",
-        "image_position": "left",
         "text_alignment": "left",
         "cycle_speed": 8,
         "over-subheading": "",
@@ -365,98 +264,6 @@
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "ae6eebb5-0dfe-415f-a089-5e51b86d6108": {
-      "type": "MS_Imagewithtextleft",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "small",
-        "subheading": "",
-        "title": "Good for the Planet",
-        "content": "",
-        "html": "<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>VEGAN FRIENDLY &amp; CRUELTY FREE<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>SUSTAINABLE &amp; RECYCLABLE PACKAGING<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>INGREDIENTS SOURCED RESPONSIBLY<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>WE RESPECT THE ENVIRONMENT<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_left",
-        "text_color": "#131313",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
-      }
-    },
-    "49cfecd0-06fe-4066-ac0e-35663decf6cd": {
-      "type": "MS_Imagewithtextright",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "small",
-        "subheading": "",
-        "title": "Good for your Skin",
-        "content": "",
-        "html": "<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>HIGH QUALITY INNOVATIVE AFFORDABLE SKINCARE<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>THE BEST OFF NATURE &amp; SIENCE<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>PERFORMANCE-DRIVEN<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>TOXIN-FREE &amp; TRANSPARENT<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>ADRESSES ALL SKIN‘S CONCERNS<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_left",
-        "text_color": "#131313",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
-      }
-    },
-    "32c49073-5756-4806-8b97-458bb8dfda2f": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-        ".container {max-width: 1000px;}",
-        ".custom-60-section-content {max-width: 100%;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "small",
-        "subheading": "",
-        "title": "Formulated without",
-        "content": "",
-        "html": "<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>HIGH QUALITY INNOVATIVE AFFORDABLE SKINCARE<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>THE BEST OFF NATURE &amp; SIENCE<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>PERFORMANCE-DRIVEN<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>TOXIN-FREE &amp; TRANSPARENT<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">\n\n<ul style=\"list-style-type: '→ ';\nmargin-top: -3px;\nmargin-bottom: -3px;\">\n<li>\n<p>ADRESSES ALL SKIN‘S CONCERNS<\/p>\n<\/li>\n<\/ul>\n<hr color=\"#CECECE\" style=\"border-width: 0.5px;\">",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "small",
-        "text_position": "middle_left",
-        "text_color": "#131313",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
-      }
-    },
-    "54b4abac-7b90-46c2-a2ec-acfb70e67aa0": {
-      "type": "custom-html",
-      "disabled": true,
-      "custom_css": [
-        ".text-container {margin-bottom: 25px;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Skincredible superpacked formulas",
-        "html": "<p style=\"text-align: center; max-width: 1000px; display: block; margin: 0 auto;\">The fusion or our own exclusive RYPSDC® patented complex with powerful cosmeceutical and botanical ingredients ensures that each product addresses all skin concerns and makes every step in you skincare routine count to maximum results.\nSkin biocompatible and ph-appropriate high-quality textures to ensure a better absorption and an amazing skin feel. Biomimetic ingredients mimic substances or functions our skin naturally produces but better.<\/p>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -537,19 +344,6 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "321c20d6-5d23-4801-b9cd-26a5295baad0": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<p style=\" color:#FFFF; text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 40px; font-weight: 600; padding-top: 60px; line-height: 10px;\">BE THE <span style=\"font-size: 70px;\">WOMAN<\/span> YOU<\/p>\n<p style=\"color:#FFFF; text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 40px; font-weight: 800;\">               WOULD<span style=\"font-size: 70px;\">LOOK UP<\/span>TO<\/p>",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "background": "#e6d6d3",
-        "text_color": "rgba(0,0,0,0)"
       }
     },
     "641651b2-72e1-42db-8557-95bf6d74cbaf": {
@@ -793,26 +587,17 @@
   },
   "order": [
     "main",
-    "d30de663-9f57-49a7-a652-e1579a8b8571",
-    "5f755e99-c4a3-4002-b303-c379c8c8fb62",
     "0f4944d4-45c0-4e56-95ed-0431aeaba252",
-    "918bce7d-b578-4fb2-a6fe-f13380350516",
-    "987c9862-dd90-403c-8829-5825e72517a1",
-    "06b091c8-582b-4b8e-8ce7-6bd70c5e24db",
+    "541a8f3c-620c-4eb4-848f-d4a4ba5346ef",
+    "002f030c-4339-4c71-adef-57e58427a2c6",
+    "6beef4a4-f47d-4092-a560-1d5368780362",
     "fad66551-b40f-4bb9-b5e9-cd736280e214",
-    "5ddb2c35-81d3-48f2-8946-1deb35140d35",
     "9e9b6d51-14ba-4473-a795-4589958826b3",
-    "1bf8c0ce-433f-46c0-a4ca-d305a1766e15",
     "3a9fab4d-5c9d-4fe7-921b-d5cab52ce5af",
     "ae882ce0-900c-4939-b02a-2be84264fe32",
     "08f3d467-a4ca-4fff-ae3b-05ba534c6671",
-    "ae6eebb5-0dfe-415f-a089-5e51b86d6108",
-    "49cfecd0-06fe-4066-ac0e-35663decf6cd",
-    "32c49073-5756-4806-8b97-458bb8dfda2f",
-    "54b4abac-7b90-46c2-a2ec-acfb70e67aa0",
     "ca382a2e-bc28-44d6-b3a6-83a3d85f44aa",
     "6de79817-30ee-4825-bad3-10bbd5ae9b0b",
-    "321c20d6-5d23-4801-b9cd-26a5295baad0",
     "641651b2-72e1-42db-8557-95bf6d74cbaf",
     "cd74129d-4346-444b-b7e5-c39958532e7c"
   ]
