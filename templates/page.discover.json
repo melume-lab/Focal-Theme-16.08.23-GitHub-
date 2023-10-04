@@ -364,7 +364,7 @@
         "html": "<p class=\"heading h3\" style=\"text-align: center; \nmax-width: 1200px;\nmargin-left: auto;\nmargin-right: auto;\nfont-weight: 1000;\">\n\nOur optimum pH-levels ensure effectiveness, safety, and biocompatibility. A slightly acidic pH value makes sense from the physiological point of view because it is required for a healthy skin metabolic process, maintaining anintact barrier and a natural renewal process.\n<br>\n<br>\nWe don't use alkaline pH values that throw the skin's acid mantle out of balance and compromise the protective barrier. Acidic pH-levels allow reducing preservatives and regulate an optimal environment that encourages the flourishing of the skin's natural flora, balancing the growth of bacteria and fungi. (Microbiom) pH adjustment in each formula also strengthens active ingredients, allowing them to be in their most potent form.\n<\/p>\n\n<div class=\"custom-image-container\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/ph-Wert_Allgemein.png?v=1687866338\">\n<\/div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
-        "background": "#ece9e6",
+        "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -740,12 +740,11 @@
         ".vertical-breather {padding-top: 50px; padding-bottom: 25px;}"
       ],
       "settings": {
-        "background-image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_2.jpg",
         "subheading": "",
         "title": "Our Promise",
         "section_size": "small",
         "stack_on_mobile": true,
-        "background": "#f6f5f2",
+        "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
       }
     },
