@@ -26,6 +26,7 @@
         },
         "e5be906f-707c-4e16-bc7b-9785c2ee7b1e": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_1_0cf13a54-5372-4d37-b96b-be2d85a19694.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_1_26295211-9872-4c4f-a5bd-82406262355b.jpg",
