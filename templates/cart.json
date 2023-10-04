@@ -39,7 +39,7 @@
         "show_payment_methods": true,
         "show_shipping_estimator": true,
         "shipping_estimator_default_country": "Germany",
-        "empty_button_link": "shopify:\/\/collections\/all"
+        "empty_button_link": "shopify:\/\/collections\/all-products"
       }
     },
     "cart-recommendations": {
