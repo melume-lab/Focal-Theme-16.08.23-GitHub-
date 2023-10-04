@@ -319,12 +319,12 @@
     "3a9fab4d-5c9d-4fe7-921b-d5cab52ce5af": {
       "type": "image-with-text-block",
       "custom_css": [
-        ".content-box {background: rgba(0, 0, 0, 0);}"
+
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Banner_2000x980_Dicover_Edit_Kopie.png",
-        "mobile_image": "shopify:\/\/shop_images\/Banner_2000x980_Dicover_Mobile.png",
+        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Edit.png",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Mobile.png",
         "subheading": "",
         "title": "Innovation & Science – Made in Germany",
         "html": "",
@@ -334,8 +334,8 @@
         "background_type": "full_width",
         "text_position": "left",
         "text_alignment": "left",
-        "text_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
+        "text_background": "#000000",
+        "text_color": "#ffffff",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
