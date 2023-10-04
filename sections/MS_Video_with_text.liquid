@@ -85,7 +85,7 @@
 
            <div class="image-with-text__image-wrapper">
             <div class="video-container">
-              {% assign media = product.metafields.custom.video.value %} 
+              {% assign media = page.metafields.custom.glycokines_video.value %} 
               {% if media.media_type == 'video' %}
                 <video preload="auto" {{ media | video_tag: controls: false, autoplay: true, loop: true }}
               {% endif %}
