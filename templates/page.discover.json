@@ -98,12 +98,13 @@
       "type": "image-with-text-block",
       "custom_css": [
         "h3 {font-weight: 1000; font-size: 44px;}",
+        ".content-box {background: rgba(0, 0, 0, 0);}",
         ".content-box-custom-width {max-width: 400px;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_Discover.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Discver_Edit.png",
+        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_2160x1018_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_6f36ba34-133b-4bdd-9272-c77746d38275.png",
         "subheading": "",
         "title": "Exclusive GMOD™ Complex",
         "html": "",
