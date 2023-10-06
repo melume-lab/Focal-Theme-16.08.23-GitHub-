@@ -43,7 +43,7 @@
             "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_1.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "Melilotus Officinalis",
+            "title": "MELILOTUS OFFICINALIS",
             "title2": "",
             "html-two": "",
             "html-three": "",
@@ -60,7 +60,7 @@
         ".image-with-text__image {max-width: 400px; margin-right: auto;}"
       ],
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "right",
@@ -84,7 +84,7 @@
             "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_2.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "Dolichos Biflorus",
+            "title": "DOLICHOS BIFLORUS",
             "title2": "",
             "html-two": "",
             "html-three": "",
@@ -101,7 +101,7 @@
         ".image-with-text__image {max-width: 400px; margin-left: auto; margin-right: 0px;}"
       ],
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
@@ -124,7 +124,7 @@
           "settings": {
             "tab_label": "",
             "subheading": "",
-            "title": "Glycokines",
+            "title": "GLYCOKINES",
             "content": "<p>Oligosaccharides of acetylated glucuronic acid obtained by <br\/>bio-fermentation that structurally and functionally mimic the hyaluronic fragments found in the skin. These glycokines have been demonstrated to stimulate hyaluronic acid synthesis and sustain its turnover. Restoring the optimal level of hyaluronic acid in the skin to make it smooth, moisturized, and youthful plump. It helps to deliver optimal moisturizing and viscoelastic properties and increases elastin synthesis, sustaining and maintaining optimal hyaluronic acid level and renewal. They help to smooth out wrinkles, moisturize skin surface and depth, and increase skin suppleness and resistance.<\/p>",
             "button_text": "",
             "button_link": ""
