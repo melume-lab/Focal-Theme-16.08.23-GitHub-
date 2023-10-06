@@ -241,6 +241,7 @@
     },
     "d1c70cfb-d2b6-40ab-b60d-a9c7e8162693": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -253,6 +254,7 @@
     },
     "bcff25c0-30a2-46b1-bc5f-68b960573f11": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "SECOND SKIN TECHNOLOGIE",
@@ -265,6 +267,7 @@
     },
     "400122cd-7001-42ff-8a39-92b38e5b8132": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "BIOMIMETIC",
@@ -277,6 +280,7 @@
     },
     "7f8d6808-a922-40a8-9d28-dec91b0c7eec": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "BIOAVAILABILITY",
