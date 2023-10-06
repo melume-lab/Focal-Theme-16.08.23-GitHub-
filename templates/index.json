@@ -229,7 +229,7 @@
         "h3 {font-weight: 1000;}"
       ],
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
@@ -308,7 +308,7 @@
         "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
       ],
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
