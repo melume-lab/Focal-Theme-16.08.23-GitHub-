@@ -16326,26 +16326,22 @@ background-color: rgba(255, 255, 255, {{ block.settings.background_opacity }});
 
 /* CSS code for 3-column layout */
 .column-container {
-  max-width: 2000px;
-  margin: 0 auto;
-}
-
-/* Add margin calculation for screens above 740px */
-@media (min-width: 741px) {
-  .column-container {
-    margin-left: calc(var(--grid-column-width) + var(--grid-gap) - 40px);
-    margin-right: calc(var(--grid-column-width) + var(--grid-gap) - 40px);
-  }
+  max-width: 1600px;
+  margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+  margin-right: calc(var(--grid-column-width) + var(--grid-gap));
+ /*  margin: 0 auto; */
 }
 
 .column {
-  width: 33.33%;
+  width: 50%;
   max-width: 100%;
   float: left;
   box-sizing: border-box;
   padding: 0 60px 60px 0; /* Increase the gap between columns */
   margin-top: 40px;
   margin-bottom: 50px;
+  
+}
 }
 
 /* Clearfix for column float */
@@ -16361,8 +16357,12 @@ background-color: rgba(255, 255, 255, {{ block.settings.background_opacity }});
     width: 100%;
     float: none;
     padding-right: 0; /* Remove the right gap for stacked columns */
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+  }
+}
+@media (max-width: 740px) {
+  .column-container {
+     margin: 0px;
   }
 }
 
