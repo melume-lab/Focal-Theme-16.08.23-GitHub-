@@ -239,16 +239,52 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "ae882ce0-900c-4939-b02a-2be84264fe32": {
+    "d1c70cfb-d2b6-40ab-b60d-a9c7e8162693": {
       "type": "custom-html",
-      "custom_css": [
-        ".custom-image-container {margin: 0px;}",
-        ".column-container {margin-top: 50px;}"
-      ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n\n\n<h3 style=\"font-family: Cormorant; font-size: 33px; line-height: 33px\">Second Skin Technology<\/h3>\n<div class=\"custom-image-container\" style=\"margin-bottom: 40px; margin-top: 50px; max-width:380px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n<\/div>\n<p>\nSome of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.<\/p>\n<\/div>\n\n  <div class=\"column\">\n\n<h3 style=\"font-family: Cormorant; font-size: 33px; line-height: 33px\">Biomimetic<\/h3>\n<p> Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.<\/p>\n<p>\nFirstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.<\/p>\n<p><\/p>\n<p>\nWe use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.<\/p>\n<\/div>\n\n <div class=\"column\">\n\n<h3 style=\"font-family: Cormorant; font-size: 33px; line-height: 33px\">Bioavailability<\/h3>\n<p> Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient.  Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.<\/p>\n<p>\n\nA few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective. This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin. <\/p>\n<p>\n\nThe form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well. <\/p>\n<\/div>\n\n<\/div>",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "bcff25c0-30a2-46b1-bc5f-68b960573f11": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "SECOND SKIN TECHNOLOGIE",
+        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<div class=\"custom-image-container\" style=\"max-width:380px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n<\/div>\n<\/div>\n\n<div class=\"column\">\n<p>\nSome of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.<\/p>\n<\/div>\n<\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "400122cd-7001-42ff-8a39-92b38e5b8132": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "BIOMIMETIC",
+        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.\n<\/p>\n<\/div>\n\n<div class=\"column\">\n<p>\n Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.\n<br>\n<br>\nWe use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.\n<\/p>\n<\/div>\n<\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7f8d6808-a922-40a8-9d28-dec91b0c7eec": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "BIOAVAILABILITY",
+        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<p> Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient. Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.\n<br>\n<br>\nA few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective.\n<\/p>\n<\/div>\n\n<div class=\"column\">\n<p>\n This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin.\n<br>\n<br>\nThe form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well.\n<\/p>\n<\/div>\n<\/div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -594,7 +630,10 @@
     "fad66551-b40f-4bb9-b5e9-cd736280e214",
     "9e9b6d51-14ba-4473-a795-4589958826b3",
     "3a9fab4d-5c9d-4fe7-921b-d5cab52ce5af",
-    "ae882ce0-900c-4939-b02a-2be84264fe32",
+    "d1c70cfb-d2b6-40ab-b60d-a9c7e8162693",
+    "bcff25c0-30a2-46b1-bc5f-68b960573f11",
+    "400122cd-7001-42ff-8a39-92b38e5b8132",
+    "7f8d6808-a922-40a8-9d28-dec91b0c7eec",
     "08f3d467-a4ca-4fff-ae3b-05ba534c6671",
     "ca382a2e-bc28-44d6-b3a6-83a3d85f44aa",
     "6de79817-30ee-4825-bad3-10bbd5ae9b0b",
