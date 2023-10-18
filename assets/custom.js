@@ -306,5 +306,16 @@ document.addEventListener('DOMContentLoaded', function() {
             spanElement.textContent = 'Europe & UK (€)';
         }
     }
+
+    var selectedPopUpCountry = "US"
+    var selectedButtonElement = document.getElementById("md-form__select__country");
+    if (selectedButtonElement) {
+        var dataValue = selectedButtonElement.dataset.value;
+        selectedPopUpCountry = dataValue
+    }
+    var mainLanguageChangeButton = document.getElementById("btn-change-country");
+    if (mainLanguageChangeButton) {
+        mainLanguageChangeButton.classList.add("orbe-flags-" + selectedPopUpCountry.toLowerCase());
+    }
 });
 /* END - Change country name */
