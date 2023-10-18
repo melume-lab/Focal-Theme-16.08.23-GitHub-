@@ -313,6 +313,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var dataValue = selectedButtonElement.dataset.value;
         selectedPopUpCountry = dataValue
     }
+    console.log(selectedPopUpCountry);
     var mainLanguageChangeButton = document.getElementById("btn-change-country");
     if (mainLanguageChangeButton) {
         mainLanguageChangeButton.classList.add("orbe-flags-" + selectedPopUpCountry.toLowerCase());
