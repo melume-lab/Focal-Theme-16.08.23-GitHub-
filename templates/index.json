@@ -326,6 +326,9 @@
     },
     "4cb96c4e-f6bf-403a-bf61-960a96060549": {
       "type": "MS_Imagewithtextleft",
+      "custom_css": [
+        ".image-overlay__content {max-width: 70%;}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
         "section_height": "medium",
