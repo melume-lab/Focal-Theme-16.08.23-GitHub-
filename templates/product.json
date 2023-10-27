@@ -5,7 +5,6 @@
       "blocks": {
         "b6dbb1c2-96da-4140-a1b3-692649457b43": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.custom.promotion_notice | metafield_tag }}"
           }
