@@ -5,6 +5,7 @@
       "blocks": {
         "b6dbb1c2-96da-4140-a1b3-692649457b43": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.custom.promotion_notice | metafield_tag }}"
           }
@@ -334,7 +335,7 @@
       "type": "apps",
       "blocks": {
         "4379e0a8-d9a5-4618-b68c-61b6384c36b2": {
-          "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-block-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
           "disabled": true,
           "settings": {
             "air_blockreviews_summaryHeading": "",
