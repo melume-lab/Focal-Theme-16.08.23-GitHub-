@@ -14,7 +14,7 @@
             "html": "FULL SIZE BALMY MILKY OILY CLEANSER WITH EACH PURCHASE",
             "content": "<p>Second Content<\/p>",
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify:\/\/collections\/fall-essential",
+            "button_1_link": "shopify:\/\/products\/calm-balm-rescue-remedy",
             "button_2_text": "",
             "button_2_link": "shopify:\/\/pages\/skin-club",
             "text_color": "#ffffff",
@@ -404,7 +404,8 @@
     "c6967e74-35d8-4d5b-8d31-5cd8732771b0": {
       "type": "custom-html",
       "custom_css": [
-        ".container {margin: 0px; max-width: 100%; padding: 0px;}"
+        ".container {margin: 0px; max-width: 100%; padding: 0px;}",
+        ".showcase-grid-buttons {display: none;}"
       ],
       "settings": {
         "subheading": "",
