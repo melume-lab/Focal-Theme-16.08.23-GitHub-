@@ -1,1 +1,1066 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"f112aad8-8fe5-444d-998a-c098afec5764":{"type":"MS_text-carousel","blocks":{"74f200b3-dde6-4529-9dc3-182a381cfea2":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Olive Oil<\/p>","html":"","subheading":""}},"db827dd4-38f1-4313-b5f9-dc5784314c7a":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"9758e4de-efe6-4d0e-88e3-8a3bffbf4540":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>An emollient: Provides hydration, helps prevent moisture loss, and restores suppleness. Acts as an antioxidant and strengthens the skin barrier. Has a smoothing effect on lines and wrinkles. It's biocompatible, meaning the skin instantly recognizes it and how to use it.<\/p>","html":"","subheading":""}}},"block_order":["74f200b3-dde6-4529-9dc3-182a381cfea2","db827dd4-38f1-4313-b5f9-dc5784314c7a","9758e4de-efe6-4d0e-88e3-8a3bffbf4540"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Squalane","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"98887d42-1e20-407d-8e1c-fc6eb3743f16":{"type":"MS_text-carousel","blocks":{"58cb638d-d86b-40d5-beec-cafce6ecb271":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"032b2190-1721-48a0-9464-f54cb6ef269c":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"bd733373-a8b6-489b-b5dc-99f0c1952fe6":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sodium acrylates copolymer is a thickening and stabilizing agent: It is a water-soluble polymer that can create a smooth and uniform texture. Additionally, it improves the viscosity, spreadability, and overall performance of cosmetic products. Furthermore, sodium acrylates copolymer is also used as an emulsifier to help ingredients blend together more effectively.<\/p>","html":"","subheading":""}}},"block_order":["58cb638d-d86b-40d5-beec-cafce6ecb271","032b2190-1721-48a0-9464-f54cb6ef269c","bd733373-a8b6-489b-b5dc-99f0c1952fe6"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Sodium Acrylates Copolymer","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"e24d3be7-78e6-4ca2-a8db-3018132e0042":{"type":"MS_text-carousel","blocks":{"9e4bc760-d398-4cf1-8078-6b603507c9bb":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"527e743b-4631-47cf-aedd-ea033b3beb78":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"4bc80496-16cc-4c9c-a6f6-c6e37c7b633c":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sodium benzoate is a preservative used to prevent bacteria growth, extend shelf life, and prevent contamination of a formulation.<\/p>","html":"","subheading":""}}},"block_order":["9e4bc760-d398-4cf1-8078-6b603507c9bb","527e743b-4631-47cf-aedd-ea033b3beb78","4bc80496-16cc-4c9c-a6f6-c6e37c7b633c"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Sodium Benzoate \/ Benzoic Acid","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"05e13c7d-1689-4faa-9c08-43ca2f43ed02":{"type":"MS_text-carousel","blocks":{"3305e177-0eec-4563-866f-a3b8efbb881e":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"18fc7615-e692-4ca5-a634-a7deaeb54e9d":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"b7ff4478-38b7-4743-998c-2f1374bc6028":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sodium hydroxide is used to adjust the optimal pH of a cosmetic formulation and is a neutralizing agent: it is used to neutralize acidic ingredients in cosmetic products to improve their overall effect - creating strong and stable cosmetic formulations.<\/p>","html":"","subheading":""}}},"block_order":["3305e177-0eec-4563-866f-a3b8efbb881e","18fc7615-e692-4ca5-a634-a7deaeb54e9d","b7ff4478-38b7-4743-998c-2f1374bc6028"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Sodium Hydroxide","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"355ac3ce-eec2-4325-b507-78d548140edd":{"type":"MS_text-carousel","blocks":{"9d6f78af-1183-4ed5-a48c-d481fc5be5b7":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Mineral<\/p>","html":"","subheading":""}},"f1226408-6d47-40c9-9c1c-e15af0b0ce4e":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Mineral<\/span>","subheading":""}},"ed5e7cd0-d456-4d19-93bc-81133c177be0":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sodium magnesium silicate is a thickening and texturizing agent, used to create smooth and uniform textures. It can also absorb excess oils and moisture. <\/p>","html":"","subheading":""}}},"block_order":["9d6f78af-1183-4ed5-a48c-d481fc5be5b7","f1226408-6d47-40c9-9c1c-e15af0b0ce4e","ed5e7cd0-d456-4d19-93bc-81133c177be0"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Sodium Magnesium Silicate","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"3e1121c4-a8e6-4c90-8cc5-ac30dbafc9f8":{"type":"MS_text-carousel","blocks":{"aa3fc4cb-74a8-4b74-9b42-b59083dac7bb":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"c20eadbf-1a72-4bdc-8387-0317627df217":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"57b5c0e1-2ae8-4e9a-a860-8f550f7d3b1d":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sodium sulfate is salt-based ingredient used as a viscosity controlling and bulking agent.<\/p>","html":"","subheading":""}}},"block_order":["aa3fc4cb-74a8-4b74-9b42-b59083dac7bb","c20eadbf-1a72-4bdc-8387-0317627df217","57b5c0e1-2ae8-4e9a-a860-8f550f7d3b1d"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Sodium Sulfate","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"fa4c6f1c-8abe-4020-b86b-17e398c363a2":{"type":"MS_text-carousel","blocks":{"32270fee-febf-4723-a82e-85d4a48080bf":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"d6f5dc30-3dbb-4fec-81a6-38cac2a0750a":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"066c22e3-d269-4046-bb96-f5333ff49eae":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Steareth-2 is an emulsifying agent. It helps to blend oil and water-based ingredients in cosmetic formulations, creating a stable and homogen texture. It can also help to improve the spreadability and absorption of cosmetic products.<\/p>","html":"","subheading":""}}},"block_order":["32270fee-febf-4723-a82e-85d4a48080bf","d6f5dc30-3dbb-4fec-81a6-38cac2a0750a","066c22e3-d269-4046-bb96-f5333ff49eae"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Steareth-2","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"4864d0a4-d7ea-41d4-90f5-8f9c92e60c87":{"type":"MS_text-carousel","blocks":{"a29f897e-5a55-4be1-b63c-5cd531db82fc":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"a0a73e33-3561-4e62-92b9-653045045b9f":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"feabab07-487c-4bc4-a98f-31342e6fbd60":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>STEARETH-21 is an emulsifier and surfactant. It helps to blend together water and oil-based ingredients in a product, improving texture and stability.<\/p>","html":"","subheading":""}}},"block_order":["a29f897e-5a55-4be1-b63c-5cd531db82fc","a0a73e33-3561-4e62-92b9-653045045b9f","feabab07-487c-4bc4-a98f-31342e6fbd60"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Steareth-21","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"4eee4b6c-28ec-42e0-b8bf-e1c7e644bed2":{"type":"MS_text-carousel","blocks":{"a2f33fde-ef92-4e0b-b311-bcc503272492":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Sucrose & Botanical Oil<\/p>","html":"","subheading":""}},"c1eade28-e879-4651-960b-ee44ce660428":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"aef44b20-25f5-4992-a7c9-1157d126fa6a":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sucrose palmitate is a natural, plant-derived emulsifier and surfactant, that is made by combining sucrose, or table sugar, with palmitic acid, a fatty acid found in botanical oil. Sucrose palmitate helps to blend together water and oil-based ingredients in a product, improving texture and stability.It is a gentle ingredient that can moisturize and protect your skin.<\/p>","html":"","subheading":""}}},"block_order":["a2f33fde-ef92-4e0b-b311-bcc503272492","c1eade28-e879-4651-960b-ee44ce660428","aef44b20-25f5-4992-a7c9-1157d126fa6a"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Sucrose Palmitate","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","f112aad8-8fe5-444d-998a-c098afec5764","98887d42-1e20-407d-8e1c-fc6eb3743f16","e24d3be7-78e6-4ca2-a8db-3018132e0042","05e13c7d-1689-4faa-9c08-43ca2f43ed02","355ac3ce-eec2-4325-b507-78d548140edd","3e1121c4-a8e6-4c90-8cc5-ac30dbafc9f8","fa4c6f1c-8abe-4020-b86b-17e398c363a2","4864d0a4-d7ea-41d4-90f5-8f9c92e60c87","4eee4b6c-28ec-42e0-b8bf-e1c7e644bed2"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "f112aad8-8fe5-444d-998a-c098afec5764": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "74f200b3-dde6-4529-9dc3-182a381cfea2": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Olive Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "db827dd4-38f1-4313-b5f9-dc5784314c7a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "9758e4de-efe6-4d0e-88e3-8a3bffbf4540": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>An emollient: Provides hydration, helps prevent moisture loss, and restores suppleness. Acts as an antioxidant and strengthens the skin barrier. Has a smoothing effect on lines and wrinkles. It's biocompatible, meaning the skin instantly recognizes it and how to use it.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "74f200b3-dde6-4529-9dc3-182a381cfea2",
+        "db827dd4-38f1-4313-b5f9-dc5784314c7a",
+        "9758e4de-efe6-4d0e-88e3-8a3bffbf4540"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Squalane",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "98887d42-1e20-407d-8e1c-fc6eb3743f16": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "58cb638d-d86b-40d5-beec-cafce6ecb271": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "032b2190-1721-48a0-9464-f54cb6ef269c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "bd733373-a8b6-489b-b5dc-99f0c1952fe6": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium acrylates copolymer is a thickening and stabilizing agent: It is a water-soluble polymer that can create a smooth and uniform texture. Additionally, it improves the viscosity, spreadability, and overall performance of cosmetic products. Furthermore, sodium acrylates copolymer is also used as an emulsifier to help ingredients blend together more effectively.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "58cb638d-d86b-40d5-beec-cafce6ecb271",
+        "032b2190-1721-48a0-9464-f54cb6ef269c",
+        "bd733373-a8b6-489b-b5dc-99f0c1952fe6"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Acrylates Copolymer",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e24d3be7-78e6-4ca2-a8db-3018132e0042": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "9e4bc760-d398-4cf1-8078-6b603507c9bb": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "527e743b-4631-47cf-aedd-ea033b3beb78": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "4bc80496-16cc-4c9c-a6f6-c6e37c7b633c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium benzoate is a preservative used to prevent bacteria growth, extend shelf life, and prevent contamination of a formulation.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "9e4bc760-d398-4cf1-8078-6b603507c9bb",
+        "527e743b-4631-47cf-aedd-ea033b3beb78",
+        "4bc80496-16cc-4c9c-a6f6-c6e37c7b633c"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Benzoate \/ Benzoic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "05e13c7d-1689-4faa-9c08-43ca2f43ed02": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "3305e177-0eec-4563-866f-a3b8efbb881e": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "18fc7615-e692-4ca5-a634-a7deaeb54e9d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "b7ff4478-38b7-4743-998c-2f1374bc6028": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium hydroxide is used to adjust the optimal pH of a cosmetic formulation and is a neutralizing agent: it is used to neutralize acidic ingredients in cosmetic products to improve their overall effect - creating strong and stable cosmetic formulations.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "3305e177-0eec-4563-866f-a3b8efbb881e",
+        "18fc7615-e692-4ca5-a634-a7deaeb54e9d",
+        "b7ff4478-38b7-4743-998c-2f1374bc6028"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Hydroxide",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "355ac3ce-eec2-4325-b507-78d548140edd": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "9d6f78af-1183-4ed5-a48c-d481fc5be5b7": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Mineral<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "f1226408-6d47-40c9-9c1c-e15af0b0ce4e": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Mineral<\/span>",
+            "subheading": ""
+          }
+        },
+        "ed5e7cd0-d456-4d19-93bc-81133c177be0": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium magnesium silicate is a thickening and texturizing agent, used to create smooth and uniform textures. It can also absorb excess oils and moisture. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "9d6f78af-1183-4ed5-a48c-d481fc5be5b7",
+        "f1226408-6d47-40c9-9c1c-e15af0b0ce4e",
+        "ed5e7cd0-d456-4d19-93bc-81133c177be0"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Magnesium Silicate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3e1121c4-a8e6-4c90-8cc5-ac30dbafc9f8": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "aa3fc4cb-74a8-4b74-9b42-b59083dac7bb": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "c20eadbf-1a72-4bdc-8387-0317627df217": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "57b5c0e1-2ae8-4e9a-a860-8f550f7d3b1d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium sulfate is salt-based ingredient used as a viscosity controlling and bulking agent.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa3fc4cb-74a8-4b74-9b42-b59083dac7bb",
+        "c20eadbf-1a72-4bdc-8387-0317627df217",
+        "57b5c0e1-2ae8-4e9a-a860-8f550f7d3b1d"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Sulfate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "fa4c6f1c-8abe-4020-b86b-17e398c363a2": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "32270fee-febf-4723-a82e-85d4a48080bf": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "d6f5dc30-3dbb-4fec-81a6-38cac2a0750a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "066c22e3-d269-4046-bb96-f5333ff49eae": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Steareth-2 is an emulsifying agent. It helps to blend oil and water-based ingredients in cosmetic formulations, creating a stable and homogen texture. It can also help to improve the spreadability and absorption of cosmetic products.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "32270fee-febf-4723-a82e-85d4a48080bf",
+        "d6f5dc30-3dbb-4fec-81a6-38cac2a0750a",
+        "066c22e3-d269-4046-bb96-f5333ff49eae"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Steareth-2",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4864d0a4-d7ea-41d4-90f5-8f9c92e60c87": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a29f897e-5a55-4be1-b63c-5cd531db82fc": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "a0a73e33-3561-4e62-92b9-653045045b9f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "feabab07-487c-4bc4-a98f-31342e6fbd60": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>STEARETH-21 is an emulsifier and surfactant. It helps to blend together water and oil-based ingredients in a product, improving texture and stability.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a29f897e-5a55-4be1-b63c-5cd531db82fc",
+        "a0a73e33-3561-4e62-92b9-653045045b9f",
+        "feabab07-487c-4bc4-a98f-31342e6fbd60"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Steareth-21",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4eee4b6c-28ec-42e0-b8bf-e1c7e644bed2": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a2f33fde-ef92-4e0b-b311-bcc503272492": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Sucrose & Botanical Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "c1eade28-e879-4651-960b-ee44ce660428": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "aef44b20-25f5-4992-a7c9-1157d126fa6a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sucrose palmitate is a natural, plant-derived emulsifier and surfactant, that is made by combining sucrose, or table sugar, with palmitic acid, a fatty acid found in botanical oil. Sucrose palmitate helps to blend together water and oil-based ingredients in a product, improving texture and stability.It is a gentle ingredient that can moisturize and protect your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2f33fde-ef92-4e0b-b311-bcc503272492",
+        "c1eade28-e879-4651-960b-ee44ce660428",
+        "aef44b20-25f5-4992-a7c9-1157d126fa6a"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sucrose Palmitate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "052e71b2-2ed1-4485-9a14-196752920d1e": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "dc2b33b0-26b5-414c-949a-e16024fdd833": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Botanical Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "1f77235a-ec7c-4a44-aed1-4b6321fbf260": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "335923da-fdb9-4b9f-ad75-0777f1db725b": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>SK-INFLUX® is a Skin-identifical lipid concentrate that is beneficial for your enhanced skin protection. SK-INFLUX® consits of a mix of different ceramide types (NP, EOP, AP), vegetable cholesterol, free fatty acid and phytosphingosine: It improves your general skin condition by reducing skin roughness and increasing skin evenness and homogenity. Furthermore, it is also ideal for treating aging, dry or sensitive skin, because of its moisturizing and skin repairing properties. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "dc2b33b0-26b5-414c-949a-e16024fdd833",
+        "1f77235a-ec7c-4a44-aed1-4b6321fbf260",
+        "335923da-fdb9-4b9f-ad75-0777f1db725b"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sk-Influx®",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d3db393a-baa6-4f85-aa0f-d79b9f7bbc91": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "813c9697-1e45-4bc3-bec6-372117a81502": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "9a812fef-25e1-4529-8a44-8d1fa2681e88": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "f0838c6d-1753-49f6-9ce0-84a03236cde2": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium metabisulfite works as a preservative and antioxidant: It helps to extend shelf life by inhibiting the growth of bacteria and fungi. As an antioxidant, it helps to protect cosmetic products from oxidative damage and deterioration. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "813c9697-1e45-4bc3-bec6-372117a81502",
+        "9a812fef-25e1-4529-8a44-8d1fa2681e88",
+        "f0838c6d-1753-49f6-9ce0-84a03236cde2"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium metabisulfite",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "037193db-5df6-45d5-8b96-cfc9d8acc8b7": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "1bcf7e96-d46d-49cd-80db-7f3ed895f122": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "27c5f93c-9911-40c8-a038-5f7fbea26e66": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "c750378d-6ea5-4c93-a1e2-1190367e83c1": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium polyacrylate acts as a thickening and stabilizing agent: it provides a smooth and sensorially appealing texture.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "1bcf7e96-d46d-49cd-80db-7f3ed895f122",
+        "27c5f93c-9911-40c8-a038-5f7fbea26e66",
+        "c750378d-6ea5-4c93-a1e2-1190367e83c1"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium polyacrylate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "843096b5-5449-4bef-8230-581c197f5715": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "8653f3d4-c29b-4319-add2-1ed922439f1f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Canola, soybean, botanical oil, corn<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "6b0e5d63-30cd-4ae3-af69-946450236102": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "dfbbe866-3c39-4180-9fcf-94bd79d81191": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium stearoyl glutamate is an emulsifying and stabilizing agent. It helps to blend oil and water-based ingredients, creating a stable and uniform texture. Sodium stearoyl glutamate thus improves the texture and consistency of cosmetic products. It can also improve their spreadability and absorption, making them easier to apply and more effective.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "8653f3d4-c29b-4319-add2-1ed922439f1f",
+        "6b0e5d63-30cd-4ae3-af69-946450236102",
+        "dfbbe866-3c39-4180-9fcf-94bd79d81191"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium stearoyl glutamate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1fa7c2fe-4744-477a-98d9-a0f093d99372": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "d6cc29c9-5d56-40e0-94ed-6b61fb879499": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Sucrose & Coconut Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "3f360980-7495-4e77-84e1-1c4c4418df9a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "cabc4f2d-fada-42e9-9d70-ed4895a2329d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sucrose laurate is a natural, plant-derived emulsifier and surfactant: It is made by combining sucrose, or table sugar, with lauric acid, a fatty acid found in coconut oil. Sucrose laurate helps to blend together water and oil-based ingredients, improving texture and stability. It also moisturizes and soothes your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "d6cc29c9-5d56-40e0-94ed-6b61fb879499",
+        "3f360980-7495-4e77-84e1-1c4c4418df9a",
+        "cabc4f2d-fada-42e9-9d70-ed4895a2329d"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sucrose laurate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4bd8dc18-bc53-45e7-9297-9aad7f356c01": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a0ebd322-14d3-48fe-bbc2-87adf0c303e3": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "1c2ac5ce-1ba1-4cf7-8b9b-3637a7ea47f6": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "c2900d16-5903-4a3f-8132-f40af6370dde": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium cetearyl sulfate is an emulsifier and cleansing agent: It is made from a combination of cetearyl alcohol and sulfuric acid and is an effective cleansing agent that helps to remove dirt, oil, and impurities from your skin; it also helps to emulsify ingredients, making cosmetic formulations more stable and uniform in texture. Free from ethanol\/alcohol.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a0ebd322-14d3-48fe-bbc2-87adf0c303e3",
+        "1c2ac5ce-1ba1-4cf7-8b9b-3637a7ea47f6",
+        "c2900d16-5903-4a3f-8132-f40af6370dde"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Cetearyl Sulfate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c115fab1-a92b-4e7b-a803-f4b6e53f4a9f": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "64bab524-e1a1-4830-8469-6963282745dc": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ba697816-e2b0-40f7-9a22-70ac404fa450": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "e6701ad3-5afe-4f50-856c-8f0544abf563": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium acetylated hyaluronate is a very small molecular weight hyaluronic acid with a weight of 30-50 kDa that strongly hydrates and improves the texture of your skin. It is a water-soluble ingredient that can penetrate very deep into your skin and provide long-lasting hydration. Furthermore, it has anti-inflammatory and anti-aging properties and thus can improve the appearance and health of your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "64bab524-e1a1-4830-8469-6963282745dc",
+        "ba697816-e2b0-40f7-9a22-70ac404fa450",
+        "e6701ad3-5afe-4f50-856c-8f0544abf563"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium acetylated hyaluronate  30-50 kDa",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1f238732-a87b-41a3-97f8-ff23275bcb10": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "1e194253-b9dd-4938-88ba-52277cb91967": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "807f8fc4-5951-4a38-8027-34a8a2e233ef": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "e04a18ba-ecc6-47de-85fd-233323f9d7a1": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium hyaluronate crosspolymer is a modified form of hyaluronic acid, with a molecular weight of &gt;3000 kDa, that deeply hydrates your skin: It is a water-soluble ingredient that can hold up to 5 times its weight in water, making it a highly effective moisturizing agent. Sodium hyaluronate crosspolymer can also form a protective film on your skin, helping to lock in moisture and prevent dehydration. It plumps and smoothes your skin, by reducing the appearance of fine lines and wrinkles.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "1e194253-b9dd-4938-88ba-52277cb91967",
+        "807f8fc4-5951-4a38-8027-34a8a2e233ef",
+        "e04a18ba-ecc6-47de-85fd-233323f9d7a1"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium hyaluronate crosspolymer >3000 kDa",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3eace653-ae04-432c-bdd8-49471bc751ea": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "d760fe63-6bd4-4d40-802a-15924824eaef": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "7d090f45-2dc4-4524-8fbb-f37083e9fa30": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "60c94515-72ec-4119-8a5b-4530dc6bd8b6": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium Hyaluronate HA Extra XS (50 kDa) is a hyaluronic acid with a extremly fine molecular weight, allowing it to penetrate much deeper into your skin for enhanced hydration. It plumps your skin, improves skin elasticity, reduces the appearance of fine lines and wrinkles, and improves your overall skin texture, while streghtening your skin hydration and health.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "d760fe63-6bd4-4d40-802a-15924824eaef",
+        "7d090f45-2dc4-4524-8fbb-f37083e9fa30",
+        "60c94515-72ec-4119-8a5b-4530dc6bd8b6"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium hyaluronate HA extra XS (50 kda)",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4efe07a9-fdad-4773-a871-24869c9ae553": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "af0aef5b-e805-4cbd-af9e-a49dfe3e5e68": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "00fb2d1e-7ae1-46ef-9ec1-6b1b9fcf40f1": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "628d1b28-1725-4909-992a-eac9f7eea407": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>The low molecular weight hyaluronic acid with a molecular weight from 400-1000 kDa is able to penetrate deeper into the skin.<br\/>It is able to stimulate the skin's own procollagen synthesis and provides improved skin firmness, a reduction in skin roughness and a lasting smoothing of the skin surface relief.<br\/>Hyaluronic acid has the ability to increase the formation of tight junction proteins by keratinocytes.<br\/>Tight junctions retain water in the skin and provide an optimal moisture depot in the skin. Thus, by stimulating the formation of Zunola Occludens it makes an important contribution to strengthening the skin barrier.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "af0aef5b-e805-4cbd-af9e-a49dfe3e5e68",
+        "00fb2d1e-7ae1-46ef-9ec1-6b1b9fcf40f1",
+        "628d1b28-1725-4909-992a-eac9f7eea407"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sodium Hyaluronate Low Molekular 400-1000 kDa",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "f112aad8-8fe5-444d-998a-c098afec5764",
+    "98887d42-1e20-407d-8e1c-fc6eb3743f16",
+    "e24d3be7-78e6-4ca2-a8db-3018132e0042",
+    "05e13c7d-1689-4faa-9c08-43ca2f43ed02",
+    "355ac3ce-eec2-4325-b507-78d548140edd",
+    "3e1121c4-a8e6-4c90-8cc5-ac30dbafc9f8",
+    "fa4c6f1c-8abe-4020-b86b-17e398c363a2",
+    "4864d0a4-d7ea-41d4-90f5-8f9c92e60c87",
+    "4eee4b6c-28ec-42e0-b8bf-e1c7e644bed2",
+    "052e71b2-2ed1-4485-9a14-196752920d1e",
+    "d3db393a-baa6-4f85-aa0f-d79b9f7bbc91",
+    "037193db-5df6-45d5-8b96-cfc9d8acc8b7",
+    "843096b5-5449-4bef-8230-581c197f5715",
+    "1fa7c2fe-4744-477a-98d9-a0f093d99372",
+    "4bd8dc18-bc53-45e7-9297-9aad7f356c01",
+    "c115fab1-a92b-4e7b-a803-f4b6e53f4a9f",
+    "1f238732-a87b-41a3-97f8-ff23275bcb10",
+    "3eace653-ae04-432c-bdd8-49471bc751ea",
+    "4efe07a9-fdad-4773-a871-24869c9ae553"
+  ]
+}
