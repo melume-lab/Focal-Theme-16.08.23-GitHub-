@@ -214,21 +214,21 @@ function checkNewsletterAvailability() {
 
 
 /* START - Open Orbe Popup */
-// document.addEventListener('DOMContentLoaded', function() {
-//   // Get the element by its ID
-//   const btnChangeCountry = document.getElementById('btn-change-country');  
-//   btnChangeCountry.addEventListener('click', function() {
-//       orbito.openAndRefreshModal();
-//   });
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the element by its ID
+  const btnChangeCountry = document.getElementById('btn-change-country');  
+  btnChangeCountry.addEventListener('click', function() {
+      orbito.openAndRefreshModal();
+  });
 
-//   //Remove DE Language for GB(UK) Country.
-//   var parentElement = document.getElementById("orbeCountryList");  
-//   var elementWithCountryGB = parentElement.querySelector('a[data-country="GB"]');
-//   if (elementWithCountryGB) {
-//       elementWithCountryGB.setAttribute("data-namelocales", "English");
-//       elementWithCountryGB.setAttribute("data-locales", "en"); 
-//   }
-// });
+  // //Remove DE Language for GB(UK) Country.
+  // var parentElement = document.getElementById("orbeCountryList");  
+  // var elementWithCountryGB = parentElement.querySelector('a[data-country="GB"]');
+  // if (elementWithCountryGB) {
+  //     elementWithCountryGB.setAttribute("data-namelocales", "English");
+  //     elementWithCountryGB.setAttribute("data-locales", "en"); 
+  // }
+});
 /* END - Open Orbe Popup */
 
 
