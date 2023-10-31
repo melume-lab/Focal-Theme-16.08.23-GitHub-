@@ -17,7 +17,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_Ingredient_Libary_2160x1018_fdeb558a-938f-40cc-a4e3-21452519b31b.jpg",
+        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_Ingredient_Libary_2160x1018_83df6461-537e-4a02-9d2d-d293a2de8627.jpg",
         "subheading": "",
         "title": "Skincare Lovers Education",
         "html": "",
@@ -613,6 +613,256 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "db8f301f-e166-4208-b6de-49931585cfb2": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "286f61e8-16e0-42c7-8bba-a752f7871ffc": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "8a820598-8576-4926-a61c-4b017f72a5d5": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "8c6f15d5-d266-4b78-bfa0-3d0eae0c3e9c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Alcohol is used as a solvent and preservative agent. Alcohol also helps to dissolve and stabilize certain ingredients , which helps to ensure that the product is effective and has a longer shelf life, since it reduces the risk of contamination and the growth of harmful bacteria. Alcohol is used in our formulas as part of active ingredients and therefore it is not drying.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "286f61e8-16e0-42c7-8bba-a752f7871ffc",
+        "8a820598-8576-4926-a61c-4b017f72a5d5",
+        "8c6f15d5-d266-4b78-bfa0-3d0eae0c3e9c"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Alcohol",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1ac82b47-408f-467c-9a66-de46adfa8381": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "7fd2c55a-9bb2-4501-a1d8-9997f1072173": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ff96b11d-7144-4540-8b6d-5321ab33d175": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "3fc2e829-8301-4dc1-b2b5-2aaad644413f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Alcohol denat is a type of alcohol that is used in cosmetic products as a solvent, and preservative. It helps to dissolve and stabilize certain ingredients in cosmetic products, which helps to ensure that the product is effective and has a longer shelf life. Alcohol denat is used in our formulas as part of active ingredients and therefore it is not drying.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "7fd2c55a-9bb2-4501-a1d8-9997f1072173",
+        "ff96b11d-7144-4540-8b6d-5321ab33d175",
+        "3fc2e829-8301-4dc1-b2b5-2aaad644413f"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Alcohol Denat",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ed6d2bcf-7abd-4c51-a31b-1fe9a481f392": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "015ee370-2ecb-4ec6-a79f-86d6d0cee96f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Glucose from  wheat, maize or manioc & fat, derived from rapeseed<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "5ff251ec-b6a4-4140-9241-beb289868a65": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "43e64b84-4d25-4aae-8202-b4d04aaf76ba": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Arachidyl Alcohol is a natural ingredient that is used as an emollient and thickening agent. It is derived from vegetable sources such as peanuts and helps to improve the texture and consistency of the product. Arachidyl Alcohol due to its emollient properties also helps to hydrate and soften your skin, and it acts as a barrier to prevent moisture loss. Free from ethanol\/alcohol.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "015ee370-2ecb-4ec6-a79f-86d6d0cee96f",
+        "5ff251ec-b6a4-4140-9241-beb289868a65",
+        "43e64b84-4d25-4aae-8202-b4d04aaf76ba"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Arachidyl Alcohol",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f5cafb80-64c2-42af-86f9-78fc96f4af31": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "8d749f4e-4dfa-4105-8e00-3da7192f57f1": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Seaweed<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "a6b8fe59-30fc-411e-ab80-77d112323314": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "ddf2d72c-aba9-4252-b651-73205909de45": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Algin or alginic acid is formed by brown algae in the cell walls and is the structure-giving element in the alga. The intercellular gel matrix gives the algae both flexibility and strength. Algin provides a gel-like consistency and stabilises the formulation. The acid has the ability to bind water and store it in the skin. This allows it to moisturise the skin well and protect it from dehydration. Alginic acid has anti-inflammatory properties and helps to soothe the skin and reduce irritation. Has antioxidant properties and can protect the skin from the harmful effects of free radicals. This helps prevent premature ageing of the skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "8d749f4e-4dfa-4105-8e00-3da7192f57f1",
+        "a6b8fe59-30fc-411e-ab80-77d112323314",
+        "ddf2d72c-aba9-4252-b651-73205909de45"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Algin",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6a128f8b-0519-4b74-a151-03384598bc5a": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "e570a9ac-ed3d-4bef-aeee-847d2d0c1236": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ae258f2b-0a8d-41f4-849a-ad501a62acb7": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "4df73194-4836-4ab5-9189-eeede345b3cd": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Ascorbyl palmitate is a vitamin C derivative and is formed by esterification of ascorbic acid with palmitic acid. Compared to pure vitamin C, ascorbyl palmitate is only converted into active vitamin C when applied to the skin. Due to its fat-soluble nature, ascorbyl palmitate more easily penetrates the lipid barrier of the skin. This helps the vitamin C to stay in the skin longer and deliver better results. The active ingredient acts as a free radical scavenger to protect the skin from oxidative stress. It also reduces the signs of hyperpigmentation and stimulates collagen synthesis. It reduces wrinkles and creates a more even skin tone. Ascorbyl palmitate reduces hyperpigmentation, dark spots and uneven skin tone.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "e570a9ac-ed3d-4bef-aeee-847d2d0c1236",
+        "ae258f2b-0a8d-41f4-849a-ad501a62acb7",
+        "4df73194-4836-4ab5-9189-eeede345b3cd"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Ascorbyl Palmitate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -641,6 +891,11 @@
     "b7202a53-d9f8-4d4b-a0a7-a9a25736cb9c",
     "d9239f2d-27ac-4033-8ee0-a83d2d10349d",
     "ba8e8dc1-60af-47b4-8d50-7c88af065570",
+    "db8f301f-e166-4208-b6de-49931585cfb2",
+    "1ac82b47-408f-467c-9a66-de46adfa8381",
+    "ed6d2bcf-7abd-4c51-a31b-1fe9a481f392",
+    "f5cafb80-64c2-42af-86f9-78fc96f4af31",
+    "6a128f8b-0519-4b74-a151-03384598bc5a",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }
