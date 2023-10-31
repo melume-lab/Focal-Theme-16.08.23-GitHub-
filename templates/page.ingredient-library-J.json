@@ -1,1 +1,148 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"19069805-86db-41da-a417-6e8af1e59e1b":{"type":"MS_text-carousel","blocks":{"dec42aa7-73c8-45bb-a48d-4dec506aea50":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Jojoba seeds<\/p>","html":"","subheading":""}},"65d7184d-2a4a-4c7d-a65a-4fde320b590d":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"add2f942-4c07-4055-851d-96c1489964df":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>An emollient extracted from the seeds of a perennial shrub is a rich source of numerous fatty acids and antioxidants. It enhances the skin's restorative properties and provides topical skin-soothing benefits. The texture of Simmondsia Chinensis (jojoba) seed oil is similar to the sebum (oil) human skin produces, which makes it a brilliant ingredient for dry skin. Moisturizing the skin in two ways: Mixed with skin sebum, it forms a thin, non-greasy, semi-occlusive layer; and it soaks into the skin through pores and hair follicles, then diffuses into the intercellular spaces of the outer layer of the skin to make it soft and supple.<\/p>","html":"","subheading":""}}},"block_order":["dec42aa7-73c8-45bb-a48d-4dec506aea50","65d7184d-2a4a-4c7d-a65a-4fde320b590d","add2f942-4c07-4055-851d-96c1489964df"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Jojoba Oil","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","19069805-86db-41da-a417-6e8af1e59e1b"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "19069805-86db-41da-a417-6e8af1e59e1b": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "dec42aa7-73c8-45bb-a48d-4dec506aea50": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Jojoba seeds<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "65d7184d-2a4a-4c7d-a65a-4fde320b590d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "add2f942-4c07-4055-851d-96c1489964df": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>An emollient extracted from the seeds of a perennial shrub is a rich source of numerous fatty acids and antioxidants. It enhances the skin's restorative properties and provides topical skin-soothing benefits. The texture of Simmondsia Chinensis (jojoba) seed oil is similar to the sebum (oil) human skin produces, which makes it a brilliant ingredient for dry skin. Moisturizing the skin in two ways: Mixed with skin sebum, it forms a thin, non-greasy, semi-occlusive layer; and it soaks into the skin through pores and hair follicles, then diffuses into the intercellular spaces of the outer layer of the skin to make it soft and supple.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "dec42aa7-73c8-45bb-a48d-4dec506aea50",
+        "65d7184d-2a4a-4c7d-a65a-4fde320b590d",
+        "add2f942-4c07-4055-851d-96c1489964df"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Jojoba Oil",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "19069805-86db-41da-a417-6e8af1e59e1b"
+  ]
+}
