@@ -1,1 +1,403 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"4b954ea0-1c17-4211-beb6-1a54dd26901e":{"type":"MS_text-carousel","blocks":{"a29f8acd-894f-42cf-ad0f-fd5b0fed2a55":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"d4272deb-e96b-4062-97b0-dbbbd7975c4f":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"5f401017-6412-4804-9e83-8a8bb20b6e09":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>An oil-soluble, exceptionally stable Vitamin C ester that can absorb faster and penetrate further into the skin because the fatty acids have a greater affinity to the skin. There they act together with vitamin E (tocopherol), which naturally occurs in the skin to target the skin's underlying support system via a different pathway than water-soluble ascorbic acid.<br\/>A powerful antioxidant that neutralizes free radicals and migrates the effects of UV exposure.<br\/>Boosts collagen production to reduce lines and wrinkles, and skin sagging. <br\/>Effectively brightens dull, uneven skin by inhibiting melanogenesis (pigment production) and reduces dark spots and discolorations. It repairs the effects of UV exposure, demonstrates anti-inflammatory effects in acne, and visibly improves enlarged pores and texture.<\/p>","html":"","subheading":""}}},"block_order":["a29f8acd-894f-42cf-ad0f-fd5b0fed2a55","d4272deb-e96b-4062-97b0-dbbbd7975c4f","5f401017-6412-4804-9e83-8a8bb20b6e09"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Tetrahexyldecyl Ascorbate","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"1d51c72f-8cd4-4b19-957b-3d2c3e37b5d3":{"type":"MS_text-carousel","blocks":{"fee7be18-7832-402a-9b3e-564ec5f398a2":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"f84593d1-0820-4dec-bf10-78e31f5e61e0":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"fd18e96d-26d3-4161-ac07-39798f179969":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Fades discolorations, including stubborn dark spots and gray patches, help to reduce sensitivity-induced redness in the skin.<br\/>Also suitable for melasma-prone skin and rivals the results of over-the-counter concentrations of hydroquinone.<\/p>","html":"","subheading":""}}},"block_order":["fee7be18-7832-402a-9b3e-564ec5f398a2","f84593d1-0820-4dec-bf10-78e31f5e61e0","fd18e96d-26d3-4161-ac07-39798f179969"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Tranexamic Acid","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"226e1b6e-f8ae-44e0-85f6-26c6e9c37f43":{"type":"MS_text-carousel","blocks":{"0d63a3a5-97ac-4fd0-bcda-e62393d1a321":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"aadb77a6-2f38-4f2c-b0e2-dc0954d5aa6f":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"965c2bd7-e246-4de7-b570-64628b167b09":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>A high dose of oil-soluble, exceptionally stable Vitamin C ester that can absorb faster and penetrate further into the skin because the fatty acids have a greater affinity to the skin. There they act together with vitamin E (tocopherol), which naturally occurs in the skin to target the skin's underlying support system via a different pathway than water-soluble ascorbic acid.<br\/>A powerful antioxidant that neutralizes free radicals and migrates the effects of UV exposure.<br\/>Boosts collagen production to reduce lines and wrinkles, and skin sagging. <br\/>Effectively brightens dull, uneven skin by inhibiting melanogenesis (pigment production), reducing stubborn dark spots, discoloration, and post-acne hyperpigmentation. It repairs the effects of UV exposure, demonstrates anti-inflammatory effects in acne, and visibly improves enlarged pores and texture.<\/p>","html":"","subheading":""}}},"block_order":["0d63a3a5-97ac-4fd0-bcda-e62393d1a321","aadb77a6-2f38-4f2c-b0e2-dc0954d5aa6f","965c2bd7-e246-4de7-b570-64628b167b09"],"settings":{"borderbottom":true,"underline":true,"maintitle":"25% Tetrahexyldecyl Ascorbate (thd)","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"e93e10c4-a597-4582-9675-bba2c5435d1f":{"type":"MS_text-carousel","blocks":{"ea5bfc83-84da-4cf0-be16-dc1828446da0":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"0381378c-e1b5-4c81-9750-de89a61d45e1":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"0b9aa6e8-e87f-44d3-bff4-3d9d6b7fa3ec":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Tetrasodium glutamate diacetate helps to bind and remove heavy metal ions, such as iron and copper, from the formula, improving stability and preventing discoloration. It can also enhance the effectiveness of preservatives.<\/p>","html":"","subheading":""}}},"block_order":["ea5bfc83-84da-4cf0-be16-dc1828446da0","0381378c-e1b5-4c81-9750-de89a61d45e1","0b9aa6e8-e87f-44d3-bff4-3d9d6b7fa3ec"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Tetrasodium Glutamate Diacetate","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"3d069343-a42e-443a-ac9f-2f6234e238a4":{"type":"MS_text-carousel","blocks":{"5f9e1c9b-53f3-42b1-95dc-b7fd8fe43b48":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Coconut Oil, Botanical Oil<\/p>","html":"","subheading":""}},"6cc8aed7-d4a8-4466-99c8-b196292c8890":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"31c97807-752d-4d37-b4fa-f6c7ed4e633e":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Tridecane is a natural emollient and solvent: It has a lightweight texture and is easily absorbed into your skin and it also enhances the spreadability and texture of products, helping them to glide smoothly over your skin.<\/p>","html":"","subheading":""}}},"block_order":["5f9e1c9b-53f3-42b1-95dc-b7fd8fe43b48","6cc8aed7-d4a8-4466-99c8-b196292c8890","31c97807-752d-4d37-b4fa-f6c7ed4e633e"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Tridecane","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","4b954ea0-1c17-4211-beb6-1a54dd26901e","1d51c72f-8cd4-4b19-957b-3d2c3e37b5d3","226e1b6e-f8ae-44e0-85f6-26c6e9c37f43","e93e10c4-a597-4582-9675-bba2c5435d1f","3d069343-a42e-443a-ac9f-2f6234e238a4"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "4b954ea0-1c17-4211-beb6-1a54dd26901e": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a29f8acd-894f-42cf-ad0f-fd5b0fed2a55": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "d4272deb-e96b-4062-97b0-dbbbd7975c4f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "5f401017-6412-4804-9e83-8a8bb20b6e09": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>An oil-soluble, exceptionally stable Vitamin C ester that can absorb faster and penetrate further into the skin because the fatty acids have a greater affinity to the skin. There they act together with vitamin E (tocopherol), which naturally occurs in the skin to target the skin's underlying support system via a different pathway than water-soluble ascorbic acid.<br\/>A powerful antioxidant that neutralizes free radicals and migrates the effects of UV exposure.<br\/>Boosts collagen production to reduce lines and wrinkles, and skin sagging. <br\/>Effectively brightens dull, uneven skin by inhibiting melanogenesis (pigment production) and reduces dark spots and discolorations. It repairs the effects of UV exposure, demonstrates anti-inflammatory effects in acne, and visibly improves enlarged pores and texture.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a29f8acd-894f-42cf-ad0f-fd5b0fed2a55",
+        "d4272deb-e96b-4062-97b0-dbbbd7975c4f",
+        "5f401017-6412-4804-9e83-8a8bb20b6e09"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Tetrahexyldecyl Ascorbate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1d51c72f-8cd4-4b19-957b-3d2c3e37b5d3": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "fee7be18-7832-402a-9b3e-564ec5f398a2": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "f84593d1-0820-4dec-bf10-78e31f5e61e0": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "fd18e96d-26d3-4161-ac07-39798f179969": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Fades discolorations, including stubborn dark spots and gray patches, help to reduce sensitivity-induced redness in the skin.<br\/>Also suitable for melasma-prone skin and rivals the results of over-the-counter concentrations of hydroquinone.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "fee7be18-7832-402a-9b3e-564ec5f398a2",
+        "f84593d1-0820-4dec-bf10-78e31f5e61e0",
+        "fd18e96d-26d3-4161-ac07-39798f179969"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Tranexamic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "226e1b6e-f8ae-44e0-85f6-26c6e9c37f43": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "0d63a3a5-97ac-4fd0-bcda-e62393d1a321": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "aadb77a6-2f38-4f2c-b0e2-dc0954d5aa6f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "965c2bd7-e246-4de7-b570-64628b167b09": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>A high dose of oil-soluble, exceptionally stable Vitamin C ester that can absorb faster and penetrate further into the skin because the fatty acids have a greater affinity to the skin. There they act together with vitamin E (tocopherol), which naturally occurs in the skin to target the skin's underlying support system via a different pathway than water-soluble ascorbic acid.<br\/>A powerful antioxidant that neutralizes free radicals and migrates the effects of UV exposure.<br\/>Boosts collagen production to reduce lines and wrinkles, and skin sagging. <br\/>Effectively brightens dull, uneven skin by inhibiting melanogenesis (pigment production), reducing stubborn dark spots, discoloration, and post-acne hyperpigmentation. It repairs the effects of UV exposure, demonstrates anti-inflammatory effects in acne, and visibly improves enlarged pores and texture.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "0d63a3a5-97ac-4fd0-bcda-e62393d1a321",
+        "aadb77a6-2f38-4f2c-b0e2-dc0954d5aa6f",
+        "965c2bd7-e246-4de7-b570-64628b167b09"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "25% Tetrahexyldecyl Ascorbate (thd)",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e93e10c4-a597-4582-9675-bba2c5435d1f": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "ea5bfc83-84da-4cf0-be16-dc1828446da0": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "0381378c-e1b5-4c81-9750-de89a61d45e1": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "0b9aa6e8-e87f-44d3-bff4-3d9d6b7fa3ec": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Tetrasodium glutamate diacetate helps to bind and remove heavy metal ions, such as iron and copper, from the formula, improving stability and preventing discoloration. It can also enhance the effectiveness of preservatives.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea5bfc83-84da-4cf0-be16-dc1828446da0",
+        "0381378c-e1b5-4c81-9750-de89a61d45e1",
+        "0b9aa6e8-e87f-44d3-bff4-3d9d6b7fa3ec"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Tetrasodium Glutamate Diacetate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3d069343-a42e-443a-ac9f-2f6234e238a4": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "5f9e1c9b-53f3-42b1-95dc-b7fd8fe43b48": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Coconut Oil, Botanical Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "6cc8aed7-d4a8-4466-99c8-b196292c8890": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "31c97807-752d-4d37-b4fa-f6c7ed4e633e": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Tridecane is a natural emollient and solvent: It has a lightweight texture and is easily absorbed into your skin and it also enhances the spreadability and texture of products, helping them to glide smoothly over your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "5f9e1c9b-53f3-42b1-95dc-b7fd8fe43b48",
+        "6cc8aed7-d4a8-4466-99c8-b196292c8890",
+        "31c97807-752d-4d37-b4fa-f6c7ed4e633e"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Tridecane",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "23bd40c7-b977-4b54-8adb-84a20e43a095": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "6825660c-caf3-4605-8c92-b86e9bcd1c14": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Wheat germ oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "df135890-bd22-40e4-9428-c75ce76f27aa": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "117e8b5b-3854-4e01-9ad4-068de90b7ce8": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Triticum vulgare germ oil, also known as wheat germ oil, is a natural nourishing and moisturizing ingredient. It is rich in vitamin E, which is a potent antioxidant that helps to protect your skin from environmental stressors and promotes healthy cell turnover. Additionally, wheat germ oil contains fatty acids that improve skin hydration.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "6825660c-caf3-4605-8c92-b86e9bcd1c14",
+        "df135890-bd22-40e4-9428-c75ce76f27aa",
+        "117e8b5b-3854-4e01-9ad4-068de90b7ce8"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Triticum vulgare germ oil",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "4b954ea0-1c17-4211-beb6-1a54dd26901e",
+    "1d51c72f-8cd4-4b19-957b-3d2c3e37b5d3",
+    "226e1b6e-f8ae-44e0-85f6-26c6e9c37f43",
+    "e93e10c4-a597-4582-9675-bba2c5435d1f",
+    "3d069343-a42e-443a-ac9f-2f6234e238a4",
+    "23bd40c7-b977-4b54-8adb-84a20e43a095"
+  ]
+}
