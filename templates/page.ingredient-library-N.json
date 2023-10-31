@@ -1,1 +1,148 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"4802a1c8-a423-4cf4-ac5a-2e0ad14f576d":{"type":"MS_text-carousel","blocks":{"71cb63b8-78a7-4c28-a9a7-92212f4054d7":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"10645fb0-80d8-4868-8485-c5e0c566db42":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"51a71e1b-ad40-449e-b6ad-1aa991b8a049":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>A high concentration of Niacinamide (Vitamin B3) Niacid forces gathered melanin pigment (dark spots) to separate and break free from a single area of the hyper pigmentated skin. Its whitening properties work excellently for post-acne discoloration, spots, and melasma.<br\/>It works to gently tighten dilated small blood vessels while simultaneously calming redness stemming from Red or purplish blotches (post-inflammatory erythema).<br\/>Niacinamide showed no side effects and is recognized as safe.<br\/>Inflammation induces the breakdown of underlying skin tissues resulting in an anthropic scar (indentation). Niacid directs the correct assembly of the skin's extracellular matrix (ECM) by forming new tissues where there is loss - resulting in a decreased depth of indentations. In addition, Niacid exfoliates the surface to stimulate the growth of new skin cells to boost tissue formation.<br\/>It is developed to reconstruct broken-down tissue, regularize the skin's surface, and correct persistent scars and their visibility. Niacinamide also reduces sebum production and pore size.<br\/>Because it stimulates the synthesis of collagen, helps maintain the skin's firmness and smoothness, improves elasticity, and reduces the appearance of lines and wrinkles.<br\/>Builds a robust epidermal barrier and provides a blemish-free, shine-free, refined, well-moisturized skin appearance.  <br\/>Niacinamide effectively tackles UV damage by protecting and repairing UV-stressed skin.<br\/>Shows significant protection against blue light-induced DNA damage and counteracts urban pollutants and waterborne arsenic damage.<\/p>","html":"","subheading":""}}},"block_order":["71cb63b8-78a7-4c28-a9a7-92212f4054d7","10645fb0-80d8-4868-8485-c5e0c566db42","51a71e1b-ad40-449e-b6ad-1aa991b8a049"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Niacinamide","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","4802a1c8-a423-4cf4-ac5a-2e0ad14f576d"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "4802a1c8-a423-4cf4-ac5a-2e0ad14f576d": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "71cb63b8-78a7-4c28-a9a7-92212f4054d7": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "10645fb0-80d8-4868-8485-c5e0c566db42": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "51a71e1b-ad40-449e-b6ad-1aa991b8a049": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>A high concentration of Niacinamide (Vitamin B3) Niacid forces gathered melanin pigment (dark spots) to separate and break free from a single area of the hyper pigmentated skin. Its whitening properties work excellently for post-acne discoloration, spots, and melasma.<br\/>It works to gently tighten dilated small blood vessels while simultaneously calming redness stemming from Red or purplish blotches (post-inflammatory erythema).<br\/>Niacinamide showed no side effects and is recognized as safe.<br\/>Inflammation induces the breakdown of underlying skin tissues resulting in an anthropic scar (indentation). Niacid directs the correct assembly of the skin's extracellular matrix (ECM) by forming new tissues where there is loss - resulting in a decreased depth of indentations. In addition, Niacid exfoliates the surface to stimulate the growth of new skin cells to boost tissue formation.<br\/>It is developed to reconstruct broken-down tissue, regularize the skin's surface, and correct persistent scars and their visibility. Niacinamide also reduces sebum production and pore size.<br\/>Because it stimulates the synthesis of collagen, helps maintain the skin's firmness and smoothness, improves elasticity, and reduces the appearance of lines and wrinkles.<br\/>Builds a robust epidermal barrier and provides a blemish-free, shine-free, refined, well-moisturized skin appearance.  <br\/>Niacinamide effectively tackles UV damage by protecting and repairing UV-stressed skin.<br\/>Shows significant protection against blue light-induced DNA damage and counteracts urban pollutants and waterborne arsenic damage.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "71cb63b8-78a7-4c28-a9a7-92212f4054d7",
+        "10645fb0-80d8-4868-8485-c5e0c566db42",
+        "51a71e1b-ad40-449e-b6ad-1aa991b8a049"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Niacinamide",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "4802a1c8-a423-4cf4-ac5a-2e0ad14f576d"
+  ]
+}
