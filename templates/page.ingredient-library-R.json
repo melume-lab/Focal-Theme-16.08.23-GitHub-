@@ -1,1 +1,352 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"a98e50f9-04ca-4275-a9c8-56544cdfb0d7":{"type":"MS_text-carousel","blocks":{"292e40ef-cf3a-42c3-a923-35484eb4201c":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"8c83fc59-4ee2-455f-a67e-59ff370a7dd9":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"0cecaa25-551f-4f87-b943-6c01fce0c9da":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Retinal (also known as retinaldehyde) behaves similarly to the better-known retinol but is much more stable and effective. When the body does not use vitamin A, it is stored within the skin cells as retinyl esters. Once the skin is ready to metabolize vitamin A, these esters are converted to retinol and then to retinaldehyde before ultimately becoming retinoic acid that is utilized by the skin.<br\/>That's why all variations of vitamin A, including retinol and retinal, must be converted to retinoic acid before they can take effect. Retinol must be metabolized to retinal and then to retinoic acid, whereas retinal only requires one conversion to retinoic acid. Crucially, this last step is extremely rapid compared to the previous conversions, which is why Retinal can provide such quick results (up to 11 times faster) than retinol. In addition, retinal has a much higher exfoliation rate than retinol to reduce skin roughness and increase dermal thickness, collagen strength, and new collagen fibers.<br\/>These benefits can be delivered without the skin irritation effects often accompanying retinoic acid.<\/p>","html":"","subheading":""}}},"block_order":["292e40ef-cf3a-42c3-a923-35484eb4201c","8c83fc59-4ee2-455f-a67e-59ff370a7dd9","0cecaa25-551f-4f87-b943-6c01fce0c9da"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Retinal","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"0fd2357b-8918-4834-98f3-cfdeb2bc0a30":{"type":"MS_text-carousel","blocks":{"8052fd0a-3d36-4d61-9205-bb1dca517732":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Rosehip<\/p>","html":"","subheading":""}},"ef12f4f4-991e-4844-995d-a9b2fbb62706":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"288bdf77-f2e9-48b1-afe4-dca569043abd":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Rosa Canina Seed Extract is a natural extract with anti-inflammatory and antioxidant properties. It is rich in essential fatty acids, vitamins, and minerals that help to soothe and protect your skin from environmental stressors. It also improves your skin hydration and texture.<\/p>","html":"","subheading":""}}},"block_order":["8052fd0a-3d36-4d61-9205-bb1dca517732","ef12f4f4-991e-4844-995d-a9b2fbb62706","288bdf77-f2e9-48b1-afe4-dca569043abd"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Rosa Canina Seed Extract","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","a98e50f9-04ca-4275-a9c8-56544cdfb0d7","0fd2357b-8918-4834-98f3-cfdeb2bc0a30"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "a98e50f9-04ca-4275-a9c8-56544cdfb0d7": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "292e40ef-cf3a-42c3-a923-35484eb4201c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "8c83fc59-4ee2-455f-a67e-59ff370a7dd9": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "0cecaa25-551f-4f87-b943-6c01fce0c9da": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Retinal (also known as retinaldehyde) behaves similarly to the better-known retinol but is much more stable and effective. When the body does not use vitamin A, it is stored within the skin cells as retinyl esters. Once the skin is ready to metabolize vitamin A, these esters are converted to retinol and then to retinaldehyde before ultimately becoming retinoic acid that is utilized by the skin.<br\/>That's why all variations of vitamin A, including retinol and retinal, must be converted to retinoic acid before they can take effect. Retinol must be metabolized to retinal and then to retinoic acid, whereas retinal only requires one conversion to retinoic acid. Crucially, this last step is extremely rapid compared to the previous conversions, which is why Retinal can provide such quick results (up to 11 times faster) than retinol. In addition, retinal has a much higher exfoliation rate than retinol to reduce skin roughness and increase dermal thickness, collagen strength, and new collagen fibers.<br\/>These benefits can be delivered without the skin irritation effects often accompanying retinoic acid.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "292e40ef-cf3a-42c3-a923-35484eb4201c",
+        "8c83fc59-4ee2-455f-a67e-59ff370a7dd9",
+        "0cecaa25-551f-4f87-b943-6c01fce0c9da"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Retinal",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0fd2357b-8918-4834-98f3-cfdeb2bc0a30": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "8052fd0a-3d36-4d61-9205-bb1dca517732": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Rosehip<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ef12f4f4-991e-4844-995d-a9b2fbb62706": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "288bdf77-f2e9-48b1-afe4-dca569043abd": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Rosa Canina Seed Extract is a natural extract with anti-inflammatory and antioxidant properties. It is rich in essential fatty acids, vitamins, and minerals that help to soothe and protect your skin from environmental stressors. It also improves your skin hydration and texture.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "8052fd0a-3d36-4d61-9205-bb1dca517732",
+        "ef12f4f4-991e-4844-995d-a9b2fbb62706",
+        "288bdf77-f2e9-48b1-afe4-dca569043abd"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Rosa Canina Seed Extract",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "14623a29-fcc2-482e-8786-ffad4832f5c7": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "9fd7215b-fcbf-4931-a16b-55a704c36be5": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Rosehip<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "dbb83387-1a01-4ee2-b7c7-aae0dd35201a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "629ba0b9-ce37-4200-a04c-94552382382c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Rosehip oil is a natural moisturizing and nourishing oil: It is rich in essential fatty acids, antioxidants, and vitamins that help to hydrate and protect your skin from damage caused by free radicals. Rosehip oil can improve skin texture, tone, and radiance.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "9fd7215b-fcbf-4931-a16b-55a704c36be5",
+        "dbb83387-1a01-4ee2-b7c7-aae0dd35201a",
+        "629ba0b9-ce37-4200-a04c-94552382382c"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Rosehip fruit oil",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3fdea782-56cb-4c4d-b039-a14665fe1a3c": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "c447c49b-5722-4eb3-a8d0-7d54fc8c445d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Rosemary<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "b0b503b2-2301-4efc-805d-c216d766daab": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "396b3aaf-601e-42af-9d65-fadb88c3c693": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Rosmarinus Officinalis Leaf Extract, also known as rosemary extract, is a natural antioxidant and antimicrobial extract. It contains phenolic compounds that help to protect your skin from environmental stressors.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "c447c49b-5722-4eb3-a8d0-7d54fc8c445d",
+        "b0b503b2-2301-4efc-805d-c216d766daab",
+        "396b3aaf-601e-42af-9d65-fadb88c3c693"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Rosmarinus officinalis leaf extract",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6c4c6f33-096c-4086-b65a-64221bf07f98": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "d2feb950-c349-479d-aebe-d7bc119a72a4": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Raspberry leaves<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "fe093570-8ad2-42ce-ad0e-5563f22b6790": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "d2548b62-5b49-4667-b0a1-6548542ddbc1": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Rubus Idaeus Leaf Cell Culture is a plant-based anti-aging ingredient. It is derived from raspberry leaves and contains plant stem cells that can stimulate your collagen production and reduce the appearance of fine lines and wrinkles.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "d2feb950-c349-479d-aebe-d7bc119a72a4",
+        "fe093570-8ad2-42ce-ad0e-5563f22b6790",
+        "d2548b62-5b49-4667-b0a1-6548542ddbc1"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Rubus idaeus leaf cell culture",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "a98e50f9-04ca-4275-a9c8-56544cdfb0d7",
+    "0fd2357b-8918-4834-98f3-cfdeb2bc0a30",
+    "14623a29-fcc2-482e-8786-ffad4832f5c7",
+    "3fdea782-56cb-4c4d-b039-a14665fe1a3c",
+    "6c4c6f33-096c-4086-b65a-64221bf07f98"
+  ]
+}
