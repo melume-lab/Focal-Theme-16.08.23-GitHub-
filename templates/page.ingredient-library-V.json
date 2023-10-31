@@ -1,1 +1,199 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"4b954ea0-1c17-4211-beb6-1a54dd26901e":{"type":"MS_text-carousel","blocks":{"a29f8acd-894f-42cf-ad0f-fd5b0fed2a55":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"d4272deb-e96b-4062-97b0-dbbbd7975c4f":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"5f401017-6412-4804-9e83-8a8bb20b6e09":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Promotes skin health and hydration and helps to improve the appearance of fine lines and wrinkles. <br\/>Occurs naturally in human skin, is a potent natural antioxidant, neutralizes free radicals, and protects against photo-aging.<br\/>Has wrinkle smoothing emollient properties when applied topically and can penetrate the skin to impart lasting moisture. It also promotes a stronger skin moisture barrier—a key characteristic of smooth, healthy-looking skin.<br\/>It increases the skin's capacity to retain water, effectively preventing dehydrated skin. By limiting trans-epidermal water loss, vitamin E also helps keep the natural moisture barrier intact.<\/p>","html":"","subheading":""}}},"block_order":["a29f8acd-894f-42cf-ad0f-fd5b0fed2a55","d4272deb-e96b-4062-97b0-dbbbd7975c4f","5f401017-6412-4804-9e83-8a8bb20b6e09"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Vitamin E","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","4b954ea0-1c17-4211-beb6-1a54dd26901e"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "4b954ea0-1c17-4211-beb6-1a54dd26901e": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a29f8acd-894f-42cf-ad0f-fd5b0fed2a55": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "d4272deb-e96b-4062-97b0-dbbbd7975c4f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "5f401017-6412-4804-9e83-8a8bb20b6e09": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Promotes skin health and hydration and helps to improve the appearance of fine lines and wrinkles. <br\/>Occurs naturally in human skin, is a potent natural antioxidant, neutralizes free radicals, and protects against photo-aging.<br\/>Has wrinkle smoothing emollient properties when applied topically and can penetrate the skin to impart lasting moisture. It also promotes a stronger skin moisture barrier—a key characteristic of smooth, healthy-looking skin.<br\/>It increases the skin's capacity to retain water, effectively preventing dehydrated skin. By limiting trans-epidermal water loss, vitamin E also helps keep the natural moisture barrier intact.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a29f8acd-894f-42cf-ad0f-fd5b0fed2a55",
+        "d4272deb-e96b-4062-97b0-dbbbd7975c4f",
+        "5f401017-6412-4804-9e83-8a8bb20b6e09"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Vitamin E",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c0b754b9-85a4-42d8-b3e6-c3c4d98d9252": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "6fb2bdae-f7e2-4261-9c36-8e68e477b050": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Grape seeds<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "7f8f681a-dbbb-4f04-9693-692692564b7c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "5e5eb096-c286-4591-8a4b-497202ad607a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Grape seed oil, is a natural nourishing and antioxidant ingredient: it is a light oil that absorbs well into the skin. The oil is rich in vitamin E, linoleic acid and other antioxidants that can protect the skin from free radical damage and promote healthy cell turnover. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "6fb2bdae-f7e2-4261-9c36-8e68e477b050",
+        "7f8f681a-dbbb-4f04-9693-692692564b7c",
+        "5e5eb096-c286-4591-8a4b-497202ad607a"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Vitis vinifera seed oil",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "4b954ea0-1c17-4211-beb6-1a54dd26901e",
+    "c0b754b9-85a4-42d8-b3e6-c3c4d98d9252"
+  ]
+}
