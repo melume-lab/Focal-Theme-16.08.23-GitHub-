@@ -1,1 +1,467 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"889db081-9096-454c-b158-4bb2ccf4d271":{"type":"MS_text-carousel","blocks":{"4c54eefa-bf0f-4a34-a3e1-c314b50224ed":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Carrot<\/p>","html":"","subheading":""}},"65a06264-58be-482f-b575-e6202c130d1a":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"3fc2a3f1-8680-459b-882a-e7767643a682":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Daucus Carota Sativa Root Extract, also known as carrot root extract, nelps to protect skin from damage caused by environmental stressors and improves its overall health and appearance. Known for containing the orange pigment beta-carotene (provitamin A).<br\/>Famous molecule for being a potent antioxidant and regenerative abilities.<br\/>Carrot oil also contains vitamin E and some fatty acids that give the oil further antioxidant and barrier-repairing properties.<\/p>","html":"","subheading":""}}},"block_order":["4c54eefa-bf0f-4a34-a3e1-c314b50224ed","65a06264-58be-482f-b575-e6202c130d1a","3fc2a3f1-8680-459b-882a-e7767643a682"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Daucus Carota Sativa Root Extract \/ Daucussativa Root Extract Provitamin A","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"797257a9-1e7b-461d-b644-4e56af060b42":{"type":"MS_text-carousel","blocks":{"db96e2c8-72f3-49d8-ac9f-113492f21275":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Botanical oil<\/p>","html":"","subheading":""}},"b9356997-5955-4953-9e87-a643f99b1f8c":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"fa86afeb-3284-4848-9ab1-19cfb983ed7e":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Decyl Oleate is a lightweight and non-greasy emollient that can moisturize and soften your skin.<\/p>","html":"","subheading":""}}},"block_order":["db96e2c8-72f3-49d8-ac9f-113492f21275","b9356997-5955-4953-9e87-a643f99b1f8c","fa86afeb-3284-4848-9ab1-19cfb983ed7e"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Decyl Oleate","maincontent":"<p><br\/><\/p>","button_text":"","button_link":"#main","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"2834118d-ad0b-4188-af9b-1f30a5fcb5e6":{"type":"MS_text-carousel","blocks":{"a02325d1-0d20-40fa-923b-e3df85247942":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"267d8fb4-8e22-491e-b366-ef5bfaf21f92":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"4229e87c-b695-494f-807e-eeb5c794d733":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Dimethyl Isosorbide is a solvent and enhancer for active ingredients: It enhances the penetration of active ingredients into your skin. <\/p>","html":"","subheading":""}}},"block_order":["a02325d1-0d20-40fa-923b-e3df85247942","267d8fb4-8e22-491e-b366-ef5bfaf21f92","4229e87c-b695-494f-807e-eeb5c794d733"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Dimethyl Isosorbide","maincontent":"<p><br\/><\/p>","button_text":"","button_link":"#main","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"12592140-75c7-4372-85b7-c306b06480fa":{"type":"MS_text-carousel","blocks":{"8934e21e-a2fa-45d6-bd1c-bb70b64f80e0":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Coconut Oil \/ Botanical Oil<\/p>","html":"","subheading":""}},"27af2e54-9bf2-448c-a8f5-167d1ac4301d":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"5fb1e973-7c67-476e-9515-76665fbdf887":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Disodium cetearyl sulfosuccinate is a surfactant\/surface active agent, made from citric acid and sodium salts. It is used as an emulsifying agent and helps to keep ingredients in suspension, or evenly distributed throughout a product.<\/p>","html":"","subheading":""}}},"block_order":["8934e21e-a2fa-45d6-bd1c-bb70b64f80e0","27af2e54-9bf2-448c-a8f5-167d1ac4301d","5fb1e973-7c67-476e-9515-76665fbdf887"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Disodium Cetearyl Sulfosuccinate","maincontent":"<p><br\/><\/p>","button_text":"","button_link":"#main","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"1d4a168c-8427-473d-abb7-c626c853bcf8":{"type":"MS_text-carousel","blocks":{"87f7ed1c-fcef-49ef-9cde-033776559a4f":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"50dc5c0a-d857-4427-9226-f609ef2543cf":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"27ea595d-bfeb-4424-ac3b-d8bbb5eb6922":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Disodium phosphate is a type of salt that is commonly used as a buffering agent.<\/p>","html":"","subheading":""}}},"block_order":["87f7ed1c-fcef-49ef-9cde-033776559a4f","50dc5c0a-d857-4427-9226-f609ef2543cf","27ea595d-bfeb-4424-ac3b-d8bbb5eb6922"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Disodium Phosphate","maincontent":"<p><br\/><\/p>","button_text":"","button_link":"#main","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"340c6bd2-fd58-4fe6-a782-409175053148":{"type":"custom-html","settings":{"subheading":"","title":"","html":"","add_vertical_spacing":true,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","889db081-9096-454c-b158-4bb2ccf4d271","797257a9-1e7b-461d-b644-4e56af060b42","2834118d-ad0b-4188-af9b-1f30a5fcb5e6","12592140-75c7-4372-85b7-c306b06480fa","1d4a168c-8427-473d-abb7-c626c853bcf8","340c6bd2-fd58-4fe6-a782-409175053148"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "889db081-9096-454c-b158-4bb2ccf4d271": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "4c54eefa-bf0f-4a34-a3e1-c314b50224ed": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Carrot<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "65a06264-58be-482f-b575-e6202c130d1a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "3fc2a3f1-8680-459b-882a-e7767643a682": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Daucus Carota Sativa Root Extract, also known as carrot root extract, nelps to protect skin from damage caused by environmental stressors and improves its overall health and appearance. Known for containing the orange pigment beta-carotene (provitamin A).<br\/>Famous molecule for being a potent antioxidant and regenerative abilities.<br\/>Carrot oil also contains vitamin E and some fatty acids that give the oil further antioxidant and barrier-repairing properties.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "4c54eefa-bf0f-4a34-a3e1-c314b50224ed",
+        "65a06264-58be-482f-b575-e6202c130d1a",
+        "3fc2a3f1-8680-459b-882a-e7767643a682"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Daucus Carota Sativa Root Extract \/ Daucussativa Root Extract Provitamin A",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "797257a9-1e7b-461d-b644-4e56af060b42": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "db96e2c8-72f3-49d8-ac9f-113492f21275": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Botanical oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "b9356997-5955-4953-9e87-a643f99b1f8c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "fa86afeb-3284-4848-9ab1-19cfb983ed7e": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Decyl Oleate is a lightweight and non-greasy emollient that can moisturize and soften your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "db96e2c8-72f3-49d8-ac9f-113492f21275",
+        "b9356997-5955-4953-9e87-a643f99b1f8c",
+        "fa86afeb-3284-4848-9ab1-19cfb983ed7e"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Decyl Oleate",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2834118d-ad0b-4188-af9b-1f30a5fcb5e6": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a02325d1-0d20-40fa-923b-e3df85247942": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "267d8fb4-8e22-491e-b366-ef5bfaf21f92": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "4229e87c-b695-494f-807e-eeb5c794d733": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Dimethyl Isosorbide is a solvent and enhancer for active ingredients: It enhances the penetration of active ingredients into your skin. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a02325d1-0d20-40fa-923b-e3df85247942",
+        "267d8fb4-8e22-491e-b366-ef5bfaf21f92",
+        "4229e87c-b695-494f-807e-eeb5c794d733"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Dimethyl Isosorbide",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "12592140-75c7-4372-85b7-c306b06480fa": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "8934e21e-a2fa-45d6-bd1c-bb70b64f80e0": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Coconut Oil \/ Botanical Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "27af2e54-9bf2-448c-a8f5-167d1ac4301d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "5fb1e973-7c67-476e-9515-76665fbdf887": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Disodium cetearyl sulfosuccinate is a surfactant\/surface active agent, made from citric acid and sodium salts. It is used as an emulsifying agent and helps to keep ingredients in suspension, or evenly distributed throughout a product.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "8934e21e-a2fa-45d6-bd1c-bb70b64f80e0",
+        "27af2e54-9bf2-448c-a8f5-167d1ac4301d",
+        "5fb1e973-7c67-476e-9515-76665fbdf887"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Disodium Cetearyl Sulfosuccinate",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1d4a168c-8427-473d-abb7-c626c853bcf8": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "87f7ed1c-fcef-49ef-9cde-033776559a4f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "50dc5c0a-d857-4427-9226-f609ef2543cf": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "27ea595d-bfeb-4424-ac3b-d8bbb5eb6922": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Disodium phosphate is a type of salt that is commonly used as a buffering agent.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "87f7ed1c-fcef-49ef-9cde-033776559a4f",
+        "50dc5c0a-d857-4427-9226-f609ef2543cf",
+        "27ea595d-bfeb-4424-ac3b-d8bbb5eb6922"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Disodium Phosphate",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "944c2b2d-824e-482a-a6ca-cea2f684e641": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "792df673-fe42-4cfe-8a50-2a54612df292": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Corn, sugar beet<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "79a8e027-b4c6-44b5-bd24-3828d03d2076": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "7c80e0b6-156f-4a86-989a-1c3e2e9a8053": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Dextran is a natural polysaccharide, derived from natural sources like corn or sugar beet. It has a high molecular weight, which allows it to form a film on your skin, helping to lock in moisture and prevent water loss.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "792df673-fe42-4cfe-8a50-2a54612df292",
+        "79a8e027-b4c6-44b5-bd24-3828d03d2076",
+        "7c80e0b6-156f-4a86-989a-1c3e2e9a8053"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Dextran",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "af2a3059-7d64-491c-a072-8fc52b2b9082": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "f1185459-319e-47b4-8f47-5bb132cc6268": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Botanical oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "f6ad6e59-daa5-4eaa-ae3e-0bc3bf48e006": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "91927f43-015e-4f2e-9701-e54e4f6439b5": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Dicaprylyl Ether is derived from coconut oil and is easily absorbed into your skin: It is used as an emollient and solvent that provides a smooth, silky texture to a product and helps to improve the spreadability of other ingredients.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "f1185459-319e-47b4-8f47-5bb132cc6268",
+        "f6ad6e59-daa5-4eaa-ae3e-0bc3bf48e006",
+        "91927f43-015e-4f2e-9701-e54e4f6439b5"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Dicaprylyl Ether",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "340c6bd2-fd58-4fe6-a782-409175053148": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "889db081-9096-454c-b158-4bb2ccf4d271",
+    "797257a9-1e7b-461d-b644-4e56af060b42",
+    "2834118d-ad0b-4188-af9b-1f30a5fcb5e6",
+    "12592140-75c7-4372-85b7-c306b06480fa",
+    "1d4a168c-8427-473d-abb7-c626c853bcf8",
+    "944c2b2d-824e-482a-a6ca-cea2f684e641",
+    "af2a3059-7d64-491c-a072-8fc52b2b9082",
+    "340c6bd2-fd58-4fe6-a782-409175053148"
+  ]
+}
