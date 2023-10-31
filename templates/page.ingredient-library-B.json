@@ -388,6 +388,156 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "23b3b2fd-3836-4f2b-9b2c-70285f76c843": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "143fa8b8-3177-482e-8810-885874ffe97f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "73cd7c6e-68f8-49a9-9af6-450d6d4fc9a8": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "a77209de-8da6-4368-bebf-c3a3a80ae0fe": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Bacillus\/Soybean Ferment Extract is a natural anti-aging ingredient. It is derived from the fermentation of soybeans and is known for its ability to boost collagen production and improve skin elasticity: Bacillus\/Soybean Ferment Extract helps to improve your overall skin texture, reduces the appearance of fine lines and wrinkles, and increases skin firmness. Additionally, it has antioxidant properties, making it effective in protecting your skin against environmental stressors.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "143fa8b8-3177-482e-8810-885874ffe97f",
+        "73cd7c6e-68f8-49a9-9af6-450d6d4fc9a8",
+        "a77209de-8da6-4368-bebf-c3a3a80ae0fe"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Bacillus\/Soybean ferment extract",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6e5ab2bf-0979-4402-9188-959ed9407b45": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "609249fd-29db-4d1e-b3f0-be477432fdbe": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ac45232b-17d6-4929-b270-0d299ca5d175": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "dcd7be9a-46e8-4487-aa36-7b98a1495ad6": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Biosaccharide Gum-1 is a natural geling agent with soothing, moisturizing, anti-aging, sensory enhancer and restructuring properties. Biosaccaride Gum-1  is a polysaccharide with a high molecular weight  obtained by bacterial<\/p><p>fermentation from vegetable substrates. Biosaccharide Gum-1 helps improving skin texture and reducing the appearance of fine lines and wrinkles. Furthermore, it calms and soothes your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "609249fd-29db-4d1e-b3f0-be477432fdbe",
+        "ac45232b-17d6-4929-b270-0d299ca5d175",
+        "dcd7be9a-46e8-4487-aa36-7b98a1495ad6"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Biosaccharide Gum-1",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "edb0cf8b-968f-47c8-beaf-c5a8ad8d10e8": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "3464f595-744c-473e-8718-f67230dbdbed": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Rapeseed<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "7795293f-45ec-45a6-8c00-737e80122072": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "b3641d92-eb54-4945-8a06-6ba7beec5403": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Behenyl Alcohol is a fatty alcohol that works  as an emollient and thickener and helps improve the texture and consistency of a product. Behenyl Alcohol is derived from natural sources such as coconut oil and is also known for its ability to hydrate and soften your skin. Additionally, it helps to reduce the greasiness of other ingredients in the formula, making it effective in creating a lightweight, non-greasy finish. Free from ethanol\/alcohol.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "3464f595-744c-473e-8718-f67230dbdbed",
+        "7795293f-45ec-45a6-8c00-737e80122072",
+        "b3641d92-eb54-4945-8a06-6ba7beec5403"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Behenyl Alcohol",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -411,6 +561,9 @@
     "c73b75f3-f36b-4c8e-9d40-ccce186b9c4d",
     "74f85e8e-7d8a-426c-828d-e2b864c249f2",
     "4517fe31-8635-4687-9ce3-50265b0a3cf4",
+    "23b3b2fd-3836-4f2b-9b2c-70285f76c843",
+    "6e5ab2bf-0979-4402-9188-959ed9407b45",
+    "edb0cf8b-968f-47c8-beaf-c5a8ad8d10e8",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }
