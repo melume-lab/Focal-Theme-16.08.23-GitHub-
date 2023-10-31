@@ -1,1 +1,556 @@
-{"sections":{"dc635d58-2436-44bd-9043-fb9cfd72abbe":{"type":"custom-html","custom_css":["h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"],"settings":{"subheading":"The library is currently updated daily - stay tuned","title":"Ingredients A-Z","html":"","add_vertical_spacing":false,"background_type":"full_width","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"cf2d2083-a475-417b-889b-d69101817744":{"type":"ABC-links","custom_css":[".link--animated::after {bottom: 0px;}",".link-bar__link-item {font-size: 25px;}",".link-bar {box-shadow: none; margin-top: 20px;}",".link-bar__linklist {padding: 0px;}",".custom-container {border-bottom: 0px; margin-top: 20px;}"],"settings":{"subheading":"","a_name":"A","a":"shopify:\/\/pages\/ingredient-library","b_name":"B","b":"shopify:\/\/pages\/ingredient-library-2","c_name":"C","c":"shopify:\/\/pages\/ingredient-library-3","d_name":"D","d":"shopify:\/\/pages\/ingredient-library-d","e_name":"E","e":"shopify:\/\/pages\/ingredient-library-e","f_name":"F","f":"shopify:\/\/pages\/ingredient-library-f","g_name":"G","g":"shopify:\/\/pages\/ingredient-library-g","h_name":"H","h":"shopify:\/\/pages\/ingredient-library-h","i_name":"I","i":"","j_name":"J","j":"shopify:\/\/pages\/ingredient-library-j","k_name":"K","k":"","l_name":"L","l":"shopify:\/\/pages\/ingredient-library-l","m_name":"M","m":"shopify:\/\/pages\/ingredient-library-m","n_name":"N","n":"shopify:\/\/pages\/ingredient-library-n","o_name":"O","o":"shopify:\/\/pages\/ingredient-library-o","p_name":"P","p":"shopify:\/\/pages\/ingredient-library-p","q_name":"Q","q":"","r_name":"R","r":"shopify:\/\/pages\/ingredient-library-r","s_name":"S","s":"shopify:\/\/pages\/ingredient-library-s","t_name":"T","t":"shopify:\/\/pages\/ingredient-library-t","u_name":"U","u":"shopify:\/\/pages\/ingredient-library-u","v_name":"V","v":"shopify:\/\/pages\/ingredient-library-v","w_name":"W","w":"","x_name":"X","x":"shopify:\/\/pages\/ingredient-library-x","y_name":"Y","y":"","z_name":"Z","z":"shopify:\/\/pages\/ingredient-library-z"}},"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"large"}},"4b954ea0-1c17-4211-beb6-1a54dd26901e":{"type":"MS_text-carousel","blocks":{"a29f8acd-894f-42cf-ad0f-fd5b0fed2a55":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"d4272deb-e96b-4062-97b0-dbbbd7975c4f":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"5f401017-6412-4804-9e83-8a8bb20b6e09":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>A potent peptide that boosts 6 essential skin-rebuilding macromolecules, proteins, and glycosaminoglycans. It evens skin relief and smooths wrinkles from the inside by rebuilding the skin where needed.<br\/>Collagen I – constitutes the most abundant amount of collagen in the tissues (approx 30%) and overall in the dermis (80%). The collagen molecules auto-assemble one another to form the characteristic fibers of the tissues. Collagen I makes up the crosslinked structure that can resist the skin's various physical stresses.<br\/>Collagen III – known as the collagen of youth, collagen III is produced during the early phases of wound healing. It is thought to be partly responsible for skin smoothness.<br\/>Fibronectin – are multi-adhesive soluble proteins that help attach cells to the various types of collagen. They also have an essential function in cell migration and differentiation.<br\/>Hyaluronic Acid is a critical component responsible for water retention in the tissue and regulating cell proliferation and wound healing.<br\/>Collagen IV – is an anchorage protein (also a part of Laminin-5 – see below) found at the base of the membrane, at the interface of the extracellular matrix of the dermis, and the basal layer cells.<br\/>Laminin-5 – is an adhesive glycoprotein involved in the regeneration of the damaged dermis.<br\/>It is a high-tech component that profoundly reduces wrinkles by rebuilding the skin where it is most needed.<\/p>","html":"","subheading":""}}},"block_order":["a29f8acd-894f-42cf-ad0f-fd5b0fed2a55","d4272deb-e96b-4062-97b0-dbbbd7975c4f","5f401017-6412-4804-9e83-8a8bb20b6e09"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Matrixyl Synthe 6","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"e053191d-d4b6-4f27-9c4b-a1cec79a40b3":{"type":"MS_text-carousel","blocks":{"b3df0f07-c6ce-4bc7-be3c-cc77cf34b10a":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"e165b07b-dcb4-47ad-ae13-db60a00a379d":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"51996150-1c62-4ad7-b8e8-7663cfddea55":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Sodium Hyaluronate Low Molekular 400-1000kDalton High Molecular Weight Hyaluronic Acid 1500-1800 kDalton: Strong hydrating and anti-aging properties: penetrates the skin easily on all deep and upper layers and helps to reduce the appearance of fine lines and wrinkles. Plumps and moisturizes. <\/p>","html":"","subheading":""}}},"block_order":["b3df0f07-c6ce-4bc7-be3c-cc77cf34b10a","e165b07b-dcb4-47ad-ae13-db60a00a379d","51996150-1c62-4ad7-b8e8-7663cfddea55"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Multi Hyaluronic Acid","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"797257a9-1e7b-461d-b644-4e56af060b42":{"type":"MS_text-carousel","blocks":{"db96e2c8-72f3-49d8-ac9f-113492f21275":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Botanical Oil, Castor Oil<\/p>","html":"","subheading":""}},"b9356997-5955-4953-9e87-a643f99b1f8c":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"fa86afeb-3284-4848-9ab1-19cfb983ed7e":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Methylheptylglycerin is a preservative booster and skin-conditioning agent: It helps to prevent the growth of bacteria and fungi, extending the shelf life. <\/p>","html":"","subheading":""}}},"block_order":["db96e2c8-72f3-49d8-ac9f-113492f21275","b9356997-5955-4953-9e87-a643f99b1f8c","fa86afeb-3284-4848-9ab1-19cfb983ed7e"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Methylheptylglycerin","maincontent":"","button_text":"","button_link":"#main","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"9dde537e-d9e0-46e3-9a07-c36285e007a1":{"type":"MS_text-carousel","blocks":{"969e951d-1188-40ac-9947-57bcb022c42f":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Grain<\/p>","html":"","subheading":""}},"f2718294-63cd-4e41-8e2d-eda821435d46":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"edd3e58f-a687-415b-ac4f-21c6599a0973":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Maltodextrin is a sugar derived from starch that is used as a carrier substance for extracts or actives.<\/p>","html":"","subheading":""}}},"block_order":["969e951d-1188-40ac-9947-57bcb022c42f","f2718294-63cd-4e41-8e2d-eda821435d46","edd3e58f-a687-415b-ac4f-21c6599a0973"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Maltodextrin","maincontent":"","button_text":"","button_link":"#main","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}},"5f2abbb6-9004-4ecd-a96f-1de8eccc06a7":{"type":"MS_text-carousel","blocks":{"977d8b08-f93e-4eac-a322-2548139caa03":{"type":"item","settings":{"icontitle":"SOURCE","title":"","content":"<p>Synthetic<\/p>","html":"","subheading":""}},"3a2a0c11-59f6-42bf-b12d-4913e66fbdd0":{"type":"item","settings":{"icontitle":"CATEGORY","title":"","content":"","html":"<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>","subheading":""}},"3d30f84a-622d-400a-a571-d4ca6c2e8c53":{"type":"item","settings":{"icontitle":"WHAT IT DOES","title":"","content":"<p>Methylpropanediol is a solvent: It helps to dissolve and mix other ingredients in a formula, ensuring they are evenly distributed. <\/p>","html":"","subheading":""}}},"block_order":["977d8b08-f93e-4eac-a322-2548139caa03","3a2a0c11-59f6-42bf-b12d-4913e66fbdd0","3d30f84a-622d-400a-a571-d4ca6c2e8c53"],"settings":{"borderbottom":true,"underline":true,"maintitle":"Methylpropanediol","maincontent":"","button_text":"","button_link":"","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["dc635d58-2436-44bd-9043-fb9cfd72abbe","cf2d2083-a475-417b-889b-d69101817744","main","4b954ea0-1c17-4211-beb6-1a54dd26901e","e053191d-d4b6-4f27-9c4b-a1cec79a40b3","797257a9-1e7b-461d-b644-4e56af060b42","9dde537e-d9e0-46e3-9a07-c36285e007a1","5f2abbb6-9004-4ecd-a96f-1de8eccc06a7"]}
+{
+  "sections": {
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
+      "type": "custom-html",
+      "custom_css": [
+        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+      ],
+      "settings": {
+        "subheading": "The library is currently updated daily - stay tuned",
+        "title": "Ingredients A-Z",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cf2d2083-a475-417b-889b-d69101817744": {
+      "type": "ABC-links",
+      "custom_css": [
+        ".link--animated::after {bottom: 0px;}",
+        ".link-bar__link-item {font-size: 25px;}",
+        ".link-bar {box-shadow: none; margin-top: 20px;}",
+        ".link-bar__linklist {padding: 0px;}",
+        ".custom-container {border-bottom: 0px; margin-top: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "a_name": "A",
+        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "b_name": "B",
+        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "c_name": "C",
+        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "d_name": "D",
+        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "e_name": "E",
+        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "f_name": "F",
+        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "g_name": "G",
+        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "h_name": "H",
+        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "i_name": "I",
+        "i": "",
+        "j_name": "J",
+        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "k_name": "K",
+        "k": "",
+        "l_name": "L",
+        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "m_name": "M",
+        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "n_name": "N",
+        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "o_name": "O",
+        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "p_name": "P",
+        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "q_name": "Q",
+        "q": "",
+        "r_name": "R",
+        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "s_name": "S",
+        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "t_name": "T",
+        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "u_name": "U",
+        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "v_name": "V",
+        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "w_name": "W",
+        "w": "",
+        "x_name": "X",
+        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "y_name": "Y",
+        "y": "",
+        "z_name": "Z",
+        "z": "shopify:\/\/pages\/ingredient-library-z"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "4b954ea0-1c17-4211-beb6-1a54dd26901e": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "a29f8acd-894f-42cf-ad0f-fd5b0fed2a55": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "d4272deb-e96b-4062-97b0-dbbbd7975c4f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "5f401017-6412-4804-9e83-8a8bb20b6e09": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>A potent peptide that boosts 6 essential skin-rebuilding macromolecules, proteins, and glycosaminoglycans. It evens skin relief and smooths wrinkles from the inside by rebuilding the skin where needed.<br\/>Collagen I – constitutes the most abundant amount of collagen in the tissues (approx 30%) and overall in the dermis (80%). The collagen molecules auto-assemble one another to form the characteristic fibers of the tissues. Collagen I makes up the crosslinked structure that can resist the skin's various physical stresses.<br\/>Collagen III – known as the collagen of youth, collagen III is produced during the early phases of wound healing. It is thought to be partly responsible for skin smoothness.<br\/>Fibronectin – are multi-adhesive soluble proteins that help attach cells to the various types of collagen. They also have an essential function in cell migration and differentiation.<br\/>Hyaluronic Acid is a critical component responsible for water retention in the tissue and regulating cell proliferation and wound healing.<br\/>Collagen IV – is an anchorage protein (also a part of Laminin-5 – see below) found at the base of the membrane, at the interface of the extracellular matrix of the dermis, and the basal layer cells.<br\/>Laminin-5 – is an adhesive glycoprotein involved in the regeneration of the damaged dermis.<br\/>It is a high-tech component that profoundly reduces wrinkles by rebuilding the skin where it is most needed.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "a29f8acd-894f-42cf-ad0f-fd5b0fed2a55",
+        "d4272deb-e96b-4062-97b0-dbbbd7975c4f",
+        "5f401017-6412-4804-9e83-8a8bb20b6e09"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Matrixyl Synthe 6",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e053191d-d4b6-4f27-9c4b-a1cec79a40b3": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "b3df0f07-c6ce-4bc7-be3c-cc77cf34b10a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "e165b07b-dcb4-47ad-ae13-db60a00a379d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "51996150-1c62-4ad7-b8e8-7663cfddea55": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Sodium Hyaluronate Low Molekular 400-1000kDalton High Molecular Weight Hyaluronic Acid 1500-1800 kDalton: Strong hydrating and anti-aging properties: penetrates the skin easily on all deep and upper layers and helps to reduce the appearance of fine lines and wrinkles. Plumps and moisturizes. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "b3df0f07-c6ce-4bc7-be3c-cc77cf34b10a",
+        "e165b07b-dcb4-47ad-ae13-db60a00a379d",
+        "51996150-1c62-4ad7-b8e8-7663cfddea55"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Multi Hyaluronic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "797257a9-1e7b-461d-b644-4e56af060b42": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "db96e2c8-72f3-49d8-ac9f-113492f21275": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Botanical Oil, Castor Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "b9356997-5955-4953-9e87-a643f99b1f8c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "fa86afeb-3284-4848-9ab1-19cfb983ed7e": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Methylheptylglycerin is a preservative booster and skin-conditioning agent: It helps to prevent the growth of bacteria and fungi, extending the shelf life. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "db96e2c8-72f3-49d8-ac9f-113492f21275",
+        "b9356997-5955-4953-9e87-a643f99b1f8c",
+        "fa86afeb-3284-4848-9ab1-19cfb983ed7e"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Methylheptylglycerin",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "9dde537e-d9e0-46e3-9a07-c36285e007a1": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "969e951d-1188-40ac-9947-57bcb022c42f": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Grain<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "f2718294-63cd-4e41-8e2d-eda821435d46": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "edd3e58f-a687-415b-ac4f-21c6599a0973": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Maltodextrin is a sugar derived from starch that is used as a carrier substance for extracts or actives.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "969e951d-1188-40ac-9947-57bcb022c42f",
+        "f2718294-63cd-4e41-8e2d-eda821435d46",
+        "edd3e58f-a687-415b-ac4f-21c6599a0973"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Maltodextrin",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5f2abbb6-9004-4ecd-a96f-1de8eccc06a7": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "977d8b08-f93e-4eac-a322-2548139caa03": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "3a2a0c11-59f6-42bf-b12d-4913e66fbdd0": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "3d30f84a-622d-400a-a571-d4ca6c2e8c53": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Methylpropanediol is a solvent: It helps to dissolve and mix other ingredients in a formula, ensuring they are evenly distributed. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "977d8b08-f93e-4eac-a322-2548139caa03",
+        "3a2a0c11-59f6-42bf-b12d-4913e66fbdd0",
+        "3d30f84a-622d-400a-a571-d4ca6c2e8c53"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Methylpropanediol",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "43e86748-1cb0-4746-b243-764790f89b87": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "3e497a9e-73ac-4b3b-8408-38c809b59419": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Macadamia Nuts<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "7661c2f4-d652-4bbc-af2b-e26e718b869b": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "d7784a6a-0b70-4603-b493-2c1e046a0217": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Macadamia Integrifolia\/Tetraphylla Seed Oil is a natural plant oil that is used as an emollient and moisturizing ingredient. It helps to hydrate and soothe your skin, improve skin texture, and prevent water loss from your skin's surface. Additionally, macadamia seed oil can protect your skin from environmental damage, reduce inflammation and irritation, and improve the appearance of fine lines and wrinkles. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "3e497a9e-73ac-4b3b-8408-38c809b59419",
+        "7661c2f4-d652-4bbc-af2b-e26e718b869b",
+        "d7784a6a-0b70-4603-b493-2c1e046a0217"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Macadamia integrifolia\/tetraphylla seed oil",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "245771a6-19d3-454f-a300-fc766a7e68b8": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "772e44cf-9d89-4f22-8ead-d157f89eeab2": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "470bac68-098e-442c-8112-fa906501999e": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "1fa2b26f-7fb2-403d-a26a-f604c17aad23": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>MELANOSTATINE™ is a biomimetic peptide which inhibits the synthesis of melanin and prevents its hyperproduction for a better control over skin tone and age spots. MELANOSTATINE™ does not interfere with the melanocyte’s functions thus it is an ideal skin lightening agent for cosmetic products that inhibits melanogenesis without cytotoxicity. MELANOSTATINE™ is an effective ingredient that can  improve the overall clarity and radiance of your skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "772e44cf-9d89-4f22-8ead-d157f89eeab2",
+        "470bac68-098e-442c-8112-fa906501999e",
+        "1fa2b26f-7fb2-403d-a26a-f604c17aad23"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Melanostatine™",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "061a264e-4c47-4218-aaa1-16bbf2683583": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "3538a37c-b638-4b83-8407-c266dad55a04": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "282d1bda-c87c-4f64-9381-173b68675ce5": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "a5a42f28-1417-45a1-964e-beeb0801fc0b": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Myreth-3 Myristate is an emollient and emulsifying agent that leaves your skin feel soft and smooth. Myreth-3 Myristate also helps to enhance the spreadability and texture of cosmetic products, making them easier to apply. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "3538a37c-b638-4b83-8407-c266dad55a04",
+        "282d1bda-c87c-4f64-9381-173b68675ce5",
+        "a5a42f28-1417-45a1-964e-beeb0801fc0b"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Myreth-3 Myristate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1b42f7b8-fe55-4833-a7bd-317225cc9715": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "5d9819a5-a696-426f-8290-d4ae1d907744": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Coconut Oil, Botanical Oil<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "85b7ab71-cf3c-4f0d-8ab7-4042a014a4d3": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "51d4cc21-f0d7-4495-9f90-981765191b21": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Myristyl Myristate is a waxy substance that acts as an emollient, which means it helps to soften and smooth your skin's surface. Myristyl Myristate also has the ability to improve the texture and spreadability of cosmetic products, making them easier to apply. Furthermore, it can help to enhance the stability of formulations.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "5d9819a5-a696-426f-8290-d4ae1d907744",
+        "85b7ab71-cf3c-4f0d-8ab7-4042a014a4d3",
+        "51d4cc21-f0d7-4495-9f90-981765191b21"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Myristyl myristate",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "dc635d58-2436-44bd-9043-fb9cfd72abbe",
+    "cf2d2083-a475-417b-889b-d69101817744",
+    "main",
+    "4b954ea0-1c17-4211-beb6-1a54dd26901e",
+    "e053191d-d4b6-4f27-9c4b-a1cec79a40b3",
+    "797257a9-1e7b-461d-b644-4e56af060b42",
+    "9dde537e-d9e0-46e3-9a07-c36285e007a1",
+    "5f2abbb6-9004-4ecd-a96f-1de8eccc06a7",
+    "43e86748-1cb0-4746-b243-764790f89b87",
+    "245771a6-19d3-454f-a300-fc766a7e68b8",
+    "061a264e-4c47-4218-aaa1-16bbf2683583",
+    "1b42f7b8-fe55-4833-a7bd-317225cc9715"
+  ]
+}
