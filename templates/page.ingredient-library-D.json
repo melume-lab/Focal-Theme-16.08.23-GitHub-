@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -231,6 +231,56 @@
         "borderbottom": true,
         "underline": true,
         "maintitle": "Dimethyl Isosorbide",
+        "maincontent": "<p><br\/><\/p>",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6ffac774-670c-4626-8dea-a885f39d25f1": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "2abe17f0-43ed-41db-ab2d-b7c5025f8ab0": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "aa5b412b-feba-4bbf-a12a-b0f7ef68bb4d": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "161d6c40-d452-4895-b9aa-b1e396129051": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Dipropylene Glycol is a solvent and humectant: It is is soluble in water and many other solvents, making it a versatile ingredient in formulations. Dipropylene glycol also functions as a synthetic slip agent, texturizer. In its role as a solvent, dipropylene glycol effectively dissolves or suspends other components within a formulation without altering their properties. Dipropylene glycol facilitates the uniform dispersion of all elements in a cosmetic product and ensures the desired consistency for the product. Moreover, solvents such as dipropylene glycol are utilized to dilute formulations and reduce their viscosity. Viscosity here refers to the thickness or density of a product. Lowering the viscosity of a formulation enhances its spreadability when applied to the skin or hair. Solvents can also boost the effectiveness of active ingredients within a product formulation by improving their absorption into the skin. It finds particular utility as a solvent when combined with plant extracts, as it aids in enhancing their skin penetration. In its natural form, it exists as a clear, odorless liquid. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "2abe17f0-43ed-41db-ab2d-b7c5025f8ab0",
+        "aa5b412b-feba-4bbf-a12a-b0f7ef68bb4d",
+        "161d6c40-d452-4895-b9aa-b1e396129051"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Dipropylene Glycol",
         "maincontent": "<p><br\/><\/p>",
         "button_text": "",
         "button_link": "#main",
@@ -458,6 +508,7 @@
     "889db081-9096-454c-b158-4bb2ccf4d271",
     "797257a9-1e7b-461d-b644-4e56af060b42",
     "2834118d-ad0b-4188-af9b-1f30a5fcb5e6",
+    "6ffac774-670c-4626-8dea-a885f39d25f1",
     "12592140-75c7-4372-85b7-c306b06480fa",
     "1d4a168c-8427-473d-abb7-c626c853bcf8",
     "944c2b2d-824e-482a-a6ca-cea2f684e641",
