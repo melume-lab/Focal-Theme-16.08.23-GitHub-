@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -939,6 +939,56 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "622c89cb-e099-4eaf-b5bc-ad6048dc51e7": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "411cae82-40e2-4084-8303-215e45460839": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Papaya<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "731dd577-d82b-45bc-9164-bc766cb424d8": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "78398cad-6cfc-4fa1-b10a-30f17b37a376": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Papayas contain an enzyme called papain, which is abundant in the peel, leaves, and orange meat of the fruit. In enzymatic peelings, dead cells are loosened by proteases (e.g., papain or bromelain) by splitting proteins that hold the cell structures of the horny layer together. As excellent natural exfoliators, they can break down proteins (= proteolysis), which results in a softening effect, a sloughing of corneocytes, and finer pores.<br\/>Exfoliation with papaya enzymes can eliminate dead skin cells for fresher skin, a rosier complexion, and a reduction in wrinkle depth.<br\/>Ideal for sensitive skin.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "411cae82-40e2-4084-8303-215e45460839",
+        "731dd577-d82b-45bc-9164-bc766cb424d8",
+        "78398cad-6cfc-4fa1-b10a-30f17b37a376"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Papain \/ Papaya Enzymes",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "c105f1f1-5a0d-44b5-8011-2fb75eaa3f9a": {
       "type": "MS_text-carousel",
       "blocks": {
@@ -982,6 +1032,56 @@
         "borderbottom": true,
         "underline": true,
         "maintitle": "Palmitoyl Tripeptide-38",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f055ce54-0aae-476e-a7fb-b148d18d7cf6": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "41f4e7f4-ac4e-4c16-aae9-be841b6da240": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "578c0f61-cf90-4f80-84d1-0fe2fdf8eb9c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "836f4ee8-70cb-450f-8b00-8efe7848899c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Palmitoyl Tripeptide-5 is a patented tripeptide with a unique sequence that slows down the skin aging process. It has a dual effect. Firstly, it boosts collagen by mimicking the human body's own mechanism to activate latent transforming growth factor beta, TGF-β (Tissue Growth Factor), a key element in collagen synthesis. It also protects collagen from degradation by inhibiting the expression of matrix metalloproteinases (MMP 1 and 3) and proinflammatory cytokines. (MMP 1 is one of the key enzymes involved in collagen breakdown.) Both activities work synergistically to maintain the complete structural integrity of the skin. Visibly reduces the appearance of wrinkles in age-prone zones by improving elasticity and skin firmness. Reversing signs of photo-aging damage, refining skin surface and pores. It Rejuvenates and smoothens the skin and improves skin texture. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "41f4e7f4-ac4e-4c16-aae9-be841b6da240",
+        "578c0f61-cf90-4f80-84d1-0fe2fdf8eb9c",
+        "836f4ee8-70cb-450f-8b00-8efe7848899c"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Palmitoyl Tripeptide-5",
         "maincontent": "",
         "button_text": "",
         "button_link": "",
@@ -1062,7 +1162,9 @@
     "5fae5ae8-4415-4f59-835e-eb91951af700",
     "64080cfc-042e-451b-a6a0-5df5d301850a",
     "faa46c41-ac42-43da-ac64-fe2fa3091d85",
+    "622c89cb-e099-4eaf-b5bc-ad6048dc51e7",
     "c105f1f1-5a0d-44b5-8011-2fb75eaa3f9a",
+    "f055ce54-0aae-476e-a7fb-b148d18d7cf6",
     "dc4dcb18-aee2-41f2-91df-42f515334950"
   ]
 }
