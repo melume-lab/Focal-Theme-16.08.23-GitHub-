@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -137,12 +137,63 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "b68e3a15-e113-4bcb-8884-43b11041da9d": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "2a1ac1b9-03a5-41d5-a96e-c0f6453c60a5": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "f3f135bc-53ce-4c03-b0e2-c47a1d1e1910": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "7393001f-d298-4b9b-8df0-e79e0be50c03": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Nonapeptide-1 inhibits melanin production by interfering with the action of tyrosinase in melanocytes, composed of nine amino acids that brighten the complexion, even out skin tone, and reduce the appearance of dark spots. Reduces inflammation and prevents premature aging.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "2a1ac1b9-03a5-41d5-a96e-c0f6453c60a5",
+        "f3f135bc-53ce-4c03-b0e2-c47a1d1e1910",
+        "7393001f-d298-4b9b-8df0-e79e0be50c03"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Nonapeptide-1",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
     "dc635d58-2436-44bd-9043-fb9cfd72abbe",
     "cf2d2083-a475-417b-889b-d69101817744",
-    "4802a1c8-a423-4cf4-ac5a-2e0ad14f576d"
+    "4802a1c8-a423-4cf4-ac5a-2e0ad14f576d",
+    "b68e3a15-e113-4bcb-8884-43b11041da9d"
   ]
 }
