@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -138,6 +138,56 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "236aa9b7-acd0-41cc-8a8f-7d07eb0fe813": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "b98c78c0-a756-468e-b94c-3c11f23df643": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "3da15650-5f0b-4092-8dbe-ba814d6b2246": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "009ccf93-f6fd-4aa2-8cfd-d79f6b8d5287": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Is a milder form of alpha hydroxy acid (AHA). It gently removes dead skin cells from the skin's surface; With its hydrating properties and pH-regulating benefits, it strengthens the skin's barrier by encouraging it to make more ceramides.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "b98c78c0-a756-468e-b94c-3c11f23df643",
+        "3da15650-5f0b-4092-8dbe-ba814d6b2246",
+        "009ccf93-f6fd-4aa2-8cfd-d79f6b8d5287"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": false,
+        "maintitle": "Lactic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "#main",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -156,6 +206,7 @@
     "dc635d58-2436-44bd-9043-fb9cfd72abbe",
     "cf2d2083-a475-417b-889b-d69101817744",
     "797257a9-1e7b-461d-b644-4e56af060b42",
+    "236aa9b7-acd0-41cc-8a8f-7d07eb0fe813",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }
