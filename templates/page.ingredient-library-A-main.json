@@ -17,7 +17,7 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_Ingredient_Libary_2160x1018_83df6461-537e-4a02-9d2d-d293a2de8627.jpg",
+        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_Ingredient_Libary_2160x1018_013f7df4-6249-4f60-af2e-2983083f6e69.jpg",
         "subheading": "",
         "title": "Skincare Lovers Education",
         "html": "",
@@ -36,13 +36,13 @@
     "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
       "type": "custom-html",
       "custom_css": [
-        "h2 {color: #69b8bf; font-size: 25px; padding-top: 100px;}"
+
       ],
       "settings": {
-        "subheading": "The library is currently updated daily - stay tuned",
+        "subheading": "",
         "title": "Ingredients A-Z",
         "html": "",
-        "add_vertical_spacing": false,
+        "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
