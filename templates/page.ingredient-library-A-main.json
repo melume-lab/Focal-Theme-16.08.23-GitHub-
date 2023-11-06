@@ -36,13 +36,13 @@
     "dc635d58-2436-44bd-9043-fb9cfd72abbe": {
       "type": "custom-html",
       "custom_css": [
-
+        "h3 {padding-top: 80px;}"
       ],
       "settings": {
         "subheading": "",
         "title": "Ingredients A-Z",
         "html": "",
-        "add_vertical_spacing": true,
+        "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
