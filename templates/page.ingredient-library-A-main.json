@@ -60,11 +60,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -863,6 +863,56 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "f407b630-18fd-44ec-ab6d-3d341afa94e8": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "05cfc2b9-e283-4424-b482-058c215a09c8": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "32e2ad21-3d9b-4efa-862d-31cd505bf11a": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "f24c3ba8-80f2-484f-b222-220d5838a9a7": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Ascorbic acid, alternatively referred to as L-ascorbic acid, boasts extensive research dedicated to its application in skincare. Ascorbic acid is pure vitamin C. Unlike the other derivatives, it does not have to be converted into the active form first. On the other hand, it is more susceptible to oxidation than the derivatives. It stands out as the predominant naturally occurring antioxidant in our skin. Concentrations ranging from 5% to 20% have the capacity to enhance various aspects of skin aging, addressing concerns such as discolorations, wrinkles, and diminished firmness stemming from sun-induced damage. Lower concentrations, typically between 0.3% and 2%, also offer their own set of advantages, including the amelioration of uneven skin tone and fine lines. It is a powerful antioxidant, that eliminates free radicals in the body and reduces inflammation of the skin. Vitamins C and E collaborate to stabilize each other, thus prolonging their effectiveness in nurturing the skin. As a cosmetic ingredient, ascorbic acid is regarded as safe for use and can be comfortably incorporated into skincare routines alongside retinol and niacinamide. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "05cfc2b9-e283-4424-b482-058c215a09c8",
+        "32e2ad21-3d9b-4efa-862d-31cd505bf11a",
+        "f24c3ba8-80f2-484f-b222-220d5838a9a7"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Ascorbic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -896,6 +946,7 @@
     "ed6d2bcf-7abd-4c51-a31b-1fe9a481f392",
     "f5cafb80-64c2-42af-86f9-78fc96f4af31",
     "6a128f8b-0519-4b74-a151-03384598bc5a",
+    "f407b630-18fd-44ec-ab6d-3d341afa94e8",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }
