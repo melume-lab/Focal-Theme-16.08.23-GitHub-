@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -388,6 +388,56 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "478173b8-bdaf-43b7-8efc-78ea33c0ba37": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "b57a21f7-ccda-4ed6-809b-63a5fa0e8cbc": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "0d24733e-50ad-4bc6-92fb-e95904bcc2c7": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "4d2fbf74-9df8-40ce-abcc-7589604e9e49": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Bio-Placenta (Pseudo-Placenta) is a term for plant-based ingredients that are designed to mimic the effects of placenta in skincare products. These ingredients are sourced from vegan origins and are renowned for their ability to nourish and moisturize the skin, helping to reduce the appearance of fine lines and wrinkles while also enhancing overall skin texture and tone. Our Bio-Placenta contains a combination of five growth factors (EGF, IGF-1, Acidic FGF, Basic FGF, VEGF) that have been safely replicated, as well as Vitamin B9 (important for cell growth and renewal) and acetylated glutamine (an amino acid crucial for collagen synthesis). <\/p><p>VEGF (Vascular Endothelial Growth Factor) increases the blood flow to the cells to provide nutrients and remove waste. This helps them heal and replenish faster.<\/p><p>Epidermal Growth Factor (EGF \/ Oligopeptide-1) and Fibroblast Growth Factor (FGF \/ Oligopeptide-3 ) are two vital components with remarkable effects on skin health. EGF is renowned for ist mitogenic effect on cells, a  wound healing effect by epithelialization, a growth, differentiation and migration of cells. One of EGF's notable benefits is its effectiveness in wrinkle care, where it aids in rejuvenating the skin. Furthermore, it activates hyaluronan synthase 2 in human epidermal keratinocytes. <\/p><p>FGF stimulate fibroblast cells, encouraging their growth and mitogenesis. This property translates into the stimulation of skin regeneration. FGF also promotes the synthesis of collagen and elastin in fibroblast cells, two critical proteins that lend firmness and elasticity to the skin. Moreover, basic Fibroblast Growth Factor (FGF-2) works with insulin-like growth factor 1 (IGF-1) to activate hyaluronan synthesis in human epidermal fibroblasts. <\/p><p>Vitamin B9, also known as folic acid, undergoes a transformation into B9-Vitapol structural changes of folic acid into the natural form of polyglutamate. It is produced to improve the negative characteristics (pH sensitivity and low solubility) of folic acid through Korean traditional fermentation technology. <\/p><p>Oligopeptide-2 (IGF) Insulin-like Growth Factor: Provide energy to the cells to boost Collagen Production.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "b57a21f7-ccda-4ed6-809b-63a5fa0e8cbc",
+        "0d24733e-50ad-4bc6-92fb-e95904bcc2c7",
+        "4d2fbf74-9df8-40ce-abcc-7589604e9e49"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Bio Placenta",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "23b3b2fd-3836-4f2b-9b2c-70285f76c843": {
       "type": "MS_text-carousel",
       "blocks": {
@@ -561,6 +611,7 @@
     "c73b75f3-f36b-4c8e-9d40-ccce186b9c4d",
     "74f85e8e-7d8a-426c-828d-e2b864c249f2",
     "4517fe31-8635-4687-9ce3-50265b0a3cf4",
+    "478173b8-bdaf-43b7-8efc-78ea33c0ba37",
     "23b3b2fd-3836-4f2b-9b2c-70285f76c843",
     "6e5ab2bf-0979-4402-9188-959ed9407b45",
     "edb0cf8b-968f-47c8-beaf-c5a8ad8d10e8",
