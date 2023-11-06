@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/ingredient-library",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -641,6 +641,156 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "740f8b4f-40ed-426f-b86b-7ea72e645f09": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "2a65c91d-ba5e-4189-9d8a-4f9f99b5d8fd": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "07d8e3c1-5613-434f-b899-08ebcb0d6096": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "7823f282-b284-4c9e-87a2-bfe58cd37bef": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Hydroxypropyl Cyclodextrin is a biomimetic polysaccharide that helps active ingredients penetrate the skin more effectively, making them more potent. Hydroxypropyl cyclodextrin is a cyclic molecular structure composed of multiple glucose molecules that has been modified to possess hydrophobic or water-repellent properties. This allows hydroxypropyl cyclodextrin to be used as an active ingredient in cosmetic products to enhance their effectiveness. It  helps increase the stability of sensitive active ingredients in cosmetic products. As a result, the products retain their efficacy for longer and can fully deliver their intended effects. Hydroxypropyl cyclodextrin can improve the skin barrier, thereby retaining moisture in the skin. This helps keep the skin hydrated and protected from external factors. Another advantage of hydroxypropyl cyclodextrin is its ability to enhance the penetration of active ingredients into the skin. By using hydroxypropyl cyclodextrin, active ingredients can penetrate deeper into the skin, thereby intensifying their effects. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "2a65c91d-ba5e-4189-9d8a-4f9f99b5d8fd",
+        "07d8e3c1-5613-434f-b899-08ebcb0d6096",
+        "7823f282-b284-4c9e-87a2-bfe58cd37bef"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": " Hydroxypropyl Cyclodextrin",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6481b833-4fa0-42e8-b22d-28ce901e6edf": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "40d14e31-f739-4cbc-b7f4-9341c2dfe2b7": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ec4090c6-620a-4481-aaad-a2f625d0abec": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "88c9ab25-fa18-479c-9b86-d59952761c67": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Hexapeptide-8 is a synthetically acetylated neuropeptide with strong anti-aging properties: A neurotransmitter-inhibiting peptide that reduces the appearance of wrinkles by preventing muscle contractions, similar to Botox. It can penetrate deeply and achieve more intensive effectiveness in smoothing expression lines. The peptide promotes the production of collagen and elastin, two important proteins that can lead to firmer and more elastic skin. <\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "40d14e31-f739-4cbc-b7f4-9341c2dfe2b7",
+        "ec4090c6-620a-4481-aaad-a2f625d0abec",
+        "88c9ab25-fa18-479c-9b86-d59952761c67"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Hexapeptide-8",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "66c1ac14-605e-4547-b9fa-cbfbf1cd7623": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "9bddf9bb-6368-4dc1-926f-c6b43afafdaa": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "eff82598-c205-4468-ac81-7e5484697df4": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "294886ee-2745-4250-bf7e-2342336dfe18": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Hexapeptide-11 a medium sized cell signaling molecule also called Acidic Fibroblast Growth Factor. As its name suggests, it can stimulate the growth and proliferation of fibroblast cells (VIP cells that produce among other things collagen). It also stimulates skin regeneration, wound healing and collagen and elastin synthesis, that have a positive impact on the skin's elasticity and firmness.<\/p><p>It also activates the hyaluronansynthesis.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "9bddf9bb-6368-4dc1-926f-c6b43afafdaa",
+        "eff82598-c205-4468-ac81-7e5484697df4",
+        "294886ee-2745-4250-bf7e-2342336dfe18"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Hexapeptide-11",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "24b301ae-3d9b-4045-bb51-19cb224ef80d": {
       "type": "MS_text-carousel",
       "blocks": {
@@ -1063,6 +1213,9 @@
     "713ccfd8-0aee-4a9f-bc45-09e23fd0c3dd",
     "d5b7609d-7c27-4d83-8d42-7dfed8e1c807",
     "06ecc8f5-d601-44f1-b85a-6a044a836ebe",
+    "740f8b4f-40ed-426f-b86b-7ea72e645f09",
+    "6481b833-4fa0-42e8-b22d-28ce901e6edf",
+    "66c1ac14-605e-4547-b9fa-cbfbf1cd7623",
     "24b301ae-3d9b-4045-bb51-19cb224ef80d",
     "48c76435-904a-4d21-b1b1-88923cb2a421",
     "9aa49488-e7ff-40f3-a1e9-ec3c8cae076e",
