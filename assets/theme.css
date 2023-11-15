@@ -16607,29 +16607,6 @@ display: none;
 display: flex;
 }
 
-
-/* START - Only display DE, US & GB FOR Orbe Popup */
-#orbeCountryList li a {
-    display: none !important;
-    width: 100%;
-}
-
-#orbeCountryList li a[data-country="DE"],
-#orbeCountryList li a[data-country="US"],
-#orbeCountryList li a[data-country="GB"] {
-    display: inline-block !important; /* or any other display value you prefer */
-}
-/* END - Only display DE, US & GB FOR Orbe Popup */
-
-.md-modal__header__title__span.md-modal__header__custom__title {
-  width: 100%;
-  text-align: center;
-}
-
-.md-modal__body .md-modal__bodyContent__helperText {
-  text-align: center;
-}
-
 #btn-change-country {
   display: block;
   height: 22px;
