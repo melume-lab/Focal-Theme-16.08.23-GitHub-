@@ -116,11 +116,11 @@
 
     
              {%- if block.settings.content != blank -%}
-              <div class="image-overlay__text-container" style="font-size: 15px; letter-spacing: 0.5px" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <p class="image-overlay__text-container" style="font-size: 15px; letter-spacing: 0.5px" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content != blank-%}
                 {{- block.settings.content -}}
               {%- endif -%}
-              </div>
+              </p>
             {%- endif -%}
            
             {%- comment -%}
