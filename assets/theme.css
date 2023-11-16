@@ -15255,6 +15255,67 @@ COSTUM ELEMENTS
 ----------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
+  /* Promo Font */
+
+@media (min-width: 1000px) {
+  .promo-heading {
+    font-family: Montserrat-Variable;
+    font-weight: 800;
+    font-size: 75px!important;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 999px) {
+   .promo-heading {
+    font-family: Montserrat-Variable;
+    font-weight: 800;
+    font-size: 50px!important;
+     line-height: 45px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .promo-content {
+    font-family: Montserrat-Variable;
+    font-size: 30px!important;
+    line-height: 36px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 999px) {
+   .promo-content {
+     font-family: Montserrat-Variable;
+    font-size: 18px!important;
+    line-height: 25px;
+    font-weight: 300;
+     margin-top: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .promo-notice {
+    margin-top: 150px!important;
+  }
+}
+
+@media (max-width: 999px) {
+   .promo-notice {
+     margin-top: 80px!important;
+  }
+}
+
+
+/* Slidshow extra spacing for mobile */
+
+@media (max-width: 999px) {
+.slideshow__text-wrapper {
+  margin-bottom: 150px!important;
+  }
+}
+
 /*---Free Gifts--- */
 
 .free-gift-images-container {
