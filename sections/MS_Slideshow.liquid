@@ -116,7 +116,7 @@
 
     
              {%- if block.settings.content != blank -%}
-              <p class="image-overlay__text-container" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <p class="image-overlay__text-container" style="font-size: 15px" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content != blank-%}
                 {{- block.settings.content -}}
               {%- endif -%}
