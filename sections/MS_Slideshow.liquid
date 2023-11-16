@@ -106,22 +106,36 @@
               </h2>
             {%- endif -%}
 
+             {%- if block.settings.title_promo != blank -%}
+              <div class="promo-heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+               {%- if block.settings.title_promo != blank-%}
+                {{- block.settings.title_promo -}}
+              {%- endif -%}
+              </div>
+            {%- endif -%}
+
     
-            {%- comment -%}
-               {%- if block.settings.content != blank -%}
-                  <h2 class="heading h2" style="font-family: montserrat; font-size: 16px; font-weight: 400">
-                    {%- if block.settings.content != blank-%}
-                       <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.content | escape }}</split-lines>   
-                    {%- endif -%}
-                  </h2>
-               {%- endif -%}
-             {%- endcomment -%}
+             {%- if block.settings.content != blank -%}
+              <p class="image-overlay__text-container" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+               {%- if block.settings.content != blank-%}
+                {{- block.settings.content -}}
+              {%- endif -%}
+              </p>
+            {%- endif -%}
            
 
             {%- if block.settings.html != blank -%}
               <div class="heading h2" style="font-family: montserrat, sans-serif; font-size: 15px; letter-spacing: 0.5px; font-weight: 500; text-font-style: normal; margin-top: 35px; margin-bottom: 40px">
                 <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.html | escape }}</split-lines>
               </div>
+            {%- endif -%}
+
+            {%- if block.settings.content_promo != blank -%}
+              <h4 class="promo-content" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+               {%- if block.settings.content_promo != blank-%}
+                {{- block.settings.content_promo -}}
+              {%- endif -%}
+              </h4>
             {%- endif -%}
 
 
@@ -146,6 +160,15 @@
                 {{- buttons -}}
               </div>
             {%- endif -%}
+
+            {%- if block.settings.content_notice!= blank -%}
+              <p class="promo-notice" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+               {%- if block.settings.content_notice != blank-%}
+                {{- block.settings.content_notice -}}
+              {%- endif -%}
+              </p>
+            {%- endif -%}
+       
           {%- endcapture -%}
 
           {%- if section_content != blank -%}
