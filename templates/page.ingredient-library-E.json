@@ -288,6 +288,56 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "4404d6e5-af96-4153-98e0-ce33077c97a5": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "ffa534ae-b0bc-4709-a5ba-417a12f450c9": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "ea295ef3-629f-40be-9936-47ea88c6aa89": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "2d64f05e-6233-4e06-93e4-264860ba2c18": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Ethyl ascorbic acid is ascorbic acid (scientific name of vitamin C) with an additional ethyl group. This group makes ascorbic acid soluble and stable in both oil and water. It is a derivative of vitamin C that  brightens and evens out your skin tone. It works by inhibiting the production of melanin, which can help to reduce the appearance of dark spots and hyperpigmentatio. Additionally, ethyl ascorbic acid has antioxidant properties that protect your skin from free radical damage and can prevent premature aging.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "ffa534ae-b0bc-4709-a5ba-417a12f450c9",
+        "ea295ef3-629f-40be-9936-47ea88c6aa89",
+        "2d64f05e-6233-4e06-93e4-264860ba2c18"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Ethyl Ascorbic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -309,6 +359,7 @@
     "a7d0a878-5411-4635-a549-68b256bb8a2e",
     "fa274b80-acb3-435a-be77-7e100bc99493",
     "2c6f0b01-dd8c-4fc7-b0c3-70d17d7bee20",
+    "4404d6e5-af96-4153-98e0-ce33077c97a5",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }
