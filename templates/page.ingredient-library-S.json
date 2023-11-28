@@ -488,6 +488,56 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "7d3115d1-0f15-4910-b029-ce6c4168604c": {
+      "type": "MS_text-carousel",
+      "blocks": {
+        "5787abc5-6529-45e4-960f-29ff1fe4f8a2": {
+          "type": "item",
+          "settings": {
+            "icontitle": "SOURCE",
+            "title": "",
+            "content": "<p>Synthetic<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "8a6ad6ac-34e3-4805-9332-91b659c11fd8": {
+          "type": "item",
+          "settings": {
+            "icontitle": "CATEGORY",
+            "title": "",
+            "content": "",
+            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "subheading": ""
+          }
+        },
+        "1d8983d0-94ba-4332-8484-2fbea2c60d3c": {
+          "type": "item",
+          "settings": {
+            "icontitle": "WHAT IT DOES",
+            "title": "",
+            "content": "<p>Salicylic acid, also known as beta hydroxy acid (BHA), acts as a desmolytic agent, enabling exfoliation by breaking down the bonds that bind dead cells to the skin's surface. Due to its oil solubility, it effectively penetrates the lining of pores, facilitating exfoliation within the pores. This quality makes it particularly adept at minimizing breakouts, including blackheads and whiteheads. Salicylic acid possesses exfoliating, keratolytic, and anti-inflammatory properties. Applying salicylic acid to the skin can diminish roughness, fade dark spots, reduce blemishes, address oily skin concerns, and promote smoother skin. Keratolytic agents like salicylic acid soften and dissolve the keratin protein that binds skin flakes together. The accumulation of skin flakes and oil in hair follicles is a common cause of acne and blackheads. Salicylic acid not only dissolves rough or flaky skin associated with various skin conditions but also aids in loosening and removing dry, scaly, or thickened skin. As a chemical exfoliator, it penetrates deeply into hair follicles and oil glands, dissolving dead skin cells, oil, and debris. This process eliminates pre-existing whiteheads and blackheads while preventing the formation of new ones. Salicylic acid's ability to dry out oily skin is instrumental in averting new acne-related blockages. Functioning as an anti-inflammatory agent, salicylic acid contributes to the reduction of swelling and redness. Additionally, it mitigates the redness associated with existing acne and moderates the pace at which skin cells shed within the follicles, thereby preventing clogging.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "5787abc5-6529-45e4-960f-29ff1fe4f8a2",
+        "8a6ad6ac-34e3-4805-9332-91b659c11fd8",
+        "1d8983d0-94ba-4332-8484-2fbea2c60d3c"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Salicylic Acid",
+        "maincontent": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "4eee4b6c-28ec-42e0-b8bf-e1c7e644bed2": {
       "type": "MS_text-carousel",
       "blocks": {
@@ -1051,6 +1101,7 @@
     "3e1121c4-a8e6-4c90-8cc5-ac30dbafc9f8",
     "fa4c6f1c-8abe-4020-b86b-17e398c363a2",
     "4864d0a4-d7ea-41d4-90f5-8f9c92e60c87",
+    "7d3115d1-0f15-4910-b029-ce6c4168604c",
     "4eee4b6c-28ec-42e0-b8bf-e1c7e644bed2",
     "052e71b2-2ed1-4485-9a14-196752920d1e",
     "d3db393a-baa6-4f85-aa0f-d79b9f7bbc91",
