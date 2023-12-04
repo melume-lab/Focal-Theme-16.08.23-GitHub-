@@ -5,7 +5,6 @@
       "blocks": {
         "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rotating-Banner-Promotion-holday-favorites.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Mobile-Rotating-Banner-Promotion-holday-favorites.jpg",
