@@ -211,7 +211,7 @@
         "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1"
       ],
       "custom_css": [
-        "h3 {font-weight: 1000;}"
+        "h2 {font-weight: 600; text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -252,7 +252,7 @@
         "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0"
       ],
       "custom_css": [
-        "h3 {font-weight: 1000;"
+        "h2 {font-size: calc(var(--heading-h2-font-size) - 12px); font-weight: 300; line-height: 1.5;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
