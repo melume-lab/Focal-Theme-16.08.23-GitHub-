@@ -37,6 +37,7 @@
     "f6ef4679-c978-4377-88ad-a80d09bcbc82": {
       "type": "image-with-text-block",
       "custom_css": [
+        "h2 {font-size: 40px; font-weight: 700; text-transform: uppercase;}",
         ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
         ".content-box-custom-width {max-width: 500px;}"
       ],
@@ -83,7 +84,7 @@
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "PRIORITY ACCESS",
-            "content": "<p>EXCLUSIVE OFFERS, REWARDS AND EARLY ACCESS<\/p>",
+            "content": "<p>EXCLUSIVE OFFERS, REWARDS AND<br\/>EARLY ACCESS<\/p>",
             "html": "",
             "subheading": ""
           }
