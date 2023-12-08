@@ -531,7 +531,7 @@ th {
  */
 
 html {
-  font-family: Montserrat;
+  font-family: var(--text-font-family);
   font-weight: var(--text-font-weight);
   font-style: var(--text-font-style);
   font-size: calc(var(--base-font-size) - 1px);
@@ -560,7 +560,7 @@ p b {
 .rte h7,
 .rte blockquote {
   display: block;
-  font-family: var(--heading-font-family);
+  font-family: Montserrat;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   color: rgb(var(--heading-color));
