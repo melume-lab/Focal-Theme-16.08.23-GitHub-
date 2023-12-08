@@ -531,7 +531,7 @@ th {
  */
 
 html {
-  font-family: var(--text-font-family);
+  font-family: Montserrat;
   font-weight: var(--text-font-weight);
   font-style: var(--text-font-style);
   font-size: calc(var(--base-font-size) - 1px);
@@ -834,7 +834,7 @@ p a:not(.button),
 
 .h2,
 .rte h2 {
-  font-size: var(--heading-h2-font-size);
+  font-size: calc(var(--heading-h2-font-size) - 3px);
   line-height: 1.13333333;
   letter-spacing: -0.6px;
 }
