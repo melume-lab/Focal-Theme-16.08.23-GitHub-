@@ -92,8 +92,13 @@
           ----------------------------------------------------------------------------------------------------------------
           {%- endcomment -%}
 
-          {%- capture section_content -%}
-            
+
+          {% assign topMargin = block.settings.topMarginControl %}
+          {% assign bottomMargin = block.settings.bottomMarginControl %}
+ 
+          
+        {%- capture section_content -%}
+          <div class="Margins"  style="margin-top: {{ topMargin }}px; margin-bottom: {{ bottomMargin }}px;">
             {%- if block.settings.subheading != blank -%}
               <h2 class="heading heading--small">
                 <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
@@ -169,8 +174,8 @@
               {%- endif -%}
               </p>
             {%- endif -%}
-       
-          {%- endcapture -%}
+          </div>
+        {%- endcapture -%}
 
           {%- if section_content != blank -%}
             <div class="container">
@@ -426,6 +431,30 @@
           "type": "richtext",
           "id": "content_notice",
           "label": "Promo Notice"
+        },
+        {
+          "type": "header",
+          "content": "Add Extra Space To Mobile"
+        },
+        {
+          "type": "range",
+          "id": "topMarginControl",
+          "label": "Add Top Space",
+          "min": 0,
+          "max": 250,
+          "step": 5,
+          "unit": "px",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "bottomMarginControl",
+          "label": "Add Bottom Space",
+          "min": 0,
+          "max": 250,
+          "step": 5,
+          "unit": "px",
+          "default": 150
         },
         {
           "type": "header",

@@ -15319,13 +15319,6 @@ COSTUM ELEMENTS
 }
 
 
-/* Slidshow extra spacing for mobile */
-
-@media (max-width: 999px) {
-.slideshow__text-wrapper {
-  margin-bottom: 150px!important;
-  }
-}
 
 /*---Free Gifts--- */
 
@@ -15451,6 +15444,20 @@ COSTUM ELEMENTS
   width: auto:
   margin-top: 0px;
   margin-button: auto;
+}
+
+/* Slidshow extra spacing for mobile */
+/*
+@media (max-width: 999px) {
+.slideshow__text-wrapper {
+  margin-bottom: 150px!important;
+  }
+}
+*/
+@media (min-width: 1000px) {
+  .Margins {
+    margin: 0px!important;
+  }
 }
 
 
