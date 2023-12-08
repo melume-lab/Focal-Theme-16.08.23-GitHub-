@@ -287,7 +287,7 @@
       "type": "image-with-text-block",
       "custom_css": [
         ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
-        ".content-box-custom-width {max-width: 700px;}",
+        ".content-box-custom-width {max-width: 650px;}",
         "h2 {font-size: calc(var(--heading-h2-font-size) - 3px); font-weight: 700;}"
       ],
       "settings": {
