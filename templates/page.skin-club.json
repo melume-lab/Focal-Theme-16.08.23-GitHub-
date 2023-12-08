@@ -111,7 +111,7 @@
       "settings": {
         "borderbottom": false,
         "underline": false,
-        "maintitle": "Skin Club Benefits",
+        "maintitle": "SKIN CLUB BENEFITS",
         "button_text": "",
         "button_link": "shopify:\/\/collections\/all",
         "background": "#000000",
@@ -171,7 +171,7 @@
       "settings": {
         "borderbottom": true,
         "underline": false,
-        "maintitle": "This is how it works",
+        "maintitle": "THIS IS HOW IT WORKS",
         "button_text": "Sign up",
         "button_link": "#smile-home",
         "background": "#ffffff",
@@ -350,7 +350,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "Ways to earn points",
+        "title": "WAYS TO EARN POINTS",
         "section_size": "large",
         "stack_on_mobile": false,
         "background": "rgba(0,0,0,0)",
