@@ -279,9 +279,9 @@
             "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_haut_Pipette_ed8fbe41-d0a3-4299-9910-cd932058d07a.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "",
+            "title": "The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.",
             "title2": "",
-            "html-two": "<h3 class=\"heading h3\">The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.<\/h3>",
+            "html-two": "",
             "html-three": "",
             "content": "",
             "button_text": "",
@@ -292,12 +292,15 @@
       "block_order": [
         "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
       ],
+      "custom_css": [
+        "h2 {font-size: calc(var(--heading-h2-font-size) - 12px); font-weight: 300; line-height: 1.5;}"
+      ],
       "settings": {
         "reveal_on_scroll": false,
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "left",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "cycle_speed": 8,
         "over-subheading": "",
         "over-title": "",
