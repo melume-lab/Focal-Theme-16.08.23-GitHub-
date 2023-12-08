@@ -19,6 +19,8 @@
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -42,6 +44,8 @@
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -65,6 +69,8 @@
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -314,7 +320,8 @@
     "4cb96c4e-f6bf-403a-bf61-960a96060549": {
       "type": "MS_Imagewithtextleft",
       "custom_css": [
-        ".image-overlay__content {max-width: 70%;}"
+        ".image-overlay__content {max-width: 70%;}",
+        "h3 {text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -358,7 +365,8 @@
         "template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0"
       ],
       "custom_css": [
-        ".image-with-text__content-wrapper {max-width: 200px; margin-left: 100px;}"
+        ".image-with-text__content-wrapper {max-width: 200px; margin-left: 100px;}",
+        "h2 {text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -377,7 +385,8 @@
       "type": "custom-html",
       "custom_css": [
         ".column-small {margin: 0px;}",
-        ".column-container {max-width: 1000px; margin-left: auto; margin-right: auto;}"
+        ".column-container {max-width: 1000px; margin-left: auto; margin-right: auto;}",
+        "h3 {text-transform: uppercase;}"
       ],
       "settings": {
         "subheading": "",
