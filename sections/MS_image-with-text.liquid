@@ -163,9 +163,9 @@
                   {%- endif -%}
 
                   {%- if block.settings.title != blank -%}
-                    <h3 class="heading h2">
+                    <h2 class="heading h2">
                       <split-lines {% if section.settings.reveal_on_scroll or forloop.first != true %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
-                    </h3>
+                    </h2>
                   {%- endif -%}
 
                   {%- if block.settings.html-two != blank -%}
