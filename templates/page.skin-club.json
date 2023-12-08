@@ -131,7 +131,7 @@
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "SIGN UP",
-            "content": "<p>CREATE AN ACCOUNT AND RECEIVE 200 POINTS<\/p>",
+            "content": "<p>CREATE AN ACCOUNT AND<br\/>RECEIVE 200 POINTS<\/p>",
             "html": "",
             "subheading": ""
           }
@@ -144,7 +144,7 @@
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "EARN POINTS",
-            "content": "<p>RECEIVE POINTS EVERY TIME YOU BUY<br\/><\/p>",
+            "content": "<p>RECEIVE POINTS<br\/>EVERY TIME YOU BUY<\/p>",
             "html": "",
             "subheading": ""
           }
@@ -157,7 +157,7 @@
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "REDEEM POINTS",
-            "content": "<p>COLLECT POINTS FOR EXCLUSIVE REWARDS<\/p>",
+            "content": "<p>COLLECT POINTS FOR<br\/>EXCLUSIVE REWARDS<\/p>",
             "html": "",
             "subheading": ""
           }
