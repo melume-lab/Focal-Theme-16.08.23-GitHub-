@@ -283,6 +283,32 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "120b144b-5068-4ef6-b28d-9568cb497ff7": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
+        ".content-box-custom-width {max-width: 700px;}",
+        "h2 {font-size: calc(var(--heading-h2-font-size) - 3px); font-weight: 700;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_100__Desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_100__Mobile.png",
+        "subheading": "",
+        "title": "100% SATISFACTION GUARANTEED",
+        "html": "<style>\n.custom-banner-text {\nfont-size: calc(var(--heading-h2-font-size) - 3px);\n  font-weight: 300;\nmargin-top: -5%;\n}\n<\/style>\n\n<div class=\"custom-banner-text\"> IF NOT, IT’S ON US.<\/div>",
+        "content": "<p>Our products are dedicated to create beautiful, youthful healthy skin. Thus, our firm commitment to innovation and science drives us to always go a step further in finding new ways to formulate: The fusion of our exclusive GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures you a skinsational experience and incredible results - your satisfaction is our top priority!<br\/>However, in the unusual case where our products don't meet your complete satisfaction, we gladly provide you with a full refund or a replacement product when you return the items to us within 45 days of receiving your purchase. For further guidance or additional product advice, please reach out to our customer service department.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "59654e52-65dc-404e-9b5c-040df1724de3": {
       "type": "custom-html",
       "disabled": true,
@@ -375,6 +401,7 @@
     "66849eca-7501-4f71-9912-5a5a43d36883",
     "80c29ec1-74f4-4598-a8d2-8846f4572976",
     "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc",
+    "120b144b-5068-4ef6-b28d-9568cb497ff7",
     "59654e52-65dc-404e-9b5c-040df1724de3",
     "1689955023c90277fb",
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f",
