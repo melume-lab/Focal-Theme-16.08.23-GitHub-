@@ -169,7 +169,8 @@
         "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
       ],
       "custom_css": [
-        ".image-with-text__wrapper {margin-top: 50px; margin-bottom: 50px;}"
+        ".image-with-text__wrapper {margin-top: 50px; margin-bottom: 50px;}",
+        "h2 {font-weight: 500; line-height: 1.5; font-size: calc(var(--heading-h2-font-size) - 12px);}"
       ],
       "settings": {
         "reveal_on_scroll": false,
