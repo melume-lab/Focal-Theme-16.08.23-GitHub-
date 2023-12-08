@@ -844,7 +844,7 @@ p a:not(.button),
 @media screen and (max-width: 999px) {
   .h2,
   .rte h2 {
-    font-size: calc(var(--heading-h2-font-size) - 3px);
+    font-size: calc(var(--heading-h2-font-size) - 0px);
     line-height: 1.13333333;
     letter-spacing: -0.6px;
   }
