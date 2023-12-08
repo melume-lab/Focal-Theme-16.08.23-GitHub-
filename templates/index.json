@@ -124,7 +124,8 @@
       "type": "image-with-text-block",
       "custom_css": [
         ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
-        ".content-box-custom-width {max-width: 500px;}"
+        ".content-box-custom-width {max-width: 500px;}",
+        "h2 {text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
