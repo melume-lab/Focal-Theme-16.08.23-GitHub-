@@ -64,12 +64,33 @@
 
         {%- capture slide_content -%}
           <div class="slideshow__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-            {%- if image != blank -%}
-              {%- capture sizes_attributes -%}{% if split_image != blank %}(min-width: 1000px) 50vw{% else %}100vw{% endif %}{%- endcapture -%}
-              {{- image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: sizes_attributes, widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            {%- assign video_source_url = block.settings.video_source_url -%}
+            {%- if video_source_url != blank -%}
+                <video preload="auto" id="myVideo" mute autoplay loop style="width: 100%; height: 100%; object-fit: cover; align-content: center; overflow: hidden;">
+                    <source src="{{ video_source_url }}" type="video/mp4" />
+                    Your browser does not support our video.
+                </video>
+                <script>
+            document.getElementById('myVideo').removeAttribute('controls');
+            var video = document.getElementById('myVideo');
+
+            // Listen for the video to be loaded
+            video.addEventListener('loadeddata', function() {
+                // Set the playback position 2 seconds before the end
+                video.currentTime = video.duration - 0.2;
+
+                // Start playing the video
+                video.play();
+            });
+        </script>
             {%- else -%}
-              {% capture image_name %}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
-              {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder' -}}
+              {% if image != blank %}
+                {%- capture sizes_attributes -%}{% if split_image != blank %}(min-width: 1000px) 50vw{% else %}100vw{% endif %}{%- endcapture -%}
+                {{- image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: sizes_attributes, widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              {%- else -%}
+                {% capture image_name %}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
+                {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder' -}}
+              {%- endif -%}
             {%- endif -%}
           </div>
 
