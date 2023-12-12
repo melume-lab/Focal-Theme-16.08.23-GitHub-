@@ -133,7 +133,7 @@
             {%- endif -%}
 
              {%- if block.settings.title_promo != blank -%}
-              <div class="promo-heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <div class="promo-heading heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.title_promo != blank-%}
                 {{- block.settings.title_promo -}}
               {%- endif -%}
@@ -142,11 +142,11 @@
 
     
              {%- if block.settings.content != blank -%}
-              <p class="image-overlay__text-container" style="font-size: 15px; letter-spacing: 0.5px" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <div class="heading" style=" font-weight: 500; font-size: 17px; letter-spacing: 0.5px"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content != blank-%}
                 {{- block.settings.content -}}
               {%- endif -%}
-              </p>
+              </div>
             {%- endif -%}
            
             {%- comment -%}
@@ -158,7 +158,7 @@
             {%- endcomment -%}
             
             {%- if block.settings.content_promo != blank -%}
-              <h4 class="promo-content" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <h4 class="promo-content heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content_promo != blank-%}
                 {{- block.settings.content_promo -}}
               {%- endif -%}
