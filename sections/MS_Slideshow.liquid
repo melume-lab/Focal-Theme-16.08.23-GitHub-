@@ -85,15 +85,16 @@
     // Set the playback position 0.2 seconds before the end
     video.currentTime = video.duration - 0.2;
 
+    // Start playing the video
+    video.play();
+
     // Listen for the video to be loaded
     video.addEventListener('loadeddata', function() {
         // Set opacity to 1 to make the video visible (fade-in effect)
         video.style.opacity = 1;
-
-        // Start playing the video
-        video.play();
     });
 </script>
+
               
             {%- else -%}
               {% if image != blank %}
