@@ -82,7 +82,9 @@
               document.getElementById('myVideo').removeAttribute('controls');
               var video = document.getElementById('myVideo');
           
-              
+              // Listen for the video to be loaded
+              video.addEventListener('loadeddata', function() {
+                  
           
                   // Add a delay of 0.2 seconds before starting to play the video
                   setTimeout(function() {
