@@ -71,7 +71,7 @@
                     Your browser does not support our video.
                 </video>
               
-          <style>
+<style>
     #myVideo {
         opacity: 0;
         transition: opacity 0.3s linear;
@@ -82,11 +82,11 @@
     document.getElementById('myVideo').removeAttribute('controls');
     var video = document.getElementById('myVideo');
 
+    // Set the playback position 0.2 seconds before the end
+    video.currentTime = video.duration - 0.2;
+
     // Listen for the video to be loaded
     video.addEventListener('loadeddata', function() {
-        // Set the playback position 0.2 seconds before the end
-        video.currentTime = video.duration - 0.2;
-
         // Set opacity to 1 to make the video visible (fade-in effect)
         video.style.opacity = 1;
 
