@@ -82,18 +82,15 @@
     document.getElementById('myVideo').removeAttribute('controls');
     var video = document.getElementById('myVideo');
 
-    // Listen for the video to be loaded
-    video.addEventListener('loadeddata', function() {
-        // Set the playback position 0.2 seconds before the end
-        video.currentTime = video.duration - 0.2;
+    // Set the playback position 0.2 seconds before the end
+    video.currentTime = video.duration - 0.2;
 
-        // Start playing the video
-        video.play().then(function() {
-            // Set opacity to 1 to make the video visible (fade-in effect)
-            video.style.opacity = 1;
-        }).catch(function(error) {
-            console.error('Error playing the video:', error);
-        });
+    // Play the video immediately
+    video.play().then(function() {
+        // Once the video has started playing, set opacity to 1 to make it visible (fade-in effect)
+        video.style.opacity = 1;
+    }).catch(function(error) {
+        console.error('Error playing the video:', error);
     });
 </script>
 
