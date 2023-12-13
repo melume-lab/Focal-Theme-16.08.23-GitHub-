@@ -71,13 +71,29 @@
                     Your browser does not support our video.
                 </video>
               
-                  
+                  <style>
+                      #myVideo {
+                          opacity: 0;
+                          transition: opacity 0.5s linear;
+                      }
+                  </style>
                   
                   <script>
                       document.getElementById('myVideo').removeAttribute('controls');
                       var video = document.getElementById('myVideo');
                   
-                      
+                      // Listen for the video to be loaded
+                      video.addEventListener('loadeddata', function() {
+                          // Check if the user is on a mobile device
+                          var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                  
+                          // Set opacity to 1 to make the video visible (fade-in effect)
+                          video.style.opacity = 1;
+                  
+                          // Set the playback position 0.1 seconds before the end only for mobile devices
+                          if (isMobile) {
+                              video.currentTime = video.duration - 0.1;
+                          }
                   
                       });
                   
