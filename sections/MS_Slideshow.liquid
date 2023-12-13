@@ -87,12 +87,24 @@
 
     // Play the video immediately
     video.play().then(function() {
-        // Once the video has started playing, set opacity to 1 to make it visible (fade-in effect)
-        video.style.opacity = 1;
+        // Once the video has started playing, use requestAnimationFrame to gradually fade it in
+        var start = null;
+        function fadeIn(timestamp) {
+            if (!start) start = timestamp;
+            var progress = timestamp - start;
+            video.style.opacity = progress / 300; // 300ms = 0.3s (duration of the fade-in)
+            if (progress < 300) {
+                requestAnimationFrame(fadeIn);
+            } else {
+                video.style.opacity = 1; // Ensure opacity is set to 1 at the end
+            }
+        }
+        requestAnimationFrame(fadeIn);
     }).catch(function(error) {
         console.error('Error playing the video:', error);
     });
 </script>
+
 
               
             {%- else -%}
