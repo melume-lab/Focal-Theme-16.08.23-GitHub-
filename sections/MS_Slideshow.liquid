@@ -71,35 +71,30 @@
                     Your browser does not support our video.
                 </video>
               
-<style>
-    #myVideo {
-        opacity: 0;
-        transition: opacity 0.3s linear;
-    }
-</style>
+          <style>
+              #myVideo {
+                  opacity: 0;
+                  transition: opacity 0.5s linear;
+              }
+          </style>
 
-<script>
-    document.getElementById('myVideo').removeAttribute('controls');
-    var video = document.getElementById('myVideo');
-
-    // Set the playback position 0.2 seconds before the end
-    video.currentTime = video.duration - 0.2;
-
-    // Listen for the video to be able to play
-    video.addEventListener('canplay', function() {
-        // Play the video immediately
-        video.play().then(function() {
-            // Once the video has started playing, set opacity to 1 to make it visible (fade-in effect)
-            video.style.opacity = 1;
-        }).catch(function(error) {
-            console.error('Error playing the video:', error);
-        });
-    });
-</script>
-
-
-
-
+          <script>
+              document.getElementById('myVideo').removeAttribute('controls');
+              var video = document.getElementById('myVideo');
+          
+              // Listen for the video to be loaded
+              video.addEventListener('loadeddata', function() {
+                  // Set the playback position 0.2 seconds before the end
+                  video.currentTime = video.duration - 0.1;
+          
+                  // Add a delay of 0.2 seconds before starting to play the video
+                  setTimeout(function() {
+                      // Set opacity to 1 to make the video visible (fade-in effect)
+                      video.style.opacity = 1;
+                      video.play();
+                  }, 200);
+              });
+          </script>
               
             {%- else -%}
               {% if image != blank %}
