@@ -310,13 +310,13 @@
     {% endif %}
 
 
-{% if product.collection.handle == 'free-samples' %}
-  <style>
-    #shopify-section-template--18031974285576__main {
-      display: none;
-    }
-  </style>
-{% endif %}
+  {% if product.collection.handle == 'free-samples' %}
+    <style>
+      #shopify-section-template--18031974285576__main {
+        display: none;
+      }
+    </style>
+  {% endif %}
 
   {% if collection.handle == 'free-samples' %}
   <style>
