@@ -292,6 +292,8 @@
 
 </head>
 
+{% assign redirect_page_url = '/error' %}
+
 {%- assign feature_classes = '' -%}
 
 {%- if settings.show_image_zoom -%}
@@ -306,6 +308,29 @@
       }
       </style>
     {% endif %}
+
+
+    {% if product.collection.handle == 'free-samples' %}
+  <style>
+    #shopify-section-template--18031974285576__main {
+      display: none;
+    }
+  </style>
+{% endif %}
+
+  {% if collection.handle == 'free-samples' %}
+  <style>
+    #shopify-section-template--18031974285576__main {
+      display: none;
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      window.location.href = "{{ redirect_page_url }}";
+    });
+  </script>
+{% endif %}
   
 
 
