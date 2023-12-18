@@ -1,1 +1,509 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"show_title":true,"page_width":"medium"}},"faq":{"type":"faq","blocks":{"b2d2a0d2-7ccc-4e1b-a0fb-970748dc06eb":{"type":"category","settings":{"title":"Delivery & Shipping"}},"7c30245f-d8bb-4686-8edb-3c225a8d7c83":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"f59709b2-0e09-44ae-a1ac-f18d87ff02c8":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"3b47a467-47ae-4f56-a46f-05d1476eb204":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"011b5a32-deb8-4708-b286-7548524d6f67":{"type":"category","settings":{"title":"Delivery & Shipping"}},"3a54c807-e7fd-4de8-a375-9714219cca72":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"39857469-e9b8-44ec-a7f4-a37ad46dd092":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"eb4f1575-cea1-47c7-b1db-b971148458cf":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"83d81447-b5b5-4022-bf39-4ca7d0706714":{"type":"category","settings":{"title":"Delivery & Shipping"}},"2dcc8e4b-2748-47de-82d8-3a6d1a6a164e":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"9a0ba298-1ce7-45ba-a52f-ef5d73baac5c":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}},"b73e33bf-9b36-49f3-bf1e-3ca91fd1ae8b":{"type":"question","settings":{"title":"HOW CAN I CHECK THE STATUS OF MY ORDER?","answer":"<p>You will receive a confirmation email once your order has been placed.<br\/>We’ll send you a second email with the tracking information once your order has been shipped.<br\/><\/p><p>If you have any further questions regarding your order, kindly contact us via our Contact Form or at ask@melumé-shop and we will endeavor to be in touch within 72 hours.<\/p>"}}},"block_order":["b2d2a0d2-7ccc-4e1b-a0fb-970748dc06eb","7c30245f-d8bb-4686-8edb-3c225a8d7c83","f59709b2-0e09-44ae-a1ac-f18d87ff02c8","3b47a467-47ae-4f56-a46f-05d1476eb204","011b5a32-deb8-4708-b286-7548524d6f67","3a54c807-e7fd-4de8-a375-9714219cca72","39857469-e9b8-44ec-a7f4-a37ad46dd092","eb4f1575-cea1-47c7-b1db-b971148458cf","83d81447-b5b5-4022-bf39-4ca7d0706714","2dcc8e4b-2748-47de-82d8-3a6d1a6a164e","9a0ba298-1ce7-45ba-a52f-ef5d73baac5c","b73e33bf-9b36-49f3-bf1e-3ca91fd1ae8b"],"settings":{"show_navigation":false,"title":"FAQ","content":"<p>Drop us an email at ask@melumé-shop to leave feedback, ask questions about your order, our<br\/>products, our website, or just melumé skinscience in general. We believe regularly touching base<br\/>with our allies will help us serve you and your skin better, so feedback is always appreciated!<\/p>","background":"rgba(0,0,0,0)","text_color":"rgba(0,0,0,0)"}}},"order":["main","faq"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "b2d2a0d2-7ccc-4e1b-a0fb-970748dc06eb": {
+          "type": "category",
+          "settings": {
+            "title": "ACCOUNT"
+          }
+        },
+        "7c30245f-d8bb-4686-8edb-3c225a8d7c83": {
+          "type": "question",
+          "settings": {
+            "title": "How do I create a customer account?",
+            "answer": "<p>To create a customer account, simply click on \"BECOME A SKIN CLUB MEMBER\" on the right in the top bar. If you don't have an account yet, click on \"Create an Account.\" Fill in all the fields and click on \"Create My Account.\" Subsequently, you will receive a confirmation email. With your customer account, you will automatically become a member of our Skin Club and enjoy great benefits.<br\/><\/p>"
+          }
+        },
+        "f59709b2-0e09-44ae-a1ac-f18d87ff02c8": {
+          "type": "question",
+          "settings": {
+            "title": "What do I do if I have forgotten my password?",
+            "answer": "<p>If you forget your password, click on \"Forgot Password\" in the login details. Enter your email address and click on \"Recover Password.\" Once you receive the subsequent email, go to \"Reset Your Password.\" Then, you can enter and confirm your new password.<\/p>"
+          }
+        },
+        "3b47a467-47ae-4f56-a46f-05d1476eb204": {
+          "type": "question",
+          "settings": {
+            "title": "Can I place an order without an account?",
+            "answer": "<p>Yes, it is possible to order without a customer account.<\/p>"
+          }
+        },
+        "ba04a195-1ed5-43bc-9f12-a86552046e61": {
+          "type": "question",
+          "settings": {
+            "title": "What happens to my data?",
+            "answer": "<p>In the collection and processing of personal data, we limit the collected information to the amount necessary for the purpose. Personal data is handled with the utmost care and is retained no longer than necessary. In dealing with personal data, we adhere to the laws set out in the GDPR.<br\/>More information can be found here (Link: https:\/\/www.melume-skinscience.com\/de\/pages\/privacy-police).<\/p>"
+          }
+        },
+        "cd3072af-87eb-4403-92e5-d9a4d7552cf1": {
+          "type": "question",
+          "settings": {
+            "title": "How do I delete my customer account?",
+            "answer": "<p>If you wish to remove your account, please contact our support through the contact form: https:\/\/www.melume-skinscience.com\/de\/pages\/contact-form<br\/>We will assess whether legal requirements may demand further retention of your data.<\/p>"
+          }
+        },
+        "442488ee-3dd9-4542-9d03-ac810d4d2adf": {
+          "type": "category",
+          "settings": {
+            "title": "PAYMENT"
+          }
+        },
+        "ef440260-a806-4c4a-9740-340c676768f2": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "answer": "<p>We accept credit card payment, PayPal, Klarna (only in the EU store). You can only pay for your subscription with PayPal.  <br\/>With Klarna you can pay later - without interest or fees. <br\/>For more information, we recommend that you contact Klarna directly.<\/p>"
+          }
+        },
+        "dbe5bd63-662a-453d-8031-09adb78dfeb8": {
+          "type": "question",
+          "settings": {
+            "title": "What can I do if there is an error message during the payment process?",
+            "answer": "<p>If you get an error message, please try the following:<\/p><ul><li>Contact your bank to make sure there are sufficient funds in your account.<\/li><li>Make sure you have entered your credit card CVV and billing information correctly<\/li><li>Check that your billing name, address and phone number match those of the credit card you used to pay.<\/li><\/ul><p>If the problem persists, please call our Customer Care Team on 0800 808 18 28.<\/p>"
+          }
+        },
+        "a692e0db-2705-4415-a9df-c784d0a0eb2c": {
+          "type": "question",
+          "settings": {
+            "title": "How can I redeem a voucher?",
+            "answer": "<p>Simply enter the discount code in the \"Discount code\" field when checking out - before paying. Please note that the code is case-sensitive. Then click on \"Apply\" and the code will be activated.<\/p>"
+          }
+        },
+        "8ecdd268-8df8-48fe-8d58-4327fdb9dd6f": {
+          "type": "question",
+          "settings": {
+            "title": "Can discount codes be refunded?",
+            "answer": "<p>Promotional codes are treated as discounts. The discounted amount will not be reimbursed upon processing your return or exchange. Refunds will not include the application of promotional codes or discounts.<\/p>"
+          }
+        },
+        "2e22838d-fa89-4605-8036-5fa60d987216": {
+          "type": "category",
+          "settings": {
+            "title": "ORDER"
+          }
+        },
+        "7d5147c9-efd0-40f2-9021-5d613b0fd886": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I see the status of my order?",
+            "answer": "<p>You can view the status online at any time. To do this, log in to your account. Or check your order confirmation email. There you will receive a tracking link to track the shipment during delivery.<\/p>"
+          }
+        },
+        "44a0f261-b4ba-49e7-9633-b6431f66f3d2": {
+          "type": "question",
+          "settings": {
+            "title": "Which countries do you deliver to?",
+            "answer": "<p>We currently supply most European countries and the USA: <\/p><ul><li>Andorra<\/li><li>Belgium<\/li><li>Bulgaria<\/li><li>Bulgaria<\/li><li>Denmark<\/li><li>Germany<\/li><li>Estonia<\/li><li>Finland<\/li><li>France<\/li><li>Greece<\/li><li>Ireland <\/li><li>Croatia<\/li><li>Latvia<\/li><li>Liechtenstein<\/li><li>Lithuania<\/li><li>Luxembourg<\/li><li>Monaco<\/li><li>Netherlands<\/li><li>Norway<\/li><li>Austria<\/li><li>Poland<\/li><li>Portugal<\/li><li>Romania<\/li><li>San Marino San Marino<\/li><li>Sweden<\/li><li>Switzerland<\/li><li>Slovakia<\/li><li>Slovenia<\/li><li>Spain<\/li><li>Czech Republic<\/li><li>Hungary<\/li><li>United States<\/li><li>United Kingdom<\/li><\/ul>"
+          }
+        },
+        "cdc32382-f207-43be-a357-eba25f63071b": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "answer": "<p>Depending on the destination country, it takes between 2 and 10 days to ship our goods: <\/p><ul><li>Germany 2 days<\/li><li>Belgium 2 days<\/li><li>Netherlands 2 days<\/li><li>Luxembourg 2-3 days<\/li><li>Denmark 2-3 days<\/li><li>Czech Republic 2-3 days<\/li><li>France 3 days<\/li><li>Monaco 3-4 days<\/li><li>Austria 2 days<\/li><li>Poland 2-3 days<\/li><li>Liechtenstein 2-3 days<\/li><li>Switzerland 2 days<\/li><li>Andorra 4-7 days<\/li><li>Sweden 3 days<\/li><li>Italy 3 days<\/li><li>Spain 4-5 days<\/li><li>San Marino 5-8 days<\/li><li>Slovakia 3 days<\/li><li>Slovenia 3 days<\/li><li>Hungary 3 days<\/li><li>Great Britain 2-3 days<\/li><li>Finland 4 days<\/li><li>Greece 6-8 days<\/li><li>Ireland 3-4 days<\/li><li>Portugal 4-5 days<\/li><li>Croatia 2-3 days<\/li><li>Estonia 4-6 days<\/li><li>Latvia 3-5 days<\/li><li>Lithuania 4-5 days<\/li><li>Bulgaria 4-5 days<\/li><li>Romania 3-4 days<\/li><li>Norway 4-5 days<\/li><li>USA 8-10 days<\/li><\/ul>"
+          }
+        },
+        "4fdf26de-a1a4-4be6-a5c2-93e608ae397b": {
+          "type": "question",
+          "settings": {
+            "title": "What if my order has been processed and the address is incorrect?",
+            "answer": "<p>For orders with an inaccurate address, we advise you to regularly review your tracking details through the link given in your shipping confirmation email.<br\/><br\/>Please note that we cannot be held accountable for modifications to delivery addresses or for addresses that are entered incorrectly during the shipping process.<\/p>"
+          }
+        },
+        "10ce301e-060d-46e4-b35e-b44f36bc3964": {
+          "type": "question",
+          "settings": {
+            "title": "How can I edit my shipping address?",
+            "answer": "<p>If you'd like to modify your order, please reach out to us promptly through our Contact Form or send an email, including your order number.<\/p>"
+          }
+        },
+        "ae7dc467-9bd5-4313-8b74-7a5b95be20fe": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order after placing it?",
+            "answer": "<p>You have a statutory right of withdrawal: you can withdraw from your purchase contract within fourteen days without giving any reason.<\/p>"
+          }
+        },
+        "517f3fe2-f6fc-4f7a-8e56-176e85259d10": {
+          "type": "category",
+          "settings": {
+            "title": "RETURNS"
+          }
+        },
+        "2655c7dc-7556-4793-890c-5aad5d9f13dc": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return the products to you?",
+            "answer": "<p>Yes, you can. Any item can be returned 30 days after ordering. However, please avoid damaging or contaminating the goods. The goods must be returned to us unopened and in their original packaging with all accessories. If you have any questions about your return, please contact us on 0800 808 18 28 so that we can check the status of your return. In the event of allergies or other reactions, please also contact us on 0800 808 18 28.<\/p>"
+          }
+        },
+        "b5977d9e-2ca3-4707-b3e5-7a5574842bf4": {
+          "type": "question",
+          "settings": {
+            "title": "Is the return process free of charge?",
+            "answer": "<p>Usually, there are no costs for the return. If you send us the goods by a method other than the standard delivery offered by us, you are obliged to bear the resulting additional costs.<\/p>"
+          }
+        },
+        "b690e479-0f4e-4e79-9c8f-eef384fab785": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if I received the wrong product?",
+            "answer": "<p>Kindly email us within 48 hours of receiving your order so that we can assist you with this matter. Include your order number and attach a photo of the incorrect item(s) you received.<\/p>"
+          }
+        },
+        "010248f5-071a-4621-8443-81a7a5850c1d": {
+          "type": "question",
+          "settings": {
+            "title": "What if I am not satisfied with your products?",
+            "answer": "<p>Since we are deeply committed to the potency of our formulations, we genuinely wish for you to love our products just as much as we do. However, should there be an unusual case where our products don't meet your complete satisfaction, we gladly provide you with a full refund when you return the items to us within 45 days of receiving your purchase. Your satisfaction is our top priority!<\/p>"
+          }
+        },
+        "1972b72d-a0fc-4235-8e42-3e49656ddcd9": {
+          "type": "category",
+          "settings": {
+            "title": "CONTACT\/HELP"
+          }
+        },
+        "aaeeeb2d-d182-454e-b50b-bb588057e912": {
+          "type": "question",
+          "settings": {
+            "title": "What language do you offer assistance in?",
+            "answer": "<p>We are always happy to assist you in English and also in German as this is the official language of our company.<\/p>"
+          }
+        },
+        "abf397ac-66b0-48c4-9ccd-923f413b29f6": {
+          "type": "question",
+          "settings": {
+            "title": "How can I contact you if I have an issue with my order?",
+            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options here (LINK: https:\/\/www.melume-skinscience.com\/de\/pages\/contact).<\/p>"
+          }
+        },
+        "ccaf1d6d-bfa1-4086-bb93-465ed8ef9ae2": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if I receive a defective or damaged product?",
+            "answer": "<p>If your goods arrive damaged, please contact us within 48 hours of receiving your order on 0800 808 18 28. Please have your order number ready.<\/p>"
+          }
+        },
+        "07bd8cb1-2f30-4213-be62-b5b25b97e295": {
+          "type": "question",
+          "settings": {
+            "title": "Whom should I contact for inquiries?",
+            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options here (LINK: https:\/\/www.melume-skinscience.com\/de\/pages\/contact).<\/p>"
+          }
+        },
+        "87bc8cfa-d49d-46a2-994e-0761926191c2": {
+          "type": "question",
+          "settings": {
+            "title": "Whom can I reach out to for product advice?",
+            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options here (LINK: https:\/\/www.melume-skinscience.com\/de\/pages\/contact).<\/p>"
+          }
+        },
+        "db0d3697-cf29-4228-8863-3958a76e505b": {
+          "type": "question",
+          "settings": {
+            "title": "I would like to feature your brand and\/or products. How do I get in touch?",
+            "answer": "<p>Please send all press and media inquiries to news@melume-skinscience.com.<\/p>"
+          }
+        },
+        "2ef44ee7-588f-4bc0-9d10-cfe99b0369e9": {
+          "type": "category",
+          "settings": {
+            "title": "WEBSITE"
+          }
+        },
+        "de554d79-733a-43c8-8c96-57417ad2cf64": {
+          "type": "question",
+          "settings": {
+            "title": "What do I do if I experience problems with the website?",
+            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options here (LINK: https:\/\/www.melume-skinscience.com\/de\/pages\/contact).<\/p>"
+          }
+        },
+        "a248e59b-809b-4b24-93ad-4f277080f2e1": {
+          "type": "question",
+          "settings": {
+            "title": "How are cookies used on your site?",
+            "answer": "<p>We use cookies to temporarily collect information about your device. This means that we do not necessarily receive information about you personally. This does not harm your device. We use cookies to optimize our user-friendliness.<br\/>You can find out more about this here (link: https:\/\/www.melume-skinscience.com\/de\/pages\/privacy-police). You can change and revoke your cookie settings at any time. To do this, see your cookie settings in the footer of the website. <\/p>"
+          }
+        },
+        "f5f7a75e-4b42-4f15-957e-57b4cddd6b18": {
+          "type": "category",
+          "settings": {
+            "title": "PRODUCTS"
+          }
+        },
+        "9debc400-607d-42f3-b011-76624da74979": {
+          "type": "question",
+          "settings": {
+            "title": "How can I receive 2 luxury samples?",
+            "answer": "<p>With every order you have the opportunity to select 2 luxury samples free of charge. After you have selected 2 samples, they will be added to your shopping cart. <\/p>"
+          }
+        },
+        "e1cab98a-c872-4766-8e1e-16c755b38417": {
+          "type": "question",
+          "settings": {
+            "title": "How do I find out which ingredients are included in the products?",
+            "answer": "<p>All our product pages have a tab with all the ingredients they contain. You can find more detailed information about the ingredients in our Ingredient Library (LINK: https:\/\/www.melume-skinscience.com\/de\/pages\/ingredient-library)<\/p>"
+          }
+        },
+        "078924ad-d065-4ce3-be00-f63c3fa26833": {
+          "type": "question",
+          "settings": {
+            "title": "Do you test on animals?",
+            "answer": "<p>We are 100% cruelty-free and would never test our products on animals.<\/p>"
+          }
+        },
+        "99d45840-94b5-4451-b842-1b27a61e7bbe": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use your products during pregnancy?",
+            "answer": "<p>Even though our products are dermatologically tested, we can not recommend using products with retinol during pregnancy.<\/p>"
+          }
+        },
+        "ccfff580-b1af-452e-8a31-5f6c853488e0": {
+          "type": "question",
+          "settings": {
+            "title": "What skin types are your products suitable for?",
+            "answer": "<p>Our products are designed to provide comfort for all skin types during life's various challenges; we've got you covered. All our products undergo dermatological testing and are formulated with the goal of eliminating the risk of irritation. Cheers to achieving happy and healthy skin!<\/p>"
+          }
+        },
+        "de703eda-d778-4cc4-9250-d3bf6acf2711": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know when my product will expire?",
+            "answer": "<p>All of our products maintain a shelf life of two years when sealed. Upon opening, please consult the packaging for specific guidelines indicating the optimal effectiveness duration, typically spanning from 6 to 12 months. Locate the open jar icon on the back of each product for easy reference. Our aim is for our products to accompany you through all seasons.<\/p>"
+          }
+        },
+        "17a79ad5-339d-4b41-b369-85bade5d626c": {
+          "type": "question",
+          "settings": {
+            "title": "Where is your company located, and where are your products made?",
+            "answer": "<p>We are located in Germany and our formulations are also all made in Germany. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b2d2a0d2-7ccc-4e1b-a0fb-970748dc06eb",
+        "7c30245f-d8bb-4686-8edb-3c225a8d7c83",
+        "f59709b2-0e09-44ae-a1ac-f18d87ff02c8",
+        "3b47a467-47ae-4f56-a46f-05d1476eb204",
+        "ba04a195-1ed5-43bc-9f12-a86552046e61",
+        "cd3072af-87eb-4403-92e5-d9a4d7552cf1",
+        "442488ee-3dd9-4542-9d03-ac810d4d2adf",
+        "ef440260-a806-4c4a-9740-340c676768f2",
+        "dbe5bd63-662a-453d-8031-09adb78dfeb8",
+        "a692e0db-2705-4415-a9df-c784d0a0eb2c",
+        "8ecdd268-8df8-48fe-8d58-4327fdb9dd6f",
+        "2e22838d-fa89-4605-8036-5fa60d987216",
+        "7d5147c9-efd0-40f2-9021-5d613b0fd886",
+        "44a0f261-b4ba-49e7-9633-b6431f66f3d2",
+        "cdc32382-f207-43be-a357-eba25f63071b",
+        "4fdf26de-a1a4-4be6-a5c2-93e608ae397b",
+        "10ce301e-060d-46e4-b35e-b44f36bc3964",
+        "ae7dc467-9bd5-4313-8b74-7a5b95be20fe",
+        "517f3fe2-f6fc-4f7a-8e56-176e85259d10",
+        "2655c7dc-7556-4793-890c-5aad5d9f13dc",
+        "b5977d9e-2ca3-4707-b3e5-7a5574842bf4",
+        "b690e479-0f4e-4e79-9c8f-eef384fab785",
+        "010248f5-071a-4621-8443-81a7a5850c1d",
+        "1972b72d-a0fc-4235-8e42-3e49656ddcd9",
+        "aaeeeb2d-d182-454e-b50b-bb588057e912",
+        "abf397ac-66b0-48c4-9ccd-923f413b29f6",
+        "ccaf1d6d-bfa1-4086-bb93-465ed8ef9ae2",
+        "07bd8cb1-2f30-4213-be62-b5b25b97e295",
+        "87bc8cfa-d49d-46a2-994e-0761926191c2",
+        "db0d3697-cf29-4228-8863-3958a76e505b",
+        "2ef44ee7-588f-4bc0-9d10-cfe99b0369e9",
+        "de554d79-733a-43c8-8c96-57417ad2cf64",
+        "a248e59b-809b-4b24-93ad-4f277080f2e1",
+        "f5f7a75e-4b42-4f15-957e-57b4cddd6b18",
+        "9debc400-607d-42f3-b011-76624da74979",
+        "e1cab98a-c872-4766-8e1e-16c755b38417",
+        "078924ad-d065-4ce3-be00-f63c3fa26833",
+        "99d45840-94b5-4451-b842-1b27a61e7bbe",
+        "ccfff580-b1af-452e-8a31-5f6c853488e0",
+        "de703eda-d778-4cc4-9250-d3bf6acf2711",
+        "17a79ad5-339d-4b41-b369-85bade5d626c"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "41d74da0-a5f4-4ff1-9e41-e2d77dc47f04": {
+      "type": "faq",
+      "blocks": {
+        "30c9552a-853b-4394-8ac1-d4685fa1706b": {
+          "type": "category",
+          "settings": {
+            "title": "AUTO REPLENISHMENT"
+          }
+        },
+        "f0a47ccd-e5f3-4c0a-88c8-69a57373943b": {
+          "type": "question",
+          "settings": {
+            "title": "What are the benefits of opting-in to Auto-Replenishment?",
+            "answer": "<p>Well, let's begin with the fantastic benefits! By opting for Auto-Replenish, you enjoy a 30% discount on the selected product(s). The items you choose for Auto-Replenish are automatically charged and shipped according to the frequency you specify.<\/p>"
+          }
+        },
+        "1b68d109-eb20-440c-bbdd-ed58da5a407a": {
+          "type": "question",
+          "settings": {
+            "title": "How do I opt-in to Auto-Replenishment for a product?",
+            "answer": "<p>Just select the product, then check the 'Auto-Replenish & Save 30%' box and click \"add to card\". You'll then be directed to the check out page.<\/p>"
+          }
+        },
+        "d3cb94a4-dcdc-40a3-a871-45eee1605b3c": {
+          "type": "question",
+          "settings": {
+            "title": "Can I opt-in to Auto-Replenishment for multiple products within the same order?",
+            "answer": "<p>You can include as many items as you like in a single order through our Auto-Replenishment program—there's no limit.<\/p>"
+          }
+        },
+        "65f99c3a-7d70-42fa-b49d-5551c6376344": {
+          "type": "question",
+          "settings": {
+            "title": "Can I opt-in to Auto-Replenishment and make a one-time purchase within the same order?",
+            "answer": "<p>Certainly! Just choose your Auto-Replenishment product(s) and include them in your cart along with your one-time purchase.<\/p>"
+          }
+        },
+        "d99eb759-d8e7-4448-950d-07ba30f816ef": {
+          "type": "question",
+          "settings": {
+            "title": "Can I change or cancel my subscription at any time?",
+            "answer": "<p>When you log in, you can manage, pause or cancel your Auto-Replenishment. Log in here (https:\/\/www.melume-skinscience.com\/account\/login) to access your account.<\/p>"
+          }
+        },
+        "fd026f32-5f94-44c2-8a6b-6759dedf93fe": {
+          "type": "question",
+          "settings": {
+            "title": "Will I be charged for shipping on my subscription delivery?",
+            "answer": "<p>Your subscribed products will be delivered via free standard shipping.<\/p>"
+          }
+        },
+        "dfce7ec4-e7cc-4c88-a263-d901ab5cd255": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use a promo code with my subscription?",
+            "answer": "<p>Promo codes cannot be used when placing Auto-Replenishment orders.<\/p>"
+          }
+        },
+        "5304b48a-4a2c-468b-bbd6-9661a19e74c9": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return a subscription product?",
+            "answer": "<p>Yes, our general return policy applies here. <\/p>"
+          }
+        },
+        "53e76dff-0208-4f18-be1b-e0f7193a2958": {
+          "type": "question",
+          "settings": {
+            "title": "What if I want to cancel my subscription?",
+            "answer": "<p>Have you changed your mind? Then log in here (https:\/\/www.melume-skinscience.com\/account\/login) to access your account and cancel your Auto-Replenishment. <\/p>"
+          }
+        },
+        "7c52a201-01b0-4edf-aa57-9be3a5d0e7e9": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods do you accept for subscriptions?",
+            "answer": "<p>You can only pay for your Auto-Replenishment with PayPal.<\/p>"
+          }
+        },
+        "f968d5b4-2b04-4ce0-9762-6e01b7ffa416": {
+          "type": "category",
+          "settings": {
+            "title": "REWARDS PROGRAM"
+          }
+        },
+        "4bdf36b1-eb06-47d1-a72a-a863ecac396b": {
+          "type": "question",
+          "settings": {
+            "title": "How do I participate and start earning points?",
+            "answer": "<p>Getting started is simple! Click the 'Join our skinclub' button. Once you've registered, you can earn points various ways. Visit the \"MEMBERSHIP\" section in your user account to begin enjoying the benefits of your accumulated points.<\/p>"
+          }
+        },
+        "41f427a3-9964-48e4-a121-898e189781c9": {
+          "type": "question",
+          "settings": {
+            "title": "How do I check my points balance?",
+            "answer": "<p>To view your point balance, click on the \"MEMBERSHIP\" section within your user account.<\/p>"
+          }
+        },
+        "d526cd89-e960-465a-92da-b867cec17e5d": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How many points do I receive for what?",
+            "answer": "<p>Write content to help your customers to better understand your products or policies.<\/p>"
+          }
+        },
+        "316d92ac-4106-4a1f-9e48-e085d138795c": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take until the points appear in my account?",
+            "answer": "<p>You should receive points in your account instantly once you complete a transaction.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "30c9552a-853b-4394-8ac1-d4685fa1706b",
+        "f0a47ccd-e5f3-4c0a-88c8-69a57373943b",
+        "1b68d109-eb20-440c-bbdd-ed58da5a407a",
+        "d3cb94a4-dcdc-40a3-a871-45eee1605b3c",
+        "65f99c3a-7d70-42fa-b49d-5551c6376344",
+        "d99eb759-d8e7-4448-950d-07ba30f816ef",
+        "fd026f32-5f94-44c2-8a6b-6759dedf93fe",
+        "dfce7ec4-e7cc-4c88-a263-d901ab5cd255",
+        "5304b48a-4a2c-468b-bbd6-9661a19e74c9",
+        "53e76dff-0208-4f18-be1b-e0f7193a2958",
+        "7c52a201-01b0-4edf-aa57-9be3a5d0e7e9",
+        "f968d5b4-2b04-4ce0-9762-6e01b7ffa416",
+        "4bdf36b1-eb06-47d1-a72a-a863ecac396b",
+        "41f427a3-9964-48e4-a121-898e189781c9",
+        "d526cd89-e960-465a-92da-b867cec17e5d",
+        "316d92ac-4106-4a1f-9e48-e085d138795c"
+      ],
+      "custom_css": [
+        ".container {margin-top: 0px;}"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "737733db-3d2c-461e-a877-04941aea522d": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "41d74da0-a5f4-4ff1-9e41-e2d77dc47f04",
+    "737733db-3d2c-461e-a877-04941aea522d"
+  ]
+}
