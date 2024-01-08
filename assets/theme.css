@@ -15348,7 +15348,6 @@ COSTUM ELEMENTS
   text-transform: uppercase;
   font-size: 13px;
   height: 100%; /* Neue Zeile: Setze die Höhe auf 100% */
-  cursor: pointer;
 }
 
 .free-gift-product-img-container {
@@ -15360,7 +15359,7 @@ COSTUM ELEMENTS
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  cursor: none;
   transition: background-color 0.2s ease-in-out;
 }
 
