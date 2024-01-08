@@ -15348,6 +15348,7 @@ COSTUM ELEMENTS
   text-transform: uppercase;
   font-size: 13px;
   height: 100%; /* Neue Zeile: Setze die Höhe auf 100% */
+  cursor: pointer;
 }
 
 .free-gift-product-img-container {
