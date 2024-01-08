@@ -15467,6 +15467,7 @@ COSTUM ELEMENTS
 .spinner-in-progress .add-to-cart-button:hover {
   background-color: transparent; /* Set the background to transparent when spinner is in progress */
   cursor: not-allowed;
+  pointer-events: none;
 }
 /*---Free Gifts--- */
 
