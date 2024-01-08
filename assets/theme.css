@@ -15459,13 +15459,12 @@ COSTUM ELEMENTS
 }
 
 
-
-.add-to-cart-button:hover.spinner-in-progress:hover {
-  background-color: rgb(var(--secondary-background)); /* Keep the same color while spinner is in progress */
+.add-to-cart-button:hover {
+  background-color: rgb(220, 220, 220);
 }
 
-.add-to-cart-button:not(.spinner-in-progress):hover {
-  background-color: rgb(220, 220, 220); /* Apply hover effect only when spinner is not in progress */
+.spinner-in-progress .add-to-cart-button:hover {
+  background-color: transparent; /* Set the background to transparent when spinner is in progress */
 }
 /*---Free Gifts--- */
 
