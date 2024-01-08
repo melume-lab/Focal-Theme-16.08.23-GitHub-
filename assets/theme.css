@@ -15458,12 +15458,15 @@ COSTUM ELEMENTS
   }
 }
 
-.add-to-cart-button:hover {
-  /* Add your new hover effect styles here */
-  /* For example, change background color */
-  background-color: #ddd;
+
+
+.add-to-cart-button:hover.spinner-in-progress:hover {
+  background-color: rgb(var(--secondary-background)); /* Keep the same color while spinner is in progress */
 }
 
+.add-to-cart-button:not(.spinner-in-progress):hover {
+  background-color: rgb(220, 220, 220); /* Apply hover effect only when spinner is not in progress */
+}
 /*---Free Gifts--- */
 
 
