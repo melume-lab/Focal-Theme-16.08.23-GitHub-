@@ -15363,10 +15363,6 @@ COSTUM ELEMENTS
   transition: background-color 0.2s ease-in-out;
 }
 
- 
-.free-gift-product-img-container:hover {
-  background-color: rgb(220, 220, 220);
-}
 
 .free-gift-product-img {
   width: 100%; 
@@ -15460,6 +15456,11 @@ COSTUM ELEMENTS
   }
 }
 
+.add-to-cart-button:hover {
+  /* Add your new hover effect styles here */
+  /* For example, change background color */
+  background-color: #ddd;
+}
 
 /*---Free Gifts--- */
 
