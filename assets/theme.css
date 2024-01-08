@@ -15359,7 +15359,7 @@ COSTUM ELEMENTS
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  cursor: auto;
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -15410,6 +15410,7 @@ COSTUM ELEMENTS
     min-width: 100px;
     box-sizing: border-box;
     margin-top: 10px;
+    cursor: pointer;
   }
   
   .grayed-out {
