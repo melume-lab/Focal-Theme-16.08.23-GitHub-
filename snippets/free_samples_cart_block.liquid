@@ -130,51 +130,56 @@ document.addEventListener('DOMContentLoaded', function () {
         addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
       }
 
-      addToCartButton.addEventListener('click', function (event) {
-      event.stopPropagation(); // Stop the event from propagating to parent elements
+      // ...
 
-      if (isOperationInProgress) {
-        return; // Ignore clicks while an operation is in progress
-      }
+addToCartButton.addEventListener('click', function (event) {
+  event.stopPropagation();
 
-      isOperationInProgress = true; // Set flag to true
-      button.classList.add('disabled'); // Add disabled class to the button
-      loadingSpinner.style.display = 'block'; // Show the loading spinner
-      addToCartButton.classList.add('invisible'); // Make the button text invisible
+  if (isOperationInProgress) {
+    return;
+  }
 
-      const isSelected = button.classList.contains('selected');
+  isOperationInProgress = true;
+  button.classList.add('disabled');
+  loadingSpinner.style.display = 'block';
+  addToCartButton.classList.add('invisible');
+  button.classList.add('spinner-in-progress'); // Add the class here
 
-      if (!isSelected && selectedProducts.length < 2) {
-        // Check again before adding to cart
-        if (!selectedProducts.includes(productId)) {
-          setTimeout(() => {
-            button.classList.add('selected');
-            selectedProducts.push(productId);
-            addToCart(productId);
-            addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
-            localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-            updateGrayOut();
-          }, 1000); // 1000 milliseconds = 1 second
-        }
-      } else if (isSelected) {
-        setTimeout(() => {
-          button.classList.remove('selected');
-          selectedProducts = selectedProducts.filter(id => id !== productId);
-          removeFromCart(productId);
-          addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
-          localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-          updateGrayOut();
-        }, 1000); // 1000 milliseconds = 1 second
-      }
+  const isSelected = button.classList.contains('selected');
 
-      // Remove disabled class, hide loading spinner, make the button text visible, and reset flag after the operation is complete
+  if (!isSelected && selectedProducts.length < 2) {
+    if (!selectedProducts.includes(productId)) {
       setTimeout(() => {
-        button.classList.remove('disabled');
-        loadingSpinner.style.display = 'none'; // Hide the loading spinner
-        addToCartButton.classList.remove('invisible'); // Make the button text visible
-        isOperationInProgress = false;
-      }, 1000); // 1000 milliseconds = 1 second
-    });
+        button.classList.add('selected');
+        selectedProducts.push(productId);
+        addToCart(productId);
+        addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}';
+        localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+        updateGrayOut();
+      }, 1000);
+    }
+  } else if (isSelected) {
+    setTimeout(() => {
+      button.classList.remove('selected');
+      selectedProducts = selectedProducts.filter(id => id !== productId);
+      removeFromCart(productId);
+      addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}';
+      localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+      updateGrayOut();
+    }, 1000);
+  }
+
+  setTimeout(() => {
+    button.classList.remove('disabled');
+    loadingSpinner.style.display = 'none';
+    addToCartButton.classList.remove('invisible');
+    button.classList.remove('spinner-in-progress'); // Remove the class here
+    isOperationInProgress = false;
+  }, 1000);
+});
+
+// ...
+
 
     updateGrayOut(); // Initial call to the function to update gray out and clickability
   });
