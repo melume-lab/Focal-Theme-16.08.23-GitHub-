@@ -15364,13 +15364,7 @@ COSTUM ELEMENTS
 }
 
 
-.free-gift-product-img-container.spinner-in-progress:hover {
-  background-color: rgb(var(--secondary-background)); /* Keep the same color while spinner is in progress */
-}
 
-.free-gift-product-img-container:not(.spinner-in-progress):hover {
-  background-color: rgb(220, 220, 220); /* Apply hover effect only when spinner is not in progress */
-}
 
 .free-gift-product-img {
   width: 100%; 
