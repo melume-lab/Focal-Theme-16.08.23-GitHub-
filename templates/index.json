@@ -288,7 +288,7 @@
         "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0"
       ],
       "custom_css": [
-        "h2 {font-size: calc(var(--heading-h2-font-size) - 12px); font-weight: 300; line-height: 1.5;}"
+        "h2 {font-size: 25px; font-weight: 300; line-height: 1.5;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -329,7 +329,7 @@
         "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
       ],
       "custom_css": [
-        "h2 {font-size: calc(var(--heading-h2-font-size) - 12px); font-weight: 300; line-height: 1.5;}"
+        "h2 {font-size: 25px; font-weight: 300; line-height: 1.5;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -448,7 +448,7 @@
       "type": "image-with-text-block",
       "custom_css": [
         ".content-box {width: 100%; max-width: 750px; background: rgba(0, 0, 0, 0);}",
-        "h2 {font-weight: 300; line-height: 1.5; font-size: calc(var(--heading-h2-font-size) - 12px);}"
+        "h2 {font-weight: 300; line-height: 1.5; font-size: 25px;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
