@@ -162,8 +162,8 @@
                 <a href="{{ section.settings.button }}">
                   <img src="{{ presse.bild | img_url: '500x' }}" alt="{{ presse.name }}">
                 </a>
-                <h4>{{ presse.name }}</h4>
-                <p>{{ presse.datum }}</p>
+                <h3 style="margin-bottom: 5px; font-weight: 700;">{{ presse.name }}</h3>
+              <p style="margin-top: 5px;">{{ presse.datum }}</p>
               </div>
               {% assign count = count | plus: 1 %}
             {% endif %}
