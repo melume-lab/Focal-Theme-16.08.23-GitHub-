@@ -22,10 +22,23 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "5b55ab68-4de0-4893-9f41-60a75748a826": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "798347cd-6883-44b9-aaf5-950980db244e"
+    "798347cd-6883-44b9-aaf5-950980db244e",
+    "5b55ab68-4de0-4893-9f41-60a75748a826"
   ]
 }
