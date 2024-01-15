@@ -3,17 +3,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "unit_measurement_DUApBQ": {
+          "type": "unit-measurement",
+          "settings": {
+            "um-text": "<p>{{ product.metafields.custom.ml_angaben | metafield_tag }}<\/p>"
+          }
+        },
         "b6dbb1c2-96da-4140-a1b3-692649457b43": {
           "type": "text",
           "disabled": true,
           "settings": {
             "text": "{{ product.metafields.custom.promotion_notice | metafield_tag }}"
-          }
-        },
-        "e48aaa0e-d9ec-417c-bf54-6dfac516772c": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.ml_angaben | metafield_tag }}<\/p>"
           }
         },
         "5a6434b5-190a-4478-a1e7-548deb2b0015": {
@@ -118,8 +118,8 @@
         }
       },
       "block_order": [
+        "unit_measurement_DUApBQ",
         "b6dbb1c2-96da-4140-a1b3-692649457b43",
-        "e48aaa0e-d9ec-417c-bf54-6dfac516772c",
         "5a6434b5-190a-4478-a1e7-548deb2b0015",
         "1b7fcf1e-aada-43e8-8e94-ac63909be7fa",
         "9b02b676-ac6c-418d-9f39-0212831b8811",
