@@ -204,6 +204,32 @@
         {%- endif -%}
 
 
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      PRICE UNIT MEASUREMENT
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      
+      {%- when 'unit-measurement' -%}
+          {% if block.settings.um-text != blank %}
+            <div class="product-form__text" {{ block.shopify_attributes }} style="font-size: 13px;">
+               <span style="margin: 0px;">{{- block.settings.um-text -}}</span>
+              {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
+                <span class="price text--subdued">
+                  <span class="unit-price-measurement">
+                    <span class="unit-price-measurement__price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
+                    <span class="unit-price-measurement__separator">/</span>
+                    {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
+                      <span class="unit-price-measurement__reference-value">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}</span>
+                    {%- endif -%}            
+                    <span class="unit-price-measurement__reference-unit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
+                  </span>
+                </span>
+              {%- endif -%}
+            </div>
+          {% endif %}
+
+
 
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
