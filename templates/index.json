@@ -5,6 +5,7 @@
       "blocks": {
         "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Desktop-retinol-oil-2160x1018.png",
             "mobile_image": "shopify:\/\/shop_images\/Mobile-retinol-oil-1000x1400.jpg",
