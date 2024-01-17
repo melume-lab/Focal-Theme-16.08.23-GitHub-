@@ -153,6 +153,26 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "custom_html_xJrHAW": {
+      "type": "custom-html",
+      "custom_css": [
+        ".column-icons-container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around; max-width: 100%; margin: 0 auto; margin-bottom: 20px;}",
+        ".column-icons {text-align: center; width: 100%; box-sizing: border-box;}",
+        ".custom-icon-container img {max-height: 100px; width: auto;}",
+        "@media (max-width: 740px) {.column-icons {width: calc(50% - 20px); } .custom-icon-container img {max-height: 85px; }}",
+        "@media (min-width: 741px) {.column-icons {width: calc(33.33% - 20px); }}",
+        "@media (min-width: 1000px) {.column-icons {width: calc(20% - 20px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div class=\"column-icons-container\" style=\" margin-top: var(--vertical-breather)\">\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Biocompatible_6db72108-9733-41d7-8fa2-c6454c1c6459.png?v=1692257221\">\n<\/div>\n<p> BIOCOMPATIBLE <br> BIO AVAILABLE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Vegan_1f8e17d8-6977-4e23-8912-12c9922e80aa.png?v=1692257222\">\n<\/div>\n<p> VEGAN &amp; <br> CRUELTY-FREE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/ICON-LOVE_it_or_RETURN_it.png?v=1705491616\">\n<\/div>\n<p> LOVE IT OR <br> RETURN IT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Dermatologically_Tested.png?v=1687867274\">\n<\/div>\n<p> DERMATOLOGICALLY <br> TESTED <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Clinically_Proven.png?v=1687088782\" style=\"\">\n<\/div>\n<p> CLINICALLY PROVEN <br> INGREDIENTS <\/p>\n<\/div>\n<\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "ed8c9614-ba87-4c1f-aaf3-5a5b3ac571d7": {
       "type": "custom-html",
       "custom_css": [
@@ -328,6 +348,7 @@
     "7467aecc-cb9c-4d52-835a-288b29d84097",
     "6f312617-3fc4-4e7d-a598-c25194c15752",
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1",
+    "custom_html_xJrHAW",
     "ed8c9614-ba87-4c1f-aaf3-5a5b3ac571d7",
     "30fd7bd4-4c0c-4fbb-bf1d-0d31e2a4222e",
     "9da9c22e-f745-4ebc-a100-43ff3bc901df",
