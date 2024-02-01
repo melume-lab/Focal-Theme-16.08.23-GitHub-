@@ -52,7 +52,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d": {
