@@ -3,22 +3,21 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "unit_measurement_DUApBQ": {
-          "type": "unit-measurement",
+        "e48aaa0e-d9ec-417c-bf54-6dfac516772c": {
+          "type": "text",
           "settings": {
-            "um-text": "<p>{{ product.metafields.custom.ml_angaben | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.custom.ml_angaben | metafield_tag }}<\/p>"
           }
         },
-        "b6dbb1c2-96da-4140-a1b3-692649457b43": {
-          "type": "text",
+        "21605fcb-5f73-4b59-9f8c-4dec744ec77e": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "disabled": true,
           "settings": {
-            "text": "{{ product.metafields.custom.promotion_notice | metafield_tag }}"
-          }
-        },
-        "5a6434b5-190a-4478-a1e7-548deb2b0015": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "vitamin-c-creme",
+            "stars_text_empty": "No reviews"
           }
         },
         "1b7fcf1e-aada-43e8-8e94-ac63909be7fa": {
@@ -49,7 +48,6 @@
         },
         "c6843306-a389-4746-a9bd-174bdeb77b8a": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Pay within 30 days using <strong>Klarna. <\/strong><a href=\"https:\/\/www.klarna.com\/de\/kundenservice\/wie-funktioniert-der-ratenkauf-mit-klarna\/\" target=\"_blank\" title=\"Klarna Ratenkauf\">Learn more<\/a><\/p>"
           }
@@ -96,7 +94,7 @@
           "settings": {
             "title": "{{ product.metafields.custom.ingredient_or_material.value }}",
             "answer": "{{ product.metafields.custom.ingredients | metafield_tag }}",
-            "answer2": "{{ product.metafields.custom.ingredients_small | metafield_tag }}"
+            "answer2": "{{ product.metafields.custom.ingredients | metafield_tag }}"
           }
         },
         "cf2f58ad-e964-4315-945a-1d89be7de4b7": {
@@ -107,20 +105,19 @@
             "image_alignment": "center",
             "image_width": 400,
             "image_2": "shopify:\/\/shop_images\/Gruppe_13.png",
-            "icon_title_2": "FREE SHIPPING OVER 79,90$",
+            "icon_title_2": "FREE SHIPPING OVER 79,90€",
             "image_alignment_2": "center",
             "image_width_2": 150,
             "image_3": "shopify:\/\/shop_images\/Gruppe_10_4071b6c9-940b-4ea5-8346-69f4f0ccf9fe.png",
-            "icon_title_3": "EACH PURCHASE 1$ = 5 POINTS",
+            "icon_title_3": "EACH PURCHASE 1€ = 5 POINTS",
             "image_alignment_3": "left",
             "image_width_3": 150
           }
         }
       },
       "block_order": [
-        "unit_measurement_DUApBQ",
-        "b6dbb1c2-96da-4140-a1b3-692649457b43",
-        "5a6434b5-190a-4478-a1e7-548deb2b0015",
+        "e48aaa0e-d9ec-417c-bf54-6dfac516772c",
+        "21605fcb-5f73-4b59-9f8c-4dec744ec77e",
         "1b7fcf1e-aada-43e8-8e94-ac63909be7fa",
         "9b02b676-ac6c-418d-9f39-0212831b8811",
         "bbdb1d99-abb2-4642-9ed5-63ef0c07cafe",
@@ -135,14 +132,13 @@
         "cf2f58ad-e964-4315-945a-1d89be7de4b7"
       ],
       "custom_css": [
-        ".collapsible-toggle {font-weight: 600;}",
-        ".jdgm-star {font-weight: normal;}"
+        ".collapsible-toggle {font-weight: 600;}"
       ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "show_product_rating": false,
+        "show_product_rating": true,
         "show_sticky_add_to_cart": true,
         "show_share_buttons": false,
         "help_page": "",
@@ -214,8 +210,8 @@
         "maincontent": "",
         "button_text": "",
         "button_link": "",
-        "background": "#000000",
-        "text_color": "#ffffff"
+        "background": "#f5f2f0",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "80c29ec1-74f4-4598-a8d2-8846f4572976": {
@@ -256,7 +252,7 @@
         "template--17116456550680__8be7376e-a723-46aa-8c6b-9f3a2e39e3cc-167517639602de0d02-0": {
           "type": "collection",
           "settings": {
-            "collection": "skincare-products",
+            "collection": "all-products",
             "label": "",
             "button_text": "",
             "button_url": ""
@@ -266,12 +262,9 @@
       "block_order": [
         "template--17116456550680__8be7376e-a723-46aa-8c6b-9f3a2e39e3cc-167517639602de0d02-0"
       ],
-      "custom_css": [
-
-      ],
       "settings": {
         "subheading": "",
-        "title": "COMPLETE YOUR ROUTINE",
+        "title": "Complete Your Routine",
         "content": "",
         "products_count": 16,
         "products_per_row": 4,
@@ -283,35 +276,8 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "120b144b-5068-4ef6-b28d-9568cb497ff7": {
-      "type": "image-with-text-block",
-      "custom_css": [
-        ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
-        ".content-box-custom-width {max-width: 650px;}",
-        "h2 {font-size: calc(var(--heading-h2-font-size) - 3px); font-weight: 700;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_100__Desktop.png",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_100__Mobile.png",
-        "subheading": "",
-        "title": "100% SATISFACTION GUARANTEED",
-        "html": "<style>\n.custom-banner-text {\nfont-size: calc(var(--heading-h2-font-size) - 3px);\n  font-weight: 300;\nmargin-top: -5%;\n}\n<\/style>\n\n<div class=\"custom-banner-text\"> IF NOT, IT’S ON US.<\/div>",
-        "content": "<p>Our products are dedicated to create beautiful, youthful healthy skin. Thus, our firm commitment to innovation and science drives us to always go a step further in finding new ways to formulate: The fusion of our exclusive GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures you a skinsational experience and incredible results - your satisfaction is our top priority!<br\/>However, in the unusual case where our products don't meet your complete satisfaction, we gladly provide you with a full refund or a replacement product when you return the items to us within 45 days of receiving your purchase. For further guidance or additional product advice, please reach out to our customer service department.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_position": "left",
-        "text_alignment": "left",
-        "text_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "59654e52-65dc-404e-9b5c-040df1724de3": {
       "type": "custom-html",
-      "disabled": true,
       "custom_css": [
         ".container {margin-top: 25px;}"
       ],
@@ -337,7 +303,6 @@
       "block_order": [
         "18d037f3-22fc-41f4-976a-3e38969681bf"
       ],
-      "disabled": true,
       "custom_css": [
         ".spr-header-title {text-align: center; font-family: Cormorant, serif; font-size: var(--heading-h2-font-size);}",
         ".spr-summary-actions-newreview {line-height: 40px !important; font-size: 14px;}"
@@ -349,50 +314,14 @@
     },
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
         "subheading": "",
-        "title": "Reviews",
+        "title": "",
         "html": "",
-        "add_vertical_spacing": false,
+        "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "16941699771baf9769": {
-      "type": "apps",
-      "blocks": {
-        "4379e0a8-d9a5-4618-b68c-61b6384c36b2": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-block-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "disabled": true,
-          "settings": {
-            "air_blockreviews_summaryHeading": "",
-            "air_blockreviews_layout": "list",
-            "air_blockreviews_singleStarColor": "#000000",
-            "air_blockreviews_primaryColor": "#121212",
-            "air_blockreviews_buttonBackgroundColor": "#000000",
-            "air_blockreviews_buttonTextColor": "#ffffff"
-          }
-        },
-        "c3e369cd-e9b9-462a-8f57-4390f349f675": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "4379e0a8-d9a5-4618-b68c-61b6384c36b2",
-        "c3e369cd-e9b9-462a-8f57-4390f349f675"
-      ],
-      "custom_css": [
-        ".jdgm-star {font-weight: normal;}",
-        ".jdgm-rev-widg__title {font-size: calc(var(--heading-h2-font-size) - 10px); font-weight: 600; text-transform: uppercase;}",
-        ".jdgm-write-rev-link,.jdgm-ask-question-btn.jdgm-btn,.jdgm-btn {font-size: 14px; text-transform: uppercase; letter-spacing: 1.8px;}"
-      ],
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
       }
     }
   },
@@ -401,10 +330,8 @@
     "66849eca-7501-4f71-9912-5a5a43d36883",
     "80c29ec1-74f4-4598-a8d2-8846f4572976",
     "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc",
-    "120b144b-5068-4ef6-b28d-9568cb497ff7",
     "59654e52-65dc-404e-9b5c-040df1724de3",
     "1689955023c90277fb",
-    "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f",
-    "16941699771baf9769"
+    "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f"
   ]
 }
