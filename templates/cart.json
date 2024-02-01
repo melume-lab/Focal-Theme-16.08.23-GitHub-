@@ -39,7 +39,7 @@
         "show_payment_methods": true,
         "show_shipping_estimator": true,
         "shipping_estimator_default_country": "Germany",
-        "empty_button_link": "shopify:\/\/collections\/all-products"
+        "empty_button_link": "shopify:\/\/collections\/skincare-products"
       }
     },
     "cart-recommendations": {
@@ -55,7 +55,7 @@
         "template--17915595686155__a526140f-402f-44e7-87a6-bb15c58f5d9a-16861286769e540993-0": {
           "type": "collection",
           "settings": {
-            "collection": "all-products",
+            "collection": "skincare-products",
             "label": "",
             "button_text": "",
             "button_url": ""
