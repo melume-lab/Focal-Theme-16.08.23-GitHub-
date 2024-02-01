@@ -105,13 +105,40 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "image_LjT3XT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D-Sensational-retinol-oil-promotion.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M-Sensational-retinol-oil-promotion.jpg",
+            "video_source_url": "",
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "",
+            "title_promo": "<p>NEW IN<\/p>",
+            "content": "",
+            "content_promo": "<p>BIOAVAILABLE<br\/><strong>RETINOL OIL<\/strong><\/p>",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/products\/skinsational-retinol-oil",
+            "button_2_text": "",
+            "button_2_link": "",
+            "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "a11f4c44-fec7-49cc-9448-8ab94cd92389",
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d",
         "1a0a45d5-aa51-4163-8042-53e3f71313b8",
-        "35cdae0b-3c29-4ce9-8401-93c5704a9e64"
+        "35cdae0b-3c29-4ce9-8401-93c5704a9e64",
+        "image_LjT3XT"
       ],
       "custom_css": [
         "h2 {font-size: 40px; font-weight: 700;}",
