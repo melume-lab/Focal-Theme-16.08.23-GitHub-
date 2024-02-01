@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/skincare-ingredients",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -138,56 +138,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "c5b13fb8-bd94-4083-afc8-d74515a6f713": {
-      "type": "MS_text-carousel",
-      "blocks": {
-        "2b445495-38ba-45be-af7b-89e7f5d4855b": {
-          "type": "item",
-          "settings": {
-            "icontitle": "SOURCE",
-            "title": "",
-            "content": "<p>Camellia oil<\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "86d2e643-9088-4e9c-924c-2f2e36d38e2f": {
-          "type": "item",
-          "settings": {
-            "icontitle": "CATEGORY",
-            "title": "",
-            "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
-            "subheading": ""
-          }
-        },
-        "fc7194d9-5434-49c2-928f-8c619516768f": {
-          "type": "item",
-          "settings": {
-            "icontitle": "WHAT IT DOES",
-            "title": "",
-            "content": "<p>Fermented camellia oil contains antioxidants and essential fatty acids that protect your skin from free radical damage and prevent premature aging: The fermentation process breaks down the larger molecules in the oil, creating smaller, more bioavailable compounds that penetrate your skin more easily. This results in increased hydration, improved texture, and a brighter, more even complexion.<\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        }
-      },
-      "block_order": [
-        "2b445495-38ba-45be-af7b-89e7f5d4855b",
-        "86d2e643-9088-4e9c-924c-2f2e36d38e2f",
-        "fc7194d9-5434-49c2-928f-8c619516768f"
-      ],
-      "settings": {
-        "borderbottom": true,
-        "underline": true,
-        "maintitle": "Fermented camellia oil",
-        "maincontent": "",
-        "button_text": "",
-        "button_link": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -206,7 +156,6 @@
     "dc635d58-2436-44bd-9043-fb9cfd72abbe",
     "cf2d2083-a475-417b-889b-d69101817744",
     "90b990a5-de23-42cc-88b4-e0a19c8489ec",
-    "c5b13fb8-bd94-4083-afc8-d74515a6f713",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }

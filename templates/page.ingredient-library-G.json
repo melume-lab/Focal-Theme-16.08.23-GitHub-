@@ -35,11 +35,11 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/ingredient-library-a-main",
+        "a": "shopify:\/\/pages\/skincare-ingredients",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify:\/\/pages\/ingredient-library-2",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify:\/\/pages\/ingredient-library-3",
         "d_name": "D",
         "d": "shopify:\/\/pages\/ingredient-library-d",
         "e_name": "E",
@@ -638,56 +638,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "dd0745fd-c0bb-436b-87ee-9bbebcc886dc": {
-      "type": "MS_text-carousel",
-      "blocks": {
-        "0849e889-a415-4c7d-99b0-241e08ea7f28": {
-          "type": "item",
-          "settings": {
-            "icontitle": "SOURCE",
-            "title": "",
-            "content": "<p>Soybean<\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "d5e4b26a-d235-4834-80a0-072d380415e7": {
-          "type": "item",
-          "settings": {
-            "icontitle": "CATEGORY",
-            "title": "",
-            "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
-            "subheading": ""
-          }
-        },
-        "327e15d9-75b8-444e-868d-7a808b7e0f6c": {
-          "type": "item",
-          "settings": {
-            "icontitle": "WHAT IT DOES",
-            "title": "",
-            "content": "<p>Glycine Soja Oil, also known as soybean oil, is a plant oil with moisturizing and nourishing properties. It is rich in essential fatty acids, vitamins, and antioxidants that nourish and protect your skin. <\/p>",
-            "html": "",
-            "subheading": ""
-          }
-        }
-      },
-      "block_order": [
-        "0849e889-a415-4c7d-99b0-241e08ea7f28",
-        "d5e4b26a-d235-4834-80a0-072d380415e7",
-        "327e15d9-75b8-444e-868d-7a808b7e0f6c"
-      ],
-      "settings": {
-        "borderbottom": true,
-        "underline": true,
-        "maintitle": "Glycine soja oil ",
-        "maincontent": "",
-        "button_text": "",
-        "button_link": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "340c6bd2-fd58-4fe6-a782-409175053148": {
       "type": "custom-html",
       "settings": {
@@ -716,7 +666,6 @@
     "37aa624c-4c8f-4538-a852-80751077cc81",
     "bc340920-c7cd-42ec-b7a6-47a08833f781",
     "37408d82-8a1a-458f-b999-cc169204bbfa",
-    "dd0745fd-c0bb-436b-87ee-9bbebcc886dc",
     "340c6bd2-fd58-4fe6-a782-409175053148"
   ]
 }
