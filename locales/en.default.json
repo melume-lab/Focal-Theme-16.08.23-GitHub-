@@ -330,7 +330,8 @@
       "password": "Password",
       "submit": "Create account",
       "already_have_account": "Already have an account?",
-      "login": "Login"
+      "login": "Login",
+      "birthday": "Birthday"
     },
     "orders": {
       "title": "Orders",
