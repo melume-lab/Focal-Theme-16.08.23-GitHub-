@@ -49,9 +49,9 @@
                     </div>
                   {%- endif -%}
 
-                  <div class="input">
-                    <input id="address-new[company]" type="text" class="input__field input__field--text {% if form.company != blank %}is-filled{% endif %}" name="address[company]" value="{{ form.company }}">
-                    <label for="address-new[company]" class="input__label">{{ 'customer.addresses.company' | t }}</label>
+                   <div class="input">
+                      <input id="birthday" type="text" class="input__field" {% if customer.note.Birthday != blank%}name="customer[Birthday]"{% else %}name="customer[note][Birthday]"{% endif %} autocomplete="date" {% if form.errors contains 'birthday' %}aria-invalid="true" aria-describedby="register-form-error"{% endif %}>
+                      <label for="birthday" class="input__label">{{ 'customer.register.birthday' | t }}</label>
                   </div>
 
 
