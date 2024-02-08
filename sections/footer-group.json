@@ -2,6 +2,135 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "promotion_blocks_rJ3Qhm": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_hVhxQp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Hyaluronic_Acid_640x470_44ce1163-10b3-4c86-949b-dc3593703d8f.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "HYALURONIC ACID",
+            "link_url": "shopify:\/\/collections\/niacinamide-collection",
+            "link_style": "link",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_zBCgqf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Retinol_640x470_4b05fec5-9043-451d-8518-f88c86c7c9ff.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "Retinol",
+            "link_url": "shopify:\/\/collections\/retinol-collection",
+            "link_style": "link",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_jGEGny": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Peptides_640x470_93c30d52-125e-41a4-8361-1309d8105ee9.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "Peptide",
+            "link_url": "shopify:\/\/collections\/peptide-collection",
+            "link_style": "link",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_wG9Vjw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_AHA_BHA_640x470_401da997-1b21-4399-a4c9-0db0f9257451.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "AHA\/BHA",
+            "link_url": "shopify:\/\/collections\/aha-bha-collection",
+            "link_style": "link",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_m9kyQM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Niaicinamide_640x470_4368f32e-1e4d-468c-b8b2-a23358c99134.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "NIACINAMIDE",
+            "link_url": "shopify:\/\/collections\/niacinamide-collection",
+            "link_style": "link",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_p7MqWf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Vitamin_C_640x470_d6181514-9c0c-48c8-ab67-485d608007f4.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "Vitamin C",
+            "link_url": "shopify:\/\/collections\/vitamin-c-collection",
+            "link_style": "link",
+            "text_position": "bottom_center",
+            "background": "#f7f8fd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "image_hVhxQp",
+        "image_zBCgqf",
+        "image_jGEGny",
+        "image_wG9Vjw",
+        "image_m9kyQM",
+        "image_p7MqWf"
+      ],
+      "custom_css": [
+        "container {min-width: 100%; padding: 0px;}",
+        ".promotion-block {margin: -1px; padding: 25px;}",
+        ".promotion-block-list {margin: 0px;}",
+        ".heading--small {font-size: 18px; font-weight: 800; letter-spacing: 0.2px; text-decoration: none;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "SHOP BY INGREDIENTS",
+        "section_size": "large",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "7467aecc-cb9c-4d52-835a-288b29d84097": {
       "type": "multi-column",
       "blocks": {
@@ -104,6 +233,7 @@
         "bc970f98-7a70-4853-abd5-5a7c9263bbac",
         "8dafd294-a431-4b82-b1c1-99e00f9f9471"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 16px; font-weight: 500; padding-top: -10px; padding-bottom: 30px;}"
       ],
@@ -119,23 +249,6 @@
         "spacing": "tight",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "6f312617-3fc4-4e7d-a598-c25194c15752": {
-      "type": "newsletter",
-      "settings": {
-        "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Newsletter_Background_f5e64d33-c537-4ec8-9180-1e95a7f1f60f.png",
-        "subheading": "Subscribe to our melumé newsletter",
-        "title": "15$ OFF YOUR NEXT ORDER",
-        "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPS.<\/p>",
-        "endtitle": "* Only valid for new skincare lovers & only with a minimum order of 75€. Can not be combined with other offers.",
-        "text_position": "center",
-        "text_alignment": "center",
-        "text_background": "#f5f2f0",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1": {
@@ -156,7 +269,7 @@
     "custom_html_xJrHAW": {
       "type": "custom-html",
       "custom_css": [
-        ".column-icons-container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around; max-width: 100%; margin: 0 auto; margin-bottom: 20px;}",
+        ".column-icons-container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around; max-width: 100%; margin: 0 auto; margin-bottom: 85px;}",
         ".column-icons {text-align: center; width: 100%; box-sizing: border-box;}",
         ".custom-icon-container img {max-height: 100px; width: auto;}",
         "@media (max-width: 740px) {.column-icons {width: calc(50% - 20px); } .custom-icon-container img {max-height: 85px; }}",
@@ -171,6 +284,23 @@
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6f312617-3fc4-4e7d-a598-c25194c15752": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/Newsletter_Background_f5e64d33-c537-4ec8-9180-1e95a7f1f60f.png",
+        "subheading": "Subscribe to our melumé newsletter",
+        "title": "15$ OFF YOUR NEXT ORDER",
+        "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPS.<\/p>",
+        "endtitle": "* Only valid for new skincare lovers & only with a minimum order of 75€. Can not be combined with other offers.",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "#f5f2f0",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "ed8c9614-ba87-4c1f-aaf3-5a5b3ac571d7": {
@@ -345,10 +475,11 @@
     }
   },
   "order": [
+    "promotion_blocks_rJ3Qhm",
     "7467aecc-cb9c-4d52-835a-288b29d84097",
-    "6f312617-3fc4-4e7d-a598-c25194c15752",
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1",
     "custom_html_xJrHAW",
+    "6f312617-3fc4-4e7d-a598-c25194c15752",
     "ed8c9614-ba87-4c1f-aaf3-5a5b3ac571d7",
     "30fd7bd4-4c0c-4fbb-bf1d-0d31e2a4222e",
     "9da9c22e-f745-4ebc-a100-43ff3bc901df",
