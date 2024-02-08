@@ -10,7 +10,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredient_Hyaluronic_Acid_640x470_44ce1163-10b3-4c86-949b-dc3593703d8f.jpg",
             "highlight": false,
-            "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "HYALURONIC ACID",
@@ -28,7 +27,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredient_Retinol_640x470_4b05fec5-9043-451d-8518-f88c86c7c9ff.jpg",
             "highlight": false,
-            "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "Retinol",
@@ -46,7 +44,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredient_Peptides_640x470_93c30d52-125e-41a4-8361-1309d8105ee9.jpg",
             "highlight": false,
-            "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "Peptide",
@@ -64,7 +61,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredient_AHA_BHA_640x470_401da997-1b21-4399-a4c9-0db0f9257451.jpg",
             "highlight": false,
-            "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "AHA\/BHA",
@@ -82,7 +78,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredient_Niaicinamide_640x470_4368f32e-1e4d-468c-b8b2-a23358c99134.jpg",
             "highlight": false,
-            "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "NIACINAMIDE",
@@ -100,7 +95,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ingredient_Vitamin_C_640x470_d6181514-9c0c-48c8-ab67-485d608007f4.jpg",
             "highlight": false,
-            "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "Vitamin C",
