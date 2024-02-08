@@ -254,7 +254,7 @@
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1": {
       "type": "custom-html",
       "custom_css": [
-        ".container {margin-top: var(--vertical-breather);}"
+
       ],
       "settings": {
         "subheading": "",
