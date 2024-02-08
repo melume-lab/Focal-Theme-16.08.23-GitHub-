@@ -123,20 +123,16 @@
                 {%- endcapture -%}
 
                 {%- if block.settings.link_url != blank -%}
-                  <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} {% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>
+                  <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} onclick="delayedReload()">
                     {{- block_content -}}
                   </a>
-                
+
                   <script>
-                    function delayedReload() {
-                      setTimeout(function() {
-                        window.location.reload();
-                      }, 100);
-                    }
-                
-                    function noAction() {
-                      // This function does nothing
-                    }
+                  function delayedReload() {
+                    setTimeout(function() {
+                      window.location.reload();
+                    }, 100);
+                  }
                   </script>
 
   
