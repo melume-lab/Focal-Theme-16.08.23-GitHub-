@@ -154,9 +154,9 @@
 
         <div class="press-section">
           {% assign max_entries = 4 %}
-          {% assign reversed_press_values = shop.metaobjects.press.values | reverse %}
+          {% assign sorted_press_values = shop.metaobjects.press.values | sort_natural: 'nummer' | reverse %}
           {% assign count = 0 %}
-          {% for presse in reversed_press_values %}
+          {% for presse in sorted_press_values %}
             {% if count < max_entries %}
               <div class="press-entry">
                 <a href="{{ section.settings.button }}">
