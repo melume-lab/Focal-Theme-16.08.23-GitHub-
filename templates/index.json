@@ -151,7 +151,7 @@
         "transition_type": "fade",
         "autoplay": true,
         "cycle_speed": 5,
-        "background": "#000000"
+        "background": "#ffffff"
       }
     },
     "featured-collections": {
@@ -490,7 +490,7 @@
     "rich_text_Mg8UwC": {
       "type": "rich-text",
       "custom_css": [
-        "@media screen and (max-width: 741px) {.content-box {width: 100%;}}",
+        "@media screen and (max-width: 741px) {.content-box {width: 100%; }}",
         "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
