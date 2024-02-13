@@ -125,7 +125,9 @@
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1": {
       "type": "custom-html",
       "custom_css": [
-
+        "h3 {text-transform: uppercase;}",
+        "@media (min-width: 1000px) {.container {margin-bottom: calc(var(--vertical-breather) - 50px); margin-top: calc(var(--vertical-breather) - 50px); }}",
+        "@media (max-width: 999px) {.container {margin-bottom: calc(var(--vertical-breather) - 10px); margin-top: calc(var(--vertical-breather) - 10px); }}"
       ],
       "settings": {
         "subheading": "",
@@ -150,7 +152,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<div class=\"column-icons-container\" style=\" margin-top: var(--vertical-breather)\">\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Biocompatible_6db72108-9733-41d7-8fa2-c6454c1c6459.png?v=1692257221\">\n<\/div>\n<p> BIOCOMPATIBLE <br> BIO AVAILABLE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Vegan_1f8e17d8-6977-4e23-8912-12c9922e80aa.png?v=1692257222\">\n<\/div>\n<p> VEGAN &amp; <br> CRUELTY-FREE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/ICON-LOVE_it_or_RETURN_it.png?v=1705491616\">\n<\/div>\n<p> LOVE IT OR <br> RETURN IT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Dermatologically_Tested.png?v=1687867274\">\n<\/div>\n<p> DERMATOLOGICALLY <br> TESTED <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Clinically_Proven.png?v=1687088782\" style=\"\">\n<\/div>\n<p> CLINICALLY PROVEN <br> INGREDIENTS <\/p>\n<\/div>\n<\/div>",
+        "html": "<div class=\"column-icons-container\">\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Biocompatible_6db72108-9733-41d7-8fa2-c6454c1c6459.png?v=1692257221\">\n<\/div>\n<p> BIOCOMPATIBLE <br> BIO AVAILABLE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Vegan_1f8e17d8-6977-4e23-8912-12c9922e80aa.png?v=1692257222\">\n<\/div>\n<p> VEGAN &amp; <br> CRUELTY-FREE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/ICON-LOVE_it_or_RETURN_it.png?v=1705491616\">\n<\/div>\n<p> LOVE IT OR <br> RETURN IT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Dermatologically_Tested.png?v=1687867274\">\n<\/div>\n<p> DERMATOLOGICALLY <br> TESTED <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Clinically_Proven.png?v=1687088782\" style=\"\">\n<\/div>\n<p> CLINICALLY PROVEN <br> INGREDIENTS <\/p>\n<\/div>\n<\/div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
