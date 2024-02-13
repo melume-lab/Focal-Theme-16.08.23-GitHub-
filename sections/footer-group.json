@@ -280,7 +280,7 @@
         "image_p7MqWf"
       ],
       "custom_css": [
-        ".container {min-width: 100%; padding: 0px;}",
+        ".container {min-width: 100%; padding: 0px; margin-top: calc(var(--vertical-breather) - 50px);}",
         ".promotion-block {margin: -1px; padding: 25px;}",
         ".promotion-block-list {margin: 0px;}",
         ".heading--small {font-size: 18px; font-weight: 800; letter-spacing: 0.2px; text-decoration: none;}",
