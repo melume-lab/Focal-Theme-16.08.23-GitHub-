@@ -37,6 +37,24 @@
         "promotion_height": "small"
       }
     },
+    "rich_text_NDMeQR": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "{{ collection.metafields.custom.collection_description | metafield_tag }}",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#000000",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "60509c72-f2cc-4147-8ac4-385128b40e4b": {
       "type": "custom-html",
       "settings": {
@@ -53,6 +71,7 @@
   "order": [
     "collection-banner",
     "main",
+    "rich_text_NDMeQR",
     "60509c72-f2cc-4147-8ac4-385128b40e4b"
   ]
 }
