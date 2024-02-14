@@ -39,6 +39,10 @@
     },
     "rich_text_NDMeQR": {
       "type": "rich-text",
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {p {font-size: 25px; font-weight: 300; line-height: 1.5; max-width: 1200px; margin-left: auto; margin-right: auto; text-align: center; }}",
+        "@media screen and (max-width: 999px) {p {font-size: 18px; font-weight: 300; line-height: 1.5; max-width: 1200px; margin-left: auto; margin-right: auto; text-align: center; }}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
