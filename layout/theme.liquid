@@ -428,5 +428,37 @@
     {%- sections 'footer-group' -%}
 {%- endif -%}
 {% include 'smile-initializer' %}
+
+
+
+<script>
+
+    var blockedCountryCodes = ['ua', 'in'];
+  
+     function callProIPAPI() {
+        const dyCountryold = sessionStorage.getItem('dyCountry');
+        if (dyCountryold === null || dyCountryold === ''){
+            window.fetch('https://pro.ip-api.com/json?key=xHe2Uzpp85zBV9d', {method: 'GET'})
+                .then((response) => response.json())
+                .then((data) => {
+                    sessionStorage.setItem('dyIP', data.query);
+                    const countryCode = data.countryCode.toLowerCase();
+                    sessionStorage.setItem('dyCountry', countryCode);
+                    console.log('pro ip api called country is : '+countryCode);
+                    //console.log('pro ip api called, data received is:',data);
+            });
+        }
+      }
+      callProIPAPI();
+  
+     var storedCountryCode = sessionStorage.getItem('dyCountry');
+        // console.log('dy country old : '+storedCountryCode)
+
+      if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname !== '/pages/shop-not-available') {
+          window.location.href = '/pages/shop-not-available';
+      }
+          
+    </script>
+          
 </body>
 </html>
