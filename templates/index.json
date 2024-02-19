@@ -256,10 +256,14 @@
     },
     "548fc196-eec7-41eb-a4e7-3876c73a6c3a": {
       "type": "MS_Press_Collection",
+      "custom_css": [
+        ".press-section {margin-bottom: 35px;}",
+        ".content-box {width: 100%;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
-        "add_vertical_spacing": false,
+        "add_vertical_spacing": true,
         "background_type": "full_width",
         "button": "shopify:\/\/pages\/press",
         "background": "rgba(0,0,0,0)",
