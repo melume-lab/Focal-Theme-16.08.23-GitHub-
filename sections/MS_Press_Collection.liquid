@@ -169,7 +169,18 @@
             {% endif %}
           {% endfor %}
         </div>
+        
+        {%- assign text_position = section.settings.text_position -%}
+        {%- assign text_alignment = section.settings.text_alignment -%}
 
+        <div class="content-box content-box--{{ section.settings.text_width }} content-box--text-{{ text_alignment }} content-box--{{ text_position }} text-container">
+
+        {%- if section.settings.button_text != blank -%}
+            <div class="button-wrapper">
+              <a href="{{ section.settings.button }}" class="button button--primary">{{ section.settings.button_text | escape }}</a>
+            </div>
+        {%- endif -%}
+        </div>
 
       </div>
     </div>
@@ -218,9 +229,78 @@
       "default": "full_width"
     },
     {
+      "type": "select",
+      "id": "text_width",
+      "label": "Text width",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "fill",
+          "label": "Fill screen"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
       "type": "url",
       "id": "button",
       "label": "Button link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
     },
     {
       "type": "header",
