@@ -13,9 +13,11 @@
            <a href="{{ section.settings.button_link2 }}" class="link-bar__link link--animated">{{ 'general.linklist.rewards' | t }}</a>
          </li>
 
+          {% comment %}
           <li class="link-bar__link-item">
            <a href="{{ section.settings.button_link3 }}" class="link-bar__link link--animated">{{ 'general.linklist.membership' | t }}</a>
          </li>
+          {% endcomment %}
 
           <li class="link-bar__link-item">
            <a href="{{ section.settings.button_link4 }}" class="link-bar__link link--animated">{{ 'general.linklist.auto-replenishments' | t }}</a>
@@ -66,9 +68,11 @@
       <span class="popover__choice-label">{{ 'general.linklist.rewards' | t }}</span>
         </a>
 
+        {% comment %}
          <a href="{{ section.settings.button_link3 }}" class="popover__choice-item">
       <span class="popover__choice-label">{{ 'general.linklist.membership' | t }}</span>
         </a>
+        {% endcomment %}
 
         <a href="{{ section.settings.button_link4 }}" class="popover__choice-item">
       <span class="popover__choice-label">{{ 'general.linklist.auto-replenishments' | t }}</span>
