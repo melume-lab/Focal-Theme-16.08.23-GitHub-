@@ -28,8 +28,10 @@
         {%- endif -%}
       {%- endfor -%}
     </div>
-
-    <span class="rating__caption">{{ 'product.general.reviews_count' | t: count: product.metafields.reviews.rating_count.value }}</span>
+    
+    {%- if product.metafields.reviews.rating_count.value > 0 -%}
+      <span class="rating__count" style="margin-left: 4px;"> ({{ product.metafields.reviews.rating_count.value }})</span>
+    {%- endif -%}
   </div>
 {%- else -%}
   <div class="rating">
@@ -38,7 +40,7 @@
         {%- render 'icon' with 'rating-star', class: 'rating__star rating__star--empty' -%}
       {%- endfor -%}
     </div>
-
-    <span class="rating__caption">{{ 'product.general.reviews_count' | t: count: 0 }}</span>
+    
+    <span class="rating__count" style="margin-left: 4px;"> (0)</span>
   </div>
 {%- endif -%}
