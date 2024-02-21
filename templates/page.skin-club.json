@@ -43,8 +43,8 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_2160x1018_2_Edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_2160x1018_2_Mobile.png",
+        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Edit.png",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Mobile.png",
         "subheading": "",
         "title": "The Melumé Skin Club",
         "html": "",
@@ -188,6 +188,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_1.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "SKINCARE LOVERS: CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
@@ -205,6 +206,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_2.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "MAKE A PURCHASE",
             "title": "1 $ = 5 Points",
             "link_text": "",
@@ -222,6 +224,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_3.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "HAPPY BIRTHDAY",
             "title": "A gift from melumé",
             "link_text": "",
@@ -239,6 +242,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_4_469cc5a4-1c0a-4e38-bacc-9df57f89098d.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "LIKE US ON TikTok, Instagram, Facebook",
             "title": "50 Points",
             "link_text": "",
@@ -256,6 +260,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_5.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "Tell a friend",
             "title": "1000 Points",
             "link_text": "",
@@ -273,6 +278,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_6.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "Review your purchased product ",
             "title": "100 Points",
             "link_text": "",
@@ -290,6 +296,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_7.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "Follow us on Facebook",
             "title": "100 Points",
             "link_text": "",
@@ -307,6 +314,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_8.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "Follow us on Instagram",
             "title": "100 Points",
             "link_text": "",
@@ -324,6 +332,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_9-TIK-TOK.jpg",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "Follow Us on TikTok",
             "title": "100 Points",
             "link_text": "",
