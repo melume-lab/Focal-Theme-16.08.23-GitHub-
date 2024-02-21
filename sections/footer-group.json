@@ -142,10 +142,10 @@
     "custom_html_xJrHAW": {
       "type": "custom-html",
       "custom_css": [
-        ".column-icons-container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around; max-width: 100%; margin: 0 auto; margin-bottom: 85px;}",
-        ".column-icons {text-align: center; width: 100%; box-sizing: border-box;}",
-        ".custom-icon-container img {max-height: 100px; width: auto;}",
-        "@media (max-width: 740px) {.column-icons {width: calc(50% - 20px); } .custom-icon-container img {max-height: 85px; }}",
+        ".column-icons-container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around; max-width: 100%; margin-bottom: 85px;}",
+        ".column-icons {text-align: center; width: 100%;}",
+        ".custom-icon-container img {max-height: 100px; width: auto; margin-top: 20px;}",
+        "@media (max-width: 740px) {.column-icons {width: calc(50% - 20px); } .custom-icon-container img {max-height: 65px; } p {font-size: 12px; }}",
         "@media (min-width: 741px) {.column-icons {width: calc(33.33% - 20px); }}",
         "@media (min-width: 1000px) {.column-icons {width: calc(20% - 20px); }}"
       ],
