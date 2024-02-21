@@ -184,6 +184,96 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_block_VTrhJD": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
+        ".content-box-custom-width {max-width: 650px;}",
+        "h2 {font-size: calc(var(--heading-h2-font-size) - 3px); font-weight: 700;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Banner_Edit.png",
+        "mobile_image": "shopify:\/\/shop_images\/BannerEdit_Mobile.png",
+        "subheading": "",
+        "title": "100% SATISFACTION GUARANTEED",
+        "html": "<style>\n.custom-banner-text {\nfont-size: calc(var(--heading-h2-font-size) - 3px);\n  font-weight: 300;\nmargin-top: -5%;\n}\n<\/style>\n\n<div class=\"custom-banner-text\"> IF NOT, IT’S ON US.<\/div>",
+        "content": "<p>Our products are dedicated to create beautiful, youthful healthy skin. Thus, our firm commitment to innovation and science drives us to always go a step further in finding new ways to formulate: The fusion of our exclusive GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures you a skinsational experience and incredible results - your satisfaction is our top priority!<br\/>However, in the unusual case where our products don't meet your complete satisfaction, we gladly provide you with a full refund or a replacement product when you return the items to us within 45 days of receiving your purchase. For further guidance or additional product advice, please reach out to our customer service department.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "02de4337-28c3-479a-9083-f3abeabe91f9": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_30__Edit.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Make sure to auto-replenish your favorite products & save 30% on every order.",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {h2 {font-size: 30px; font-weight: 500; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 500; line-height: 1.5; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "#ffffff",
+        "text_color": "#000000",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "548fc196-eec7-41eb-a4e7-3876c73a6c3a": {
+      "type": "MS_Press_Collection",
+      "custom_css": [
+        ".press-section {margin-bottom: 35px;}",
+        ".content-box {width: 100%;}",
+        "@media screen and (min-width: 741px) {.button-wrapper {display: none; }}",
+        "@media screen and (max-width: 741px) {section {margin-bottom: 40px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "button": "shopify:\/\/pages\/press",
+        "button_text": "SHOW MORE",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "d4101780-2e56-4efa-ad4e-1f6a01c86756": {
       "type": "image-with-text-block",
       "custom_css": [
@@ -210,76 +300,13 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "02de4337-28c3-479a-9083-f3abeabe91f9": {
-      "type": "MS_image-with-text",
-      "blocks": {
-        "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Landingpage_30.png",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Make sure to auto-replenish your favorite products & save 30% on every order.",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
-      ],
-      "custom_css": [
-        ".image-with-text__wrapper {margin-top: 50px; margin-bottom: 50px;}",
-        "@media screen and (min-width: 1000px) {h2 {font-size: 30px; font-weight: 500; line-height: 1.5; }}",
-        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 500; line-height: 1.5; }}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "both",
-        "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
-        "html": "",
-        "background": "#000000",
-        "text_color": "#ffffff",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "548fc196-eec7-41eb-a4e7-3876c73a6c3a": {
-      "type": "MS_Press_Collection",
-      "custom_css": [
-        ".press-section {margin-bottom: 35px;}",
-        ".content-box {width: 100%;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "button": "shopify:\/\/pages\/press",
-        "button_text": "SHOW MORE",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "114a0aca-83e7-453e-89a1-ec9231dffaa8": {
       "type": "MS_image-with-text",
       "blocks": {
         "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_8cf0bb0c-3426-4c4a-9e4c-a1d1780c7230.png",
+            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_Complex.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "Exclusive GMOD™ Complex",
@@ -362,7 +389,7 @@
         "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home_Icon_Section_new.png",
+            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1400_Skin_Drop_Edit.png",
             "tab_label": "",
             "subheading": "",
             "title": "The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.",
@@ -379,13 +406,13 @@
         "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; } img {max-width: 350px; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
         "reveal_on_scroll": false,
         "background_type": "full_width",
-        "background_overlap": "image",
+        "background_overlap": "both",
         "image_position": "left",
         "text_alignment": "left",
         "cycle_speed": 8,
@@ -522,9 +549,10 @@
   "order": [
     "d107d64a-9a4a-4cca-81db-17804a8cd886",
     "featured-collections",
-    "d4101780-2e56-4efa-ad4e-1f6a01c86756",
+    "image_with_text_block_VTrhJD",
     "02de4337-28c3-479a-9083-f3abeabe91f9",
     "548fc196-eec7-41eb-a4e7-3876c73a6c3a",
+    "d4101780-2e56-4efa-ad4e-1f6a01c86756",
     "114a0aca-83e7-453e-89a1-ec9231dffaa8",
     "27f6c016-30ff-460b-80e5-2aa5271ee5bc",
     "464e87d8-4d86-448e-8a90-40393be76337",
