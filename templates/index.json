@@ -192,7 +192,7 @@
         "h2 {font-size: calc(var(--heading-h2-font-size) - 3px); font-weight: 700;}"
       ],
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image": "shopify:\/\/shop_images\/Banner_Edit.png",
         "mobile_image": "shopify:\/\/shop_images\/BannerEdit_Mobile.png",
         "subheading": "",
