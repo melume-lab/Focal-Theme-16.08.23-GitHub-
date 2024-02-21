@@ -263,9 +263,9 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "add_vertical_spacing": true,
+        "add_vertical_spacing": false,
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "fill",
         "text_position": "center",
         "text_alignment": "center",
         "button": "shopify:\/\/pages\/press",
