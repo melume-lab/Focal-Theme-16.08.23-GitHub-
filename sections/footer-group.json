@@ -131,7 +131,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "WHAT WE PROMISE",
+        "title": "",
         "html": "<p style=\"text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 16px; font-weight: 400; line-height: 33px;\">MADE IN GERMANY <span style=\"font-size:25px\">•<\/span> VEGAN &amp; CRUELTY FREE  <span style=\"font-size:25px\">•<\/span>  SKIN COMPATIBLE <span style=\"font-size:25px\">•<\/span> HIGHTECH FORMULAS <span style=\"font-size:25px\">•<\/span> \n DERMATOLOGICALLY TESTED <span style=\"font-size:25px\">•<\/span> BIOMIMETIC INGREDIENTS  <span style=\"font-size:25px\">•<\/span>  CLINICALLY RESEARCHED INGREDIENTS <span style=\"font-size:25px\">•<\/span> PH-APPRIOPRIATE <span style=\"font-size:25px\">•<\/span> SCIENCE &amp; PLANT POWERED <span style=\"font-size:25px\">•<\/span> EFFICACIOUS MAXIMUM LEVEL FORMULAS <span style=\"font-size:25px\">•<\/span> BIOAVAILABLE<\/p>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
