@@ -504,10 +504,8 @@
         
           function checkAndRemoveBody() {
             if (hasMatchingClass()) {
-              console.log('blacklisted country');
               removeBody();
             } else {
-              console.log('not blacklisted country');
               const currentTime = Date.now();
               if (currentTime - startTime < 5000) {
                 requestAnimationFrame(checkAndRemoveBody);
