@@ -469,6 +469,48 @@
       }
           
     </script>
+
+          <script>
+      //Another script to remove entire body for blacklisted country
+      function removeBodyIfBlacklistedCountry(blacklistedCountryClasses) {
+          const startTime = Date.now();
+        
+          function hasMatchingClass() {
+            const bodyClasses = document.body.classList;
+            return blacklistedCountryClasses.some((className) => bodyClasses.contains(className));
+          }
+        
+          function removeBody() {
+            const head = document.head;
+            const body = document.body;
+        
+            if (head) {
+              document.documentElement.removeChild(head);
+            }
+        
+            if (body) {
+              document.documentElement.removeChild(body);
+            }
+          }
+        
+          function checkAndRemoveBody() {
+            if (hasMatchingClass()) {
+              console.log('blacklisted country');
+              removeBody();
+            } else {
+              console.log('not blacklisted country');
+              const currentTime = Date.now();
+              if (currentTime - startTime < 5000) {
+                requestAnimationFrame(checkAndRemoveBody);
+              }
+            }
+          }
+          checkAndRemoveBody();
+      }
+    
+    removeBodyIfBlacklistedCountry(['orbe-country-code--IN']);
+
+    </script>
           
 </body>
 </html>
