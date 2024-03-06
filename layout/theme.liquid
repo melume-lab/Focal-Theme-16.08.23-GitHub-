@@ -236,7 +236,7 @@
     {{ content_for_header }}
 
   
-    <!-- {% render 'cookie-consent' %} -->
+    {% render 'cookie-consent' %}
 
 
     <style>
@@ -474,9 +474,14 @@ callProIPAPI();
 var storedCountryCode = sessionStorage.getItem('dyCountry');
 // console.log('dy country old : '+storedCountryCode)
 
-if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname !== '/pages/shop-not-available') {
-    window.location.href = '/pages/shop-not-available';
-}
+
+    setTimeout(function() {
+        console.log('Timeout complete!'); 
+        if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname !== '/pages/shop-not-available') {
+        window.location.href = '/pages/shop-not-available';
+    }
+  }, 1000);
+
 
 </script>
 
