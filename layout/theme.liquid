@@ -55,37 +55,7 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
 
 </script>
 
-<script>
-//Another script to remove entire body for blacklisted country
-function forwardPageIfBlacklistedCountry(blacklistedCountryClasses) {
-    const startTime = Date.now();
 
-    function hasMatchingClass() {
-        const bodyClasses = document.body.classList;
-        return blacklistedCountryClasses.some((className) => bodyClasses.contains(className));
-    }
-
-    function showPage() {
-        document.body.style.display = 'unset';
-        document.body.style.opacity = '1';
-    }
-
-    function checkAndForward() {
-        if (hasMatchingClass()) {
-            showPage();
-        } else {
-            const currentTime = Date.now();
-            if (currentTime - startTime < 5000) {
-                requestAnimationFrame(checkAndForward);
-            }
-        }
-    }
-    checkAndForward();
-}
-
-forwardPageIfBlacklistedCountry(['orbe-country-code--UA','orbe-country-code--IN']);
-
-</script>
   
   
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -510,7 +480,37 @@ forwardPageIfBlacklistedCountry(['orbe-country-code--UA','orbe-country-code--IN'
 {%- endif -%}
 {% include 'smile-initializer' %}
 
+<script>
+//Another script to remove entire body for blacklisted country
+function forwardPageIfBlacklistedCountry(blacklistedCountryClasses) {
+    const startTime = Date.now();
 
+    function hasMatchingClass() {
+        const bodyClasses = document.body.classList;
+        return blacklistedCountryClasses.some((className) => bodyClasses.contains(className));
+    }
+
+    function showPage() {
+        document.body.style.display = 'unset';
+        document.body.style.opacity = '1';
+    }
+
+    function checkAndForward() {
+        if (hasMatchingClass()) {
+            showPage();
+        } else {
+            const currentTime = Date.now();
+            if (currentTime - startTime < 5000) {
+                requestAnimationFrame(checkAndForward);
+            }
+        }
+    }
+    checkAndForward();
+}
+
+forwardPageIfBlacklistedCountry(['orbe-country-code--UA','orbe-country-code--IN']);
+
+</script>
 
 
           
