@@ -489,13 +489,8 @@ function forwardPageIfBlacklistedCountry(blacklistedCountryClasses) {
     }
 
     function showPage() {
-
-        const elements = document.querySelectorAll(`.${blacklistedCountryClasses.join(', ')}`);
-        elements.forEach((element) => {
-            element.style.display = 'unset';
-            element.style.opacity = '1';
-        });
-
+        document.body.style.display = 'unset';
+        document.body.style.opacity = '1';
     }
 
     function checkAndForward() {
