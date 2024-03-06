@@ -41,6 +41,9 @@ function callProIPAPI() {
                 sessionStorage.setItem('dyCountry', countryCode);
                 console.log('pro ip api called country is : '+countryCode);
                 //console.log('pro ip api called, data received is:',data);
+                if (blockedCountryCodes.includes(countryCode) && window.location.pathname !== '/pages/shop-not-available') {
+                      window.location.href = '/pages/shop-not-available';
+                  }
             });
     }
 }
