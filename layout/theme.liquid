@@ -33,6 +33,8 @@ var blockedCountryCodes = ['ua'];
 function callProIPAPI() {
     const dyCountryold = sessionStorage.getItem('dyCountry');
     if (dyCountryold === null || dyCountryold === ''){
+        //Opacity 0
+        document.body.style.opacity = 0;
         window.fetch('https://pro.ip-api.com/json?key=xHe2Uzpp85zBV9d', {method: 'GET'})
             .then((response) => response.json())
             .then((data) => {
@@ -40,11 +42,17 @@ function callProIPAPI() {
                 const countryCode = data.countryCode.toLowerCase();
                 sessionStorage.setItem('dyCountry', countryCode);
                 console.log('pro ip api called country is : '+countryCode);
-                //console.log('pro ip api called, data received is:',data);
                 if (blockedCountryCodes.includes(countryCode) && window.location.pathname !== '/pages/shop-not-available') {
-                      window.location.href = '/pages/shop-not-available';
-                  }
+                    window.location.href = '/pages/shop-not-available';
+                }
+                //Opacity 1
+                document.body.style.opacity = 1;
+                //console.log('pro ip api called, data received is:',data);
             });
+        //Settimeout after 2 seconds opacity 1
+        setTimeout(function() {
+            document.body.style.opacity = 1;
+        }, 2000);
     }
 }
 callProIPAPI();
