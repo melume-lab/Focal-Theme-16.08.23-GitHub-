@@ -55,7 +55,10 @@ function callProIPAPI() {
         setTimeout(function() {
             document.body.style.opacity = 1;
         }, 2000);
-    }
+    }else{
+    document.body.style.opacity = 1;
+
+  }
 }
 callProIPAPI();
 
@@ -64,9 +67,6 @@ var storedCountryCode = sessionStorage.getItem('dyCountry');
 
 if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname !== '/pages/shop-not-available') {
     window.location.href = '/pages/shop-not-available';
-}else{
-    document.body.style.opacity = 1;
-
 }
 
 </script>
