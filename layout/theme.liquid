@@ -25,6 +25,67 @@
     opacity: 0;
   }
 </style>
+
+  <script>
+
+var blockedCountryCodes = ['ua','in'];
+
+function callProIPAPI() {
+    const dyCountryold = sessionStorage.getItem('dyCountry');
+    if (dyCountryold === null || dyCountryold === ''){
+        window.fetch('https://pro.ip-api.com/json?key=xHe2Uzpp85zBV9d', {method: 'GET'})
+            .then((response) => response.json())
+            .then((data) => {
+                sessionStorage.setItem('dyIP', data.query);
+                const countryCode = data.countryCode.toLowerCase();
+                sessionStorage.setItem('dyCountry', countryCode);
+                console.log('pro ip api called country is : '+countryCode);
+                //console.log('pro ip api called, data received is:',data);
+            });
+    }
+}
+callProIPAPI();
+
+var storedCountryCode = sessionStorage.getItem('dyCountry');
+// console.log('dy country old : '+storedCountryCode)
+
+if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname !== '/pages/shop-not-available') {
+    window.location.href = '/pages/shop-not-available';
+}
+
+</script>
+
+<script>
+//Another script to remove entire body for blacklisted country
+function forwardPageIfBlacklistedCountry(blacklistedCountryClasses) {
+    const startTime = Date.now();
+
+    function hasMatchingClass() {
+        const bodyClasses = document.body.classList;
+        return blacklistedCountryClasses.some((className) => bodyClasses.contains(className));
+    }
+
+    function showPage() {
+        document.body.style.display = 'unset';
+        document.body.style.opacity = '1';
+    }
+
+    function checkAndForward() {
+        if (hasMatchingClass()) {
+            showPage();
+        } else {
+            const currentTime = Date.now();
+            if (currentTime - startTime < 5000) {
+                requestAnimationFrame(checkAndForward);
+            }
+        }
+    }
+    checkAndForward();
+}
+
+forwardPageIfBlacklistedCountry(['orbe-country-code--UA','orbe-country-code--IN']);
+
+</script>
   
   
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -451,66 +512,7 @@
 
 
 
-<script>
 
-var blockedCountryCodes = ['ua','in'];
-
-function callProIPAPI() {
-    const dyCountryold = sessionStorage.getItem('dyCountry');
-    if (dyCountryold === null || dyCountryold === ''){
-        window.fetch('https://pro.ip-api.com/json?key=xHe2Uzpp85zBV9d', {method: 'GET'})
-            .then((response) => response.json())
-            .then((data) => {
-                sessionStorage.setItem('dyIP', data.query);
-                const countryCode = data.countryCode.toLowerCase();
-                sessionStorage.setItem('dyCountry', countryCode);
-                console.log('pro ip api called country is : '+countryCode);
-                //console.log('pro ip api called, data received is:',data);
-            });
-    }
-}
-callProIPAPI();
-
-var storedCountryCode = sessionStorage.getItem('dyCountry');
-// console.log('dy country old : '+storedCountryCode)
-
-if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname !== '/pages/shop-not-available') {
-    window.location.href = '/pages/shop-not-available';
-}
-
-</script>
-
-<script>
-//Another script to remove entire body for blacklisted country
-function forwardPageIfBlacklistedCountry(blacklistedCountryClasses) {
-    const startTime = Date.now();
-
-    function hasMatchingClass() {
-        const bodyClasses = document.body.classList;
-        return blacklistedCountryClasses.some((className) => bodyClasses.contains(className));
-    }
-
-    function showPage() {
-        document.body.style.display = 'unset';
-        document.body.style.opacity = '1';
-    }
-
-    function checkAndForward() {
-        if (hasMatchingClass()) {
-            showPage();
-        } else {
-            const currentTime = Date.now();
-            if (currentTime - startTime < 5000) {
-                requestAnimationFrame(checkAndForward);
-            }
-        }
-    }
-    checkAndForward();
-}
-
-forwardPageIfBlacklistedCountry(['orbe-country-code--UA','orbe-country-code--IN']);
-
-</script>
           
 </body>
 </html>
