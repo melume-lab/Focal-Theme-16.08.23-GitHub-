@@ -80,10 +80,6 @@
           {%- if section.settings.title != blank -%}
             <h3 class="heading h2">{{ section.settings.title | escape }}</h3>
           {%- endif -%}
-
-          {%- if section.settings.content != blank -%}
-            {{- section.settings.content -}}
-          {%- endif -%}
         </header>
       {%- endif -%}
 
@@ -108,10 +104,6 @@
                   <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
                     {%- if block.settings.subheading != blank -%}
                       <p class="heading heading--small">{{ block.settings.subheading | escape }}</p>
-                    {%- endif -%}
-
-                    {%- if block.settings.content != blank -%}
-                      {{- block.settings.content -}}
                     {%- endif -%}
 
                     {%- if block.settings.title != blank -%}
@@ -148,61 +140,12 @@
                   </script>
 
   
+  
                 {%- else -%}
                   <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
                     {{- block_content -}}
                   </div>
                 {%- endif -%}
-
-
-
-               {%- when 'product-reward' -%}
-                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--product-reward {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }} style="padding: 25px;">
-                  
-                    
-                    <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
-
-                      {%- if block.settings.reward_image != blank -%}
-                    <img loading="lazy" style="max-width: 60%; margin: auto;" {% render 'image-attributes', image: block.settings.reward_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
-                    {%- endif -%}
-                      
-                    {%- if block.settings.subheading != blank -%}
-                      <p class="heading heading--small">{{ block.settings.subheading | escape }}</p>
-                    {%- endif -%}
-
-                    {%- if block.settings.title != blank -%}
-                      <p class="heading h6">{{ block.settings.title | escape | newline_to_br }}</p>
-                    {%- endif -%}
-                  
-                    {%- if block.settings.link_text != blank -%}
-                      <div class="button-wrapper" style="margin: 0px;">
-                        
-                        <a href="{{ block.settings.link_url }}" class="button button--small button--primary" style="background-image: none; background-color: #fff; color: #000"{% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>{{ block.settings.link_text }} </a>
-                      </div>
-                    {%- else -%}
-                  <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
-                    {{- block_content -}}
-                  </div>
-                {%- endif -%}
-
-                  </div>
-                </div>
-
-              
-                
-                  <script>
-                    function delayedReload() {
-                      setTimeout(function() {
-                        window.location.reload();
-                      }, 100);
-                    }
-                
-                    function noAction() {
-                      // This function does nothing
-                    }
-                  </script>
-
-              
 
               {%- when 'quote' -%}
                 <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--quote {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
@@ -373,12 +316,6 @@
       "default": "Promotion blocks"
     },
     {
-      "type": "richtext",
-      "id": "content",
-      "label": "Content"
-      
-    },
-    {
       "type": "select",
       "id": "section_size",
       "label": "Block height",
@@ -450,11 +387,6 @@
           "id": "subheading",
           "label": "Subheading",
           "default": "Subheading"
-        },
-        {
-          "type": "richtext",
-          "id": "content",
-          "label": "Content"
         },
         {
           "type": "text",
@@ -558,116 +490,6 @@
           "default": "#1e316a"
         }
       ]
-    },
-    {
-    "type": "product-reward",
-      "name": "Product Reward",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "reward_image",
-          "label": "Image",
-          "info": "1800 x 900px .jpg recommended"
-        },
-        {
-          "type": "checkbox",
-          "id": "reload_enabled",
-          "label": "Enable Reload",
-          "default": true
-        },
-        {
-          "type": "text",
-          "id": "subheading",
-          "label": "Subheading",
-          "default": "Subheading"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Heading",
-          "default": "Product Reward"
-        },
-        {
-          "type": "text",
-          "id": "link_text",
-          "label": "Link text"
-        },
-        {
-          "type": "url",
-          "id": "link_url",
-          "label": "Link URL"
-        },
-        {
-          "type": "select",
-          "id": "text_position",
-          "label": "Text position",
-          "options": [
-            {
-              "value": "top_left",
-              "label": "Top left"
-            },
-            {
-              "value": "top_center",
-              "label": "Top center"
-            },
-            {
-              "value": "top_right",
-              "label": "Top right"
-            },
-            {
-              "value": "middle_left",
-              "label": "Middle left"
-            },
-            {
-              "value": "middle_center",
-              "label": "Middle center"
-            },
-            {
-              "value": "middle_right",
-              "label": "Middle right"
-            },
-            {
-              "value": "bottom_left",
-              "label": "Bottom left"
-            },
-            {
-              "value": "bottom_center",
-              "label": "Bottom center"
-            },
-            {
-              "value": "bottom_right",
-              "label": "Bottom right"
-            }
-          ],
-          "default": "middle_center"
-        },
-        {
-          "type": "color",
-          "id": "background",
-          "label": "Background",
-          "default": "#f7f8fd",
-          "info": "Ignored if image is used."
-        },
-        {
-          "type": "color",
-          "id": "text_color",
-          "label": "Text color",
-          "default": "#1e316a"
-        },
-        {
-          "type": "color",
-          "id": "button_background",
-          "label": "Button background",
-          "default": "#ffffff"
-        },
-        {
-          "type": "color",
-          "id": "button_text_color",
-          "label": "Button text color",
-          "default": "#1e316a"
-        }
-        
-     ]
     },
     {
       "type": "quote",
