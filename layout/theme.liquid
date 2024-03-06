@@ -20,7 +20,7 @@
 <head>
 
 <style>
-  .orbe-country-code--UA,.orbe-country-code--IN{
+  .orbe-country-code--UA{
     display: none;
     opacity: 0;
   }
@@ -28,7 +28,7 @@
 
   <script>
 
-var blockedCountryCodes = ['ua','in'];
+var blockedCountryCodes = ['ua'];
 
 function callProIPAPI() {
     const dyCountryold = sessionStorage.getItem('dyCountry');
@@ -508,7 +508,7 @@ function forwardPageIfBlacklistedCountry(blacklistedCountryClasses) {
     checkAndForward();
 }
 
-forwardPageIfBlacklistedCountry(['orbe-country-code--UA','orbe-country-code--IN']);
+forwardPageIfBlacklistedCountry(['orbe-country-code--UA']);
 
 </script>
 
