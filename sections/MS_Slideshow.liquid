@@ -95,11 +95,14 @@
                               video.currentTime = video.duration - 0.1;
                           }
                   
+                          // Start playing the video immediately for non-mobile devices
+                          if (!isMobile) {
+                              video.play();
+                          }
                       });
                   
                       
                   </script>
-
               
             {%- else -%}
               {% if image != blank %}
@@ -131,17 +134,15 @@
           ----------------------------------------------------------------------------------------------------------------
           {%- endcomment -%}
 
-
           {% assign topMargin = block.settings.topMarginControl %}
           {% assign bottomMargin = block.settings.bottomMarginControl %}
- 
-          
-        {%- capture section_content -%}
+
+         {%- capture section_content -%}
           <div class="Margins"  style="margin-top: {{ topMargin }}px; margin-bottom: {{ bottomMargin }}px;">
             {%- if block.settings.subheading != blank -%}
-              <h2 class="heading heading--small">
+              <h3 class="heading heading--small">
                 <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
-              </h2>
+              </h3>
             {%- endif -%}
 
             {%- if block.settings.title != blank -%}
@@ -150,7 +151,8 @@
               </h2>
             {%- endif -%}
 
-             {%- if block.settings.title_promo != blank -%}
+    
+            {%- if block.settings.title_promo != blank -%}
               <div class="promo-heading heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.title_promo != blank-%}
                 {{- block.settings.title_promo -}}
@@ -158,8 +160,7 @@
               </div>
             {%- endif -%}
 
-    
-             {%- if block.settings.content != blank -%}
+            {%- if block.settings.content != blank -%}
               <div class="heading" style=" font-weight: 500; font-size: 17px; letter-spacing: 0.5px"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content != blank-%}
                 {{- block.settings.content -}}
@@ -173,7 +174,8 @@
                 <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.html | escape }}</split-lines>
               </div>
             {%- endif -%}
-            {%- endcomment -%}
+           {%- endcomment -%}
+
             
             {%- if block.settings.content_promo != blank -%}
               <h4 class="promo-content heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
@@ -205,16 +207,18 @@
                 {{- buttons -}}
               </div>
             {%- endif -%}
-
-            {%- if block.settings.content_notice!= blank -%}
-              <p class="promo-notice" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+            
+ 
+          </div>
+           {%- if block.settings.content_notice!= blank -%}
+              <h5 class="promo-notice" style="color: #fff; letter-spacing: 1"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content_notice != blank-%}
                 {{- block.settings.content_notice -}}
               {%- endif -%}
-              </p>
+              </h5>
             {%- endif -%}
-          </div>
-        {%- endcapture -%}
+           
+         {%- endcapture -%}
 
           {%- if section_content != blank -%}
             <div class="container">
@@ -444,7 +448,7 @@
          {
           "type": "richtext",
           "id": "content",
-          "label": "Content"
+          "label": "Content" 
         },
         {
           "type": "richtext",
