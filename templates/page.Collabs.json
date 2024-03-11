@@ -47,7 +47,8 @@
       "custom_css": [
         ".content-box {max-width: 800px;}",
         "@media screen and (max-width: 999px) {.content-box {width: 100%; }}",
-        "section {margin-bottom: 48px;}"
+        "section {margin-bottom: 48px;}",
+        "@media screen and (max-width: 740px) {.content-box {text-align: left; margin-left: 20px; margin-right: 20px; width: auto; }}"
       ],
       "settings": {
         "subheading": "",
