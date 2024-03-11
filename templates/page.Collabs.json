@@ -93,6 +93,7 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "",
+            "content": "",
             "title": "Discount Codes",
             "link_text": "",
             "link_url": "",
@@ -111,6 +112,7 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "",
+            "content": "",
             "title": "Free products",
             "link_text": "",
             "link_url": "",
@@ -129,6 +131,7 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "",
+            "content": "",
             "title": "Sales Commision",
             "link_text": "",
             "link_url": "",
@@ -147,6 +150,7 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "",
+            "content": "",
             "title": "Product Sneak Peeks",
             "link_text": "",
             "link_url": "",
@@ -172,10 +176,21 @@
       "settings": {
         "subheading": "",
         "title": "COLLAB BENEFITS",
+        "content": "",
         "section_size": "medium",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_video_w_benefits_zjD8az": {
+      "type": "MS_video_w_benefits",
+      "settings": {
+        "title": "COLLAB BENEFITS",
+        "title1": "<p>DISCOUNT CODES<\/p>",
+        "title2": "<p>FREE PRODUCTS<\/p>",
+        "title3": "<p>SALES COMMISSION<\/p>",
+        "title4": "<p>PRODUCT SNEAK PEEKS<\/p>"
       }
     }
   },
@@ -185,6 +200,7 @@
     "1708355434bb8f1fb8",
     "rich_text_qTGHLN",
     "custom_liquid_3kRWpX",
-    "promotion_blocks_CHcpbw"
+    "promotion_blocks_CHcpbw",
+    "ms_video_w_benefits_zjD8az"
   ]
 }
