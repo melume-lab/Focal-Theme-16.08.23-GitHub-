@@ -72,7 +72,9 @@
         "h3 {font-size: 15px; font-weight: 500;}",
         ".liquid {justify-content: center; display: flex;}",
         "a {text-decoration: underline;}",
-        ".section__header {margin-bottom: 10px;}"
+        ".section__header {margin-bottom: 10px;}",
+        "@media screen and (max-width: 740px) {h3, a {text-align: left; margin-left: 20px; margin-right: 20px; width: auto; }}",
+        "@media screen and (max-width: 740px) {.liquid {justify-content: left; }}"
       ],
       "settings": {
         "subheading": "",
