@@ -12,7 +12,7 @@
       "type": "image-with-text-block",
       "custom_css": [
         "p {font-size: 40px; font-weight: 700; line-height: 1;}",
-        ".image-with-text-block__content:not(.image-with-text-block__content--tight) {padding: 48px;}",
+        ".image-with-text-block__content:not(.image-with-text-block__content--tight) {padding: 40px;}",
         ".content-box-custom-width {max-width: 600px;}",
         ".content-box {background: rgba(255, 255, 255, 0.7); margin-bottom: 200px;}"
       ],
