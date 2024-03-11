@@ -189,6 +189,9 @@
     },
     "ms_video_w_benefits_zjD8az": {
       "type": "MS_video_w_benefits",
+      "custom_css": [
+        "@media screen and (max-width: 740px) {.heading {text-align: left !important; margin-left: 20px; }}"
+      ],
       "settings": {
         "title": "COLLAB BENEFITS",
         "title1": "<p>DISCOUNT CODES<\/p>",
