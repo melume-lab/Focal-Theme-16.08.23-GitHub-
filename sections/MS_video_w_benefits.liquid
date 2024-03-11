@@ -1,0 +1,387 @@
+<style>
+
+
+
+@media screen and (min-width: 1000px) {
+  .video-column-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .video-column-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .video-column-container {
+    display: block;
+    justify-content: space-between;
+  }
+}
+
+    @media screen and (max-width: 740px) {
+  .video-col {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+}
+@media screen and (min-width: 741px) {
+  .video-col {
+    width: 450px;
+    margin: 25px;
+  }
+}
+
+  .video-container {
+    width: 100%!important;
+    
+  }
+
+  .video-container video {
+    width: 100%!important;
+    height: 100%!important;
+  }
+
+@media screen and (min-width: 741px) {
+  .video-container--center {
+    padding-top: 25%;
+  }
+}
+
+
+@media screen and (min-width: 741px) {
+  .benefits-column-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: min(65px, var(--vertical-breather));
+    margin-top: 20px;
+  }
+}
+
+  @media screen and (min-width: 741px) {
+  .benefits-col {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+  @media screen and (max-width: 740px) {
+  .benefits-col {
+    text-align: left;
+    width: 100%;
+    display: flex;
+  }
+}
+
+
+  @media screen and (min-width: 741px) {  
+  .object-container-1 {
+    width: 100%;
+    height: 8px;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .object-container-2 {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 1.5px;
+    background-color: black;
+    display: grid;
+    align-content: space-around;
+  }
+
+  .object-container-3 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    margin: auto;
+    border-radius: 10px;
+  }
+}
+
+  @media screen and (max-width: 740px) {  
+  .object-container-mobile-1 {
+    position: relative;
+    width: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+
+
+  .object-container-mobile-2 {
+    position: relative;
+    width: 1.5px;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    align-content: space-around;
+    margin: auto;
+    
+  }
+
+  .object-container-mobile-3 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-left: -4px;
+    border-radius: 10px;
+  }
+}
+
+   @media screen and (min-width: 741px) {  
+  .object-container-mobile-1 {
+    display: none;
+  }
+
+  .object-container-mobile-2 {
+    display: none;
+  }
+
+  .object-container-mobile-3 {
+    display: none;
+  }
+}
+
+ @media screen and (max-width: 740px) {  
+  .object-container-1 {
+    display: none;
+  }
+
+  .object-container-2 {
+    display: none;
+  }
+
+  .object-container-3 {
+    display: none;
+  }
+}
+
+  
+
+
+  @media screen and (min-width: 1000px) {
+  .h3 {
+    font-weight: 400;
+    font-size: calc(var(--heading-h3-font-size) - 4px );
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+  @media screen and (max-width: 999px) {
+  .h3 {
+    font-weight: 400;
+    font-size: calc(var(--heading-h3-font-size) - 10px );
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+  @media screen and (max-width: 740px) {
+  .h3 {
+    font-weight: 400;
+    font-size: calc(var(--heading-h3-font-size) - 8px );
+    max-width: 300px;
+    margin-left: 0px;
+  }
+}
+
+  
+</style>
+
+
+
+<section>
+<div class="section">
+  <div class="container">
+    
+     {%- if section.settings.title != blank -%}
+        <h3 class="heading h2" style="text-align: center;">{{ section.settings.title | escape }}</h3>
+     {%- endif -%}
+         
+        <div class="section-container">
+    
+            <div class="benefits-column-container">
+              <div class="benefits-col">               
+                <div class="object-container-mobile-1">               
+                  <div class="object-container-mobile-2">             
+                    <div class="object-container-mobile-3">
+                    </div>
+                  </div>
+                </div>
+              {%- if section.settings.title1 != blank -%}
+                  <h3 class="heading h3">{{ section.settings.title1 }}</h3>
+              {%- endif -%}
+                <div class="object-container-2">
+                  <div class="object-container-3">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="benefits-col">
+                <div class="object-container-mobile-1">               
+                  <div class="object-container-mobile-2">             
+                    <div class="object-container-mobile-3">
+                    </div>
+                  </div>
+                </div>            
+                 {%- if section.settings.title2 != blank -%}
+                    <h3 class="heading h3">{{ section.settings.title2 }}</h3>
+                  {%- endif -%}
+
+                <div class="object-container-2">
+                    <div class="object-container-3">
+                    
+                    </div>
+                
+                </div>
+              </div>
+              
+              <div class="benefits-col">
+                <div class="object-container-mobile-1">               
+                  <div class="object-container-mobile-2">             
+                    <div class="object-container-mobile-3">
+                    </div>
+                  </div>
+                </div>
+                 {%- if section.settings.title3 != blank -%}
+                    <h3 class="heading h3">{{ section.settings.title3 }}</h3>
+                  {%- endif -%}
+
+                <div class="object-container-2">
+                    <div class="object-container-3">
+                    
+                    </div>
+                
+                </div>
+              </div>
+        
+              <div class="benefits-col">
+
+                <div class="object-container-mobile-1">               
+                  <div class="object-container-mobile-2">             
+                    <div class="object-container-mobile-3">
+                    </div>
+                  </div>
+                </div>
+                 {%- if section.settings.title4 != blank -%}
+                    <h3 class="heading h3">{{ section.settings.title4 }}</h3>
+                  {%- endif -%}
+
+                <div class="object-container-2">
+                    <div class="object-container-3">
+                    
+                    </div>
+                
+                </div>
+              </div>
+            </div>
+        
+
+    
+        
+        <div class="video-column-container">
+          
+            <div class="video-col">             
+              <div class="video-container">
+                {% assign media = page.metafields.custom.benefits_video_1.value %} 
+                {% if media.media_type == 'video' %}
+                  <video preload="auto" {{ media | video_tag: controls: false, autoplay: true, loop: true, sound: false}}
+                {% endif %}
+              </div>
+            </div>
+    
+            <div class="video-col">             
+              <div class="video-container--center video-container">
+                {% assign media = page.metafields.custom.benefits_video_2.value %} 
+                {% if media.media_type == 'video' %}
+                  <video preload="auto" {{ media | video_tag: controls: false, autoplay: true, loop: true, sound: false}}
+                {% endif %}
+              </div>
+            </div>
+    
+            <div class="video-col">             
+              <div class="video-container">
+                {% assign media = page.metafields.custom.benefits_video_3.value %} 
+                {% if media.media_type == 'video' %}
+                  <video preload="auto" {{ media | video_tag: controls: false, autoplay: true, loop: true, sound: false}}
+                {% endif %}
+              </div>
+            </div>
+                  
+        <script>
+          const video = document.querySelector('video');
+          if (!video.autoplay) {
+            video.controls = true;
+          }
+        </script>                       
+     </div>
+    </div>                            
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "MS_Video With Benefits",
+  "class": "shopify-section--video-column",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "title1",
+      "label": "Benefit Text 1",
+      "default": "<p>Talk about your brand</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "title2",
+      "label": "Benefit Text 2",
+      "default": "<p>Talk about your brand</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "title3",
+      "label": "Benefit Text 3",
+      "default": "<p>Talk about your brand</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "title4",
+      "label": "Benefit Text 4",
+      "default": "<p>Talk about your brand</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "MS_Video With Benefits",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
