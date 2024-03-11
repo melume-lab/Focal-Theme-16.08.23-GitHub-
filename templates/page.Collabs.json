@@ -169,6 +169,7 @@
         "image_Hq6yp9",
         "image_wDMjc8"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 1000px) {.promotion-block {flex: 1 0 calc(25% - var(--promotion-block-gutter)); }}",
         "@media screen and (max-width: 999px) {.promotion-block {flex: 1 0 calc(50% - var(--promotion-block-gutter)); padding: 0px; }}"
