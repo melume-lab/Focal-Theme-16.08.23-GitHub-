@@ -214,6 +214,42 @@
         "text_color": "#ffffff"
       }
     },
+    "59654e52-65dc-404e-9b5c-040df1724de3": {
+      "type": "custom-html",
+      "custom_css": [
+        ".container {margin-top: 25px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Reviews",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1689955023c90277fb": {
+      "type": "apps",
+      "blocks": {
+        "18d037f3-22fc-41f4-976a-3e38969681bf": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "18d037f3-22fc-41f4-976a-3e38969681bf"
+      ],
+      "custom_css": [
+        ".spr-header-title {text-align: center; font-family: Cormorant, serif; font-size: var(--heading-h2-font-size);}",
+        ".spr-summary-actions-newreview {line-height: 40px !important; font-size: 14px;}"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": false
+      }
+    },
     "80c29ec1-74f4-4598-a8d2-8846f4572976": {
       "type": "MS_Video_with_text",
       "blocks": {
@@ -276,44 +312,9 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "59654e52-65dc-404e-9b5c-040df1724de3": {
-      "type": "custom-html",
-      "custom_css": [
-        ".container {margin-top: 25px;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Reviews",
-        "html": "",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "1689955023c90277fb": {
-      "type": "apps",
-      "blocks": {
-        "18d037f3-22fc-41f4-976a-3e38969681bf": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "18d037f3-22fc-41f4-976a-3e38969681bf"
-      ],
-      "custom_css": [
-        ".spr-header-title {text-align: center; font-family: Cormorant, serif; font-size: var(--heading-h2-font-size);}",
-        ".spr-summary-actions-newreview {line-height: 40px !important; font-size: 14px;}"
-      ],
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": false
-      }
-    },
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -328,10 +329,10 @@
   "order": [
     "main",
     "66849eca-7501-4f71-9912-5a5a43d36883",
-    "80c29ec1-74f4-4598-a8d2-8846f4572976",
-    "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc",
     "59654e52-65dc-404e-9b5c-040df1724de3",
     "1689955023c90277fb",
+    "80c29ec1-74f4-4598-a8d2-8846f4572976",
+    "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc",
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f"
   ]
 }
