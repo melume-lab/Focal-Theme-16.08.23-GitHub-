@@ -235,8 +235,8 @@
         "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {h2 {font-size: 30px; font-weight: 500; line-height: 1.5; }}",
-        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 500; line-height: 1.5; }}"
+        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
         "reveal_on_scroll": false,
