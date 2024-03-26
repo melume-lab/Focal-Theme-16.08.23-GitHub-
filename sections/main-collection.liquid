@@ -249,14 +249,14 @@
               <p>{{ 'collection.general.empty_label' | t }}</p>
 
               <div class="button-wrapper">
-                <a href="{{ routes.all_products_collection_url }}" class="button button--primary">{{ 'collection.general.empty_button' | t }}</a>
+                <a href="{{ routes.root_url }}" class="button button--primary">{{ 'collection.general.empty_button' | t }}</a>
               </div>
             {%- else -%}
               <h3 class="heading h4">{{ 'collection.general.no_results_title' | t }}</h3>
               <p>{{ 'collection.general.no_results_label' | t }}</p>
 
               <div class="button-wrapper">
-                <a href="{{ collection.url }}?sort_by={{ collection_sort_by }}" data-action="clear-filters" class="button button--primary">{{ 'collection.general.no_results_button' | t }}</a>
+                <a href="{{ routes.root_url }}?sort_by={{ collection_sort_by }}" data-action="clear-filters" class="button button--primary">{{ 'collection.general.no_results_button' | t }}</a>
               </div>
             {%- endif -%}
           </div>
