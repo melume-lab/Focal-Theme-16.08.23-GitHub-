@@ -145,7 +145,8 @@
         "h2 {font-size: 40px; font-weight: 700;}",
         ".content-box {max-width: 700px; width: 80%;}",
         "@media (max-width: 999px) {.content-box {width: 100%; }}",
-        "@media (max-width: 999px) {.promo-heading {font-size: 38px !important; }}"
+        "@media (max-width: 999px) {.promo-heading {font-size: 38px !important; }}",
+        "p {line-height: 1.0833333333 !important;}"
       ],
       "settings": {
         "section_height": "medium",
