@@ -32,7 +32,6 @@
         },
         "image_LjT3XT": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rotating_Banner_Promotion_CalmBalm_Coming_soon_2160x1018_ca488cf1-cbde-4d74-b918-b55abbb6760b.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Mobile_2024_Rotating_Banner_Promotion_CALM_BALM_RZ_1000x1400px.jpg",
