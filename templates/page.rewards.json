@@ -41,6 +41,7 @@
         "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_Clean_1.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "500 Points",
@@ -50,10 +51,10 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "96a08da5-6fe6-4233-831c-f6eb9756775d": {
@@ -68,15 +69,16 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "d4d4b41c-9f66-4f6d-9e83-e1e8894a8f89": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_Clean_3.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "2000 Points",
@@ -86,10 +88,10 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "b4cadcb8-9c12-4f5d-9b0f-109c9fd75da1": {
@@ -104,15 +106,16 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "df5f8365-a5f9-4fea-a63e-be537ab3a8e2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_Clean_5.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "4000 Points",
@@ -122,10 +125,10 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "df3e4d57-8b1f-48de-9b28-8bddb595c559": {
@@ -140,10 +143,10 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "3ae30ec1-9a88-43b6-a4a2-6964e09f1d35": {
@@ -198,10 +201,10 @@
             "link_text": "REDEEM",
             "link_url": "#joy-open",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "product_reward_JKqHYE": {
@@ -214,10 +217,10 @@
             "link_text": "REDEEM",
             "link_url": "#joy-open",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         },
         "product_reward_DRK7P7": {
@@ -230,10 +233,10 @@
             "link_text": "REDEEM",
             "link_url": "#joy-open",
             "text_position": "middle_center",
-            "background": "#000000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
           }
         }
       },
