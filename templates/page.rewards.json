@@ -212,7 +212,7 @@
       "custom_css": [
         "h3 {text-transform: uppercase;}",
         "@media screen and (min-width: 741px) {.promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)) !important; margin-right: calc(var(--grid-column-width) + var(--grid-gap)) !important; }}",
-        ".promotion-block {border: 1.2px solid #d6d6d6;}"
+        ".promotion-block {border: 1.2px solid #D0D0D0;}"
       ],
       "settings": {
         "subheading": "",
