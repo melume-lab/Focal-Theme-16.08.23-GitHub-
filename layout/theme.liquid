@@ -357,7 +357,16 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
 {%- endif -%}
 
   
+  {% if page.handle == 'rewards' %}
+      <style>
+         #shopify-section-sections--19493493866834__promotion_blocks_rJ3Qhm {
+        display: none;
+      }
+      </style>
+    {% endif %}
 
+
+  
   {% if collection.handle == 'skincare-products' %}
       <style>
          #shopify-section-template--19493494227282__rich_text_NDMeQR {
