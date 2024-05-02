@@ -149,48 +149,6 @@
             "button_text_color": "#ffffff"
           }
         },
-        "3ae30ec1-9a88-43b6-a4a2-6964e09f1d35": {
-          "type": "featured_products",
-          "disabled": true,
-          "settings": {
-            "highlight": false,
-            "subheading": "650 points",
-            "product_1": "face-roller",
-            "product_2": "",
-            "product_3": "",
-            "product_4": "",
-            "background": "#ffffff",
-            "text_color": "#000000"
-          }
-        },
-        "featured_products_Mpcytg": {
-          "type": "featured_products",
-          "disabled": true,
-          "settings": {
-            "highlight": false,
-            "subheading": "700 points",
-            "product_1": "exfoliating-cloth",
-            "product_2": "",
-            "product_3": "",
-            "product_4": "",
-            "background": "#ffffff",
-            "text_color": "#000000"
-          }
-        },
-        "featured_products_WPVYyE": {
-          "type": "featured_products",
-          "disabled": true,
-          "settings": {
-            "highlight": false,
-            "subheading": "1300 points",
-            "product_1": "oil-cleanser",
-            "product_2": "",
-            "product_3": "",
-            "product_4": "",
-            "background": "#000000",
-            "text_color": "#ffffff"
-          }
-        },
         "product_reward_BpAKXY": {
           "type": "product-reward",
           "settings": {
@@ -247,9 +205,6 @@
         "b4cadcb8-9c12-4f5d-9b0f-109c9fd75da1",
         "df5f8365-a5f9-4fea-a63e-be537ab3a8e2",
         "df3e4d57-8b1f-48de-9b28-8bddb595c559",
-        "3ae30ec1-9a88-43b6-a4a2-6964e09f1d35",
-        "featured_products_Mpcytg",
-        "featured_products_WPVYyE",
         "product_reward_BpAKXY",
         "product_reward_JKqHYE",
         "product_reward_DRK7P7"
