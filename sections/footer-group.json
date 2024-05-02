@@ -174,6 +174,26 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "custom_html_xJrHAW": {
+      "type": "custom-html",
+      "custom_css": [
+        ".column-icons-container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around; max-width: 100%; margin-bottom: 85px;}",
+        ".column-icons {text-align: center; width: 100%;}",
+        ".custom-icon-container img {max-height: 100px; width: auto; margin-top: 20px;}",
+        "@media (max-width: 740px) {.column-icons {width: calc(50% - 20px); } .custom-icon-container img {max-height: 65px; } p {font-size: 12px; }}",
+        "@media (min-width: 741px) {.column-icons {width: calc(33.33% - 20px); }}",
+        "@media (min-width: 1000px) {.column-icons {width: calc(16.66% - 20px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<style>\np {\n    line-height: 1.5;\n  }\n<\/style>\n<div class=\"column-icons-container\">\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Produktvorteil.png?v=1708339212\">\n<\/div>\n<p> PRODUCT <br> NEWS<\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Love_it_or_return_it_Icon_7dccfdd3-3033-48b4-a5d1-6fec4663f03b.png?v=1708433020\">\n<\/div>\n<p> LOVE IT OR <br> RETURN IT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Angebot.png?v=1708339740\">\n<\/div>\n<p> 2 COMPLIMENTARY <br> LUXURY SAMPLES <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Expertentipps.png?v=1708340106\">\n<\/div>\n<p> EXPERT- <br> ADVICE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Autoreplanish_Edit.png?v=1708432149\">\n<\/div>\n<p> AUTO- <br> REPLENISHMENT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Peta_Edit2.png?v=1711013559\">\n<\/div>\n<p> VEGAN <br> GLOBAL ANIMAL TEST POLICY <\/p>\n<\/div>\n\n\n<\/div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "6f312617-3fc4-4e7d-a598-c25194c15752": {
       "type": "newsletter",
       "custom_css": [
@@ -371,6 +391,7 @@
     "custom_html_RzCiXT",
     "promotion_blocks_rJ3Qhm",
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1",
+    "custom_html_xJrHAW",
     "6f312617-3fc4-4e7d-a598-c25194c15752",
     "ed8c9614-ba87-4c1f-aaf3-5a5b3ac571d7",
     "30fd7bd4-4c0c-4fbb-bf1d-0d31e2a4222e",
