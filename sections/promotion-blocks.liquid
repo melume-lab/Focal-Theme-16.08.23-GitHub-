@@ -172,6 +172,17 @@
                         </div>
                       {%- endif -%}
                     {%- endif -%}
+                    <div class="custom-button-wrapper">
+                    {%- if block.settings.link_text_2 != blank -%}
+                      {%- if block.settings.link_style == 'link' -%}
+                        <span class="heading heading--small link">{{ block.settings.link_text_2 | escape }}</span>
+                      {%- else -%}
+                        <div class="button-wrapper">
+                          <span class="button button--small button--primary">{{ block.settings.link_text_2 | escape }}</span>
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+                  </div>
                   </div>
                 {%- endcapture -%}
 
@@ -511,6 +522,11 @@
           "type": "text",
           "id": "link_text",
           "label": "Link text"
+        },
+        {
+          "type": "text",
+          "id": "link_text_2",
+          "label": "Link text 2"
         },
         {
           "type": "url",
