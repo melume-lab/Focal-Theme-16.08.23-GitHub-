@@ -66,6 +66,51 @@
       {%- endunless -%}
     }
   {%- endfor -%}
+
+  .promotion-block {
+    display: block;
+    align-content: center;
+}
+  
+@media screen and (min-width: 1200px) {
+  .custom-button-wrapper {
+    display: block;
+    align-content: center;
+    position: absolute;
+    margin-top: 62px;
+    margin-bottom: 0px;
+    text-align:center;
+    width: 100%;
+    Height: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .custom-button-wrapper {
+    display: block;
+    align-content: center;
+    position: absolute;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    text-align:center;
+    width: 100%;
+    Height: 100%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .custom-button-wrapper {
+    display: block;
+    align-content: center;
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align:center;
+    width: 100%;
+    Height: 100%;
+  }
+}
+  
 </style>
 
 <section class="section {% unless blends_with_background %}section--flush{% endunless %}">
