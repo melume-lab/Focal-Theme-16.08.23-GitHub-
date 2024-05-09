@@ -61,7 +61,7 @@
       {%- endif -%}
 
       {%- if settings.show_secondary_image and product.media.size > 1 and hide_secondary_image != true -%}
-        {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
+        {%- assign next_media = product.metafields.custom.hover_image -%}
         <img class="product-item__secondary-image" loading="lazy" sizes="{{ sizes_attribute }}" {% render 'image-attributes', image: next_media, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200' %}>
       {%- endif -%}
     </a>
