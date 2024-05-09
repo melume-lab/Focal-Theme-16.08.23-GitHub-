@@ -34,7 +34,7 @@
     "stagger_products_apparition": false,
     "round_color_swatches": false,
     "show_vendor": false,
-    "show_secondary_image": false,
+    "show_secondary_image": true,
     "product_add_to_cart": true,
     "show_product_rating": true,
     "product_color_display": "count",
