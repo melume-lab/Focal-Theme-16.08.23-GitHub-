@@ -138,6 +138,32 @@
         "transition_effect": "slide"
       }
     },
+    "ms_skincare_lovers_nN63n8": {
+      "type": "MS_skincare_lovers",
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 740px) {.section__header {margin-left: 0px !important; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "FOR SKINCARE LOVERS",
+        "html": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "title1": "IN YOUR ROUTINES",
+        "content1": "{{ product.metafields.custom.for_your_routine | metafield_tag }}",
+        "title2": "WHEN",
+        "content2": "{{ product.metafields.custom.when_how_to_use_ | metafield_tag }}",
+        "title3": "WHO",
+        "content3": "{{ product.metafields.custom.who_how_to_use_ | metafield_tag }}",
+        "title4": "HOW",
+        "content4": "{{ product.metafields.custom.how_how_to_use_ | metafield_tag }}",
+        "title5": "PROFI TIP",
+        "content5": "{{ product.metafields.custom.pro_tip_how_to_use_ | metafield_tag }}",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "66849eca-7501-4f71-9912-5a5a43d36883": {
       "type": "MS_text-carousel",
       "blocks": {
@@ -262,32 +288,6 @@
         "button_text_color": "#131313"
       }
     },
-    "ms_skincare_lovers_nN63n8": {
-      "type": "MS_skincare_lovers",
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 740px) {.section__header {margin-left: 0px !important; }}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "FOR SKINCARE LOVERS",
-        "html": "",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "title1": "IN YOUR ROUTINES",
-        "content1": "",
-        "title2": "WHEN",
-        "content2": "{{ product.metafields.custom.when_how_to_use_ | metafield_tag }}",
-        "title3": "WHO",
-        "content3": "{{ product.metafields.custom.who_how_to_use_ | metafield_tag }}",
-        "title4": "HOW",
-        "content4": "{{ product.metafields.custom.how_how_to_use_ | metafield_tag }}",
-        "title5": "PROFI TIP",
-        "content5": "{{ product.metafields.custom.pro_tip_how_to_use_ | metafield_tag }}",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc": {
       "type": "featured-collections",
       "blocks": {
@@ -334,11 +334,11 @@
   },
   "order": [
     "main",
+    "ms_skincare_lovers_nN63n8",
     "66849eca-7501-4f71-9912-5a5a43d36883",
     "59654e52-65dc-404e-9b5c-040df1724de3",
     "1689955023c90277fb",
     "80c29ec1-74f4-4598-a8d2-8846f4572976",
-    "ms_skincare_lovers_nN63n8",
     "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc",
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f"
   ]
