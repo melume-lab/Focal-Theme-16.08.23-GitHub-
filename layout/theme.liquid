@@ -365,11 +365,15 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
       </style>
     {% endif %}
 
+  
+
   {% if template contains 'product' %}
     <style>
+      @media screen and (max-width: 740px) {
        #Avada-Joy_FloatingButton {
           display: none;
        }
+      }
     </style>
   {% endif %}
 
