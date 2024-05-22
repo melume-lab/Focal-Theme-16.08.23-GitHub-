@@ -262,6 +262,32 @@
         "button_text_color": "#131313"
       }
     },
+    "ms_skincare_lovers_nN63n8": {
+      "type": "MS_skincare_lovers",
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 740px) {.section__header {margin-left: 0px !important; }}"
+      ],
+      "settings": {
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "title1": "IN YOUR ROUTINES",
+        "content1": "<p>Your richtext content here<\/p>",
+        "title2": "WHEN",
+        "content2": "<p>Your richtext content here<\/p>",
+        "title3": "WHO",
+        "content3": "<p>Your richtext content here<\/p>",
+        "title4": "HOW",
+        "content4": "<p>Your richtext content here<\/p>",
+        "title5": "PROFI TIP",
+        "content5": "<p>Your richtext content here<\/p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc": {
       "type": "featured-collections",
       "blocks": {
@@ -312,6 +338,7 @@
     "59654e52-65dc-404e-9b5c-040df1724de3",
     "1689955023c90277fb",
     "80c29ec1-74f4-4598-a8d2-8846f4572976",
+    "ms_skincare_lovers_nN63n8",
     "8be7376e-a723-46aa-8c6b-9f3a2e39e3cc",
     "bfe0723f-effb-44b6-bf9b-68ee7a2ec17f"
   ]
