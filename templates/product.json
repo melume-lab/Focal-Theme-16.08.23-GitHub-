@@ -140,7 +140,6 @@
     },
     "ms_skincare_lovers_nN63n8": {
       "type": "MS_skincare_lovers",
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 740px) {.section__header {margin-left: 0px !important; }}"
       ],
@@ -214,6 +213,7 @@
         "template--17915596439819__66849eca-7501-4f71-9912-5a5a43d36883-1685618816acee9b64-2",
         "7a3c0e0b-8b7f-4744-9fae-63a6bec38f47"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
