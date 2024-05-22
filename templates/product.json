@@ -9,17 +9,6 @@
             "text": "<p>{{ product.metafields.custom.ml_angaben | metafield_tag }}<\/p>"
           }
         },
-        "21605fcb-5f73-4b59-9f8c-4dec744ec77e": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "vitamin-c-creme",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "1b7fcf1e-aada-43e8-8e94-ac63909be7fa": {
           "type": "description",
           "settings": {
@@ -117,7 +106,6 @@
       },
       "block_order": [
         "e48aaa0e-d9ec-417c-bf54-6dfac516772c",
-        "21605fcb-5f73-4b59-9f8c-4dec744ec77e",
         "1b7fcf1e-aada-43e8-8e94-ac63909be7fa",
         "9b02b676-ac6c-418d-9f39-0212831b8811",
         "bbdb1d99-abb2-4642-9ed5-63ef0c07cafe",
@@ -216,6 +204,7 @@
     },
     "59654e52-65dc-404e-9b5c-040df1724de3": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
         ".container {margin-top: 25px;}"
       ],
@@ -231,16 +220,7 @@
     },
     "1689955023c90277fb": {
       "type": "apps",
-      "blocks": {
-        "18d037f3-22fc-41f4-976a-3e38969681bf": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "18d037f3-22fc-41f4-976a-3e38969681bf"
-      ],
+      "disabled": true,
       "custom_css": [
         ".spr-header-title {text-align: center; font-family: Cormorant, serif; font-size: var(--heading-h2-font-size);}",
         ".spr-summary-actions-newreview {line-height: 40px !important; font-size: 14px;}"
