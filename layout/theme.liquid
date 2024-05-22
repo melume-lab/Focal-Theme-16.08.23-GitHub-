@@ -365,6 +365,14 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
       </style>
     {% endif %}
 
+  {% if template contains 'product' %}
+    <style>
+       #Avada-Joy_FloatingButton {
+          display: none;
+       }
+    </style>
+  {% endif %}
+
 
   
   {% if collection.handle == 'skincare-products' %}
