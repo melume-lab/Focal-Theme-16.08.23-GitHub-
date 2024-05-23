@@ -49,11 +49,12 @@
                     </div>
                   {%- endif -%}
 
+                  {%- comment -%}
                    <div class="input">
                       <input id="birthday" type="text" class="input__field" {% if customer.note.Birthday != blank%}name="customer[Birthday]"{% else %}name="customer[note][Birthday]"{% endif %} autocomplete="date" {% if form.errors contains 'birthday' %}aria-invalid="true" aria-describedby="register-form-error"{% endif %}>
                       <label for="birthday" class="input__label">{{ 'customer.register.birthday' | t }}</label>
                   </div>
-
+                  {%- endcomment -%}
 
                   <div class="input">
                     <input type="email" id="customer[email]" class="input__field" name="customer[email]" required="required" autocomplete="email" {% if form.errors contains 'email' %}aria-invalid="true" aria-describedby="register-form-error"{% endif %}>
