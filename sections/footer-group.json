@@ -14,20 +14,21 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "promotion_blocks_rJ3Qhm": {
+    "promotion_blocks_T7dajB": {
       "type": "promotion-blocks",
       "blocks": {
-        "image_hVhxQp": {
+        "image_f7EyCY": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredient_Hyaluronic_Acid_640x470_72268697-89a8-48ae-9b70-4f2bade22286.jpg",
+            "image": "shopify:\/\/shop_images\/Ingredient_Hyaluronic_Acid_640x470_989594cc-0875-4da7-ae47-c6251afedfb0.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
-            "content": "",
             "title": "",
             "link_text": "HYALURONIC ACID",
-            "link_url": "shopify:\/\/collections\/niacinamide-collection",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/hyaluronic-acid-collection",
             "link_style": "link",
             "text_position": "bottom_center",
             "background": "#f7f8fd",
@@ -36,16 +37,36 @@
             "button_text_color": "#1e316a"
           }
         },
-        "image_zBCgqf": {
-          "type": "image",
+        "selection_M6F3kV": {
+          "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredient_Retinol_640x470_4b05fec5-9043-451d-8518-f88c86c7c9ff.jpg",
+            "image": "shopify:\/\/shop_images\/Ingredients_Hyaluronic_Acid.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
-            "content": "",
+            "title": "",
+            "link_text": "HYALURONIC ACID",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/hyaluronic-acid-collection",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "image_EzyRqC": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Retinol_640x470_536b80d7-e3d3-4aea-be36-8ec21b063863.jpg",
+            "highlight": false,
+            "reload_enabled": false,
+            "subheading": "",
             "title": "",
             "link_text": "Retinol",
+            "link_text_2": "",
             "link_url": "shopify:\/\/collections\/retinol-collection",
             "link_style": "link",
             "text_position": "bottom_center",
@@ -55,16 +76,36 @@
             "button_text_color": "#1e316a"
           }
         },
-        "image_jGEGny": {
-          "type": "image",
+        "selection_7Cbgaq": {
+          "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredient_Peptides_640x470_93c30d52-125e-41a4-8361-1309d8105ee9.jpg",
+            "image": "shopify:\/\/shop_images\/Ingredients_Retinol.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
-            "content": "",
             "title": "",
-            "link_text": "Peptide",
+            "link_text": "RETINOL",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/retinol-collection",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "image_Efeatf": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Peptides_640x470_139dbb8f-afd8-41c4-80eb-603d9e3cd37e.jpg",
+            "highlight": false,
+            "reload_enabled": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "Peptides",
+            "link_text_2": "",
             "link_url": "shopify:\/\/collections\/peptide-collection",
             "link_style": "link",
             "text_position": "bottom_center",
@@ -74,16 +115,36 @@
             "button_text_color": "#1e316a"
           }
         },
-        "image_wG9Vjw": {
-          "type": "image",
+        "selection_Aqm8yL": {
+          "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredient_AHA_BHA_640x470_401da997-1b21-4399-a4c9-0db0f9257451.jpg",
+            "image": "shopify:\/\/shop_images\/Ingredients_Peptides.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
-            "content": "",
+            "title": "",
+            "link_text": "PEPTIDES",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/peptide-collection",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "image_YNeKhn": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_AHA_BHA_640x470_dad4e3d1-ba1b-46fb-8229-be0ecbec0cc5.jpg",
+            "highlight": false,
+            "reload_enabled": false,
+            "subheading": "",
             "title": "",
             "link_text": "AHA\/BHA",
+            "link_text_2": "",
             "link_url": "shopify:\/\/collections\/aha-bha-collection",
             "link_style": "link",
             "text_position": "bottom_center",
@@ -93,16 +154,36 @@
             "button_text_color": "#1e316a"
           }
         },
-        "image_m9kyQM": {
-          "type": "image",
+        "selection_zmxGXn": {
+          "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredient_Niaicinamide_640x470_4368f32e-1e4d-468c-b8b2-a23358c99134.jpg",
+            "image": "shopify:\/\/shop_images\/Ingredients_AHA.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
-            "content": "",
+            "title": "",
+            "link_text": "AHA\/BHA",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/aha-bha-collection",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "image_Dzf9TD": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Niaicinamide_640x470_1487fba7-3169-40df-b43d-5aa7efc20445.jpg",
+            "highlight": false,
+            "reload_enabled": false,
+            "subheading": "",
             "title": "",
             "link_text": "NIACINAMIDE",
+            "link_text_2": "",
             "link_url": "shopify:\/\/collections\/niacinamide-collection",
             "link_style": "link",
             "text_position": "bottom_center",
@@ -112,16 +193,36 @@
             "button_text_color": "#1e316a"
           }
         },
-        "image_p7MqWf": {
-          "type": "image",
+        "selection_GaYB6g": {
+          "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredient_Vitamin_C_640x470_d6181514-9c0c-48c8-ab67-485d608007f4.jpg",
+            "image": "shopify:\/\/shop_images\/Ingredients_NIACINAMIDE.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
-            "content": "",
+            "title": "",
+            "link_text": "NIACINAMIDE",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/niacinamide-collection",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        },
+        "image_fbTQtJ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredient_Vitamin_C_640x470_18d754cd-4fcd-4e9e-a557-b1e332498426.jpg",
+            "highlight": false,
+            "reload_enabled": false,
+            "subheading": "",
             "title": "",
             "link_text": "Vitamin C",
+            "link_text_2": "",
             "link_url": "shopify:\/\/collections\/vitamin-c-collection",
             "link_style": "link",
             "text_position": "bottom_center",
@@ -130,19 +231,44 @@
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
           }
+        },
+        "selection_qhQwN4": {
+          "type": "selection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingredients_VitaminC.jpg",
+            "highlight": false,
+            "reload_enabled": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "VITAMIN C",
+            "link_text_2": "",
+            "link_url": "shopify:\/\/collections\/vitamin-c-collection",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
         }
       },
       "block_order": [
-        "image_hVhxQp",
-        "image_zBCgqf",
-        "image_jGEGny",
-        "image_wG9Vjw",
-        "image_m9kyQM",
-        "image_p7MqWf"
+        "image_f7EyCY",
+        "selection_M6F3kV",
+        "image_EzyRqC",
+        "selection_7Cbgaq",
+        "image_Efeatf",
+        "selection_Aqm8yL",
+        "image_YNeKhn",
+        "selection_zmxGXn",
+        "image_Dzf9TD",
+        "selection_GaYB6g",
+        "image_fbTQtJ",
+        "selection_qhQwN4"
       ],
       "custom_css": [
         ".container {margin-top: calc(var(--vertical-breather) - 50px);}",
-        ".promotion-block {margin: -1px; padding: 25px;}",
+        ".promotion-block {margin: -1px; padding: 0px;}",
         ".promotion-block-list {margin: 0px;}",
         ".heading--small {font-size: 18px; font-weight: 800; letter-spacing: 0.2px; text-decoration: none;}",
         "section {margin: 0px;}",
@@ -151,7 +277,6 @@
       "settings": {
         "subheading": "",
         "title": "SHOP BY INGREDIENTS",
-        "content": "",
         "section_size": "medium",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
@@ -389,7 +514,7 @@
   },
   "order": [
     "custom_html_RzCiXT",
-    "promotion_blocks_rJ3Qhm",
+    "promotion_blocks_T7dajB",
     "e70beb47-f55d-473b-a925-4cb8b64d0bb1",
     "custom_html_xJrHAW",
     "6f312617-3fc4-4e7d-a598-c25194c15752",
