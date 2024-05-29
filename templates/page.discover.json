@@ -424,8 +424,8 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Vegan.png",
-            "custom_icon_width": 100,
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Peta_Edit2.png",
+            "custom_icon_width": 115,
             "title": "",
             "big-title": "",
             "content": "<p><strong>VEGAN &<\/strong><\/p><p><strong>CRUELTY-FREE<\/strong><br\/><\/p>",
@@ -446,7 +446,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Science.png",
-            "custom_icon_width": 100,
+            "custom_icon_width": 85,
             "title": "",
             "big-title": "",
             "content": "<p><strong>SCIENCE &<\/strong><\/p><p><strong>HIGH % NATURAL INGREDIENTS <\/strong><\/p>",
@@ -467,7 +467,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Recyclable.png",
-            "custom_icon_width": 100,
+            "custom_icon_width": 85,
             "title": "",
             "big-title": "",
             "content": "<p><strong>SUSTAINABLE AND<\/strong><\/p><p><strong>RECYCLED PACKAGING<\/strong><\/p>",
@@ -488,7 +488,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon-High_Tech.png",
-            "custom_icon_width": 100,
+            "custom_icon_width": 80,
             "title": "",
             "big-title": "",
             "content": "<p><strong>HIGH TECH<\/strong><\/p><p><strong>FORMULAS<\/strong><br\/><\/p>",
@@ -509,7 +509,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Biocompatible.png",
-            "custom_icon_width": 135,
+            "custom_icon_width": 125,
             "title": "",
             "big-title": "",
             "content": "<p><strong>BIOCOMPATIBLE<\/strong><\/p><p><strong>BIO AVAILABLE<\/strong><\/p>",
@@ -530,7 +530,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon-Worry-free.png",
-            "custom_icon_width": 80,
+            "custom_icon_width": 65,
             "title": "",
             "big-title": "",
             "content": "<p><strong>100%<\/strong><\/p><p><strong>WORRY-FREE<\/strong><\/p>",
@@ -551,7 +551,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Clinically_Proven.png",
-            "custom_icon_width": 75,
+            "custom_icon_width": 55,
             "title": "",
             "big-title": "",
             "content": "<p><strong>CLINICALLY RESEARCHED<\/strong><\/p><p><strong>INGREDIENTS<\/strong><\/p>",
@@ -572,7 +572,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Dermatologically_Tested.png",
-            "custom_icon_width": 130,
+            "custom_icon_width": 90,
             "title": "",
             "big-title": "",
             "content": "<p><strong>DERMATOLOGICALY<\/strong><\/p><p><strong>TESTED<\/strong><\/p>",
@@ -600,9 +600,11 @@
         "eb2c2b88-b124-4e11-bb53-7299b68b1d75"
       ],
       "custom_css": [
-        "p {margin-top: -14px;}",
+        "p {margin-top: -14px; font-size: 14px;}",
         ".custom-promotion-block {height: 0px; --promotion-block-padding: 0px;}",
-        ".vertical-breather {padding-top: 50px; padding-bottom: 25px;}"
+        ".vertical-breather {padding-top: 50px; padding-bottom: 25px;}",
+        "h3 {text-transform: uppercase;}",
+        ".text-with-icons__icon-wrapper {margin-bottom: 20px;}"
       ],
       "settings": {
         "subheading": "",
