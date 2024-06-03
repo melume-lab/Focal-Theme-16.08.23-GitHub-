@@ -254,7 +254,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Gruppe_11.png",
-            "custom_icon_width": 130,
+            "custom_icon_width": 100,
             "title": "FREE SHIPPING AND RETURNS",
             "big-title": "",
             "content": "<p>ON ALL ORDERS FROM $ 75<\/p>",
@@ -275,7 +275,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Gruppe_12.png",
-            "custom_icon_width": 130,
+            "custom_icon_width": 100,
             "title": "FREE LUXURY SAMPLES AT CHECKOUT",
             "big-title": "",
             "content": "<p>CHOOSE 2 WITH EVERY ORDER<\/p>",
@@ -296,7 +296,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Gruppe_16.png",
-            "custom_icon_width": 130,
+            "custom_icon_width": 100,
             "title": "SAVE AND COLLECT REWARDS",
             "big-title": "",
             "content": "<p>1 DOLLAR = 5 POINTS<\/p>",
@@ -319,7 +319,8 @@
         "b634677c-9d43-44ed-b105-00359328a048"
       ],
       "custom_css": [
-
+        "p {font-size: 14px;}",
+        ".vertical-breather {padding: 0px;}"
       ],
       "settings": {
         "subheading": "",
