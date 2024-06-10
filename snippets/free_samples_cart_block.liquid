@@ -116,12 +116,18 @@ document.addEventListener('DOMContentLoaded', function () {
   const selectedProductsKey = 'selectedProducts';
   let selectedProducts = JSON.parse(localStorage.getItem(selectedProductsKey)) || [];
   let isOperationInProgress = false; // Flag to track ongoing operations
+  const operationDelay = 1000; // Operation delay in milliseconds
 
   freeGiftButtons.forEach(button => {
       const loadingSpinner = button.querySelector('.loading-spinner');
       const addToCartButton = button.querySelector('.add-to-cart-button');
       const productId = button.getAttribute('data-product-id');
       const isSelected = selectedProducts.includes(productId);
+
+      if (!loadingSpinner || !addToCartButton) {
+        console.error('Required elements not found');
+        return;
+      }
 
       if (isSelected) {
         button.classList.add('selected');
@@ -130,61 +136,53 @@ document.addEventListener('DOMContentLoaded', function () {
         addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
       }
 
-      // ...
+      addToCartButton.addEventListener('click', function (event) {
+        event.stopPropagation(); // Stop the event from propagating to parent elements
 
-addToCartButton.addEventListener('click', function (event) {
-  event.stopPropagation();
+        if (isOperationInProgress) {
+          return; // Ignore clicks while an operation is in progress
+        }
 
-  if (isOperationInProgress) {
-    return;
-  }
+        isOperationInProgress = true; // Set flag to true
+        button.classList.add('disabled'); // Add disabled class to the button
+        loadingSpinner.style.display = 'block'; // Show the loading spinner
+        addToCartButton.classList.add('invisible'); // Make the button text invisible
 
-  isOperationInProgress = true;
-  button.classList.add('disabled');
-  loadingSpinner.style.display = 'block';
-  addToCartButton.classList.add('invisible');
-  button.classList.add('spinner-in-progress'); // Add the class here
+        const isSelected = button.classList.contains('selected');
 
-  const isSelected = button.classList.contains('selected');
+        if (!isSelected && selectedProducts.length < 2) {
+          if (!selectedProducts.includes(productId)) {
+            setTimeout(() => {
+              button.classList.add('selected');
+              selectedProducts.push(productId);
+              addToCart(productId);
+              addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
+              localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+              updateGrayOut();
+            }, operationDelay);
+          }
+        } else if (isSelected) {
+          setTimeout(() => {
+            button.classList.remove('selected');
+            selectedProducts = selectedProducts.filter(id => id !== productId);
+            removeFromCart(productId);
+            addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
+            localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+            updateGrayOut();
+          }, operationDelay);
+        }
 
-  if (!isSelected && selectedProducts.length < 2) {
-    if (!selectedProducts.includes(productId)) {
-      setTimeout(() => {
-        button.classList.add('selected');
-        selectedProducts.push(productId);
-        addToCart(productId);
-        addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}';
-        localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-        updateGrayOut();
-      }, 1000);
-    }
-  } else if (isSelected) {
-    setTimeout(() => {
-      button.classList.remove('selected');
-      selectedProducts = selectedProducts.filter(id => id !== productId);
-      removeFromCart(productId);
-      addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}';
-      localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-      updateGrayOut();
-    }, 1000);
-  }
-
-  setTimeout(() => {
-    button.classList.remove('disabled');
-    loadingSpinner.style.display = 'none';
-    addToCartButton.classList.remove('invisible');
-    button.classList.remove('spinner-in-progress'); // Remove the class here
-    isOperationInProgress = false;
-  }, 1000);
-});
-
-// ...
-
+        setTimeout(() => {
+          button.classList.remove('disabled');
+          loadingSpinner.style.display = 'none'; // Hide the loading spinner
+          addToCartButton.classList.remove('invisible'); // Make the button text visible
+          isOperationInProgress = false;
+        }, operationDelay);
+      });
 
     updateGrayOut(); // Initial call to the function to update gray out and clickability
   });
 
-  // Funktion zum Aktualisieren des Ausgrauens und der Klickbarkeit
   function updateGrayOut() {
     if (selectedProducts.length === 2) {
       freeGiftButtons.forEach(button => {
@@ -208,7 +206,6 @@ addToCartButton.addEventListener('click', function (event) {
     }
   }
 
-  // Funktion zum Entfernen der Produkte aus dem Warenkorb beim Neuladen der Warenkorb-Seite
   function removeSelectedProductsFromCartOnCheckoutPage() {
     if (window.location.pathname === '/cart') {
       const productsToRemove = [...selectedProducts];
@@ -219,14 +216,12 @@ addToCartButton.addEventListener('click', function (event) {
     }
   }
 
-  // Überprüfe, ob die Seite neu geladen wird und entferne die Produkte aus dem Warenkorb
   window.onpageshow = function (event) {
     if (event.persisted) {
       removeSelectedProductsFromCartOnCheckoutPage();
     }
   };
 
-  // Entferne die Produkte nicht beim Betreten des Checkout-Bereichs
   if (window.location.pathname !== '/cart') {
     removeSelectedProductsFromCartOnCheckoutPage();
   }
@@ -243,8 +238,7 @@ addToCartButton.addEventListener('click', function (event) {
       })
     })
     .then(response => {
-      if (response.ok) {
-      } else {
+      if (!response.ok) {
         console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb.');
       }
     })
@@ -266,8 +260,7 @@ addToCartButton.addEventListener('click', function (event) {
       })
     })
     .then(response => {
-      if (response.ok) {
-      } else {
+      if (!response.ok) {
         console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb.');
       }
     })
