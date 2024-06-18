@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "icon_stroke_width": 1,
@@ -198,6 +207,9 @@
       },
       "popup": {
         "type": "popup",
+        "custom_css": [
+          "@media screen and (max-width: 999px) {img {max-height: 200px; } .modal__close-button {color: rgb(0, 0, 0); }}"
+        ],
         "settings": {
           "enable": true,
           "apparition_delay": 15,
