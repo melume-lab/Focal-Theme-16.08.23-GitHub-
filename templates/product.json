@@ -248,11 +248,11 @@
     "59654e52-65dc-404e-9b5c-040df1724de3": {
       "type": "custom-html",
       "custom_css": [
-        ".container {margin-top: 25px;}"
+        ".container {margin-bottom: 40px; margin-top: 40px;}"
       ],
       "settings": {
         "subheading": "",
-        "title": "REVIEWS",
+        "title": "CUSTOMER REVIEWS",
         "html": "",
         "add_vertical_spacing": false,
         "background_type": "full_width",
