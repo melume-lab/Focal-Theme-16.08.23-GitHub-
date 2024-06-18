@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -11,14 +20,14 @@
     "0f4944d4-45c0-4e56-95ed-0431aeaba252": {
       "type": "image-with-text-block",
       "custom_css": [
-        "h3 {font-weight: 1000; font-size: 44px;}",
-        ".content-box {background: rgba(0, 0, 0, 0);}",
-        ".content-box-custom-width {max-width: 400px;}"
+        "h2 {font-weight: 700; font-size: 40px; text-transform: uppercase;}",
+        ".content-box-custom-width {max-width: 400px;}",
+        ".content-box {background: rgba(0, 0, 0, 0); margin-bottom: 300px;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_2160x1018_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_6f36ba34-133b-4bdd-9272-c77746d38275.png",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_ed0ec658-e316-4581-b400-2ac482c057f9.png",
         "subheading": "",
         "title": "Exclusive GMOD™ Complex",
         "html": "",
@@ -34,10 +43,10 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "541a8f3c-620c-4eb4-848f-d4a4ba5346ef": {
+    "b7d024c7-6a7d-4e5f-8d3b-263fb6f25be1": {
       "type": "MS_image-with-text",
       "blocks": {
-        "364bada7-0cb2-4996-9f5c-bcf9ca513c84": {
+        "template--18031973957896__b7d024c7-6a7d-4e5f-8d3b-263fb6f25be1-item-1": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_1.jpg",
@@ -54,7 +63,7 @@
         }
       },
       "block_order": [
-        "364bada7-0cb2-4996-9f5c-bcf9ca513c84"
+        "template--18031973957896__b7d024c7-6a7d-4e5f-8d3b-263fb6f25be1-item-1"
       ],
       "custom_css": [
         ".image-with-text__image {max-width: 400px; margin-right: auto;}"
@@ -75,10 +84,10 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "002f030c-4339-4c71-adef-57e58427a2c6": {
+    "262295b0-0b48-47aa-9a8f-21b226d97fdd": {
       "type": "MS_image-with-text",
       "blocks": {
-        "template--19493495112018__002f030c-4339-4c71-adef-57e58427a2c6-item-1": {
+        "f9fe9f0b-eb44-4003-a989-9e30eac1a1a7": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_2.jpg",
@@ -95,7 +104,7 @@
         }
       },
       "block_order": [
-        "template--19493495112018__002f030c-4339-4c71-adef-57e58427a2c6-item-1"
+        "f9fe9f0b-eb44-4003-a989-9e30eac1a1a7"
       ],
       "custom_css": [
         ".image-with-text__image {max-width: 400px; margin-left: auto; margin-right: 0px;}"
@@ -116,10 +125,10 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "6beef4a4-f47d-4092-a560-1d5368780362": {
+    "67fc5e19-2fb9-474b-91c8-7236f6f48bfb": {
       "type": "MS_Video_with_text",
       "blocks": {
-        "template--19493495112018__6beef4a4-f47d-4092-a560-1d5368780362-item-1": {
+        "template--18031973957896__67fc5e19-2fb9-474b-91c8-7236f6f48bfb-item-1": {
           "type": "item",
           "settings": {
             "tab_label": "",
@@ -132,7 +141,7 @@
         }
       },
       "block_order": [
-        "template--19493495112018__6beef4a4-f47d-4092-a560-1d5368780362-item-1"
+        "template--18031973957896__67fc5e19-2fb9-474b-91c8-7236f6f48bfb-item-1"
       ],
       "custom_css": [
         ".video-container {max-width: 400px; margin-right: auto;}"
@@ -150,7 +159,7 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "c811a357-bf4b-4211-a64a-f6d49af65b0f": {
+    "23bac77e-99c2-4f8d-8186-e982cd8266e5": {
       "type": "image-with-text-block",
       "custom_css": [
         ".content-box-custom-width {max-width: 500px;}",
@@ -165,7 +174,7 @@
         "html": "",
         "content": "<p>ACHIEVE AMAZING RESULTS<\/p>",
         "button_text": "SHOP NOW",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/skincare-products",
         "background_type": "full_width",
         "text_position": "left",
         "text_alignment": "left",
@@ -175,25 +184,51 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "fad66551-b40f-4bb9-b5e9-cd736280e214": {
+    "5ddb2c35-81d3-48f2-8946-1deb35140d35": {
       "type": "image-with-text-block",
+      "disabled": true,
       "custom_css": [
-        ".content-box {background: rgba(0, 0, 0, 0);}"
+        ".content-box {background: rgba(0, 0, 0, 0);}",
+        "h2 {text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_5.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_5_Solo_Mobile.png",
+        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_5_ffc3b30f-4dd8-4124-bd39-76ddcc47386c.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_5_Solo_Mobile_54dc94a6-8a82-4e2d-bc11-a6e323f27075.png",
         "subheading": "",
-        "title": "PASSION MAKES DREAMS COME TRUE",
+        "title": "Passion makes dreams come true ",
         "html": "",
-        "content": "<p>Melumé skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.<\/p>",
+        "content": "<p>melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.<\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
         "text_position": "right",
         "text_alignment": "left",
         "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_image_tiles_left_iCYTHg": {
+      "type": "MS_image-tiles-left",
+      "custom_css": [
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_1.jpg",
+        "title": "Passion makes dreams come true",
+        "content": "<p>melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.<\/p>",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -208,7 +243,7 @@
             "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Lenny_worry-free.png",
             "tab_label": "Item",
             "subheading": "",
-            "title": "OUR SKINCARE IS 100% WORRY-FREE",
+            "title": "Our Skincare is 100% Worry-free",
             "title2": "",
             "html-two": "",
             "html-three": "<ul style=\"list-style: outside;\">\n<li>SYNTHETIC DYES<\/li>\n<li>SLS AND SLES<\/li>\n<li>MINERAL OIL<\/li>\n<li>DRYING ALCOHOL<\/li>\n<li>ANIMAL DERIVATIVES<\/li>\n<li>ESSENTIAL OILS<\/li>\n<li>PARABENS<\/li>\n<li>MICRO PLASTIC<\/li>\n<li>SILICONE<\/li>\n<li>PHENOXYETHANOL<\/li>\n<\/ul>",
@@ -221,8 +256,10 @@
       "block_order": [
         "template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3-1687618883de900aad-0"
       ],
+      "disabled": true,
       "custom_css": [
-        ".html {column-count: 2; margin-left: auto; margin-right: auto;}"
+        ".html {column-count: 2; margin-left: auto; margin-right: auto;}",
+        "h2 {text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -240,17 +277,44 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "ms_image_tiles_right_zDPYwT": {
+      "type": "MS_image-tiles-right",
+      "custom_css": [
+        ".html {column-count: 2; margin-left: auto; margin-right: auto;}",
+        "h2 {text-transform: uppercase;}",
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_2.jpg",
+        "title": "Our Skincare is 100% Worry-free",
+        "content": "<p>We carefully develop our formulas with innovative science & plant-powered, biocompatible & bioavailable ingredients; with a high % of natural ingredients, they also incorporate safe synthetics.<br\/><br\/>We evaluate ingredients used to achieve results and those designed to stabilize, mix and preserve formulations. If an ingredient fails to meet our highest standards for safety and irritation, we exclude it.<\/p><p><strong>OUR PRODUCTS ARE FREE FROM:<\/strong><br\/><\/p>",
+        "html": "<ul style=\"list-style: outside; padding-left: 12px\">\n<li>SYNTHETIC DYES<\/li>\n<li>SLS AND SLES<\/li>\n<li>MINERAL OIL<\/li>\n<li>DRYING ALCOHOL<\/li>\n<li>ANIMAL DERIVATIVES<\/li>\n<li>ESSENTIAL OILS<\/li>\n<li>PARABENS<\/li>\n<li>MICRO PLASTIC<\/li>\n<li>SILICONE<\/li>\n<li>PHENOXYETHANOL<\/li>\n<\/ul>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "3a9fab4d-5c9d-4fe7-921b-d5cab52ce5af": {
       "type": "image-with-text-block",
+      "disabled": true,
       "custom_css": [
-
+        "h2 {text-transform: uppercase;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
         "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Mobile.png",
+        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Mobile_c82ba33e-cde3-4306-a5f7-0544b214f473.png",
         "subheading": "",
-        "title": "INNOVATION & SCIENCE – MADE IN GERMANY",
+        "title": "Innovation & Science – Made in Germany",
         "html": "",
         "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br\/><\/p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.<br\/><\/p>",
         "button_text": "",
@@ -264,8 +328,33 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "d1c70cfb-d2b6-40ab-b60d-a9c7e8162693": {
+    "ms_image_tiles_left_A3XnUD": {
+      "type": "MS_image-tiles-left",
+      "custom_css": [
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_3.jpg",
+        "title": "Innovation & Science – Made in Germany",
+        "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br\/><\/p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.<\/p>",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "43e8879e-ea14-4b68-895c-03729ff20ef3": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -276,10 +365,11 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "bcff25c0-30a2-46b1-bc5f-68b960573f11": {
+    "7e45a290-0de9-4af3-9c21-0935ceb21a79": {
       "type": "custom-html",
+      "disabled": true,
       "custom_css": [
-        ".section__header {margin-bottom: 0px;}"
+        ".column {margin-top: 0px;}"
       ],
       "settings": {
         "subheading": "",
@@ -291,25 +381,75 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "400122cd-7001-42ff-8a39-92b38e5b8132": {
-      "type": "custom-html",
+    "ms_image_tiles_right_tC6khe": {
+      "type": "MS_image-tiles-right",
       "custom_css": [
-        ".section__header {margin-bottom: 0px;}"
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_4.jpg",
+        "title": "SECOND SKIN TECHNOLOGY",
+        "content": "<p>Some of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.<\/p>",
+        "html": "<div class=\"custom-image-container\" style=\"max-width:220px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n<\/div>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f0ef05fb-d456-4598-944b-4163641c5378": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        ".column {margin-top: 0px;}"
       ],
       "settings": {
         "subheading": "",
         "title": "BIOMIMETIC",
-        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.\n<\/p>\n<\/div>\n\n<div class=\"column\">\n<p>\n Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.\n<br>\n<br>\nWe use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.\n<\/p>\n<\/div>\n<\/div>",
+        "html": "<div class=\"column-container\">\n<div class=\"column\">\n<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.\n<\/p>\n<\/div>\n\n<div class=\"column\">\n<p>\n Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.\n<br>\n<br>\nWe use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.\n<\/p>\n<\/div>\n<\/div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "7f8d6808-a922-40a8-9d28-dec91b0c7eec": {
-      "type": "custom-html",
+    "ms_image_tiles_left_qdPghV": {
+      "type": "MS_image-tiles-left",
       "custom_css": [
-        ".section__header {margin-bottom: 0px;}"
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_5.jpg",
+        "title": "BIOMIMETIC",
+        "content": "<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.<\/p><p>Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.<\/p><p>We use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.<\/p>",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ba8010f8-d90d-48d8-aa5e-da70887e97aa": {
+      "type": "custom-html",
+      "disabled": true,
+      "custom_css": [
+        ".column {margin-top: 0px;}"
       ],
       "settings": {
         "subheading": "",
@@ -321,100 +461,45 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "08f3d467-a4ca-4fff-ae3b-05ba534c6671": {
+    "ms_image_tiles_right_wj4FML": {
+      "type": "MS_image-tiles-right",
+      "custom_css": [
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_6.jpg",
+        "title": "BIOAVAILABILITY",
+        "content": "<p>Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient. Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.<\/p><p>A few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective.<\/p><p>This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin.<\/p><p>The form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well.<\/p>",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_kGCfAG": {
       "type": "custom-html",
       "custom_css": [
-        "@media screen and (min-width: 1000px) {.html {font-size: 25px; font-weight: 300; line-height: 1.5; max-width: 1200px; margin-left: auto; margin-right: auto; text-align: center; }}",
-        "@media screen and (max-width: 999px) {.html {font-size: 18px; font-weight: 300; line-height: 1.5; max-width: 1200px; margin-left: auto; margin-right: auto; text-align: center; }}",
+        "@media screen and (min-width: 1000px) {.html {font-size: 15px; font-weight: 500; line-height: 1.5; max-width: 1200px; margin-left: auto; margin-right: auto; text-align: center; }}",
+        "@media screen and (max-width: 999px) {.html {font-size: 15px; font-weight: 500; line-height: 1.5; max-width: 1200px; margin-left: auto; margin-right: auto; text-align: center; }}",
         "img {margin-bottom: 50px;}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "Our optimum pH-levels ensure effectiveness, safety, and biocompatibility. A slightly acidic pH value makes sense from the physiological point of view because it is required for a healthy skin metabolic process, maintaining anintact barrier and a natural renewal process.\n<br>\n<br>\nWe don't use alkaline pH values that throw the skin's acid mantle out of balance and compromise the protective barrier. Acidic pH-levels allow reducing preservatives and regulate an optimal environment that encourages the flourishing of the skin's natural flora, balancing the growth of bacteria and fungi. (Microbiom) pH adjustment in each formula also strengthens active ingredients, allowing them to be in their most potent form.\n<br>\n<br>\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0770\/7466\/1714\/files\/2.0_PH-LEVEL_engl.jpg?v=1709291105\">",
+        "html": "Our optimum pH-levels ensure effectiveness, safety, and biocompatibility. A slightly acidic pH value makes sense from the physiological point of view because it is required for a healthy skin metabolic process, maintaining anintact barrier and a natural renewal process.\n<br>\n<br>\nWe don't use alkaline pH values that throw the skin's acid mantle out of balance and compromise the protective barrier. Acidic pH-levels allow reducing preservatives and regulate an optimal environment that encourages the flourishing of the skin's natural flora, balancing the growth of bacteria and fungi. (Microbiom) pH adjustment in each formula also strengthens active ingredients, allowing them to be in their most potent form.\n<br>\n<br>\n\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/2.0_PH-LEVEL_engl.jpg?v=1709290924\">",
         "add_vertical_spacing": true,
         "background_type": "full_width",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "ca382a2e-bc28-44d6-b3a6-83a3d85f44aa": {
-      "type": "MS_image-with-text",
-      "blocks": {
-        "template--17915596112139__ca382a2e-bc28-44d6-b3a6-83a3d85f44aa-16869996725e386f93-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Fragrence_Free_Mobile.png",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "FRAGRANCE FREE",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br\/><br\/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br\/><\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17915596112139__ca382a2e-bc28-44d6-b3a6-83a3d85f44aa-16869996725e386f93-0"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
-        "html": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "6de79817-30ee-4825-bad3-10bbd5ae9b0b": {
-      "type": "MS_image-with-text",
-      "blocks": {
-        "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Hydrating_cream_Illu.png",
-            "tab_label": "",
-            "subheading": "",
-            "title": "RESPONSIBLE PACKAGING",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br\/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br\/><\/p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br\/><\/p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!<\/p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
-        "html": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "641651b2-72e1-42db-8557-95bf6d74cbaf": {
@@ -425,7 +510,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Peta_Edit2.png",
-            "custom_icon_width": 115,
+            "custom_icon_width": 110,
             "title": "",
             "big-title": "",
             "content": "<p><strong>VEGAN &<\/strong><\/p><p><strong>CRUELTY-FREE<\/strong><br\/><\/p>",
@@ -446,7 +531,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Science.png",
-            "custom_icon_width": 85,
+            "custom_icon_width": 75,
             "title": "",
             "big-title": "",
             "content": "<p><strong>SCIENCE &<\/strong><\/p><p><strong>HIGH % NATURAL INGREDIENTS <\/strong><\/p>",
@@ -467,7 +552,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Recyclable.png",
-            "custom_icon_width": 85,
+            "custom_icon_width": 80,
             "title": "",
             "big-title": "",
             "content": "<p><strong>SUSTAINABLE AND<\/strong><\/p><p><strong>RECYCLED PACKAGING<\/strong><\/p>",
@@ -488,7 +573,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon-High_Tech.png",
-            "custom_icon_width": 80,
+            "custom_icon_width": 75,
             "title": "",
             "big-title": "",
             "content": "<p><strong>HIGH TECH<\/strong><\/p><p><strong>FORMULAS<\/strong><br\/><\/p>",
@@ -509,7 +594,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Biocompatible.png",
-            "custom_icon_width": 125,
+            "custom_icon_width": 120,
             "title": "",
             "big-title": "",
             "content": "<p><strong>BIOCOMPATIBLE<\/strong><\/p><p><strong>BIO AVAILABLE<\/strong><\/p>",
@@ -530,7 +615,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon-Worry-free.png",
-            "custom_icon_width": 65,
+            "custom_icon_width": 60,
             "title": "",
             "big-title": "",
             "content": "<p><strong>100%<\/strong><\/p><p><strong>WORRY-FREE<\/strong><\/p>",
@@ -551,7 +636,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Clinically_Proven.png",
-            "custom_icon_width": 55,
+            "custom_icon_width": 50,
             "title": "",
             "big-title": "",
             "content": "<p><strong>CLINICALLY RESEARCHED<\/strong><\/p><p><strong>INGREDIENTS<\/strong><\/p>",
@@ -572,7 +657,7 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify:\/\/shop_images\/Icon_Dermatologically_Tested.png",
-            "custom_icon_width": 90,
+            "custom_icon_width": 85,
             "title": "",
             "big-title": "",
             "content": "<p><strong>DERMATOLOGICALY<\/strong><\/p><p><strong>TESTED<\/strong><\/p>",
@@ -608,11 +693,138 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "OUR PROMISE",
+        "title": "Our Promise",
         "section_size": "small",
         "stack_on_mobile": true,
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_image_tiles_with_text_xGFMGm": {
+      "type": "MS_image-tiles-with-text",
+      "blocks": {
+        "item_6UdFzg": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading"
+          }
+        }
+      },
+      "block_order": [
+        "item_6UdFzg"
+      ],
+      "custom_css": [
+        "h2 {text-transform: uppercase;}",
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image_left": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_7.jpg",
+        "title_left": "Fragrance Free",
+        "content_left": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br\/><br\/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br\/><\/p>",
+        "html_left": "",
+        "button_text_left": "",
+        "button_link_left": "",
+        "image_right": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_8.jpg",
+        "title_right": "Responsible Packaging",
+        "content_right": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br\/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br\/><\/p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br\/><\/p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!<\/p>",
+        "html_right": "",
+        "button_text_right": "",
+        "button_link_right": "",
+        "link_style_": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ca382a2e-bc28-44d6-b3a6-83a3d85f44aa": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--17915596112139__ca382a2e-bc28-44d6-b3a6-83a3d85f44aa-16869996725e386f93-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fragrence_Free_Mobile.png",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Fragrance Free",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br\/><br\/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br\/><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17915596112139__ca382a2e-bc28-44d6-b3a6-83a3d85f44aa-16869996725e386f93-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6de79817-30ee-4825-bad3-10bbd5ae9b0b": {
+      "type": "MS_image-with-text",
+      "blocks": {
+        "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Hydrating_cream_Illu.png",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Responsible Packaging",
+            "title2": "",
+            "html-two": "",
+            "html-three": "",
+            "content": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br\/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br\/><\/p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br\/><\/p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "cd74129d-4346-444b-b7e5-c39958532e7c": {
@@ -626,7 +838,7 @@
             "subheading": "",
             "title": "",
             "title2": "",
-            "html-two": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Banner_2000x980_Schriftzug__WOMAN.png?v=1687089079\" style=\"display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 50px;\nmargin-top: 0px;\n  width: 100%; max-width: 700px\">",
+            "html-two": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Banner_2000x980_Schriftzug__WOMAN.png?v=1687089079\" style=\"display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 50px;\nmargin-top: 0px;\n  width: 100%; max-width: 700px; filter: invert(100%);\">",
             "html-three": "",
             "content": "<p>We strongly believe in showing kindness & love to ourselves, others, and our skin.<\/p><p>Trust in your strength & individuality, nourish your dreams, feel good in your skin,  practice self-care, and be inspired to be the best you can be. Celebrate and love diversity and agelessness. <\/p><p>Let's genuinely support and empower each other to thrive and improve the world.<\/p>",
             "button_text": "",
@@ -651,8 +863,8 @@
         "over-subheading": "",
         "over-title": "",
         "html": "",
-        "background": "#000000",
-        "text_color": "#ffffff",
+        "background": "#ffffff",
+        "text_color": "#000000",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
@@ -661,21 +873,28 @@
   "order": [
     "main",
     "0f4944d4-45c0-4e56-95ed-0431aeaba252",
-    "541a8f3c-620c-4eb4-848f-d4a4ba5346ef",
-    "002f030c-4339-4c71-adef-57e58427a2c6",
-    "6beef4a4-f47d-4092-a560-1d5368780362",
-    "c811a357-bf4b-4211-a64a-f6d49af65b0f",
-    "fad66551-b40f-4bb9-b5e9-cd736280e214",
+    "b7d024c7-6a7d-4e5f-8d3b-263fb6f25be1",
+    "262295b0-0b48-47aa-9a8f-21b226d97fdd",
+    "67fc5e19-2fb9-474b-91c8-7236f6f48bfb",
+    "23bac77e-99c2-4f8d-8186-e982cd8266e5",
+    "5ddb2c35-81d3-48f2-8946-1deb35140d35",
+    "ms_image_tiles_left_iCYTHg",
     "9e9b6d51-14ba-4473-a795-4589958826b3",
+    "ms_image_tiles_right_zDPYwT",
     "3a9fab4d-5c9d-4fe7-921b-d5cab52ce5af",
-    "d1c70cfb-d2b6-40ab-b60d-a9c7e8162693",
-    "bcff25c0-30a2-46b1-bc5f-68b960573f11",
-    "400122cd-7001-42ff-8a39-92b38e5b8132",
-    "7f8d6808-a922-40a8-9d28-dec91b0c7eec",
-    "08f3d467-a4ca-4fff-ae3b-05ba534c6671",
+    "ms_image_tiles_left_A3XnUD",
+    "43e8879e-ea14-4b68-895c-03729ff20ef3",
+    "7e45a290-0de9-4af3-9c21-0935ceb21a79",
+    "ms_image_tiles_right_tC6khe",
+    "f0ef05fb-d456-4598-944b-4163641c5378",
+    "ms_image_tiles_left_qdPghV",
+    "ba8010f8-d90d-48d8-aa5e-da70887e97aa",
+    "ms_image_tiles_right_wj4FML",
+    "custom_html_kGCfAG",
+    "641651b2-72e1-42db-8557-95bf6d74cbaf",
+    "ms_image_tiles_with_text_xGFMGm",
     "ca382a2e-bc28-44d6-b3a6-83a3d85f44aa",
     "6de79817-30ee-4825-bad3-10bbd5ae9b0b",
-    "641651b2-72e1-42db-8557-95bf6d74cbaf",
     "cd74129d-4346-444b-b7e5-c39958532e7c"
   ]
 }
