@@ -254,7 +254,7 @@
         "subheading": "",
         "title": "Reviews",
         "html": "",
-        "add_vertical_spacing": true,
+        "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -274,7 +274,7 @@
       ],
       "custom_css": [
         ".jdgm-star {font-weight: normal;}",
-        ".jdgm-rev-widg__title {font-family: Cormorant; font-size: 280%;}",
+        ".jdgm-rev-widg__title {display: none;}",
         ".jdgm-write-rev-link,.jdgm-ask-question-btn.jdgm-btn,.jdgm-btn {font-size: 14px; text-transform: uppercase; letter-spacing: 1.8px;}",
         "@media screen and (min-width: 1000px) {.jdgm-widget.jdgm-widget {margin-left: calc(var(--grid-column-width) + var(--grid-gap)); margin-right: calc(var(--grid-column-width) + var(--grid-gap)); }}",
         ".jdgm-rev-widg {padding: 24px 0px;}"
