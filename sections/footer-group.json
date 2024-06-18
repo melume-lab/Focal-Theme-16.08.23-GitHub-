@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer group",
@@ -320,7 +329,7 @@
       ],
       "custom_css": [
         "p {font-size: 14px;}",
-        ".vertical-breather {padding: 0px;}"
+        ".vertical-breather {padding-top: 0px; padding-bottom: 0px; }"
       ],
       "settings": {
         "subheading": "",
