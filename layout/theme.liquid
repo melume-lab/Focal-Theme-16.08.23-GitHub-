@@ -377,6 +377,14 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
     </style>
   {% endif %}
 
+  {% if template contains 'melume-promo' %}
+    <style>
+       #shopify-section-sections--18031974777096__promotion_blocks_T7dajB {
+          display: none;
+       }
+    </style>
+  {% endif %}
+
 
   
   {% if collection.handle == 'skincare-products' %}
