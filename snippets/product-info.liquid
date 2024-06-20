@@ -89,8 +89,9 @@
           {%- endif -%}
         {%- endcomment -%}
         {%- else -%}
-          <span class="label label--highlight">PROMO</span>
           {%- comment -%}
+          <span class="label label--highlight">PROMO</span>
+          
         <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
           {%- endcomment -%}
         {%- endunless -%}
