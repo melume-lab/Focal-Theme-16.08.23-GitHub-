@@ -23,6 +23,10 @@
     pointer-events: none;
     opacity: 0.7;
   }
+  
+  .free-gift-column {
+  position: relative; /* Ensure relative positioning for z-index to work */
+}
 
 .loading-spinner {
   position: absolute;
@@ -35,8 +39,20 @@
   border: 3px solid #000; /* Black border with 3px width */
   border-top: 3px solid transparent; /* Transparent top border to create a semicircle */
   animation: spin 1s linear infinite; /* Spin animation over 1 second */
-  z-index: 2; /* Higher z-index to be in front of the button */
+  z-index: 100; /* Higher z-index than the overlay */
   display: none; /* Initially hidden */
+}
+
+  .page-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  z-index: 99; /* Lower z-index than loading spinner */
+  display: none; /* Initially hidden */
+  pointer-events: auto; /* Enable pointer events */
 }
 
 
@@ -110,6 +126,7 @@
   {% endfor %}
 </div>
 
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const freeGiftButtons = document.querySelectorAll('.free-gift-product-img-container');
@@ -117,68 +134,73 @@ document.addEventListener('DOMContentLoaded', function () {
   let selectedProducts = JSON.parse(localStorage.getItem(selectedProductsKey)) || [];
   let isOperationInProgress = false; // Flag to track ongoing operations
   const operationDelay = 1000; // Operation delay in milliseconds
+  const pageOverlay = document.querySelector('.page-overlay'); // Select the overlay element
 
   freeGiftButtons.forEach(button => {
-      const loadingSpinner = button.querySelector('.loading-spinner');
-      const addToCartButton = button.querySelector('.add-to-cart-button');
-      const productId = button.getAttribute('data-product-id');
-      const isSelected = selectedProducts.includes(productId);
+    const loadingSpinner = button.querySelector('.loading-spinner');
+    const addToCartButton = button.querySelector('.add-to-cart-button');
+    const productId = button.getAttribute('data-product-id');
+    const isSelected = selectedProducts.includes(productId);
 
-      if (!loadingSpinner || !addToCartButton) {
-        console.error('Required elements not found');
-        return;
+    if (!loadingSpinner || !addToCartButton) {
+      console.error('Required elements not found');
+      return;
+    }
+
+    if (isSelected) {
+      button.classList.add('selected');
+      addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
+    } else {
+      addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
+    }
+
+    addToCartButton.addEventListener('click', function (event) {
+      event.stopPropagation(); // Stop the event from propagating to parent elements
+
+      if (isOperationInProgress) {
+        return; // Ignore clicks while an operation is in progress
       }
 
-      if (isSelected) {
-        button.classList.add('selected');
-        addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
-      } else {
-        addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
-      }
+      isOperationInProgress = true; // Set flag to true
+      toggleOverlay(true); // Show the overlay
 
-      addToCartButton.addEventListener('click', function (event) {
-        event.stopPropagation(); // Stop the event from propagating to parent elements
+      button.classList.add('disabled'); // Add disabled class to the button
+      loadingSpinner.style.display = 'block'; // Show the loading spinner
+      addToCartButton.classList.add('invisible'); // Make the button text invisible
 
-        if (isOperationInProgress) {
-          return; // Ignore clicks while an operation is in progress
-        }
+      const isSelected = button.classList.contains('selected');
 
-        isOperationInProgress = true; // Set flag to true
-        button.classList.add('disabled'); // Add disabled class to the button
-        loadingSpinner.style.display = 'block'; // Show the loading spinner
-        addToCartButton.classList.add('invisible'); // Make the button text invisible
-
-        const isSelected = button.classList.contains('selected');
-
-        if (!isSelected && selectedProducts.length < 2) {
-          if (!selectedProducts.includes(productId)) {
-            setTimeout(() => {
-              button.classList.add('selected');
-              selectedProducts.push(productId);
-              addToCart(productId);
-              addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
-              localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-              updateGrayOut();
-            }, operationDelay);
-          }
-        } else if (isSelected) {
+      if (!isSelected && selectedProducts.length < 2) {
+        if (!selectedProducts.includes(productId)) {
           setTimeout(() => {
-            button.classList.remove('selected');
-            selectedProducts = selectedProducts.filter(id => id !== productId);
-            removeFromCart(productId);
-            addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
+            button.classList.add('selected');
+            selectedProducts.push(productId);
+            addToCart(productId);
+            addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
             localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
             updateGrayOut();
+            toggleOverlay(false); // Hide the overlay
           }, operationDelay);
         }
-
+      } else if (isSelected) {
         setTimeout(() => {
-          button.classList.remove('disabled');
-          loadingSpinner.style.display = 'none'; // Hide the loading spinner
-          addToCartButton.classList.remove('invisible'); // Make the button text visible
-          isOperationInProgress = false;
+          button.classList.remove('selected');
+          selectedProducts = selectedProducts.filter(id => id !== productId);
+          removeFromCart(productId);
+          addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
+          localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+          updateGrayOut();
+          toggleOverlay(false); // Hide the overlay
         }, operationDelay);
-      });
+      }
+
+      setTimeout(() => {
+        button.classList.remove('disabled');
+        loadingSpinner.style.display = 'none'; // Hide the loading spinner
+        addToCartButton.classList.remove('invisible'); // Make the button text visible
+        isOperationInProgress = false;
+      }, operationDelay);
+    });
 
     updateGrayOut(); // Initial call to the function to update gray out and clickability
   });
@@ -206,13 +228,23 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  function toggleOverlay(show) {
+    if (show) {
+      pageOverlay.style.display = 'block'; // Show the overlay
+      document.body.style.overflow = 'hidden'; // Prevent scrolling
+    } else {
+      pageOverlay.style.display = 'none'; // Hide the overlay
+      document.body.style.overflow = ''; // Restore scrolling
+    }
+  }
+
   function removeSelectedProductsFromCartOnCheckoutPage() {
     if (window.location.pathname === '/cart') {
       const productsToRemove = [...selectedProducts];
       selectedProducts = [];
       productsToRemove.forEach(productId => removeFromCart(productId));
       localStorage.removeItem(selectedProductsKey);
-      updateGrayOut(); // Aktualisiere das Ausgrauen und die Klickbarkeit nach dem Entfernen
+      updateGrayOut(); // Update gray out and clickability after removal
     }
   }
 
@@ -239,11 +271,11 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(response => {
       if (!response.ok) {
-        console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb.');
+        console.error('Error adding product to cart.');
       }
     })
     .catch(error => {
-      console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb:', error);
+      console.error('Error adding product to cart:', error);
     });
   }
 
@@ -261,12 +293,13 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(response => {
       if (!response.ok) {
-        console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb.');
+        console.error('Error removing product from cart.');
       }
     })
     .catch(error => {
-      console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb:', error);
+      console.error('Error removing product from cart:', error);
     });
   }
 });
+
 </script>
