@@ -55,6 +55,10 @@
       "block_order": [
         "collection_eyB8xT"
       ],
+      "custom_css": [
+        ".product-list__prev-next {display: none;}",
+        ".text-container {margin-bottom: 100px;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
