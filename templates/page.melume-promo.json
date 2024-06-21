@@ -56,7 +56,7 @@
         "collection_eyB8xT"
       ],
       "custom_css": [
-        ".product-list__prev-next {display: none;}",
+        ".product-list__prev-next,.notice-arrow {display: none;}",
         ".text-container {margin-bottom: 100px;}"
       ],
       "settings": {
