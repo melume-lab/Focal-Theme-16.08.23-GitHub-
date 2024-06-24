@@ -21,10 +21,11 @@
       "type": "image-with-text-overlay",
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "auto",
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Banner_Test-Summer-Sale.png",
         "subheading": "",
-        "title": "PROMO BANNER",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+        "title": "SUMMER SALE IS CALLING!",
+        "content": "<p>Save 15% on essentials<\/p>",
         "html": "",
         "button_text": "",
         "button_link": "",
@@ -36,7 +37,7 @@
         "button_background": "#000000",
         "button_text_color": "#ffffff",
         "overlay_color": "#ffffff",
-        "overlay_opacity": 88
+        "overlay_opacity": 21
       }
     },
     "featured_collections_y6B66J": {
