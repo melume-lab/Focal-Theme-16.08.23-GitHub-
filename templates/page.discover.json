@@ -20,7 +20,7 @@
     "0f4944d4-45c0-4e56-95ed-0431aeaba252": {
       "type": "image-with-text-block",
       "custom_css": [
-        "h2 {font-weight: 700; font-size: 40px; text-transform: uppercase;}",
+        "h2 {font-size: 40px; text-transform: uppercase;}",
         ".content-box-custom-width {max-width: 400px;}",
         ".content-box {background: rgba(0, 0, 0, 0); margin-bottom: 300px;}"
       ],

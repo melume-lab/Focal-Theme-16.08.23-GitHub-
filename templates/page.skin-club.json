@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -37,7 +46,7 @@
     "f6ef4679-c978-4377-88ad-a80d09bcbc82": {
       "type": "image-with-text-block",
       "custom_css": [
-        "h2 {font-size: 40px; font-weight: 700; text-transform: uppercase;}",
+        "h2 {font-size: 40px; text-transform: uppercase;}",
         ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
         ".content-box-custom-width {max-width: 500px;}"
       ],
@@ -190,9 +199,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "SKINCARE LOVERS: CREATE AN ACCOUNT",
-            "content": "",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -209,9 +218,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "MAKE A PURCHASE",
-            "content": "",
             "title": "$ 1 = 5 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -228,9 +237,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "HAPPY BIRTHDAY",
-            "content": "",
             "title": "A gift from melumé",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -247,9 +256,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "LIKE US ON TikTok, Instagram, Facebook",
-            "content": "",
             "title": "50 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -266,9 +275,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Tell a friend",
-            "content": "",
             "title": "1000 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -285,9 +294,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Review your purchased product ",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -304,9 +313,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow us on Facebook",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -323,9 +332,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow us on Instagram",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -342,9 +351,9 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow Us on TikTok",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -372,7 +381,6 @@
       "settings": {
         "subheading": "",
         "title": "WAYS TO EARN POINTS",
-        "content": "",
         "section_size": "large",
         "stack_on_mobile": false,
         "background": "rgba(0,0,0,0)",
