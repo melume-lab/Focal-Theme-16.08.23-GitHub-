@@ -27,7 +27,6 @@
       "settings": {
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_2160x1018_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_ed0ec658-e316-4581-b400-2ac482c057f9.png",
         "subheading": "",
         "title": "Exclusive GMOD™ Complex",
         "html": "",
@@ -193,8 +192,6 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_5_ffc3b30f-4dd8-4124-bd39-76ddcc47386c.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_5_Solo_Mobile_54dc94a6-8a82-4e2d-bc11-a6e323f27075.png",
         "subheading": "",
         "title": "Passion makes dreams come true ",
         "html": "",
@@ -312,7 +309,6 @@
       "settings": {
         "reveal_on_scroll": false,
         "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Mobile_c82ba33e-cde3-4306-a5f7-0544b214f473.png",
         "subheading": "",
         "title": "Innovation & Science – Made in Germany",
         "html": "",
@@ -850,8 +846,7 @@
         "template--17824560546072__cd74129d-4346-444b-b7e5-c39958532e7c-1676030227f6f80f4c-0"
       ],
       "custom_css": [
-        ".text-container {margin-bottom: 50px;}",
-        ".image-with-text__wrapper {margin-top: 50px; margin-bottom: 50px;}"
+
       ],
       "settings": {
         "reveal_on_scroll": false,
