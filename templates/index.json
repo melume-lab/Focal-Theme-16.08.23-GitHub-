@@ -450,8 +450,8 @@
         ".image-tiles-text-main-container-left-twt {display: flex;}",
         ".prd-img {display: block; max-width: 45vw; margin-left: 35px; margin-right: auto;}",
         ".image-container-twt {min-height: 400px;}",
-        ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
-        "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; } section {margin-top: -100px; } .prd-img {display: block; max-width: 70vw; margin-left: 15px; margin-right: auto; }}"
+        ".overlay-text-left,.overlay-text-right {width: 80%;}",
+        "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; } section {margin-top: -80px; } .prd-img {display: block; max-width: 70vw; margin-left: 15px; margin-right: auto; }}"
       ],
       "settings": {
         "image_left": "shopify:\/\/shop_images\/Solid_White.png",
