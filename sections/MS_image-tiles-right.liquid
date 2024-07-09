@@ -56,13 +56,21 @@
   }
   .image-tiles-text-main-container-right {
     display: block;
+    max-width: calc(var(--container-max-width) - 49%);
   }
-  .image-tiles-text-container {
+  .image-tiles-text-container-left {
     width: 100%;
+    
   }
+
+  @media screen and (min-width: 999px) {
+  .image-tiles-text-container-left {
+    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+  }
+}
   .image-tiles-text-main-container-right {
     margin-right: 48px;
-    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-left: auto;
     margin-top: 48px;
     margin-bottom: 48px;
     padding-left: var(--container-gutter);
@@ -138,7 +146,7 @@
     <div class="split-container">
       
       <div class="image-tiles-text-main-container-right">
-        <div class="image-tiles-text-container">
+        <div class="image-tiles-text-container-left">
         {%- if section.settings.title != blank -%}
               <h3 class="heading h2">
                 {{ section.settings.title | escape }}
