@@ -1,6 +1,381 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- if section.settings.background_type == 'boxed' -%}
+  {%- assign is_boxed = true -%}
+{%- else -%}
+  {%- assign is_boxed = false -%}
+{%- endif -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_background == 'rgba(0,0,0,0)' -%}
+      {%- assign button_background = settings.primary_button_background -%}
+    {%- else -%}
+      {%- assign button_background = section.settings.button_background -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign button_text_color = settings.primary_button_text_color -%}
+    {%- else -%}
+      {%- assign button_text_color = section.settings.button_text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+    --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+    --primary-button-background: {{ button_background.red }}, {{ button_background.green }}, {{ button_background.blue }};
+    --primary-button-text-color: {{ button_text_color.red }}, {{ button_text_color.green }}, {{ button_text_color.blue }};
+
+    --section-accent-background: {{ section.settings.accent_background.red }} {{ section.settings.accent_background.green }} {{ section.settings.accent_background.blue }} / {{ section.settings.accent_background.alpha }};
+    --section-autoplay-duration: {{ section.settings.cycle_speed }}s;
+    --section-animation-play-state: paused;
   }
+
+  
+  
+  .split-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .image-container, image-tiles-text-main-container-left {
+    min-width: 50%;
+    max-width: 50%;
+    overflow: hidden;
+    height: auto;
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .image-tiles-text-main-container-left {
+    display: block;
+    max-width: calc(var(--container-max-width) - 49%);
+  }
+  .image-tiles-text-container-right {
+    width: 100%;
+  }
+    @media screen and (min-width: 999px) {
+  .image-tiles-text-container-right{
+    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
+  }
+}
+  .image-tiles-text-main-container-left {
+    margin-left: 48px;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-right: var(--container-gutter);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  @media screen and (max-width: 999px) {
+    .split-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .image-container, image-tiles-text-main-container-left {
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    
+    }
+    .image-tiles-text-main-container-left {
+    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-bottom: 88px;
+    padding-right: var(--container-gutter);
+    padding-left: var(--container-gutter);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+   }
+  }
+
+  @media screen and (max-width: 740px) {
+    .split-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .image-container, image-tiles-text-main-container-left {
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: auto;
+    
+    }
+    .image-tiles-text-main-container-left {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 68px;
+    padding-right: var(--container-gutter);
+    padding-left: var(--container-gutter);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+   }
+  }
+</style>
+
+<section class="section">
+  <div {% if is_boxed %}class="container"{% endif %}>
+    {%- assign first_block = section.blocks.first -%}
+    <div class="split-container">
+      <div class="image-container">
+          {% if section.settings.image %}
+          {% assign image_url = section.settings.image | img_url: 'master' %}
+          {% assign image_width = 1000 %}
+          {% assign image_height = 1000 %}
+          <img src="{{ image_url }}" alt="Image" width="{{ image_width }}" height="{{ image_height }}">
+        {% else %}
+          <p>No image selected</p>
+        {% endif %}
+      </div>
+      <div class="image-tiles-text-main-container-left">
+        <div class="image-tiles-text-container-right">
+        {%- if section.settings.title != blank -%}
+              <h3 class="heading h2">
+                {{ section.settings.title | escape }}
+              </h3>
+            {%- endif -%}
+
+            {%- if section.settings.content != blank or section.settings.button_text != blank -%}
+              <div class="image-overlay__text-container">
+                {%- if section.settings.content != blank-%}
+                  {{- section.settings.content -}}
+                {%- endif -%}
+
+                {%- if section.settings.html != blank -%}
+                  <div class="html image-overlay__text-container">
+                    {{- section.settings.html -}}
+                  </div>
+                {%- endif -%}
+
+                {%- if section.settings.button_text != blank -%}
+                  {%- if section.settings.link_style == 'link' -%}
+                    <a href="{{ section.settings.button_link }}" class="multi-column__link heading heading--small link">{{ section.settings.button_text | escape }}</a>
+                  {%- else -%}
+                    <div class="button-wrapper">
+                      <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text | escape }}</a>
+                    </div>
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MS Image Tiles Left",
+  "class": "shopify-section--image-tiles",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1400 x 1400px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Image Tiles Left"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>"
+    },
+    {
+      "type": "html",
+      "id": "html",
+      "label": "HTML"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "link_style",
+      "label": "Link style",
+      "options": [
+        {
+          "value": "link",
+          "label": "Link"
+        },
+        {
+          "value": "button",
+          "label": "Button"
+        }
+      ],
+      "default": "link"
+    },
+    {
+      "type": "select",
+      "id": "background_type",
+      "label": "Background",
+      "options": [
+        {
+          "value": "full_width",
+          "label": "Full width"
+        },
+        {
+          "value": "boxed",
+          "label": "Boxed"
+        }
+      ],
+      "default": "full_width"
+    },
+    {
+      "type": "select",
+      "id": "background_overlap",
+      "label": "Background overlap",
+      "info": "Add an accent background color below.",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "text",
+          "label": "Text"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Desktop image position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 3,
+      "max": 20,
+      "step": 1,
+      "unit": "s",
+      "label": "Change text every",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "accent_background",
+      "label": "Accent background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        
+        {
+          "type": "text",
+          "id": "tab_label",
+          "label": "Tab label",
+          "info": "Only shown if 2 text blocks are set",
+          "default": "Item"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "MS Image Tiles Left",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
