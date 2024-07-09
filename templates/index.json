@@ -244,7 +244,7 @@
         "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (min-width: 1000px) {h2 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
@@ -334,7 +334,8 @@
         "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1"
       ],
       "custom_css": [
-        "h2 {font-weight: 600; text-transform: uppercase;}"
+        "h2 {font-weight: 600; text-transform: uppercase;}",
+        "section {margin-bottom: 0px;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -352,85 +353,126 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "27f6c016-30ff-460b-80e5-2aa5271ee5bc": {
-      "type": "MS_image-with-text",
+    "ms_image_tiles_right_qWMTVF": {
+      "type": "MS_image-tiles-right",
       "blocks": {
-        "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0": {
+        "item_FiW6GR": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_2.png",
-            "tab_label": "",
-            "subheading": "",
-            "title": "With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures a skinsational experience and incredible results!",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
+            "tab_label": "Item",
+            "subheading": "Subheading"
           }
         }
       },
       "block_order": [
-        "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0"
+        "item_FiW6GR"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
-        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
+        "@media screen and (min-width: 1000px) {h3 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h3 {font-size: 18px; font-weight: 300; line-height: 1.5; }}",
+        "section {margin: 0px;}",
+        "@media screen and (max-width: 999px) {.split-container {display: grid; }}"
       ],
       "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "both",
-        "image_position": "right",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
+        "image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Anwendung_1.jpg",
+        "title": "With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures a skinsational experience and incredible results!",
+        "content": "",
         "html": "",
-        "background": "rgba(0,0,0,0)",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "464e87d8-4d86-448e-8a90-40393be76337": {
-      "type": "MS_image-with-text",
+    "ms_image_tiles_left_XGthUc": {
+      "type": "MS_image-tiles-left",
       "blocks": {
-        "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1": {
+        "item_kQL4mB": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1400_Skin_Drop_Edit.png",
-            "tab_label": "",
-            "subheading": "",
-            "title": "The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
+            "tab_label": "Item",
+            "subheading": "Subheading"
           }
         }
       },
       "block_order": [
-        "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
+        "item_kQL4mB"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; } img {max-width: 350px; }}",
-        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
+        "@media screen and (min-width: 1000px) {h3 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h3 {font-size: 18px; font-weight: 300; line-height: 1.5; }}",
+        "section {margin: 0px;}"
       ],
       "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "both",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
+        "image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Anwendung_2.jpg",
+        "title": "The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.",
+        "content": "",
         "html": "",
-        "background": "rgba(0,0,0,0)",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_image_tiles_with_text_VdxVeb": {
+      "type": "MS_image-tiles-with-text",
+      "blocks": {
+        "item_APWUYX": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading"
+          }
+        }
+      },
+      "block_order": [
+        "item_APWUYX"
+      ],
+      "custom_css": [
+        "h3 {text-transform: uppercase;}",
+        "section {margin: 0px;}",
+        ".image-tiles-text-main-container-left-twt {display: flex;}",
+        ".prd-img {display: block; max-width: 45vw; margin-left: 35px; margin-right: auto;}",
+        ".image-container-twt {min-height: 400px;}",
+        ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
+        "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; } section {margin-top: -100px; } .prd-img {display: block; max-width: 70vw; margin-left: 15px; margin-right: auto; }}"
+      ],
+      "settings": {
+        "image_left": "shopify:\/\/shop_images\/Solid_White.png",
+        "title_left": "THE RETINOL COLLECTION",
+        "content_left": "",
+        "html_left": "<dic class=\"prd-img\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Retinol_Collection_ea73ad70-0ad1-4c08-83e4-0c1640ef58c0.png?v=1693815805\">\n<\/dic>",
+        "button_text_left": "SHOP NOW",
+        "button_link_left": "shopify:\/\/collections\/retinol-collection",
+        "image_right": "shopify:\/\/shop_images\/Split_Banner_1000x590_Library.jpg",
+        "title_right": "Skincare Lovers Education",
+        "content_right": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS<\/p>",
+        "html_right": "",
+        "button_text_right": "EXPLORE",
+        "button_link_right": "shopify:\/\/pages\/skincare-ingredients",
+        "link_style_": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -438,6 +480,7 @@
     },
     "4cb96c4e-f6bf-403a-bf61-960a96060549": {
       "type": "MS_Imagewithtextleft",
+      "disabled": true,
       "custom_css": [
         ".image-overlay__content {max-width: 70%;}",
         "h3 {text-transform: uppercase;}"
@@ -483,6 +526,7 @@
       "block_order": [
         "template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__content-wrapper {max-width: 200px; margin-left: 100px;}",
         "h2 {text-transform: uppercase;}"
@@ -537,7 +581,7 @@
       "type": "rich-text",
       "custom_css": [
         "@media screen and (max-width: 741px) {.content-box {width: 100%; }}",
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (min-width: 1000px) {h2 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
@@ -565,8 +609,9 @@
     "548fc196-eec7-41eb-a4e7-3876c73a6c3a",
     "d4101780-2e56-4efa-ad4e-1f6a01c86756",
     "114a0aca-83e7-453e-89a1-ec9231dffaa8",
-    "27f6c016-30ff-460b-80e5-2aa5271ee5bc",
-    "464e87d8-4d86-448e-8a90-40393be76337",
+    "ms_image_tiles_right_qWMTVF",
+    "ms_image_tiles_left_XGthUc",
+    "ms_image_tiles_with_text_VdxVeb",
     "4cb96c4e-f6bf-403a-bf61-960a96060549",
     "55fdc1b9-fa3a-4685-973c-0b567f332b6f",
     "d734dfcf-fa26-4061-9e14-92a8029c34a8",
