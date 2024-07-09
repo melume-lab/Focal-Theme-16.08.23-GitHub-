@@ -1,6 +1,481 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- if section.settings.background_type == 'boxed' -%}
+  {%- assign is_boxed = true -%}
+{%- else -%}
+  {%- assign is_boxed = false -%}
+{%- endif -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_background == 'rgba(0,0,0,0)' -%}
+      {%- assign button_background = settings.primary_button_background -%}
+    {%- else -%}
+      {%- assign button_background = section.settings.button_background -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign button_text_color = settings.primary_button_text_color -%}
+    {%- else -%}
+      {%- assign button_text_color = section.settings.button_text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+    --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+    --primary-button-background: {{ button_background.red }}, {{ button_background.green }}, {{ button_background.blue }};
+    --primary-button-text-color: {{ button_text_color.red }}, {{ button_text_color.green }}, {{ button_text_color.blue }};
+
+    --section-accent-background: {{ section.settings.accent_background.red }} {{ section.settings.accent_background.green }} {{ section.settings.accent_background.blue }} / {{ section.settings.accent_background.alpha }};
+    --section-autoplay-duration: {{ section.settings.cycle_speed }}s;
+    --section-animation-play-state: paused;
   }
+
+  .split-container-twt {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .image-container-twt {
+    width: 50%;
+    min-height: 650px;
+    position: relative;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+  }
+  .image-container-twt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-overlay-twt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay-text-left {
+    width: 100%;
+    text-align: left;
+  }
+  .overlay-text-right {
+    width: 100%;
+    text-align: left;
+  }
+  .image-tiles-text-main-container-left-twt {
+    position: relative;
+    margin-right: 48px;
+    margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-left: var(--container-gutter);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .image-tiles-text-main-container-right-twt {
+    position: relative;
+    margin-left: 48px;
+    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding-right: var(--container-gutter);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  @media screen and (max-width: 999px) {
+    .split-container-twt {
+      display: block;
+    }
+    .image-container-twt {
+      width: 100%;
+      min-height: 450px;
+    }
+    .image-tiles-text-main-container-left-twt,
+    .image-tiles-text-main-container-right-twt {
+      position: relative;
+      margin-right: calc(var(--grid-column-width) + var(--grid-gap));
+      margin-left: calc(var(--grid-column-width) + var(--grid-gap));
+      margin-top: 48px;
+      margin-bottom: 48px;
+      padding-left: var(--container-gutter);
+      padding-right: var(--container-gutter);
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+      min-width: auto;
+      overflow: hidden;
+      height: auto;
+   }
+  }
+
+  @media screen and (max-width: 740px) {
+    .split-container-twt {
+      display: block;
+    }
+    .image-container-twt {
+      width: 100%;
+      min-height: 300px;
+    }
+
+    .image-tiles-text-main-container-right-twt,
+    .image-tiles-text-main-container-left-twt {
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      padding-left: var(--container-gutter);
+      padding-right: var(--container-gutter);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+   }
+  }
+</style>
+
+<section class="section">
+  <div {% if is_boxed %}class="container"{% endif %}>
+    <div class="split-container-twt">
+      <div class="image-container-twt">
+          <div class="image-overlay-twt">
+            {% if section.settings.image_left %}
+              {% assign image_left_url = section.settings.image_left | img_url: 'master' %}
+              <img src="{{ image_left_url }}" alt="Left Image">
+              {% else %}
+              <p>No image selected</p>
+            {% endif %}
+          </div>
+           <div class="image-tiles-text-main-container-left-twt">
+            <div class="overlay-text-left">
+              
+              {%- if section.settings.title_left != blank -%}
+                <h3 class="heading h2">{{ section.settings.title_left | escape }}</h3>
+              {%- endif -%}
+            
+            
+            {%- if section.settings.content_left != blank or section.settings.button_text_left != blank -%}
+                <div class="image-overlay__text-container">
+                  {%- if section.settings.content_left != blank-%}
+                    {{- section.settings.content_left -}}
+                  {%- endif -%}
+  
+                  {%- if section.settings.button_text_left != blank -%}
+                    {%- if section.settings.link_style == 'link' -%}
+                      <a href="{{ section.settings.button_link_left }}" class="multi-column__link heading heading--small link">{{ section.settings.button_text_left | escape }}</a>
+                    {%- else -%}
+                      <div class="button-wrapper">
+                        <a href="{{ section.settings.button_link_left }}" class="button button--primary">{{ section.settings.button_text_left | escape }}</a>
+                      </div>
+                    {%- endif -%}
+                  {%- endif -%}
+                </div>
+              
+              {%- endif -%}
+            </div>
+             <div>
+              {%- if section.settings.html_left != blank -%}
+                <div class="html">{{ section.settings.html_left }}</div>
+              {%- endif -%}
+              </div>
+           </div>
+          
+        
+      </div>
+      <div class="image-container-twt">
+        <div class="image-overlay-twt">
+          {% if section.settings.image_right %}
+            {% assign image_right_url = section.settings.image_right | img_url: 'master' %}
+            <img src="{{ image_right_url }}" alt="Right Image">
+          {% else %}
+          <p>No image selected</p>
+        {% endif %}
+        </div>
+            <div class="image-tiles-text-main-container-right-twt">
+              
+            <div class="overlay-text-right">
+              
+              {%- if section.settings.title_right != blank -%}
+                <h3 class="heading h2">{{ section.settings.title_right | escape }}</h3>
+              {%- endif -%}
+              {%- if section.settings.html_right != blank -%}
+                <div class="html">{{ section.settings.html_right }}</div>
+              {%- endif -%}
+              
+              {%- if section.settings.content_right != blank or section.settings.button_text_right != blank -%}
+                <div class="image-overlay__text-container">
+                  {%- if section.settings.content_right != blank-%}
+                    {{- section.settings.content_right -}}
+                  {%- endif -%}
+  
+                  {%- if section.settings.button_text_right != blank -%}
+                    {%- if section.settings.link_style == 'link' -%}
+                      <a href="{{ section.settings.button_link_right }}" class="multi-column__link heading heading--small link">{{ section.settings.button_text_right | escape }}</a>
+                    {%- else -%}
+                      <div class="button-wrapper">
+                        <a href="{{ section.settings.button_link_right }}" class="button button--primary">{{ section.settings.button_text_right | escape }}</a>
+                      </div>
+                    {%- endif -%}
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "MS Image Tiles With Text",
+  "class": "shopify-section--image-tiles",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Left Image & Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_left",
+      "label": "Image",
+      "info": "1400 x 1400px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_left",
+      "label": "Heading",
+      "default": "Image Tiles With Text"
+    },
+    {
+      "type": "richtext",
+      "id": "content_left",
+      "label": "Content",
+      "default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>"
+    },
+    {
+      "type": "html",
+      "id": "html_left",
+      "label": "HTML"
+    },
+    {
+      "type": "text",
+      "id": "button_text_left",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link_left",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Right Image & Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_right",
+      "label": "Image",
+      "info": "1400 x 1400px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_right",
+      "label": "Heading",
+      "default": "Image Tiles With Text"
+    },
+    {
+      "type": "richtext",
+      "id": "content_right",
+      "label": "Content",
+      "default": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>"
+    },
+    {
+      "type": "html",
+      "id": "html_right",
+      "label": "HTML"
+    },
+    {
+      "type": "text",
+      "id": "button_text_right",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link_right",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "link_style_",
+      "label": "Link style",
+      "options": [
+        {
+          "value": "link",
+          "label": "Link"
+        },
+        {
+          "value": "button",
+          "label": "Button"
+        }
+      ],
+      "default": "link"
+    },
+    {
+      "type": "select",
+      "id": "background_type",
+      "label": "Background",
+      "options": [
+        {
+          "value": "full_width",
+          "label": "Full width"
+        },
+        {
+          "value": "boxed",
+          "label": "Boxed"
+        }
+      ],
+      "default": "full_width"
+    },
+    {
+      "type": "select",
+      "id": "background_overlap",
+      "label": "Background overlap",
+      "info": "Add an accent background color below.",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "text",
+          "label": "Text"
+        },
+        {
+          "value": "both",
+          "label": "Both"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Desktop image position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 3,
+      "max": 20,
+      "step": 1,
+      "unit": "s",
+      "label": "Change text every",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "accent_background",
+      "label": "Accent background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        
+        {
+          "type": "text",
+          "id": "tab_label",
+          "label": "Tab label",
+          "info": "Only shown if 2 text blocks are set",
+          "default": "Item"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "MS Image Tiles With Text",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
