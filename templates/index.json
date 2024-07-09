@@ -12,7 +12,7 @@
     "d107d64a-9a4a-4cca-81db-17804a8cd886": {
       "type": "MS_Slideshow",
       "blocks": {
-        "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
+        "9dcd3d93-3d9c-4138-a461-303252db6c00": {
           "type": "image",
           "disabled": true,
           "settings": {
@@ -22,11 +22,11 @@
             "text_position": "middle_left",
             "subheading": "",
             "title": "",
-            "title_promo": "<p>SUMMER SALE<br\/>IS CALLING! <\/p>",
+            "title_promo": "<p>SUMMER SALE<br\/>IS CALLING!<\/p>",
             "content": "",
-            "content_promo": "<p>SAVE 15% ON ESSENTIALS<\/p>",
+            "content_promo": "<p>SAVE 15% ON ESSENTIALS<br\/><\/p>",
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/skincare-products",
+            "button_1_link": "shopify:\/\/pages\/melume-promo",
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
@@ -39,10 +39,10 @@
             "overlay_opacity": 0
           }
         },
-        "image_LjT3XT": {
+        "image_PhWpVd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rotating_Banner_Promotion_CalmBalm_Coming_soon_2160x1018_ca488cf1-cbde-4d74-b918-b55abbb6760b.jpg",
+            "image": "shopify:\/\/shop_images\/Rotating_Banner_Promotion_CalmBalm_Coming_soon_2160x1018_1d58b345-b742-4685-b6e2-028222642f7a.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Mobile_2024_Rotating_Banner_Promotion_CALM_BALM_RZ_1000x1400px.jpg",
             "video_source_url": "",
             "text_position": "middle_left",
@@ -57,7 +57,7 @@
             "button_2_link": "",
             "content_notice": "",
             "topMarginControl": 0,
-            "bottomMarginControl": 150,
+            "bottomMarginControl": 200,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -68,8 +68,8 @@
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_3_375ff67b-1b0b-40ca-9772-2108f3abd548.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_3_b694677b-e2e0-4d2c-9621-8b1d6afe249d.jpg",
+            "image": "shopify:\/\/shop_images\/Rotating_Banner_2160x1018_3_bbe09b1a-46d6-4576-9cc1-fc058bd5f24a.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Rotating_Banner_1000x1400px_3_1699a104-adf9-41c1-955e-74bc2acbc2bc.jpg",
             "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
@@ -83,7 +83,7 @@
             "button_2_link": "",
             "content_notice": "",
             "topMarginControl": 0,
-            "bottomMarginControl": 150,
+            "bottomMarginControl": 50,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -117,11 +117,11 @@
             "overlay_opacity": 0
           }
         },
-        "35cdae0b-3c29-4ce9-8401-93c5704a9e64": {
+        "5f450a06-8b1f-45d3-834e-c634bbc049f7": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "video_source_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fcb7d453318e468eb28bc9a4d899a4d2.mp4",
+            "video_source_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d05c303432884066b2df50e65f14cac4.mp4",
             "text_position": "middle_left",
             "subheading": "",
             "title": "",
@@ -144,11 +144,11 @@
         }
       },
       "block_order": [
-        "a11f4c44-fec7-49cc-9448-8ab94cd92389",
-        "image_LjT3XT",
+        "9dcd3d93-3d9c-4138-a461-303252db6c00",
+        "image_PhWpVd",
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d",
         "1a0a45d5-aa51-4163-8042-53e3f71313b8",
-        "35cdae0b-3c29-4ce9-8401-93c5704a9e64"
+        "5f450a06-8b1f-45d3-834e-c634bbc049f7"
       ],
       "custom_css": [
         "h2 {font-size: 40px; font-weight: 700;}",
@@ -161,7 +161,7 @@
         "section_height": "medium",
         "transition_type": "fade",
         "autoplay": true,
-        "cycle_speed": 5,
+        "cycle_speed": 7,
         "background": "#ffffff"
       }
     },
@@ -181,6 +181,9 @@
       "block_order": [
         "collection-1"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 41px) {.rating__caption {display: none; }}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
@@ -195,7 +198,7 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_block_VTrhJD": {
+    "image_with_text_block_e9JwQR": {
       "type": "image-with-text-block",
       "custom_css": [
         ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
@@ -209,7 +212,7 @@
         "subheading": "",
         "title": "100% SATISFACTION GUARANTEED",
         "html": "<style>\n.custom-banner-text {\nfont-size: calc(var(--heading-h2-font-size) - 3px);\n  font-weight: 300;\nmargin-top: -5%;\n}\n<\/style>\n\n<div class=\"custom-banner-text\"> IF NOT, IT’S ON US.<\/div>",
-        "content": "<p>Our products are dedicated to create beautiful, youthful healthy skin. Thus, our firm commitment to innovation and science drives us to always go a step further in finding new ways to formulate: The fusion of our GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures you a skinsational experience and incredible results - your satisfaction is our top priority!<br\/>However, in the unusual case where our products don't meet your complete satisfaction, we gladly provide you with a full refund or a replacement product when you return the items to us within 45 days of receiving your purchase. For further guidance or additional product advice, please reach out to our customer service department.<\/p>",
+        "content": "<p>Our products are dedicated to create beautiful, youthful healthy skin. Thus, our firm commitment to innovation and science drives us to always go a step further in finding new ways to formulate: The fusion of our GMOD™ Complex and powerful cosmeceutical & botanical ingredients ensures you a skinsational experience and incredible results - your satisfaction is our top priority!<br\/>However, in the unusual case where our products don't meet your complete satisfaction, we gladly provide you with a full refund or a replacement product when you return the items to us within 45 days of receiving your purchase. For further guidance or additional product advice, please reach out to our customer service department.<\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -244,7 +247,7 @@
         "template--17915596013835__02de4337-28c3-479a-9083-f3abeabe91f9-1686996514123ae8c8-0"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (min-width: 1000px) {h2 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
@@ -263,7 +266,7 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "548fc196-eec7-41eb-a4e7-3876c73a6c3a": {
+    "a3b6898c-6092-41a5-a2aa-e3b7c30dfc8d": {
       "type": "MS_Press_Collection",
       "custom_css": [
         ".press-section {margin-bottom: 35px;}",
@@ -297,7 +300,7 @@
         "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Edit.png",
         "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Mobile.png",
         "subheading": "",
-        "title": "Melumé Skin Club",
+        "title": "MELUMÉ SKIN CLUB",
         "html": "",
         "content": "<p>SKINCARE LOVERS: JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p>",
         "button_text": "Learn More",
@@ -311,16 +314,16 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "114a0aca-83e7-453e-89a1-ec9231dffaa8": {
+    "b4a5286d-ffb5-408d-9a75-2ab98c7ba739": {
       "type": "MS_image-with-text",
       "blocks": {
-        "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1": {
+        "template--18031974351112__b4a5286d-ffb5-408d-9a75-2ab98c7ba739-item-1": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_Complex.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "GMOD™ Complex",
+            "title": "GMOD™  COMPLEX",
             "title2": "",
             "html-two": "",
             "html-three": "",
@@ -331,10 +334,11 @@
         }
       },
       "block_order": [
-        "template--19493494948178__114a0aca-83e7-453e-89a1-ec9231dffaa8-item-1"
+        "template--18031974351112__b4a5286d-ffb5-408d-9a75-2ab98c7ba739-item-1"
       ],
       "custom_css": [
-        "h2 {font-weight: 600; text-transform: uppercase;}"
+        "h2 {font-weight: 600; text-transform: uppercase;}",
+        "section {margin-bottom: 0px;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -361,7 +365,7 @@
             "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1100_2.png",
             "tab_label": "",
             "subheading": "",
-            "title": "With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our GMOD™ complex and powerful cosmeceutical & botanical ingredients ensures a skinsational experience and incredible results!",
+            "title": "With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our GMOD™ Complex and powerful cosmeceutical & botanical ingredients ensures a skinsational experience and incredible results!",
             "title2": "",
             "html-two": "",
             "html-three": "",
@@ -374,6 +378,7 @@
       "block_order": [
         "template--17779321536779__27f6c016-30ff-460b-80e5-2aa5271ee5bc-1683115662117f08fb-0"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
@@ -394,10 +399,81 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "464e87d8-4d86-448e-8a90-40393be76337": {
+    "ms_image_tiles_right_RJMr3b": {
+      "type": "MS_image-tiles-right",
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {h3 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h3 {font-size: 18px; font-weight: 300; line-height: 1.5; }}",
+        "section {margin: 0px;}",
+        "@media screen and (max-width: 999px) {.split-container {display: grid; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Anwendung_1.jpg",
+        "title": "With a strong commitment to innovation and science, we always go a step further in finding new ways to formulate. The fusion of our GMOD™ Complex and powerful cosmeceutical & botanical ingredients ensures a skinsational experience and incredible results!",
+        "content": "",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_image_tiles_left_HQwzAh": {
+      "type": "MS_image-tiles-left",
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {h3 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h3 {font-size: 18px; font-weight: 300; line-height: 1.5; }}",
+        "section {margin: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Anwendung_2.jpg",
+        "title": "The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.",
+        "content": "",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_9hGez3": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "h3 {text-transform: uppercase;}",
+        "section {margin: 0px;}",
+        ".image-tiles-text-main-container-left-twt {display: flex;}",
+        ".prd-img {display: block; max-width: 45vw; margin-left: 35px; margin-right: auto;}",
+        ".image-container-twt {min-height: 400px;}",
+        ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
+        "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; } section {margin-top: -100px; } .prd-img {display: block; max-width: 70vw; margin-left: 15px; margin-right: auto; }}"
+      ],
+      "settings": {
+        "background_type": "full_width",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "753d4aa3-8c8b-4214-a679-0369cd5988b1": {
       "type": "MS_image-with-text",
       "blocks": {
-        "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1": {
+        "template--18031974351112__753d4aa3-8c8b-4214-a679-0369cd5988b1-item-1": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.0_Solo_Image_1400x1400_Skin_Drop_Edit.png",
@@ -414,8 +490,9 @@
         }
       },
       "block_order": [
-        "template--19493494948178__464e87d8-4d86-448e-8a90-40393be76337-item-1"
+        "template--18031974351112__753d4aa3-8c8b-4214-a679-0369cd5988b1-item-1"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; } img {max-width: 350px; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
@@ -438,6 +515,7 @@
     },
     "4cb96c4e-f6bf-403a-bf61-960a96060549": {
       "type": "MS_Imagewithtextleft",
+      "disabled": true,
       "custom_css": [
         ".image-overlay__content {max-width: 70%;}",
         "h3 {text-transform: uppercase;}"
@@ -483,6 +561,7 @@
       "block_order": [
         "template--17116456747288__55fdc1b9-fa3a-4685-973c-0b567f332b6f-16753441138da62574-0"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__content-wrapper {max-width: 200px; margin-left: 100px;}",
         "h2 {text-transform: uppercase;}"
@@ -517,33 +596,59 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "c6967e74-35d8-4d5b-8d31-5cd8732771b0": {
+    "e77f6ecf-034e-49ea-a409-8d98df42ac10": {
       "type": "custom-html",
       "custom_css": [
-        ".container {margin: 0px; max-width: 100%; padding: 0px;}",
-        ".showcase-grid-buttons {display: none;}"
+        ".container {margin: 0px; max-width: 100%; padding: 0px;}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<style>\n    .custom-column-images {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        text-align: center;\n    }\n\n    .image-column {\n        flex: 50%;\n    }\n\n    img {\n        max-width: 100%;\n        height: auto;\n        display: block;\n        margin: 0 auto;\n    }\n\n    @media screen and (max-width: 1000px) {\n        .custom-column-images {\n            flex-direction: column; \/* Stack columns vertically *\/\n        }\n\n        .image-column {\n            flex: 100%; \/* Take up full width *\/\n        }\n    }\n<\/style>\n\n<div class=\"custom-column-images\">\n    <div class=\"image-column\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0770\/7466\/1714\/files\/Banner_1.png?v=1716916828\" alt=\"Image 1\">\n    <\/div>\n    <div class=\"image-column\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0770\/7466\/1714\/files\/Banner_2.png?v=1716916831\" alt=\"Image 2\">\n    <\/div>\n<\/div>",
+        "html": "<style>\n    .custom-column-images {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        text-align: center;\n    }\n\n    .image-column {\n        flex: 50%;\n    }\n\n    img {\n        max-width: 100%;\n        height: auto;\n        display: block;\n        margin: 0 auto;\n    }\n\n    @media screen and (max-width: 1000px) {\n        .custom-column-images {\n            flex-direction: column; \/* Stack columns vertically *\/\n        }\n\n        .image-column {\n            flex: 100%; \/* Take up full width *\/\n        }\n    }\n<\/style>\n\n<div class=\"custom-column-images\">\n    <div class=\"image-column\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Banner_1.png?v=1716916600\" alt=\"Image 1\">\n    <\/div>\n    <div class=\"image-column\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Banner_2.png?v=1716916600\" alt=\"Image 2\">\n    <\/div>\n<\/div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "780ea883-b201-4222-a7a3-0825049eb059": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "custom_css": [
+        ".content-box {width: 100%; max-width: 1000px; background: rgba(0, 0, 0, 0);}",
+        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Home_Klecks_New_d5faae7f-3982-4a38-9999-70ad150a4280.png",
+        "subheading": "",
+        "title": "Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our exclusive GMOD™ complex stemming from bio-science.",
+        "html": "",
+        "content": "",
+        "button_text": "LEARN MORE",
+        "button_link": "\/pages\/discover#shopify-section-template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3",
+        "background_type": "full_width",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "rich_text_Mg8UwC": {
       "type": "rich-text",
       "custom_css": [
         "@media screen and (max-width: 741px) {.content-box {width: 100%; }}",
-        "@media screen and (min-width: 1000px) {h2 {font-size: 25px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (min-width: 1000px) {h2 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
         "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
-        "content": "<h2>Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our GMOD™ complex stemming from bio-science.<\/h2>",
+        "content": "<h2>Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our GMOD™ Complex stemming from bio-science.<\/h2>",
         "button_text": "LEARN MORE",
         "button_link": "\/pages\/discover#shopify-section-template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3",
         "background_type": "full_width",
@@ -560,17 +665,21 @@
   "order": [
     "d107d64a-9a4a-4cca-81db-17804a8cd886",
     "featured-collections",
-    "image_with_text_block_VTrhJD",
+    "image_with_text_block_e9JwQR",
     "02de4337-28c3-479a-9083-f3abeabe91f9",
-    "548fc196-eec7-41eb-a4e7-3876c73a6c3a",
+    "a3b6898c-6092-41a5-a2aa-e3b7c30dfc8d",
     "d4101780-2e56-4efa-ad4e-1f6a01c86756",
-    "114a0aca-83e7-453e-89a1-ec9231dffaa8",
+    "b4a5286d-ffb5-408d-9a75-2ab98c7ba739",
     "27f6c016-30ff-460b-80e5-2aa5271ee5bc",
-    "464e87d8-4d86-448e-8a90-40393be76337",
+    "ms_image_tiles_right_RJMr3b",
+    "ms_image_tiles_left_HQwzAh",
+    "image_with_text_overlay_9hGez3",
+    "753d4aa3-8c8b-4214-a679-0369cd5988b1",
     "4cb96c4e-f6bf-403a-bf61-960a96060549",
     "55fdc1b9-fa3a-4685-973c-0b567f332b6f",
     "d734dfcf-fa26-4061-9e14-92a8029c34a8",
-    "c6967e74-35d8-4d5b-8d31-5cd8732771b0",
+    "e77f6ecf-034e-49ea-a409-8d98df42ac10",
+    "780ea883-b201-4222-a7a3-0825049eb059",
     "rich_text_Mg8UwC"
   ]
 }
