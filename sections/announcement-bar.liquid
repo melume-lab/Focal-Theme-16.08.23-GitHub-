@@ -70,7 +70,7 @@
                   <button class="link" data-action="open-content">{{ block.settings.text | escape }}</button>
                 {%- endif -%}
               {%- else -%}
-                <p>{{ block.settings.text | escape }}</p>
+                {{ block.settings.text }}
               {%- endif -%}
             </div>
 
@@ -138,10 +138,10 @@
       "name": "Message",
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "text",
           "label": "Text",
-          "default": "Announce something here"
+          "default": "<p>Announce something here</p>"
         },
         {
           "type": "text",
