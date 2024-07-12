@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -384,7 +393,7 @@
           "type": "question",
           "settings": {
             "title": "Can I change or cancel my subscription at any time?",
-            "answer": "<p>When you log in, you can manage, pause or cancel your Auto-Replenishment. Log in here (https:\/\/www.melume-skinscience.com\/account\/login) to access your account.<\/p>"
+            "answer": "<p>Yes, you can change or pause your subscription at any time. We understand that flexibility is important, and we strive to make managing your subscription as easy as possible. Simply <a href=\"https:\/\/melume-skinscience.us.com\/account\/login\" title=\"https:\/\/melume-skinscience.us.com\/account\/login\">log in<\/a> to your account and navigate to the subscription settings to make any changes. You can cancel your subscription at any time after receiving at least two delivery cycles.<\/p>"
           }
         },
         "fd026f32-5f94-44c2-8a6b-6759dedf93fe": {
@@ -412,7 +421,7 @@
           "type": "question",
           "settings": {
             "title": "What if I want to cancel my subscription?",
-            "answer": "<p>Have you changed your mind? Then log in here (https:\/\/www.melume-skinscience.com\/account\/login) to access your account and cancel your Auto-Replenishment. <\/p>"
+            "answer": "<p>If you wish to cancel your subscription, you can do so after receiving at least two delivery cycles. To cancel your subscription, <a href=\"https:\/\/melume-skinscience.us.com\/account\/login\" title=\"https:\/\/melume-skinscience.us.com\/account\/login\">log in<\/a> to your account, go to the subscription settings, and follow the instructions for cancellation. If you need any assistance, our customer support team is always here to help.<\/p>"
           }
         },
         "7c52a201-01b0-4edf-aa57-9be3a5d0e7e9": {
