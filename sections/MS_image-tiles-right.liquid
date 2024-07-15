@@ -54,10 +54,19 @@
     height: 100%;
     object-fit: cover;
   }
+@media screen and (max-width: 1680px) {
   .image-tiles-text-main-container-right {
     display: block;
     max-width: calc(var(--container-max-width) - 49%);
   }
+}
+
+  @media screen and (min-width: 1681px) {
+  .image-tiles-text-main-container-right {
+    display: block;
+    max-width: 760px;
+  }
+}
   .image-tiles-text-container-left {
     width: 100%;
     
