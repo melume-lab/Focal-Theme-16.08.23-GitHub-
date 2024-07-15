@@ -16,9 +16,116 @@
         "show_title": true,
         "page_width": "large"
       }
+    },
+    "image_with_text_overlay_TeGUWW": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/lipbalm-newsletter.jpg",
+        "subheading": "",
+        "title": "GLOSSY LIP LINE ERASER",
+        "content": "<p>MAXI LIP FILLER BALM<br\/><strong>LAUNCHING SOON<\/strong><\/p>",
+        "html": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "middle_left",
+        "text_color": "#000000",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "newsletter_yFB8qL": {
+      "type": "newsletter",
+      "custom_css": [
+        ".container {height: 70vh; max-height: 800px; min-height: 300px; display: grid;}",
+        ".image-with-text-block__content {margin: auto;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/Newsletter_Background.png",
+        "subheading": "Subscribe to our melumé skinscience newsletter",
+        "title": "15€ off your next order",
+        "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPS.<\/p>",
+        "endtitle": "* Only valid for new skincare lovers & only with a minimum order of 75€. Can not be combined with other offers.",
+        "text_position": "center",
+        "text_alignment": "center",
+        "text_background": "#f5f2f0",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text_with_icons_pT8ja3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_XgFJ8U": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Produktvorteil.png",
+            "custom_icon_width": 85,
+            "icontitle": "newsletter",
+            "title": "THE LATEST LAUNCHES",
+            "content": "<p>The first to know about upcoming launches & special early access.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "item_WENhyg": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Angebot.png",
+            "custom_icon_width": 100,
+            "icontitle": "box-melume",
+            "title": "NEWSLETTER-ONLY OFFERS",
+            "content": "<p>Enjoy exclusive sales, goodies and other surprises reserved for our subscribers.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "item_KmbNay": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-secure-payment",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Expertentipps.png",
+            "custom_icon_width": 100,
+            "icontitle": "Proskincare tips",
+            "title": "PROSKINCARE TIPS",
+            "content": "<p>Gain insider tips on how to use of our formulas for amazing results, receive recommendations, broaden your knowledge on ingredients and other helpful tips.<\/p>",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_XgFJ8U",
+        "item_WENhyg",
+        "item_KmbNay"
+      ],
+      "settings": {
+        "borderbottom": true,
+        "underline": true,
+        "maintitle": "Sign up and don’t miss out on:",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_overlay_TeGUWW",
+    "newsletter_yFB8qL",
+    "text_with_icons_pT8ja3"
   ]
 }
