@@ -43,7 +43,7 @@
     "newsletter_yFB8qL": {
       "type": "newsletter",
       "custom_css": [
-        ".container {height: 40vh; max-height: 800px; min-height: 300px; display: grid;}",
+        ".container {height: 50vh; max-height: 800px; min-height: 300px; display: grid;}",
         ".image-with-text-block__content {margin: auto;}"
       ],
       "settings": {
