@@ -43,7 +43,7 @@
     "newsletter_yFB8qL": {
       "type": "newsletter",
       "custom_css": [
-        ".container {height: 70vh; max-height: 800px; min-height: 300px; display: grid;}",
+        ".container {height: 40vh; max-height: 800px; min-height: 300px; display: grid;}",
         ".image-with-text-block__content {margin: auto;}"
       ],
       "settings": {
@@ -68,7 +68,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Produktvorteil.png",
             "custom_icon_width": 85,
             "icontitle": "newsletter",
             "title": "THE LATEST LAUNCHES",
@@ -81,7 +80,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Angebot.png",
             "custom_icon_width": 100,
             "icontitle": "box-melume",
             "title": "NEWSLETTER-ONLY OFFERS",
@@ -94,7 +92,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-secure-payment",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Expertentipps.png",
             "custom_icon_width": 100,
             "icontitle": "Proskincare tips",
             "title": "PROSKINCARE TIPS",
