@@ -68,6 +68,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Produktvorteil.png",
             "custom_icon_width": 85,
             "icontitle": "newsletter",
             "title": "THE LATEST LAUNCHES",
@@ -80,6 +81,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Angebot.png",
             "custom_icon_width": 100,
             "icontitle": "box-melume",
             "title": "NEWSLETTER-ONLY OFFERS",
@@ -92,6 +94,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-secure-payment",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Expertentipps.png",
             "custom_icon_width": 100,
             "icontitle": "Proskincare tips",
             "title": "PROSKINCARE TIPS",
@@ -105,6 +108,9 @@
         "item_XgFJ8U",
         "item_WENhyg",
         "item_KmbNay"
+      ],
+      "custom_css": [
+        ".text-with-icons__icon-wrapper > * {margin-bottom: 20px;}"
       ],
       "settings": {
         "borderbottom": true,
