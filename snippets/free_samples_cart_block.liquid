@@ -5,8 +5,7 @@
 {% assign freeSampleCollectionHandle = 'free-samples' %}
 
 {% style %}
-  
-.free-gift-product-img {
+  .free-gift-product-img {
     pointer-events: none;
   }
 
@@ -24,65 +23,64 @@
     opacity: 0.7;
   }
 
-.loading-spinner {
-  position: absolute;
-  bottom: 38px;
-  left: 50%;
-  margin-left: -12px; /* Half of the spinner's width to center it */
-  width: 24px; /* Adjust size as needed */
-  height: 24px; /* Adjust size as needed */
-  border-radius: 50%;
-  border: 3px solid #000; /* Black border with 3px width */
-  border-top: 3px solid transparent; /* Transparent top border to create a semicircle */
-  animation: spin 1s linear infinite; /* Spin animation over 1 second */
-  z-index: 2; /* Higher z-index to be in front of the button */
-  display: none; /* Initially hidden */
+  .free-gift-column {
+    position: relative;
+  }
+
+  .loading-spinner {
+    position: absolute;
+    bottom: 38px;
+    left: 50%;
+    margin-left: -12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    border-top: 3px solid transparent;
+    animation: spin 1s linear infinite;
+    z-index: 100;
+    display: none;
+  }
+
+  .page-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    z-index: 99; /* Lower z-index than loading spinner */
+    display: none; /* Initially hidden */
+    pointer-events: auto; /* Enable pointer events */
 }
-
-
 
   .add-to-cart-button.invisible {
     color: transparent;
+  }
+
+  .add-to-cart-button:hover {
+    background-color: #ddd;
   }
 
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-
-  {%- capture default_sizes -%}
-    80px, 92px, 160px, 184px, 240px, 276px
-  {%- endcapture -%}
-
-  {%- capture sizes -%}
-    {%- if include.sizes -%}
-      {{ include.sizes }}
-    {%- else -%}
-      {{ default_sizes }}
-    {%- endif -%}
-  {%- endcapture -%}
-
-  {%- assign image_sizes = sizes | remove: ' ' | split: ',' -%}
-  {%- assign image_widths = '100,180,320,360,480,552' | split: ',' -%}
-
-  {%- for i in (0..image_sizes.size) -%}
-    {%- assign media_query = image_sizes[i] | append: 'px' -%}
-
-    @media (max-width: {{ media_query }}) {
-      .line-item__image[srcset],
-      .free-gift-product-img[srcset] {
-        content: attr(data-srcset-{{ image_sizes[i] }});
-      }
-    }
-  {%- endfor -%}
 {% endstyle %}
 
-<!-- Dein HTML-Code für die Free Gifts -->
 <div class="free-gift-images-container">
+  {% assign cart_items = cart.items %}
   {% for product in collections[freeSampleCollectionHandle].products %}
+    {% assign product_in_cart = false %}
+    {% for item in cart_items %}
+      {% if item.product_id == product.id %}
+        {% assign product_in_cart = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
     <div class="free-gift-column">
       <div class="free-gift-products">
-        <button class="free-gift-product-img-container" data-product-id="{{ product.variants.first.id }}">
+        <button class="free-gift-product-img-container {% if product_in_cart %}selected{% endif %}" data-product-id="{{ product.variants.first.id }}">
           <div class="img-only-container-free-gifts">
             <img class="free-gift-product-img product__thumbnail line-item__image" data-srcset-80="{{ product.featured_image.src | img_url: '80x80', 'jpg' }}"
               data-srcset-92="{{ product.featured_image.src | img_url: '92x92', 'jpg' }}"
@@ -97,10 +95,10 @@
               {{ product.description }}<br><br>{{ "general.free_gifts.free" | t }}</p>
             <div class="loading-spinner"></div>
             <span class="add-to-cart-button">
-              {% if selectedProducts contains product.variants.first.id %}
-                Remove
+              {% if product_in_cart %}
+                {{ "general.free_gifts.remove" | t }}
               {% else %}
-                Add
+                {{ "general.free_gifts.add" | t }}
               {% endif %}
             </span>
           </div>
@@ -115,76 +113,23 @@ document.addEventListener('DOMContentLoaded', function () {
   const freeGiftButtons = document.querySelectorAll('.free-gift-product-img-container');
   const selectedProductsKey = 'selectedProducts';
   let selectedProducts = JSON.parse(localStorage.getItem(selectedProductsKey)) || [];
-  let isOperationInProgress = false; // Flag to track ongoing operations
-  const operationDelay = 1000; // Operation delay in milliseconds
+  let isOperationInProgress = false;
+  const operationDelay = 1000;
+  const pageOverlay = document.querySelector('.page-overlay');
 
-  freeGiftButtons.forEach(button => {
-      const loadingSpinner = button.querySelector('.loading-spinner');
-      const addToCartButton = button.querySelector('.add-to-cart-button');
+  function initializeSelectedProducts() {
+    freeGiftButtons.forEach(button => {
       const productId = button.getAttribute('data-product-id');
-      const isSelected = selectedProducts.includes(productId);
-
-      if (!loadingSpinner || !addToCartButton) {
-        console.error('Required elements not found');
-        return;
+      if (button.classList.contains('selected') && !selectedProducts.includes(productId)) {
+        selectedProducts.push(productId);
       }
-
-      if (isSelected) {
-        button.classList.add('selected');
-        addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
-      } else {
-        addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
-      }
-
-      addToCartButton.addEventListener('click', function (event) {
-        event.stopPropagation(); // Stop the event from propagating to parent elements
-
-        if (isOperationInProgress) {
-          return; // Ignore clicks while an operation is in progress
-        }
-
-        isOperationInProgress = true; // Set flag to true
-        button.classList.add('disabled'); // Add disabled class to the button
-        loadingSpinner.style.display = 'block'; // Show the loading spinner
-        addToCartButton.classList.add('invisible'); // Make the button text invisible
-
-        const isSelected = button.classList.contains('selected');
-
-        if (!isSelected && selectedProducts.length < 2) {
-          if (!selectedProducts.includes(productId)) {
-            setTimeout(() => {
-              button.classList.add('selected');
-              selectedProducts.push(productId);
-              addToCart(productId);
-              addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}'; // Update translation key
-              localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-              updateGrayOut();
-            }, operationDelay);
-          }
-        } else if (isSelected) {
-          setTimeout(() => {
-            button.classList.remove('selected');
-            selectedProducts = selectedProducts.filter(id => id !== productId);
-            removeFromCart(productId);
-            addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}'; // Update translation key
-            localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-            updateGrayOut();
-          }, operationDelay);
-        }
-
-        setTimeout(() => {
-          button.classList.remove('disabled');
-          loadingSpinner.style.display = 'none'; // Hide the loading spinner
-          addToCartButton.classList.remove('invisible'); // Make the button text visible
-          isOperationInProgress = false;
-        }, operationDelay);
-      });
-
-    updateGrayOut(); // Initial call to the function to update gray out and clickability
-  });
+    });
+    localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+    updateGrayOut();
+  }
 
   function updateGrayOut() {
-    if (selectedProducts.length === 2) {
+    if (selectedProducts.length >= 2) {
       freeGiftButtons.forEach(button => {
         const productId = button.getAttribute('data-product-id');
         if (!selectedProducts.includes(productId)) {
@@ -206,19 +151,84 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
+  freeGiftButtons.forEach(button => {
+    const loadingSpinner = button.querySelector('.loading-spinner');
+    const addToCartButton = button.querySelector('.add-to-cart-button');
+    const productId = button.getAttribute('data-product-id');
+    const isSelected = button.classList.contains('selected');
+
+    addToCartButton.addEventListener('click', function (event) {
+      event.stopPropagation();
+
+      if (isOperationInProgress) {
+        return;
+      }
+
+      isOperationInProgress = true;
+      toggleOverlay(true);
+      button.classList.add('disabled');
+      loadingSpinner.style.display = 'block';
+      addToCartButton.classList.add('invisible');
+
+      const isSelected = button.classList.contains('selected');
+
+      if (!isSelected && selectedProducts.length < 2) {
+        if (!selectedProducts.includes(productId)) {
+          setTimeout(() => {
+            button.classList.add('selected');
+            selectedProducts.push(productId);
+            addToCart(productId);
+            addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}';
+            localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+            updateGrayOut();
+            toggleOverlay(false);
+          }, operationDelay);
+        }
+      } else if (isSelected) {
+        setTimeout(() => {
+          button.classList.remove('selected');
+          selectedProducts = selectedProducts.filter(id => id !== productId);
+          removeFromCart(productId);
+          addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}';
+          localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
+          updateGrayOut();
+          toggleOverlay(false);
+        }, operationDelay);
+      }
+
+      setTimeout(() => {
+        button.classList.remove('disabled');
+        loadingSpinner.style.display = 'none';
+        addToCartButton.classList.remove('invisible');
+        isOperationInProgress = false;
+      }, operationDelay);
+    });
+  });
+
+  function toggleOverlay(show) {
+    if (show) {
+      pageOverlay.style.display = 'block';
+      document.body.style.overflow = 'hidden';
+    } else {
+      pageOverlay.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+  }
+
   function removeSelectedProductsFromCartOnCheckoutPage() {
     if (window.location.pathname === '/cart') {
       const productsToRemove = [...selectedProducts];
       selectedProducts = [];
       productsToRemove.forEach(productId => removeFromCart(productId));
       localStorage.removeItem(selectedProductsKey);
-      updateGrayOut(); // Aktualisiere das Ausgrauen und die Klickbarkeit nach dem Entfernen
+      updateGrayOut();
     }
   }
 
   window.onpageshow = function (event) {
     if (event.persisted) {
-      removeSelectedProductsFromCartOnCheckoutPage();
+      initializeSelectedProducts();
+      updateGrayOut();
     }
   };
 
@@ -239,11 +249,11 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(response => {
       if (!response.ok) {
-        console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb.');
+        console.error('Error adding product to cart.');
       }
     })
     .catch(error => {
-      console.error('Fehler beim Hinzufügen des Produkts zum Warenkorb:', error);
+      console.error('Error adding product to cart:', error);
     });
   }
 
@@ -261,12 +271,14 @@ document.addEventListener('DOMContentLoaded', function () {
     })
     .then(response => {
       if (!response.ok) {
-        console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb.');
+        console.error('Error removing product from cart.');
       }
     })
     .catch(error => {
-      console.error('Fehler beim Entfernen des Produkts aus dem Warenkorb:', error);
+      console.error('Error removing product from cart:', error);
     });
   }
+
+  initializeSelectedProducts();
 });
 </script>
