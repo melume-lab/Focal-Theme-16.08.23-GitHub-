@@ -111,35 +111,18 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const freeGiftButtons = document.querySelectorAll('.free-gift-product-img-container');
-  const selectedProductsKey = 'selectedProducts';
-  let selectedProducts = JSON.parse(localStorage.getItem(selectedProductsKey)) || [];
   let isOperationInProgress = false;
   const operationDelay = 1000;
   const pageOverlay = document.querySelector('.page-overlay');
 
-  function initializeSelectedProducts() {
-    freeGiftButtons.forEach(button => {
-      const productId = button.getAttribute('data-product-id');
-      if (button.classList.contains('selected') && !selectedProducts.includes(productId)) {
-        selectedProducts.push(productId);
-      }
-    });
-    localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
-    updateGrayOut();
-  }
-
   function updateGrayOut() {
+    const selectedProducts = document.querySelectorAll('.free-gift-product-img-container.selected');
     if (selectedProducts.length >= 2) {
       freeGiftButtons.forEach(button => {
-        const productId = button.getAttribute('data-product-id');
-        if (!selectedProducts.includes(productId)) {
+        if (!button.classList.contains('selected')) {
           button.classList.add('grayed-out');
           button.querySelector('.add-to-cart-button').classList.add('grayed-out');
           button.style.pointerEvents = 'none';
-        } else {
-          button.classList.remove('grayed-out');
-          button.querySelector('.add-to-cart-button').classList.remove('grayed-out');
-          button.style.pointerEvents = 'auto';
         }
       });
     } else {
@@ -155,9 +138,7 @@ document.addEventListener('DOMContentLoaded', function () {
     addToCart(productId)
       .then(() => {
         button.classList.add('selected');
-        selectedProducts.push(productId);
         addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}';
-        localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
         updateGrayOut();
       })
       .catch(error => {
@@ -176,9 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
     removeFromCart(productId)
       .then(() => {
         button.classList.remove('selected');
-        selectedProducts = selectedProducts.filter(id => id !== productId);
         addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}';
-        localStorage.setItem(selectedProductsKey, JSON.stringify(selectedProducts));
         updateGrayOut();
       })
       .catch(error => {
@@ -211,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function () {
       loadingSpinner.style.display = 'block';
       addToCartButton.classList.add('invisible');
 
-      if (!button.classList.contains('selected') && selectedProducts.length < 2) {
+      if (!button.classList.contains('selected') && document.querySelectorAll('.free-gift-product-img-container.selected').length < 2) {
         handleAddToCart(productId, button, addToCartButton, loadingSpinner);
       } else if (button.classList.contains('selected')) {
         handleRemoveFromCart(productId, button, addToCartButton, loadingSpinner);
@@ -227,27 +206,6 @@ document.addEventListener('DOMContentLoaded', function () {
       pageOverlay.style.display = 'none';
       document.body.style.overflow = '';
     }
-  }
-
-  function removeSelectedProductsFromCartOnCheckoutPage() {
-    if (window.location.pathname === '/cart') {
-      const productsToRemove = [...selectedProducts];
-      selectedProducts = [];
-      productsToRemove.forEach(productId => removeFromCart(productId));
-      localStorage.removeItem(selectedProductsKey);
-      updateGrayOut();
-    }
-  }
-
-  window.onpageshow = function (event) {
-    if (event.persisted) {
-      initializeSelectedProducts();
-      updateGrayOut();
-    }
-  };
-
-  if (window.location.pathname !== '/cart') {
-    removeSelectedProductsFromCartOnCheckoutPage();
   }
 
   function addToCart(productId) {
@@ -287,6 +245,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  initializeSelectedProducts();
+  updateGrayOut();
 });
 </script>
