@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
         button.classList.add('selected');
         addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}';
         updateGrayOut();
+        location.reload(); // Reload the page after adding the item to the cart
       })
       .catch(error => {
         console.error('Error adding product to cart:', error);
@@ -159,6 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
         button.classList.remove('selected');
         addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}';
         updateGrayOut();
+        location.reload(); // Reload the page after removing the item from the cart
       })
       .catch(error => {
         console.error('Error removing product from cart:', error);

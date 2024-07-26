@@ -332,6 +332,113 @@
               </div>
             {%- endif -%}
 
+
+
+             {%- comment -%}. _______ FREE SAMPLE BLOCK LOGIC _______ {%- endcomment -%}
+            
+                  {% assign freeSampleCollectionHandle = 'free-samples' %}
+                    
+                    <li class="header__linklist-item" style="display: none">
+                      <a href="{{ routes.cart_url }}" 
+                         {% unless settings.cart_type == 'page' %}is="toggle-link" aria-controls="mini-cart" aria-expanded="false"{% endunless %} 
+                         data-no-instant>
+                        {{- 'header.general.cart' | t | escape -}}
+                        <div class="cart-items">
+                          {% if cart.item_count > 0 %}
+                            <ul>
+                              {% for item in cart.items %}
+                                {% assign isFreeSample = false %}
+                                {% for tag in item.product.tags %}
+                                  {% if tag == 'free-sample' %}
+                                    {% assign isFreeSample = true %}
+                                  {% endif %}
+                                {% endfor %}
+                                <li class="cart-item" data-item-id="{{ item.id }}" data-is-free-sample="{{ isFreeSample }}">
+                                  {{ item.title }} 
+                                  <span class="item-quantity" style="{% if item.quantity > 1 %}color: red;{% endif %}">({{ item.quantity }})</span>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% else %}
+                            <div class="cart-item">
+                              Your cart is empty
+                            </div>
+                          {% endif %}
+                        </div>
+                      </a>
+                    </li>
+                    
+                   
+                    
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var cartItems = document.querySelectorAll('.cart-item');
+                      var freeSampleItems = [];
+                      var totalFreeSampleCount = 0;
+                      var changesNeeded = false;
+                    
+                      cartItems.forEach(function(item) {
+                        var isFreeSample = item.getAttribute('data-is-free-sample') === 'true';
+                        if (isFreeSample) {
+                          var itemId = item.getAttribute('data-item-id');
+                          var quantityElement = item.querySelector('.item-quantity');
+                          var quantity = parseInt(quantityElement.textContent.replace(/\D/g, ''));
+                    
+                          if (quantity > 1) {
+                            freeSampleItems.push({ itemId: itemId, quantity: 1 });
+                            totalFreeSampleCount += 1;
+                            changesNeeded = true;
+                          } else {
+                            freeSampleItems.push({ itemId: itemId, quantity: quantity });
+                            totalFreeSampleCount += quantity;
+                          }
+                        }
+                      });
+                    
+                      if (totalFreeSampleCount > 2) {
+                        changesNeeded = true;
+                        totalFreeSampleCount = 0;
+                        freeSampleItems.forEach(function(item) {
+                          if (totalFreeSampleCount < 2) {
+                            var newQuantity = Math.min(item.quantity, 2 - totalFreeSampleCount);
+                            totalFreeSampleCount += newQuantity;
+                            item.quantity = newQuantity;
+                          } else {
+                            item.quantity = 0;
+                          }
+                        });
+                      }
+                    
+                      if (changesNeeded) {
+                        freeSampleItems.forEach(function(item) {
+                          fetch('/cart/change.js', {
+                            method: 'POST',
+                            headers: {
+                              'Content-Type': 'application/json',
+                              'Accept': 'application/json'
+                            },
+                            body: JSON.stringify({
+                              id: item.itemId,
+                              quantity: item.quantity
+                            })
+                          })
+                          .then(function(response) {
+                            if (response.ok) {
+                              window.location.reload();
+                            } else {
+                              console.error('Failed to update item quantity');
+                            }
+                          })
+                          .catch(function(error) {
+                            console.error('Error:', error);
+                          });
+                        });
+                      }
+                    });
+                    </script>
+                    
+                    {%- comment -%}. _______ FREE SAMPLE BLOCK LOGIC _______ {%- endcomment -%}
+
             {% comment %}--- Start Free Gift Script ---{% endcomment %}
             
             <div class="free-gift-container" style="text-align: center; margin-top: 40px!important;">
