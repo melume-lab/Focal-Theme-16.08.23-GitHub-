@@ -107,7 +107,7 @@
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
-            "topMarginControl": 145,
+            "topMarginControl": 0,
             "bottomMarginControl": 40,
             "text_color": "#000000",
             "button_background": "#000000",
