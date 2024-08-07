@@ -92,15 +92,14 @@
         },
         "1a0a45d5-aa51-4163-8042-53e3f71313b8": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/d-1st-anniversary-free-cosmetic-bag.png",
             "mobile_image": "shopify:\/\/shop_images\/m-1st-anniversary-free-cosmetic-bag.png",
             "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
-            "title": "CELEBRATE OUR 1st ANNIVERSARY",
-            "title_promo": "",
+            "title": "",
+            "title_promo": "<p><strong>CELEBRATE OUR<\/strong><br\/>1st ANNIVERSARY<\/p>",
             "content": "<p><strong>SAVE 30%<\/strong> SITEWIDE<br\/><\/p>",
             "content_promo": "",
             "button_1_text": "Shop now",
@@ -109,7 +108,7 @@
             "button_2_link": "",
             "content_notice": "",
             "topMarginControl": 0,
-            "bottomMarginControl": 150,
+            "bottomMarginControl": 250,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -155,7 +154,9 @@
         "h2 {font-size: 40px; font-weight: 700;}",
         ".content-box {max-width: 700px; width: 80%;}",
         "@media (max-width: 999px) {.content-box {width: 100%; }}",
-        "@media (max-width: 999px) {.promo-heading {font-size: 38px !important; }}",
+        ".promo-heading {font-size: 34px !important; margin-bottom: 20px;}",
+        "@media (min-width: 1000px) {.promo-heading {font-size: 38px !important; font-weight: 700; margin-bottom: 20px; }}",
+        "@media (min-width: 1201px) {.promo-heading {font-size: 48px !important; margin-bottom: 20px; }}",
         "p {line-height: 1.0833333333 !important;}"
       ],
       "settings": {
