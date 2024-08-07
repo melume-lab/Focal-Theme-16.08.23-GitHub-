@@ -92,6 +92,7 @@
         },
         "1a0a45d5-aa51-4163-8042-53e3f71313b8": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/d-1st-anniversary-free-cosmetic-bag.png",
             "mobile_image": "shopify:\/\/shop_images\/m-1st-anniversary-free-cosmetic-bag.png",
@@ -108,7 +109,7 @@
             "button_2_link": "",
             "content_notice": "",
             "topMarginControl": 0,
-            "bottomMarginControl": 95,
+            "bottomMarginControl": 150,
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
