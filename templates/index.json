@@ -154,9 +154,6 @@
         "h2 {font-size: 40px; font-weight: 700;}",
         ".content-box {max-width: 700px; width: 80%;}",
         "@media (max-width: 999px) {.content-box {width: 100%; }}",
-        ".promo-heading {font-size: 34px !important; margin-bottom: 20px;}",
-        "@media (min-width: 1000px) {.promo-heading {font-size: 38px !important; font-weight: 700; margin-bottom: 20px; }}",
-        "@media (min-width: 1201px) {.promo-heading {font-size: 48px !important; margin-bottom: 20px; }}",
         "p {line-height: 1.0833333333 !important;}"
       ],
       "settings": {
