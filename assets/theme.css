@@ -15286,7 +15286,7 @@ COSTUM ELEMENTS
 @media (min-width: 1000px) {
   .promo-heading {
     font-family: Montserrat-Variable;
-    font-weight: 800;
+    font-weight: 300;
     font-size: 75px!important;
     line-height: 70px;
   }
@@ -15295,7 +15295,7 @@ COSTUM ELEMENTS
 @media (max-width: 999px) {
    .promo-heading {
     font-family: Montserrat-Variable;
-    font-weight: 800;
+    font-weight: 300;
     font-size: 50px!important;
      line-height: 45px;
   }
