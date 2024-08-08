@@ -15283,6 +15283,15 @@ COSTUM ELEMENTS
 
   /* Promo Font */
 
+.promo-heading {
+    font-family: Montserrat-Variable;
+    font-weight: 300;
+    font-size: 34px!important;
+    line-height: 34px!important;
+    margin-bottom: 15px;
+  }
+
+
 @media (min-width: 1000px) {
   .promo-heading {
     font-family: Montserrat-Variable;
