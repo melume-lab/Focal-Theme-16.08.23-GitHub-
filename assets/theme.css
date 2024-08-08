@@ -15289,6 +15289,7 @@ COSTUM ELEMENTS
     font-weight: 300;
     font-size: 48px!important;
     line-height: 48px!important;
+    margin-bottom: 20px;
   }
 }
 
@@ -15297,7 +15298,8 @@ COSTUM ELEMENTS
     font-family: Montserrat-Variable;
     font-weight: 300;
     font-size: 38px!important;
-     line-height: 38px!important;
+    line-height: 38px!important;
+    margin-bottom: 20px;
   }
 }
 
