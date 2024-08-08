@@ -15284,12 +15284,12 @@ COSTUM ELEMENTS
   /* Promo Font */
 
 .promo-heading {
-    font-family: Montserrat-Variable;
-    font-weight: 300;
-    font-size: 34px!important;
-    line-height: 34px!important;
-    margin-bottom: 15px;
-  }
+  font-family: Montserrat-Variable;
+  font-weight: 300;
+  font-size: 38px!important;
+  line-height: 38px!important;
+  margin-bottom: 20px;
+}
 
 
 @media (min-width: 1000px) {
@@ -15302,13 +15302,13 @@ COSTUM ELEMENTS
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 740px) {
    .promo-heading {
     font-family: Montserrat-Variable;
     font-weight: 300;
-    font-size: 38px!important;
-    line-height: 38px!important;
-    margin-bottom: 20px;
+    font-size: 34px!important;
+    line-height: 34px!important;
+    margin-bottom: 15px;
   }
 }
 
