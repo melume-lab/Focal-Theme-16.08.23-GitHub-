@@ -326,8 +326,8 @@
         "item_qahA3p"
       ],
       "custom_css": [
-        "h2 {text-transform: uppercase;}",
-        "section {margin-bottom: 0px;}"
+        "section {margin-bottom: 0px;}",
+        "@media screen and (max-width: 999px) {.split-container {display: grid; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Split_Banner_1000x590_Melume_CLub.jpg",
