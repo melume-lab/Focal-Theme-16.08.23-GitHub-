@@ -89,6 +89,10 @@
           
             <div class="klaviyo-form-UrAe9n"></div>
 
+          {%- if section.settings.endtitle != blank -%}
+          <h2 class="heading heading--small" style="margin: 0px">{{ section.settings.endtitle | escape }}</h2>
+          {%- endif -%}
+
         </div>
       </div>
     </div>
