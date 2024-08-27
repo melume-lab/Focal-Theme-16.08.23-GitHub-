@@ -58,7 +58,7 @@
         "d748b0dc-b1b1-4e8e-9f64-c6a06488fb8a": {
           "type": "html",
           "settings": {
-            "html": "Auto-replenishment:<ul style=\"list-style-type: '→ ';\nmargin-left: -20px;\">\n<li>\n<p>Exclusively payable with Paypal.<\/p>\n<\/li>\n<li>\n<p>You can pause or cancel the delivery and change the frequency at any time.<\/p>\n<\/li>\n<li>\n<p>You determine your delivery times.<\/p>\n<\/li>\n<li>\n<p>You will be notified before each delivery.<\/p>\n<\/li>\n<\/ul>"
+            "html": "Auto-replenishment:<ul style=\"list-style-type: '→ ';\nmargin-left: -20px;\">\n<li>\n<p>Exclusively payable with Paypal.<\/p>\n<\/li>\n<li>\n<p>You can pause or cancel the delivery and change the frequency at any time.<\/p>\n<\/li>\n<li>\n<p>You determine your delivery times.<\/p>\n<\/li>\n<li>\n<p>You will be notified before each delivery.<\/p>\n<\/li>\n<li>\n<p>You can cancel your subscription at any time after receiving at least two delivery cycles.<\/p>\n<\/li>\n<\/ul>"
           }
         },
         "6104bf44-3c8a-45ac-9448-0b6a23fda608": {
