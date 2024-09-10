@@ -572,7 +572,8 @@
         "h2 {text-transform: uppercase;}",
         "section {margin: 0px;}",
         ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
-        ".image-tiles-text-main-container-left-twt {margin-right: auto; max-height: 400px;}"
+        ".image-tiles-text-main-container-left-twt {margin-right: auto;}",
+        ".image-container-twt {min-height: 550px;}"
       ],
       "settings": {
         "image_left": "shopify:\/\/shop_images\/Split_Banner_Retinol_1000x590_37a274e3-c10e-4df5-9df4-c6ff805a9bec.jpg",
