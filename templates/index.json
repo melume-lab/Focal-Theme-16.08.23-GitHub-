@@ -519,6 +519,7 @@
       "block_order": [
         "item_APWUYX"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {text-transform: uppercase;}",
         "section {margin: 0px;}",
@@ -529,7 +530,7 @@
         "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; } section {margin-top: -80px; } .prd-img {display: block; max-width: 70vw; margin-left: 15px; margin-right: auto; }}"
       ],
       "settings": {
-        "image_left": "shopify:\/\/shop_images\/Solid_White.png",
+        "image_left": "shopify:\/\/shop_images\/Split_Banner_Retinol_1000x590_01ed24bc-553d-4bde-91fc-06daf54b6ce8.jpg",
         "title_left": "THE RETINOL COLLECTION",
         "content_left": "",
         "html_left": "<dic class=\"prd-img\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Retinol_Collection_ea73ad70-0ad1-4c08-83e4-0c1640ef58c0.png?v=1693815805\">\n<\/dic>",
@@ -537,6 +538,51 @@
         "button_link_left": "shopify:\/\/collections\/retinol-collection",
         "image_right": "shopify:\/\/shop_images\/Split_Banner_1000x590_Library.jpg",
         "title_right": "Skincare Lovers Education",
+        "content_right": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS<\/p>",
+        "html_right": "",
+        "button_text_right": "EXPLORE",
+        "button_link_right": "shopify:\/\/pages\/skincare-ingredients",
+        "link_style_": "link",
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_image_tiles_with_text_QEAkBH": {
+      "type": "MS_image-tiles-with-text",
+      "blocks": {
+        "item_Y69JKd": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading"
+          }
+        }
+      },
+      "block_order": [
+        "item_Y69JKd"
+      ],
+      "custom_css": [
+        "h2 {text-transform: uppercase;}",
+        "section {margin: 0px;}",
+        ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
+        ".image-tiles-text-main-container-left-twt {margin-right: auto; max-height: 400px;}"
+      ],
+      "settings": {
+        "image_left": "shopify:\/\/shop_images\/Split_Banner_Retinol_1000x590_01ed24bc-553d-4bde-91fc-06daf54b6ce8.jpg",
+        "title_left": "THE RETINOL COLLECTION",
+        "content_left": "",
+        "html_left": "",
+        "button_text_left": "SHOP NOW",
+        "button_link_left": "shopify:\/\/collections\/retinol-collection",
+        "image_right": "shopify:\/\/shop_images\/Split_Banner_1000x590_Library.jpg",
+        "title_right": "SKINCARE LOVERS EDUCATION",
         "content_right": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS<\/p>",
         "html_right": "",
         "button_text_right": "EXPLORE",
@@ -689,6 +735,7 @@
     "ms_image_tiles_right_qWMTVF",
     "ms_image_tiles_left_XGthUc",
     "ms_image_tiles_with_text_VdxVeb",
+    "ms_image_tiles_with_text_QEAkBH",
     "4cb96c4e-f6bf-403a-bf61-960a96060549",
     "55fdc1b9-fa3a-4685-973c-0b567f332b6f",
     "d734dfcf-fa26-4061-9e14-92a8029c34a8",
