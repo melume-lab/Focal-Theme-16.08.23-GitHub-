@@ -519,7 +519,6 @@
       "block_order": [
         "item_APWUYX"
       ],
-      "disabled": true,
       "custom_css": [
         "h3 {text-transform: uppercase;}",
         "section {margin: 0px;}",
@@ -573,7 +572,8 @@
         "section {margin: 0px;}",
         ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
         ".image-tiles-text-main-container-left-twt {margin-right: auto;}",
-        ".image-container-twt {min-height: 550px;}"
+        ".image-container-twt {min-height: 550px;}",
+        "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; }"
       ],
       "settings": {
         "image_left": "shopify:\/\/shop_images\/Split_Banner_Retinol_1000x590_37a274e3-c10e-4df5-9df4-c6ff805a9bec.jpg",
