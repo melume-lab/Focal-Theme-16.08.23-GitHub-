@@ -193,20 +193,59 @@
       height: auto;
    }
   }
+
+/* Hide the small image by default */
+.small-image {
+  display: none;
+}
+
+/* Media query for screens smaller than 999px */
+@media (max-width: 999px) {
+  /* Only display the small image if it exists */
+  .large-image {
+    display: block;
+  }
+
+  {% if section.settings.image_right_small %}
+  .large-image-right {
+    display: none;
+  }
+  .small-image {
+    display: block;
+  }
+  {% endif %}
+  
+  {% if section.settings.image_left_small%}
+  .large-image-left {
+    display: none;
+  }
+  .small-image {
+    display: block;
+  }
+  {% endif %}
+  
+}
+
+  
 </style>
 
 <section class="section">
   <div {% if is_boxed %}class="container"{% endif %}>
     <div class="split-container-twt">
       <div class="image-container-twt">
-          <div class="image-overlay-twt">
-            {% if section.settings.image_left %}
-              {% assign image_left_url = section.settings.image_left | img_url: 'master' %}
-              <img src="{{ image_left_url }}" alt="Left Image">
-              {% else %}
-              <p>No image selected</p>
+        <div class="image-overlay-twt">
+          {% if section.settings.image_left %}
+            {% assign image_left_url = section.settings.image_left | img_url: 'master' %}
+            {% assign image_left_small_url = section.settings.image_left_small | img_url: 'master' %}
+            <img src="{{ image_left_url }}" alt="Right Image" class="large-image-left">
+            {% if section.settings.image_left_small %}
+              <img src="{{ image_left_small_url }}" alt="Small Image" class="small-image">
             {% endif %}
-          </div>
+          {% else %}
+            <p>No image selected</p>
+          {% endif %}
+        </div>
+        
            <div class="image-tiles-text-main-container-left-twt">
             <div class="overlay-text-left">
               
@@ -243,15 +282,19 @@
           
         
       </div>
-      <div class="image-container-twt">
-        <div class="image-overlay-twt">
-          {% if section.settings.image_right %}
-            {% assign image_right_url = section.settings.image_right | img_url: 'master' %}
-            <img src="{{ image_right_url }}" alt="Right Image">
-          {% else %}
-          <p>No image selected</p>
-        {% endif %}
-        </div>
+          <div class="image-container-twt">
+            <div class="image-overlay-twt">
+              {% if section.settings.image_right %}
+                {% assign image_right_url = section.settings.image_right | img_url: 'master' %}
+                {% assign image_right_small_url = section.settings.image_right_small | img_url: 'master' %}
+                <img src="{{ image_right_url }}" alt="Right Image" class="large-image-right">
+                {% if section.settings.image_right_small %}
+                  <img src="{{ image_right_small_url }}" alt="Small Image" class="small-image">
+                {% endif %}
+              {% else %}
+                <p>No image selected</p>
+              {% endif %}
+            </div>
             <div class="image-tiles-text-main-container-right-twt">
               
             <div class="overlay-text-right">
@@ -304,6 +347,11 @@
       "info": "1400 x 1400px .jpg recommended"
     },
     {
+      "type": "image_picker",
+      "id": "image_left_small",
+      "label": "Mobile Image"
+    },
+    {
       "type": "text",
       "id": "title_left",
       "label": "Heading",
@@ -339,6 +387,11 @@
       "id": "image_right",
       "label": "Image",
       "info": "1400 x 1400px .jpg recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_right_small",
+      "label": "Mobile Image"
     },
     {
       "type": "text",
