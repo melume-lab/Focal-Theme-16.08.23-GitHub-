@@ -569,15 +569,17 @@
         "item_Y69JKd"
       ],
       "custom_css": [
-        "h2 {text-transform: uppercase;}",
+        "h3 {text-transform: uppercase;}",
         "section {margin: 0px;}",
         ".overlay-text-left,.overlay-text-right {width: 80%; margin-left: 0px; margin-right: auto;}",
+        ".overlay-text-left {margin-bottom: 80px;}",
         ".image-tiles-text-main-container-left-twt {margin-right: auto;}",
         ".image-container-twt {min-height: 550px;}",
         "@media screen and (max-width: 999px) {.image-container-twt {min-height: 400px; height: auto; }}"
       ],
       "settings": {
         "image_left": "shopify:\/\/shop_images\/Split_Banner_Retinol_1000x590_37a274e3-c10e-4df5-9df4-c6ff805a9bec.jpg",
+        "image_left_small": "shopify:\/\/shop_images\/Retinol_Banner_1000x1000_65e4ace2-27b8-4ce0-8ed5-006a16a97bda.jpg",
         "title_left": "THE RETINOL COLLECTION",
         "content_left": "",
         "html_left": "",
