@@ -15286,7 +15286,7 @@ COSTUM ELEMENTS
 .promo-heading {
   font-family: Montserrat-Variable;
   font-weight: 300;
-  font-size: 38px!important;
+  font-size: calc(var(--heading-h2-font-size) - 3px)!important;
   line-height: 38px!important;
   margin-bottom: 20px;
 }
@@ -15306,7 +15306,7 @@ COSTUM ELEMENTS
    .promo-heading {
     font-family: Montserrat-Variable;
     font-weight: 300;
-    font-size: 34px!important;
+    font-size: calc(var(--heading-h2-font-size) - 3px)!important;
     line-height: 34px!important;
     margin-bottom: 15px;
   }
