@@ -114,9 +114,9 @@
           {%- endif -%}
 
           {%- if section.settings.title != blank -%}
-            <h2 class="heading h2">
+            <h{{ section.settings.h_value }} class="heading h2" style="font-size: 40px; text-transform: uppercase;">
               <split-lines {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ section.settings.title | escape }}</split-lines>
-            </h2>
+            </h{{ section.settings.h_value }}>
           {%- endif -%}
 
           {%- if section.settings.html != blank -%}
@@ -185,6 +185,16 @@
       "id": "title",
       "label": "Heading",
       "default": "Image with text block"
+    },
+    {
+      "type": "range",
+      "id": "h_value",
+      "label": "Define H-Tag",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "Tag",
+      "default": 2
     },
     {
       "type": "html",
