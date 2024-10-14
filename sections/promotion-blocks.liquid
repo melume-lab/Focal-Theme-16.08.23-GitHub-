@@ -131,7 +131,7 @@
           {%- endif -%}
 
           {%- if section.settings.title != blank -%}
-            <h3 class="heading h2">{{ section.settings.title | escape }}</h3>
+            <h{{ section.settings.h_value }} class="heading h2">{{ section.settings.title | escape }}</h{{ section.settings.h_value }}>
           {%- endif -%}
         </header>
       {%- endif -%}
@@ -229,13 +229,13 @@
                       {%- assign block_column_ratio = 2 -%}
                     {%- endif -%}
 
-                  <div class="selection-container">
-                    <img class="image"
-                         loading="lazy"
-                         sizes="(max-width: 740px) calc(100vw - 24px * 2), calc(min(100vw, 1560px) / {{ block_column_ratio }} - 20px * {{ block_column_ratio | minus: 1 }})"
-                         {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
-                    </div>
-                  {%- endif -%}
+                      <div class="selection-container">
+                        <img class="image"
+                             loading="lazy"
+                             sizes="(max-width: 740px) calc(100vw - 24px * 2), calc(min(100vw, 1560px) / {{ block_column_ratio }} - 20px * {{ block_column_ratio | minus: 1 }})"
+                             {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
+                      </div>
+                    {%- endif -%}
                   
                   
 
@@ -521,6 +521,16 @@
       "id": "title",
       "label": "Heading",
       "default": "Promotion blocks"
+    },
+    {
+      "type": "range",
+      "id": "h_value",
+      "label": "Define H-Tag",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "Tag",
+      "default": 3
     },
     {
       "type": "select",
