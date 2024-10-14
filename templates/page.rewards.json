@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,7 +22,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "<style>\n  \n.custom-loyalty-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  text-align: center;\n}\n\n.custom-loyalty-text {\n  font-weight: normal;\n}\n\n.custom-loyalty-points {\n  font-weight: bold;\n  margin-left: 1px;\n}\n\n.custom-loyalty-phrase {\n  font-weight: normal;\n}\n\n@media screen and (max-width: 740px) {\n.custom-loyalty-container {\n  margin-top: 3px;\n  margin-bottom: 3px;\n  }\n}\n  \n<\/style>\n\n<div class=\"custom-loyalty-container\">\n  {%- if shop.customer_accounts_enabled -%}\n    <a type=\"button\" href=\"#\" class=\"btn--link\" onclick=\"avadaJoyTrigger();\" style=\"line-height: 40px; cursor: pointer\">\n       {%- if customer -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU HAVE<\/span>\n           <span class=\"custom-loyalty-points\">\n             {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}\n             {%- for digit in aj_point -%}\n               {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}\n               {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}\n             {% endfor %}\n             <span class=\"custom-loyalty-phrase\"> {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}<\/span>\n           <\/span>\n         <\/p>\n       {%- else -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU DON'T HAVE ANY SKIN CLUB POINTS YET<\/span>\n         <\/p>\n       {%- endif -%}\n    <\/a>\n  {%- endif -%}\n<\/div>",
+        "liquid": "<style>\n  \n.custom-loyalty-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  text-align: center;\n}\n\n.custom-loyalty-text {\n  font-weight: normal;\n}\n\n.custom-loyalty-points {\n  font-weight: bold;\n  margin-left: 1px;\n}\n\n.custom-loyalty-phrase {\n  font-weight: normal;\n}\n\n@media screen and (max-width: 740px) {\n.custom-loyalty-container {\n  margin-top: 3px;\n  margin-bottom: 3px;\n  }\n}\n  \n</style>\n\n<div class=\"custom-loyalty-container\">\n  {%- if shop.customer_accounts_enabled -%}\n    <a type=\"button\" href=\"#\" class=\"btn--link\" onclick=\"avadaJoyTrigger();\" style=\"line-height: 40px; cursor: pointer\">\n       {%- if customer -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU HAVE</span>\n           <span class=\"custom-loyalty-points\">\n             {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}\n             {%- for digit in aj_point -%}\n               {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}\n               {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}\n             {% endfor %}\n             <span class=\"custom-loyalty-phrase\"> {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}</span>\n           </span>\n         </p>\n       {%- else -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU DON'T HAVE ANY SKIN CLUB POINTS YET</span>\n         </p>\n       {%- endif -%}\n    </a>\n  {%- endif -%}\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -29,10 +38,10 @@
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": false,
-        "button_link": "shopify:\/\/pages\/earn-points",
-        "button_link2": "shopify:\/\/pages\/rewards",
-        "button_link3": "shopify:\/\/pages\/membership",
-        "button_link4": "\/a\/subscriptions\/manage\/"
+        "button_link": "shopify://pages/earn-points",
+        "button_link2": "shopify://pages/rewards",
+        "button_link3": "shopify://pages/membership",
+        "button_link4": "/a/subscriptions/manage/"
       }
     },
     "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889": {
@@ -41,11 +50,10 @@
         "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_Clean_1.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_Clean_1.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "500 Points",
-            "content": "",
             "title": "5 $ Off",
             "link_text": "",
             "link_text_2": "Redeem",
@@ -64,7 +72,6 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "1000 Points",
-            "content": "",
             "title": "10 $ Off",
             "link_text": "",
             "link_text_2": "Redeem",
@@ -80,11 +87,10 @@
         "d4d4b41c-9f66-4f6d-9e83-e1e8894a8f89": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_Clean_3.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_Clean_3.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "2000 Points",
-            "content": "",
             "title": "20 $ Off",
             "link_text": "",
             "link_text_2": "Redeem",
@@ -103,7 +109,6 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "3000 Points",
-            "content": "",
             "title": "30 $ Off",
             "link_text": "",
             "link_text_2": "Redeem",
@@ -119,11 +124,10 @@
         "df5f8365-a5f9-4fea-a63e-be537ab3a8e2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_Clean_5.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_Clean_5.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "4000 Points",
-            "content": "",
             "title": "40 $ Off",
             "link_text": "",
             "link_text_2": "Redeem",
@@ -142,7 +146,6 @@
             "highlight": false,
             "reload_enabled": true,
             "subheading": "5000 Points",
-            "content": "",
             "title": "50 $ Off",
             "link_text": "",
             "link_text_2": "Redeem",
@@ -158,7 +161,7 @@
         "product_reward_BpAKXY": {
           "type": "product-reward",
           "settings": {
-            "reward_image": "shopify:\/\/shop_images\/00_Melume_Pack_Roller_frei.png",
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Roller_frei.png",
             "reload_enabled": true,
             "subheading": "650 Points",
             "title": "CONTOURING FACIAL ROLLER",
@@ -174,7 +177,7 @@
         "product_reward_JKqHYE": {
           "type": "product-reward",
           "settings": {
-            "reward_image": "shopify:\/\/shop_images\/00_Melume_Pack_Peel_Cloth_Frei.png",
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Peel_Cloth_Frei.png",
             "reload_enabled": true,
             "subheading": "700 Points",
             "title": "PHENOMENAL MICRO PEELING CLOTH",
@@ -190,7 +193,7 @@
         "product_reward_DRK7P7": {
           "type": "product-reward",
           "settings": {
-            "reward_image": "shopify:\/\/shop_images\/00_Melume_Pack_Balmy_Oily_Cleanser_frei.png",
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Balmy_Oily_Cleanser_frei.png",
             "reload_enabled": true,
             "subheading": "1300 Points",
             "title": "BALMY OILY MILKY CLEANSER",
@@ -216,14 +219,14 @@
         "product_reward_DRK7P7"
       ],
       "custom_css": [
-        "h3 {text-transform: uppercase;}",
+        "h1 {text-transform: uppercase;}",
         "@media screen and (min-width: 741px) {.promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)) !important; margin-right: calc(var(--grid-column-width) + var(--grid-gap)) !important; }}",
         ".promotion-block {border: 1.2px solid #d0d0d0;}"
       ],
       "settings": {
         "subheading": "",
         "title": "Rewards",
-        "content": "",
+        "h_value": 1,
         "section_size": "large",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
