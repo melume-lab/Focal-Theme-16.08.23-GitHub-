@@ -1,9 +1,3 @@
-{%- if section.settings.background_type == 'boxed' -%}
-  {%- assign is_boxed = true -%}
-{%- else -%}
-  {%- assign is_boxed = false -%}
-{%- endif -%}
-
 {%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
   {%- assign blends_with_background = false -%}
 {%- else -%}
@@ -31,184 +25,538 @@
 
     --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
   }
-  
 
-  .press-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 5px; 
-  }
-  
-@media screen and (max-width: 1099px) {
-  .press-section {
-    justify-content: space-between;
-    
-
-  }
-}
-  
-  .press-entry {
-    width: 23%; /* Adjust as needed */
-    min-width: calc(23% - 5px); 
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
-    overflow: hidden; /* Ensure the overlay stays within the image boundaries */
-  }
-
-  .press-entry img {
-    width: 20vw;
-    max-width: 300px; 
-    margin-top: 75px;
-    height: auto;
-    position: relative;
-    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
-  }
-
-  .press-entry img::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4); /* Adjust the opacity (last parameter) as needed */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
-    pointer-events: none; /* Allow clicks to pass through the overlay */
-  }
-
-  .press-entry:hover img {
-    /* Add your hover styles for the image */
-    filter: grayscale(0%); /* Reset grayscale effect on hover */
-    opacity: 0.8; /* Adjust the opacity as needed */
-  }
-
-  .press-entry:hover img::before {
-    opacity: 1; /* Show the overlay on hover */
-  }
-
-  .press-entry a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  @media screen and (min-width: 1100px) {
-    .press-entry {
-      width: calc(25% - 5px); /* Adjust as needed for 4 columns with 5px gap */
-    }
-
-    .press-entry img {
-      width: 100%; /* Make the image fill the container width */
-      max-width: 300px; /* Adjust max-width as needed */
-    }
-  }
-
-  @media screen and (max-width: 1099px) {
-    .press-entry {
-      width: 48%;
-      min-width: calc(48% - 5px);
-    }
-    .press-entry img {
-      width: 40vw;
-      max-width: 500px;
-    }
-  }
-
-  @media screen and (max-width: 740px) {
-    .press-entry img {
-      width: 40vw;
-      margin-top: 40px;
-    }
-
-    .press-entry img:hover {
-      /* Add your hover styles for the image on small screens */
-      opacity: 0.8; /* Adjust the opacity as needed */
-    }
-  }
-</style>
-
-
-
-<section class="{% if section.settings.add_vertical_spacing %}section{% endif %} {% unless blends_with_background or is_boxed %}section--flush{% endunless %}">
-  <div {% if is_boxed %}class="container"{% endif %}>
-    <div class="section__color-wrapper {% if is_boxed %}section__color-wrapper--boxed{% endif %}">
-      <div class="{% unless is_boxed %}container{% endunless %} {% unless blends_with_background %}vertical-breather{% endunless %}">
-        {%- if section.settings.subheading != blank or section.settings.title != blank -%}
-          <header class="section__header text-container">
-            {%- if section.settings.subheading != blank -%}
-              <div class="heading heading--small" style="font-size: calc(12px + 1vw); font-weight: 600;">{{ section.settings.subheading | escape }}</div>
-            {%- endif -%}
-
-            {%- if section.settings.title != blank -%}
-              <h1 class="heading h2">{{ section.settings.title | escape }}</h1>
-            {%- endif -%}
-          </header>
+  {%- for block in section.blocks -%}
+    #block-{{ section.id }}-{{ block.id }} {
+      {%- unless block.type == 'video' -%}
+        {%- if block.settings.text_color == 'rgba(0,0,0,0)' -%}
+          {%- assign heading_color = settings.heading_color -%}
+          {%- assign text_color = settings.text_color -%}
+        {%- else -%}
+          {%- assign heading_color = block.settings.text_color -%}
+          {%- assign text_color = block.settings.text_color -%}
         {%- endif -%}
 
-        <div class="press-section">
-          {% assign sorted_press_values = shop.metaobjects.press.values | sort_natural: 'nummer' | reverse %}
-          {% for presse in sorted_press_values %}
-            <div class="press-entry">
-              {% assign file_path = presse.artikel_url | replace: 'https://cdn.shopify.com/s/files/1/0770/7466/1714/files/', '' %}
-              <a href="{{ shop.url }}/cdn/shop/files/{{ file_path }}" target="_blank">
-                <img src="{{ presse.bild | img_url: '500x' }}" alt="{{ presse.name }}">
-              </a>
-              <p style="margin-bottom: 5px; font-weight: 700;">{{ presse.name }}</p>
-              <p style="margin-top: 5px;">{{ presse.datum }}</p>
-            </div>
-          {% endfor %}
+        --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+        --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+        --section-block-background: {{ block.settings.background.red }}, {{ block.settings.background.green }}, {{ block.settings.background.blue }};
+
+        {%- if block.type == 'image' or block.type == 'newsletter' or block.type == 'selection' -%}
+          --primary-button-background: {{ block.settings.button_background.red }}, {{ block.settings.button_background.green }}, {{ block.settings.button_background.blue }};
+          --primary-button-text-color: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }};
+
+          {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+
+          {%- case text_position -%}
+            {%- when 'top' -%}
+              {%- assign section_items_alignment = 'flex-start' -%}
+            {%- when 'middle' -%}
+              {%- assign section_items_alignment = 'center' -%}
+            {%- when 'bottom' -%}
+              {%- assign section_items_alignment = 'flex-end' -%}
+          {%- endcase -%}
+
+          --section-blocks-alignment: {{ section_items_alignment }};
+        {%- endif -%}
+
+        {%- if block.type == 'featured_products' -%}
+          --prev-next-button-background: var(--section-block-background);
+          --prev-next-button-color: var(--text-color);
+        {%- endif -%}
+      {%- endunless -%}
+    }
+  {%- endfor -%}
+
+.promotion-block {
+    display: block;
+    align-content: center;
+}
+  
+@media screen and (min-width: 1200px) {
+  .custom-button-wrapper {
+    display: block;
+    align-content: center;
+    position: absolute;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align:center;
+    width: 100%;
+    Height: 100%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .custom-button-wrapper {
+    display: block;
+    align-content: center;
+    position: absolute;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align:center;
+    width: 100%;
+    Height: 100%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .custom-button-wrapper {
+    display: block;
+    align-content: center;
+    position: absolute;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    text-align:center;
+    width: 100%;
+    Height: 100%;
+  }
+}
+
+.selection-container {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-top: 0px;
+  overflow: hidden;
+}
+  
+</style>
+
+<section class="section {% unless blends_with_background %}section--flush{% endunless %}">
+  <div class="section__color-wrapper">
+    <div class="container {% unless blends_with_background %}vertical-breather{% endunless %}">
+      {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+        <header class="section__header text-container">
+          {%- if section.settings.subheading != blank -%}
+            <h2 class="heading heading--small">{{ section.settings.subheading | escape }}</h2>
+          {%- endif -%}
+
+          {%- if section.settings.title != blank -%}
+            <h{{ section.settings.h_value }} class="heading h2">{{ section.settings.title | escape }}</h{{ section.settings.h_value }}>
+          {%- endif -%}
+        </header>
+      {%- endif -%}
+
+      {%- capture section_content -%}
+        <div class="promotion-block-list {% unless section.settings.stack_on_mobile %}promotion-block-list--scrollable{% endunless %}">
+          {%- for block in section.blocks -%}
+           {%- case block.type -%}
+              
+             {%- when 'image' -%}
+                {%- capture block_content -%}
+                  {%- if block.settings.image != blank -%}
+                    {%- assign block_column_ratio = 3 | at_most: section.blocks.size -%}
+                    {%- if block.settings.highlight -%}
+                      {%- assign block_column_ratio = 2 -%}
+                    {%- endif -%}
+
+                    <img class="promotion-block__image"
+                         loading="lazy"
+                         sizes="(max-width: 740px) calc(100vw - 24px * 2), calc(min(100vw, 1560px) / {{ block_column_ratio }} - 20px * {{ block_column_ratio | minus: 1 }})"
+                         {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
+                  {%- endif -%}
+                  
+
+                  <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
+                    {%- if block.settings.subheading != blank -%}
+                      <p class="heading heading--small">{{ block.settings.subheading | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.title != blank -%}
+                      <p class="heading h2">{{ block.settings.title | escape | newline_to_br }}</p>
+                    {%- endif -%}
+                  
+                    {%- if block.settings.link_text != blank -%}
+                      {%- if block.settings.link_style == 'link' -%}
+                        <span class="heading heading--small link">{{ block.settings.link_text | escape }}</span>
+                      {%- else -%}
+                        <div class="button-wrapper">
+                          <span class="button button--small button--primary">{{ block.settings.link_text | escape }}</span>
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+
+                    <div class="custom-button-wrapper">
+                    {%- if block.settings.link_text_2 != blank -%}
+                      {%- if block.settings.link_style == 'link' -%}
+                        <span class="heading heading--small link">{{ block.settings.link_text_2 | escape }}</span>
+                      {%- else -%}
+                        <div class="button-wrapper">
+                          <span class="button button--small button--primary">{{ block.settings.link_text_2 | escape }}</span>
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+
+                    
+                  </div>
+                    
+                  </div>
+
+                    
+                  
+                {%- endcapture -%}
+
+                {%- if block.settings.link_url != blank -%}
+                  <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} {% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>
+                    {{- block_content -}}
+                  </a>
+                
+                  <script>
+                    function delayedReload() {
+                      setTimeout(function() {
+                        window.location.reload();
+                      }, 100);
+                    }
+                
+                    function noAction() {
+                      // This function does nothing
+                    }
+                  </script>
+
+                {%- else -%}
+                  <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
+                    {{- block_content -}}
+                  </div>
+                {%- endif -%}
+
+
+              {%- when 'selection' -%}
+                {%- capture block_content -%}
+
+                  
+                  {%- if block.settings.image != blank -%}
+                    {%- assign block_column_ratio = 3 | at_most: section.blocks.size -%}
+                    {%- if block.settings.highlight -%}
+                      {%- assign block_column_ratio = 2 -%}
+                    {%- endif -%}
+
+                      <div class="selection-container">
+                        <img class="image"
+                             loading="lazy"
+                             sizes="(max-width: 740px) calc(100vw - 24px * 2), calc(min(100vw, 1560px) / {{ block_column_ratio }} - 20px * {{ block_column_ratio | minus: 1 }})"
+                             {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
+                      </div>
+                    {%- endif -%}
+                  
+                  
+
+                  <div class="content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}; margin-top: 20px; margin-bottom: 40px;">
+                    {%- if block.settings.subheading != blank -%}
+                      <p class="heading heading--small">{{ block.settings.subheading | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.title != blank -%}
+                      <p class="heading h2">{{ block.settings.title | escape | newline_to_br }}</p>
+                    {%- endif -%}
+                  
+                    {%- if block.settings.link_text != blank -%}
+                      {%- if block.settings.link_style == 'link' -%}
+                        <span class="heading heading--small link">{{ block.settings.link_text | escape }}</span>
+                      {%- else -%}
+                        <div class="button-wrapper">
+                          <span class="button button--small button--primary">{{ block.settings.link_text | escape }}</span>
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+
+                    <div class="custom-button-wrapper">
+                    {%- if block.settings.link_text_2 != blank -%}
+                      {%- if block.settings.link_style == 'link' -%}
+                        <span class="heading heading--small link">{{ block.settings.link_text_2 | escape }}</span>
+                      {%- else -%}
+                        <div class="button-wrapper">
+                          <span class="button button--small button--primary">{{ block.settings.link_text_2 | escape }}</span>
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+
+                    
+                  </div>
+                    
+                  </div>
+
+                    
+                  
+                {%- endcapture -%}
+
+                {%- if block.settings.link_url != blank -%}
+                  <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} {% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>
+                    {{- block_content -}}
+                  </a>
+                
+                  <script>
+                    function delayedReload() {
+                      setTimeout(function() {
+                        window.location.reload();
+                      }, 100);
+                    }
+                
+                    function noAction() {
+                      // This function does nothing
+                    }
+                  </script>
+
+                {%- else -%}
+                  <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
+                    {{- block_content -}}
+                  </div>
+                {%- endif -%}
+
+
+
+              {%- when 'product-reward' -%}
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--product-reward {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }} style="padding: 25px;">
+                  
+                    
+                    <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
+
+                      {%- if block.settings.reward_image != blank -%}
+                    <img loading="lazy" style="max-width: 60%; margin: auto;" {% render 'image-attributes', image: block.settings.reward_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
+                    {%- endif -%}
+                      
+                    {%- if block.settings.subheading != blank -%}
+                      <p class="heading heading--small">{{ block.settings.subheading | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.title != blank -%}
+                      <p class="heading h6">{{ block.settings.title | escape | newline_to_br }}</p>
+                    {%- endif -%}
+                  
+                    {%- if block.settings.link_text != blank -%}
+                      <div class="button-wrapper" style="margin: 0px;">
+                        
+                        <a href="{{ block.settings.link_url }}" class="button button--small button--primary" style="background-image: none; background-color: #fff; color: #000;"{% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>{{ block.settings.link_text }} </a>
+                      </div>
+                    {%- else -%}
+                  <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
+                    {{- block_content -}}
+                  </div>
+                {%- endif -%}
+
+                  </div>
+                </div>
+
+              
+                
+                  <script>
+                    function delayedReload() {
+                      setTimeout(function() {
+                        window.location.reload();
+                      }, 100);
+                    }
+                
+                    function noAction() {
+                      // This function does nothing
+                    }
+                  </script>
+
+                
+
+
+              
+
+              {%- when 'quote' -%}
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--quote {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
+                  <div class="promotion-block__content-wrapper text-container">
+                    {%- if block.settings.subheading != blank -%}
+                      <h4 class="heading heading--small">{{ block.settings.subheading | escape }}</h4>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      <h5 class="heading {% if block.settings.highlight or section.blocks.size < 3 %}h4{% else %}h5{% endif %}">{{ block.settings.content | escape }}</h5>
+                    {%- endif -%}
+
+                    {%- if block.settings.author != blank -%}
+                      <p>{{ block.settings.author | escape }}</p>
+                    {%- endif -%}
+                  </div>
+                </div>
+
+              {%- when 'newsletter' -%}
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
+                  <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
+                    {%- if block.settings.title != blank -%}
+                      <h4 class="heading h4">{{ block.settings.title | escape }}</h4>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      {{- block.settings.content -}}
+                    {%- endif -%}
+
+                    {%- assign newsletter_id = 'newsletter-' | append: section.id -%}
+
+                    {%- form 'customer', id: newsletter_id, class: 'form newsletter__form' -%}
+                      {%- if form.posted_successfully? -%}
+                        <div class="form__banner banner banner--success">
+                          <span class="banner__ribbon">{% render 'icon' with 'form-success' %}</span>
+                          <p class="banner__content">{{ 'general.newsletter.success' | t }}</p>
+                        </div>
+                      {%- else -%}
+                        {%- if form.errors -%}
+                          <div class="form__banner banner banner--error">
+                            <span class="banner__ribbon">{% render 'icon' with 'form-error' %}</span>
+                            <p class="banner__content">{{ form.errors.messages['email'] }}</p>
+                          </div>
+                        {%- endif -%}
+
+                        <input type="hidden" name="contact[tags]" value="newsletter">
+                        <input type="hidden" name="contact[context]" value="{{ newsletter_id }}">
+
+                        <div class="input-row">
+                          <div class="input">
+                            <input type="email" id="newsletter[{{ section.id }}][contact][email]" name="contact[email]" class="input__field" required>
+                            <label for="newsletter[{{ section.id }}][contact][email]" class="input__label">{{ 'general.newsletter.email' | t }}</label>
+                          </div>
+
+                          <div class="input">
+                            <button type="submit" class="button button--primary">{{ 'general.newsletter.subscribe' | t }}</button>
+                          </div>
+                        </div>
+                      {%- endif -%}
+                    {%- endform -%}
+                  </div>
+                </div>
+
+              {%- when 'featured_products' -%}
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--products {% if block.settings.highlight %}promotion-block--highlight{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
+                  <div class="promotion-block__content-wrapper">
+                    {%- if block.settings.subheading != blank -%}
+                      <h4 class="heading heading--small">{{ block.settings.subheading | escape }}</h4>
+                    {%- endif -%}
+
+                    {%- assign shown_products = 0 -%}
+
+                    {%- capture product_items -%}
+                      {%- for i in (1..4) -%}
+                        {%- assign option_setting = 'product_' | append: i -%}
+                        {%- assign product = block.settings[option_setting] -%}
+
+                        {%- if product != blank -%}
+                          <native-carousel-item {% if shown_products > 0 %}hidden{% endif %} class="promotion-block__product-list-item">
+                            {%- render 'product-item', product: product, reduced_content: true, sizes_attribute: '150px' -%}
+                            {%- assign shown_products = shown_products | plus: 1 -%}
+                          </native-carousel-item>
+                        {%- endif -%}
+                      {%- endfor -%}
+                    {%- endcapture -%}
+
+                    {%- if shown_products == 0 -%}
+                      {%- comment -%}Display placeholder if we have not shown anything{%- endcomment -%}
+                      {%- capture product_items -%}
+                        {%- for i in (1..4) -%}
+                          <native-carousel-item {% if shown_products > 0 %}hidden{% endif %} class="promotion-block__product-list-item">
+                            {%- capture product_image -%}product-{% cycle '1', '2', '3', '4', '5' %}{%- endcapture -%}
+                            {%- render 'product-item-placeholder', product_image: product_image, reduced_content: true -%}
+                            {%- assign shown_products = shown_products | plus: 1 -%}
+                          </native-carousel-item>
+                        {%- endfor -%}
+                      {%- endcapture -%}
+                    {%- endif -%}
+
+                    <native-carousel class="promotion-block__product-list-wrapper">
+                      <div class="promotion-block__product-list hide-scrollbar">
+                        {{- product_items -}}
+                      </div>
+
+                      {%- if shown_products > 1 -%}
+                        <prev-next-buttons class="promotion-block__product-list-prev-next">
+                          <button class="prev-next-button prev-next-button--small" disabled>
+                            <span class="visually-hidden">{{ 'general.accessibility.previous' | t }}</span>
+                            {%- include 'icon' with 'nav-arrow-left', width: 18, height: 10, direction_aware: true -%}
+                          </button>
+
+                          <button class="prev-next-button prev-next-button--small">
+                            <span class="visually-hidden">{{ 'general.accessibility.next' | t }}</span>
+                            {%- include 'icon' with 'nav-arrow-right', width: 18, height: 10, direction_aware: true -%}
+                          </button>
+                        </prev-next-buttons>
+                      {%- endif -%}
+                    </native-carousel>
+                  </div>
+                </div>
+
+              {%- when 'video' -%}
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--video {% if block.settings.highlight %}promotion-block--highlight{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
+                  <external-video autoplay provider="{{ block.settings.video_url.type | escape }}" class="video-wrapper video-wrapper--cover">
+                    <template>
+                      {%- if block.settings.video_url.type == 'youtube' -%}
+                        <iframe title="Video" id="player-{{ section.id }}" src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}?playsinline=1&autoplay=1&mute=1&loop=1&playlist={{ block.settings.video_url.id }}&enablejsapi=1&controls=0&rel=0&modestbranding=1&origin=https://{{ request.host }}" allow="autoplay; fullscreen"></iframe>
+                      {%- elsif block.settings.video_url.type == 'vimeo' -%}
+                        <iframe title="Video" id="player-{{ section.id }}" src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}?background=1&loop=1&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; fullscreen"></iframe>
+                      {%- endif -%}
+                    </template>
+                  </external-video>
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
         </div>
+      {%- endcapture -%}
 
-
-      </div>
+      {%- if section.settings.stack_on_mobile -%}
+        {{- section_content -}}
+      {%- else -%}
+        <div class="scroller" >
+          <div class="scroller__inner" >
+            {{- section_content -}}
+          </div>
+        </div>
+      {%- endif -%}
     </div>
   </div>
 </section>
 
-
-
 {% schema %}
 {
-  "name": "MS_Press",
-  "class": "shopify-section--ms_press",
+  "name": "Promotion blocks",
+  "class": "shopify-section--promotion-blocks",
+  "max_blocks": 50,
   "settings": [
     {
       "type": "text",
       "id": "subheading",
       "label": "Subheading",
-      "default": "Your subheading"
+      "default": "Subheading"
     },
     {
       "type": "text",
       "id": "title",
       "label": "Heading",
-      "default": "Your title"
+      "default": "Promotion blocks"
     },
     {
-      "type": "checkbox",
-      "id": "add_vertical_spacing",
-      "label": "Add vertical spacing",
-      "default": true
+      "type": "range",
+      "id": "h_value",
+      "label": "Define H-Tag",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "Tag",
+      "default": 3
     },
     {
       "type": "select",
-      "id": "background_type",
-      "label": "Background",
+      "id": "section_size",
+      "label": "Block height",
       "options": [
         {
-          "value": "full_width",
-          "label": "Full width"
+          "value": "small",
+          "label": "Small"
         },
         {
-          "value": "boxed",
-          "label": "Boxed"
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
         }
       ],
-      "default": "full_width"
+      "default": "medium"
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": true
     },
     {
       "type": "header",
@@ -227,9 +575,624 @@
       "default": "rgba(0,0,0,0)"
     }
   ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image with text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1800 x 900px .jpg recommended"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight tile",
+          "info": "A highlighted tile takes bigger space. Only has effect on desktop. Do not highlight more than 1 item per row.",
+          "default": false
+        },
+        {
+      "type": "checkbox",
+      "id": "reload_enabled",
+      "label": "Enable Reload",
+      "default": true
+    },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "text",
+          "id": "link_text_2",
+          "label": "Link text 2"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "select",
+          "id": "link_style",
+          "label": "Link style",
+          "options": [
+            {
+              "value": "link",
+              "label": "Link"
+            },
+            {
+              "value": "button",
+              "label": "Button"
+            }
+          ],
+          "default": "link"
+        },
+        {
+          "type": "select",
+          "id": "text_position",
+          "label": "Text position",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_center",
+              "label": "Top center"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle_left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle_center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle_right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle_center"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#f7f8fd",
+          "info": "Ignored if image is used."
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#1e316a"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "default": "#1e316a"
+        }
+      ]
+    },
+    {
+      "type": "selection",
+      "name": "Selection",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1800 x 900px .jpg recommended"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight tile",
+          "info": "A highlighted tile takes bigger space. Only has effect on desktop. Do not highlight more than 1 item per row.",
+          "default": false
+        },
+        {
+      "type": "checkbox",
+      "id": "reload_enabled",
+      "label": "Enable Reload",
+      "default": true
+    },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "text",
+          "id": "link_text_2",
+          "label": "Link text 2"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "select",
+          "id": "link_style",
+          "label": "Link style",
+          "options": [
+            {
+              "value": "link",
+              "label": "Link"
+            },
+            {
+              "value": "button",
+              "label": "Button"
+            }
+          ],
+          "default": "link"
+        },
+        {
+          "type": "select",
+          "id": "text_position",
+          "label": "Text position",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_center",
+              "label": "Top center"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle_left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle_center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle_right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle_center"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#f7f8fd",
+          "info": "Ignored if image is used."
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#1e316a"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "default": "#1e316a"
+        }
+      ]
+    },
+    {
+    "type": "product-reward",
+      "name": "Product Reward",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "reward_image",
+          "label": "Image",
+          "info": "1800 x 900px .jpg recommended"
+        },
+        {
+          "type": "checkbox",
+          "id": "reload_enabled",
+          "label": "Enable Reload",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "select",
+          "id": "text_position",
+          "label": "Text position",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_center",
+              "label": "Top center"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle_left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle_center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle_right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle_center"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#f7f8fd",
+          "info": "Ignored if image is used."
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#1e316a"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "default": "#1e316a"
+        }
+        
+     ]
+    },
+    
+    {
+      "type": "quote",
+      "name": "Quote",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight tile",
+          "info": "A highlighted tile takes bigger space. Only has effect on desktop. Do not highlight more than 1 item per row.",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "content",
+          "label": "Content",
+          "default": "Use this text to share information about your brand with your customers."
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author",
+          "default": "John S."
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#f7f8fd"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#1e316a"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight tile",
+          "info": "A highlighted tile takes bigger space. Only has effect on desktop. Do not highlight more than 1 item per row.",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Join us"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Rich text",
+          "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+        },
+        {
+          "type": "select",
+          "id": "text_position",
+          "label": "Text position",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_center",
+              "label": "Top center"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle_left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle_center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle_right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle_center"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#f7f8fd"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#1e316a"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "default": "#1e316a"
+        }
+      ]
+    },
+    {
+      "type": "featured_products",
+      "name": "Featured products",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight tile",
+          "info": "A highlighted tile takes bigger space. Only has effect on desktop. Do not highlight more than 1 item per row.",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Featured"
+        },
+        {
+          "type": "product",
+          "id": "product_1",
+          "label": "Product 1"
+        },
+        {
+          "type": "product",
+          "id": "product_2",
+          "label": "Product 2"
+        },
+        {
+          "type": "product",
+          "id": "product_3",
+          "label": "Product 3"
+        },
+        {
+          "type": "product",
+          "id": "product_4",
+          "label": "Product 4"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#f7f8fd"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#1e316a"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Video may be cut to adapt to the section size."
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight tile",
+          "info": "A highlighted tile takes bigger space. Only has effect on desktop. Do not highlight more than 1 item per row.",
+          "default": false
+        },
+        {
+          "type": "video_url",
+          "id": "video_url",
+          "accept": ["vimeo", "youtube"],
+          "label": "Video",
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
-      "name": "MS_Press"
+      "name": "Promotion blocks",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "image"
+        }
+      ]
     }
   ]
 }
