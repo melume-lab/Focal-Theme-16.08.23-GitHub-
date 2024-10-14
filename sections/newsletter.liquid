@@ -56,11 +56,11 @@
       <div {% if section.settings.reveal_on_scroll %}reveal{% endif %} class="image-with-text-block__content image-with-text-block__content--tight content-box content-box--large content-box--text-{{ section.settings.text_alignment}} content-box--{{ text_position }} text-container">
        
         {%- if section.settings.subheading != blank -%}
-          <h2 class="heading heading--small" style="margin-bottom: 15px; font-size: 18px; font-wight: bold;">{{- section.settings.subheading -}}</h2>
+          <div class="heading heading--small" style="margin-bottom: 15px; font-size: 18px; font-wight: bold;">{{- section.settings.subheading -}}</div>
         {%- endif -%}
 
          {%- if section.settings.title != blank -%}
-          <h2 class="heading h2">{{ section.settings.title | escape }}</h2>
+          <div class="heading h2">{{ section.settings.title | escape }}</div>
         {%- endif -%}
 
         {%- if section.settings.content != blank -%}
@@ -125,7 +125,7 @@
         <div class="klaviyo-form-RYb3RV"></div>
 
         {%- if section.settings.endtitle != blank -%}
-          <h2 class="heading heading--small" style="margin: 0px">{{ section.settings.endtitle | escape }}</h2>
+          <div class="heading heading--small" style="margin: 0px">{{ section.settings.endtitle | escape }}</div>
         {%- endif -%}
         
       </div>
