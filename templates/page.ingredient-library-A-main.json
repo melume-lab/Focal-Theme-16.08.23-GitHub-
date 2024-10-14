@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -18,11 +27,12 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_Ingredient_Libary_2160x1018_013f7df4-6249-4f60-af2e-2983083f6e69.jpg",
+        "image": "shopify://shop_images/2.0_Rotating_Banner_Ingredient_Libary_2160x1018_013f7df4-6249-4f60-af2e-2983083f6e69.jpg",
         "subheading": "",
         "title": "SKINCARE LOVERS EDUCATION",
+        "h_value": 1,
         "html": "",
-        "content": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS.<\/p>",
+        "content": "<p>LEARN ALL ABOUT THE INGREDIENTS USED IN OUR FORMULAS.</p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -61,57 +71,57 @@
       "settings": {
         "subheading": "",
         "a_name": "A",
-        "a": "shopify:\/\/pages\/skincare-ingredients",
+        "a": "shopify://pages/skincare-ingredients",
         "b_name": "B",
-        "b": "shopify:\/\/pages\/ingredient-library-b",
+        "b": "shopify://pages/ingredient-library-b",
         "c_name": "C",
-        "c": "shopify:\/\/pages\/ingredient-library-c",
+        "c": "shopify://pages/ingredient-library-c",
         "d_name": "D",
-        "d": "shopify:\/\/pages\/ingredient-library-d",
+        "d": "shopify://pages/ingredient-library-d",
         "e_name": "E",
-        "e": "shopify:\/\/pages\/ingredient-library-e",
+        "e": "shopify://pages/ingredient-library-e",
         "f_name": "F",
-        "f": "shopify:\/\/pages\/ingredient-library-f",
+        "f": "shopify://pages/ingredient-library-f",
         "g_name": "G",
-        "g": "shopify:\/\/pages\/ingredient-library-g",
+        "g": "shopify://pages/ingredient-library-g",
         "h_name": "H",
-        "h": "shopify:\/\/pages\/ingredient-library-h",
+        "h": "shopify://pages/ingredient-library-h",
         "i_name": "I",
         "i": "",
         "j_name": "J",
-        "j": "shopify:\/\/pages\/ingredient-library-j",
+        "j": "shopify://pages/ingredient-library-j",
         "k_name": "K",
         "k": "",
         "l_name": "L",
-        "l": "shopify:\/\/pages\/ingredient-library-l",
+        "l": "shopify://pages/ingredient-library-l",
         "m_name": "M",
-        "m": "shopify:\/\/pages\/ingredient-library-m",
+        "m": "shopify://pages/ingredient-library-m",
         "n_name": "N",
-        "n": "shopify:\/\/pages\/ingredient-library-n",
+        "n": "shopify://pages/ingredient-library-n",
         "o_name": "O",
-        "o": "shopify:\/\/pages\/ingredient-library-o",
+        "o": "shopify://pages/ingredient-library-o",
         "p_name": "P",
-        "p": "shopify:\/\/pages\/ingredient-library-p",
+        "p": "shopify://pages/ingredient-library-p",
         "q_name": "Q",
         "q": "",
         "r_name": "R",
-        "r": "shopify:\/\/pages\/ingredient-library-r",
+        "r": "shopify://pages/ingredient-library-r",
         "s_name": "S",
-        "s": "shopify:\/\/pages\/ingredient-library-s",
+        "s": "shopify://pages/ingredient-library-s",
         "t_name": "T",
-        "t": "shopify:\/\/pages\/ingredient-library-t",
+        "t": "shopify://pages/ingredient-library-t",
         "u_name": "U",
-        "u": "shopify:\/\/pages\/ingredient-library-u",
+        "u": "shopify://pages/ingredient-library-u",
         "v_name": "V",
-        "v": "shopify:\/\/pages\/ingredient-library-v",
+        "v": "shopify://pages/ingredient-library-v",
         "w_name": "W",
         "w": "",
         "x_name": "X",
-        "x": "shopify:\/\/pages\/ingredient-library-x",
+        "x": "shopify://pages/ingredient-library-x",
         "y_name": "Y",
         "y": "",
         "z_name": "Z",
-        "z": "shopify:\/\/pages\/ingredient-library-z"
+        "z": "shopify://pages/ingredient-library-z"
       }
     },
     "79244b24-439b-45dc-a6c4-bd713aa7c4fb": {
@@ -122,7 +132,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -133,7 +143,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -142,7 +152,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Anti-inflammatory with great calming benefits on the skin: soothes, protects, cleans, heals, and promotes cell regeneration. <br\/>Perfect as a balancer for resurfacing ingredients.<\/p>",
+            "content": "<p>Anti-inflammatory with great calming benefits on the skin: soothes, protects, cleans, heals, and promotes cell regeneration. <br/>Perfect as a balancer for resurfacing ingredients.</p>",
             "html": "",
             "subheading": ""
           }
@@ -172,7 +182,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Apricot<\/p>",
+            "content": "<p>Apricot</p>",
             "html": "",
             "subheading": ""
           }
@@ -183,7 +193,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •</span>\n\n<span style=\"font-weight: 600;\">Natural</span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -192,7 +202,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Contains nourishing fatty acids (oleic and linoleic acids). They improve the skin's ceramides.<br\/>Has moisturizing & skin-restoring properties.<br\/>An antioxidant rich regenerating oil, it contains vitamin A, C, and E, which helps stimulate cell turnover, plumping the skin and reducing the appearance of fine lines and wrinkles.<br\/>Softens the skin, promotes radiance, provides deep nourishment, and strengthens the skin barrier.<\/p>",
+            "content": "<p>Contains nourishing fatty acids (oleic and linoleic acids). They improve the skin's ceramides.<br/>Has moisturizing & skin-restoring properties.<br/>An antioxidant rich regenerating oil, it contains vitamin A, C, and E, which helps stimulate cell turnover, plumping the skin and reducing the appearance of fine lines and wrinkles.<br/>Softens the skin, promotes radiance, provides deep nourishment, and strengthens the skin barrier.</p>",
             "html": "",
             "subheading": ""
           }
@@ -222,7 +232,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Biotechnological\/Fermentation<\/p>",
+            "content": "<p>Biotechnological/Fermentation</p>",
             "html": "",
             "subheading": ""
           }
@@ -233,7 +243,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •<\/span>\n\n<span style=\"font-weight: 600;\">Biotechnological\/Fermentation<\/span> <span style=\"opacity: 0.4;\"> •   Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural • Naturally-Derived •</span>\n\n<span style=\"font-weight: 600;\">Biotechnological/Fermentation</span> <span style=\"opacity: 0.4;\"> •   Fermentation </span>",
             "subheading": ""
           }
         },
@@ -242,7 +252,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Moisture for dry and rough skin that increases urea synthesis and promotes wound healing.<br\/>Arginine is an amino acid naturally present in the body, essential to the skin. It delivers antioxidant and hydrating benefits and plays a role in repairing visible skin damage. <\/p>",
+            "content": "<p>Moisture for dry and rough skin that increases urea synthesis and promotes wound healing.<br/>Arginine is an amino acid naturally present in the body, essential to the skin. It delivers antioxidant and hydrating benefits and plays a role in repairing visible skin damage. </p>",
             "html": "",
             "subheading": ""
           }
@@ -272,7 +282,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Algae Haematococcus pluvialis<\/p>",
+            "content": "<p>Algae Haematococcus pluvialis</p>",
             "html": "",
             "subheading": ""
           }
@@ -283,7 +293,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •</span>\n\n<span style=\"font-weight: 600;\">Natural</span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -292,7 +302,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>A naturally occurring reddish pigment derived from microalgae Haematococcus pluvialis is considered the most potent natural antioxidant without any pro-oxidative nature and highly efficient at counteracting reactive oxygen molecules. Besides its antioxidative potential, it has excellent anti-inflammatory properties.<br\/>It has been shown to improve overall skin health and counteract aging by providing comprehensive protection against oxidative degradation. Positive effects were demonstrated, particularly concerning elasticity, moisture retention, age spots, wrinkle depth, and skin texture. Astaxanthin improves skin elasticity by strengthening collagen and revitalizing stressed skin by removing free radicals in all dermal layers. It can restore the skin's natural antioxidant balance and protect cell membranes against lipid peroxidation.<\/p>",
+            "content": "<p>A naturally occurring reddish pigment derived from microalgae Haematococcus pluvialis is considered the most potent natural antioxidant without any pro-oxidative nature and highly efficient at counteracting reactive oxygen molecules. Besides its antioxidative potential, it has excellent anti-inflammatory properties.<br/>It has been shown to improve overall skin health and counteract aging by providing comprehensive protection against oxidative degradation. Positive effects were demonstrated, particularly concerning elasticity, moisture retention, age spots, wrinkle depth, and skin texture. Astaxanthin improves skin elasticity by strengthening collagen and revitalizing stressed skin by removing free radicals in all dermal layers. It can restore the skin's natural antioxidant balance and protect cell membranes against lipid peroxidation.</p>",
             "html": "",
             "subheading": ""
           }
@@ -322,7 +332,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -333,7 +343,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -342,7 +352,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>A synergy of AHAs (glycolic, lactic, and citric acids) in a biomimetic lamellar structure behaves like an intracutaneous AHA reservoir. This is a new way of applying AHAs in a time-released manner that equals the performance of a conventional AHA treatment while avoiding a burning sensation and redness. The skin becomes brighter, and hyper-pigmentation, spots, blackheads, and acne scars diminish.<\/p>",
+            "content": "<p>A synergy of AHAs (glycolic, lactic, and citric acids) in a biomimetic lamellar structure behaves like an intracutaneous AHA reservoir. This is a new way of applying AHAs in a time-released manner that equals the performance of a conventional AHA treatment while avoiding a burning sensation and redness. The skin becomes brighter, and hyper-pigmentation, spots, blackheads, and acne scars diminish.</p>",
             "html": "",
             "subheading": ""
           }
@@ -372,7 +382,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Juice of Acacia Senegal<\/p>",
+            "content": "<p>Juice of Acacia Senegal</p>",
             "html": "",
             "subheading": ""
           }
@@ -383,7 +393,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •</span>\n\n<span style=\"font-weight: 600;\">Natural</span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -392,7 +402,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Acacia Senegal Gum is a natural gum extracted from the Acacia tree, commonly found in the Sahara Desert. The gum is a thickening agent, stabilizer, and film-forming agent. It´s sensory profile is superior to other natural geling agents.<\/p>",
+            "content": "<p>Acacia Senegal Gum is a natural gum extracted from the Acacia tree, commonly found in the Sahara Desert. The gum is a thickening agent, stabilizer, and film-forming agent. It´s sensory profile is superior to other natural geling agents.</p>",
             "html": "",
             "subheading": ""
           }
@@ -422,7 +432,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -433,7 +443,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -442,7 +452,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Acetyl Glutamine is a derivative of an important amino acid in our skin. It is essential for the production of collagen. Acetyl Glutamine can also help to reduce free radicals.<\/p>",
+            "content": "<p>Acetyl Glutamine is a derivative of an important amino acid in our skin. It is essential for the production of collagen. Acetyl Glutamine can also help to reduce free radicals.</p>",
             "html": "",
             "subheading": ""
           }
@@ -472,7 +482,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Jojoba, mimosa und sunflower waxes<\/p>",
+            "content": "<p>Jojoba, mimosa und sunflower waxes</p>",
             "html": "",
             "subheading": ""
           }
@@ -483,7 +493,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •</span>\n\n<span style=\"font-weight: 600;\">Natural</span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -492,7 +502,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>ACTICIRE is natural texturizing agent based on Jojoba, Mimosa and Sunflower waxes. Forms a soft, smooth film on your skin that, protects from dehydration. Reduces transepidermal water loss, moisturizes and improves appearance of skin surface. Comfortable skin feel that lasts throughout the day.<\/p>",
+            "content": "<p>ACTICIRE is natural texturizing agent based on Jojoba, Mimosa and Sunflower waxes. Forms a soft, smooth film on your skin that, protects from dehydration. Reduces transepidermal water loss, moisturizes and improves appearance of skin surface. Comfortable skin feel that lasts throughout the day.</p>",
             "html": "",
             "subheading": ""
           }
@@ -522,7 +532,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Gel from Aloe Vera<\/p>",
+            "content": "<p>Gel from Aloe Vera</p>",
             "html": "",
             "subheading": ""
           }
@@ -533,7 +543,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •</span>\n\n<span style=\"font-weight: 600;\">Natural</span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -542,7 +552,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Aloe Barbadensis Leaf Juice is a natural ingredient derived from the Aloe Vera plant that has soothing and hydrating properties. It calms your skin, reduces inflammation, and improves your overall skin health. Aloe Barbadensis Leaf Juice also helps to protect your skin from environmental stressors and can have anti-aging benefits.<\/p>",
+            "content": "<p>Aloe Barbadensis Leaf Juice is a natural ingredient derived from the Aloe Vera plant that has soothing and hydrating properties. It calms your skin, reduces inflammation, and improves your overall skin health. Aloe Barbadensis Leaf Juice also helps to protect your skin from environmental stressors and can have anti-aging benefits.</p>",
             "html": "",
             "subheading": ""
           }
@@ -572,7 +582,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Glucose from wheat, maize or manioc & fat, derived from rapeseed<\/p>",
+            "content": "<p>Glucose from wheat, maize or manioc & fat, derived from rapeseed</p>",
             "html": "",
             "subheading": ""
           }
@@ -583,7 +593,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •</span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived</span> <span style=\"opacity: 0.4;\"> • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -592,7 +602,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Arachidyl glucoside is an emulsifier that combines oily and aqueous components. Thus, it stabilizes formulations and provides pleasant textures.<\/p>",
+            "content": "<p>Arachidyl glucoside is an emulsifier that combines oily and aqueous components. Thus, it stabilizes formulations and provides pleasant textures.</p>",
             "html": "",
             "subheading": ""
           }
@@ -622,7 +632,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -633,7 +643,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -642,7 +652,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Alcohol is used as a solvent and preservative agent. Alcohol also helps to dissolve and stabilize certain ingredients , which helps to ensure that the product is effective and has a longer shelf life, since it reduces the risk of contamination and the growth of harmful bacteria. Alcohol is used in our formulas as part of active ingredients and therefore it is not drying.<\/p>",
+            "content": "<p>Alcohol is used as a solvent and preservative agent. Alcohol also helps to dissolve and stabilize certain ingredients , which helps to ensure that the product is effective and has a longer shelf life, since it reduces the risk of contamination and the growth of harmful bacteria. Alcohol is used in our formulas as part of active ingredients and therefore it is not drying.</p>",
             "html": "",
             "subheading": ""
           }
@@ -672,7 +682,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -683,7 +693,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -692,7 +702,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Alcohol denat is a type of alcohol that is used in cosmetic products as a solvent, and preservative. It helps to dissolve and stabilize certain ingredients in cosmetic products, which helps to ensure that the product is effective and has a longer shelf life. Alcohol denat is used in our formulas as part of active ingredients and therefore it is not drying.<\/p>",
+            "content": "<p>Alcohol denat is a type of alcohol that is used in cosmetic products as a solvent, and preservative. It helps to dissolve and stabilize certain ingredients in cosmetic products, which helps to ensure that the product is effective and has a longer shelf life. Alcohol denat is used in our formulas as part of active ingredients and therefore it is not drying.</p>",
             "html": "",
             "subheading": ""
           }
@@ -722,7 +732,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Glucose from  wheat, maize or manioc & fat, derived from rapeseed<\/p>",
+            "content": "<p>Glucose from  wheat, maize or manioc & fat, derived from rapeseed</p>",
             "html": "",
             "subheading": ""
           }
@@ -733,7 +743,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •<\/span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived<\/span> <span style=\"opacity: 0.4;\"> • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic • Natural •</span>\n\n<span style=\"font-weight: 600;\">Naturally-Derived</span> <span style=\"opacity: 0.4;\"> • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -742,7 +752,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Arachidyl Alcohol is a natural ingredient that is used as an emollient and thickening agent. It is derived from vegetable sources such as peanuts and helps to improve the texture and consistency of the product. Arachidyl Alcohol due to its emollient properties also helps to hydrate and soften your skin, and it acts as a barrier to prevent moisture loss. Free from ethanol\/alcohol.<\/p>",
+            "content": "<p>Arachidyl Alcohol is a natural ingredient that is used as an emollient and thickening agent. It is derived from vegetable sources such as peanuts and helps to improve the texture and consistency of the product. Arachidyl Alcohol due to its emollient properties also helps to hydrate and soften your skin, and it acts as a barrier to prevent moisture loss. Free from ethanol/alcohol.</p>",
             "html": "",
             "subheading": ""
           }
@@ -772,7 +782,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Seaweed<\/p>",
+            "content": "<p>Seaweed</p>",
             "html": "",
             "subheading": ""
           }
@@ -783,7 +793,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"opacity: 0.5;\"> Synthetic •<\/span>\n\n<span style=\"font-weight: 600;\">Natural<\/span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"opacity: 0.5;\"> Synthetic •</span>\n\n<span style=\"font-weight: 600;\">Natural</span>\n\n<span style=\"opacity: 0.5;\"> • Naturally-derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -792,7 +802,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Algin or alginic acid is formed by brown algae in the cell walls and is the structure-giving element in the alga. The intercellular gel matrix gives the algae both flexibility and strength. Algin provides a gel-like consistency and stabilises the formulation. The acid has the ability to bind water and store it in the skin. This allows it to moisturise the skin well and protect it from dehydration. Alginic acid has anti-inflammatory properties and helps to soothe the skin and reduce irritation. Has antioxidant properties and can protect the skin from the harmful effects of free radicals. This helps prevent premature ageing of the skin.<\/p>",
+            "content": "<p>Algin or alginic acid is formed by brown algae in the cell walls and is the structure-giving element in the alga. The intercellular gel matrix gives the algae both flexibility and strength. Algin provides a gel-like consistency and stabilises the formulation. The acid has the ability to bind water and store it in the skin. This allows it to moisturise the skin well and protect it from dehydration. Alginic acid has anti-inflammatory properties and helps to soothe the skin and reduce irritation. Has antioxidant properties and can protect the skin from the harmful effects of free radicals. This helps prevent premature ageing of the skin.</p>",
             "html": "",
             "subheading": ""
           }
@@ -822,7 +832,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -833,7 +843,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -842,7 +852,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Ascorbyl palmitate is a vitamin C derivative and is formed by esterification of ascorbic acid with palmitic acid. Compared to pure vitamin C, ascorbyl palmitate is only converted into active vitamin C when applied to the skin. Due to its fat-soluble nature, ascorbyl palmitate more easily penetrates the lipid barrier of the skin. This helps the vitamin C to stay in the skin longer and deliver better results. The active ingredient acts as a free radical scavenger to protect the skin from oxidative stress. It also reduces the signs of hyperpigmentation and stimulates collagen synthesis. It reduces wrinkles and creates a more even skin tone. Ascorbyl palmitate reduces hyperpigmentation, dark spots and uneven skin tone.<\/p>",
+            "content": "<p>Ascorbyl palmitate is a vitamin C derivative and is formed by esterification of ascorbic acid with palmitic acid. Compared to pure vitamin C, ascorbyl palmitate is only converted into active vitamin C when applied to the skin. Due to its fat-soluble nature, ascorbyl palmitate more easily penetrates the lipid barrier of the skin. This helps the vitamin C to stay in the skin longer and deliver better results. The active ingredient acts as a free radical scavenger to protect the skin from oxidative stress. It also reduces the signs of hyperpigmentation and stimulates collagen synthesis. It reduces wrinkles and creates a more even skin tone. Ascorbyl palmitate reduces hyperpigmentation, dark spots and uneven skin tone.</p>",
             "html": "",
             "subheading": ""
           }
@@ -872,7 +882,7 @@
           "settings": {
             "icontitle": "SOURCE",
             "title": "",
-            "content": "<p>Synthetic<\/p>",
+            "content": "<p>Synthetic</p>",
             "html": "",
             "subheading": ""
           }
@@ -883,7 +893,7 @@
             "icontitle": "CATEGORY",
             "title": "",
             "content": "",
-            "html": "<span style=\"font-weight: 600;\">Synthetic<\/span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological\/Fermentation •  Fermentation <\/span>",
+            "html": "<span style=\"font-weight: 600;\">Synthetic</span>\n\n<span style=\"opacity: 0.4;\"> • Natural • Naturally-Derived • Biotechnological/Fermentation •  Fermentation </span>",
             "subheading": ""
           }
         },
@@ -892,7 +902,7 @@
           "settings": {
             "icontitle": "WHAT IT DOES",
             "title": "",
-            "content": "<p>Ascorbic acid, alternatively referred to as L-ascorbic acid, boasts extensive research dedicated to its application in skincare. Ascorbic acid is pure vitamin C. Unlike the other derivatives, it does not have to be converted into the active form first. On the other hand, it is more susceptible to oxidation than the derivatives. It stands out as the predominant naturally occurring antioxidant in our skin. Concentrations ranging from 5% to 20% have the capacity to enhance various aspects of skin aging, addressing concerns such as discolorations, wrinkles, and diminished firmness stemming from sun-induced damage. Lower concentrations, typically between 0.3% and 2%, also offer their own set of advantages, including the amelioration of uneven skin tone and fine lines. It is a powerful antioxidant, that eliminates free radicals in the body and reduces inflammation of the skin. Vitamins C and E collaborate to stabilize each other, thus prolonging their effectiveness in nurturing the skin. As a cosmetic ingredient, ascorbic acid is regarded as safe for use and can be comfortably incorporated into skincare routines alongside retinol and niacinamide. <\/p>",
+            "content": "<p>Ascorbic acid, alternatively referred to as L-ascorbic acid, boasts extensive research dedicated to its application in skincare. Ascorbic acid is pure vitamin C. Unlike the other derivatives, it does not have to be converted into the active form first. On the other hand, it is more susceptible to oxidation than the derivatives. It stands out as the predominant naturally occurring antioxidant in our skin. Concentrations ranging from 5% to 20% have the capacity to enhance various aspects of skin aging, addressing concerns such as discolorations, wrinkles, and diminished firmness stemming from sun-induced damage. Lower concentrations, typically between 0.3% and 2%, also offer their own set of advantages, including the amelioration of uneven skin tone and fine lines. It is a powerful antioxidant, that eliminates free radicals in the body and reduces inflammation of the skin. Vitamins C and E collaborate to stabilize each other, thus prolonging their effectiveness in nurturing the skin. As a cosmetic ingredient, ascorbic acid is regarded as safe for use and can be comfortably incorporated into skincare routines alongside retinol and niacinamide. </p>",
             "html": "",
             "subheading": ""
           }
