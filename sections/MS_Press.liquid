@@ -140,7 +140,7 @@
         {%- if section.settings.subheading != blank or section.settings.title != blank -%}
           <header class="section__header text-container">
             {%- if section.settings.subheading != blank -%}
-              <h2 class="heading heading--small">{{ section.settings.subheading | escape }}</h2>
+              <div class="heading heading--small" font-size: calc(12px + 1vw); font-weight: 600;>{{ section.settings.subheading | escape }}</div>
             {%- endif -%}
 
             {%- if section.settings.title != blank -%}
