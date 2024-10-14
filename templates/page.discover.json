@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -26,9 +26,10 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2.0_Rotating_Banner_2160x1018_1.jpg",
+        "image": "shopify://shop_images/2.0_Rotating_Banner_2160x1018_1.jpg",
         "subheading": "",
         "title": "GMOD™ Complex",
+        "h_value": 1,
         "html": "",
         "content": "",
         "button_text": "",
@@ -48,14 +49,14 @@
         "template--18031973957896__b7d024c7-6a7d-4e5f-8d3b-263fb6f25be1-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_1.jpg",
+            "image": "shopify://shop_images/2.0_Singel_465x725_1.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "MELILOTUS OFFICINALIS",
             "title2": "",
             "html-two": "",
             "html-three": "",
-            "content": "<p>A patented peptide that rejuvenates the skin from the inside out by <br\/>targeting the regenerative power of growth factors by increasing the <br\/>levels of GDF11, which reactivates the skin cells in behaving younger. As a result, cell metabolism and the synthesis of collagen, elastin, and other components of the dermal extracellular matrix are transformed to the most youthful state. This dramatically improves skin elasticity, firmness, and the appearance of fine lines, wrinkles, and other signs of aging.Providing complete 360° rejuvenation<\/p>",
+            "content": "<p>A patented peptide that rejuvenates the skin from the inside out by <br/>targeting the regenerative power of growth factors by increasing the <br/>levels of GDF11, which reactivates the skin cells in behaving younger. As a result, cell metabolism and the synthesis of collagen, elastin, and other components of the dermal extracellular matrix are transformed to the most youthful state. This dramatically improves skin elasticity, firmness, and the appearance of fine lines, wrinkles, and other signs of aging.Providing complete 360° rejuvenation</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -90,14 +91,14 @@
         "f9fe9f0b-eb44-4003-a989-9e30eac1a1a7": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.0_Singel_465x725_2.jpg",
+            "image": "shopify://shop_images/2.0_Singel_465x725_2.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "DOLICHOS BIFLORUS",
             "title2": "",
             "html-two": "",
             "html-three": "",
-            "content": "<p>The active ingredient is obtained from Dolichos plant cell cultures: <br\/>Concentrated fractions from Dolichos biflorus cell cultures provide a powerful combination of the active molecules present in the whole plant that can fight multiple signs of photo-aging: a key step in preventing and reversing premature skin aging due to UV radiation. The active ingredient shields skin from UV damage, detoxifies cells by increasing proteasome activity, protects the “power stations” of skin cells, and helps preserve the skin genome’s integrity: providing a multi-dimensional approach to fight photo-aging.<\/p>",
+            "content": "<p>The active ingredient is obtained from Dolichos plant cell cultures: <br/>Concentrated fractions from Dolichos biflorus cell cultures provide a powerful combination of the active molecules present in the whole plant that can fight multiple signs of photo-aging: a key step in preventing and reversing premature skin aging due to UV radiation. The active ingredient shields skin from UV damage, detoxifies cells by increasing proteasome activity, protects the “power stations” of skin cells, and helps preserve the skin genome’s integrity: providing a multi-dimensional approach to fight photo-aging.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -135,7 +136,7 @@
             "tab_label": "",
             "subheading": "",
             "title": "GLYCOKINES",
-            "content": "<p>Oligosaccharides of acetylated glucuronic acid obtained by <br\/>bio-fermentation that structurally and functionally mimic the hyaluronic fragments found in the skin. These glycokines have been demonstrated to stimulate hyaluronic acid synthesis and sustain its turnover. Restoring the optimal level of hyaluronic acid in the skin to make it smooth, moisturized, and youthful plump. It helps to deliver optimal moisturizing and viscoelastic properties and increases elastin synthesis, sustaining and maintaining optimal hyaluronic acid level and renewal. They help to smooth out wrinkles, moisturize skin surface and depth, and increase skin suppleness and resistance.<\/p>",
+            "content": "<p>Oligosaccharides of acetylated glucuronic acid obtained by <br/>bio-fermentation that structurally and functionally mimic the hyaluronic fragments found in the skin. These glycokines have been demonstrated to stimulate hyaluronic acid synthesis and sustain its turnover. Restoring the optimal level of hyaluronic acid in the skin to make it smooth, moisturized, and youthful plump. It helps to deliver optimal moisturizing and viscoelastic properties and increases elastin synthesis, sustaining and maintaining optimal hyaluronic acid level and renewal. They help to smooth out wrinkles, moisturize skin surface and depth, and increase skin suppleness and resistance.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -169,14 +170,15 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/4.0_Banner_2000x980_Retinol_Collection_cfd5bf03-16e8-4a66-bf1a-f551711f518b.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/4.0_Banner_2000x980_Retinol_Collection_Mobile.jpg",
+        "image": "shopify://shop_images/4.0_Banner_2000x980_Retinol_Collection_cfd5bf03-16e8-4a66-bf1a-f551711f518b.jpg",
+        "mobile_image": "shopify://shop_images/4.0_Banner_2000x980_Retinol_Collection_Mobile.jpg",
         "subheading": "",
         "title": "CLINICALLY RESEARCHED ACTIVES IN HIGH CONCENTRATIONS",
+        "h_value": 2,
         "html": "",
-        "content": "<p>ACHIEVE AMAZING RESULTS<\/p>",
+        "content": "<p>ACHIEVE AMAZING RESULTS</p>",
         "button_text": "SHOP NOW",
-        "button_link": "shopify:\/\/collections\/skincare-products",
+        "button_link": "shopify://collections/skincare-products",
         "background_type": "full_width",
         "text_position": "left",
         "text_alignment": "left",
@@ -197,8 +199,9 @@
         "reveal_on_scroll": false,
         "subheading": "",
         "title": "Passion makes dreams come true ",
+        "h_value": 2,
         "html": "",
-        "content": "<p>melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.<\/p>",
+        "content": "<p>melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. </p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.</p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -216,9 +219,9 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_1.jpg",
+        "image": "shopify://shop_images/Split_Banner_II_980x1300px_1.jpg",
         "title": "Passion makes dreams come true",
-        "content": "<p>Melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. <\/p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.<\/p>",
+        "content": "<p>Melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. </p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.</p>",
         "html": "",
         "button_text": "",
         "button_link": "",
@@ -240,14 +243,14 @@
         "template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3-1687618883de900aad-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Lenny_worry-free.png",
+            "image": "shopify://shop_images/Solo_Image_1400x1400_Lenny_worry-free.png",
             "tab_label": "Item",
             "subheading": "",
             "title": "Our Skincare is 100% Worry-free",
             "title2": "",
             "html-two": "",
-            "html-three": "<ul style=\"list-style: outside;\">\n<li>SYNTHETIC DYES<\/li>\n<li>SLS AND SLES<\/li>\n<li>MINERAL OIL<\/li>\n<li>DRYING ALCOHOL<\/li>\n<li>ANIMAL DERIVATIVES<\/li>\n<li>ESSENTIAL OILS<\/li>\n<li>PARABENS<\/li>\n<li>MICRO PLASTIC<\/li>\n<li>SILICONE<\/li>\n<li>PHENOXYETHANOL<\/li>\n<\/ul>",
-            "content": "<p>We carefully develop our formulas with innovative science & plant-powered, biocompatible & bioavailable ingredients; with a high % of natural ingredients, they also incorporate safe synthetics.<br\/><br\/>We evaluate ingredients used to achieve results and those designed to stabilize, mix and preserve formulations. If an ingredient fails to meet our highest standards for safety and irritation, we exclude it.<\/p><p><strong>OUR PRODUCTS ARE FREE FROM:<\/strong><br\/><\/p>",
+            "html-three": "<ul style=\"list-style: outside;\">\n<li>SYNTHETIC DYES</li>\n<li>SLS AND SLES</li>\n<li>MINERAL OIL</li>\n<li>DRYING ALCOHOL</li>\n<li>ANIMAL DERIVATIVES</li>\n<li>ESSENTIAL OILS</li>\n<li>PARABENS</li>\n<li>MICRO PLASTIC</li>\n<li>SILICONE</li>\n<li>PHENOXYETHANOL</li>\n</ul>",
+            "content": "<p>We carefully develop our formulas with innovative science & plant-powered, biocompatible & bioavailable ingredients; with a high % of natural ingredients, they also incorporate safe synthetics.<br/><br/>We evaluate ingredients used to achieve results and those designed to stabilize, mix and preserve formulations. If an ingredient fails to meet our highest standards for safety and irritation, we exclude it.</p><p><strong>OUR PRODUCTS ARE FREE FROM:</strong><br/></p>",
             "button_text": "",
             "button_link": ""
           }
@@ -285,10 +288,10 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_2.jpg",
+        "image": "shopify://shop_images/Split_Banner_II_980x1300px_2.jpg",
         "title": "Our Skincare is 100% Worry-free",
-        "content": "<p>We carefully develop our formulas with innovative science & plant-powered, biocompatible & bioavailable ingredients; with a high % of natural ingredients, they also incorporate safe synthetics.<br\/><br\/>We evaluate ingredients used to achieve results and those designed to stabilize, mix and preserve formulations. If an ingredient fails to meet our highest standards for safety and irritation, we exclude it.<\/p><p><strong>OUR PRODUCTS ARE FREE FROM:<\/strong><br\/><\/p>",
-        "html": "<ul style=\"list-style: outside; padding-left: 12px\">\n<li>SYNTHETIC DYES<\/li>\n<li>SLS AND SLES<\/li>\n<li>MINERAL OIL<\/li>\n<li>DRYING ALCOHOL<\/li>\n<li>ANIMAL DERIVATIVES<\/li>\n<li>ESSENTIAL OILS<\/li>\n<li>PARABENS<\/li>\n<li>MICRO PLASTIC<\/li>\n<li>SILICONE<\/li>\n<li>PHENOXYETHANOL<\/li>\n<\/ul>",
+        "content": "<p>We carefully develop our formulas with innovative science & plant-powered, biocompatible & bioavailable ingredients; with a high % of natural ingredients, they also incorporate safe synthetics.<br/><br/>We evaluate ingredients used to achieve results and those designed to stabilize, mix and preserve formulations. If an ingredient fails to meet our highest standards for safety and irritation, we exclude it.</p><p><strong>OUR PRODUCTS ARE FREE FROM:</strong><br/></p>",
+        "html": "<ul style=\"list-style: outside; padding-left: 12px\">\n<li>SYNTHETIC DYES</li>\n<li>SLS AND SLES</li>\n<li>MINERAL OIL</li>\n<li>DRYING ALCOHOL</li>\n<li>ANIMAL DERIVATIVES</li>\n<li>ESSENTIAL OILS</li>\n<li>PARABENS</li>\n<li>MICRO PLASTIC</li>\n<li>SILICONE</li>\n<li>PHENOXYETHANOL</li>\n</ul>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -311,11 +314,12 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_2_Edit.png",
+        "image": "shopify://shop_images/2.0_Banner_2000x980_2_Edit.png",
         "subheading": "",
         "title": "Innovation & Science – Made in Germany",
+        "h_value": 2,
         "html": "",
-        "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br\/><\/p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.<br\/><\/p>",
+        "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br/></p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.<br/></p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -333,9 +337,9 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_3.jpg",
+        "image": "shopify://shop_images/Split_Banner_II_980x1300px_3.jpg",
         "title": "Innovation & Science – Made in Germany",
-        "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br\/><\/p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.<\/p>",
+        "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br/></p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.</p>",
         "html": "",
         "button_text": "",
         "button_link": "",
@@ -373,7 +377,7 @@
       "settings": {
         "subheading": "",
         "title": "SECOND SKIN TECHNOLOGY",
-        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<div class=\"custom-image-container\" style=\"max-width:380px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n<\/div>\n<\/div>\n\n<div class=\"column\">\n<p>\nSome of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.<\/p>\n<\/div>\n<\/div>",
+        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<div class=\"custom-image-container\" style=\"max-width:380px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n</div>\n</div>\n\n<div class=\"column\">\n<p>\nSome of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.</p>\n</div>\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -386,10 +390,10 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_4.jpg",
+        "image": "shopify://shop_images/Split_Banner_II_980x1300px_4.jpg",
         "title": "SECOND SKIN TECHNOLOGY",
-        "content": "<p>Some of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.<\/p>",
-        "html": "<div class=\"custom-image-container\" style=\"max-width:220px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n<\/div>",
+        "content": "<p>Some of our formula's textures have a multi-lamellar structure with a high affinity and similarity to the skin's natural cross-like barrier, which allows better interaction and time-released uniform delivery of the active ingredients into the skin. This technology allows them to bind with the skin and lock ingredients deeper into it, performing even better.</p>",
+        "html": "<div class=\"custom-image-container\" style=\"max-width:220px; margin-right: auto; margin-left: 0PX;\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Multi-Lamellar_Structure_ILU.png?v=1689242121\">\n</div>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -413,7 +417,7 @@
       "settings": {
         "subheading": "",
         "title": "BIOMIMETIC",
-        "html": "<div class=\"column-container\">\n<div class=\"column\">\n<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.\n<\/p>\n<\/div>\n\n<div class=\"column\">\n<p>\n Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.\n<br>\n<br>\nWe use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.\n<\/p>\n<\/div>\n<\/div>",
+        "html": "<div class=\"column-container\">\n<div class=\"column\">\n<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.\n</p>\n</div>\n\n<div class=\"column\">\n<p>\n Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.\n<br>\n<br>\nWe use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.\n</p>\n</div>\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -426,9 +430,9 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_5.jpg",
+        "image": "shopify://shop_images/Split_Banner_II_980x1300px_5.jpg",
         "title": "BIOMIMETIC",
-        "content": "<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.<\/p><p>Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.<\/p><p>We use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.<\/p>",
+        "content": "<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.</p><p>Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.</p><p>We use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.</p>",
         "html": "",
         "button_text": "",
         "button_link": "",
@@ -453,7 +457,7 @@
       "settings": {
         "subheading": "",
         "title": "BIOAVAILABILITY",
-        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<p> Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient. Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.\n<br>\n<br>\nA few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective.\n<\/p>\n<\/div>\n\n<div class=\"column\">\n<p>\n This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin.\n<br>\n<br>\nThe form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well.\n<\/p>\n<\/div>\n<\/div>",
+        "html": "<div class=\"column-container\">\n\n<div class=\"column\">\n<p> Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient. Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.\n<br>\n<br>\nA few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective.\n</p>\n</div>\n\n<div class=\"column\">\n<p>\n This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin.\n<br>\n<br>\nThe form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well.\n</p>\n</div>\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -466,9 +470,9 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_6.jpg",
+        "image": "shopify://shop_images/Split_Banner_II_980x1300px_6.jpg",
         "title": "BIOAVAILABILITY",
-        "content": "<p>Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient. Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.<\/p><p>A few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective.<\/p><p>This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin.<\/p><p>The form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well.<\/p>",
+        "content": "<p>Bioavailability refers to the active ingredient's rate and extent of availability on the skin, such as the epidermis or dermis. It is the part of it that will be absorbed and incorporated and describes the efficiency with which your body can use the active ingredient. Simply using a product with a high level of an active ingredient does not ensure it will be effective. Actually, it is dose-dependent.</p><p>A few conditions need to be met to provide high bioavailability. The active ingredient must partition or release from the formula itself. The active must reach the correct skin depth to make a difference; if not, it will be ineffective.</p><p>This depends on several factors, including the efficacy level, the functional properties of the active, the contact time of the product on the skin, and the uniformity of application on the skin.</p><p>The form in which an active ingredient is in, for example, a liposomal,water-free, or micro-emulsion, is just as critical as the quantity provided to reach its intended cellular target. This is why we favor active ingredients in their most bioavailable forms, guaranteeing absorption and availability that will ensure better efficacy and tolerance to eventually make a skincare cosmeceutical work well.</p>",
         "html": "",
         "button_text": "",
         "button_link": "",
@@ -494,7 +498,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "Our optimum pH-levels ensure effectiveness, safety, and biocompatibility. A slightly acidic pH value makes sense from the physiological point of view because it is required for a healthy skin metabolic process, maintaining anintact barrier and a natural renewal process.\n<br>\n<br>\nWe don't use alkaline pH values that throw the skin's acid mantle out of balance and compromise the protective barrier. Acidic pH-levels allow reducing preservatives and regulate an optimal environment that encourages the flourishing of the skin's natural flora, balancing the growth of bacteria and fungi. (Microbiom) pH adjustment in each formula also strengthens active ingredients, allowing them to be in their most potent form.\n<br>\n<br>\n\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/2.0_PH-LEVEL_engl.jpg?v=1709290924\">",
+        "html": "Our optimum pH-levels ensure effectiveness, safety, and biocompatibility. A slightly acidic pH value makes sense from the physiological point of view because it is required for a healthy skin metabolic process, maintaining anintact barrier and a natural renewal process.\n<br>\n<br>\nWe don't use alkaline pH values that throw the skin's acid mantle out of balance and compromise the protective barrier. Acidic pH-levels allow reducing preservatives and regulate an optimal environment that encourages the flourishing of the skin's natural flora, balancing the growth of bacteria and fungi. (Microbiom) pH adjustment in each formula also strengthens active ingredients, allowing them to be in their most potent form.\n<br>\n<br>\n\n  <img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/2.0_PH-LEVEL_engl.jpg?v=1709290924\">",
         "add_vertical_spacing": true,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -508,11 +512,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Peta_Edit2.png",
+            "custom_icon": "shopify://shop_images/Icon_Peta_Edit2.png",
             "custom_icon_width": 110,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>VEGAN &<\/strong><\/p><p><strong>CRUELTY-FREE<\/strong><br\/><\/p>",
+            "content": "<p><strong>VEGAN &</strong></p><p><strong>CRUELTY-FREE</strong><br/></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -529,11 +533,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Science.png",
+            "custom_icon": "shopify://shop_images/Icon_Science.png",
             "custom_icon_width": 75,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>SCIENCE &<\/strong><\/p><p><strong>HIGH % NATURAL INGREDIENTS <\/strong><\/p>",
+            "content": "<p><strong>SCIENCE &</strong></p><p><strong>HIGH % NATURAL INGREDIENTS </strong></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -550,11 +554,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Recyclable.png",
+            "custom_icon": "shopify://shop_images/Icon_Recyclable.png",
             "custom_icon_width": 80,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>SUSTAINABLE AND<\/strong><\/p><p><strong>RECYCLED PACKAGING<\/strong><\/p>",
+            "content": "<p><strong>SUSTAINABLE AND</strong></p><p><strong>RECYCLED PACKAGING</strong></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -571,11 +575,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon-High_Tech.png",
+            "custom_icon": "shopify://shop_images/Icon-High_Tech.png",
             "custom_icon_width": 75,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>HIGH TECH<\/strong><\/p><p><strong>FORMULAS<\/strong><br\/><\/p>",
+            "content": "<p><strong>HIGH TECH</strong></p><p><strong>FORMULAS</strong><br/></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -592,11 +596,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Biocompatible.png",
+            "custom_icon": "shopify://shop_images/Icon_Biocompatible.png",
             "custom_icon_width": 120,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>BIOCOMPATIBLE<\/strong><\/p><p><strong>BIO AVAILABLE<\/strong><\/p>",
+            "content": "<p><strong>BIOCOMPATIBLE</strong></p><p><strong>BIO AVAILABLE</strong></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -613,11 +617,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon-Worry-free.png",
+            "custom_icon": "shopify://shop_images/Icon-Worry-free.png",
             "custom_icon_width": 60,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>100%<\/strong><\/p><p><strong>WORRY-FREE<\/strong><\/p>",
+            "content": "<p><strong>100%</strong></p><p><strong>WORRY-FREE</strong></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -634,11 +638,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Clinically_Proven.png",
+            "custom_icon": "shopify://shop_images/Icon_Clinically_Proven.png",
             "custom_icon_width": 50,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>CLINICALLY RESEARCHED<\/strong><\/p><p><strong>INGREDIENTS<\/strong><\/p>",
+            "content": "<p><strong>CLINICALLY RESEARCHED</strong></p><p><strong>INGREDIENTS</strong></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -655,11 +659,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Icon_Dermatologically_Tested.png",
+            "custom_icon": "shopify://shop_images/Icon_Dermatologically_Tested.png",
             "custom_icon_width": 85,
             "title": "",
             "big-title": "",
-            "content": "<p><strong>DERMATOLOGICALY<\/strong><\/p><p><strong>TESTED<\/strong><\/p>",
+            "content": "<p><strong>DERMATOLOGICALY</strong></p><p><strong>TESTED</strong></p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -718,15 +722,15 @@
         "section {margin: 0px;}"
       ],
       "settings": {
-        "image_left": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_7.jpg",
+        "image_left": "shopify://shop_images/Split_Banner_II_980x1300px_7.jpg",
         "title_left": "Fragrance Free",
-        "content_left": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br\/><br\/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br\/><\/p>",
+        "content_left": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br/><br/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br/></p>",
         "html_left": "",
         "button_text_left": "",
         "button_link_left": "",
-        "image_right": "shopify:\/\/shop_images\/Split_Banner_II_980x1300px_8.jpg",
+        "image_right": "shopify://shop_images/Split_Banner_II_980x1300px_8.jpg",
         "title_right": "Responsible Packaging",
-        "content_right": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br\/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br\/><\/p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br\/><\/p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!<\/p>",
+        "content_right": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br/></p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br/></p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!</p>",
         "html_right": "",
         "button_text_right": "",
         "button_link_right": "",
@@ -748,14 +752,14 @@
         "template--17915596112139__ca382a2e-bc28-44d6-b3a6-83a3d85f44aa-16869996725e386f93-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fragrence_Free_Mobile.png",
+            "image": "shopify://shop_images/Fragrence_Free_Mobile.png",
             "tab_label": "Item",
             "subheading": "",
             "title": "Fragrance Free",
             "title2": "",
             "html-two": "",
             "html-three": "",
-            "content": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br\/><br\/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br\/><\/p>",
+            "content": "<p>Fragrance, whether natural or synthetic, as an ingredient defeats the purpose of skin care; research has established that it is a sensitizing ingredient for all skin types and a cause of irritation, contact dermatitis, and inflammation with its effect on premature aging.<br/><br/>Since we always prioritize your skin's needs and health, we don't use any masking fragrance just to cover up the product's typical neutral smell.<br/></p>",
             "button_text": "",
             "button_link": ""
           }
@@ -790,14 +794,14 @@
         "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Solo_Image_1400x1400_Hydrating_cream_Illu.png",
+            "image": "shopify://shop_images/Solo_Image_1400x1400_Hydrating_cream_Illu.png",
             "tab_label": "Item",
             "subheading": "",
             "title": "Responsible Packaging",
             "title2": "",
             "html-two": "",
             "html-three": "",
-            "content": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br\/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br\/><\/p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br\/><\/p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!<\/p>",
+            "content": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br/></p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br/></p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -832,14 +836,14 @@
         "template--17824560546072__cd74129d-4346-444b-b7e5-c39958532e7c-1676030227f6f80f4c-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_Girls_1_Man_Illu.png",
+            "image": "shopify://shop_images/6_Girls_1_Man_Illu.png",
             "tab_label": "Info",
             "subheading": "",
             "title": "",
             "title2": "",
-            "html-two": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Banner_2000x980_Schriftzug__WOMAN.png?v=1687089079\" style=\"display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 50px;\nmargin-top: 0px;\n  width: 100%; max-width: 700px; filter: invert(100%);\">",
+            "html-two": "<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Banner_2000x980_Schriftzug__WOMAN.png?v=1687089079\" style=\"display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 50px;\nmargin-top: 0px;\n  width: 100%; max-width: 700px; filter: invert(100%);\">",
             "html-three": "",
-            "content": "<p>We strongly believe in showing kindness & love to ourselves, others, and our skin.<\/p><p>Trust in your strength & individuality, nourish your dreams, feel good in your skin,  practice self-care, and be inspired to be the best you can be. Celebrate and love diversity and agelessness. <\/p><p>Let's genuinely support and empower each other to thrive and improve the world.<\/p>",
+            "content": "<p>We strongly believe in showing kindness & love to ourselves, others, and our skin.</p><p>Trust in your strength & individuality, nourish your dreams, feel good in your skin,  practice self-care, and be inspired to be the best you can be. Celebrate and love diversity and agelessness. </p><p>Let's genuinely support and empower each other to thrive and improve the world.</p>",
             "button_text": "",
             "button_link": ""
           }
