@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "4eb1160d-9557-41cc-a6f1-32ae92677688": {
@@ -5,7 +14,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "<style>\n  \n.custom-loyalty-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  text-align: center;\n}\n\n.custom-loyalty-text {\n  font-weight: normal;\n}\n\n.custom-loyalty-points {\n  font-weight: bold;\n  margin-left: 1px;\n}\n\n.custom-loyalty-phrase {\n  font-weight: normal;\n}\n\n@media screen and (max-width: 740px) {\n.custom-loyalty-container {\n  margin-top: 3px;\n  margin-bottom: 3px;\n  }\n}\n  \n<\/style>\n\n<div class=\"custom-loyalty-container\">\n  {%- if shop.customer_accounts_enabled -%}\n    <a type=\"button\" href=\"#\" class=\"btn--link\" onclick=\"avadaJoyTrigger();\" style=\"line-height: 40px; cursor: pointer\">\n       {%- if customer -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU HAVE<\/span>\n           <span class=\"custom-loyalty-points\">\n             {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}\n             {%- for digit in aj_point -%}\n               {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}\n               {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}\n             {% endfor %}\n             <span class=\"custom-loyalty-phrase\"> {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}<\/span>\n           <\/span>\n         <\/p>\n       {%- else -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU DON'T HAVE ANY SKIN CLUB POINTS YET<\/span>\n         <\/p>\n       {%- endif -%}\n    <\/a>\n  {%- endif -%}\n<\/div>",
+        "liquid": "<style>\n  \n.custom-loyalty-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n  margin-bottom: 20px;\n  text-align: center;\n}\n\n.custom-loyalty-text {\n  font-weight: normal;\n}\n\n.custom-loyalty-points {\n  font-weight: bold;\n  margin-left: 1px;\n}\n\n.custom-loyalty-phrase {\n  font-weight: normal;\n}\n\n@media screen and (max-width: 740px) {\n.custom-loyalty-container {\n  margin-top: 3px;\n  margin-bottom: 3px;\n  }\n}\n  \n</style>\n\n<div class=\"custom-loyalty-container\">\n  {%- if shop.customer_accounts_enabled -%}\n    <a type=\"button\" href=\"#\" class=\"btn--link\" onclick=\"avadaJoyTrigger();\" style=\"line-height: 40px; cursor: pointer\">\n       {%- if customer -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU HAVE</span>\n           <span class=\"custom-loyalty-points\">\n             {%- assign aj_point = customer.metafields.avada_joy.point | split: '' -%}\n             {%- for digit in aj_point -%}\n               {%- assign threeFromEnd = aj_point.size | minus: forloop.index | modulo: 3 -%}\n               {%- if threeFromEnd == 2 and forloop.index != 1 -%}{{ digit | prepend: ',' }}{%- else -%}{{ digit }}{%- endif -%}\n             {% endfor %}\n             <span class=\"custom-loyalty-phrase\"> {{ customer.metafields.avada_joy.point | pluralize: 'SKIN CLUB POINT', 'SKIN CLUB POINTS' }}</span>\n           </span>\n         </p>\n       {%- else -%}\n         <p>\n           <span class=\"custom-loyalty-text\">YOU DON'T HAVE ANY SKIN CLUB POINTS YET</span>\n         </p>\n       {%- endif -%}\n    </a>\n  {%- endif -%}\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -21,10 +30,10 @@
       "settings": {
         "include_horizontal_margins": false,
         "include_vertical_margins": false,
-        "button_link": "shopify:\/\/pages\/earn-points",
-        "button_link2": "shopify:\/\/pages\/rewards",
-        "button_link3": "shopify:\/\/pages\/membership",
-        "button_link4": "\/a\/subscriptions\/manage\/"
+        "button_link": "shopify://pages/earn-points",
+        "button_link2": "shopify://pages/rewards",
+        "button_link3": "shopify://pages/membership",
+        "button_link4": "/a/subscriptions/manage/"
       }
     },
     "main": {
@@ -41,13 +50,13 @@
         "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_1.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_1.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "SKINCARE LOVERS: CREATE AN ACCOUNT",
-            "content": "",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -60,13 +69,13 @@
         "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_2_cc8f86c5-7e87-4b68-804b-4736ab75ad8e.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_2_cc8f86c5-7e87-4b68-804b-4736ab75ad8e.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "MAKE A PURCHASE",
-            "content": "",
             "title": "$ 1 = 5 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -79,13 +88,13 @@
         "9cd1c6a1-eaf4-4dc0-a99e-df0555508610": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_3.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_3.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "HAPPY BIRTHDAY",
-            "content": "",
             "title": "A gift from melume",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -98,13 +107,13 @@
         "26483322-5887-4527-8b70-7e4507b5087c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_4_7f817f49-0763-4511-bc48-d8a2d893523b.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_4_7f817f49-0763-4511-bc48-d8a2d893523b.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "LIKE US on TikTok, Instagram, Facebook",
-            "content": "",
             "title": "50 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -117,13 +126,13 @@
         "2722e8de-b43c-44b8-9f83-4ac00d950ffb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_5_99707650-1091-4d09-a032-ac3a5d4a0685.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_5_99707650-1091-4d09-a032-ac3a5d4a0685.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Tell a friend",
-            "content": "",
             "title": "1000 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -136,13 +145,13 @@
         "fe66ab8e-505d-418d-aefa-7ecdf6b684bf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_6_412df8c3-f79a-4c1d-b4cc-c5e62d691f75.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_6_412df8c3-f79a-4c1d-b4cc-c5e62d691f75.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "REVIEW YOUR PURCHASED PRODUCT",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -155,13 +164,13 @@
         "370b0047-e8e6-4e64-adf4-c9f19428d125": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_7_50c783bb-7adc-4c64-a74e-b493d2e096ff.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_7_50c783bb-7adc-4c64-a74e-b493d2e096ff.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow us on Facebook",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -174,13 +183,13 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_8_7be5a088-567f-4d0f-ae0c-92d3e4d44b53.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_8_7be5a088-567f-4d0f-ae0c-92d3e4d44b53.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow us on Instagram",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -193,13 +202,13 @@
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_9_2ab3905b-0251-4734-8297-1a9364f1314d.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_9_2ab3905b-0251-4734-8297-1a9364f1314d.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow Us on TikTok",
-            "content": "",
             "title": "100 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "#joy-open",
             "link_style": "link",
             "text_position": "middle_center",
@@ -222,12 +231,13 @@
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c"
       ],
       "custom_css": [
-        "@media screen and (min-width: 741px) {.promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)) !important; margin-right: calc(var(--grid-column-width) + var(--grid-gap)) !important; }}"
+        "@media screen and (min-width: 741px) {.promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)) !important; margin-right: calc(var(--grid-column-width) + var(--grid-gap)) !important; }}",
+        "h1 {text-transform: uppercase;}"
       ],
       "settings": {
         "subheading": "",
         "title": "Ways to earn points",
-        "content": "",
+        "h_value": 1,
         "section_size": "large",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
