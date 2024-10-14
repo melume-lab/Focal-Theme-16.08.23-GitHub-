@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -28,7 +28,7 @@
         "section_height": "auto",
         "subheading": "",
         "title": "The melumé skin club.",
-        "content": "<p>GET REWARDED FOR YOUR COMMITMENT FOR YOUR FAVORITE PRODUCT.<br\/> AUTO‑REWARDED AND RECEIFE 30% OFF.<\/p>",
+        "content": "<p>GET REWARDED FOR YOUR COMMITMENT FOR YOUR FAVORITE PRODUCT.<br/> AUTO‑REWARDED AND RECEIFE 30% OFF.</p>",
         "html": "",
         "button_text": "",
         "button_link": "",
@@ -52,14 +52,15 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Edit.png",
-        "mobile_image": "shopify:\/\/shop_images\/2.0_Banner_2000x980_3_Mobile.png",
+        "image": "shopify://shop_images/2.0_Banner_2000x980_3_Edit.png",
+        "mobile_image": "shopify://shop_images/2.0_Banner_2000x980_3_Mobile.png",
         "subheading": "",
         "title": "The Melumé Skin Club",
+        "h_value": 1,
         "html": "",
-        "content": "<p>JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!<\/p>",
+        "content": "<p>JOIN OUR SKIN CLUB REWARDS PROGRAM & UNLOCK A WORLD OF BENEFITS!</p>",
         "button_text": "Join Our Skin Club",
-        "button_link": "\/account",
+        "button_link": "/account",
         "background_type": "full_width",
         "text_position": "left",
         "text_alignment": "left",
@@ -76,11 +77,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify:\/\/shop_images\/Gift_Icon_07cfc8ff-335c-42a4-8059-efa3315a0843.png",
+            "custom_icon": "shopify://shop_images/Gift_Icon_07cfc8ff-335c-42a4-8059-efa3315a0843.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "BIRTHDAY SURPRISE",
-            "content": "<p>RECEIVE A SPECIAL GIFT<\/p>",
+            "content": "<p>RECEIVE A SPECIAL GIFT</p>",
             "html": "",
             "subheading": ""
           }
@@ -89,11 +90,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify:\/\/shop_images\/Gruppe_14.png",
+            "custom_icon": "shopify://shop_images/Gruppe_14.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "PRIORITY ACCESS",
-            "content": "<p>EXCLUSIVE OFFERS, REWARDS AND<br\/>EARLY ACCESS<\/p>",
+            "content": "<p>EXCLUSIVE OFFERS, REWARDS AND<br/>EARLY ACCESS</p>",
             "html": "",
             "subheading": ""
           }
@@ -102,11 +103,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-email",
-            "custom_icon": "shopify:\/\/shop_images\/B-Day_Icon_09b3d6b3-b947-46a4-aaa9-a406f2ab7fb8.png",
+            "custom_icon": "shopify://shop_images/B-Day_Icon_09b3d6b3-b947-46a4-aaa9-a406f2ab7fb8.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "TELL FRIENDS AND FAMILY",
-            "content": "<p>GET REWARDS AND DISCOUNTS<\/p>",
+            "content": "<p>GET REWARDS AND DISCOUNTS</p>",
             "html": "",
             "subheading": ""
           }
@@ -122,7 +123,7 @@
         "underline": false,
         "maintitle": "SKIN CLUB BENEFITS",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "background": "#000000",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
@@ -136,11 +137,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify:\/\/shop_images\/Illustration1_Small_49e787dc-5eb2-4d18-86f6-99177a512bd3.png",
+            "custom_icon": "shopify://shop_images/Illustration1_Small_49e787dc-5eb2-4d18-86f6-99177a512bd3.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "SIGN UP",
-            "content": "<p>CREATE AN ACCOUNT AND<br\/>RECEIVE 200 POINTS<\/p>",
+            "content": "<p>CREATE AN ACCOUNT AND<br/>RECEIVE 200 POINTS</p>",
             "html": "",
             "subheading": ""
           }
@@ -149,11 +150,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify:\/\/shop_images\/Illustration2.png",
+            "custom_icon": "shopify://shop_images/Illustration2.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "EARN POINTS",
-            "content": "<p>RECEIVE POINTS<br\/>EVERY TIME YOU BUY<\/p>",
+            "content": "<p>RECEIVE POINTS<br/>EVERY TIME YOU BUY</p>",
             "html": "",
             "subheading": ""
           }
@@ -162,11 +163,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-email",
-            "custom_icon": "shopify:\/\/shop_images\/Illustration3.png",
+            "custom_icon": "shopify://shop_images/Illustration3.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "REDEEM POINTS",
-            "content": "<p>COLLECT POINTS FOR<br\/>EXCLUSIVE REWARDS<\/p>",
+            "content": "<p>COLLECT POINTS FOR<br/>EXCLUSIVE REWARDS</p>",
             "html": "",
             "subheading": ""
           }
@@ -195,7 +196,7 @@
         "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_1.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_1.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "SKINCARE LOVERS: CREATE AN ACCOUNT",
@@ -214,7 +215,7 @@
         "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_2_cc8f86c5-7e87-4b68-804b-4736ab75ad8e.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_2_cc8f86c5-7e87-4b68-804b-4736ab75ad8e.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "MAKE A PURCHASE",
@@ -233,7 +234,7 @@
         "9cd1c6a1-eaf4-4dc0-a99e-df0555508610": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_3.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_3.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "HAPPY BIRTHDAY",
@@ -252,7 +253,7 @@
         "26483322-5887-4527-8b70-7e4507b5087c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_4_7f817f49-0763-4511-bc48-d8a2d893523b.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_4_7f817f49-0763-4511-bc48-d8a2d893523b.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "LIKE US ON TikTok, Instagram, Facebook",
@@ -271,7 +272,7 @@
         "2722e8de-b43c-44b8-9f83-4ac00d950ffb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_5_99707650-1091-4d09-a032-ac3a5d4a0685.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_5_99707650-1091-4d09-a032-ac3a5d4a0685.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Tell a friend",
@@ -290,7 +291,7 @@
         "fe66ab8e-505d-418d-aefa-7ecdf6b684bf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_6_412df8c3-f79a-4c1d-b4cc-c5e62d691f75.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_6_412df8c3-f79a-4c1d-b4cc-c5e62d691f75.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Review your purchased product ",
@@ -309,7 +310,7 @@
         "370b0047-e8e6-4e64-adf4-c9f19428d125": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_7_50c783bb-7adc-4c64-a74e-b493d2e096ff.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_7_50c783bb-7adc-4c64-a74e-b493d2e096ff.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow us on Facebook",
@@ -328,7 +329,7 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_8_7be5a088-567f-4d0f-ae0c-92d3e4d44b53.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_8_7be5a088-567f-4d0f-ae0c-92d3e4d44b53.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow us on Instagram",
@@ -347,7 +348,7 @@
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Skin_Point_Tiles_500x500_9_2ab3905b-0251-4734-8297-1a9364f1314d.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_9_2ab3905b-0251-4734-8297-1a9364f1314d.jpg",
             "highlight": false,
             "reload_enabled": true,
             "subheading": "Follow Us on TikTok",
