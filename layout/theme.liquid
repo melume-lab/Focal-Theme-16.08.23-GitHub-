@@ -356,40 +356,17 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
     </style>
   {% endif %}
 
-    {% if product.handle == 'xl-hydra-dream-duo' %}
+  {% if product.handle == 'xl-hydra-dream-duo' or 
+        product.handle == 'bundle-micropeel-cleanser' or 
+        product.handle == 'contouring-lifting-sculpting-duo' or 
+        product.handle == 'skinsational-starter-kit' %}
       <style>
-         #shopify-section-template--19521757708626__ms_skincare_lovers_nN63n8 {
-        display: none;
-      }
+          #shopify-section-template--19521757708626__ms_skincare_lovers_nN63n8 {
+              display: none;
+          }
       </style>
-    {% endif %}
+  {% endif %}
 
-
-
-  {% if product.handle == 'bundle-micropeel-cleanser' %}
-      <style>
-         #shopify-section-template--19521757708626__ms_skincare_lovers_nN63n8 {
-        display: none;
-      }
-      </style>
-    {% endif %}
-  
-  {% if product.handle == 'contouring-lifting-sculpting-duo' %}
-      <style>
-         #shopify-section-template--19521757708626__ms_skincare_lovers_nN63n8 {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-
-  {% if product.handle == 'skinsational-starter-kit' %}
-      <style>
-         #shopify-section-template--19521757708626__ms_skincare_lovers_nN63n8 {
-        display: none;
-      }
-      </style>
-    {% endif %}
 
   
 
