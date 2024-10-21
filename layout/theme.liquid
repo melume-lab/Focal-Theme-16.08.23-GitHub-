@@ -240,45 +240,7 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
     </script>
     <!-- End of melume Zendesk Widget script -->
 
-   <!-- Auto Language -->
-{%- comment -%}
-  <script>
-      const YOUR_DOMAIN = window.location.origin
-      const YOUR_DOMAIN_LENGTH = YOUR_DOMAIN.length
-      const SUPPORTED_LANGUAGES = ["de"]
-      const LANGUAGE_COOKIE_NAME = "language"
-      const BROWSER_LANGUAGE = navigator.language
-      function getCookie(name) {
-      const value = `; ${document.cookie}`;
-      const parts = value.split(`; ${name}=`);
-      if (parts.length === 2) return parts.pop().split(';').shift();
-      }
-      
-      function setDefaultLanguage(){
-      let selectedLanguage = getCookie(LANGUAGE_COOKIE_NAME)
-      if (!selectedLanguage) {
-      console.log("No selected lang")
-      for (const lang of SUPPORTED_LANGUAGES){
-      console.log("Lang", lang)
-      if(BROWSER_LANGUAGE.includes(lang)){
-      document.cookie = `${LANGUAGE_COOKIE_NAME}=${lang};`;
-      if (!window.location.href.includes(`${YOUR_DOMAIN}/${lang}`)){
-      var url = window.location.href;
-      var redirect_url = url.slice(0, YOUR_DOMAIN_LENGTH) + `/${lang}` + url.slice(YOUR_DOMAIN_LENGTH);
-      console.log(url.slice(0, YOUR_DOMAIN_LENGTH))
-      window.location.href= redirect_url;
-      }
-      break;
-      }
-      }
-      }
-      }
-      setDefaultLanguage()
-</script>
 
-{%- endcomment -%}
-
-    <!-- Auto Language -->
 
     {{ content_for_header }}
 
@@ -402,87 +364,6 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
       </style>
     {% endif %}
 
-
-  
-  {% if collection.handle == 'skincare-products' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'uneven-skin-texture' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'clogged-pores-breakouts' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'dehydration-dryness' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'fine-lines-wrinkles' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'hyperpigmentation' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'pores' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'dull-skin' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-  {% if collection.handle == 'redness-irritation' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
-
-   {% if collection.handle == 'firming-lifting' %}
-      <style>
-         #shopify-section-template--19493494227282__rich_text_NDMeQR {
-        display: none;
-      }
-      </style>
-    {% endif %}
 
 
   {% if product.handle == 'bundle-micropeel-cleanser' %}
