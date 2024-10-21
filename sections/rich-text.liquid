@@ -47,7 +47,19 @@
   }
 </style>
 
-<section class="section {% unless blends_with_background or is_boxed %}section--flush{% endunless %}">
+{%- if section.settings.title == blank -%}
+  {%- if section.settings.content == blank -%}
+    {%- assign is_hidden = true -%}
+  {%- endif -%}
+{%- endif -%}
+
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+
+<section class="section {% unless blends_with_background or is_boxed %}section--flush{% endunless %} {% if is_hidden %}hidden{% endif %}">
   <div {% if is_boxed %}class="container"{% endif %}>
     <div class="section__color-wrapper {% if is_boxed %}section__color-wrapper--boxed{% endif %}">
       <div class="{% unless is_boxed %}container{% endunless %} {% unless blends_with_background %}vertical-breather{% endunless %}">
@@ -77,6 +89,8 @@
     </div>
   </div>
 </section>
+
+
 
 {% schema %}
 {
