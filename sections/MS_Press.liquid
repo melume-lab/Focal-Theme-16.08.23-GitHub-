@@ -155,7 +155,7 @@
   {% assign sorted_press_values = shop.metaobjects.press.values | sort_natural: 'nummer' | reverse %}
   {% for presse in sorted_press_values %}
     <div class="press-entry">
-      {% assign file_path = presse.artikel_url | replace: 'https://cdn.shopify.com/s/files/1/0570/3797/9847/files/', '' %}
+      {% assign file_path = presse.artikel_url | replace: 'https://cdn.shopify.com/s/files/1/0770/7466/1714/files/', '' %}
       <a href="{{ shop.url }}/cdn/shop/files/{{ file_path }}" target="_blank">
         <img src="{{ presse.bild | img_url: '500x' }}" alt="{{ presse.name }}">
       </a>
