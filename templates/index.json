@@ -12,6 +12,32 @@
     "d107d64a-9a4a-4cca-81db-17804a8cd886": {
       "type": "MS_Slideshow",
       "blocks": {
+        "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rotating_Banner_Promotion_Helloween_2160x1018_RZ.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_2024_Rotating_Banner_Promotion_Halloween_1000x1400px_RZ.jpg",
+            "video_source_url": "",
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "",
+            "title_promo": "<p><strong>20% OFF<br/>ON ESSENTIALS</strong></p>",
+            "content": "",
+            "content_promo": "<p>GET (UN)READY FOR HALLOWEEN<br/>WITH CODE <strong>SKINBOO20</strong></p>",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify://collections/melume-promo",
+            "button_2_text": "",
+            "button_2_link": "",
+            "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 220,
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d": {
           "type": "image",
           "settings": {
@@ -61,32 +87,6 @@
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Rotating_Banner_Promotion_Helloween_2160x1018_RZ.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_2024_Rotating_Banner_Promotion_Halloween_1000x1400px_RZ.jpg",
-            "video_source_url": "",
-            "text_position": "middle_left",
-            "subheading": "",
-            "title": "",
-            "title_promo": "<p><strong>20% OFF<br/>ON ESSENTIALS</strong></p>",
-            "content": "",
-            "content_promo": "<p>GET (UN)READY FOR HALLOWEEN<br/>WITH CODE <strong>SKINBOO20</strong></p>",
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify://collections/melume-promo",
-            "button_2_text": "",
-            "button_2_link": "",
-            "content_notice": "",
-            "topMarginControl": 0,
-            "bottomMarginControl": 220,
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
@@ -145,9 +145,9 @@
         }
       },
       "block_order": [
+        "a11f4c44-fec7-49cc-9448-8ab94cd92389",
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d",
         "1a0a45d5-aa51-4163-8042-53e3f71313b8",
-        "a11f4c44-fec7-49cc-9448-8ab94cd92389",
         "image_LjT3XT",
         "image_hLzeNL"
       ],
