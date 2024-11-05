@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "icon_stroke_width": 1,
@@ -54,16 +54,16 @@
     "cart_icon": "shopping_bag",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "79,90",
-    "social_facebook": "https:\/\/www.facebook.com\/melumeskinscience",
+    "social_facebook": "https://www.facebook.com/melumeskinscience",
     "social_twitter": "",
-    "social_instagram": "https:\/\/www.instagram.com\/melume_skinscience\/",
+    "social_instagram": "https://www.instagram.com/melume_skinscience/",
     "social_tumblr": "",
     "social_youtube": "",
-    "social_tiktok": "https:\/\/www.tiktok.com\/@melume_skinscience",
+    "social_tiktok": "https://www.tiktok.com/@melume_skinscience",
     "social_wechat": "",
     "social_reddit": "",
     "social_line": "",
-    "favicon": "shopify:\/\/shop_images\/Flavicon_96x96_melume-skinscience_256x256_38f92499-8b2b-4106-8174-6e8254cdf0ea.jpg",
+    "favicon": "shopify://shop_images/Flavicon_96x96_melume-skinscience_256x256_38f92499-8b2b-4106-8174-6e8254cdf0ea.jpg",
     "recurpay_onetime_label": "One-Time Purchase",
     "recurpay_subscription_label": "Subscribe Now and Save",
     "recurpay_label_description": "Lock in and never run out of supplies",
@@ -73,7 +73,7 @@
     "recurpay_border_color": "#000000",
     "recurpay_button_color": "#ffffff",
     "recurpay_button_bg": "#000000",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Melume_Logo.svg",
+    "checkout_logo_image": "shopify://shop_images/Melume_Logo.svg",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#f5f2f0",
@@ -90,7 +90,7 @@
           "message-1": {
             "type": "message",
             "settings": {
-              "text": "<p>Choose 2 free luxury samples<br\/>with every order<\/p>",
+              "text": "<p>Choose 2 free luxury samples<br/>with every order</p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
@@ -101,7 +101,7 @@
           "ca03ee42-1f42-4bdd-bce4-16a162ac045e": {
             "type": "message",
             "settings": {
-              "text": "<p>Free shipping & return over $75 &<br\/>100% money back guarantee<\/p>",
+              "text": "<p>Free shipping & return over $75 &<br/>100% money back guarantee</p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
@@ -112,7 +112,7 @@
           "26764d66-98b4-412f-be3c-586927d4f7cb": {
             "type": "message",
             "settings": {
-              "text": "<p>Join our Skin Club today and<br\/>unlock a world of benefits.  <a href=\"https:\/\/melume-skinscience.us.com\/account\/login?country=US\">Join now.<\/a><\/p>",
+              "text": "<p>Join our Skin Club today and<br/>unlock a world of benefits.  <a href=\"https://melume-skinscience.us.com/account/login?country=US\">Join now.</a></p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
@@ -123,7 +123,7 @@
           "message_ikn9hK": {
             "type": "message",
             "settings": {
-              "text": "<p>Auto-replenish your favorite products<br\/>and save 30% on your order<\/p>",
+              "text": "<p>Auto-replenish your favorite products<br/>and save 30% on your order</p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
@@ -134,7 +134,7 @@
           "message_PGBLtg": {
             "type": "message",
             "settings": {
-              "text": "<p>Join our newsletter &<br\/>get 15$ off on your order now<\/p>",
+              "text": "<p>Join our newsletter &<br/>get 15$ off on your order now</p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
@@ -168,12 +168,43 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "mega_menu_M4Jk7n": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "menu_item": "SKINCARE SHOP",
+              "images_position": "right",
+              "image_1_heading": "",
+              "image_1_text": "",
+              "image_1_link": "",
+              "image_2_heading": "",
+              "image_2_text": "",
+              "image_2_link": "",
+              "image_3_heading": "",
+              "image_3_text": "",
+              "image_3_link": "",
+              "image_4_heading": "",
+              "image_4_text": "",
+              "image_4_link": "",
+              "image_5_heading": "",
+              "image_5_text": "",
+              "image_5_link": "",
+              "image_6_heading": "",
+              "image_6_text": "",
+              "image_6_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega_menu_M4Jk7n"
+        ],
         "custom_css": [
           ".button {font-size: 13px !important;}"
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/Melume_Logo_52c8eec7-d391-449f-938b-2b251a2fb95d.svg",
+          "logo": "shopify://shop_images/Melume_Logo_52c8eec7-d391-449f-938b-2b251a2fb95d.svg",
           "logo_max_width": 140,
           "mobile_logo_max_width": 100,
           "navigation_menu": "main-menu",
@@ -187,7 +218,7 @@
           "transparent_header_text_color": "#ffffff",
           "search_menu": "",
           "button_text": "Join our Skin Club",
-          "button_link": "\/account"
+          "button_link": "/account"
         }
       },
       "footer": {
@@ -231,7 +262,7 @@
           "show_locale_selector": true,
           "show_cookie_bar": false,
           "cookie_bar_title": "Cookie policy",
-          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.</p>"
         }
       },
       "popup": {
@@ -245,11 +276,11 @@
           "show_only_on_index": true,
           "show_only_for_visitors": true,
           "show_only_once": false,
-          "image": "shopify:\/\/shop_images\/Newsletter_Anmeldung_1000x1000_6d012efc-85a8-4390-9c51-d8880f6b2ca0.jpg",
+          "image": "shopify://shop_images/Newsletter_Anmeldung_1000x1000_6d012efc-85a8-4390-9c51-d8880f6b2ca0.jpg",
           "image_position": "left",
           "subheading": "MELUMÉ NEWSLETTER",
           "title": "15$ off your next order*",
-          "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPPS.<br\/><\/p>",
+          "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPPS.<br/></p>",
           "endtitle": "* Only valid for new skincare lovers & only with a minimum order of $35. Can not be combined with other offers."
         }
       },
@@ -258,7 +289,7 @@
         "settings": {
           "show_order_note": true,
           "show_checkout_button": true,
-          "empty_button_link": "shopify:\/\/collections\/all",
+          "empty_button_link": "shopify://collections/all",
           "show_recommendations": true,
           "recommendations_title": "You may also like"
         }
@@ -272,7 +303,7 @@
               "icon": "picto-box",
               "custom_icon_width": 50,
               "title": "Free shipping",
-              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
             }
           },
           "static-text-with-icons-1": {
@@ -281,7 +312,7 @@
               "icon": "picto-phone",
               "custom_icon_width": 50,
               "title": "Customer service",
-              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+              "content": "<p>We are available from monday to friday to answer your questions.</p>"
             }
           },
           "static-text-with-icons-2": {
@@ -290,7 +321,7 @@
               "icon": "picto-lock",
               "custom_icon_width": 50,
               "title": "Secure payment",
-              "content": "<p>Your payment information is processed securely.<\/p>"
+              "content": "<p>Your payment information is processed securely.</p>"
             }
           },
           "static-text-with-icons-3": {
@@ -299,7 +330,7 @@
               "icon": "picto-email",
               "custom_icon_width": 50,
               "title": "Contact us",
-              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com</p>"
             }
           }
         },
@@ -321,7 +352,7 @@
           "show_section": false,
           "reveal_on_scroll": true,
           "subheading": "Subscribe to our newsletter",
-          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
           "text_position": "right",
           "text_alignment": "left",
           "text_background": "rgba(0,0,0,0)",
@@ -336,19 +367,19 @@
     ],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "7584948915495707528": {
-        "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/app-embed\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+        "type": "shopify://apps/joy-loyalty-program/blocks/app-embed/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
         "disabled": false,
         "settings": {
         }
       },
       "15912215999290715800": {
-        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "type": "shopify://apps/geolocation-orbe/blocks/app-embed-modal/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
         "settings": {
           "test_mode": false,
@@ -358,7 +389,7 @@
           "option_language": true,
           "title": "GOOD TO HAVE YOU HERE",
           "text": "",
-          "helper_text": "<p>Please select your shipping destination. Prices and payment for the US will be shown in $. Prices and payment for all European countries and the UK will be shown in €.<\/p>",
+          "helper_text": "<p>Please select your shipping destination. Prices and payment for the US will be shown in $. Prices and payment for all European countries and the UK will be shown in €.</p>",
           "cta_text": "SELECT",
           "alignment_image": "left",
           "style_corners": "square",
@@ -375,19 +406,19 @@
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "14710238943034738919": {
-        "type": "shopify:\/\/apps\/air-reviews-product-reviews\/blocks\/app-embed\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+        "type": "shopify://apps/air-reviews-product-reviews/blocks/app-embed/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
         "disabled": true,
         "settings": {
         }
       },
       "10605408327587305396": {
-        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
           "version": "v3"
