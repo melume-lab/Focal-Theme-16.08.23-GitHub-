@@ -237,9 +237,9 @@
           {% if section.settings.image_left %}
             {% assign image_left_url = section.settings.image_left | img_url: 'master' %}
             {% assign image_left_small_url = section.settings.image_left_small | img_url: 'master' %}
-            <img src="{{ image_left_url }}" alt="Right Image" class="large-image-left">
+            <img src="{{ image_left_url }}" alt="Right Image" class="large-image-left" loading="lazy">
             {% if section.settings.image_left_small %}
-              <img src="{{ image_left_small_url }}" alt="Small Image" class="small-image">
+              <img src="{{ image_left_small_url }}" alt="Small Image" class="small-image" loading="lazy">
             {% endif %}
           {% else %}
             <p>No image selected</p>
