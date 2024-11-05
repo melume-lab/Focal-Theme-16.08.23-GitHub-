@@ -9935,7 +9935,7 @@ input:checked + .popover__choice-label::after,
   width: 100%;
   visibility: hidden;
   opacity: 0;
-  background: rgb(var(--background));
+  background: rgb(var(--secondary-background), 0.97);
   color: rgb(var(--text-color));
   transition: opacity 0.25s ease-in-out, visibility 0.25s ease-in-out;
 }
