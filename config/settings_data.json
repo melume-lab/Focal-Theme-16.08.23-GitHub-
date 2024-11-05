@@ -200,7 +200,8 @@
           "mega_menu_M4Jk7n"
         ],
         "custom_css": [
-          ".button {font-size: 13px !important;}"
+          ".button {font-size: 13px !important;}",
+          "a {text-transform: uppercase;}"
         ],
         "settings": {
           "enable_sticky_header": true,
