@@ -54,10 +54,22 @@
     height: 100%;
     object-fit: cover;
   }
+
+@media screen and (max-width: 1680px) {
   .image-tiles-text-main-container-left {
     display: block;
     max-width: calc(var(--container-max-width) - 49%);
   }
+}
+
+@media screen and (min-width: 1681px) {
+  .image-tiles-text-main-container-left {
+    display: block;
+    max-width: 760px;
+  }
+}
+
+  
   .image-tiles-text-container-right {
     width: 100%;
   }
@@ -140,7 +152,7 @@
           {% assign image_url = section.settings.image | img_url: 'master' %}
           {% assign image_width = 1000 %}
           {% assign image_height = 1000 %}
-          <img src="{{ image_url }}" alt="Image" width="{{ image_width }}" height="{{ image_height }}">
+          <img src="{{ image_url }}" alt="Image" width="{{ image_width }}" height="{{ image_height }}" loading="lazy">
         {% else %}
           <p>No image selected</p>
         {% endif %}

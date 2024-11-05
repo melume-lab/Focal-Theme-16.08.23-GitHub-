@@ -193,7 +193,7 @@
           {% assign image_url = section.settings.image | img_url: 'master' %}
           {% assign image_width = 1000 %}
           {% assign image_height = 1000 %}
-          <img src="{{ image_url }}" alt="Image" width="{{ image_width }}" height="{{ image_height }}">
+          <img src="{{ image_url }}" alt="Image" width="{{ image_width }}" height="{{ image_height }}" loading="lazy">
         {% else %}
           <p>No image selected</p>
         {% endif %}
