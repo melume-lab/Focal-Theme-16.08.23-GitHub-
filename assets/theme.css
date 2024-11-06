@@ -10001,6 +10001,7 @@ input:checked + .popover__choice-label::after,
   flex-wrap: wrap;
   margin: calc(-1 * var(--mega-menu-column-gap) / 2);
   /* gap: var(--mega-menu-column-gap); NOT YET FULLY SUPPORTED */
+  justify-content: space-between;
 }
 
 .mega-menu__column {
