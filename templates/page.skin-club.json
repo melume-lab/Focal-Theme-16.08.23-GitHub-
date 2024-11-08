@@ -46,7 +46,7 @@
     "f6ef4679-c978-4377-88ad-a80d09bcbc82": {
       "type": "image-with-text-block",
       "custom_css": [
-        "h2 {font-size: 40px; text-transform: uppercase;}",
+        "h1 {font-size: 40px; text-transform: uppercase;}",
         ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
         ".content-box-custom-width {max-width: 500px;}"
       ],
@@ -376,12 +376,11 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942",
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "subheading": "",
         "title": "WAYS TO EARN POINTS",
+        "h_value": 3,
         "section_size": "large",
         "stack_on_mobile": false,
         "background": "rgba(0,0,0,0)",
