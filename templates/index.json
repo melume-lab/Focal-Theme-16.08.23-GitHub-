@@ -414,6 +414,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Split_Banner_1000x590_Complex.jpg",
+        "video": "",
         "title": "GMOD™ COMPLEX",
         "content": "",
         "html": "",
@@ -491,6 +492,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Split_Banner_1000x590_Anwendung_2.jpg",
+        "video": "https://cdn.shopify.com/videos/c/o/v/e564a6ff10534c16a1724bcd677f0154.mp4",
         "title": "The application of active -ingredients with a high concentration on the skin surface and prolonging the duration of their action is essential to us; that's why we use intelligent delivery systems such as encapsulation, microspheres, and liposome systems in our formulas that extend bio-availability, bringing the actives to their intended target and depth in the skin and therefore intensify the efficacy.",
         "content": "",
         "html": "",
