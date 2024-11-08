@@ -20,7 +20,7 @@
     "e87e5895-276b-47f2-a5a5-cf996206e321": {
       "type": "image-with-text-block",
       "custom_css": [
-        "h2 {font-size: 40px;}",
+        "h1 {font-size: 40px;}",
         ".image-with-text-block__content:not(.image-with-text-block__content--tight) {padding: 48px;}",
         ".content-box-custom-width {max-width: 550px;}",
         ".content-box {background: rgba(255, 255, 255, 0.7); margin-bottom: 200px;}"
