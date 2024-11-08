@@ -147,16 +147,85 @@
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign first_block = section.blocks.first -%}
     <div class="split-container">
+
+
+
       <div class="image-container">
-          {% if section.settings.image %}
-          {% assign image_url = section.settings.image | img_url: 'master' %}
-          {% assign image_width = 1000 %}
-          {% assign image_height = 1000 %}
-          <img src="{{ image_url }}" alt="Image" width="{{ image_width }}" height="{{ image_height }}" loading="lazy">
-        {% else %}
-          <p>No image selected</p>
-        {% endif %}
-      </div>
+    {% if section.settings.video != blank %}
+        <video id="myVideo" autoplay muted loop playsinline controls>
+            <source data-src="{{ section.settings.video }}" type="video/mp4">
+            Sorry, your browser does not support embedded videos.
+        </video>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var video = document.getElementById('myVideo');
+                var videoSource = video.querySelector('source');
+
+                // Lazy load the video using Intersection Observer
+                var lazyVideoObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            videoSource.src = videoSource.getAttribute('data-src');
+                            video.load();
+                            observer.unobserve(video);
+                        }
+                    });
+                });
+
+                lazyVideoObserver.observe(video);
+
+                // Hide controls when the video is playing
+                video.addEventListener('play', function() {
+                    video.removeAttribute('controls');
+                });
+
+                // Show controls when the video is paused
+                video.addEventListener('pause', function() {
+                    video.setAttribute('controls', 'controls');
+                });
+
+                // Show controls initially if the video is paused
+                if (video.paused) {
+                    video.setAttribute('controls', 'controls');
+                }
+
+                // Ensure autoplay works on mobile by triggering play after user interaction
+                document.addEventListener('click', function() {
+                    if (video.paused) {
+                        video.play();
+                    }
+                });
+
+                // Set video thumbnail to 0:08 if not autoplaying
+                video.addEventListener('loadeddata', function() {
+                    if (video.paused) {
+                        video.currentTime = 8;
+                    }
+                });
+
+                // Handle video time update to maintain the 0:08 thumbnail if it stops playing
+                video.addEventListener('pause', function() {
+                    if (video.currentTime < 8) {
+                        video.currentTime = 8;
+                    }
+                });
+
+                // Ensure the thumbnail is set after a seek operation
+                video.addEventListener('seeked', function() {
+                    if (video.paused && video.currentTime < 8) {
+                        video.currentTime = 8;
+                    }
+                });
+            });
+        </script>
+    {% elsif section.settings.image != blank %}
+        {% assign image_url = section.settings.image | img_url: 'master' %}
+        <img src="{{ image_url }}" alt="Image" loading="lazy">
+    {% else %}
+        <p>No image or video selected</p>
+    {% endif %}
+</div>
+
       <div class="image-tiles-text-main-container-left">
         <div class="image-tiles-text-container-right">
         {%- if section.settings.title != blank -%}
@@ -203,6 +272,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image",
+      "info": "1400 x 1400px .jpg recommended"
+    },
+    {
+      "type": "text",
+      "id": "video",
+      "label": "Video",
       "info": "1400 x 1400px .jpg recommended"
     },
     {
