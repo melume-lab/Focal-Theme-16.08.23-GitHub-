@@ -20,7 +20,7 @@
     "0f4944d4-45c0-4e56-95ed-0431aeaba252": {
       "type": "image-with-text-block",
       "custom_css": [
-        "h2 {font-size: 40px; text-transform: uppercase;}",
+        "h1 {font-size: 40px; text-transform: uppercase;}",
         ".content-box-custom-width {max-width: 400px;}",
         ".content-box {background: rgba(0, 0, 0, 0); margin-bottom: 300px;}"
       ],
@@ -220,6 +220,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Split_Banner_II_980x1300px_1.jpg",
+        "video": "",
         "title": "Passion makes dreams come true",
         "content": "<p>Melumé Skinscience was created by a group of passionate beauty industry professionals from across all business areas – with a proven track record of developing successful skincare brands and products globally. We have put our heads together, leveraging our extensive knowledge, experience, and expertise. We made our vision of a skincare brand that ticks all the boxes to come alive. Driven by a strong belief, good skincare starts with transparency and the truth. We are convinced that active ingredients are the true heroes. </p><p>With that in mind, we developed a groundbreaking, highly innovative, and outstanding result-driven skincare line that is set to revolutionize your beauty routine and truly transform your skin. We never compromise on our formulas, committed to only using ingredients that benefit the skin's health and efficacy. By experimenting with new powerful active ingredients until we find the right combination and level, utilizing the latest scientific advancements, and ensuring that they go through numerous rounds of testing before launching, we ensure that every aspect of your skin care needs is met.</p>",
         "html": "",
@@ -338,6 +339,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Split_Banner_II_980x1300px_3.jpg",
+        "video": "",
         "title": "Innovation & Science – Made in Germany",
         "content": "<p>Our highly experienced laboratory houses a team of dedicated researchers and experts who specialize in developing high-performance skincare and are dedicated to researching new raw materials, active ingredients, formula innovations, and technologies from around the globe. Renowned worldwide, they stand for advanced technology, precision, science, cutting-edge innovation, and outstanding quality.<br/></p><p>Our scientists develop unique, breakthrough skincare innovations, where high-performance ingredients reveal a new level of efficacy: With a steady commitment to excellence, our experts ensure great efficacy for unparalleled results and the most innovative products that are unique in the market. Biomimetic ingredients that are skin biocompatible, with pH appropriate second skin technology textures, ensure better absorption of the active ingredients and provide an amazing skin feel. Our team always goes a step further, finding new ways to formulate and combine ingredients for a skinsational experience that will transform your skincare routine.</p>",
         "html": "",
@@ -431,6 +433,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Split_Banner_II_980x1300px_5.jpg",
+        "video": "",
         "title": "BIOMIMETIC",
         "content": "<p>Using innovative plant-based and synthetic biomimetic ingredients creates a union of cutting-edge scientific technology and nature: These ingredients mimic skin structures and biochemicals, allowing optimal delivery and better results by triggering your natural production of for example collagen, elastin, and other essential building blocks. An example is our lab-created peptides that are added to formulas to mimic the peptides naturally made by our bodies: Peptides are the building blocks for proteins responsible for the skin's texture, strength, and resilience.</p><p>Firstly these ingredients benefit your skin in their own right; as they begin to work their magic, your skin also acknowledges their role and ramps up its own efforts since it recognizes them and their functions. They can mimic our skin's biological function and are similar or almost identical to what the human body produces, which is familiar naturally. This allows exceptional delivery and outstanding results because they're made based on what science already knows your skin loves and even produces.</p><p>We use as many biomimetic ingredients that are as identical to those found in your skin as possible. This guarantees that they will fulfill the same function as those lost by aging once incorporated into the skin's structure.</p>",
         "html": "",
@@ -852,9 +855,7 @@
       "block_order": [
         "template--17824560546072__cd74129d-4346-444b-b7e5-c39958532e7c-1676030227f6f80f4c-0"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": false,
         "background_type": "full_width",
