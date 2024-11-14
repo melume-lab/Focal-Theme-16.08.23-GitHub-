@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "show_title": true,
         "page_width": "large"
@@ -23,13 +22,20 @@
         "template--17116456976664__fb4dd997-11ac-4479-a850-934619998d58-1675430277881d7e07-0": {
           "type": "image",
           "settings": {
+            "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
             "title": "The melumé skin club.",
+            "title_promo": "",
+            "content": "",
+            "content_promo": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
+            "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#131313",
             "button_background": "#131313",
             "button_text_color": "#ffffff",
@@ -40,13 +46,20 @@
         "bbeb4d15-8833-45b5-baf9-026378ea208b": {
           "type": "image",
           "settings": {
+            "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
             "title": "The melumé skin club.",
+            "title_promo": "",
+            "content": "",
+            "content_promo": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
+            "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#131313",
             "button_background": "#131313",
             "button_text_color": "#ffffff",
@@ -57,14 +70,20 @@
         "1661a7d3-388a-464c-9876-340c8f95690f": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Seren_Abo_8197e045-3d23-4cc2-a8d5-40ed4d9dbffb.png",
+            "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
             "title": "The melumé skin club.",
+            "title_promo": "",
+            "content": "",
+            "content_promo": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
+            "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#131313",
             "button_background": "#131313",
             "button_text_color": "#ffffff",
@@ -75,13 +94,20 @@
         "64a3ad0c-6ac9-4a80-8c79-1c06b8649b5b": {
           "type": "image",
           "settings": {
+            "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
             "title": "The melumé skin club.",
+            "title_promo": "",
+            "content": "",
+            "content_promo": "",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
             "button_2_link": "",
+            "content_notice": "",
+            "topMarginControl": 0,
+            "bottomMarginControl": 150,
             "text_color": "#131313",
             "button_background": "#131313",
             "button_text_color": "#ffffff",
@@ -96,6 +122,7 @@
         "1661a7d3-388a-464c-9876-340c8f95690f",
         "64a3ad0c-6ac9-4a80-8c79-1c06b8649b5b"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "medium",
         "transition_type": "sweep",
@@ -111,7 +138,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/Points_icon_white.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "30% OFF EVERY TIME",
@@ -124,7 +150,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/VIP_icon_white.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "EXCLUSIVE ACCESS",
@@ -137,7 +162,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-email",
-            "custom_icon": "shopify://shop_images/Happy_icon_white.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "PERSONALISED ORDER",
@@ -152,6 +176,7 @@
         "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-2",
         "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-3"
       ],
+      "disabled": true,
       "settings": {
         "borderbottom": true,
         "underline": true,
@@ -159,7 +184,9 @@
         "button_text": "SUbscribe & 30% Discount",
         "button_link": "",
         "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
       }
     },
     "b65a2977-9109-494c-a091-856c2418db7e": {
@@ -169,7 +196,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/Illustration_1.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "30% OFF EVERY TIME",
@@ -182,7 +208,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/Illustration_2.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "EXCLUSIVE ACCESS",
@@ -195,7 +220,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-email",
-            "custom_icon": "shopify://shop_images/Illustration_3.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "PERSONALISED ORDER",
@@ -210,6 +234,7 @@
         "1b8a6b1f-c7ac-4db7-9ff6-0ed979e07261",
         "1aa143d3-4b50-40a1-8e78-f4985535fd99"
       ],
+      "disabled": true,
       "settings": {
         "borderbottom": true,
         "underline": true,
@@ -217,7 +242,9 @@
         "button_text": "Sign up",
         "button_link": "",
         "background": "#f6f5f2",
-        "text_color": "rgba(0,0,0,0)"
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
       }
     },
     "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889": {
@@ -226,11 +253,12 @@
         "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -243,11 +271,12 @@
         "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -260,11 +289,12 @@
         "9cd1c6a1-eaf4-4dc0-a99e-df0555508610": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -277,11 +307,12 @@
         "26483322-5887-4527-8b70-7e4507b5087c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -294,11 +325,12 @@
         "2722e8de-b43c-44b8-9f83-4ac00d950ffb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -311,11 +343,12 @@
         "fe66ab8e-505d-418d-aefa-7ecdf6b684bf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -328,11 +361,12 @@
         "370b0047-e8e6-4e64-adf4-c9f19428d125": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -345,11 +379,12 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -362,11 +397,12 @@
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
             "highlight": false,
+            "reload_enabled": true,
             "subheading": "CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
+            "link_text_2": "",
             "link_url": "shopify://products/vitamin-c-cream",
             "link_style": "link",
             "text_position": "middle_center",
@@ -388,9 +424,11 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942",
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Ways to earn points",
+        "h_value": 3,
         "section_size": "large",
         "stack_on_mobile": false,
         "background": "rgba(0,0,0,0)",
