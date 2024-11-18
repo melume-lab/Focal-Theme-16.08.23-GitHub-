@@ -211,7 +211,7 @@
  
           </div>
            {%- if block.settings.content_notice!= blank -%}
-              <h5 class="promo-notice" style="color: #fff; letter-spacing: 1"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <h5 class="promo-notice" style="color: {{ block.settings.text_color }}; letter-spacing: 1"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content_notice != blank-%}
                 {{- block.settings.content_notice -}}
               {%- endif -%}
