@@ -87,6 +87,17 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "message_RdNzxA": {
+            "type": "message",
+            "settings": {
+              "text": "<p>-30% BLACK FRIDAY DEAL & FREE RETINOL STICK OVER $150.<br/>NO CODE NEEDED. <a href=\"/collections/skincare-products\" title=\"All Products\"><span style=\"text-decoration:underline\">SHOP NOW</span></a></p>",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
           "message-1": {
             "type": "message",
             "settings": {
@@ -141,26 +152,15 @@
               "button_text": "",
               "button_link": ""
             }
-          },
-          "message_RdNzxA": {
-            "type": "message",
-            "settings": {
-              "text": "<p>-30% BLACK FRIDAY DEAL & FREE RETINOL STICK OVER $150.<br/>NO CODE NEEDED. <a href=\"/collections/skincare-products\" title=\"All Products\"><span style=\"text-decoration:underline\">SHOP NOW</span></a></p>",
-              "learn_more_text": "Learn more",
-              "title": "",
-              "content": "",
-              "button_text": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
+          "message_RdNzxA",
           "message-1",
           "ca03ee42-1f42-4bdd-bce4-16a162ac045e",
           "26764d66-98b4-412f-be3c-586927d4f7cb",
           "message_ikn9hK",
-          "message_PGBLtg",
-          "message_RdNzxA"
+          "message_PGBLtg"
         ],
         "custom_css": [
           ".announcement-bar {max-height: none;}",
@@ -171,7 +171,7 @@
           "announcement_bar_position": "non_sticky",
           "announcement_text_size": "normal",
           "autoplay": true,
-          "cycle_speed": 4,
+          "cycle_speed": 6,
           "background": "#000000",
           "text_color": "#ffffff",
           "button_background": "#282828",
