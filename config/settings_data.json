@@ -164,6 +164,7 @@
         ],
         "custom_css": [
           ".announcement-bar {max-height: none;}",
+          "@media screen and (max-width: 740px) {.announcement-bar {max-height: 69px; }}",
           "@media screen and (min-width: 741px) {.text--small {font-size: calc(var(--base-font-size) + 6px); line-height: 1.5384615385; }}",
           "p {text-transform: uppercase;}"
         ],
