@@ -470,7 +470,7 @@
     "ms_image_tiles_right_wj4FML": {
       "type": "MS_image-tiles-right",
       "custom_css": [
-        "section {margin: 0px;}"
+        "section {margin-top: 0px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Split_Banner_II_980x1300px_6.jpg",
@@ -502,7 +502,21 @@
         "subheading": "",
         "title": "",
         "html": "Our optimum pH-levels ensure effectiveness, safety, and biocompatibility. A slightly acidic pH value makes sense from the physiological point of view because it is required for a healthy skin metabolic process, maintaining anintact barrier and a natural renewal process.\n<br>\n<br>\nWe don't use alkaline pH values that throw the skin's acid mantle out of balance and compromise the protective barrier. Acidic pH-levels allow reducing preservatives and regulate an optimal environment that encourages the flourishing of the skin's natural flora, balancing the growth of bacteria and fungi. (Microbiom) pH adjustment in each formula also strengthens active ingredients, allowing them to be in their most potent form.\n<br>\n<br>\n\n  <img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/2.0_PH-LEVEL_engl.jpg?v=1709290924\">",
-        "add_vertical_spacing": true,
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "be_who_you_be_Ppyjz9": {
+      "type": "BeWhoYouBe",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>We strongly believe in showing kindness & love to ourselves, others, and our skin.</p><p>Trust in your strength & individuality, nourish your dreams, feel good in your skin,  practice self-care, and be inspired to be the best you can be. Celebrate and love diversity and agelessness. </p><p>Let's genuinely support and empower each other to thrive and improve the world.</p>",
+        "button_text": "",
+        "button_link": "",
+        "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
@@ -721,8 +735,8 @@
         "item_6UdFzg"
       ],
       "custom_css": [
-        "h2 {text-transform: uppercase;}",
-        "section {margin: 0px;}"
+        "h3 {text-transform: uppercase;}",
+        "section {margin-top: 0px;}"
       ],
       "settings": {
         "image_left": "shopify://shop_images/Split_Banner_II_980x1300px_7.jpg",
@@ -791,48 +805,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "6de79817-30ee-4825-bad3-10bbd5ae9b0b": {
-      "type": "MS_image-with-text",
-      "blocks": {
-        "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Solo_Image_1400x1400_Hydrating_cream_Illu.png",
-            "tab_label": "Item",
-            "subheading": "",
-            "title": "Responsible Packaging",
-            "title2": "",
-            "html-two": "",
-            "html-three": "",
-            "content": "<p>For sure, we want to be innovative, and our packaging should be very user-friendly. We're also dedicated to our planet: loving glass for its earth-friendliness and using recycled materials whenever possible.<br/>Together with our FSC-certified packaging partners, we minimize our environmental impact and avoid unnecessary waste.<br/></p><p>Our folding boxes consist of 90 % recycled paper. We use as much PCR (post-consumer recycled material) as possible and some of our tubes are made of green PE (made of sugarcane).<br/></p><p>All eco-conscious efforts are our ongoing priority on our sustainable journey!</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17824560546072__6de79817-30ee-4825-bad3-10bbd5ae9b0b-1676030227f6f80f4c-0"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2 {text-transform: uppercase;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "left",
-        "cycle_speed": 8,
-        "over-subheading": "",
-        "over-title": "",
-        "html": "",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "cd74129d-4346-444b-b7e5-c39958532e7c": {
       "type": "MS_image-with-text",
       "blocks": {
@@ -855,6 +827,7 @@
       "block_order": [
         "template--17824560546072__cd74129d-4346-444b-b7e5-c39958532e7c-1676030227f6f80f4c-0"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "reveal_on_scroll": false,
@@ -894,10 +867,10 @@
     "ba8010f8-d90d-48d8-aa5e-da70887e97aa",
     "ms_image_tiles_right_wj4FML",
     "custom_html_kGCfAG",
+    "be_who_you_be_Ppyjz9",
     "641651b2-72e1-42db-8557-95bf6d74cbaf",
     "ms_image_tiles_with_text_xGFMGm",
     "ca382a2e-bc28-44d6-b3a6-83a3d85f44aa",
-    "6de79817-30ee-4825-bad3-10bbd5ae9b0b",
     "cd74129d-4346-444b-b7e5-c39958532e7c"
   ]
 }
