@@ -216,6 +216,7 @@
     "ms_image_tiles_left_iCYTHg": {
       "type": "MS_image-tiles-left",
       "custom_css": [
+        "h3 {text-transform: uppercase;}",
         "section {margin: 0px;}"
       ],
       "settings": {
@@ -284,6 +285,7 @@
     "ms_image_tiles_right_zDPYwT": {
       "type": "MS_image-tiles-right",
       "custom_css": [
+        "h3 {text-transform: uppercase;}",
         ".html {column-count: 2; margin-left: auto; margin-right: auto;}",
         "h2 {text-transform: uppercase;}",
         "section {margin: 0px;}"
@@ -335,6 +337,7 @@
     "ms_image_tiles_left_A3XnUD": {
       "type": "MS_image-tiles-left",
       "custom_css": [
+        "h3 {text-transform: uppercase;}",
         "section {margin: 0px;}"
       ],
       "settings": {
