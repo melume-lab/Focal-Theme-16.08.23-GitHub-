@@ -20,10 +20,6 @@ button#op-button{
     z-index: 2147483647 !important;
   }
 
-  /*ZenDesk Chat button for mobile resolution*/
-  iframe#launcher{
-    bottom: 80px !important;
-  }
 
   /*klaviyo forms pop related css*/
   .klaviyo-form.klaviyo-form-UrAe9n input{
@@ -78,7 +74,7 @@ button#op-button{
 
   /*ZenDesk Chat button for mobile resolution*/
   iframe#launcher{
-    bottom: 90px !important;
+    bottom: 65px !important;
   }
 
 }
