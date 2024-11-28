@@ -345,6 +345,14 @@ if (blockedCountryCodes.includes(storedCountryCode) && window.location.pathname 
           display: none;
        }
       }
+        @media screen and (max-width: 740px) {
+      iframe#launcher{
+        bottom: 15px !important;
+      }
+     #product-sticky-form:not([hidden]) ~ iframe#launcher {
+        bottom: 65px !important;
+      }
+    }
     </style>
   {% endif %}
 
