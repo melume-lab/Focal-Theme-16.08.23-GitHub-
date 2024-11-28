@@ -1,6 +1,209 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- if section.settings.background_type == 'boxed' -%}
+  {%- assign is_boxed = true -%}
+{%- else -%}
+  {%- assign is_boxed = false -%}
+{%- endif -%}
+
+{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
+  {%- assign blends_with_background = false -%}
+{%- else -%}
+  {%- assign blends_with_background = true -%}
+{%- endif -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
+      {%- assign section_background = settings.background -%}
+    {%- else -%}
+      {%- assign section_background = section.settings.background -%}
+    {%- endif -%}
+
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+    --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+
+    --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
   }
+
+.BWYA-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.back-img-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.back-img-container img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.top-layer-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  gap: 1rem; /* Adjust the gap between elements as needed */
+  margin: 0 auto; /* Center the image horizontally */
+  margin-top: var(--vertical-breather);
+  margin-bottom: 25px;
+}
+
+.be-who-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.main-img-container {
+  width: 100%;
+  display: block;
+}
+
+
+
+  
+</style>
+
+<section class="{% if section.settings.add_vertical_spacing %}section{% endif %} {% unless blends_with_background or is_boxed %}section--flush{% endunless %}">
+  
+    <div class="BWYA-container">
+      <div class="container">
+        <div class="top-layer-container">
+          <img class="be-who-container" src="https://cdn.shopify.com/s/files/1/0570/3797/9847/files/beWHOEVERyouWANTtobe_2.png?v=1732712092" loading="lazy" widths="600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000">
+          {%- if section.settings.subheading != blank -%}
+                <h2 class="heading heading--small">
+                  <split-lines {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ section.settings.subheading | escape }}</split-lines>
+                </h2>
+              {%- endif -%}
+    
+              {%- if section.settings.title != blank -%}
+                <h3 class="heading h2">
+                  <split-lines {% if section.settings.reveal_on_scroll %}reveal{% endif %}>{{ section.settings.title | escape }}</split-lines>
+                </h3>
+              {%- endif -%}
+    
+              <div class="image-with-text-block__text-container" {% if section.settings.reveal_on_scroll %}reveal{% endif %}>
+                {%- if section.settings.content != blank -%}
+                  {{- section.settings.content -}}
+                {%- endif -%}
+    
+                {%- if section.settings.button_text != blank -%}
+                  <div class="button-wrapper">
+                    <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text | escape }}</a>
+                  </div>
+                {%- endif -%}
+              </div>
+        </div>
+      </div>
+      <div class="back-img-container">
+        <img src="https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Team_Banner_App.jpg?v=1732792202" loading="lazy" height="auto" widths="600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000">
+      </div>
+    </div>
+  <img class="main-img-container" src="https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Team_Banner_Edit.jpg?v=1732715599" loading="lazy" widths="600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000"> 
+  
+</section>
+
+
+
+
+
+{% schema %}
+{
+  "name": "MS Be Who You Are",
+  "class": "shopify-section--BWYA",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Image with text block"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_vertical_spacing",
+      "label": "Add vertical spacing",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "background_type",
+      "label": "Background",
+      "options": [
+        {
+          "value": "full_width",
+          "label": "Full width"
+        },
+        {
+          "value": "boxed",
+          "label": "Boxed"
+        }
+      ],
+      "default": "full_width"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "MS Be Who You Are"
+    }
+  ]
+}
 {% endschema %}
