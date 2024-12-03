@@ -29,7 +29,7 @@
         "html": "<div class=\"founder-semikolo\" style=\"text-align: center\">\n<img src=\"https://cdn.shopify.com/s/files/1/0602/3295/8193/files/Mark.png?v=1733143038\">\n</div>\n<div>\n<p class=\"founder-text\" style=\"text-align: center;\">\nIF YOU EXAMINE THE CLAIMS MADE BY THE SKINCARE INDUSTRY,<br>YOU MIGHT BE SURPRISED AT THE REAL TRUTH ...</p>\n</div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
+        "background": "#f2f2f2",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -47,11 +47,18 @@
       "block_order": [
         "item_apqYyK"
       ],
+      "custom_css": [
+        "section {margin: 0px; background-color: #f2f2f2;}",
+        "@media screen and (max-width: 740px) {.image-container {margin-bottom: 0px; }}",
+        "@media screen and (min-width: 1000px) {.image-container {max-width: calc(50% - 48px); min-width: calc(50% - 48px); }}",
+        ".image-overlay__text-container {margin-top: 0px;}"
+      ],
       "settings": {
+        "image": "shopify://shop_images/Harriet_P_4245.jpg",
         "video": "",
-        "title": "Image Tiles Left",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-        "html": "",
+        "title": "",
+        "content": "<p> </p>",
+        "html": "<p> <span style=\"font-size: calc(var(--heading-h3-font-size) - 8px); line-height: 1.1\">OUR FOUNDER, HARRIËT PLOEGER, </span><br>is a seasoned and passionate cosmetics industry professional from the Netherlands, boasting 40 years of experience in various leadership roles across multiple categories. She has a proven track record of successfully creating global products and brands, over- seeing their development from initial concept to launch and beyond.<br><br>\nThrough her extensive industry knowledge, Harriët uncovered a troubling reality: if we closely examined the ingredients and their concentrations in skin care prod- ucts, many consumers would be surprised. Often, brands' claims do not match the actual levels of active ingredients present, resulting in products that fail to meet their promises.<br><br>\nFrustrated by misleading promises and exaggerated claims and driven by her passion for transparency and truth, our founder mobilized her network of trust- ed industry professionals, dedicated researchers, and experts specializing in high-performance skincare to start Melumé Skinscience.Her vision is to create a line of skincare products that provide everything neces- sary to achieve remarkable results for the skin, focusing on visible changes rather than empty promises.</p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -80,9 +87,15 @@
       "block_order": [
         "item_Wh7xJ3"
       ],
+      "custom_css": [
+        "section {margin-top: 0px; background-color: #f2f2f2;}",
+        "@media screen and (max-width: 740px) {p {font-size: 17px; } .image-container {margin-bottom: 0px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 0px; }}",
+        "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-container {margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; }}"
+      ],
       "settings": {
-        "title": "Image Tiles Right",
-        "content": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+        "image": "shopify://shop_images/Melume_Model_II5107_1_small_c5f5b0f1-55a6-4d89-b9da-9dec770469f3.png",
+        "title": "",
+        "content": "<p>JOIN OUR FOUNDER IN ADVOCAT- ING FOR TRANSPARENCY, HONESTY, AND EFFECTIVENESS IN SKINCARE. DISCOVER THE TRUE POTENTIAL OF SKINCARE AND ENVISION ITS FUTURE.</p>",
         "html": "",
         "button_text": "",
         "button_link": "",
