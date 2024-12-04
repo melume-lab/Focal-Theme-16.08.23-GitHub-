@@ -29,7 +29,7 @@
         "html": "<div class=\"founder-semikolo\" style=\"text-align: center\">\n<img src=\"https://cdn.shopify.com/s/files/1/0602/3295/8193/files/Mark.png?v=1733143038\">\n</div>\n<div>\n<p class=\"founder-text\" style=\"text-align: center;\">\nIF YOU EXAMINE THE CLAIMS MADE BY THE SKINCARE INDUSTRY,<br>YOU MIGHT BE SURPRISED AT THE REAL TRUTH ...</p>\n</div>",
         "add_vertical_spacing": true,
         "background_type": "full_width",
-        "background": "#f2f2f2",
+        "background": "#f5f2f0",
         "text_color": "rgba(0,0,0,0)"
       }
     },
@@ -48,7 +48,7 @@
         "item_apqYyK"
       ],
       "custom_css": [
-        "section {margin: 0px; background-color: #f2f2f2;}",
+        "section {margin: 0px; background-color: #f5f2f0;}",
         "@media screen and (max-width: 740px) {.image-container {margin-bottom: 0px; }}",
         "@media screen and (min-width: 1000px) {.image-container {max-width: calc(50% - 48px); min-width: calc(50% - 48px); }}",
         ".image-overlay__text-container {margin-top: 0px;}"
@@ -88,7 +88,7 @@
         "item_Wh7xJ3"
       ],
       "custom_css": [
-        "section {margin-top: 0px; background-color: #f2f2f2;}",
+        "section {margin-top: 0px; background-color: #f5f2f0;}",
         "@media screen and (max-width: 740px) {p {font-size: 17px; } .image-container {margin-bottom: 0px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 0px; }}",
         "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-container {margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; }}"
       ],
