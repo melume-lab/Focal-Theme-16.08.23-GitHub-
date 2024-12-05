@@ -87,6 +87,17 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "message_HfTnnc": {
+            "type": "message",
+            "settings": {
+              "text": "<p>RECEIVE NIGHTLY MORPHING MASK AS A GIFT, ON ORDERS $200+.<br/>NO CODE. <a href=\"/collections/skincare-products\" title=\"All Products\"><span style=\"text-decoration:underline\">SHOP NOW</span></a></p>",
+              "learn_more_text": "",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
+            }
+          },
           "message-1": {
             "type": "message",
             "settings": {
@@ -141,26 +152,15 @@
               "button_text": "",
               "button_link": ""
             }
-          },
-          "message_HfTnnc": {
-            "type": "message",
-            "settings": {
-              "text": "<p>RECEIVE NIGHTLY MORPHING MASK AS A GIFT, ON ORDERS $200+.<br/>NO CODE. <a href=\"/collections/skincare-products\" title=\"All Products\"><span style=\"text-decoration:underline\">SHOP NOW</span></a></p>",
-              "learn_more_text": "",
-              "title": "",
-              "content": "",
-              "button_text": "",
-              "button_link": ""
-            }
           }
         },
         "block_order": [
+          "message_HfTnnc",
           "message-1",
           "ca03ee42-1f42-4bdd-bce4-16a162ac045e",
           "26764d66-98b4-412f-be3c-586927d4f7cb",
           "message_ikn9hK",
-          "message_PGBLtg",
-          "message_HfTnnc"
+          "message_PGBLtg"
         ],
         "custom_css": [
           ".announcement-bar {max-height: none;}",
