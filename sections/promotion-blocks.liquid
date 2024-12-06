@@ -324,7 +324,7 @@
                     {%- if block.settings.link_text != blank -%}
                       <div class="button-wrapper" style="margin: 0px;">
                         
-                        <a href="{{ block.settings.link_url }}" class="button button--small button--primary" style="background-image: none; background-color: #fff; color: #000;"{% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>{{ block.settings.link_text }} </a>
+                        <a href="{{ block.settings.link_url }}" class="button button--small button--primary" style="background-image: none;"{% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>{{ block.settings.link_text }} </a>
                       </div>
                     {%- else -%}
                   <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
