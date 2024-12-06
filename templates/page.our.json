@@ -17,7 +17,7 @@
         "page_width": "large"
       }
     },
-    "custom_html_rApLph": {
+    "custom_html_kKmVQx": {
       "type": "custom-html",
       "custom_css": [
         "@media screen and (min-width: 741px) {.founder-text {font-size: 28px; font-weight: 300; } .founder-semikolo {max-width: 50px; margin: auto; margin-bottom: 20px; }}",
@@ -33,20 +33,82 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "ms_image_tiles_left_VBUFQ4": {
-      "type": "MS_image-tiles-left",
+    "image_with_text_bbqYYW": {
+      "type": "image-with-text",
       "blocks": {
-        "item_apqYyK": {
+        "item_6L7L3z": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Harriet_P_4245.jpg",
             "tab_label": "Item",
-            "subheading": "Subheading"
+            "subheading": "",
+            "title": "﻿﻿SKINCARE BORN FROM PASSION",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "item_apqYyK"
+        "item_6L7L3z"
       ],
+      "custom_css": [
+        "section {margin: 0px; background-color: #f5f2f0;}",
+        "@media screen and (min-width: 741px) {.image-with-text__content-wrapper {margin-bottom: 88px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_iwitrB": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_pJDfTj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Melume_Model_II5107_1_small_bb726ceb-8fab-4deb-85a1-3c1bdc9247ca.png",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "<p>JOIN OUR FOUNDER IN ADVOCATING FOR TRANSPARENCY, HONESTY, AND EFFECTIVENESS IN SKINCARE. DISCOVER THE TRUE POTENTIAL OF SKINCARE AND ENVISION ITS FUTURE.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pJDfTj"
+      ],
+      "custom_css": [
+        "section {margin-top: 0px; background-color: #f5f2f0;}",
+        "@media screen and (max-width: 740px) {p {font-size: 17px; }}",
+        "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-with-text__image-wrapper {margin-bottom: 88px; } .image-with-text__content-wrapper {margin-bottom: 88px; }}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#f5f2f0",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ms_image_tiles_left_FJqeti": {
+      "type": "MS_image-tiles-left",
+      "disabled": true,
       "custom_css": [
         "section {margin: 0px; background-color: #f5f2f0;}",
         "@media screen and (max-width: 740px) {.image-container {margin-bottom: 0px; }}",
@@ -56,7 +118,7 @@
       "settings": {
         "image": "shopify://shop_images/Harriet_P_4245.jpg",
         "video": "",
-        "title": "",
+        "title": "﻿﻿SKINCARE BORN FROM PASSION",
         "content": "<p> </p>",
         "html": "<p> <span style=\"font-size: calc(var(--heading-h3-font-size) - 8px); line-height: 1.1\">OUR FOUNDER, HARRIËT PLOEGER, </span><br>is a seasoned and passionate cosmetics industry professional from the Netherlands, boasting 40 years of experience in various leadership roles across multiple categories. She has a proven track record of successfully creating global products and brands, overseeing their development from initial concept to launch and beyond.<br><br>\nTThrough her extensive industry knowledge, Harriët uncovered a troubling reality: if we closely examined the ingredients and their concentrations in skin care products, many consumers would be surprised. Often, brands' claims do not match the actual levels of active ingredients present, resulting in products that fail to meet their promises.<br><br>\nFrustrated by misleading promises and exaggerated claims and driven by her passion for transparency and truth, our founder mobilized her network of trusted industry professionals, dedicated researchers, and experts specializing in high-performance skincare to start Melumé Skinscience.\n<br><br>\nHer vision is to create a line of skincare products that provide everything necessary to achieve remarkable results for the skin, focusing on visible changes rather than empty promises.</p>",
         "button_text": "",
@@ -73,10 +135,10 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "ms_image_tiles_right_7LQJzb": {
+    "ms_image_tiles_right_8htnqC": {
       "type": "MS_image-tiles-right",
       "blocks": {
-        "item_Wh7xJ3": {
+        "item_tUNk3N": {
           "type": "item",
           "settings": {
             "tab_label": "Item",
@@ -85,15 +147,16 @@
         }
       },
       "block_order": [
-        "item_Wh7xJ3"
+        "item_tUNk3N"
       ],
+      "disabled": true,
       "custom_css": [
         "section {margin-top: 0px; background-color: #f5f2f0;}",
-        "@media screen and (max-width: 740px) {p {font-size: 17px; } .image-container {margin-bottom: 0px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 0px; }}",
-        "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-container {margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; }}"
+        "@media screen and (max-width: 740px) {p {font-size: 17px; } .image-container {margin-bottom: 0px; } .image-overlay__text-container {margin-top: 0px; }}",
+        "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-container {margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Melume_Model_II5107_1_small_c5f5b0f1-55a6-4d89-b9da-9dec770469f3.png",
+        "image": "shopify://shop_images/Melume_Model_II5107_1_small_bb726ceb-8fab-4deb-85a1-3c1bdc9247ca.png",
         "title": "",
         "content": "<p>JOIN OUR FOUNDER IN ADVOCATING FOR TRANSPARENCY, HONESTY, AND EFFECTIVENESS IN SKINCARE. DISCOVER THE TRUE POTENTIAL OF SKINCARE AND ENVISION ITS FUTURE.</p>",
         "html": "",
@@ -114,8 +177,10 @@
   },
   "order": [
     "main",
-    "custom_html_rApLph",
-    "ms_image_tiles_left_VBUFQ4",
-    "ms_image_tiles_right_7LQJzb"
+    "custom_html_kKmVQx",
+    "image_with_text_bbqYYW",
+    "image_with_text_iwitrB",
+    "ms_image_tiles_left_FJqeti",
+    "ms_image_tiles_right_8htnqC"
   ]
 }
