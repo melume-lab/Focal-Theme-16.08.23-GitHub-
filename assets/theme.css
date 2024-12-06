@@ -73,10 +73,7 @@ button#op-button{
   }
 
   /*ZenDesk Chat button for mobile resolution*/
-  iframe#launcher{
-    bottom: 65px !important;
-    right: 2px!important;
-  }
+
 
 }
 
