@@ -67,13 +67,16 @@ button#op-button{
 
 }
 
+  /*ZenDesk Chat button for mobile resolution*/
+  iframe#launcher{
+    bottom: 65px !important;
+    right: 2px!important;
+  }
+
 @media screen and (min-width: 741px) {
   .hidden-tablet-and-up {
     display: none !important;
   }
-
-  /*ZenDesk Chat button for mobile resolution*/
-
 
 }
 
