@@ -254,9 +254,11 @@
       </div>
 
       {%- if settings.show_product_rating and reduced_content != true -%}
-        <a class="product-item-meta__reviews-badge text--small" href="{{ product.url }}">
-          {%- render 'product-rating', product: product -%}
-        </a>
+        {%- if product.metafields.reviews.rating_count.value > 0 -%}
+          <a class="product-item-meta__reviews-badge text--small" href="{{ product.url }}">
+            {%- render 'product-rating', product: product -%}
+          </a>
+        {%- endif -%}
       {%- endif -%}
 
       {%- if settings.product_color_display != 'hide' and reduced_content != true -%}
