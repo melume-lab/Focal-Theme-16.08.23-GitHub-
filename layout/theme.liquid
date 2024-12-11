@@ -401,6 +401,14 @@ color: black!important;
     });
   </script>
 
+    {%- if product.metafields.reviews.rating_count.value == 0 -%}
+      <style>
+        .product-item-meta__reviews-badge {
+          display: none;
+        }
+      </style>
+    {%- endif -%}
+
   
 {% endif %}
   
