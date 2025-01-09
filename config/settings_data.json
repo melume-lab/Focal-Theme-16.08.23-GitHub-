@@ -89,9 +89,8 @@
         "blocks": {
           "message_HfTnnc": {
             "type": "message",
-            "disabled": true,
             "settings": {
-              "text": "<p>Winter Sale - Save 15% on our bestsellers.<br/>SHOP NOW</p>",
+              "text": "<p>Winter Sale - Save 15% on our bestsellers.<a href=\"/collections/bestsellers\" title=\"BESTSELLERS\"><br/>SHOP NOW</a></p>",
               "learn_more_text": "",
               "title": "",
               "content": "",
