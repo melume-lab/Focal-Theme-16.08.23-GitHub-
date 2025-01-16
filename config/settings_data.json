@@ -87,17 +87,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "message_HfTnnc": {
-            "type": "message",
-            "settings": {
-              "text": "<p>Winter Sale - Save 15% on our bestsellers.<a href=\"/collections/bestsellers\" title=\"BESTSELLERS\"><br/>SHOP NOW</a></p>",
-              "learn_more_text": "",
-              "title": "",
-              "content": "",
-              "button_text": "",
-              "button_link": ""
-            }
-          },
           "message-1": {
             "type": "message",
             "settings": {
@@ -155,7 +144,6 @@
           }
         },
         "block_order": [
-          "message_HfTnnc",
           "message-1",
           "ca03ee42-1f42-4bdd-bce4-16a162ac045e",
           "26764d66-98b4-412f-be3c-586927d4f7cb",
