@@ -26,8 +26,9 @@
       "auto-replenishments": "Auto-Replenishments"
     },
     "free_gifts": {
-      "header": "CHOOSE YOUR TWO LUXURY FREE SAMPLES",
-      "body": "Add 2 free samples to your cart. Each additional sample is chargeable!",
+      "header": "CHOOSE ONE FREE LUXURY SAMPLE & TWO SAMPLE SACHETS",
+      "body1": "Choose 1 Free Sample",
+      "body2": "Choose 2 Sample Sachets",
       "free": "FREE",
       "add": "Add",
       "remove": "Remove"
