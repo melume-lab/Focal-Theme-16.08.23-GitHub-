@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function updateGrayOut() {
     const selectedProducts = document.querySelectorAll('.free-gift-product-img-container.selected');
-    if (selectedProducts.length >= 2) {
+    if (selectedProducts.length >= 1) {
       freeGiftButtons.forEach(button => {
         if (!button.classList.contains('selected')) {
           button.classList.add('grayed-out');
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function () {
       loadingSpinner.style.display = 'block';
       addToCartButton.classList.add('invisible');
 
-      if (!button.classList.contains('selected') && document.querySelectorAll('.free-gift-product-img-container.selected').length < 2) {
+      if (!button.classList.contains('selected') && document.querySelectorAll('.free-gift-product-img-container.selected').length < 1) {
         handleAddToCart(productId, button, addToCartButton, loadingSpinner);
       } else if (button.classList.contains('selected')) {
         handleRemoveFromCart(productId, button, addToCartButton, loadingSpinner);
