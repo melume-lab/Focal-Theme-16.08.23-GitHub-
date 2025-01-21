@@ -68,9 +68,10 @@
   }
 {% endstyle %}
 
-<div class="page-overlay"></div>
+
 
 <div class="free-gift-images-container">
+  <div class="page-overlay"></div>
   {% assign cart_items = cart.items %}
   {% for product in collections[freeSampleCollectionHandle].products %}
     {% assign product_in_cart = false %}
