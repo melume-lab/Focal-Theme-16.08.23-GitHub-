@@ -15352,6 +15352,7 @@ COSTUM ELEMENTS
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
+  justify-content: space-around;
 }
 
 .free-gift-column {
@@ -15488,14 +15489,145 @@ COSTUM ELEMENTS
 
 .add-to-cart-button:hover {
   background-color: rgb(220, 220, 220);
-  cursor: pointer;
 }
 
 .spinner-in-progress .add-to-cart-button:hover {
-  background-color: transparent;
-  cursor: auto;
+  background-color: transparent; /* Set the background to transparent when spinner is in progress */
 
 }
+
+  /*---Free Sachets---*/
+
+ /* CSS for Free Sachets */
+.free-sachets-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.free-sachets-column {
+  width: calc(33.33% - 30px);
+  max-width: 500px;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-sachets-products {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  height: 100%;
+}
+
+.free-gift-product-img-container-sachet {
+  padding: 15px;
+  background-color: rgb(var(--secondary-background));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+ /*
+.free-sachets-product-img-container:hover {
+  background-color: rgb(220, 220, 220);
+}
+*/ 
+
+.free-sachets-product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.free-sachets-product-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 740px) {
+  .free-sachets-images-container {
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .free-sachets-column {
+    width: calc(50% - 10px);
+  }
+
+  .free-gift-product-img-container-sachet {
+    height: auto;
+  }
+}
+
+.free-gift-product-img-container-sachet.selected {
+  border: 4px solid black;
+}
+
+.add-to-cart-button {
+  position: relative;
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 20px;
+  min-width: 100px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.grayed-out {
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+
+.grayed-out .add-to-cart-button {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.grayed-out .free-sachets-products p {
+  opacity: 0.4;
+}
+
+.grayed-out .free-sachets-products p strong {
+  color: #888;
+}
+
+.content-box-free-sachets {
+  height: auto;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+
+.img-only-container-free-sachets {
+  max-height: 170px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: auto;
+}
+
+.add-to-cart-button:hover {
+  /* Add your new hover effect styles here */
+  /* For example, change background color */
+  background-color: #ddd;
+}
+
+
 /*---Free Gifts--- */
 
 
