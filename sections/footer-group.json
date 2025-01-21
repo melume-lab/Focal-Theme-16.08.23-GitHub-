@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
@@ -29,14 +29,14 @@
         "selection_M6F3kV": {
           "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredients_Hyaluronic_Acid.jpg",
+            "image": "shopify://shop_images/Ingredients_Hyaluronic_Acid.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "HYALURONIC ACID",
             "link_text_2": "",
-            "link_url": "shopify:\/\/collections\/hyaluronic-acid-collection",
+            "link_url": "shopify://collections/hyaluronic-acid-collection",
             "link_style": "link",
             "text_position": "middle_center",
             "background": "#ffffff",
@@ -48,14 +48,14 @@
         "selection_7Cbgaq": {
           "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredients_Retinol.jpg",
+            "image": "shopify://shop_images/Ingredients_Retinol.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "RETINOL",
             "link_text_2": "",
-            "link_url": "shopify:\/\/collections\/retinol-collection",
+            "link_url": "shopify://collections/retinol-collection",
             "link_style": "link",
             "text_position": "middle_center",
             "background": "#ffffff",
@@ -67,14 +67,14 @@
         "selection_Aqm8yL": {
           "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredients_Peptides.jpg",
+            "image": "shopify://shop_images/Ingredients_Peptides.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "PEPTIDES",
             "link_text_2": "",
-            "link_url": "shopify:\/\/collections\/peptide-collection",
+            "link_url": "shopify://collections/peptide-collection",
             "link_style": "link",
             "text_position": "middle_center",
             "background": "#ffffff",
@@ -86,14 +86,14 @@
         "selection_zmxGXn": {
           "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredients_AHA.jpg",
+            "image": "shopify://shop_images/Ingredients_AHA.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
             "title": "",
-            "link_text": "AHA\/BHA",
+            "link_text": "AHA/BHA",
             "link_text_2": "",
-            "link_url": "shopify:\/\/collections\/aha-bha-collection",
+            "link_url": "shopify://collections/aha-bha-collection",
             "link_style": "link",
             "text_position": "middle_center",
             "background": "#ffffff",
@@ -105,14 +105,14 @@
         "selection_GaYB6g": {
           "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredients_NIACINAMIDE.jpg",
+            "image": "shopify://shop_images/Ingredients_NIACINAMIDE.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "NIACINAMIDE",
             "link_text_2": "",
-            "link_url": "shopify:\/\/collections\/niacinamide-collection",
+            "link_url": "shopify://collections/niacinamide-collection",
             "link_style": "link",
             "text_position": "middle_center",
             "background": "#ffffff",
@@ -124,14 +124,14 @@
         "selection_qhQwN4": {
           "type": "selection",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ingredients_VitaminC.jpg",
+            "image": "shopify://shop_images/Ingredients_VitaminC.jpg",
             "highlight": false,
             "reload_enabled": false,
             "subheading": "",
             "title": "",
             "link_text": "VITAMIN C",
             "link_text_2": "",
-            "link_url": "shopify:\/\/collections\/vitamin-c-collection",
+            "link_url": "shopify://collections/vitamin-c-collection",
             "link_style": "link",
             "text_position": "middle_center",
             "background": "#ffffff",
@@ -160,6 +160,7 @@
       "settings": {
         "subheading": "",
         "title": "SHOP BY INGREDIENTS",
+        "h_value": 3,
         "section_size": "medium",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
@@ -175,7 +176,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<p style=\"text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 16px; font-weight: 400; line-height: 33px;\">MADE IN GERMANY <span style=\"font-size:25px\">•<\/span> VEGAN &amp; CRUELTY FREE  <span style=\"font-size:25px\">•<\/span>  SKIN COMPATIBLE <span style=\"font-size:25px\">•<\/span> HIGHTECH FORMULAS <span style=\"font-size:25px\">•<\/span> \n DERMATOLOGICALLY TESTED <span style=\"font-size:25px\">•<\/span> BIOMIMETIC INGREDIENTS  <span style=\"font-size:25px\">•<\/span>  CLINICALLY RESEARCHED INGREDIENTS <span style=\"font-size:25px\">•<\/span> PH-APPRIOPRIATE <span style=\"font-size:25px\">•<\/span> SCIENCE &amp; PLANT POWERED <span style=\"font-size:25px\">•<\/span> EFFICACIOUS MAXIMUM LEVEL FORMULAS <span style=\"font-size:25px\">•<\/span> BIOAVAILABLE<\/p>",
+        "html": "<p style=\"text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 16px; font-weight: 400; line-height: 33px;\">MADE IN GERMANY <span style=\"font-size:25px\">•</span> VEGAN &amp; CRUELTY FREE  <span style=\"font-size:25px\">•</span>  SKIN COMPATIBLE <span style=\"font-size:25px\">•</span> HIGHTECH FORMULAS <span style=\"font-size:25px\">•</span> \n DERMATOLOGICALLY TESTED <span style=\"font-size:25px\">•</span> BIOMIMETIC INGREDIENTS  <span style=\"font-size:25px\">•</span>  CLINICALLY RESEARCHED INGREDIENTS <span style=\"font-size:25px\">•</span> PH-APPRIOPRIATE <span style=\"font-size:25px\">•</span> SCIENCE &amp; PLANT POWERED <span style=\"font-size:25px\">•</span> EFFICACIOUS MAXIMUM LEVEL FORMULAS <span style=\"font-size:25px\">•</span> BIOAVAILABLE</p>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -195,7 +196,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<style>\np {\n    line-height: 1.5;\n  }\n<\/style>\n<div class=\"column-icons-container\">\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Produktvorteil.png?v=1708339212\">\n<\/div>\n<p> PRODUCT <br> NEWS<\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Love_it_or_return_it_Icon_7dccfdd3-3033-48b4-a5d1-6fec4663f03b.png?v=1708433020\">\n<\/div>\n<p> LOVE IT OR <br> RETURN IT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Angebot.png?v=1708339740\">\n<\/div>\n<p> 2 COMPLIMENTARY <br> LUXURY SAMPLES <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Expertentipps.png?v=1708340106\">\n<\/div>\n<p> EXPERT- <br> ADVICE <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Autoreplanish_Edit.png?v=1708432149\">\n<\/div>\n<p> AUTO- <br> REPLENISHMENT <\/p>\n<\/div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0570\/3797\/9847\/files\/Icon_Peta_Edit2.png?v=1711013559\">\n<\/div>\n<p> VEGAN <br> GLOBAL ANIMAL TEST POLICY <\/p>\n<\/div>\n\n\n<\/div>",
+        "html": "<style>\np {\n    line-height: 1.5;\n  }\n</style>\n<div class=\"column-icons-container\">\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Icon_Produktvorteil.png?v=1708339212\">\n</div>\n<p> PRODUCT <br> NEWS</p>\n</div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Love_it_or_return_it_Icon_7dccfdd3-3033-48b4-a5d1-6fec4663f03b.png?v=1708433020\">\n</div>\n<p> LOVE IT OR <br> RETURN IT </p>\n</div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Icon_Angebot.png?v=1708339740\">\n</div>\n<p> 2 COMPLIMENTARY <br> LUXURY SAMPLES </p>\n</div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Icon_Expertentipps.png?v=1708340106\">\n</div>\n<p> EXPERT- <br> ADVICE </p>\n</div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Icon_Autoreplanish_Edit.png?v=1708432149\">\n</div>\n<p> AUTO- <br> REPLENISHMENT </p>\n</div>\n\n<div class=\"column-icons\">\n<div class=\"custom-icon-container\">\n<img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Icon_Peta_Edit2.png?v=1711013559\">\n</div>\n<p> VEGAN <br> GLOBAL ANIMAL TEST POLICY </p>\n</div>\n\n\n</div>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -211,10 +212,10 @@
       ],
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify:\/\/shop_images\/Solid_White.png",
+        "image": "shopify://shop_images/Solid_White.png",
         "subheading": "Subscribe to our melumé newsletter",
         "title": "$ 15 OFF YOUR NEXT ORDER*",
-        "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPS.<\/p>",
+        "content": "<p>WE ́LL SEND YOU ALL THE LATEST LAUNCHES, EXCLUSIVE OFFERS AND PRO SKINCARE TIPS.</p>",
         "endtitle": "* Only valid for new skincare lovers & only with a minimum order of $35. Can not be combined with other offers.",
         "text_position": "center",
         "text_alignment": "center",
@@ -248,7 +249,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "liquid": "<script src=\"https:\/\/www.showcasegalleries.io\/embed\/gallery\/22089\" data-gallery-id=\"22089\" async><\/script>",
+        "liquid": "<script src=\"https://www.showcasegalleries.io/embed/gallery/22089\" data-gallery-id=\"22089\" async></script>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -262,11 +263,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Gruppe_11.png",
+            "custom_icon": "shopify://shop_images/Gruppe_11.png",
             "custom_icon_width": 100,
             "title": "FREE SHIPPING AND RETURNS",
             "big-title": "",
-            "content": "<p>ON ALL ORDERS FROM $ 75<\/p>",
+            "content": "<p>ON ALL ORDERS FROM $ 75</p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -283,11 +284,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Gruppe_12.png",
+            "custom_icon": "shopify://shop_images/Gruppe_12.png",
             "custom_icon_width": 100,
-            "title": "FREE LUXURY SAMPLES AT CHECKOUT",
+            "title": "3 COMPLIMENTARY SAMPLES AT CHECKOUT",
             "big-title": "",
-            "content": "<p>CHOOSE 2 WITH EVERY ORDER<\/p>",
+            "content": "<p>CHOOSE ONE FREE LUXURY SAMPLE & TWO SAMPLE SACHETS</p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -304,11 +305,11 @@
           "type": "text-with-icon",
           "settings": {
             "icon": "picto-customer-support",
-            "custom_icon": "shopify:\/\/shop_images\/Gruppe_16.png",
+            "custom_icon": "shopify://shop_images/Gruppe_16.png",
             "custom_icon_width": 100,
             "title": "SAVE AND COLLECT REWARDS",
             "big-title": "",
-            "content": "<p>1 DOLLAR = 5 POINTS<\/p>",
+            "content": "<p>1 DOLLAR = 5 POINTS</p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
@@ -392,7 +393,7 @@
         "show_locale_selector": true,
         "show_cookie_bar": false,
         "cookie_bar_title": "Cookie policy",
-        "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
+        "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.</p>"
       }
     }
   },
