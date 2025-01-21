@@ -1,7 +1,13 @@
 {% assign freeSampleCollectionHandle = 'free-samples' %}
+{% assign freeSachetCollectionHandle = 'free-sachets' %}
 {% assign excluded_product_titles = "" %}
 
 {% for product in collections[freeSampleCollectionHandle].products %}
+  {% capture product_title %}{{ product.title | strip }}{% endcapture %}
+  {% assign excluded_product_titles = excluded_product_titles | append: product_title | append: ',' %}
+{% endfor %}
+
+{% for product in collections[freeSachetCollectionHandle].products %}
   {% capture product_title %}{{ product.title | strip }}{% endcapture %}
   {% assign excluded_product_titles = excluded_product_titles | append: product_title | append: ',' %}
 {% endfor %}
@@ -12,6 +18,7 @@
 
 
 <section>
+<div class="page-overlay"></div>
   <div class="container container--medium">
     {%- if cart.total_price > 0 -%}
       <div class="page-header">
@@ -333,10 +340,9 @@
             {%- endif -%}
 
 
-
-             {%- comment -%}. _______ FREE SAMPLE BLOCK LOGIC _______ {%- endcomment -%}
+             {%- comment -%}. _______ FREE SAMPLE BLOCK LOGIC _______ {% endcomment %}
             
-                  {% assign freeSampleCollectionHandle = 'free-samples' %}
+                  
                     
                     <li class="header__linklist-item" style="display: none">
                       <a href="{{ routes.cart_url }}" 
@@ -353,7 +359,13 @@
                                     {% assign isFreeSample = true %}
                                   {% endif %}
                                 {% endfor %}
-                                <li class="cart-item" data-item-id="{{ item.id }}" data-is-free-sample="{{ isFreeSample }}">
+                                {% assign isFreeSachet = false %}
+                                {% for tag in item.product.tags %}
+                                  {% if tag == 'free-sachet' %}
+                                    {% assign isFreeSachet = true %}
+                                  {% endif %}
+                                {% endfor %}
+                                <li class="cart-item" data-item-id="{{ item.id }}" data-is-free-sample="{{ isFreeSample }}" data-is-free-sachet="{{ isFreeSachet }}">
                                   {{ item.title }} 
                                   <span class="item-quantity" style="{% if item.quantity > 1 %}color: red;{% endif %}">({{ item.quantity }})</span>
                                 </li>
@@ -395,12 +407,12 @@
                         }
                       });
                     
-                      if (totalFreeSampleCount > 2) {
+                      if (totalFreeSampleCount > 1) {
                         changesNeeded = true;
                         totalFreeSampleCount = 0;
                         freeSampleItems.forEach(function(item) {
-                          if (totalFreeSampleCount < 2) {
-                            var newQuantity = Math.min(item.quantity, 2 - totalFreeSampleCount);
+                          if (totalFreeSampleCount < 1) {
+                            var newQuantity = Math.min(item.quantity, 1 - totalFreeSampleCount);
                             totalFreeSampleCount += newQuantity;
                             item.quantity = newQuantity;
                           } else {
@@ -437,7 +449,83 @@
                     });
                     </script>
                     
-                    {%- comment -%}. _______ FREE SAMPLE BLOCK LOGIC _______ {%- endcomment -%}
+                    {% comment %} _______ FREE SAMPLE BLOCK LOGIC _______ {%- endcomment -%}     
+
+            {%- comment -%}. _______ FREE SACHET BLOCK LOGIC _______ {% endcomment %}
+            
+                  
+                    
+                   
+                   
+                    
+                    <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                      var cartItems = document.querySelectorAll('.cart-item');
+                      var freeSachetItems = [];
+                      var totalFreeSachetCount = 0;
+                      var changesNeeded = false;
+                    
+                      cartItems.forEach(function(item) {
+                        var isFreeSachet = item.getAttribute('data-is-free-sachet') === 'true';
+                        if (isFreeSachet) {
+                          var itemId = item.getAttribute('data-item-id');
+                          var quantityElement = item.querySelector('.item-quantity');
+                          var quantity = parseInt(quantityElement.textContent.replace(/\D/g, ''));
+                    
+                          if (quantity > 1) {
+                            freeSachetItems.push({ itemId: itemId, quantity: 1 });
+                            totalFreeSachetCount += 1;
+                            changesNeeded = true;
+                          } else {
+                            freeSachetItems.push({ itemId: itemId, quantity: quantity });
+                            totalFreeSachetCount += quantity;
+                          }
+                        }
+                      });
+                    
+                      if (totalFreeSachetCount > 2) {
+                        changesNeeded = true;
+                        totalFreeSachetCount = 0;
+                        freeSachetItems.forEach(function(item) {
+                          if (totalFreeSachetCount < 2) {
+                            var newQuantity = Math.min(item.quantity, 2 - totalFreeSachetCount);
+                            totalFreeSachetCount += newQuantity;
+                            item.quantity = newQuantity;
+                          } else {
+                            item.quantity = 0;
+                          }
+                        });
+                      }
+                    
+                      if (changesNeeded) {
+                        freeSachetItems.forEach(function(item) {
+                          fetch('/cart/change.js', {
+                            method: 'POST',
+                            headers: {
+                              'Content-Type': 'application/json',
+                              'Accept': 'application/json'
+                            },
+                            body: JSON.stringify({
+                              id: item.itemId,
+                              quantity: item.quantity
+                            })
+                          })
+                          .then(function(response) {
+                            if (response.ok) {
+                              window.location.reload();
+                            } else {
+                              console.error('Failed to update item quantity');
+                            }
+                          })
+                          .catch(function(error) {
+                            console.error('Error:', error);
+                          });
+                        });
+                      }
+                    });
+                    </script>
+                    
+                    {% comment %} _______ FREE SACHET BLOCK LOGIC _______ {%- endcomment -%}   
 
             {% comment %}--- Start Free Gift Script ---{% endcomment %}
             
@@ -445,9 +533,16 @@
                 <h2 class="heading h3">
                 {{ 'general.free_gifts.header' | t }}
                 </h2>
-  {% comment %} <p>{{ 'general.free_gifts.body' | t }}</p>  {% endcomment %}
+                <p style="text-align: center; text-transform: uppercase; font-weight: 700;">{{ 'general.free_gifts.body1' | t }}</p>
       
               {% include 'free_samples_cart_block' %}
+
+              <p style="text-align: center; text-transform: uppercase; font-weight: 700;">{{ 'general.free_gifts.body2' | t }}</p>
+              
+              {% include 'free_sachets_cart_block' %}
+              
+
+             
             </div>
             
            {% comment %}--- End Free Gift Script ---{% endcomment %}
@@ -533,7 +628,7 @@
                       {{ type | payment_type_svg_tag }}
                     {% endfor %}
                  <div class="list-payment__item">
-               
+                <img src="{{ 'payment-klarna.svg' | asset_url }}" class="icon icon--full-color" width="38" height="24" style="width: auto; height: 23px;"/>
               </div>
                   </div>
                 </div>
