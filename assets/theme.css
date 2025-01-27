@@ -16875,3 +16875,139 @@ display: flex;
   border-radius: 50%;
   background-size: cover;
 }
+
+/* ------------- Collect Concern Section ----------- */
+
+.concern-container {
+  display: block;
+  align-content: center;
+  align-items: center;
+  margin: 48px 0 0px 0;
+}
+
+.concern-inner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.concern-toggle {
+  margin: 0 0px 0 0;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 1px rgb(0, 0, 0);
+  
+}
+
+.concern-img {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+
+.concern-img {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+
+/* Button styles when disabled - only greying out the text */
+  .button--primary.disabled {
+    pointer-events: none;
+    opacity: 1; /* Keep button background the same */
+    color: rgba(255, 255, 255, 0.7); /* Grey out white text */
+    cursor: not-allowed;
+  }
+
+  /* Ensure the container for the image is positioned properly */
+  .concern-img {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+
+  /* Frame container for border effect */
+  .concern-img-frame {
+    border: 3px solid transparent; /* Initially transparent */
+    transition: border-color 0.3s ease-in-out;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  /* Add black frame when image is selected */
+  .concern-img-frame.selected {
+    border-color: black;
+  }
+
+  /* Inner zoom effect on hover */
+  .concern-img-frame img {
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+  }
+
+  .concern-img-frame:hover img {
+    transform: scale(1.1);
+  }
+
+
+/*------- MOBILE ---------*/
+
+@media screen and (min-width: 741px) {
+
+  .concern-mobile {
+    display: none;
+  }
+}
+  
+
+@media screen and (max-width: 740px) {
+  
+
+  .concern-toggle {
+    margin: 20px 0 20px 0;
+    order: 2;
+  }
+
+  .concern-img {
+    margin: 0 0 0 0;
+  }
+  
+  .concern-desktop {
+    display: none;
+  }
+
+  .concern-container {
+  margin: 25px 0 0px 0;
+  }
+}
+
+
+.concern-toggle-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Default: 4 columns */
+  gap: 20px; /* Adds spacing between grid items */
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin-top: 48px;
+  padding-bottom: 48px;
+  box-shadow: 0 1px rgb(0, 0, 0);
+}
+
+/* 3 columns for screens between 999px and 741px */
+@media (max-width: 999px) and (min-width: 741px) {
+  .concern-toggle-content {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
+}
+
+/* 2 columns for screens 740px and below */
+@media (max-width: 740px) {
+  .concern-toggle-content {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 40px;
+    max-width: 300px;
+  }
+}
