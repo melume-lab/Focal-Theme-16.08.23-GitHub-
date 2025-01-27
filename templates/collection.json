@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-banner": {
@@ -37,6 +46,62 @@
         "promotion_height": "small"
       }
     },
+       "ms_before_after_RQRjr6": {
+      "type": "MS_Before-After",
+      "blocks": {
+        "item_FcwMqA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify://shop_images/BEFOR_AFTER_1.jpg",
+            "after": "shopify://shop_images/Gruppe_60_9e802292-9c17-41b7-892d-cfd881f881f6.jpg",
+            "before": "shopify://shop_images/Gruppe_61_bc02564f-0d0d-4204-b7c7-05cf64301e50.jpg",
+            "custom_icon_width": 250,
+            "margins": 0,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "item_bhFDiT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify://shop_images/BEFOR_AFTER_2.jpg",
+            "after": "shopify://shop_images/Gruppe_58_9361d1d7-313e-4094-8931-79b965524224.jpg",
+            "before": "shopify://shop_images/Gruppe_59_374aa281-6110-469a-9375-f1c4962db1a1.jpg",
+            "custom_icon_width": 250,
+            "margins": 0,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FcwMqA",
+        "item_bhFDiT"
+      ],
+      "custom_css": [
+        ".carousel-arrow {top: 140px;}"
+      ],
+      "settings": {
+        "borderbottom": false,
+        "underline": false,
+        "show-section": "{{ collection.metafields.custom.show_section.value }}",
+        "maintitle": "AMAZING RESULTS AFTER 4 WEEKS",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
     "rich_text_NDMeQR": {
       "type": "rich-text",
       "custom_css": [
@@ -61,6 +126,9 @@
     },
     "60509c72-f2cc-4147-8ac4-385128b40e4b": {
       "type": "custom-html",
+      "custom_css": [
+        "section {margin-top: 0px; margin-bottom: 28px;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "",
@@ -75,6 +143,7 @@
   "order": [
     "collection-banner",
     "main",
+    "ms_before_after_RQRjr6",
     "rich_text_NDMeQR",
     "60509c72-f2cc-4147-8ac4-385128b40e4b"
   ]
