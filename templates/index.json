@@ -166,6 +166,114 @@
         "background": "#ffffff"
       }
     },
+        "ms_logo-list_6REgnz": {
+      "type": "MS_Logo-List",
+      "blocks": {
+        "item_h38GRD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify://shop_images/Icon-Worry-free_0c319577-3a9b-43f3-ad30-834e4e7538cb.png",
+            "custom_icon_width": 40,
+            "margins": 20,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": "<p><strong>100%<br/>WORRY FREE</strong></p>"
+          }
+        },
+        "item_dz6M97": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify://shop_images/Icon2.png",
+            "custom_icon_width": 85,
+            "margins": 0,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": ""
+          }
+        },
+        "item_Ty3V6d": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify://shop_images/Icon1.png",
+            "custom_icon_width": 45,
+            "margins": 20,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": "<p>MADE IN<br/>GERMANY</p>"
+          }
+        },
+        "item_r8cWpR": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify://shop_images/Icon_Dermatologically_Tested.png",
+            "custom_icon_width": 55,
+            "margins": 20,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": "<p><strong>DERMATOLOGICALLY<br/>TESTED</strong></p>"
+          }
+        },
+        "item_8je4Fx": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify://shop_images/Icon_Biocompatible.png",
+            "custom_icon_width": 60,
+            "margins": 20,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": "<p><strong>BIOCOMPATIBLE<br/>BIOMIMETIC</strong></p>"
+          }
+        },
+        "item_rzfRmR": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify://shop_images/Icon_Clinically_Proven.png",
+            "custom_icon_width": 35,
+            "margins": 20,
+            "icontitle": "",
+            "title": "",
+            "content": "",
+            "html": "",
+            "subheading": "<p><strong>CLINICALLY RESEARCHED<br/>INGREDIENTS</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_h38GRD",
+        "item_dz6M97",
+        "item_Ty3V6d",
+        "item_r8cWpR",
+        "item_8je4Fx",
+        "item_rzfRmR"
+      ],
+      "settings": {
+        "borderbottom": false,
+        "underline": false,
+        "maintitle": "",
+        "button_text": "",
+        "button_link": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -733,6 +841,7 @@
   },
   "order": [
     "d107d64a-9a4a-4cca-81db-17804a8cd886",
+    "ms_logo-list_6REgnz",
     "featured-collections",
     "image_with_text_block_VTrhJD",
     "02de4337-28c3-479a-9083-f3abeabe91f9",
