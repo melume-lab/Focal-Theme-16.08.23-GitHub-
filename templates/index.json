@@ -166,7 +166,7 @@
         "background": "#ffffff"
       }
     },
-        "ms_logo-list_6REgnz": {
+    "ms_logo-list_6REgnz": {
       "type": "MS_Logo-List",
       "blocks": {
         "item_h38GRD": {
@@ -335,7 +335,7 @@
         "img_link5": "shopify://collections/hyperpigmentation",
         "image6": "shopify://shop_images/SkinConcern_6.jpg",
         "collection6": "<p>ENLARGED<br/>PORES</p>",
-        "img_link6": "shopify://collections/pores-breakouts",
+        "img_link6": "shopify://collections/pores",
         "tab": "SKIN CONCERN",
         "button_text": "Select option",
         "background": "rgba(0,0,0,0)",
