@@ -46,7 +46,7 @@
         "promotion_height": "small"
       }
     },
-       "ms_before_after_RQRjr6": {
+    "ms_before_after_RQRjr6": {
       "type": "MS_Before-After",
       "blocks": {
         "item_FcwMqA": {
@@ -54,8 +54,8 @@
           "settings": {
             "icon": "picto-email",
             "custom_icon": "shopify://shop_images/BEFOR_AFTER_1.jpg",
-            "after": "shopify://shop_images/Gruppe_60_9e802292-9c17-41b7-892d-cfd881f881f6.jpg",
-            "before": "shopify://shop_images/Gruppe_61_bc02564f-0d0d-4204-b7c7-05cf64301e50.jpg",
+            "after": "shopify://shop_images/Gruppe_60.jpg",
+            "before": "shopify://shop_images/Gruppe_61.jpg",
             "custom_icon_width": 250,
             "margins": 0,
             "icontitle": "",
@@ -70,8 +70,8 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify://shop_images/BEFOR_AFTER_2.jpg",
-            "after": "shopify://shop_images/Gruppe_58_9361d1d7-313e-4094-8931-79b965524224.jpg",
-            "before": "shopify://shop_images/Gruppe_59_374aa281-6110-469a-9375-f1c4962db1a1.jpg",
+            "after": "shopify://shop_images/Gruppe_58.jpg",
+            "before": "shopify://shop_images/Gruppe_59.jpg",
             "custom_icon_width": 250,
             "margins": 0,
             "icontitle": "",
