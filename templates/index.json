@@ -41,7 +41,6 @@
         },
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_Banner_2025_Valentine.jpg",
             "mobile_image": "shopify://shop_images/Mobil_Banner_2025_Valentine.jpg",
