@@ -1,6 +1,706 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
+  {%- assign blends_with_background = false -%}
+{%- else -%}
+  {%- assign blends_with_background = true -%}
+{%- endif -%}
+
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+  CSS
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
+      {%- assign section_background = settings.background -%}
+    {%- else -%}
+      {%- assign section_background = section.settings.background -%}
+    {%- endif -%}
+
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_background == 'rgba(0,0,0,0)' -%}
+      {%- assign button_background = settings.primary_button_background -%}
+    {%- else -%}
+      {%- assign button_background = section.settings.button_background -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign button_text_color = settings.primary_button_text_color -%}
+    {%- else -%}
+      {%- assign button_text_color = section.settings.button_text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}, {{ heading_color.green }}, {{ heading_color.blue }};
+    --text-color: {{ text_color.red }}, {{ text_color.green }}, {{ text_color.blue }};
+    --section-background: {{ section_background.red }}, {{ section_background.green }}, {{ section_background.blue }};
+    --vertical-breather: 20px; /* Inner spacing is smaller on this section */
+    --primary-button-background: {{ section.settings.button_background.red }}, {{ section.settings.button_background.green }}, {{ section.settings.button_background.blue }};
+    --primary-button-text-color: {{ section.settings.button_text_color.red }}, {{ section.settings.button_text_color.green }}, {{ section.settings.button_text_color.blue }};
+
   }
+
+  .custom-icon-list {
+    grid-auto-columns: auto;
+    justify-content: center;
+  }
+
+  .custom-icon-list-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .ms-icon-wrapper {
+    margin: 0px;
+  }
+
+  .ms_color-wrapper {
+    display: block;
+  }
+
+  .custom-icon-conditions {
+    /*padding-bottom: 30px;
+    box-shadow: 0 1px black;
+    margin-right: calc(var(--grid-column-width) + var(--grid-gap));
+    margin-left: calc(var(--grid-column-width) + var(--grid-gap));*/
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 48px;
+  }
+
+@media (max-width: 999px) {
+  .custom-icon-conditions {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .custom-icon-list-inner {
+    display: Block;
+  }
+
+  .custom-icon-list {
+    justify-content: space-between;
+  }
+
+  .comparison-slider {
+    display: none;
+  }
+}
+  
+@media (min-width: 1000px) {
+    .custom-arrow-hide {
+    display: none;
+  }
+      .custom-section-conditions {
+    margin: 30px 0 30px 0;
+  }
+
+  .custom-icon-list-inner {
+    display: none;
+  }
+
+  .comparison-slider {
+    display: block;
+  }
+}
+  
+
+
+
+            
+  .comparison-slider {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+  }
+
+  .comparison-slider-wrapper {
+      position: relative;
+      overflow: hidden;
+  }
+
+  .comparison-img {
+      display: block;
+      width: 100%;
+  }
+
+  .comparison-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+  }
+
+  .comparison-overlay img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      clip-path: inset(0 50% 0 0);
+  }
+
+  .comparison-slider-input {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
+      -webkit-appearance: none;
+      appearance: none;
+      background: transparent;
+  }
+
+  .comparison-slider-input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 30px;
+      height: 30px;
+      background: url('https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Slider_Button.png?v=1716451386') no-repeat center;
+      background-size: contain;
+      cursor: pointer;
+      border: none;
+      border-radius: 50%;
+  }
+
+  .comparison-slider-input::-moz-range-thumb {
+      width: 30px;
+      height: 30px;
+      background: url('https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Slider_Button.png?v=1716451913') no-repeat center;
+      background-size: contain;
+      cursor: pointer;
+      border: none;
+      border-radius: 50%;
+  }
+       
+
+</style>
+
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+  JavaScript: this section composes several custom elements
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+
+{% assign has_content = false %}
+
+{% for block in section.blocks %}
+  {% if section.settings.show-section == '1' %}
+    {% assign has_content = true %}
+  {% endif %}
+{% endfor %}
+
+
+{% if has_content %}
+    <section class="section custom-section-conditions {% unless blends_with_background or is_boxed %}section--flush{% endunless %}" >
+      <div class="section__color-wrapper ms_color-wrapper" style=" border-bottom: {% if section.settings.underline %}1px{% else %}0px{% endif %} solid rgb(var(--border-color))">
+        <div class="container {% unless blends_with_background %}vertical-breather{% endunless %}">
+    
+           <header class="section__header text-container">
+                <div style="display: none">{{ section.settings.show-section }}</div>
+    
+                {%- if section.settings.maintitle != blank -%}
+                  <h3 class="heading h2">{{ section.settings.maintitle | escape }}</h3>
+                {%- endif -%}
+              </header>
+          
+              <native-carousel class="text-with-icons custom-icon-conditions" style="position: relative;">
+                <div class="text-with-icons__list hide-scrollbar custom-icon-list" id="carousel-container">
+                  {%- for block in section.blocks -%}
+    
+                    <title>Image Comparison Slider</title>
+                  {%- if block.settings.before != blank and block.settings.after != blank -%}
+    
+                    <div class="comparison-slider">
+                        <div class="comparison-slider-wrapper">
+                            <img src="{{ block.settings.before | img_url: 'large' }}" alt="Image 1" class="comparison-img">
+                              <div class="comparison-overlay">
+                              <img src="{{ block.settings.after | img_url: 'large' }}" alt="Image 2" class="comparison-img">
+                            </div>
+                            <input type="range" min="0" max="100" value="50" class="comparison-slider-input">
+                        </div>
+                    </div>
+    
+                
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            const sliders = document.querySelectorAll('.comparison-slider-input');
+                            sliders.forEach(slider => {
+                                const overlayImage = slider.closest('.comparison-slider').querySelector('.comparison-overlay img');
+                    
+                                slider.addEventListener('input', function () {
+                                    const value = slider.value;
+                                    overlayImage.style.clipPath = `inset(0 ${100 - value}% 0 0)`;
+                                });
+                            });
+                        });
+                    </script>
+    
+                    <native-carousel-item {% unless forloop.first %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item custom-icon-list-inner" {{ block.shopify_attributes }}>
+    
+                      <div class="text-with-icons__icon-wrapper ms-icon-wrapper" style="margin-right: {{ block.settings.margins }}px">
+                        {%- if block.settings.custom_icon != blank -%}
+                          {% capture custom_icon_width %}{{ block.settings.custom_icon_width | times: 2 }}x{% endcapture %}
+                          <img class="text-with-icons__custom-icon" style="max-width: {{ block.settings.custom_icon_width }}px" width="{{ block.settings.custom_icon.width }}" height="{{ block.settings.custom_icon.height }}" src="{{ block.settings.custom_icon | img_url: custom_icon_width }}" alt="{{ block.settings.custom_icon.alt | escape }}">
+                        {%- else -%}
+                          {%- render 'icon' with block.settings.icon -%}
+                        {%- endif -%}
+                      </div>
+                      {%- if block.settings.title != blank or block.settings.content != blank or block.settings.html != blank or block.settings.subheading != blank-%}
+                        <div class="text-with-icons__content-wrapper" style="text-align: left;">
+                          {%- if block.settings.title != blank -%}
+                            <p class="p" style="font-weight: 600">{{ block.settings.title | escape }} </p>
+                          {%- endif -%}
+                          {%- if block.settings.html != blank -%}
+                            <div class="html text-with-icons__content-wrapper">
+                              {{- block.settings.html -}}
+                            </div>
+                          {%- endif -%}
+                          {%- if block.settings.content != blank -%}
+                            {{- block.settings.content -}}
+                          {%- endif -%}
+                          {%- if block.settings.subheading != blank -%}
+                            <div class="heading heading--xsmall">
+                              {{- block.settings.subheading -}}
+                            </div>
+                          {%- endif -%}
+                        </div>
+                      {%- endif -%}
+                      
+    
+                    </native-carousel-item>
+                      {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              
+                {%- if section.blocks.size > 1 -%}
+                  <button class="carousel-arrow carousel-arrow--left custom-arrow-hide" onclick="carouselPrev()" ><img src="https://cdn.shopify.com/s/files/1/0602/3295/8193/files/Nav-Arrow.png?v=1737640908" alt="Left arrow"></button>
+                  <button class="carousel-arrow carousel-arrow--right custom-arrow-hide" onclick="carouselNext()" ><img src="https://cdn.shopify.com/s/files/1/0602/3295/8193/files/Nav-Arrow.png?v=1737640908" alt="Right arrow" style="transform: rotate(180deg);"></button>
+                  {%- endif -%}
+              </native-carousel>
+              
+              <style>
+                .carousel-arrow {
+                  position: absolute;
+                  top: 110px;
+                  background: none;
+                  border: none;
+                  cursor: pointer;
+                  opacity: 0.6;
+                }
+                .carousel-arrow img {
+                  width: 20px;
+                  height: auto;
+                }
+                .carousel-arrow--left { left: 0px; }
+                .carousel-arrow--right { right: 0px; }
+              </style>
+              
+              <script>
+                
+              function carouselPrev() {
+                let container = document.getElementById('carousel-container');
+                let items = document.querySelectorAll('.text-with-icons__item');
+                let currentIndex = getCurrentIndex(container, items);
+                let prevIndex = (currentIndex - 1 + items.length) % items.length;
+                scrollToItem(container, items[prevIndex]);
+              }
+              
+              function carouselNext() {
+                let container = document.getElementById('carousel-container');
+                let items = document.querySelectorAll('.text-with-icons__item');
+                let currentIndex = getCurrentIndex(container, items);
+                let nextIndex = (currentIndex + 1) % items.length;
+                scrollToItem(container, items[nextIndex]);
+              }
+              
+              function getCurrentIndex(container, items) {
+                let scrollLeft = container.scrollLeft;
+                let itemWidth = items[0].offsetWidth;
+                return Math.round(scrollLeft / itemWidth);
+              }
+              
+              function scrollToItem(container, item) {
+                container.scrollTo({
+                  left: item.offsetLeft,
+                  behavior: 'smooth'
+                });
+              }
+              
+              </script>
+    
+          {%- if section.settings.button_text != blank -%}
+            <div class="section__footer">
+              <div class="button-wrapper">
+                <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text }}</a>
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </section>
+  {%- endif -%}
+
+      
+
+{% schema %}
+{
+  "name": "MS Before/After",
+  "class": "shopify-section--text-with-icons",
+  "max_blocks": 7,  
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "picto-coupon",
+              "label": "Coupon",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-gift",
+              "label": "Gift",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-taxes",
+              "label": "Taxes",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-warranty",
+              "label": "Warranty",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-like",
+              "label": "Like",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store",
+              "label": "Store",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-store-pickup",
+              "label": "Store pickup",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-love",
+              "label": "Love",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-donation",
+              "label": "Donation",
+              "group": "Shop"
+            },
+            {
+              "value": "picto-box",
+              "label": "Box",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address",
+              "label": "Address",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-address-pin",
+              "label": "Address pin",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-fast-delivery",
+              "label": "Fast delivery",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-delivery-truck",
+              "label": "Delivery truck",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-return-box",
+              "label": "Returns",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-worldwide",
+              "label": "World",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-plane",
+              "label": "Plane",
+              "group": "Shipping"
+            },
+            {
+              "value": "picto-credit-card",
+              "label": "Credit card",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-lock",
+              "label": "Lock",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-shield",
+              "label": "Shield",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-secure-payment",
+              "label": "Secure payment",
+              "group": "Payment & Security"
+            },
+            {
+              "value": "picto-mobile",
+              "label": "Mobile",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-phone",
+              "label": "Phone",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-chat",
+              "label": "Chat",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-send",
+              "label": "Send",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-email",
+              "label": "Email",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-customer-support",
+              "label": "Customer support",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-operator",
+              "label": "Support operator",
+              "group": "Communication"
+            },
+            {
+              "value": "picto-virus",
+              "label": "Virus",
+              "group": "Health"
+            },
+            {
+              "value": "picto-mask",
+              "label": "Mask",
+              "group": "Health"
+            }
+          ],
+          "default": "picto-customer-support"
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "custom_icon",
+          "info": "1000 x 1000px .png with transparency recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "after",
+          "label": "Before Image",
+          "info": "1000 x 1000px .png with transparency recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "before",
+          "label": "After Image",
+          "info": "1000 x 1000px .png with transparency recommended"
+        },
+        {
+          "type": "range",
+          "id": "custom_icon_width",
+            "min": 20,
+          "max": 500,
+          "step": 5,
+          "unit": "px",
+          "label": "Custom icon width",
+          "info": "Only impact custom icons",
+          "default": 100
+        },
+        {
+          "type": "range",
+          "id": "margins",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "label": "Set Icon/Text Gap",
+          "default": 20
+        },
+        {
+          "type": "text",
+          "id": "icontitle",
+          "label": "Text as icon",
+          "default": "Icon title"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Your title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Short content about your store</p>"
+        },
+        {
+          "type": "html",
+          "id": "html",
+          "label": "HTML"
+        },
+        {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Sub info",
+      "default": "<p>Sub info</p>"
+    }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "borderbottom",
+      "label": "Icon underline",
+      "info": "Show or hide icon underline.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "underline",
+      "label": "Section underline",
+      "info": "Show or hide section underline.",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "show-section",
+      "label": "Show Section?",
+      "info": "Show(1) or hide(0) section.",
+      "default": "0"
+    },
+    {
+      "type": "text",
+      "id": "maintitle",
+      "label": "Heading",
+      "default": "Your title"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+     {
+      "type": "header",
+      "content": "Colors"
+    },
+     {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text",
+          "default": "#ffffff"
+        }
+  ],
+  "presets": [
+    {
+      "name": "MS Before/After",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "title": "Contact us",
+            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
