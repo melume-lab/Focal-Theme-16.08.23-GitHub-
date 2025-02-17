@@ -415,7 +415,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 1000px) {h2 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
-        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
+        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}",
+        "section {margin-top: 20px; margin-bottom: 20px;}"
       ],
       "settings": {
         "reveal_on_scroll": false,
@@ -476,7 +477,7 @@
         "item_qahA3p"
       ],
       "custom_css": [
-        "section {margin-bottom: 0px;}",
+        "section {margin: 0px;}",
         "@media screen and (max-width: 999px) {.split-container {display: grid; }}"
       ],
       "settings": {
