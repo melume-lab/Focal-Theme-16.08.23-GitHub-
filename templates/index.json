@@ -369,6 +369,28 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "548fc196-eec7-41eb-a4e7-3876c73a6c3a": {
+      "type": "MS_Press_Collection",
+      "custom_css": [
+        ".press-section {margin-bottom: 35px;}",
+        ".content-box {width: 100%;}",
+        "@media screen and (min-width: 741px) {.button-wrapper {display: none; }}",
+        "@media screen and (max-width: 741px) {section {margin-bottom: 40px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "button": "shopify://pages/press",
+        "button_text": "SHOW MORE",
+        "background": "#f4f4f4",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "02de4337-28c3-479a-9083-f3abeabe91f9": {
       "type": "MS_image-with-text",
       "blocks": {
@@ -409,28 +431,6 @@
         "text_color": "#000000",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "548fc196-eec7-41eb-a4e7-3876c73a6c3a": {
-      "type": "MS_Press_Collection",
-      "custom_css": [
-        ".press-section {margin-bottom: 35px;}",
-        ".content-box {width: 100%;}",
-        "@media screen and (min-width: 741px) {.button-wrapper {display: none; }}",
-        "@media screen and (max-width: 741px) {section {margin-bottom: 40px; }}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "text_width": "fill",
-        "text_position": "center",
-        "text_alignment": "center",
-        "button": "shopify://pages/press",
-        "button_text": "SHOW MORE",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
       }
     },
     "d4101780-2e56-4efa-ad4e-1f6a01c86756": {
@@ -883,8 +883,8 @@
     "featured-collections",
     "ms_concern_section_FVLGwQ",
     "image_with_text_block_VTrhJD",
-    "02de4337-28c3-479a-9083-f3abeabe91f9",
     "548fc196-eec7-41eb-a4e7-3876c73a6c3a",
+    "02de4337-28c3-479a-9083-f3abeabe91f9",
     "d4101780-2e56-4efa-ad4e-1f6a01c86756",
     "ms_image_tiles_right_CBaYLF",
     "114a0aca-83e7-453e-89a1-ec9231dffaa8",
