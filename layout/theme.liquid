@@ -377,7 +377,14 @@ color: black!important;
 
 
   
-
+  
+    {% if template == 'index' %}
+      <style>
+        #shopify-section-sections--19493493866834__ms_concern_section_y67yKj {
+            display: none !important;
+        }
+      </style>
+    {% endif %}
   
 
   {% if product.collection.handle == 'free-samples' %}
