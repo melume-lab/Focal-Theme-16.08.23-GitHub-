@@ -391,6 +391,47 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "ms_concern_section_y67yKj": {
+      "type": "MS_Concern-Section",
+      "custom_css": [
+        ".concern-mobile {display: none;}",
+        ".concern-desktop {display: flex;}",
+        ".concern-toggle-content {gap: 0px; max-width: 1350px;}",
+        ".concern-img-frame {border: 0px;}",
+        "p {font-weight: 700; text-align: center;}",
+        "section {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "SHOP BY INGREDIENTS",
+        "content": "",
+        "liquid": "",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "image1": "shopify://shop_images/Ingredients_Hyaluronic_Acid_e4a92441-1522-432e-952c-69e2396b291b.jpg",
+        "collection1": "<p>HYALURONIC ACID</p>",
+        "img_link1": "shopify://collections/hyaluronic-acid-collection",
+        "image2": "shopify://shop_images/Ingredients_Retinol_e3e5ab88-43eb-4601-a0b4-f45c6afdc1f0.jpg",
+        "collection2": "<p>RETINOL</p>",
+        "img_link2": "shopify://collections/retinol-collection",
+        "image3": "shopify://shop_images/Ingredients_Peptides_50249123-59ab-445a-b89e-d443978672a0.jpg",
+        "collection3": "<p>PEPTIDES</p>",
+        "img_link3": "shopify://collections/peptide-collection",
+        "image4": "shopify://shop_images/Ingredients_AHA_faeb9f15-e1a5-4871-b3d1-21fcbe6c9279.jpg",
+        "collection4": "<p>AHA/BHA</p>",
+        "img_link4": "shopify://collections/aha-bha-collection",
+        "image5": "shopify://shop_images/Ingredients_Niacinamide_6777b88d-9a70-4996-ab60-7ed1f2c0ac38.jpg",
+        "collection5": "<p>NIACIMAIDE</p>",
+        "img_link5": "shopify://collections/niacinamide-collection",
+        "image6": "shopify://shop_images/Ingredients_Vitamin_C.jpg",
+        "collection6": "<p>VITAMIN C</p>",
+        "img_link6": "shopify://collections/vitamin-c-collection",
+        "tab": "Tab Text",
+        "button_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "02de4337-28c3-479a-9083-f3abeabe91f9": {
       "type": "MS_image-with-text",
       "blocks": {
@@ -885,6 +926,7 @@
     "ms_concern_section_FVLGwQ",
     "image_with_text_block_VTrhJD",
     "548fc196-eec7-41eb-a4e7-3876c73a6c3a",
+    "ms_concern_section_y67yKj",
     "02de4337-28c3-479a-9083-f3abeabe91f9",
     "d4101780-2e56-4efa-ad4e-1f6a01c86756",
     "ms_image_tiles_right_CBaYLF",
