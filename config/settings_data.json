@@ -89,6 +89,7 @@
         "blocks": {
           "message-1": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>International Women's Day - get 20% off + free shipping. No code. <a href=\"/collections/skincare-products\" title=\"All Products\">SHOP NOW</a></p>",
               "learn_more_text": "Learn more",
