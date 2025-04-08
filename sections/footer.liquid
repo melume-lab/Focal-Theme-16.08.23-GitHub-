@@ -214,7 +214,7 @@
     </div>
   </div>
 </footer>
-
+{%- comment -%}
 {%- if section.settings.show_cookie_bar -%}
   <cookie-bar section="{{ section.id }}" hidden class="cookie-bar text--xsmall">
     {%- if section.settings.cookie_bar_title != blank -%}
@@ -231,7 +231,7 @@
     </div>
   </cookie-bar>
 {%- endif -%}
-
+{%- endcomment -%}
 {% schema %}
 {
   "name": "Footer",
