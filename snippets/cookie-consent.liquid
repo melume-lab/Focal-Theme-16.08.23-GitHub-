@@ -1,4 +1,4 @@
-{%- comment -%}
+
 <script>
 function feedback() {
   const p = window.Shopify.customerPrivacy;
@@ -25,4 +25,3 @@ window.addEventListener("CookiebotOnConsentReady", function () {
   window.Shopify.customerPrivacy.setTrackingConsent(!Cookiebot.declined, feedback);
 });
 </script>
-{%- endcomment -%}
