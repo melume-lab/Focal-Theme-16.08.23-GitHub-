@@ -39,10 +39,68 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "custom_html_Nwi83i": {
+      "type": "custom-html",
+      "custom_css": [
+        "h1 {font-size: 40px; line-height: 1.2; font-weight: normal; margin: 0 20px 0 20px; padding: 40px 0 40px 0;}",
+        "@media (max-width: 1000px) {h1 {font-size: 35px; margin: 0px; }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<h1>SEARCH FOR THE <b>5 HIDDEN EASTER EGGS</b> AND<br>UNLOCK FOR A MYSTERY GIFT.</h1>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_fJaTt6": {
+      "type": "custom-html",
+      "custom_css": [
+        "@media (max-width: 1000px) {.easter-grid-wrapper {display: flex; flex-direction: column; } .easter-grid-row {display: block; } .image-row {display: none; } .easter-block, .image-space {border-right: none; border-bottom: 1px solid #ccc; padding: 3rem 0; } ol {padding: 0 22px 0 22px; } .section__header {margin: 0px; }}",
+        "@media (min-width: 999px) {.easter-img-mobile {display: none; } h3 {font-size: calc(var(--heading-h2-font-size) - 14px); } li {padding: 0 40px 0 0; } .section__header {max-width: 100%; margin-left: 20px; }}",
+        "h3 {text-align: left; font-weight: bold;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "HOW?",
+        "html": "<style>\n.easter-grid-row {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n}\n.easter-block:not(:last-child) {\n  border-right: 1px solid #ccc;\n}\n.easter-block li::marker {\n  font-weight: bold;\n}\n.image-row {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  align-items: start;\n}\n.image-space {\n  padding-left: 40px;\n  padding-right: 40px;\n}\n</style>\n\n<div class=\"easter-grid-wrapper\">\n  <div class=\"easter-grid-row\">\n    <!-- Textblock 1 -->\n    <div class=\"easter-block\">\n      <ol start=\"1\">\n        <li>\n          <b>Five Easter eggs</b> are hidden across different product pages. Each egg includes a letter, along with its position in the final code (e.g. 3rd letter is Y). <b>Collect all 5 letters </b> and arrange them according to their positions to reveal the secret code.\n         \n          \n<div class=\"easter-img-mobile\"> <br><b>EXAMPLE</b><img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Osterei_gold_pur_Mobile.jpg?v=1744364042\" alt=\"\">\n</div>\n        </li>\n      </ol>\n    </div>\n\n    <!-- Textblock 2 -->\n    <div class=\"easter-block\">\n      <ol start=\"2\">\n        <li>\n          The grid below will help you in finding the right combination of the codeword.\n          <br><br>\n          <img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Kreuzwortraetsel.jpg?v=1744358618\" alt=\"\">\n        </li>\n      </ol>\n    </div>\n\n    <!-- Textblock 3 -->\n    <div class=\"easter-block\">\n      <ol start=\"3\">\n        <li>Put your products in your cart and <b>add the revealed mystery product</b>.</li>\n      </ol>\n    </div>\n\n    <!-- Textblock 4 -->\n    <div class=\"easter-block\">\n      <ol start=\"4\">\n        <li>Enter the code in the checkout step.</li>\n      </ol>\n      <ol start=\"5\">\n        <li><b>HAVE FUN WITH YOUR MYSTERY GIFT!</b></li>\n      </ol>\n    </div>\n  </div>\n\n  <!-- Neuer Bildblock unter Block 1 für Mobile -->\n  <div class=\"image-row\">\n    <div class=\"image-space\">\n<br><b>EXAMPLE</b>\n      <img src=\"https://cdn.shopify.com/s/files/1/0570/3797/9847/files/Osterei_Gold.jpg?v=1744358618\" alt=\"\">\n    </div>\n    <div></div>\n    <div></div>\n    <div></div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_zaTbGj": {
+      "type": "rich-text",
+      "custom_css": [
+        "section {margin: 0px;}",
+        ".content-box--left {margin-left: 30px;}"
+      ],
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Talk about your brand",
+        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_8DzqGw"
+    "image_with_text_overlay_8DzqGw",
+    "custom_html_Nwi83i",
+    "custom_html_fJaTt6",
+    "rich_text_zaTbGj"
   ]
 }
