@@ -85,6 +85,7 @@
         "content": "<p> </p>",
         "button_text": "START YOUR SEARCH",
         "button_link": "shopify://collections/skincare-products",
+        "open_new_tab": true,
         "background_type": "full_width",
         "text_width": "fill",
         "text_position": "center",
