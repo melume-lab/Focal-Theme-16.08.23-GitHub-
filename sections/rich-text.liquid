@@ -81,9 +81,16 @@
 
           {%- if section.settings.button_text != blank -%}
             <div class="button-wrapper">
-              <a href="{{ section.settings.button_link }}" class="button button--primary">{{ section.settings.button_text | escape }}</a>
+              <a 
+                href="{{ section.settings.button_link }}" 
+                class="button button--primary"
+                {%- if section.settings.open_new_tab -%} target="_blank" rel="noopener"{%- endif -%}
+              >
+                {{ section.settings.button_text | escape }}
+              </a>
             </div>
           {%- endif -%}
+
         </div>
       </div>
     </div>
@@ -124,6 +131,12 @@
       "type": "url",
       "id": "button_link",
       "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "open_new_tab",
+      "label": "Link in neuem Tab öffnen",
+      "default": false
     },
     {
       "type": "select",
