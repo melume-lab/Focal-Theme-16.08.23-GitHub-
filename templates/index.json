@@ -14,7 +14,6 @@
       "blocks": {
         "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_Banner_2025_Ostern_2160x1018_c635c849-f946-4585-9583-32c36a6f92ba.jpg",
             "mobile_image": "shopify://shop_images/Mobile_Banner_2025_2160x1018_Ostern.jpg",
@@ -26,7 +25,7 @@
             "content": "<p>FIND ALL GOLDEN EGGS AND<br/><strong>SECURE YOUR SKINSATIONAL GIFT</strong>.</p>",
             "content_promo": "",
             "button_1_text": "HOW TO",
-            "button_1_link": "shopify://collections/skincare-products",
+            "button_1_link": "shopify://pages/how-to-easter-special",
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
@@ -908,6 +907,7 @@
         "content": "<h2>Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our GMOD™ complex stemming from bio-science.</h2>",
         "button_text": "LEARN MORE",
         "button_link": "/pages/discover#shopify-section-template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3",
+        "open_new_tab": false,
         "background_type": "full_width",
         "text_width": "large",
         "text_position": "center",
