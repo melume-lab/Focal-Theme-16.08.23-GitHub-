@@ -15,14 +15,14 @@
         "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Desktop_Banner_2025_Ostern_2160x1018_c635c849-f946-4585-9583-32c36a6f92ba.jpg",
-            "mobile_image": "shopify://shop_images/Mobile_Banner_2025_2160x1018_Ostern.jpg",
+            "image": "shopify://shop_images/20_OFF_2.jpg",
+            "mobile_image": "shopify://shop_images/LIPBALM_BANNER_OHNE_TEXT_1000x1400_1.jpg",
             "video_source_url": "",
             "text_position": "middle_left",
             "subheading": "",
             "title": "",
-            "title_promo": "<p><strong>UNLOCK THE EASTER<br/>GIFT WITH YOUR ORDER</strong></p>",
-            "content": "<p>FIND ALL GOLDEN EGGS AND<br/><strong>SECURE A FREE RETINOL STICK</strong>.</p>",
+            "title_promo": "<p>EASTER SHOPPING<strong><br/>WITH 20% OFF</strong></p>",
+            "content": "<p><strong>+ FREE RETINOL STICK GIFT </strong>VALUED AT 79€. STOCK UP YOUR FAVORITES.</p>",
             "content_promo": "",
             "button_1_text": "HOW TO",
             "button_1_link": "shopify://pages/how-to-easter-special",
