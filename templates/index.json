@@ -14,7 +14,6 @@
       "blocks": {
         "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/20_OFF_2.jpg",
             "mobile_image": "shopify://shop_images/LIPBALM_BANNER_OHNE_TEXT_1000x1400_1.jpg",
