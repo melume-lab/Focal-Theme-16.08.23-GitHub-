@@ -17,6 +17,23 @@
 {%- assign calculated_total_price = cart.total_price -%}
 
 
+
+<style>
+  .line-item.no-quantity .line-item__quantity {
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .disabled-link {
+    cursor: default;
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
+
+
+
+
 <section>
 <div class="page-overlay"></div>
   <div class="container container--medium">
@@ -96,13 +113,30 @@
             <tbody class="line-item-table__list">
               {%- for line_item in cart.items -%}
                 {% unless excluded_product_titles contains line_item.product.title %}
-                  <tr class="line-item">
+                  {% assign hide_quantity_selector = false %}
+                  {% for tag in line_item.product.tags %}
+                    {% if tag == 'no-quantity' %}
+                      {% assign hide_quantity_selector = true %}
+                    {% endif %}
+                  {% endfor %}
+                  {% assign disable_link = false %}
+                  {% for tag in line_item.product.tags %}
+                    {% if tag == 'no-link' %}
+                      {% assign disable_link = true %}
+                    {% endif %}
+                  {% endfor %}
+                  <tr class="line-item {% if hide_quantity_selector %}no-quantity{% endif %}">
                     <td class="line-item__product">
                       <div class="line-item__content-wrapper">
-                        <a href="{%- unless excluded_product_titles contains line_item.title -%}{{ line_item.url }}{%- endunless -%}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
-                          <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
-                        </a>
-
+                        {% if disable_link %}
+                          <span class="line-item__image-wrapper disabled-link" tabindex="-1" aria-hidden="true">
+                            <img class="line-item__image" loading="lazy" {% render 'image-attributes', image: line_item.image %}>
+                          </span>
+                        {% else %}
+                          <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
+                            <img class="line-item__image" loading="lazy" {% render 'image-attributes', image: line_item.image %}>
+                          </a>
+                        {% endif %}
                         {%- capture unit_price -%}
                           {%- if line_item.unit_price_measurement -%}
                             <div class="price text--subdued">
@@ -158,20 +192,37 @@
 
                         <div class="line-item__info">
                           <div class="product-item-meta">
+                            
                             {%- if settings.show_vendor -%}
                               {%- assign vendor_handle = line_item.vendor | handle -%}
                               {%- assign collection_for_vendor = collections[vendor_handle] -%}
-
+                        
                               {%- unless collection_for_vendor.empty? -%}
                                 <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ collection_for_vendor.url }}">{{ line_item.vendor }}</a>
                               {%- else -%}
                                 <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ line_item.vendor | url_for_vendor }}">{{ line_item.vendor }}</a>
                               {%- endunless -%}
                             {%- endif -%}
-
-                            <a href="{%- unless excluded_product_titles contains line_item.title -%}{{ line_item.url }}{%- endunless -%}" class="product-item-meta__title text--small hidden-tablet-and-up">{{ line_item.product.title }}</a>
-                            <a href="{%- unless excluded_product_titles contains line_item.title -%}{{ line_item.url }}{%- endunless -%}" class="product-item-meta__title hidden-phone">{{ line_item.product.title }}</a>
-
+                        
+                            {% assign disable_link = false %}
+                            {% for tag in line_item.product.tags %}
+                              {% if tag == 'no-link' %}
+                                {% assign disable_link = true %}
+                              {% endif %}
+                            {% endfor %}
+                        
+                            {%- if disable_link %}
+                              <span class="product-item-meta__title text--small hidden-tablet-and-up">{{ line_item.product.title }}</span>
+                            {%- else %}
+                              <a href="{{ line_item.url }}" class="product-item-meta__title text--small hidden-tablet-and-up">{{ line_item.product.title }}</a>
+                            {%- endif %}
+                        
+                            {%- if disable_link %}
+                              <span class="product-item-meta__title hidden-phone">{{ line_item.product.title }}</span>
+                            {%- else %}
+                              <a href="{{ line_item.url }}" class="product-item-meta__title hidden-phone">{{ line_item.product.title }}</a>
+                            {%- endif %}
+                            
                             {%- capture line_item_properties -%}
                               {%- unless line_item.product.has_only_default_variant -%}
                                 <span class="product-item-meta__property text--subdued text--xsmall">{{ line_item.variant.title }}</span>
