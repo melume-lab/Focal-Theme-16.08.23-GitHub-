@@ -14,7 +14,6 @@
       "blocks": {
         "a11f4c44-fec7-49cc-9448-8ab94cd92389": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_Banner_2025_2160x1018_Muttertag.jpg",
             "mobile_image": "shopify://shop_images/Mobile_Banner_2025_2160x1018_Muttertag.jpg",
@@ -23,7 +22,7 @@
             "subheading": "",
             "title": "",
             "title_promo": "<p><strong>SPECIAL GIFTS<br/>FOR HER</strong></p>",
-            "content": "<p>GIFTS ON MOTHER'S DAY<strong> </strong>–<br/><strong>A BEAUTY BAG & NAIL POLISH<br/>TO YOUR ORDER.</strong></p>",
+            "content": "<p>GIFTS ON MOTHER'S DAY<strong> </strong>–<br/><strong>A BEAUTY BAG & MANUCURIST NAIL POLISH<br/>TO YOUR ORDER.</strong></p>",
             "content_promo": "",
             "button_1_text": "SHOP NOW",
             "button_1_link": "shopify://collections/skincare-products",
