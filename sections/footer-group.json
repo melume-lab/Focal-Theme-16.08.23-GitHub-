@@ -209,22 +209,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "e70beb47-f55d-473b-a925-4cb8b64d0bb1": {
-      "type": "custom-html",
-      "custom_css": [
-        "@media (min-width: 1000px) {.container {margin-bottom: calc(var(--vertical-breather) - 50px); margin-top: var(--vertical-breather); }}",
-        "@media (max-width: 999px) {.container {margin-bottom: calc(var(--vertical-breather) - 10px); margin-top: calc(var(--vertical-breather) - 10px); }}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "html": "<p style=\"text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 16px; font-weight: 400; line-height: 33px;\">MADE IN GERMANY <span style=\"font-size:25px\">•</span> VEGAN &amp; CRUELTY FREE  <span style=\"font-size:25px\">•</span>  SKIN COMPATIBLE <span style=\"font-size:25px\">•</span> HIGHTECH FORMULAS <span style=\"font-size:25px\">•</span> \n DERMATOLOGICALLY TESTED <span style=\"font-size:25px\">•</span> BIOMIMETIC INGREDIENTS  <span style=\"font-size:25px\">•</span>  CLINICALLY RESEARCHED INGREDIENTS <span style=\"font-size:25px\">•</span> PH-APPRIOPRIATE <span style=\"font-size:25px\">•</span> SCIENCE &amp; PLANT POWERED <span style=\"font-size:25px\">•</span> EFFICACIOUS MAXIMUM LEVEL FORMULAS <span style=\"font-size:25px\">•</span> BIOAVAILABLE</p>",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "custom_html_xJrHAW": {
       "type": "custom-html",
       "custom_css": [
@@ -243,6 +227,22 @@
         "background_type": "full_width",
         "background": "#000000",
         "text_color": "#ffffff"
+      }
+    },
+    "e70beb47-f55d-473b-a925-4cb8b64d0bb1": {
+      "type": "custom-html",
+      "custom_css": [
+        "@media (min-width: 1000px) {.container {margin-bottom: calc(var(--vertical-breather) - 50px); margin-top: var(--vertical-breather); }}",
+        "@media (max-width: 999px) {.container {margin-bottom: calc(var(--vertical-breather) - 10px); margin-top: calc(var(--vertical-breather) - 10px); }}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<p style=\"text-align: center; max-width: 1000px; display: block; margin: 0 auto; font-size: 16px; font-weight: 400; line-height: 33px;\">MADE IN GERMANY <span style=\"font-size:25px\">•</span> VEGAN &amp; CRUELTY FREE  <span style=\"font-size:25px\">•</span>  SKIN COMPATIBLE <span style=\"font-size:25px\">•</span> HIGHTECH FORMULAS <span style=\"font-size:25px\">•</span> \n DERMATOLOGICALLY TESTED <span style=\"font-size:25px\">•</span> BIOMIMETIC INGREDIENTS  <span style=\"font-size:25px\">•</span>  CLINICALLY RESEARCHED INGREDIENTS <span style=\"font-size:25px\">•</span> PH-APPRIOPRIATE <span style=\"font-size:25px\">•</span> SCIENCE &amp; PLANT POWERED <span style=\"font-size:25px\">•</span> EFFICACIOUS MAXIMUM LEVEL FORMULAS <span style=\"font-size:25px\">•</span> BIOAVAILABLE</p>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "6f312617-3fc4-4e7d-a598-c25194c15752": {
@@ -309,7 +309,7 @@
             "custom_icon_width": 100,
             "title": "FREE SHIPPING AND RETURNS",
             "big-title": "",
-            "content": "<p>ON ALL ORDERS FROM $ 75</p>",
+            "content": "<p>ON ALL ORDERS FROM $ 60</p>",
             "subheading": "",
             "custom-link_text": "",
             "whatsapp_button": false,
