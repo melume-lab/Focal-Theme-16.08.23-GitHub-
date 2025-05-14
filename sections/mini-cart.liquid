@@ -113,16 +113,33 @@
         <input type="hidden" name="checkout">
 
         {%- for line_item in cart.items -%}
+          {%- assign hide_quantity_selector = false -%}
+          {%- assign disable_link = false -%}
+        
+          {%- for tag in line_item.product.tags -%}
+            {%- if tag == 'no-quantity' -%}
+              {%- assign hide_quantity_selector = true -%}
+            {%- elsif tag == 'no-link' -%}
+              {%- assign disable_link = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+        
           <line-item class="line-item">
             <div class="line-item__content-wrapper">
-              <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
-                <span class="line-item__loader" hidden>
-                  <span class="line-item__loader-spinner spinner" hidden>{% render 'icon' with 'spinner', width: 16, height: 16, stroke_width: 6 %}</span>
-                  <span class="line-item__loader-mark" hidden>{% render 'icon' with 'check', width: 20, height: 20 %}</span>
+              {%- if disable_link -%}
+                <span class="line-item__image-wrapper disabled-link" tabindex="-1" aria-hidden="true">
+                  <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
                 </span>
-
-                <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
-              </a>
+              {%- else -%}
+                <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
+                  <span class="line-item__loader" hidden>
+                    <span class="line-item__loader-spinner spinner" hidden>{% render 'icon' with 'spinner', width: 16, height: 16, stroke_width: 6 %}</span>
+                    <span class="line-item__loader-mark" hidden>{% render 'icon' with 'check', width: 20, height: 20 %}</span>
+                  </span>
+        
+                  <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
+                </a>
+              {%- endif -%}
 
               {%- capture unit_price -%}
                 {%- if line_item.unit_price_measurement -%}
@@ -247,27 +264,29 @@
                   {%- assign allow_more = false -%}
                 {%- endif -%}
 
-                <line-item-quantity class="line-item__quantity">
-                  <div class="quantity-selector quantity-selector--small">
-                    <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | minus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.decrease_quantity' | t | escape }}" data-no-instant>
-                      {%- render 'icon' with 'minus' -%}
-                    </a>
-
-                    <input is="input-number" class="quantity-selector__input text--xsmall" autocomplete="off" type="text" inputmode="numeric" name="updates[]" data-line="{{ forloop.index }}" value="{{ line_item.quantity }}" {% if max_allowed_quantity != '' %}max="{{ max_allowed_quantity }}"{% endif %} size="{{ line_item.quantity | append: '' | size | at_least: 2 }}" aria-label="{{ 'cart.general.change_quantity' | t | escape }}">
-
-                    {%- if allow_more -%}
-                      <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | plus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.increase_quantity' | t | escape }}" data-no-instant>
-                        {%- render 'icon' with 'plus' -%}
+                {%- unless hide_quantity_selector -%}
+                  <line-item-quantity class="line-item__quantity">
+                    <div class="quantity-selector quantity-selector--small">
+                      <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | minus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.decrease_quantity' | t | escape }}" data-no-instant>
+                        {%- render 'icon' with 'minus' -%}
                       </a>
-                    {%- else -%}
-                      <span class="quantity-selector__button" aria-label="{{ 'cart.general.no_more_stock' | t | escape }}" data-tooltip="{{ 'cart.general.no_more_stock' | t | escape }}">
-                        {%- render 'icon' with 'plus' -%}
-                      </span>
-                    {%- endif -%}
-                  </div>
-
-                  <a href="{{ line_item.url_to_remove }}" class="line-item__remove-button link text--subdued text--xxsmall" data-no-instant>{{ 'cart.general.remove' | t }}</a>
-                </line-item-quantity>
+          
+                      <input is="input-number" class="quantity-selector__input text--xsmall" autocomplete="off" type="text" inputmode="numeric" name="updates[]" data-line="{{ forloop.index }}" value="{{ line_item.quantity }}" {% if max_allowed_quantity != '' %}max="{{ max_allowed_quantity }}"{% endif %} size="{{ line_item.quantity | append: '' | size | at_least: 2 }}" aria-label="{{ 'cart.general.change_quantity' | t | escape }}">
+          
+                      {%- if allow_more -%}
+                        <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | plus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.increase_quantity' | t | escape }}" data-no-instant>
+                          {%- render 'icon' with 'plus' -%}
+                        </a>
+                      {%- else -%}
+                        <span class="quantity-selector__button" aria-label="{{ 'cart.general.no_more_stock' | t | escape }}" data-tooltip="{{ 'cart.general.no_more_stock' | t | escape }}">
+                          {%- render 'icon' with 'plus' -%}
+                        </span>
+                      {%- endif -%}
+                    </div>
+          
+                    <a href="{{ line_item.url_to_remove }}" class="line-item__remove-button link text--subdued text--xxsmall" data-no-instant>{{ 'cart.general.remove' | t }}</a>
+                  </line-item-quantity>
+                {%- endunless -%}
               </div>
 
               <div class="line-item__price-list-container text--small hidden-phone">
