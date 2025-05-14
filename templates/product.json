@@ -97,6 +97,14 @@
             "answer2": "{{ product.metafields.custom.ingredients_small | metafield_tag }}"
           }
         },
+        "cttitle_EJrge3": {
+          "type": "cttitle",
+          "settings": {
+            "title": "FURTHER INFORMATIONS",
+            "answer": "",
+            "answer2": ""
+          }
+        },
         "cf2f58ad-e964-4315-945a-1d89be7de4b7": {
           "type": "image",
           "settings": {
@@ -129,6 +137,7 @@
         "f5103a9f-83d0-4092-acfb-fe6fcd4749a1",
         "190e0d07-9411-4459-8c95-edaafecfe26d",
         "a4785b9b-cabc-48ce-8531-17c64c3d270d",
+        "cttitle_EJrge3",
         "cf2f58ad-e964-4315-945a-1d89be7de4b7"
       ],
       "custom_css": [
