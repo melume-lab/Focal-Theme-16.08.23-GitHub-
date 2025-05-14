@@ -101,7 +101,7 @@
           "type": "cttitle",
           "settings": {
             "title": "FURTHER INFORMATIONS",
-            "answer": "",
+            "answer": "{{ product.metafields.custom.further_informations | metafield_tag }}",
             "answer2": ""
           }
         },
