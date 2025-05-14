@@ -50,7 +50,7 @@
     "product_image_size": "square",
     "search_enable_blog_posts": false,
     "search_unavailable_products": "show",
-    "cart_type": "page",
+    "cart_type": "drawer",
     "cart_icon": "shopping_bag",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "100",
@@ -302,9 +302,9 @@
         "type": "mini-cart",
         "settings": {
           "show_order_note": true,
-          "show_checkout_button": true,
+          "show_checkout_button": false,
           "empty_button_link": "shopify://collections/all",
-          "show_recommendations": true,
+          "show_recommendations": false,
           "recommendations_title": "You may also like"
         }
       },
