@@ -473,28 +473,33 @@
 
   
         <div class="product-info">
-            {%- for block in section.blocks -%}
-              {%- case block.type -%}
-
-
-                {%- when 'cttitle' -%}
-                  <div class="collapsible__item">
-                    <button is="toggle-button" class="collapsible-toggle" aria-controls="block-{{ section.id }}-{{ block.id }}" aria-expanded="false" itemprop="name">
-                      {{- block.settings.title -}}
-                      <span class="animated-plus"></span>
-                    </button>
-
-                    <collapsible-content id="block-{{ section.id }}-{{ block.id }}" class="collapsible anchor" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" {{ block.shopify_attributes }}>
-                      <div class="collapsible__content text-container" itemprop="text">
-                        {{ block.settings.answer }}
-                     </div>
-                       <div class="collapsible__content text-container" itemprop="text" style="font-size: 10px">
-                          {{ block.settings.answer2 }}
-                       </div>
-                    </collapsible-content>
-                  </div>
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'cttitle' -%}
+                <div class="collapsible__item"
+                     {% if block.settings.answer == blank %}style="display: none;"{% endif %}>
+                  <button is="toggle-button" class="collapsible-toggle" 
+                          aria-controls="block-{{ section.id }}-{{ block.id }}" 
+                          aria-expanded="false" itemprop="name">
+                    {{- block.settings.title -}}
+                    <span class="animated-plus"></span>
+                  </button>
+        
+                  <collapsible-content id="block-{{ section.id }}-{{ block.id }}" 
+                                       class="collapsible anchor" 
+                                       itemscope itemprop="acceptedAnswer" 
+                                       itemtype="https://schema.org/Answer" 
+                                       {{ block.shopify_attributes }}>
+                    <div class="collapsible__content text-container" itemprop="text">
+                      {{ block.settings.answer }}
+                    </div>
+                    <div class="collapsible__content text-container" itemprop="text" style="font-size: 10px">
+                      {{ block.settings.answer2 }}
+                    </div>
+                  </collapsible-content>
+                </div>
               {%- endcase -%}
-            {%- endfor -%}
+          {%- endfor -%}
         </div>
 
 
