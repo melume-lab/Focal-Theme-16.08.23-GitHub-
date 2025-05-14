@@ -1,3 +1,32 @@
+{% assign freeSampleCollectionHandle = 'free-samples' %}
+{% assign freeSachetCollectionHandle = 'free-sachets' %}
+{% assign excluded_product_titles = "" %}
+
+{% for product in collections[freeSampleCollectionHandle].products %}
+  {% capture product_title %}{{ product.title | strip }}{% endcapture %}
+  {% assign excluded_product_titles = excluded_product_titles | append: product_title | append: ',' %}
+{% endfor %}
+
+{% for product in collections[freeSachetCollectionHandle].products %}
+  {% capture product_title %}{{ product.title | strip }}{% endcapture %}
+  {% assign excluded_product_titles = excluded_product_titles | append: product_title | append: ',' %}
+{% endfor %}
+
+
+<style>
+  .line-item.no-quantity .line-item__quantity {
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .disabled-link {
+    cursor: default;
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
+
+
 <cart-drawer section="{{ section.id }}" id="mini-cart" class="mini-cart drawer drawer--large">
   <span class="drawer__overlay"></span>
 
