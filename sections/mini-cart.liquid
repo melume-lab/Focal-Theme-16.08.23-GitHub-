@@ -401,13 +401,17 @@
           {{- cart.total_price | money_with_currency -}}
         </button>
       {%- else -%}
+        <div class="custom-buttons-container" style="display: grid; gap: 12px;">
+          <div class="button-wrapper" style="cursor: pointer; width: 100%">
+            <a data-action="close" class="button button--secondary" style="width: 100%">{{ section.settings.closebutton }}</a>
+          </div>
         
-        <div class="button-wrapper hidden-pocket-2">
-          <a data-action="close" class="button button--secondary">Continue Shopping</a>
-        </div>
       
-        <a href="{{ routes.cart_url }}" class="button button--primary button--full" data-no-instant>{{ 'cart.general.go_to_cart' | t }}</a>
+           <a href="{{ routes.cart_url }}" class="button button--primary button--full" data-no-instant>{{ 'cart.general.go_to_cart' | t }}</a>
+        </div>
       {%- endif -%}
+    
+    
 
     </footer>
   {%- endif -%}
@@ -465,6 +469,12 @@
       "id": "recommendations_title",
       "label": "Recommendations heading",
       "default": "You may also like"
+    },
+    {
+     "type": "text",
+      "id": "closebutton",
+      "label": "Close Button Text",
+      "default": "Continue Shopping"
     }
   ]
 }
