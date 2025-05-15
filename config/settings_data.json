@@ -303,7 +303,7 @@
         "settings": {
           "show_order_note": false,
           "show_checkout_button": false,
-          "empty_button_link": "shopify://collections/all",
+          "empty_button_link": "shopify://collections/skincare-products",
           "show_recommendations": false,
           "recommendations_title": "You may also like",
           "closebutton": "Continue Shopping"
