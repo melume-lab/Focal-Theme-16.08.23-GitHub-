@@ -90,6 +90,7 @@
       "block_order": [
         "item_pJDfTj"
       ],
+      "disabled": true,
       "custom_css": [
         "section {margin-top: 0px; background-color: #f5f2f0;}",
         "@media screen and (max-width: 740px) {p {font-size: 17px; }}",
@@ -158,6 +159,7 @@
         "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-container {margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; }}"
       ],
       "settings": {
+        "image": "shopify://shop_images/Melume_Model_II5107_1_small_bb726ceb-8fab-4deb-85a1-3c1bdc9247ca.png",
         "title": "",
         "content": "<p>JOIN OUR FOUNDER IN ADVOCATING FOR TRANSPARENCY, HONESTY, AND EFFECTIVENESS IN SKINCARE. DISCOVER THE TRUE POTENTIAL OF SKINCARE AND ENVISION ITS FUTURE.</p>",
         "html": "",
@@ -174,6 +176,37 @@
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
+    },
+    "custom_html_8A7Cr3": {
+      "type": "custom-html",
+      "custom_css": [
+        "@media screen and (min-width: 741px) {.founder-text {font-size: 28px; font-weight: 300; }}",
+        "@media screen and (max-width: 740px) {.founder-text {font-size: 20px; font-weight: 300; }}",
+        "section {margin-top: 0px; background-color: #f5f2f0;}"
+      ],
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div>\n<p class=\"founder-text\" style=\"text-align: center;\">\nJOIN OUR FOUNDER IN ADVOCATING FOR TRANSPARENCY, HONESTY, AND EFFECTIVENESS IN SKINCARE. DISCOVER THE TRUE POTENTIAL OF SKINCARE AND ENVISION ITS FUTURE.</p>\n</div>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "#f5f2f0",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_LYXXY6": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -182,6 +215,8 @@
     "image_with_text_bbqYYW",
     "image_with_text_iwitrB",
     "ms_image_tiles_left_FJqeti",
-    "ms_image_tiles_right_8htnqC"
+    "ms_image_tiles_right_8htnqC",
+    "custom_html_8A7Cr3",
+    "custom_html_LYXXY6"
   ]
 }
