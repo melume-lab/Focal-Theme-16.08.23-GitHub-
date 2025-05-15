@@ -401,15 +401,14 @@
           {{- cart.total_price | money_with_currency -}}
         </button>
       {%- else -%}
+        
+        <div class="button-wrapper hidden-pocket-2">
+          <a data-action="close" class="button button--secondary">Continue Shopping</a>
+        </div>
+      
         <a href="{{ routes.cart_url }}" class="button button--primary button--full" data-no-instant>{{ 'cart.general.go_to_cart' | t }}</a>
       {%- endif -%}
 
-      
-    {%- if section.settings.button_text != blank -%}
-                      <div class="button-wrapper hidden-pocket-2">
-                        <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="button button--secondary">{{ section.settings.button_text }}</a>
-                      </div>
-                    {%- endif -%}
     </footer>
   {%- endif -%}
 
