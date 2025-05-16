@@ -112,7 +112,7 @@
           "type": "question",
           "settings": {
             "title": "Which countries do you deliver to?",
-            "answer": "<p>We currently supply most European countries and the USA: </p><ul><li>Andorra</li><li>Belgium</li><li>Bulgaria</li><li>Bulgaria</li><li>Denmark</li><li>Germany</li><li>Estonia</li><li>Finland</li><li>France</li><li>Greece</li><li>Ireland </li><li>Croatia</li><li>Latvia</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Monaco</li><li>Netherlands</li><li>Norway</li><li>Austria</li><li>Poland</li><li>Portugal</li><li>Romania</li><li>San Marino San Marino</li><li>Sweden</li><li>Switzerland</li><li>Slovakia</li><li>Slovenia</li><li>Spain</li><li>Czech Republic</li><li>Hungary</li><li>United States</li><li>United Kingdom</li></ul>"
+            "answer": "<p>We currently ship to most European countries and the USA: </p><ul><li>Andorra</li><li>Austria</li><li>Belgium</li><li>Bulgaria</li><li>Croatia</li><li>Cyprus</li><li>Czech Republic</li><li>Denmark</li><li>Estonia</li><li>Finland</li><li>France</li><li>Germany</li><li>Greece</li><li>Hungary</li><li>Ireland</li><li>Italy</li><li>Latvia</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Malta</li><li>Monaco</li><li>Netherlands</li><li>Norway</li><li>Poland</li><li>Portugal</li><li>Romania</li><li>San Marino</li><li>Slovakia</li><li>Slovenia</li><li>Spain</li><li>Sweden</li><li>Switzerland</li><li>United Kingdom</li><li>United States</li></ul>"
           }
         },
         "cdc32382-f207-43be-a357-eba25f63071b": {
