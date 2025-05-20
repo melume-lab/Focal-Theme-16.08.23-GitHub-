@@ -23,6 +23,9 @@
     text-decoration: none;
     color: inherit;
   }
+  .custom-announcement-bar {
+    background: black;
+  }
 </style>
 
 
@@ -409,6 +412,10 @@
            <a href="{{ routes.cart_url }}" class="button button--secondary button--full" data-no-instant>{{ 'cart.general.go_to_cart' | t }}</a>
         </div>
       {%- endif -%}
+
+      <div class="custom-announcement-bar">
+        <p style="color: white">1 luxury sample & 2 sachets to every order</p>
+      </div>
  
     </footer>
   {%- endif -%}
