@@ -393,7 +393,7 @@
       {%- endif -%}
 
       {%- if section.settings.show_checkout_button -%}
-        <button form="mini-cart-form" type="submit" class="checkout-button button button--primary button--full" name="checkout">
+        <button form="mini-cart-form" type="submit" class="checkout-button button button--secondary button--full" name="checkout">
           <span class="checkout-button__lock">{%- render 'icon' with 'lock' -%}</span>
 
           {{- 'cart.general.checkout' | t -}}
@@ -403,7 +403,7 @@
       {%- else -%}
         <div class="custom-buttons-container" style="display: grid; gap: 12px;">
           <div class="button-wrapper" style="cursor: pointer; width: 100%">
-            <a data-action="close" class="button button--secondary button--full" >{{ section.settings.closebutton }}</a>
+            <a data-action="close" class="button button--primary button--full" >{{ section.settings.closebutton }}</a>
           </div>
 
            <a href="{{ routes.cart_url }}" class="button button--primary button--full" data-no-instant>{{ 'cart.general.go_to_cart' | t }}</a>
