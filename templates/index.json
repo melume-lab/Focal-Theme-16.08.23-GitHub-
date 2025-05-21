@@ -169,7 +169,8 @@
     "rich_text_bVPb4R": {
       "type": "rich-text",
       "custom_css": [
-        ".vertical--breather {margin: 0px;}"
+        ".vertical-breather {padding: 20px;}",
+        "P {min-font-size: 12px;}"
       ],
       "name": "Rich text",
       "settings": {
