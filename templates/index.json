@@ -170,7 +170,7 @@
       "type": "rich-text",
       "custom_css": [
         ".vertical-breather {padding: 20px;}",
-        "P {font-size: calc(4px + 1vw);}"
+        "P {font-size: calc(7px + 0.5vw); letter-spacing: 1.2px;}"
       ],
       "name": "Rich text",
       "settings": {
