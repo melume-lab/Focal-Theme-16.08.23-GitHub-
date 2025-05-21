@@ -171,8 +171,8 @@
       "custom_css": [
         ".vertical-breather {padding: 12px;}",
         "P {font-size: 20px; letter-spacing: 1.2px;}",
-        "@media screen and (max-width: 740px) {.content-box {width: 100%; } P {font-size: 14px; }}",
-        "@media screen and (max-width: 1400px) {P {font-size: 16px; }}"
+        "@media screen and (max-width: 1400px) {P {font-size: 16px; }}",
+        "@media screen and (max-width: 999px) {.content-box {width: 100%; } P {font-size: 14px; }}"
       ],
       "name": "Rich text",
       "settings": {
