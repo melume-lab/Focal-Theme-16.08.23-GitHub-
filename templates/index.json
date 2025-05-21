@@ -169,7 +169,7 @@
     "rich_text_bVPb4R": {
       "type": "rich-text",
       "custom_css": [
-        ".vertical-breather {padding: 20px;}",
+        ".vertical-breather {padding: 12px;}",
         "P {font-size: calc(7px + 0.5vw); letter-spacing: 1.2px;}"
       ],
       "name": "Rich text",
