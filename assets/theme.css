@@ -8639,7 +8639,7 @@ input:checked + .popover__choice-label::after,
 
 @media screen and (min-width: 741px) {
   .mini-cart__drawer-footer {
-    padding-bottom: var(--container-gutter);
+    padding-bottom: 28px/*var(--container-gutter)*/;
   }
 
   .mini-cart__discount {
