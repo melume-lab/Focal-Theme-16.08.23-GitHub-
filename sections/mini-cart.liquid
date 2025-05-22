@@ -25,7 +25,6 @@
   }
   .custom-announcement-bar {
     background: black;
-    margin-top: 12px;
     padding: 6px;
     text-align: center;
     z-index; 999;
@@ -380,6 +379,14 @@
           {%- endfor -%}
         </ul>
       {%- endif -%}
+  
+      <div class="heading 6" style="margin-bottom: 12px;">
+        <span style="display: flex; justify-content: space-between; width: 100%;">
+          <span>{{ 'cart.general.total' | t }}:</span>
+          <span>{{ cart.total_price | money_with_currency }}</span>
+        </span>
+      </div>
+
 
       {%- if section.settings.show_order_note or shipping_tax_note != '' -%}
         <div class="mini-cart__actions text--subdued text--xsmall">
@@ -418,11 +425,36 @@
       {%- endif -%}
     </footer>
 
-    {%- comment -%}
-    <div class="custom-announcement-bar">
-      <p style="color: white">1 luxury sample & 2 sachets to every order</p>
-    </div>
-    {%- endcomment -%}
+    <announcement-bar>
+        {%- if section.blocks.size > 0 -%}
+          <section>
+            <announcement-bar
+              class="custom-announcement-bar announcement-bar {% if section.blocks.size > 1 %}announcement-bar--multiple{% endif %}"
+              {% if section.blocks.size > 1 %}auto-play cycle-speed="{{ section.settings.cycle_speed | escape }}"{% endif %}
+            >
+              <div class="announcement-bar__list">
+                {%- for block in section.blocks -%}
+                  <announcement-bar-item
+                    class="announcement-bar__item"
+                    {% unless forloop.first %}hidden{% endunless %}
+                    {{ block.shopify_attributes }}
+                  >
+                    <p class="announcement-bar__message"  style="color: white;">
+                      {{ block.settings.text | escape }}
+                      {%- if block.settings.button_text != blank -%}
+                        <a class="link" href="{{ block.settings.button_link }}" style="color: white; margin-left: 8px;">
+                          {{ block.settings.button_text | escape }}
+                        </a>
+                      {%- endif -%}
+                    </p>
+                  </announcement-bar-item>
+                {%- endfor -%}
+              </div>
+            </announcement-bar>
+          </section>
+        {%- endif -%}
+    </announcement-bar>
+    
   
   {%- endif -%}
 
@@ -481,10 +513,57 @@
       "default": "You may also like"
     },
     {
-     "type": "text",
+      "type": "text",
       "id": "closebutton",
       "label": "Close Button Text",
       "default": "Continue Shopping"
+    },
+    {
+      "type": "header",
+      "content": "Announcement Bar",
+      "info": "Announcement Cicle Speed"
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "sec",
+      "label": "Change message every",
+      "default": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Announcement",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Announcement text",
+          "default": "Free shipping on all orders"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text",
+          "default": "Learn more"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 5,
+  "presets": [
+    {
+      "name": "Cart drawer with announcements",
+      "category": "Cart"
     }
   ]
 }
