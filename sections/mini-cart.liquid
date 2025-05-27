@@ -115,203 +115,190 @@
         {%- endif -%}
       {%- endif -%}
 
-      <form id="mini-cart-form" action="{{ routes.cart_url }}" novalidate method="post">
-        <input type="hidden" name="checkout">
+<form id="mini-cart-form" action="{{ routes.cart_url }}" novalidate method="post">
+  <input type="hidden" name="checkout">
 
-        {%- for line_item in cart.items -%}
-          {%- assign hide_quantity_selector = false -%}
-          {%- assign disable_link = false -%}
-        
-          {%- for tag in line_item.product.tags -%}
-            {%- if tag == 'no-quantity' -%}
-              {%- assign hide_quantity_selector = true -%}
-            {%- elsif tag == 'no-link' -%}
-              {%- assign disable_link = true -%}
-            {%- endif -%}
-          {%- endfor -%}
-        
-          <line-item class="line-item">
-            <div class="line-item__content-wrapper">
-              {%- if disable_link -%}
-                <span class="line-item__image-wrapper disabled-link" tabindex="-1" aria-hidden="true">
-                  <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
-                </span>
-              {%- else -%}
-                <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
-                  <span class="line-item__loader" hidden>
-                    <span class="line-item__loader-spinner spinner" hidden>{% render 'icon' with 'spinner', width: 16, height: 16, stroke_width: 6 %}</span>
-                    <span class="line-item__loader-mark" hidden>{% render 'icon' with 'check', width: 20, height: 20 %}</span>
-                  </span>
-        
-                  <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
-                </a>
-              {%- endif -%}
+  {%- for line_item in cart.items -%}
+    {%- assign isFreeSample = false -%}
+    {%- assign isFreeSachet = false -%}
 
-              {%- capture unit_price -%}
-                {%- if line_item.unit_price_measurement -%}
-                  <div class="price text--subdued">
-                    <div class="unit-price-measurement">
-                      <span class="unit-price-measurement__price">{{ line_item.unit_price | money }}</span>
-                      <span class="unit-price-measurement__separator">/</span>
+    {%- for tag in line_item.product.tags -%}
+      {%- if tag == 'free-sample' -%}
+        {%- assign isFreeSample = true -%}
+      {%- elsif tag == 'free-sachet' -%}
+        {%- assign isFreeSachet = true -%}
+      {%- endif -%}
+    {%- endfor -%}
 
-                      {%- if line_item.unit_price_measurement.reference_value != 1 -%}
-                        <span class="unit-price-measurement__reference-value">{{ line_item.unit_price_measurement.reference_value }}</span>
-                      {%- endif -%}
+    {%- unless isFreeSample or isFreeSachet -%}
+      {%- assign hide_quantity_selector = false -%}
+      {%- assign disable_link = false -%}
 
-                      <span class="unit-price-measurement__reference-unit">{{ line_item.unit_price_measurement.reference_unit }}</span>
-                    </div>
-                  </div>
-                {%- endif -%}
-              {%- endcapture -%}
+      {%- for tag in line_item.product.tags -%}
+        {%- if tag == 'no-quantity' -%}
+          {%- assign hide_quantity_selector = true -%}
+        {%- elsif tag == 'no-link' -%}
+          {%- assign disable_link = true -%}
+        {%- endif -%}
+      {%- endfor -%}
 
-              {%- capture line_price -%}
-                {%- comment -%}
-                IMPLEMENTATION NOTE: The designer wanted to show the "compare at price" on cart. In case an automatic discount is applied
-                  to a line item though, the "real" discount takes precedence over the compare at price
-                {%- endcomment -%}
+      <line-item class="line-item">
+        <div class="line-item__content-wrapper">
+          {%- if disable_link -%}
+            <span class="line-item__image-wrapper disabled-link" tabindex="-1" aria-hidden="true">
+              <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
+            </span>
+          {%- else -%}
+            <a href="{{ line_item.url }}" class="line-item__image-wrapper" tabindex="-1" aria-hidden="true">
+              <span class="line-item__loader" hidden>
+                <span class="line-item__loader-spinner spinner" hidden>{% render 'icon' with 'spinner', width: 16, height: 16, stroke_width: 6 %}</span>
+                <span class="line-item__loader-mark" hidden>{% render 'icon' with 'check', width: 20, height: 20 %}</span>
+              </span>
+              <img class="line-item__image" loading="sizes" sizes="(max-width: 740px) 80px, 92px" {% render 'image-attributes', image: line_item.image, sizes: '80,92,160,184,240,276' %}>
+            </a>
+          {%- endif -%}
 
-                <span class="price {% if line_item.original_line_price > line_item.final_line_price or line_item.final_line_price == 0 or line_item.variant.compare_at_price > line_item.variant.price %}price--highlight{% endif %}">
-                  <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
-
-                  {%- if line_item.final_line_price == 0 -%}
-                    {{- 'cart.general.free' | t -}}
-                  {%- else -%}
-                    {{- line_item.final_line_price | money -}}
+          {%- capture unit_price -%}
+            {%- if line_item.unit_price_measurement -%}
+              <div class="price text--subdued">
+                <div class="unit-price-measurement">
+                  <span class="unit-price-measurement__price">{{ line_item.unit_price | money }}</span>
+                  <span class="unit-price-measurement__separator">/</span>
+                  {%- if line_item.unit_price_measurement.reference_value != 1 -%}
+                    <span class="unit-price-measurement__reference-value">{{ line_item.unit_price_measurement.reference_value }}</span>
                   {%- endif -%}
-                </span>
-
-                {%- if line_item.original_line_price > line_item.final_line_price or line_item.variant.compare_at_price > line_item.variant.price -%}
-                  <span class="price price--compare">
-                    <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
-
-                    {%- if line_item.original_line_price > line_item.final_line_price -%}
-                      {{- line_item.original_line_price | money -}}
-                    {%- else -%}
-                      {{- line_item.variant.compare_at_price | times: line_item.quantity | money -}}
-                    {%- endif -%}
-                  </span>
-                {%- endif -%}
-              {%- endcapture -%}
-
-              <div class="line-item__info">
-                <div class="product-item-meta">
-                  {%- if settings.show_vendor -%}
-                    {%- assign vendor_handle = line_item.vendor | handle -%}
-                    {%- assign collection_for_vendor = collections[vendor_handle] -%}
-
-                    {%- unless collection_for_vendor.empty? -%}
-                      <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ collection_for_vendor.url }}">{{ line_item.vendor }}</a>
-                      {%- else -%}
-                      <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ line_item.vendor | url_for_vendor }}">{{ line_item.vendor }}</a>
-                    {%- endunless -%}
-                  {%- endif -%}
-
-                  <a href="{{ line_item.url }}" class="product-item-meta__title text--small">{{ line_item.product.title }}</a>
-
-                  {%- capture line_item_properties -%}
-                    {%- unless line_item.product.has_only_default_variant -%}
-                      <span class="product-item-meta__property text--subdued text--xsmall">{{ line_item.variant.title }}</span>
-                    {%- endunless -%}
-
-                    {%- if line_item.selling_plan_allocation -%}
-                      <span class="product-item-meta__property text--subdued text--xsmall">{{ line_item.selling_plan_allocation.selling_plan.name }}</span>
-                    {%- endif -%}
-
-                    {%- unless line_item.properties == blank -%}
-                      <ul class="product-item-meta__property list--unstyled text--subdued text--xsmall" role="list">
-                        {%- for property in line_item.properties -%}
-                          {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
-
-                          {%- if property.last == blank or first_character_in_key == '_' -%}
-                            {%- continue -%}
-                          {%- endif -%}
-
-                          <li>{{ property.first }}: {{ property.last }}</li>
-                        {%- endfor -%}
-                      </ul>
-                    {%- endunless -%}
-                  {%- endcapture -%}
-
-                  {%- if line_item_properties != blank -%}
-                    <div class="product-item-meta__property-list">
-                      {{- line_item_properties -}}
-                    </div>
-                  {%- endif -%}
-
-                  <div class="product-item-meta__price-list-container text--small">
-                    <div class="price-list hidden-tablet-and-up">
-                      {{- line_price -}}
-                      {{- unit_price -}}
-                    </div>
-
-                    {%- if unit_price != blank -%}
-                      <div class="price-list hidden-phone">
-                        {{- unit_price -}}
-                      </div>
-                    {%- endif -%}
-                  </div>
+                  <span class="unit-price-measurement__reference-unit">{{ line_item.unit_price_measurement.reference_unit }}</span>
                 </div>
+              </div>
+            {%- endif -%}
+          {%- endcapture -%}
 
-                {%- if line_item.line_level_discount_allocations != blank -%}
-                  <ul class="line-item__discount-list list--unstyled" role="list">
-                    {%- for discount_allocation in line_item.line_level_discount_allocations -%}
-                      <li class="line-item__discount-badge discount-badge">
-                        {%- render 'icon' with 'discount-badge' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
-                      </li>
+          {%- capture line_price -%}
+            <span class="price {% if line_item.original_line_price > line_item.final_line_price or line_item.final_line_price == 0 or line_item.variant.compare_at_price > line_item.variant.price %}price--highlight{% endif %}">
+              <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
+              {%- if line_item.final_line_price == 0 -%}
+                {{- 'cart.general.free' | t -}}
+              {%- else -%}
+                {{- line_item.final_line_price | money -}}
+              {%- endif -%}
+            </span>
+            {%- if line_item.original_line_price > line_item.final_line_price or line_item.variant.compare_at_price > line_item.variant.price -%}
+              <span class="price price--compare">
+                <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+                {%- if line_item.original_line_price > line_item.final_line_price -%}
+                  {{- line_item.original_line_price | money -}}
+                {%- else -%}
+                  {{- line_item.variant.compare_at_price | times: line_item.quantity | money -}}
+                {%- endif -%}
+              </span>
+            {%- endif -%}
+          {%- endcapture -%}
+
+          <div class="line-item__info">
+            <div class="product-item-meta">
+              {%- if settings.show_vendor -%}
+                {%- assign vendor_handle = line_item.vendor | handle -%}
+                {%- assign collection_for_vendor = collections[vendor_handle] -%}
+                {%- unless collection_for_vendor.empty? -%}
+                  <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ collection_for_vendor.url }}">{{ line_item.vendor }}</a>
+                {%- else -%}
+                  <a class="product-item-meta__vendor heading heading--xxsmall" href="{{ line_item.vendor | url_for_vendor }}">{{ line_item.vendor }}</a>
+                {%- endunless -%}
+              {%- endif -%}
+              <a href="{{ line_item.url }}" class="product-item-meta__title text--small">{{ line_item.product.title }}</a>
+
+              {%- capture line_item_properties -%}
+                {%- unless line_item.product.has_only_default_variant -%}
+                  <span class="product-item-meta__property text--subdued text--xsmall">{{ line_item.variant.title }}</span>
+                {%- endunless -%}
+                {%- if line_item.selling_plan_allocation -%}
+                  <span class="product-item-meta__property text--subdued text--xsmall">{{ line_item.selling_plan_allocation.selling_plan.name }}</span>
+                {%- endif -%}
+                {%- unless line_item.properties == blank -%}
+                  <ul class="product-item-meta__property list--unstyled text--subdued text--xsmall" role="list">
+                    {%- for property in line_item.properties -%}
+                      {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
+                      {%- if property.last == blank or first_character_in_key == '_' -%}
+                        {%- continue -%}
+                      {%- endif -%}
+                      <li>{{ property.first }}: {{ property.last }}</li>
                     {%- endfor -%}
                   </ul>
-                {%- endif -%}
-
-                {%- assign max_allowed_quantity = '' -%}
-                {%- assign allow_more = true -%}
-
-                {%- if line_item.variant.inventory_management == 'shopify' and line_item.variant.inventory_policy == 'deny' and line_item.variant.inventory_quantity <= line_item.quantity -%}
-                  {%- assign max_allowed_quantity = line_item.variant.inventory_quantity -%}
-                  {%- assign allow_more = false -%}
-                {%- endif -%}
-
-                {%- unless hide_quantity_selector -%}
-                  <line-item-quantity class="line-item__quantity">
-                    <div class="quantity-selector quantity-selector--small">
-                      <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | minus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.decrease_quantity' | t | escape }}" data-no-instant>
-                        {%- render 'icon' with 'minus' -%}
-                      </a>
-          
-                      <input is="input-number" class="quantity-selector__input text--xsmall" autocomplete="off" type="text" inputmode="numeric" name="updates[]" data-line="{{ forloop.index }}" value="{{ line_item.quantity }}" {% if max_allowed_quantity != '' %}max="{{ max_allowed_quantity }}"{% endif %} size="{{ line_item.quantity | append: '' | size | at_least: 2 }}" aria-label="{{ 'cart.general.change_quantity' | t | escape }}">
-          
-                      {%- if allow_more -%}
-                        <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | plus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.increase_quantity' | t | escape }}" data-no-instant>
-                          {%- render 'icon' with 'plus' -%}
-                        </a>
-                      {%- else -%}
-                        <span class="quantity-selector__button" aria-label="{{ 'cart.general.no_more_stock' | t | escape }}" data-tooltip="{{ 'cart.general.no_more_stock' | t | escape }}">
-                          {%- render 'icon' with 'plus' -%}
-                        </span>
-                      {%- endif -%}
-                    </div>
-          
-                    <a href="{{ line_item.url_to_remove }}" class="line-item__remove-button link text--subdued text--xxsmall" data-no-instant>{{ 'cart.general.remove' | t }}</a>
-                  </line-item-quantity>
                 {%- endunless -%}
-              </div>
+              {%- endcapture -%}
 
-              <div class="line-item__price-list-container text--small hidden-phone">
-                {%- if settings.show_vendor -%}
-                  {%- comment -%}
-                    IMPLEMENTATION NOTE: in the design, the price is aligned in regards of the product title (not the brand). It was a
-                    bit hard to do as we cannot set a fixed margin, so I am actually adding an empty vendor to simulate the same height
-                  {%- endcomment -%}
-                  <span class="product-item-meta__vendor heading heading--xxsmall" style="visibility: hidden">x</span>
-                {%- endif -%}
-
-                <div class="price-list price-list--stack">
-                  {{- line_price -}}
+              {%- if line_item_properties != blank -%}
+                <div class="product-item-meta__property-list">
+                  {{- line_item_properties -}}
                 </div>
+              {%- endif -%}
+
+              <div class="product-item-meta__price-list-container text--small">
+                <div class="price-list hidden-tablet-and-up">
+                  {{- line_price -}}
+                  {{- unit_price -}}
+                </div>
+                {%- if unit_price != blank -%}
+                  <div class="price-list hidden-phone">
+                    {{- unit_price -}}
+                  </div>
+                {%- endif -%}
               </div>
             </div>
-          </line-item>
-        {%- endfor -%}
-      </form>
+
+            {%- if line_item.line_level_discount_allocations != blank -%}
+              <ul class="line-item__discount-list list--unstyled" role="list">
+                {%- for discount_allocation in line_item.line_level_discount_allocations -%}
+                  <li class="line-item__discount-badge discount-badge">
+                    {%- render 'icon' with 'discount-badge' -%}{{ discount_allocation.discount_application.title }} (-{{ discount_allocation.amount | money }})
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+
+            {%- assign max_allowed_quantity = '' -%}
+            {%- assign allow_more = true -%}
+            {%- if line_item.variant.inventory_management == 'shopify' and line_item.variant.inventory_policy == 'deny' and line_item.variant.inventory_quantity <= line_item.quantity -%}
+              {%- assign max_allowed_quantity = line_item.variant.inventory_quantity -%}
+              {%- assign allow_more = false -%}
+            {%- endif -%}
+
+            {%- unless hide_quantity_selector -%}
+              <line-item-quantity class="line-item__quantity">
+                <div class="quantity-selector quantity-selector--small">
+                  <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | minus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.decrease_quantity' | t | escape }}" data-no-instant>
+                    {%- render 'icon' with 'minus' -%}
+                  </a>
+                  <input is="input-number" class="quantity-selector__input text--xsmall" autocomplete="off" type="text" inputmode="numeric" name="updates[]" data-line="{{ forloop.index }}" value="{{ line_item.quantity }}" {% if max_allowed_quantity != '' %}max="{{ max_allowed_quantity }}"{% endif %} size="{{ line_item.quantity | append: '' | size | at_least: 2 }}" aria-label="{{ 'cart.general.change_quantity' | t | escape }}">
+                  {%- if allow_more -%}
+                    <a href="{{ routes.cart_change_url }}?quantity={{ line_item.quantity | plus: 1 }}&line={{ forloop.index }}" class="quantity-selector__button" aria-label="{{ 'cart.general.increase_quantity' | t | escape }}" data-no-instant>
+                      {%- render 'icon' with 'plus' -%}
+                    </a>
+                  {%- else -%}
+                    <span class="quantity-selector__button" aria-label="{{ 'cart.general.no_more_stock' | t | escape }}" data-tooltip="{{ 'cart.general.no_more_stock' | t | escape }}">
+                      {%- render 'icon' with 'plus' -%}
+                    </span>
+                  {%- endif -%}
+                </div>
+                <a href="{{ line_item.url_to_remove }}" class="line-item__remove-button link text--subdued text--xxsmall" data-no-instant>{{ 'cart.general.remove' | t }}</a>
+              </line-item-quantity>
+            {%- endunless -%}
+          </div>
+
+          <div class="line-item__price-list-container text--small hidden-phone">
+            {%- if settings.show_vendor -%}
+              <span class="product-item-meta__vendor heading heading--xxsmall" style="visibility: hidden">x</span>
+            {%- endif -%}
+            <div class="price-list price-list--stack">
+              {{- line_price -}}
+            </div>
+          </div>
+        </div>
+      </line-item>
+    {%- endunless -%}
+  {%- endfor -%}
+</form>
+
 
       {%- if section.settings.show_recommendations -%}
         <cart-drawer-recommendations section-id="{{ section.id }}" product-id="{{ cart.items.first.product_id }}" class="mini-cart__recommendations">
