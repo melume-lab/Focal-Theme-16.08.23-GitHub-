@@ -110,21 +110,32 @@
                 </tr>
               </thead>
 
-            <tbody class="line-item-table__list">
-              {%- for line_item in cart.items -%}
-                {% unless excluded_product_titles contains line_item.product.title %}
-                  {% assign hide_quantity_selector = false %}
+              <tbody class="line-item-table__list">
+                {%- for line_item in cart.items -%}
+                  {% assign isFreeSample = false %}
+                  {% assign isFreeSachet = false %}
+              
                   {% for tag in line_item.product.tags %}
-                    {% if tag == 'no-quantity' %}
-                      {% assign hide_quantity_selector = true %}
+                    {% if tag == 'free-sample' %}
+                      {% assign isFreeSample = true %}
+                    {% elsif tag == 'free-sachet' %}
+                      {% assign isFreeSachet = true %}
                     {% endif %}
                   {% endfor %}
-                  {% assign disable_link = false %}
-                  {% for tag in line_item.product.tags %}
-                    {% if tag == 'no-link' %}
-                      {% assign disable_link = true %}
-                    {% endif %}
-                  {% endfor %}
+              
+                  {% unless isFreeSample or isFreeSachet %}
+                    {% assign hide_quantity_selector = false %}
+                    {% for tag in line_item.product.tags %}
+                      {% if tag == 'no-quantity' %}
+                        {% assign hide_quantity_selector = true %}
+                      {% endif %}
+                    {% endfor %}
+                    {% assign disable_link = false %}
+                    {% for tag in line_item.product.tags %}
+                      {% if tag == 'no-link' %}
+                        {% assign disable_link = true %}
+                      {% endif %}
+                    {% endfor %}
                   <tr class="line-item {% if hide_quantity_selector %}no-quantity{% endif %}">
                     <td class="line-item__product">
                       <div class="line-item__content-wrapper">
