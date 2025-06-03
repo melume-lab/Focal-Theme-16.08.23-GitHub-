@@ -37,7 +37,7 @@
           "type": "question",
           "settings": {
             "title": "What do I do if I have forgotten my password?",
-            "answer": "<p>If you forget your password, click on \"Forgot Password\" in the login details. Enter your email address and click on \"Recover Password.\" Once you receive the subsequent email, go to \"Reset Your Password.\" Then, you can enter and confirm your new password.</p>"
+            "answer": "<p>If you forget your password, click 'Forgot Password' on the login page. Enter your email address and select 'Recover Password.' Check your email for a password reset link, click on it, and then set and confirm your new password.</p>"
           }
         },
         "3b47a467-47ae-4f56-a46f-05d1476eb204": {
@@ -51,14 +51,14 @@
           "type": "question",
           "settings": {
             "title": "What happens to my data?",
-            "answer": "<p>In the collection and processing of personal data, we limit the collected information to the amount necessary for the purpose. Personal data is handled with the utmost care and is retained no longer than necessary. In dealing with personal data, we adhere to the laws set out in the GDPR.<br/>More information can be found <a href=\"/pages/privacy-police\" title=\"Privacy Policy\">here</a>.</p>"
+            "answer": "<p>When collecting and processing personal data, we only gather what is essential for the intended purpose. We handle all personal information with the highest level of care and retain it only as long as necessary. Our practices comply fully with GDPR regulations. For more details, please visit our <a href=\"/pages/privacy-police\" title=\"Privacy Policy\">Privacy Policy</a>.</p>"
           }
         },
         "cd3072af-87eb-4403-92e5-d9a4d7552cf1": {
           "type": "question",
           "settings": {
             "title": "How do I delete my customer account?",
-            "answer": "<p>If you wish to remove your account, please contact our support through the <a href=\"/pages/contact\" title=\"Contact\">contact form</a>.<br/>We will assess whether legal requirements may demand further retention of your data.</p>"
+            "answer": "<p>If you wish to delete your account, please reach out to our support team via the <a href=\"/pages/contact-form\" title=\"Contact Form\">contact form</a>. We will review your request and determine if any legal obligations require us to retain your data.\"</p>"
           }
         },
         "442488ee-3dd9-4542-9d03-ac810d4d2adf": {
@@ -71,28 +71,28 @@
           "type": "question",
           "settings": {
             "title": "What payment methods do you accept?",
-            "answer": "<p>We accept credit card payment, PayPal, Klarna (only in the EU store). You can only pay for your subscription with PayPal.  <br/>With Klarna you can pay later - without interest or fees. <br/>For more information, we recommend that you contact Klarna directly.</p>"
+            "answer": "<p>We accept payments via credit card, PayPal, and Klarna (available only in the EU store), Google Pay, Apple Pay and Shop Pay. Subscriptions can be paid for exclusively through PayPal. Klarna offers the option to pay later, with no interest or fees (for more details, we recommend contacting Klarna directly).</p>"
           }
         },
         "dbe5bd63-662a-453d-8031-09adb78dfeb8": {
           "type": "question",
           "settings": {
             "title": "What can I do if there is an error message during the payment process?",
-            "answer": "<p>If you get an error message, please try the following:</p><ul><li>Contact your bank to make sure there are sufficient funds in your account.</li><li>Make sure you have entered your credit card CVV and billing information correctly</li><li>Check that your billing name, address and phone number match those of the credit card you used to pay.</li></ul><p>If the problem persists, please call our Customer Care Team on 0800 808 18 28.</p>"
+            "answer": "<p>If you encounter an error message, please try the following steps:</p><ul><li>Check your account balance online or contact your bank to ensure there are sufficient funds.</li><li>Verify that your credit card CVV and billing information are entered correctly.</li><li>Confirm that your billing name, address, and phone number match those associated with the credit card used for payment.<br/></li></ul><p>If the issue persists, please contact our Customer Care Team at 0800 808 18 28.</p>"
           }
         },
         "a692e0db-2705-4415-a9df-c784d0a0eb2c": {
           "type": "question",
           "settings": {
             "title": "How can I redeem a voucher?",
-            "answer": "<p>Simply enter the discount code in the \"Discount code\" field when checking out - before paying. Please note that the code is case-sensitive. Then click on \"Apply\" and the code will be activated.</p>"
+            "answer": "<p>Simply enter the discount code in the 'Discount code' field during checkout, before proceeding to payment. Please note that the code is case-sensitive. Click 'Apply' to activate the code</p>"
           }
         },
         "8ecdd268-8df8-48fe-8d58-4327fdb9dd6f": {
           "type": "question",
           "settings": {
             "title": "Can discount codes be refunded?",
-            "answer": "<p>Promotional codes are treated as discounts. The discounted amount will not be reimbursed upon processing your return or exchange. Refunds will not include the application of promotional codes or discounts.</p>"
+            "answer": "<p>Promotional codes are treated as discounts. Please note that the discounted amount will not be refunded when processing returns or exchanges. Refunds will not include any amounts deducted by promotional codes or discounts.</p>"
           }
         },
         "2e22838d-fa89-4605-8036-5fa60d987216": {
@@ -105,7 +105,7 @@
           "type": "question",
           "settings": {
             "title": "Where can I see the status of my order?",
-            "answer": "<p>You can view the status online at any time. To do this, log in to your account. Or check your order confirmation email. There you will receive a tracking link to track the shipment during delivery.</p>"
+            "answer": "<p>You can check the status of your order online at any time by logging into your account. Alternatively, refer to your order confirmation email, which includes a tracking link to monitor the shipment during delivery.</p>"
           }
         },
         "44a0f261-b4ba-49e7-9633-b6431f66f3d2": {
@@ -115,11 +115,18 @@
             "answer": "<p>We currently ship to most European countries and the USA: </p><ul><li>Andorra</li><li>Austria</li><li>Belgium</li><li>Bulgaria</li><li>Croatia</li><li>Cyprus</li><li>Czech Republic</li><li>Denmark</li><li>Estonia</li><li>Finland</li><li>France</li><li>Germany</li><li>Greece</li><li>Hungary</li><li>Ireland</li><li>Italy</li><li>Latvia</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Malta</li><li>Monaco</li><li>Netherlands</li><li>Norway</li><li>Poland</li><li>Portugal</li><li>Romania</li><li>San Marino</li><li>Slovakia</li><li>Slovenia</li><li>Spain</li><li>Sweden</li><li>Switzerland</li><li>United Kingdom</li><li>United States</li></ul>"
           }
         },
+        "question_Mrkp3Y": {
+          "type": "question",
+          "settings": {
+            "title": "What are your shipping costs?",
+            "answer": "<p>Shipping costs are determined by the parcel weight and vary based on the destination country. These costs are calculated and displayed during checkout.</p>"
+          }
+        },
         "cdc32382-f207-43be-a357-eba25f63071b": {
           "type": "question",
           "settings": {
             "title": "How long does shipping take?",
-            "answer": "<p>Depending on the destination country, it takes between 2 and 10 days to ship our goods: </p><ul><li>Germany 2-3 business days</li><li>Belgium 3-5 business days</li><li>Netherlands 3-5 business days</li><li>Luxembourg 3-5 business days</li><li>Denmark 3-5 business days</li><li>Czech Republic 3-5 business days</li><li>France 3-5 business days</li><li>Monaco 3-5 business days</li><li>Austria 3-5 business days</li><li>Poland 3-5 business days</li><li>Liechtenstein 3-5 business days</li><li>Switzerland 3-5 business days</li><li>Andorra 4-7 business days</li><li>Sweden 3-5 business days</li><li>Italy 3-5 business days</li><li>Spain 4-5 business days</li><li>San Marino 5-8 business days</li><li>Slovakia 3-5  business days</li><li>Slovenia 3-5  business days</li><li>Hungary 3-5  business days</li><li>Great Britain 3-5 business days</li><li>Finland 4-5  business days</li><li>Greece 6-8 business days</li><li>Ireland 3-5 business days</li><li>Portugal 4-5 business days</li><li>Croatia 3-5 business days</li><li>Estonia 4-6 business days</li><li>Latvia 3-5 business days</li><li>Lithuania 4-5 business days</li><li>Bulgaria 3-5 business days</li><li>Romania 3-5 business days</li><li>Norway 4-5 business days</li><li>USA 8-10 business days</li></ul>"
+            "answer": "<p>Depending on the destination country, it can take between 2 and 10 workdays to ship our goods:</p><p><strong>2-3 Workdays</strong></p><ul><li>Austria</li><li>Germany</li><li>Belgium</li><li>Luxumbourg</li><li>Croatia</li><li>Netherlands</li><li>Czech Rep.</li><li>Switzerland</li><li>Workdays</li><li>Denmark</li><li>Slovakia</li><li>France</li><li>Poland</li></ul><p><br/><strong>3-5 Workdays</strong></p><ul><li>Bulgaria</li><li>Lithuania</li><li>Finland</li><li>Norway</li><li>Great Britain</li><li>Portugal</li><li>Hungary</li><li>Romania</li><li>Workdays</li><li>Italy</li><li>Spain</li><li>Ireland</li><li>Slovenia</li><li>Latvia</li><li>Sweden</li></ul><p><br/><strong>5-8 Workdays</strong></p><ul><li>Estonia</li><li>Greece</li></ul><p><br/><strong>8-10 Workdays</strong></p><ul><li>USA</li></ul>"
           }
         },
         "4fdf26de-a1a4-4be6-a5c2-93e608ae397b": {
@@ -133,7 +140,7 @@
           "type": "question",
           "settings": {
             "title": "How can I edit my shipping address?",
-            "answer": "<p>If you'd like to modify your order, please reach out to us promptly through our Contact Form or send an email, including your order number.</p>"
+            "answer": "<p>If you need to update your delivery address, please contact us as soon as possible using our <a href=\"/pages/contact-form\" title=\"Contact Form\">Contact Form</a> or by <a href=\"/pages/contact\" title=\"Contact\">email</a>. Be sure to include your order number for faster assistance.</p>"
           }
         },
         "ae7dc467-9bd5-4313-8b74-7a5b95be20fe": {
@@ -153,21 +160,21 @@
           "type": "question",
           "settings": {
             "title": "Can I return the products to you?",
-            "answer": "<p>Yes, you can. Any item can be returned 30 days after ordering. However, please avoid damaging or contaminating the goods. The goods must be returned to us unopened and in their original packaging with all accessories. If you have any questions about your return, please contact us on 0800 808 18 28 so that we can check the status of your return. In the event of allergies or other reactions, please also contact us on 0800 808 18 28.</p>"
+            "answer": "<p>Yes, you can return any item within 30 days of your order.<br/>Please ensure that the products are unopened, unused, and returned in their original packaging with all included accessories. To help us process your return smoothly, we ask that the items are not damaged or contaminated.<br/><br/>If you have any questions about your return, would like to check its status, or are experiencing allergies or adverse reactions, please <a href=\"/pages/contact\" title=\"Contact\">Contact us</a>, so we can assist you promptly.</p>"
           }
         },
         "b5977d9e-2ca3-4707-b3e5-7a5574842bf4": {
           "type": "question",
           "settings": {
             "title": "Is the return process free of charge?",
-            "answer": "<p>Usually, there are no costs for the return. If you send us the goods by a method other than the standard delivery offered by us, you are obliged to bear the resulting additional costs.</p>"
+            "answer": "<p>The return of orders over 60€ in Germany and within the EU or $100 in the US are free of charge. However, if you choose a return shipping method other than the standard option we offer, you will be responsible for any additional costs incurred.</p>"
           }
         },
         "b690e479-0f4e-4e79-9c8f-eef384fab785": {
           "type": "question",
           "settings": {
             "title": "What should I do if I received the wrong product?",
-            "answer": "<p>Kindly email us within 48 hours of receiving your order so that we can assist you with this matter. Include your order number and attach a photo of the incorrect item(s) you received.</p>"
+            "answer": "<p>Please email us within 48 hours of receiving your order so we can assist you promptly. Be sure to include your order number and attach a photo of the incorrect item(s) received.</p>"
           }
         },
         "010248f5-071a-4621-8443-81a7a5850c1d": {
@@ -187,35 +194,35 @@
           "type": "question",
           "settings": {
             "title": "What language do you offer assistance in?",
-            "answer": "<p>We are always happy to assist you in English and also in German as this is the official language of our company.</p>"
+            "answer": "<p>We’re always happy to assist you in English or German, with German being the official language of our company.</p>"
           }
         },
         "abf397ac-66b0-48c4-9ccd-923f413b29f6": {
           "type": "question",
           "settings": {
             "title": "How can I contact you if I have an issue with my order?",
-            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options <a href=\"/pages/contact\" title=\"Contact\">here</a>.</p>"
+            "answer": "<p>You can reach us via WhatsApp, live chat, contact form, or our hotline. For full details on all contact options, please visit our <a href=\"/pages/contact\" title=\"Contact\">Contact Page</a>.</p>"
           }
         },
         "ccaf1d6d-bfa1-4086-bb93-465ed8ef9ae2": {
           "type": "question",
           "settings": {
             "title": "What should I do if I receive a defective or damaged product?",
-            "answer": "<p>If your goods arrive damaged, please contact us within 48 hours of receiving your order on 0800 808 18 28. Please have your order number ready.</p>"
+            "answer": "<p>If your goods arrived damaged please <a href=\"/pages/contact\" title=\"Contact\">Contact us</a> within 48h of receiving your order so we can assist you promptly. Please have your order number ready. </p>"
           }
         },
         "07bd8cb1-2f30-4213-be62-b5b25b97e295": {
           "type": "question",
           "settings": {
             "title": "Who should I contact for inquiries?",
-            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options <a href=\"/pages/contact\" title=\"Contact\">here</a>.</p>"
+            "answer": "<p>You can reach us via WhatsApp, live chat, contact form, or our hotline. For full details on all contact options, please visit our <a href=\"/pages/contact\" title=\"Contact\">Contact Page</a>.</p>"
           }
         },
         "87bc8cfa-d49d-46a2-994e-0761926191c2": {
           "type": "question",
           "settings": {
             "title": "Who can I reach out to for product advice",
-            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options <a href=\"/pages/contact\" title=\"Contact\">here</a>.</p>"
+            "answer": "<p>You can reach us via WhatsApp, live chat, contact form, or our hotline. For full details on all contact options, please visit our <a href=\"/pages/contact\" title=\"Contact\">Contact Page</a>.</p>"
           }
         },
         "db0d3697-cf29-4228-8863-3958a76e505b": {
@@ -235,14 +242,14 @@
           "type": "question",
           "settings": {
             "title": "What do I do if I experience problems with the website?",
-            "answer": "<p>You can contact us via What's App, chat, contact form or our hotline. You can find all information about the contact options <a href=\"/pages/contact\" title=\"Contact\">here</a>.</p>"
+            "answer": "<p>You can reach us via WhatsApp, live chat, contact form, or our hotline. For full details on all contact options, please visit our <a href=\"/pages/contact\" title=\"Contact\">Contact Page</a>.</p>"
           }
         },
         "a248e59b-809b-4b24-93ad-4f277080f2e1": {
           "type": "question",
           "settings": {
             "title": "How are cookies used on your site?",
-            "answer": "<p>We use cookies to temporarily collect information about your device. This means that we do not necessarily receive information about you personally. This does not harm your device. We use cookies to optimize our user-friendliness.<br/>You can find out more about this here (link: https://www.melume-skinscience.com/de/pages/privacy-police). You can change and revoke your cookie settings at any time. To do this, see your cookie settings in the footer of the website. </p>"
+            "answer": "<p>We use cookies to temporarily collect information about your device. This does not necessarily include any personal information and does not harm your device. Cookies help us enhance the user experience on our website.<br/><br/>You can learn more in our <a href=\"/pages/privacy-police\" title=\"Privacy Policy\">Privacy Policy.</a><br/>You can change or revoke your cookie settings at any time by accessing the Cookie Settings in the footer of our website.</p>"
           }
         },
         "f5f7a75e-4b42-4f15-957e-57b4cddd6b18": {
@@ -254,8 +261,8 @@
         "9debc400-607d-42f3-b011-76624da74979": {
           "type": "question",
           "settings": {
-            "title": "How can I receive 2 luxury samples?",
-            "answer": "<p>With every order you have the opportunity to select 2 luxury samples free of charge. After you have selected 2 samples, they will be added to your shopping cart. </p>"
+            "title": "How can I receive my 3 complimentary samples?",
+            "answer": "<p>With every order, you can choose one free luxury sample and two sample sachets. Simply select your preferred sample options during checkout, and they will be included with your order at no extra charge.</p>"
           }
         },
         "e1cab98a-c872-4766-8e1e-16c755b38417": {
@@ -316,6 +323,7 @@
         "2e22838d-fa89-4605-8036-5fa60d987216",
         "7d5147c9-efd0-40f2-9021-5d613b0fd886",
         "44a0f261-b4ba-49e7-9633-b6431f66f3d2",
+        "question_Mrkp3Y",
         "cdc32382-f207-43be-a357-eba25f63071b",
         "4fdf26de-a1a4-4be6-a5c2-93e608ae397b",
         "10ce301e-060d-46e4-b35e-b44f36bc3964",
@@ -396,14 +404,14 @@
           "type": "question",
           "settings": {
             "title": "Can I change or cancel my subscription at any time?",
-            "answer": "<p>Yes, you can change or pause your subscription at any time. We understand that flexibility is important, and we strive to make managing your subscription as easy as possible. Simply <a href=\"https://www.melume-skinscience.com/account/login\" title=\"https://www.melume-skinscience.com/account/login\">log in</a> to your account and navigate to the subscription settings to make any changes. You can cancel your subscription at any time after receiving at least two delivery cycles.</p>"
+            "answer": "<p>When you log in, you can manage, pause or cancel your Auto-Replenishment. Log in <a href=\"/account\" title=\"/account\">here</a> to access your account.<br/>Please remember: You can adjust/cancel your subscription at any time after receiving at least two delivery cycles.</p>"
           }
         },
         "fd026f32-5f94-44c2-8a6b-6759dedf93fe": {
           "type": "question",
           "settings": {
             "title": "Will I be charged for shipping on my subscription delivery?",
-            "answer": "<p>Your subscribed products will be delivered via free standard shipping.</p>"
+            "answer": "<p>Our standard shipping costs apply for orders below €60/$100. </p>"
           }
         },
         "dfce7ec4-e7cc-4c88-a263-d901ab5cd255": {
@@ -424,7 +432,7 @@
           "type": "question",
           "settings": {
             "title": "What if I want to cancel my subscription?",
-            "answer": "<p>If you wish to cancel your subscription, you can do so after receiving at least two delivery cycles. To cancel your subscription, <a href=\"https://www.melume-skinscience.com/account/login\" title=\"https://www.melume-skinscience.com/account/login\">log in</a> to your account, go to the subscription settings, and follow the instructions for cancellation. If you need any assistance, our customer support team is always here to help.</p>"
+            "answer": "<p>Have you changed your mind? Then log in <a href=\"/account\" title=\"/account\">here </a>to access your account and cancel your Auto-Replenishment.<br/>Please remember: You can adjust/cancel your subscription at any time after receiving at least two delivery cycles.</p>"
           }
         },
         "7c52a201-01b0-4edf-aa57-9be3a5d0e7e9": {
@@ -444,22 +452,28 @@
           "type": "question",
           "settings": {
             "title": "How do I participate and start earning points?",
-            "answer": "<p>Getting started is simple! Click the 'Join our skinclub' button. Once you've registered, you can earn points various ways. Visit the \"MEMBERSHIP\" section in your user account to begin enjoying the benefits of your accumulated points.</p>"
+            "answer": "<p>Getting started is simple! Click the 'JOIN OUR SKINCLUB' button. Once you've registered, you can earn points various ways. Visit the \"MEMBERSHIP\" section in your user account to begin enjoying the benefits of your accumulated points.</p>"
           }
         },
         "41f427a3-9964-48e4-a121-898e189781c9": {
           "type": "question",
           "settings": {
             "title": "How do I check my points balance?",
-            "answer": "<p>To view your point balance, click on the \"MEMBERSHIP\" section within your user account.</p>"
+            "answer": "<p>To check your points balance, click on the \"MEMBERSHIP\" section within your user account.</p>"
           }
         },
         "d526cd89-e960-465a-92da-b867cec17e5d": {
           "type": "question",
-          "disabled": true,
           "settings": {
-            "title": "How many points do I receive for what?",
-            "answer": "<p>Write content to help your customers to better understand your products or policies.</p>"
+            "title": "How can I earn points?",
+            "answer": "<p>Here are all the ways to collect points:</p><p></p><ul><li>Make a purchase<br/>You receive 5 points per euro spent.<br/></li><li>Create a customer account<br/>Receive 200 points<br/></li><li>Like us on Facebook<br/>Receive 50 points<br/></li><li>Follow us on Facebook <br/>Get 100 points<br/></li><li>Follow us on Instagram<br/>Get 100 points<br/></li><li>Follow us on TikTok<br/>Get 100 points</li></ul>"
+          }
+        },
+        "question_maDDet": {
+          "type": "question",
+          "settings": {
+            "title": "What are my points worth?",
+            "answer": "<p>This is how much discount you get for your points:</p><ul><li>500 points<br/>5 Euro discount     <br/> </li><li>1000 points<br/>10 Euro discount         <br/></li><li>2000 points<br/>20 Euro discount         <br/></li><li>3000 points<br/>30 Euro discount         <br/></li><li>4000 points<br/>40 Euro discount        <br/></li><li>5000 points<br/>50 Euro discount   </li></ul>"
           }
         },
         "316d92ac-4106-4a1f-9e48-e085d138795c": {
@@ -486,6 +500,7 @@
         "4bdf36b1-eb06-47d1-a72a-a863ecac396b",
         "41f427a3-9964-48e4-a121-898e189781c9",
         "d526cd89-e960-465a-92da-b867cec17e5d",
+        "question_maDDet",
         "316d92ac-4106-4a1f-9e48-e085d138795c"
       ],
       "custom_css": [
