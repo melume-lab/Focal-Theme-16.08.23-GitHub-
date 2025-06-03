@@ -198,7 +198,7 @@
       {%- endcomment -%}
       {%- when 'text' -%}
         {% if block.settings.text != blank %}
-          <div class="product-form__text" {{ block.shopify_attributes }} style="font-size: 13px;">
+          <div class="product-form__text" {{ block.shopify_attributes }} style="font-size: {{- block.settings.textsize -}}px;">
             {{- block.settings.text -}}
           </div>
         {%- endif -%}
