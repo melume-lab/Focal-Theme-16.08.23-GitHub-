@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (!document.querySelector('.buyer-consent-heading')) {
         const heading = document.createElement('h3');
         heading.className = 'buyer-consent-heading';
-        heading.innerHTML = '<strong>PLEASE NOTE:</strong>';
+        heading.innerHTML = '<strong>{{- 'cart.general.abo_note' | t -}}</strong>';
         checkoutButton.parentNode.insertBefore(heading, buyerConsent);
       }
     }
