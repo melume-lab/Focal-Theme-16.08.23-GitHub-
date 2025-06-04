@@ -54,29 +54,14 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  function moveConsentBlock() {
-    const buyerConsent = document.querySelector('#shopify-buyer-consent');
-    const checkoutButton = document.querySelector('button.cart__checkout-button');
+  var buyerConsent = document.querySelector('#shopify-buyer-consent');
+  var checkoutButton = document.querySelector('button.cart__checkout-button');
 
-    if (buyerConsent && checkoutButton) {
-      checkoutButton.parentNode.insertBefore(buyerConsent, checkoutButton);
-    }
+  if (buyerConsent && checkoutButton) {
+    checkoutButton.parentNode.insertBefore(buyerConsent, checkoutButton);
   }
-
-  const observer1 = new MutationObserver(() => {
-    moveConsentBlock();
-  });
-
-  observer1.observe(document.body, {
-    childList: true,
-    subtree: true,
-  });
-
-  moveConsentBlock();
 });
 </script>
-
-
 
 
 
@@ -750,46 +735,6 @@ document.addEventListener('DOMContentLoaded', function () {
                   
                   {%- endif -%}
                 {%- endif -%}
-
-                <script>
-document.addEventListener('DOMContentLoaded', function () {
-  function toggleConsentHeading() {
-    const buyerConsent = document.querySelector('#shopify-buyer-consent');
-    const checkoutButton = document.querySelector('button.cart__checkout-button');
-    let heading = document.querySelector('.buyer-consent-heading');
-
-    if (!buyerConsent || !checkoutButton) return;
-
-    const consentVisible = buyerConsent.offsetHeight > 0 && buyerConsent.innerText.trim().length > 0;
-
-    if (consentVisible) {
-      // Falls noch keine Überschrift da ist, füge sie hinzu
-      if (!heading) {
-        heading = document.createElement('h3');
-        heading.innerHTML = '<strong>PLEASE NOTE:</strong>';
-        heading.className = 'buyer-consent-heading';
-        checkoutButton.parentNode.insertBefore(heading, buyerConsent);
-      } else {
-        heading.style.display = 'block';
-      }
-    } else if (heading) {
-      heading.style.display = 'none';
-    }
-  }
-
-  const observer2 = new MutationObserver(() => {
-    toggleConsentHeading();
-  });
-
-  observer2.observe(document.body, {
-    childList: true,
-    subtree: true,
-  });
-
-  toggleConsentHeading();
-});
-</script>
-
               </form>
 
               {%- if section.settings.show_payment_methods and shop.enabled_payment_types.size > 0 -%}
