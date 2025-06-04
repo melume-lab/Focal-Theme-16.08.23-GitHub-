@@ -28,7 +28,44 @@
     text-decoration: none;
     color: inherit;
   }
+
+    .checkout-divider-with-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .checkout-divider-line {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0;
+  }
+  
+  .checkout-divider-text {
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+  }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var buyerConsent = document.querySelector('#shopify-buyer-consent');
+  var checkoutButton = document.querySelector('button.cart__checkout-button');
+
+  if (buyerConsent && checkoutButton) {
+    checkoutButton.parentNode.insertBefore(buyerConsent, checkoutButton);
+  }
+});
+</script>
+
+
+
+
 
 
 
@@ -659,6 +696,7 @@
                         </collapsible-content>
                       </div>
 
+                  {% comment %}
                     {%- when 'express_checkout_buttons' -%}
                       {%- if additional_checkout_buttons -%}
                         <div class="cart__recap-block" {{ block.shopify_attributes }}>
@@ -667,6 +705,7 @@
                           </div>
                         </div>
                       {%- endif -%}
+                  {% endcomment %}
 
                     {%- when '@app' -%}
                       <div class="cart__recap-block">
@@ -675,10 +714,27 @@
                   {%- endcase -%}
                 {%- endfor -%}
 
+                
                 <button type="submit" class="cart__checkout-button checkout-button button button--primary button--full" name="checkout">
                   <span class="checkout-button__lock">{%- render 'icon' with 'lock' -%}</span>
                   {{- 'cart.general.checkout' | t -}}
                 </button>
+
+                 {%- if 'express_checkout_buttons' -%}
+                  {%- if additional_checkout_buttons -%}
+                    <div class="checkout-divider-with-text">
+                      <hr class="checkout-divider-line">
+                      <span class="checkout-divider-text">Express Checkout</span>
+                      <hr class="checkout-divider-line">
+                    </div>
+                    <div class="cart__recap-block" {{ block.shopify_attributes }}>
+                      <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
+                        {{- content_for_additional_checkout_buttons -}}
+                      </div>
+                    </div>
+                  
+                  {%- endif -%}
+                {%- endif -%}
               </form>
 
               {%- if section.settings.show_payment_methods and shop.enabled_payment_types.size > 0 -%}
