@@ -868,24 +868,29 @@ document.addEventListener('DOMContentLoaded', function () {
     {%- endif -%}
 
     
-      {%- assign has_subscription = false -%}
-      {%- for item in cart.items -%}
-        {%- if item.selling_plan_allocation -%}
-          {%- assign has_subscription = true -%}
-        {%- endif -%}
-      {%- endfor -%}
-      
-      {%- if has_subscription and section.settings.popup-title != blank and section.settings.popup-content != blank -%}
-        <div id="subscription-popup-overlay" class="popup-overlay">
-          <div id="subscription-popup" class="subscription-popup">
-            <button class="popup-close" aria-label="Close popup">&times;</button>
-            <div class="subscription-popup-inner">
-              <h2>{{ section.settings.popup-title | escape }}</h2>
-              {{ section.settings.popup-content }}
-            </div>
-          </div>
-        </div>
-      {%- endif -%}
+{%- assign has_subscription = false -%}
+{%- for item in cart.items -%}
+  {%- if item.selling_plan_allocation -%}
+    {%- assign has_subscription = true -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if has_subscription and section.settings.popup-title != blank and section.settings.popup-content != blank -%}
+  <div id="subscription-popup-overlay" class="popup-overlay">
+    <div id="subscription-popup" class="subscription-popup">
+      <button class="popup-close" aria-label="Close popup">
+        <svg focusable="false" width="20" height="20" class="icon icon--close" viewBox="0 0 14 14">
+          <path d="M13 13L1 1M13 1L1 13" stroke="currentColor" stroke-width="1.5" fill="none"></path>
+        </svg>
+      </button>
+      <div class="subscription-popup-inner">
+        <h2>{{ section.settings.popup-title | escape }}</h2>
+        {{ section.settings.popup-content }}
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
 
 
   </div>
