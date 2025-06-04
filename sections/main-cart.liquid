@@ -864,31 +864,29 @@ document.addEventListener('DOMContentLoaded', function () {
             </safe-sticky>
           </div>
         </div>
-      </div>
-    
+      </div>    
     {%- endif -%}
-    {% assign has_subscription = false %}
-{% for item in cart.items %}
-  {% if item.selling_plan_allocation %}
-    {% assign has_subscription = true %}
-  {% endif %}
-{% endfor %}
 
-{% if has_subscription %}
-  <div id="subscription-popup-overlay" class="popup-overlay">
-    <div id="subscription-popup" class="subscription-popup">
-      <button class="popup-close" aria-label="Close popup">&times;</button>
-      <h2>PLEASE NOTE</h2>
-      <p>One or more of the items in your cart is a recurring or deferred purchase:</p>
-      <ul>
-        <li>You can pause or cancel the delivery and change the frequency from the third delivery.</li>
-        <li>You can cancel your subscription at any time after receiving at least two delivery cycles.</li>
-        <li>You determine your delivery times.</li>
-        <li>You will be notified before each delivery.</li>
-      </ul>
-    </div>
-  </div>
-{% endif %}
+    
+      {%- assign has_subscription = false -%}
+      {%- for item in cart.items -%}
+        {%- if item.selling_plan_allocation -%}
+          {%- assign has_subscription = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+      
+      {%- if has_subscription and section.settings.popup-title != blank and section.settings.popup-content != blank -%}
+        <div id="subscription-popup-overlay" class="popup-overlay">
+          <div id="subscription-popup" class="subscription-popup">
+            <button class="popup-close" aria-label="Close popup">&times;</button>
+            <div class="subscription-popup-inner">
+              <h2>{{ section.settings.popup-title | escape }}</h2>
+              {{ section.settings.popup-content }}
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
+
 
   </div>
 </section>
@@ -955,6 +953,18 @@ document.addEventListener('DOMContentLoaded', function () {
       "id": "empty_button_link",
       "label": "Empty button link",
       "default": "/collections/all"
+    },
+    {
+      "type": "text",
+      "id": "popup-title",
+      "label": "Popup Heading",
+      "default": "PLEASE NOTE"
+    },
+    {
+      "type": "richtext",
+      "id": "popup-content",
+      "label": "Popup Content",
+      "default": "<p>One or more of the items in your cart is a recurring or deferred purchase:</p><ul><li>You can pause or cancel the delivery and change the frequency from the third delivery.</li><li>You can cancel your subscription at any time after receiving at least two delivery cycles.</li><li>You determine your delivery times.</li><li>You will be notified before each delivery.</li></ul>"
     }
   ]
 }
