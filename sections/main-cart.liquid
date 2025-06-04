@@ -54,39 +54,28 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var checkoutButton = document.querySelector('button.cart__checkout-button');
-
-  if (!checkoutButton) return;
-
-  // Funktion zum Einfügen von Hinweis + Consent-Block
-  function insertConsentHeader() {
+  function moveConsentBlock() {
     const buyerConsent = document.querySelector('#shopify-buyer-consent');
+    const checkoutButton = document.querySelector('button.cart__checkout-button');
 
-    // Wenn vorhanden, aber Header noch nicht da
-    if (buyerConsent && !document.querySelector('.buyer-consent-heading')) {
-      const heading = document.createElement('h3');
-      heading.innerHTML = '<strong>PLEASE NOTE:</strong>';
-      heading.className = 'buyer-consent-heading';
-
-      checkoutButton.parentNode.insertBefore(heading, checkoutButton);
+    if (buyerConsent && checkoutButton) {
       checkoutButton.parentNode.insertBefore(buyerConsent, checkoutButton);
     }
   }
 
-  // MutationObserver zum Überwachen des DOM
-  const observer = new MutationObserver(() => {
-    insertConsentHeader();
+  const observer1 = new MutationObserver(() => {
+    moveConsentBlock();
   });
 
-  observer.observe(document.body, {
+  observer1.observe(document.body, {
     childList: true,
     subtree: true,
   });
 
-  // Falls es beim Laden schon da ist
-  insertConsentHeader();
+  moveConsentBlock();
 });
 </script>
+
 
 
 
@@ -761,6 +750,46 @@ document.addEventListener('DOMContentLoaded', function () {
                   
                   {%- endif -%}
                 {%- endif -%}
+
+                <script>
+document.addEventListener('DOMContentLoaded', function () {
+  function toggleConsentHeading() {
+    const buyerConsent = document.querySelector('#shopify-buyer-consent');
+    const checkoutButton = document.querySelector('button.cart__checkout-button');
+    let heading = document.querySelector('.buyer-consent-heading');
+
+    if (!buyerConsent || !checkoutButton) return;
+
+    const consentVisible = buyerConsent.offsetHeight > 0 && buyerConsent.innerText.trim().length > 0;
+
+    if (consentVisible) {
+      // Falls noch keine Überschrift da ist, füge sie hinzu
+      if (!heading) {
+        heading = document.createElement('h3');
+        heading.innerHTML = '<strong>PLEASE NOTE:</strong>';
+        heading.className = 'buyer-consent-heading';
+        checkoutButton.parentNode.insertBefore(heading, buyerConsent);
+      } else {
+        heading.style.display = 'block';
+      }
+    } else if (heading) {
+      heading.style.display = 'none';
+    }
+  }
+
+  const observer2 = new MutationObserver(() => {
+    toggleConsentHeading();
+  });
+
+  observer2.observe(document.body, {
+    childList: true,
+    subtree: true,
+  });
+
+  toggleConsentHeading();
+});
+</script>
+
               </form>
 
               {%- if section.settings.show_payment_methods and shop.enabled_payment_types.size > 0 -%}
