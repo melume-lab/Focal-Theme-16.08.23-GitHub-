@@ -54,14 +54,51 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var buyerConsent = document.querySelector('#shopify-buyer-consent');
-  var checkoutButton = document.querySelector('button.cart__checkout-button');
+  const CHECK_INTERVAL = 300; // in ms
+  const MAX_TRIES = 20;
+  let tries = 0;
 
-  if (buyerConsent && checkoutButton) {
-    checkoutButton.parentNode.insertBefore(buyerConsent, checkoutButton);
-  }
+  const interval = setInterval(() => {
+    const buyerConsent = document.querySelector('#shopify-buyer-consent');
+    const checkoutButton = document.querySelector('button.cart__checkout-button');
+
+    // Stoppen, wenn kein Button da ist (z. B. Ladefehler)
+    if (!checkoutButton) {
+      clearInterval(interval);
+      return;
+    }
+
+    // Warten, bis #shopify-buyer-consent existiert
+    if (!buyerConsent) {
+      tries++;
+      if (tries >= MAX_TRIES) clearInterval(interval);
+      return;
+    }
+
+    const consentText = buyerConsent.innerText.trim();
+    const hasVisibleContent = consentText.length > 0 && buyerConsent.offsetHeight > 0;
+
+    if (hasVisibleContent) {
+      // Verschiebe Consent über den Checkout-Button
+      if (buyerConsent !== checkoutButton.previousElementSibling) {
+        checkoutButton.parentNode.insertBefore(buyerConsent, checkoutButton);
+      }
+
+      // Überschrift hinzufügen, wenn noch nicht vorhanden
+      if (!document.querySelector('.buyer-consent-heading')) {
+        const heading = document.createElement('h3');
+        heading.className = 'buyer-consent-heading';
+        heading.innerHTML = '<strong>PLEASE NOTE:</strong>';
+        checkoutButton.parentNode.insertBefore(heading, buyerConsent);
+      }
+    }
+
+    // Wenn alles erledigt ist oder zu oft versucht → stoppen
+    clearInterval(interval);
+  }, CHECK_INTERVAL);
 });
 </script>
+
 
 
 
