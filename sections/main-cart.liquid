@@ -864,8 +864,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </div>
     {%- endif -%}
-  </div>
-  {% assign has_subscription = false %}
+    {% assign has_subscription = false %}
 {% for item in cart.items %}
   {% if item.selling_plan_allocation %}
     {% assign has_subscription = true %}
@@ -888,6 +887,7 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
 {% endif %}
 
+  </div>
 </section>
 
 {% schema %}
