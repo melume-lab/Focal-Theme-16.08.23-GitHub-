@@ -865,6 +865,29 @@ document.addEventListener('DOMContentLoaded', function () {
       </div>
     {%- endif -%}
   </div>
+  {% assign has_subscription = false %}
+{% for item in cart.items %}
+  {% if item.selling_plan_allocation %}
+    {% assign has_subscription = true %}
+  {% endif %}
+{% endfor %}
+
+{% if has_subscription %}
+  <div id="subscription-popup-overlay" class="popup-overlay">
+    <div id="subscription-popup" class="subscription-popup">
+      <button class="popup-close" aria-label="Close popup">&times;</button>
+      <h2>PLEASE NOTE</h2>
+      <p>One or more of the items in your cart is a recurring or deferred purchase:</p>
+      <ul>
+        <li>You can pause or cancel the delivery and change the frequency from the third delivery.</li>
+        <li>You can cancel your subscription at any time after receiving at least two delivery cycles.</li>
+        <li>You determine your delivery times.</li>
+        <li>You will be notified before each delivery.</li>
+      </ul>
+    </div>
+  </div>
+{% endif %}
+
 </section>
 
 {% schema %}
