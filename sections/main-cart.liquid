@@ -57,6 +57,55 @@
   margin: 1.5rem 0 -0.6rem;
   }
 
+  <style>
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dunkler Hintergrund */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.subscription-popup {
+  background: white;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.subscription-popup h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.subscription-popup ul {
+  padding-left: 1.25rem;
+}
+
+.subscription-popup li {
+  margin-bottom: 0.5rem;
+}
+</style>
+
 </style>
 
 <script>
