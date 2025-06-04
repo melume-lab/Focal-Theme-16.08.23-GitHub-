@@ -59,17 +59,22 @@
 
   /*----- Popup----*/
   
-.popup-overlay {
+#subscription-popup-overlay {
+  display: none; /* initial versteckt */
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* dunkler Hintergrund */
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 9999;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0); /* Start transparent */
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: background-color 0.4s ease, opacity 0.4s ease;
+}
+
+#subscription-popup-overlay.active {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5); /* abgedunkelt */
+  opacity: 1;
 }
 
 .subscription-popup {
@@ -77,36 +82,52 @@
   padding: 2rem;
   max-width: 500px;
   width: 90%;
-  border-radius: 0; /* <-- Jetzt kantig */
   position: relative;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 0; /* kantige Ecken */
+  box-shadow: 0 0 20px rgba(0,0,0,0.25);
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.subscription-popup.active {
+  opacity: 1;
+  transform: scale(1);
 }
 
 
-  .popup-close {
-    position: absolute;
-    top: 1.2rem;
-    right: 1.2rem;
-    font-size: 2rem; /* <-- Größeres "X" */
-    background: none;
-    border: none;
-    cursor: pointer;
-    line-height: 1;
-  }
-  
-  .subscription-popup h2 {
-    margin-top: 0;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .subscription-popup ul {
-    padding-left: 1.25rem;
-  }
-  
-  .subscription-popup li {
-    margin-bottom: 0.5rem;
-  }
+.subscription-popup-inner h2 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.popup-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-close .icon--close {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Sanfte Einblendung */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
 
 
 </style>
@@ -164,21 +185,53 @@ document.addEventListener('DOMContentLoaded', function () {
   const popup = document.getElementById('subscription-popup');
   const closeBtn = document.querySelector('.popup-close');
 
-  if (!overlay) return;
+  // Funktion: Erzeuge einfache Hash-Signatur des aktuellen Cart-Inhalts
+  function generateCartHash() {
+    const cartForm = document.querySelector('form[action="/cart"]');
+    return cartForm ? btoa(cartForm.innerText.replace(/\s/g, '')) : 'default';
+  }
 
-  // Klick auf "X" schließt Popup
-  closeBtn.addEventListener('click', function () {
-    overlay.style.display = 'none';
-  });
+  const shownKey = 'subscriptionPopupShown_' + generateCartHash();
 
-  // Klick außerhalb des Popups schließt es ebenfalls
-  overlay.addEventListener('click', function (e) {
+  // Wenn kein Abo-Produkt (und damit kein Popup-Element) vorhanden ist
+  if (!overlay || !popup) {
+    // Alle früheren Popup-Flags löschen
+    for (let i = 0; i < sessionStorage.length; i++) {
+      const key = sessionStorage.key(i);
+      if (key && key.startsWith('subscriptionPopupShown_')) {
+        sessionStorage.removeItem(key);
+      }
+    }
+    return;
+  }
+
+// Wenn Popup schon gezeigt wurde
+if (sessionStorage.getItem(shownKey)) {
+  overlay.classList.remove('active');
+  popup.classList.remove('active');
+  return;
+}
+
+// Popup mit Delay und Fade-In anzeigen
+setTimeout(() => {
+  overlay.classList.add('active');
+  popup.classList.add('active');
+  sessionStorage.setItem(shownKey, 'true');
+}, 1000);
+
+  // Schließen über Button
+  closeBtn.addEventListener('click', () => overlay.style.display = 'none');
+
+  // Schließen durch Klick außerhalb des Popups
+  overlay.addEventListener('click', e => {
     if (!popup.contains(e.target)) {
       overlay.style.display = 'none';
     }
   });
 });
 </script>
+
+
 
 
 
