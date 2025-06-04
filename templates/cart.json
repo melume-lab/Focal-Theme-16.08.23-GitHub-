@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "blocks": {
         "totals": {
           "type": "totals",
-          "settings": {
-          }
+          "settings": {}
         },
         "order_note": {
           "type": "order_note",
@@ -16,13 +24,12 @@
         },
         "2fd748b0-0cb3-4a4b-a382-60c26b2d545f": {
           "type": "express_checkout_buttons",
-          "settings": {
-          }
+          "settings": {}
         },
         "33dcc0f8-51fd-4266-a36d-15b561779703": {
-          "type": "shopify:\/\/apps\/joy-loyalty-program\/blocks\/joy-points-calculator-block\/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "type": "shopify://apps/joy-loyalty-program/blocks/joy-points-calculator-block/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
           "settings": {
-            "points_calculator_alignment": "right"
+            "points_calculator_alignment": "left"
           }
         }
       },
@@ -32,14 +39,12 @@
         "2fd748b0-0cb3-4a4b-a382-60c26b2d545f",
         "33dcc0f8-51fd-4266-a36d-15b561779703"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "show_payment_methods": true,
         "show_shipping_estimator": true,
         "shipping_estimator_default_country": "Germany",
-        "empty_button_link": "shopify:\/\/collections\/skincare-products"
+        "empty_button_link": "shopify://collections/skincare-products"
       }
     },
     "cart-recommendations": {
