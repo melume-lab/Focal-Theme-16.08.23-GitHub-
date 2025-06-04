@@ -28,6 +28,7 @@
         },
         "33dcc0f8-51fd-4266-a36d-15b561779703": {
           "type": "shopify://apps/joy-loyalty-program/blocks/joy-points-calculator-block/555c55c9-9a3d-4fe0-a7a8-2c256984a371",
+          "disabled": true,
           "settings": {
             "points_calculator_alignment": "left"
           }
