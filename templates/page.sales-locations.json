@@ -12,387 +12,68 @@
     "main": {
       "type": "main-page",
       "disabled": true,
+      "custom_css": [
+        "H1 {text-transform: uppercase;}"
+      ],
       "settings": {
         "show_title": true,
         "page_width": "large"
       }
     },
-    "fb4dd997-11ac-4479-a850-934619998d58": {
-      "type": "MS_Slideshow",
+    "ms_image_with_text_MqMFhR": {
+      "type": "MS_image-with-text",
       "blocks": {
-        "template--17116456976664__fb4dd997-11ac-4479-a850-934619998d58-1675430277881d7e07-0": {
-          "type": "image",
+        "item_WnbzxA": {
+          "type": "item",
           "settings": {
-            "text_position": "middle_left",
+            "image": "shopify://shop_images/Bildschirmfoto_2025-06-11_um_13.25.04.png",
+            "tab_label": "",
             "subheading": "",
-            "title": "The melumé skin club.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#131313",
-            "button_background": "#131313",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 94
-          }
-        },
-        "bbeb4d15-8833-45b5-baf9-026378ea208b": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_left",
-            "subheading": "",
-            "title": "The melumé skin club.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#131313",
-            "button_background": "#131313",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 94
-          }
-        },
-        "1661a7d3-388a-464c-9876-340c8f95690f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Seren_Abo_8197e045-3d23-4cc2-a8d5-40ed4d9dbffb.png",
-            "text_position": "middle_left",
-            "subheading": "",
-            "title": "The melumé skin club.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#131313",
-            "button_background": "#131313",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 94
-          }
-        },
-        "64a3ad0c-6ac9-4a80-8c79-1c06b8649b5b": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_left",
-            "subheading": "",
-            "title": "The melumé skin club.",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#131313",
-            "button_background": "#131313",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 94
+            "title": "",
+            "title2": "",
+            "html-two": "",
+            "html-three": "<table style=\"width: 100%; border-collapse: collapse; table-layout: fixed;\">\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>GERMANY</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      PARFÜMERIE LIEBE<br>\n      Karmarschstraße 25, 30159 Hannover<br>\n      <a href=\"http://www.liebe-hannover.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      M.C.N. KOSMETIK<br>\n      Wichernstraße 4, 33378 Rheda-Wiedenbrück<br>\n      <a href=\"https://www.mcn-kosmetik.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      SCHÖNGEIST BEAUTY<br>\n      Lützowstraße 1, 50674 Köln<br>\n      <a href=\"https://www.schoen-geist.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      KURFÜRSTEN PARFÜMERIE<br>\n      P7 24, 68161 Mannheim<br>\n      <a href=\"http://www.kurfuersten-parfuemerie.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      PARFÜMERIE GODEL (Nürtingen)<br>\n      Kirchstraße 10, 72622 Nürtingen<br>\n      <a href=\"https://www.parfuemerie-godel.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      PARFÜMERIE GODEL (Stuttgart)<br>\n      Klagenfurter Str. 38, 70469 Stuttgart<br>\n      <a href=\"https://www.parfuemerie-godel.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      PARFÜMERIE BRÜCKNER<br>\n      Marienplatz 8, 80331 München<br>\n      <a href=\"http://www.parfuemerie-brueckner.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      PARFUMDREAMS<br>\n      DOUGLAS<br>\n      NICHE-BEAUTY.COM<br>\n      Coming soon\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>AUSTRIA</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      AIYA BEAUTY CARE<br>\n      Bauernmarkt 18, 1010 Wien<br>\n      <a href=\"https://www.aiyabeauty.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      S&amp;B KOSMETIK GMBH<br>\n      Lilienthalgasse 9/EG/G03A, 1030 Wien<br>\n      <a href=\"https://www.specialbeauty.at/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>ITALY</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      GREEN SOUL COSMETICS<br>\n      Via Gerolamo Fantoni 1, 25087 Salò (BS) Lago di Garda<br>\n      <a href=\"http://www.greensoulcosmetics.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>SPAIN</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      ESTHER MORENO STUDIO<br>\n      Carrer del Consell de Cent, 314, principal C, Eixample, 08007 Barcelona<br>\n      <a href=\"https://esthermorenostudio.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      EL CORTE INGLÉS – Coming soon\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>ANDORRA</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      PASTEUR PLUS SLU<br>\n      Avda. Meritxell 84, AD500 Andorra la Vella\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>GREECE</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      THE PROJECT GARMENTS<br>\n      <a href=\"https://theprojectgarments.de/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>POLAND</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      KOZHA LLC<br>\n      Grzybowska 2/3, 00-131 Warszawa<br><br>\n\n      MOOD SCENT BAR – Various locations:<br>\n      Tamka 33, 00-355 Warszawa<br>\n      Piotrkowska 6, Łódź, 90-270<br>\n      Krowoderska 41/1, Kraków, 31-141<br>\n      <a href=\"https://moodscentbar.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>UNITED KINGDOM</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      WOLF &amp; BADGER<br>\n      <a href=\"https://www.wolfandbadger.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      FACE THE FUTURE<br>\n      <a href=\"https://eu.facethefuture.store/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a><br><br>\n\n      SKINDAYS<br>\n      <a href=\"https://www.skindays.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>IRELAND</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      SKIN SHOP<br>\n      <a href=\"https://skinshop.ie/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>UNITED STATES</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      KNOCKOUT BEAUTY – New York<br>\n      1316 Madison Avenue, New York<br><br>\n\n      KNOCKOUT BEAUTY – Los Angeles<br>\n      11724 Barrington Ct, Los Angeles<br>\n      <a href=\"http://www.knockoutbeauty.com/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>SOUTH AFRICA</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      DERMASTORE<br>\n      <a href=\"https://dermastore.co.za/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>UKRAINE</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      BEAUTY SCIENCE LLC.<br>\n      Distributor\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>ICELAND</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      ELIRA BEAUTY<br>\n      Hallgerðargata 19-23, 105 Reykjavík<br>\n      <a href=\"https://elira.is/\" style=\"text-decoration: underline;\" target=\"_blank\" rel=\"noopener noreferrer\">Website</a>\n    </td>\n  </tr>\n</table>",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--17116456976664__fb4dd997-11ac-4479-a850-934619998d58-1675430277881d7e07-0",
-        "bbeb4d15-8833-45b5-baf9-026378ea208b",
-        "1661a7d3-388a-464c-9876-340c8f95690f",
-        "64a3ad0c-6ac9-4a80-8c79-1c06b8649b5b"
+        "item_WnbzxA"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 1000px) {.image-with-text__image-wrapper {margin-top: 90px; margin-bottom: auto; }}",
+        "@media screen and (max-width: 999px) {.image-with-text__image-wrapper {margin-top: 65px; margin-bottom: auto; }}",
+        "@media screen and (max-width: 740px) {.image-with-text__image-wrapper {margin-top: 0px; margin-bottom: auto; }}"
+      ],
+      "name": "MS_Image with text",
       "settings": {
-        "section_height": "medium",
-        "transition_type": "sweep",
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "over-subheading": "",
+        "over-title": "",
+        "html": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "5f755e99-c4a3-4002-b303-c379c8c8fb62": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/Points_icon_white.png",
-            "custom_icon_width": 125,
-            "icontitle": "Icon title",
-            "title": "30% OFF EVERY TIME",
-            "content": "<p>SAVE ON EACH PURCHASE<br/>AND COLLECT REWARDS.</p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/VIP_icon_white.png",
-            "custom_icon_width": 125,
-            "icontitle": "Icon title",
-            "title": "EXCLUSIVE ACCESS",
-            "content": "<p>ONLY SUBSCRIBERS RECEIVE SPECIAL<br/>DISCOUNTS AND GIFTS.</p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-3": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-email",
-            "custom_icon": "shopify://shop_images/Happy_icon_white.png",
-            "custom_icon_width": 125,
-            "icontitle": "Icon title",
-            "title": "PERSONALISED ORDER",
-            "content": "<p>YOU DECIDE YOUR DELIVERY CYCLE.<br/>PAUSE AND CANCEL ANYTIME.</p>",
-            "html": "",
-            "subheading": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-1",
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-2",
-        "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-3"
-      ],
+    "custom_html_PX3h8N": {
+      "type": "custom-html",
+      "disabled": true,
+      "name": "Custom HTML",
       "settings": {
-        "borderbottom": true,
-        "underline": true,
-        "maintitle": "My skin club subscription",
-        "button_text": "SUbscribe & 30% Discount",
-        "button_link": "",
-        "background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "b65a2977-9109-494c-a091-856c2418db7e": {
-      "type": "text-with-icons",
-      "blocks": {
-        "9129b721-629d-4069-8c9e-aa3353ef287d": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/Illustration_1.png",
-            "custom_icon_width": 250,
-            "icontitle": "Icon title",
-            "title": "30% OFF EVERY TIME",
-            "content": "<p>SAVE ON EACH PURCHASE<br/>AND COLLECT REWARDS.</p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "1b8a6b1f-c7ac-4db7-9ff6-0ed979e07261": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/Illustration_2.png",
-            "custom_icon_width": 250,
-            "icontitle": "Icon title",
-            "title": "EXCLUSIVE ACCESS",
-            "content": "<p>ONLY SUBSCRIBERS RECEIVE SPECIAL<br/>DISCOUNTS AND GIFTS.</p>",
-            "html": "",
-            "subheading": ""
-          }
-        },
-        "1aa143d3-4b50-40a1-8e78-f4985535fd99": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-email",
-            "custom_icon": "shopify://shop_images/Illustration_3.png",
-            "custom_icon_width": 250,
-            "icontitle": "Icon title",
-            "title": "PERSONALISED ORDER",
-            "content": "<p>YOU DECIDE YOUR DELIVERY CYCLE.<br/>PAUSE AND CANCEL ANYTIME.</p>",
-            "html": "",
-            "subheading": ""
-          }
-        }
-      },
-      "block_order": [
-        "9129b721-629d-4069-8c9e-aa3353ef287d",
-        "1b8a6b1f-c7ac-4db7-9ff6-0ed979e07261",
-        "1aa143d3-4b50-40a1-8e78-f4985535fd99"
-      ],
-      "settings": {
-        "borderbottom": true,
-        "underline": true,
-        "maintitle": "Join the melumé skincare club – this is how it works",
-        "button_text": "Sign up",
-        "button_link": "",
-        "background": "#f6f5f2",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889": {
-      "type": "promotion-blocks",
-      "blocks": {
-        "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "9cd1c6a1-eaf4-4dc0-a99e-df0555508610": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "26483322-5887-4527-8b70-7e4507b5087c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "2722e8de-b43c-44b8-9f83-4ac00d950ffb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "fe66ab8e-505d-418d-aefa-7ecdf6b684bf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "370b0047-e8e6-4e64-adf4-c9f19428d125": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "08e00919-c07c-4f60-b17d-19c6a3922942": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Point_image_with_overlay.png",
-            "highlight": false,
-            "subheading": "CREATE AN ACCOUNT",
-            "title": "200 Points",
-            "link_text": "",
-            "link_url": "shopify://products/vitamin-c-cream",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        }
-      },
-      "block_order": [
-        "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c",
-        "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c",
-        "9cd1c6a1-eaf4-4dc0-a99e-df0555508610",
-        "26483322-5887-4527-8b70-7e4507b5087c",
-        "2722e8de-b43c-44b8-9f83-4ac00d950ffb",
-        "fe66ab8e-505d-418d-aefa-7ecdf6b684bf",
-        "370b0047-e8e6-4e64-adf4-c9f19428d125",
-        "08e00919-c07c-4f60-b17d-19c6a3922942",
-        "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Ways to earn points",
-        "section_size": "large",
-        "stack_on_mobile": false,
+        "subheading": "Your subheading",
+        "title": "Your title",
+        "html": "<table style=\"width: 100%; border-collapse: collapse; table-layout: fixed;\">\n  <tbody>\n<tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Germany</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      Parfümerie Liebe<br>\n      Kurfürsten Parfümerie<br>\n      Schöngeist Beauty in Cologne<br>\n      www.parfumdreams.de<br>\n      M.C.N. Kosmetik<br>\n      Parfümerie Godel<br>\n      Parfümerie Brückner\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Italy</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Green Soul</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Kasachstan</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Grand Beauty</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Ukraine</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">I Ask Katherina</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Polen</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      Mood Scent Store<br>\n      Kozha\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Sud Africa</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Dermastore</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Ice Land</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Elira</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>UK</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      Face the Future<br>\n      Skindays\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Spain</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Esther Moreno Studio</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Greece</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      Project Garments<br>\n      Wolf&amp;Badger\n    </td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Belarus</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Tab Gallery</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>US</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">Knockout Beauty</td>\n  </tr>\n  <tr>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: left; vertical-align: top;\"><strong>Austria</strong></td>\n    <td style=\"width: 50%; padding: 15px; border-bottom: 1px solid #ddd; text-align: left; vertical-align: top;\">\n      Aiya Beauty Care<br>\n      SB Cosmetics\n    </td>\n  </tr>\n</tbody>\n</table>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -400,9 +81,7 @@
   },
   "order": [
     "main",
-    "fb4dd997-11ac-4479-a850-934619998d58",
-    "5f755e99-c4a3-4002-b303-c379c8c8fb62",
-    "b65a2977-9109-494c-a091-856c2418db7e",
-    "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889"
+    "ms_image_with_text_MqMFhR",
+    "custom_html_PX3h8N"
   ]
 }
