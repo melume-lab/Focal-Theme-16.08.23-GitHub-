@@ -26,7 +26,7 @@
         "item_WnbzxA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Bildschirmfoto_2025-06-11_um_13.25.04.png",
+            "image": "shopify://shop_images/Bild_MELUME_Verkaufstellen_engl.jpg",
             "tab_label": "",
             "subheading": "",
             "title": "",
@@ -47,7 +47,6 @@
         "@media screen and (max-width: 999px) {.image-with-text__image-wrapper {margin-top: 65px; margin-bottom: auto; }}",
         "@media screen and (max-width: 740px) {.image-with-text__image-wrapper {margin-top: 0px; margin-bottom: auto; }}"
       ],
-      "name": "MS_Image with text",
       "settings": {
         "reveal_on_scroll": false,
         "background_type": "full_width",
@@ -67,7 +66,6 @@
     "custom_html_PX3h8N": {
       "type": "custom-html",
       "disabled": true,
-      "name": "Custom HTML",
       "settings": {
         "subheading": "Your subheading",
         "title": "Your title",
