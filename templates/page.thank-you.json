@@ -17,28 +17,28 @@
         "page_width": "large"
       }
     },
-    "d14eb3d4-47de-476f-bc7e-70204ba6094a": {
-      "type": "image-with-text-block",
-      "custom_css": [
-        ".image-with-text-block__content {background-color: rgba(0, 0, 0, 0);}"
-      ],
+    "image_with_text_overlay_YcdnXf": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
+        "section_height": "small",
         "image": "shopify://shop_images/BANNER_THANKYOU_NEWSELETTER_ANMELDUNG.jpg",
         "subheading": "",
         "title": "",
-        "h_value": 2,
-        "html": "",
         "content": "",
+        "html": "",
         "button_text": "",
         "button_link": "",
+        "link_style": "link",
         "background_type": "full_width",
-        "text_position": "left",
-        "text_alignment": "center",
-        "text_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a": {
@@ -66,6 +66,9 @@
     },
     "rich_text_kim9qT": {
       "type": "rich-text",
+      "custom_css": [
+        ".content-box {width: 100%;}"
+      ],
       "name": "Rich text",
       "settings": {
         "subheading": "",
@@ -87,7 +90,7 @@
   },
   "order": [
     "main",
-    "d14eb3d4-47de-476f-bc7e-70204ba6094a",
+    "image_with_text_overlay_YcdnXf",
     "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a",
     "rich_text_kim9qT"
   ]
