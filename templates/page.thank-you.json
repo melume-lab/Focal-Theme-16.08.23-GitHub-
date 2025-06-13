@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -15,9 +24,10 @@
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/BANNER_THANKYOU_NEWSELETTER_ANMELDUNG.jpg",
+        "image": "shopify://shop_images/BANNER_THANKYOU_NEWSELETTER_ANMELDUNG.jpg",
         "subheading": "",
         "title": "",
+        "h_value": 2,
         "html": "",
         "content": "",
         "button_text": "",
@@ -33,12 +43,13 @@
     },
     "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
         "subheading": "",
         "title": "Thank You",
-        "content": "<p>YOU ́LL RECIEVE MELUMÉ ́S LATEST SKINCARE ADVICE AND LIFESTYLE TIPS STRAIGHT<br\/>INTO YOUR INBOX.<br\/><\/p><p>YOU ́LL ALSO BE THE FIRST TO HEAR ABOUT UPCOMING EVENTS, SPECIAL OFFERS AND MORE!<\/p>",
+        "content": "<p>YOU ́LL RECIEVE MELUMÉ ́S LATEST SKINCARE ADVICE AND LIFESTYLE TIPS STRAIGHT<br/>INTO YOUR INBOX.<br/></p><p>YOU ́LL ALSO BE THE FIRST TO HEAR ABOUT UPCOMING EVENTS, SPECIAL OFFERS AND MORE!</p>",
         "html": "",
         "button_text": "DISCOVER melumé",
         "button_link": "",
@@ -52,11 +63,32 @@
         "overlay_color": "#ffffff",
         "overlay_opacity": 100
       }
+    },
+    "rich_text_kim9qT": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "subheading": "",
+        "title": "Thank You",
+        "content": "<p>YOU ́LL RECIEVE MELUMÉ ́S LATEST SKINCARE ADVICE AND LIFESTYLE TIPS STRAIGHT<br/>INTO YOUR INBOX.<br/></p><p>YOU ́LL ALSO BE THE FIRST TO HEAR ABOUT UPCOMING EVENTS, SPECIAL OFFERS AND MORE!</p>",
+        "button_text": "DISCOVER melumé",
+        "button_link": "shopify://collections/skincare-products",
+        "open_new_tab": false,
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
     "d14eb3d4-47de-476f-bc7e-70204ba6094a",
-    "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a"
+    "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a",
+    "rich_text_kim9qT"
   ]
 }
