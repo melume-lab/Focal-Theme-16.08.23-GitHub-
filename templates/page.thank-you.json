@@ -17,51 +17,29 @@
         "page_width": "large"
       }
     },
-    "image_with_text_overlay_YcdnXf": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "image_with_text_block_bqd8xU": {
+      "type": "image-with-text-block",
+      "custom_css": [
+        ".container {display: none;}"
+      ],
+      "name": "Image with text block",
       "settings": {
-        "reveal_on_scroll": false,
-        "section_height": "small",
+        "reveal_on_scroll": true,
         "image": "shopify://shop_images/BANNER_THANKYOU_NEWSELETTER_ANMELDUNG.jpg",
         "subheading": "",
         "title": "",
-        "content": "",
+        "h_value": 2,
         "html": "",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>",
         "button_text": "",
         "button_link": "",
-        "link_style": "link",
         "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "subheading": "",
-        "title": "Thank You",
-        "content": "<p>YOU ́LL RECIEVE MELUMÉ ́S LATEST SKINCARE ADVICE AND LIFESTYLE TIPS STRAIGHT<br/>INTO YOUR INBOX.<br/></p><p>YOU ́LL ALSO BE THE FIRST TO HEAR ABOUT UPCOMING EVENTS, SPECIAL OFFERS AND MORE!</p>",
-        "html": "",
-        "button_text": "DISCOVER melumé",
-        "button_link": "",
-        "link_style": "button",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "middle_center",
-        "text_color": "#000000",
-        "button_background": "#000000",
-        "button_text_color": "#ffffff",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 100
+        "text_position": "left",
+        "text_alignment": "center",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "rich_text_kim9qT": {
@@ -69,7 +47,6 @@
       "custom_css": [
         ".content-box {width: 100%;}"
       ],
-      "name": "Rich text",
       "settings": {
         "subheading": "",
         "title": "Thank You",
@@ -90,8 +67,7 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_YcdnXf",
-    "a702ae7c-56eb-4b6b-8a52-2dda50e4f01a",
+    "image_with_text_block_bqd8xU",
     "rich_text_kim9qT"
   ]
 }
