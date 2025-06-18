@@ -91,7 +91,7 @@
         {%- endcomment -%}
         {%- elsif product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
           
-          <span class="label label--highlight">PROMO</span>
+          <span class="label label--highlight">{{ 'product.general.promo-patch' | t }}</span>
           {%- comment -%}
         <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
           {%- endcomment -%}
