@@ -35,7 +35,8 @@
         {%- capture savings -%}{{ product.compare_at_price | minus: product.price | money }}{%- endcapture -%}
       {%- endif -%}
 
-      <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
+      {%- comment -%}<span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>{%- endcomment -%}
+      <span class="label label--highlight">{{ 'product.general.promo-patch' | t }}</span>
     {%- endif -%}
   {%- endcapture -%}
 
