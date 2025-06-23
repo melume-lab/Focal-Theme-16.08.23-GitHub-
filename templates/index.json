@@ -41,7 +41,6 @@
         },
         "71dd15e9-c1fb-4b0b-ab07-d75b1fbb7a0d": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Desktop_Banner_2025_Summer_Sale_2160x1018_2599db74-3e8a-4af3-b876-5e20a8e29e77.jpg",
             "mobile_image": "shopify://shop_images/Mobile_Banner_SummerSale_2025_1000x1400px_RZ.jpg",
@@ -53,7 +52,7 @@
             "content": "",
             "content_promo": "<p><strong>20% OFF SELECTED PRODUCTS</strong> – <br/>ONLY FOR A LIMITED TIME</p>",
             "button_1_text": "SAVE 20% NOW",
-            "button_1_link": "shopify://collections/melume-promo",
+            "button_1_link": "shopify://pages/melume-promo",
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "",
