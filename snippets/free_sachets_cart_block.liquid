@@ -1,5 +1,5 @@
 {% comment %}
-  Free Gifts Images - Snippet
+  Free Sachets Images - Snippet (updated)
 {% endcomment %}
 
 {% assign freeSachetsCollectionHandle = 'free-sachets' %}
@@ -11,6 +11,8 @@
 
   .free-gift-product-img-container-sachet {
     position: relative;
+    cursor: pointer;
+    pointer-events: auto; /* für Button */
   }
 
   .add-to-cart-button {
@@ -48,11 +50,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    z-index: 99; /* Lower z-index than loading spinner */
-    display: none; /* Initially hidden */
-    pointer-events: auto; /* Enable pointer events */
-}
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 99;
+    display: none;
+    pointer-events: auto;
+  }
 
   .add-to-cart-button.invisible {
     color: transparent;
@@ -66,9 +68,28 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+  /* Text unten rechts in der Kachel, nur Mobile */
+  .free-gift-product-img-container-sachet .remove-text-mobile {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #000; /* oder passend zu deinem Design */
+    pointer-events: none; /* Damit der Text keine Klicks blockiert */
+    display: none; /* Standard versteckt */
+  }
+  
+  @media (max-width: 740px) {
+  .free-gift-product-img-container-sachet.selected .remove-text-mobile {
+    display: block; /* Nur zeigen, wenn selected und auf Mobile */
+  }
+}
+
 {% endstyle %}
 
-<div class="free-gift-images-container">
+<div class="free-sachets-images-container">
   {% assign cart_items = cart.items %}
   {% for product in collections[freeSachetsCollectionHandle].products %}
     {% assign product_in_cart = false %}
@@ -78,21 +99,26 @@
         {% break %}
       {% endif %}
     {% endfor %}
-    <div class="free-gift-column">
-      <div class="free-gift-products">
+    <div class="free-sachets-column">
+      <div class="free-sachets-products">
         <button class="free-gift-product-img-container-sachet {% if product_in_cart %}selected{% endif %}" data-product-id="{{ product.variants.first.id }}">
-          <div class="img-only-container-free-gifts">
-            <img class="free-gift-product-img product__thumbnail line-item__image" data-srcset-80="{{ product.featured_image.src | img_url: '80x80', 'jpg' }}"
+          <div class="img-only-container-free-sachets">
+            <img class="free-gift-product-img product__thumbnail line-item__image"
+              data-srcset-80="{{ product.featured_image.src | img_url: '80x80', 'jpg' }}"
               data-srcset-92="{{ product.featured_image.src | img_url: '92x92', 'jpg' }}"
               data-srcset-160="{{ product.featured_image.src | img_url: '160x160', 'jpg' }}"
               data-srcset-184="{{ product.featured_image.src | img_url: '184x184', 'jpg' }}"
               data-srcset-240="{{ product.featured_image.src | img_url: '240x240', 'jpg' }}"
               data-srcset-276="{{ product.featured_image.src | img_url: '276x276', 'jpg' }}"
-              src="{{ product.featured_image.src | img_url: '552x', 'jpg' }}" alt="{{ product.title }}" loading="lazy" width="552">
+              src="{{ product.featured_image.src | img_url: '552x', 'jpg' }}"
+              alt="{{ product.title }}" loading="lazy" width="552">
           </div>
           <div class="content-box-free-gifts">
-            <p>{{ product.title }} <br>
-              {{ product.description }}<br><br>{{ "general.free_gifts.free" | t }}</p>
+            <div class="description-and-label">
+              <p class="product-title">{{ product.title }}</p>
+              <p class="product-description">{{ product.description }}</p>
+              <p class="free-label">{{ "general.free_gifts.free" | t }}</p>
+            </div>
             <div class="loading-spinner"></div>
             <span class="add-to-cart-button">
               {% if product_in_cart %}
@@ -103,6 +129,7 @@
             </span>
           </div>
         </button>
+
       </div>
     </div>
   {% endfor %}
@@ -110,9 +137,15 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  // Nach dem Laden Scrollposition wiederherstellen
+  const scrollPos = sessionStorage.getItem('scrollPos');
+  if (scrollPos) {
+    window.scrollTo(0, parseInt(scrollPos));
+    sessionStorage.removeItem('scrollPos');
+  }
+
   const freeGiftButtons = document.querySelectorAll('.free-gift-product-img-container-sachet');
   let isOperationInProgress = false;
-  const operationDelay = 1000;
   const pageOverlay = document.querySelector('.page-overlay');
 
   function updateGrayOut() {
@@ -140,7 +173,8 @@ document.addEventListener('DOMContentLoaded', function () {
         button.classList.add('selected');
         addToCartButton.textContent = '{{ "general.free_gifts.remove" | t }}';
         updateGrayOut();
-        location.reload(); // Reload the page after adding the item to the cart
+        sessionStorage.setItem('scrollPos', window.scrollY);
+        location.reload();
       })
       .catch(error => {
         console.error('Error adding product to cart:', error);
@@ -160,7 +194,8 @@ document.addEventListener('DOMContentLoaded', function () {
         button.classList.remove('selected');
         addToCartButton.textContent = '{{ "general.free_gifts.add" | t }}';
         updateGrayOut();
-        location.reload(); // Reload the page after removing the item from the cart
+        sessionStorage.setItem('scrollPos', window.scrollY);
+        location.reload();
       })
       .catch(error => {
         console.error('Error removing product from cart:', error);
@@ -179,12 +214,21 @@ document.addEventListener('DOMContentLoaded', function () {
     const addToCartButton = button.querySelector('.add-to-cart-button');
     const productId = button.getAttribute('data-product-id');
 
-    addToCartButton.addEventListener('click', function (event) {
+    // Remove Text Element hinzufügen, falls noch nicht vorhanden
+    if (!button.querySelector('.remove-text-mobile')) {
+      const removeText = document.createElement('div');
+      removeText.className = 'remove-text-mobile';
+      removeText.textContent = '{{ "general.free_gifts.remove" | t }}';
+
+      button.style.position = 'relative';
+      button.appendChild(removeText);
+    }
+
+    function handleClick(event) {
       event.stopPropagation();
 
-      if (isOperationInProgress) {
-        return;
-      }
+      // Wenn Operation läuft oder Kachel ausgegraut, Klick ignorieren
+      if (isOperationInProgress || button.classList.contains('grayed-out')) return;
 
       isOperationInProgress = true;
       toggleOverlay(true);
@@ -197,7 +241,15 @@ document.addEventListener('DOMContentLoaded', function () {
       } else if (button.classList.contains('selected')) {
         handleRemoveFromCart(productId, button, addToCartButton, loadingSpinner);
       }
-    });
+    }
+
+    // Mobile: ganzer Button klickbar
+    if (window.matchMedia("(max-width: 740px)").matches) {
+      button.addEventListener('click', handleClick);
+    } else {
+      // Desktop: nur der Add-to-Cart Button klickbar
+      addToCartButton.addEventListener('click', handleClick);
+    }
   });
 
   function toggleOverlay(show) {
@@ -213,17 +265,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function addToCart(productId) {
     return fetch('/cart/add.js', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        quantity: 1,
-        id: productId
-      })
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({quantity: 1, id: productId})
     }).then(response => {
-      if (!response.ok) {
-        throw new Error('Error adding product to cart.');
-      }
+      if (!response.ok) throw new Error('Error adding product to cart.');
       return response.json();
     });
   }
@@ -231,18 +276,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function removeFromCart(productId) {
     return fetch('/cart/update.js', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        updates: {
-          [productId]: 0
-        }
-      })
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({updates: {[productId]: 0}})
     }).then(response => {
-      if (!response.ok) {
-        throw new Error('Error removing product from cart.');
-      }
+      if (!response.ok) throw new Error('Error removing product from cart.');
       return response.json();
     });
   }
