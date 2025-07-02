@@ -90,7 +90,7 @@
           "message-1": {
             "type": "message",
             "settings": {
-              "text": "<p>SUMMER SALE: SAVE 20% OFF ON SELECTED PRODUCTS. <a href=\"/collections/skincare-products\" title=\"All Products\">SHOP NOW</a></p>",
+              "text": "<p>SUMMER SALE: SAVE 20% OFF ON SELECTED PRODUCTS. <a href=\"/collections/skincare-products\" title=\"All Products\">SHOP NOW<br/></a>20% off applied at the Checkout</p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
