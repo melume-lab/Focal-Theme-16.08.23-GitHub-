@@ -153,11 +153,11 @@
 
     
             {%- if block.settings.title_promo != blank -%}
-              <div class="promo-heading heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <h2 class="promo-heading heading h2" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.title_promo != blank-%}
                 {{- block.settings.title_promo -}}
               {%- endif -%}
-              </div>
+              </h2>
             {%- endif -%}
 
             {%- if block.settings.content != blank -%}
@@ -211,7 +211,7 @@
  
           </div>
            {%- if block.settings.content_notice!= blank -%}
-              <div class="promo-notice" style="color: {{ block.settings.text_color }}; letter-spacing: 1"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <div class="promo-notice" style="color: {{ block.settings.text_color }}; letter-spacing: 1; opacity: 0.8;"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content_notice != blank-%}
                 {{- block.settings.content_notice -}}
               {%- endif -%}
