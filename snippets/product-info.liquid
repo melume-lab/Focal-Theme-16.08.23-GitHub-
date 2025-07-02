@@ -98,6 +98,11 @@
         {%- endunless -%}
           
       </div>
+      {%- for tag in product.tags -%}
+        {%- if tag contains '__label2' -%}
+          <span class="label label--custom2" Style="margin-left: 10px;">{{ tag | remove: '__label2' | remove: ':' | strip }}</span>
+        {%- endif -%}
+      {%- endfor -%}
     </div>
 
     {%- if section.settings.show_taxes_included -%}
