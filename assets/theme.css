@@ -15281,6 +15281,12 @@ COSTUM ELEMENTS
 ----------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
+ @media (min-width: 1000px) {
+  .Margins {
+    margin: 0px!important;
+  }
+}
+
   /* Promo Font */
 
 .promo-heading {
