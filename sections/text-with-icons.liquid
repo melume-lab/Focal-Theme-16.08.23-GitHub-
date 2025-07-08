@@ -46,6 +46,17 @@
     --primary-button-text-color: {{ section.settings.button_text_color.red }}, {{ section.settings.button_text_color.green }}, {{ section.settings.button_text_color.blue }};
 
   }
+  .center-dot {
+    position: absolute;
+    bottom: -5px; /* Hälfte des Punktes nach unten, damit die Mitte genau auf der Linie liegt */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 1;
+  }
 </style>
 
 {%- comment -%}
@@ -70,8 +81,12 @@
         <div class="text-with-icons__list hide-scrollbar">
           {%- for block in section.blocks -%}
             <native-carousel-item {% unless forloop.first %}hidden{% endunless %} id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item" {{ block.shopify_attributes }}>
-              <div class="text-with-icons__icon-wrapper" style=" margin-bottom: 16px; border-bottom: {% if section.settings.borderbottom %}1px{% else %}0px{% endif %} solid rgb(var(--border-color));">
-
+              <div class="text-with-icons__icon-wrapper"
+                   style="position: relative; margin-bottom: 16px; border-bottom: {% if section.settings.borderbottom %}1px{% else %}0px{% endif %} solid rgb(var(--border-color));">
+              
+                {% if section.settings.show_dot %}
+                  <span class="center-dot"></span>
+                {% endif %}
 
                 {%- if block.settings.custom_icon != blank -%}
                   {% capture custom_icon_width %}{{ block.settings.custom_icon_width | times: 2 }}x{% endcapture %}
@@ -365,6 +380,12 @@
       "label": "Section underline",
       "info": "Show or hide section underline.",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_dot",
+      "label": "Schwarzer Punkt auf Border anzeigen",
+      "default": false
     },
     {
       "type": "text",
