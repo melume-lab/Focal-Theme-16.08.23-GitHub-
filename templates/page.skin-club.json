@@ -121,6 +121,7 @@
       "settings": {
         "borderbottom": false,
         "underline": false,
+        "show_dot": false,
         "maintitle": "SKIN CLUB BENEFITS",
         "button_text": "",
         "button_link": "shopify://collections/all",
@@ -137,7 +138,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/Illustration1_Small_49e787dc-5eb2-4d18-86f6-99177a512bd3.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "SIGN UP",
@@ -150,7 +150,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/Illustration2.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "EARN POINTS",
@@ -163,7 +162,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-email",
-            "custom_icon": "shopify://shop_images/Illustration3.png",
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "REDEEM POINTS",
@@ -178,9 +176,17 @@
         "1b8a6b1f-c7ac-4db7-9ff6-0ed979e07261",
         "1aa143d3-4b50-40a1-8e78-f4985535fd99"
       ],
+      "custom_css": [
+        "h3 {text-transform: uppercase;}",
+        "@media screen and (max-width: 999px) {.text-with-icons__item {padding: var(--container-gutter); }}",
+        "@media screen and (min-width: 1000px) {.text-with-icons__list {grid-gap: 0px; gap: 0px; margin-left: calc(var(--grid-column-width) + var(--grid-gap)); margin-right: calc(var(--grid-column-width) + var(--grid-gap)); grid-auto-columns: minmax(200px, 100%); }}",
+        "svg {display: none;}",
+        ".text-with-icons__icon-wrapper {margin-top: 10px;}"
+      ],
       "settings": {
         "borderbottom": true,
         "underline": false,
+        "show_dot": true,
         "maintitle": "THIS IS HOW IT WORKS",
         "button_text": "Sign up",
         "button_link": "#smile-home",
