@@ -382,7 +382,10 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942",
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h3 {text-transform: uppercase;}",
+        "section {margin-bottom: 0px;}"
+      ],
       "settings": {
         "subheading": "",
         "title": "WAYS TO EARN POINTS",
