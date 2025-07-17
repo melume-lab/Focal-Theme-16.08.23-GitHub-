@@ -10,6 +10,13 @@ button#op-button{
     display: none !important;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('{{ "Montserrat-VF.woff2" | asset_url }}') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 @media screen and (max-width: 740px) {
   .hidden-phone {
@@ -557,7 +564,7 @@ p b {
 .rte h7,
 .rte blockquote {
   display: block;
-  font-family: Montserrat;
+  font-family: Montserrat-Variable;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   color: rgb(var(--heading-color));
