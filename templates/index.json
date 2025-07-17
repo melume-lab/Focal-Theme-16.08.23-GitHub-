@@ -925,13 +925,13 @@
       "type": "rich-text",
       "custom_css": [
         "@media screen and (max-width: 741px) {.content-box {width: 100%; }}",
-        "@media screen and (min-width: 1000px) {h2 {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
-        "@media screen and (max-width: 999px) {h2 {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
+        "@media screen and (min-width: 1000px) {p {font-size: 20px; font-weight: 300; line-height: 1.5; }}",
+        "@media screen and (max-width: 999px) {p {font-size: 18px; font-weight: 300; line-height: 1.5; }}"
       ],
       "settings": {
         "subheading": "",
         "title": "",
-        "content": "<h2>Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our GMOD™ complex stemming from bio-science.</h2>",
+        "content": "<p>Good skincare starts with transparency and the truth. Using the power of plants and scientific advancements, the mechanisms and research behind the ingredients are most important to us. We connect the most trusted, proven to-work hyper actives at the most effective levels for the highest performances. To intensify the efficacy of all our ingredients in each product, we combine them with our GMOD™ complex stemming from bio-science.</p>",
         "button_text": "LEARN MORE",
         "button_link": "/pages/discover#shopify-section-template--18031973957896__9e9b6d51-14ba-4473-a795-4589958826b3",
         "open_new_tab": false,
