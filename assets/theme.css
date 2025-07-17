@@ -16831,7 +16831,7 @@ background-color: rgba(255, 255, 255, {{ block.settings.background_opacity }});
   .custom-font-style
   .rte h7 {
     font-size: 33px;
-    font-family: Cormorant;
+    font-family: Montserrat-Variable;
     line-height: 1.1538461538;
     letter-spacing: -0.4px;
   }
@@ -16841,7 +16841,7 @@ background-color: rgba(255, 255, 255, {{ block.settings.background_opacity }});
   .custom-font-style
   .rte h7 {
     font-size: 25px;
-    font-family: Cormorant;
+    font-family: Montserrat-Variable;
     line-height: 1.1538461538;
     letter-spacing: -0.4px;
   }
