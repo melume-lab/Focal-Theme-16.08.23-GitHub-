@@ -10050,7 +10050,7 @@ input:checked + .popover__choice-label::after,
 
 .mega-menu__title {
   margin-bottom: 16px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1200px) {
