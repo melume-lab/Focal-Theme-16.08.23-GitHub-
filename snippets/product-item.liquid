@@ -15,9 +15,9 @@
         {% assign tag_parts = tag | split: '__label' %}
         {% if tag contains '__label2' %}
           {% assign tag_parts = tag | split: '__label2' %}
-          <span class="label label--custom2">{{ tag_parts[0] }}</span>
-        {% else %}
           <span class="label label--custom">{{ tag_parts[0] }}</span>
+        {% else %}
+          <span class="label label--custom2">{{ tag_parts[0] }}</span>
         {% endif %}
       {%- endif -%}
     {%- endfor -%}
