@@ -17,32 +17,6 @@
         "page_width": "large"
       }
     },
-    "82b07965-e77e-4643-919a-3c033b286de2": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-        "h3 {font-size: 44px;}"
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "subheading": "",
-        "title": "The melumé skin club.",
-        "content": "<p>GET REWARDED FOR YOUR COMMITMENT FOR YOUR FAVORITE PRODUCT.<br/> AUTO‑REWARDED AND RECEIFE 30% OFF.</p>",
-        "html": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "full_width",
-        "text_width": "large",
-        "text_position": "middle_left",
-        "text_color": "#000000",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "f6ef4679-c978-4377-88ad-a80d09bcbc82": {
       "type": "image-with-text-block",
       "custom_css": [
@@ -77,8 +51,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/Gift_Icon_07cfc8ff-335c-42a4-8059-efa3315a0843.png",
-            "custom_icon_width": 125,
+            "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "BIRTHDAY SURPRISE",
             "content": "<p>RECEIVE A SPECIAL GIFT</p>",
@@ -90,7 +63,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-lock",
-            "custom_icon": "shopify://shop_images/Gruppe_14.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "PRIORITY ACCESS",
@@ -103,7 +75,6 @@
           "type": "item",
           "settings": {
             "icon": "picto-email",
-            "custom_icon": "shopify://shop_images/B-Day_Icon_09b3d6b3-b947-46a4-aaa9-a406f2ab7fb8.png",
             "custom_icon_width": 125,
             "icontitle": "Icon title",
             "title": "TELL FRIENDS AND FAMILY",
@@ -118,11 +89,16 @@
         "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-2",
         "template--17116456976664__5f755e99-c4a3-4002-b303-c379c8c8fb62-167543172245a887ef-3"
       ],
+      "custom_css": [
+        "h3 {text-transform: uppercase;}",
+        ".vertical-breather {padding: 0px;}",
+        ".text-with-icons__icon-wrapper {display: none;}"
+      ],
       "settings": {
         "borderbottom": false,
         "underline": false,
         "show_dot": false,
-        "maintitle": "SKIN CLUB BENEFITS",
+        "maintitle": "",
         "button_text": "",
         "button_link": "shopify://collections/all",
         "background": "#000000",
@@ -153,7 +129,7 @@
             "custom_icon_width": 250,
             "icontitle": "Icon title",
             "title": "EARN POINTS",
-            "content": "<p>RECEIVE POINTS<br/>EVERY TIME YOU BUY</p>",
+            "content": "<p>RECEIVE POINTS<br/>EVERY TIME YOU BUY<br/></p>",
             "html": "",
             "subheading": ""
           }
@@ -187,13 +163,226 @@
         "borderbottom": true,
         "underline": false,
         "show_dot": true,
-        "maintitle": "THIS IS HOW IT WORKS",
+        "maintitle": "This is how it works",
         "button_text": "Sign up",
         "button_link": "#smile-home",
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "#000000",
         "button_text_color": "#ffffff"
+      }
+    },
+    "promotion_blocks_pPn4wB": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "product_reward_34imQ9": {
+          "type": "product-reward",
+          "settings": {
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Roller_frei.png",
+            "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": true,
+            "subheading": "3500 Points",
+            "title": "CONTOURING & SHAPING ROLLER",
+            "link_text": "",
+            "link_url": "",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "product_reward_LmDz4k": {
+          "type": "product-reward",
+          "settings": {
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Peel_Cloth_Frei.png",
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
+            "subheading": "1500 Points",
+            "title": "PHENOMENAL PEEL CLOTH",
+            "link_text": "f",
+            "link_url": "",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "product_reward_AYnjcC": {
+          "type": "product-reward",
+          "settings": {
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Balmy_Oily_Cleanser_frei.png",
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": false,
+            "dividing_line_740": true,
+            "subheading": "3500 Points",
+            "title": "CONTOURING & SHAPING ROLLER",
+            "link_text": "f",
+            "link_url": "",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "image_WHETeT": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
+            "subheading": "500 Points",
+            "title": "5€ Off",
+            "link_text": "",
+            "link_text_2": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#282828",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_gYbdkt": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": false,
+            "dividing_line_740": true,
+            "subheading": "1000 Points",
+            "title": "10€ Off",
+            "link_text": "",
+            "link_text_2": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#282828",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_M6yPHJ": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
+            "subheading": "2000 Points",
+            "title": "20€ Off",
+            "link_text": "",
+            "link_text_2": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#282828",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_N4Vndm": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": true,
+            "subheading": "3000 Points",
+            "title": "30€ Off",
+            "link_text": "",
+            "link_text_2": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#282828",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_QK63KB": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
+            "subheading": "4000 Points",
+            "title": "40€ Off",
+            "link_text": "",
+            "link_text_2": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#282828",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_LiAbqP": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": false,
+            "dividing_line_740": true,
+            "subheading": "5000 Points",
+            "title": "50€ Off",
+            "link_text": "",
+            "link_text_2": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f5f0ea",
+            "text_color": "#282828",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "product_reward_34imQ9",
+        "product_reward_LmDz4k",
+        "product_reward_AYnjcC",
+        "image_WHETeT",
+        "image_gYbdkt",
+        "image_M6yPHJ",
+        "image_N4Vndm",
+        "image_QK63KB",
+        "image_LiAbqP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".promotion-block {margin: 0px; padding-left: 0px; padding-right: 0px;}",
+        "@media screen and (max-width: 740px) {.promotion-block {padding: 0 32px 0 32px; } .text-container {padding-bottom: 32px; } img {padding-top: 25px; }}"
+      ],
+      "name": "Promotion blocks",
+      "settings": {
+        "subheading": "",
+        "title": "REWARDS",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "#f5f0ea",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889": {
@@ -205,6 +394,9 @@
             "image": "shopify://shop_images/Skin_Point_Tiles_500x500_1.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "SKINCARE LOVERS: CREATE AN ACCOUNT",
             "title": "200 Points",
             "link_text": "",
@@ -221,11 +413,14 @@
         "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_2.jpg",
+            "image": "shopify://shop_images/Rewards_purchase.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "MAKE A PURCHASE",
-            "title": "$ 1 = 5 Points",
+            "title": "1 € = 5 Points",
             "link_text": "",
             "link_text_2": "",
             "link_url": "#joy-open",
@@ -243,6 +438,9 @@
             "image": "shopify://shop_images/Skin_Point_Tiles_500x500_3.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "HAPPY BIRTHDAY",
             "title": "A gift from melumé",
             "link_text": "",
@@ -259,9 +457,12 @@
         "26483322-5887-4527-8b70-7e4507b5087c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_4.jpg",
+            "image": "shopify://shop_images/Rewards_likeonsocial.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "LIKE US ON TikTok, Instagram, Facebook",
             "title": "50 Points",
             "link_text": "",
@@ -278,9 +479,12 @@
         "2722e8de-b43c-44b8-9f83-4ac00d950ffb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_5_99707650-1091-4d09-a032-ac3a5d4a0685.jpg",
+            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_5_b0dd25e5-4bf5-4fdc-b665-2369f6278331.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "Tell a friend",
             "title": "1000 Points",
             "link_text": "",
@@ -297,9 +501,12 @@
         "fe66ab8e-505d-418d-aefa-7ecdf6b684bf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_6.jpg",
+            "image": "shopify://shop_images/Rewards_purchaseproduct.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "Review your purchased product ",
             "title": "250 Points",
             "link_text": "",
@@ -316,9 +523,12 @@
         "370b0047-e8e6-4e64-adf4-c9f19428d125": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_7.jpg",
+            "image": "shopify://shop_images/Rewards_followfacebook.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "Follow us on Facebook",
             "title": "100 Points",
             "link_text": "",
@@ -335,9 +545,12 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_8.jpg",
+            "image": "shopify://shop_images/Rewards_followinstagram.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "Follow us on Instagram",
             "title": "100 Points",
             "link_text": "",
@@ -354,9 +567,12 @@
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_9.jpg",
+            "image": "shopify://shop_images/Rewards_tiktokfollow.jpg",
             "highlight": false,
             "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": false,
+            "dividing_line_740": false,
             "subheading": "Follow Us on TikTok",
             "title": "100 Points",
             "link_text": "",
@@ -388,69 +604,14 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "WAYS TO EARN POINTS",
-        "h_value": 3,
+        "title": "Ways to earn points",
         "section_size": "large",
         "stack_on_mobile": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "f3e96336-c8fc-4f1a-ae70-8bab84b977ae": {
-      "type": "MS_promotion-icons",
-      "blocks": {
-        "template--17779321209099__f3e96336-c8fc-4f1a-ae70-8bab84b977ae-1683117542b564392a-0": {
-          "type": "image",
-          "settings": {
-            "highlight": false,
-            "subheading": "",
-            "title": "Skin Club Friends",
-            "sub-promotion": "Start here",
-            "promotion-title": "10 points for 10 €",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#000000",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        },
-        "264a7f7a-bca0-4f98-87dd-93f320df1d85": {
-          "type": "image",
-          "settings": {
-            "highlight": false,
-            "subheading": "",
-            "title": "Skin Club Lover",
-            "sub-promotion": "From 5000 points",
-            "promotion-title": "12 points for 1 €",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "middle_center",
-            "background": "#f7f8fd",
-            "text_color": "#000000",
-            "button_background": "#ffffff",
-            "button_text_color": "#1e316a"
-          }
-        }
-      },
-      "block_order": [
-        "template--17779321209099__f3e96336-c8fc-4f1a-ae70-8bab84b977ae-1683117542b564392a-0",
-        "264a7f7a-bca0-4f98-87dd-93f320df1d85"
-      ],
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "Skin Club Membership",
-        "section_size": "large",
-        "stack_on_mobile": true,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_with_text_block_GiVN6C": {
+    "image_with_text_block_ebY4nV": {
       "type": "image-with-text-block",
       "custom_css": [
         ".image-with-text-block__content {display: none;}"
@@ -458,7 +619,7 @@
       "name": "Image with text block",
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify://shop_images/SC_Footer_1.jpg",
+        "image": "shopify://shop_images/SC_Footer.jpg",
         "mobile_image": "shopify://shop_images/Rewards_Footer.jpg",
         "subheading": "",
         "title": "",
@@ -479,12 +640,11 @@
   },
   "order": [
     "main",
-    "82b07965-e77e-4643-919a-3c033b286de2",
     "f6ef4679-c978-4377-88ad-a80d09bcbc82",
     "5f755e99-c4a3-4002-b303-c379c8c8fb62",
     "b65a2977-9109-494c-a091-856c2418db7e",
+    "promotion_blocks_pPn4wB",
     "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889",
-    "f3e96336-c8fc-4f1a-ae70-8bab84b977ae",
-    "image_with_text_block_GiVN6C"
+    "image_with_text_block_ebY4nV"
   ]
 }
