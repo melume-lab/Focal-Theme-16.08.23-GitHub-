@@ -413,7 +413,7 @@
         "5b501e4f-3ebd-4869-bf8d-b0bd00e3dd3c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_purchase.jpg",
+            "image": "shopify://shop_images/Rewards_2.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -457,7 +457,7 @@
         "26483322-5887-4527-8b70-7e4507b5087c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_likeonsocial.jpg",
+            "image": "shopify://shop_images/Rewards_4.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -479,7 +479,7 @@
         "2722e8de-b43c-44b8-9f83-4ac00d950ffb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_5_b0dd25e5-4bf5-4fdc-b665-2369f6278331.jpg",
+            "image": "shopify://shop_images/Rewards_5.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -501,7 +501,7 @@
         "fe66ab8e-505d-418d-aefa-7ecdf6b684bf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_purchaseproduct.jpg",
+            "image": "shopify://shop_images/Rewards_6.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -523,7 +523,7 @@
         "370b0047-e8e6-4e64-adf4-c9f19428d125": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_followfacebook.jpg",
+            "image": "shopify://shop_images/Rewards_7.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -545,7 +545,7 @@
         "08e00919-c07c-4f60-b17d-19c6a3922942": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_followinstagram.jpg",
+            "image": "shopify://shop_images/Rewards_8.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -567,7 +567,7 @@
         "150f6ec1-8197-4ad3-9d7b-a9d4bf96815c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Rewards_tiktokfollow.jpg",
+            "image": "shopify://shop_images/Rewards_9.jpg",
             "highlight": false,
             "reload_enabled": true,
             "custom_dividing_line": false,
@@ -619,7 +619,7 @@
       "name": "Image with text block",
       "settings": {
         "reveal_on_scroll": false,
-        "image": "shopify://shop_images/SC_Footer.jpg",
+        "image": "shopify://shop_images/SC_Footer_1.jpg",
         "mobile_image": "shopify://shop_images/Rewards_Footer.jpg",
         "subheading": "",
         "title": "",
