@@ -67,57 +67,93 @@
     }
   {%- endfor -%}
 
-.promotion-block {
-    display: block;
-    align-content: center;
-}
-  
-@media screen and (min-width: 1200px) {
-  .custom-button-wrapper {
-    display: block;
-    align-content: center;
-    position: absolute;
-    margin-top: 60px;
-    margin-bottom: 0px;
-    text-align:center;
-    width: 100%;
-    Height: 100%;
-  }
-}
+    .promotion-block {
+        display: block;
+        align-content: center;
+    }
+      
+    @media screen and (min-width: 1200px) {
+      .custom-button-wrapper {
+        display: block;
+        align-content: center;
+        position: absolute;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        text-align:center;
+        width: 100%;
+        Height: 100%;
+      }
+    }
+    
+    @media screen and (max-width: 1199px) {
+      .custom-button-wrapper {
+        display: block;
+        align-content: center;
+        position: absolute;
+        margin-top: 35px;
+        margin-bottom: 0px;
+        text-align:center;
+        width: 100%;
+        Height: 100%;
+      }
+    }
+    
+    @media screen and (max-width: 740px) {
+      .custom-button-wrapper {
+        display: block;
+        align-content: center;
+        position: absolute;
+        margin-top: 35px;
+        margin-bottom: 0px;
+        text-align:center;
+        width: 100%;
+        Height: 100%;
+      }
+    }
+    
+    .selection-container {
+      position: relative;
+      height: auto;
+      width: 100%;
+      margin-top: 0px;
+      overflow: hidden;
+    }
+    
+      .custom-pr-sizing {
+        padding: 25px;
+      }
+    
+    
+    /* === Desktop: nur dort zeigen === */
+    .has-border-left {
+      border-left: 1px solid black;
+    }
+    
+    /* Unterhalb 999px: Desktop-Klasse neutralisieren, Tablet-Klasse anwenden */
+    @media screen and (max-width: 999px) {
+      .has-border-left {
+        border-left: unset !important;
+      }
+    
+      .has-border-left-999 {
+        border-left: 1px solid black !important;
+      }
+    }
+    
+    /* Unterhalb 740px: nur untere Linie */
+    @media screen and (max-width: 740px) {
+      .has-border-left,
+      .has-border-left-999 {
+        border-left: unset !important;
+      }
+    
+      .has-border-bottom-740 {
+        border-bottom: 1px solid black !important;
+      }
+    }
 
-@media screen and (max-width: 1199px) {
-  .custom-button-wrapper {
-    display: block;
-    align-content: center;
-    position: absolute;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-align:center;
-    width: 100%;
-    Height: 100%;
-  }
-}
 
-@media screen and (max-width: 740px) {
-  .custom-button-wrapper {
-    display: block;
-    align-content: center;
-    position: absolute;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-align:center;
-    width: 100%;
-    Height: 100%;
-  }
-}
 
-.selection-container {
-  position: relative;
-  height: auto;
-  width: 100%;
-  margin-top: 0px;
-  overflow: hidden;
-}
   
 </style>
 
@@ -131,7 +167,7 @@
           {%- endif -%}
 
           {%- if section.settings.title != blank -%}
-            <h{{ section.settings.h_value }} class="heading h2">{{ section.settings.title | escape }}</h{{ section.settings.h_value }}>
+            <h3 class="heading h2">{{ section.settings.title | escape }}</h3>
           {%- endif -%}
         </header>
       {%- endif -%}
@@ -156,7 +192,12 @@
                   {%- endif -%}
                   
 
-                  <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
+                <div class="promotion-block__content-wrapper text-container {% if block.settings.custom_dividing_line %} has-border-left{% endif %}
+                    {% if block.settings.dividing_line_999 %} has-border-left-999{% endif %}
+                    {% if block.settings.dividing_line_740 %} has-border-bottom-740{% endif %}"
+                    style="{% if block.settings.text_position contains 'center' %}text-align: center;{% elsif block.settings.text_position contains 'right' %}text-align: end;{% endif %}">
+
+
                     {%- if block.settings.subheading != blank -%}
                       <p class="heading heading--small">{{ block.settings.subheading | escape }}</p>
                     {%- endif -%}
@@ -190,9 +231,7 @@
                   </div>
                     
                   </div>
-
-                    
-                  
+                                    
                 {%- endcapture -%}
 
                 {%- if block.settings.link_url != blank -%}
@@ -218,11 +257,9 @@
                   </div>
                 {%- endif -%}
 
-
               {%- when 'selection' -%}
                 {%- capture block_content -%}
-
-                  
+                 
                   {%- if block.settings.image != blank -%}
                     {%- assign block_column_ratio = 3 | at_most: section.blocks.size -%}
                     {%- if block.settings.highlight -%}
@@ -234,10 +271,8 @@
                              loading="lazy"
                              sizes="(max-width: 740px) calc(100vw - 24px * 2), calc(min(100vw, 1560px) / {{ block_column_ratio }} - 20px * {{ block_column_ratio | minus: 1 }})"
                              {% render 'image-attributes', image: block.settings.image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
-                      </div>
+                       </div>
                     {%- endif -%}
-                  
-                  
 
                   <div class="content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}; margin-top: 20px; margin-bottom: 40px;">
                     {%- if block.settings.subheading != blank -%}
@@ -268,15 +303,10 @@
                         </div>
                       {%- endif -%}
                     {%- endif -%}
-
-                    
+                   
+                    </div>           
                   </div>
-                    
-                  </div>
-
-                    
-                  
-                {%- endcapture -%}
+               {%- endcapture -%}
 
                 {%- if block.settings.link_url != blank -%}
                   <a id="block-{{ section.id }}-{{ block.id }}" href="{{ block.settings.link_url }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }} {% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>
@@ -301,16 +331,16 @@
                   </div>
                 {%- endif -%}
 
-
-
               {%- when 'product-reward' -%}
-                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--product-reward {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }} style="padding: 25px;">
-                  
-                    
-                    <div class="promotion-block__content-wrapper text-container" style="{% if block.settings.text_position contains 'center' %}text-align: center{% elsif block.settings.text_position contains 'right' %}text-align: end{% endif %}">
+                <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--product-reward {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} custom-pr-sizing" {{ block.shopify_attributes }}>
+  
+                    <div class="promotion-block__content-wrapper text-container {% if block.settings.custom_dividing_line %} has-border-left{% endif %}
+                    {% if block.settings.dividing_line_999 %} has-border-left-999{% endif %}
+                    {% if block.settings.dividing_line_740 %} has-border-bottom-740{% endif %}"
+                    style="{% if block.settings.text_position contains 'center' %}text-align: center;{% elsif block.settings.text_position contains 'right' %}text-align: end;{% endif %}">
 
                       {%- if block.settings.reward_image != blank -%}
-                    <img loading="lazy" style="max-width: 60%; margin: auto;" {% render 'image-attributes', image: block.settings.reward_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
+                    <img loading="lazy" style="max-width: 170px; width: 50%; margin: auto;" {% render 'image-attributes', image: block.settings.reward_image, sizes: '200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1800,2000,2200,2400,2600' %}>
                     {%- endif -%}
                       
                     {%- if block.settings.subheading != blank -%}
@@ -318,24 +348,25 @@
                     {%- endif -%}
 
                     {%- if block.settings.title != blank -%}
-                      <p class="heading h6">{{ block.settings.title | escape | newline_to_br }}</p>
+                      <p class="heading h2">{{ block.settings.title | escape | newline_to_br }}</p>
                     {%- endif -%}
+
+                      {%- comment -%}
                   
                     {%- if block.settings.link_text != blank -%}
                       <div class="button-wrapper" style="margin: 0px;">
                         
-                        <a href="{{ block.settings.link_url }}" class="button button--small button--primary" style="background-image: none;"{% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>{{ block.settings.link_text }} </a>
+                        <a href="{{ block.settings.link_url }}" class="button button--small button--primary" style="background-image: none; background-color: #fff; color: #000;"{% if block.settings.reload_enabled %}onclick="delayedReload()"{% else %}onclick="noAction()"{% endif %}>{{ block.settings.link_text }} </a>
                       </div>
                     {%- else -%}
                   <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }} image-zoom" {{ block.shopify_attributes }}>
                     {{- block_content -}}
                   </div>
                 {%- endif -%}
-
+ {%- endcomment -%}
                   </div>
+                     
                 </div>
-
-              
                 
                   <script>
                     function delayedReload() {
@@ -348,11 +379,6 @@
                       // This function does nothing
                     }
                   </script>
-
-                
-
-
-              
 
               {%- when 'quote' -%}
                 <div id="block-{{ section.id }}-{{ block.id }}" class="promotion-block promotion-block--quote {% if block.settings.highlight %}promotion-block--highlight{% endif %} {% if section.blocks.size == 3 %}promotion-block--compact{% endif %} promotion-block--{{ section.settings.section_size }}" {{ block.shopify_attributes }}>
@@ -523,16 +549,6 @@
       "default": "Promotion blocks"
     },
     {
-      "type": "range",
-      "id": "h_value",
-      "label": "Define H-Tag",
-      "min": 1,
-      "max": 5,
-      "step": 1,
-      "unit": "Tag",
-      "default": 3
-    },
-    {
       "type": "select",
       "id": "section_size",
       "label": "Block height",
@@ -594,11 +610,29 @@
           "default": false
         },
         {
-      "type": "checkbox",
-      "id": "reload_enabled",
-      "label": "Enable Reload",
-      "default": true
-    },
+          "type": "checkbox",
+          "id": "reload_enabled",
+          "label": "Enable Reload",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_dividing_line",
+          "label": "Show left border on desktop",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "dividing_line_999",
+          "label": "Show left border below 999px screen width",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "dividing_line_740",
+          "label": "Show bottom border below 740px screen width",
+          "default": false
+        },
         {
           "type": "text",
           "id": "subheading",
@@ -865,6 +899,24 @@
           "id": "reload_enabled",
           "label": "Enable Reload",
           "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_dividing_line",
+          "label": "Show left border on desktop",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "dividing_line_999",
+          "label": "Show left border below 999px screen width",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "dividing_line_740",
+          "label": "Show bottom border below 740px screen width",
+          "default": false
         },
         {
           "type": "text",
