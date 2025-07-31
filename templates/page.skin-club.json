@@ -371,9 +371,12 @@
         "image_LiAbqP"
       ],
       "custom_css": [
-        ".promotion-block {margin: 0px; padding-left: 0px; padding-right: 0px;}",
-        "@media screen and (max-width: 740px) {.promotion-block {padding: 0 32px 0 32px; } .text-container {padding-bottom: 32px; } img {padding-top: 25px; }}",
-        ".vertical-breather {padding-bottom: 0px;}"
+        ".promotion-block {margin: 0px; padding-left: 0px; padding-right: 0px; min-height: auto;}",
+        ".heading {margin-bottom: 0px;}",
+        "@media screen and (min-width: 741px) {.promotion-block__content-wrapper {padding: 0 20px 0 20px; }}",
+        "@media screen and (max-width: 740px) {.promotion-block {padding: 32px; } .text-container {padding-bottom: 32px; } img {padding-top: 25px; }}",
+        ".custom-button-wrapper {display: none;}",
+        ".promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)); margin-right: calc(var(--grid-column-width) + var(--grid-gap));}"
       ],
       "name": "Promotion blocks",
       "settings": {
