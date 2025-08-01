@@ -47,15 +47,71 @@
     "0e4998ae-0f7e-40f1-a6f0-ce2665aa6889": {
       "type": "promotion-blocks",
       "blocks": {
-        "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
-          "type": "image",
+        "product_reward_BpAKXY": {
+          "type": "product-reward",
           "settings": {
-            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_Clean_1.jpg",
-            "highlight": false,
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Roller_frei.png",
             "reload_enabled": true,
             "custom_dividing_line": false,
             "dividing_line_999": false,
-            "dividing_line_740": false,
+            "dividing_line_740": true,
+            "subheading": "3500 Points",
+            "title": "CONTOURING FACIAL ROLLER",
+            "link_text": "REDEEM",
+            "link_url": "#joy-open",
+            "text_position": "middle_center",
+            "background": "#f5f2f0",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "product_reward_JKqHYE": {
+          "type": "product-reward",
+          "settings": {
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Peel_Cloth_Frei.png",
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
+            "subheading": "1500 Points",
+            "title": "PHENOMENAL MICRO PEELING CLOTH",
+            "link_text": "REDEEM",
+            "link_url": "#joy-open",
+            "text_position": "middle_center",
+            "background": "#f5f2f0",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "product_reward_DRK7P7": {
+          "type": "product-reward",
+          "settings": {
+            "reward_image": "shopify://shop_images/00_Melume_Pack_Balmy_Oily_Cleanser_frei.png",
+            "reload_enabled": true,
+            "custom_dividing_line": true,
+            "dividing_line_999": false,
+            "dividing_line_740": true,
+            "subheading": "3500 Points",
+            "title": "BALMY OILY MILKY CLEANSER",
+            "link_text": "REDEEM",
+            "link_url": "#joy-open",
+            "text_position": "middle_center",
+            "background": "#f5f2f0",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "reload_enabled": true,
+            "custom_dividing_line": false,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
             "subheading": "500 Points",
             "title": "5 $ Off",
             "link_text": "",
@@ -63,7 +119,7 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#ffffff",
+            "background": "#f5f2f0",
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff"
@@ -74,9 +130,9 @@
           "settings": {
             "highlight": false,
             "reload_enabled": true,
-            "custom_dividing_line": false,
+            "custom_dividing_line": true,
             "dividing_line_999": false,
-            "dividing_line_740": false,
+            "dividing_line_740": true,
             "subheading": "1000 Points",
             "title": "10 $ Off",
             "link_text": "",
@@ -84,7 +140,7 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#ffffff",
+            "background": "#f5f2f0",
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff"
@@ -93,12 +149,11 @@
         "d4d4b41c-9f66-4f6d-9e83-e1e8894a8f89": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_Clean_3.jpg",
             "highlight": false,
             "reload_enabled": true,
-            "custom_dividing_line": false,
-            "dividing_line_999": false,
-            "dividing_line_740": false,
+            "custom_dividing_line": true,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
             "subheading": "2000 Points",
             "title": "20 $ Off",
             "link_text": "",
@@ -106,7 +161,7 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#ffffff",
+            "background": "#f5f2f0",
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff"
@@ -119,7 +174,7 @@
             "reload_enabled": true,
             "custom_dividing_line": false,
             "dividing_line_999": false,
-            "dividing_line_740": false,
+            "dividing_line_740": true,
             "subheading": "3000 Points",
             "title": "30 $ Off",
             "link_text": "",
@@ -127,7 +182,7 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#ffffff",
+            "background": "#f5f2f0",
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff"
@@ -136,12 +191,11 @@
         "df5f8365-a5f9-4fea-a63e-be537ab3a8e2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Skin_Point_Tiles_500x500_Clean_5.jpg",
             "highlight": false,
             "reload_enabled": true,
-            "custom_dividing_line": false,
-            "dividing_line_999": false,
-            "dividing_line_740": false,
+            "custom_dividing_line": true,
+            "dividing_line_999": true,
+            "dividing_line_740": true,
             "subheading": "4000 Points",
             "title": "40 $ Off",
             "link_text": "",
@@ -149,7 +203,7 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#ffffff",
+            "background": "#f5f2f0",
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff"
@@ -160,7 +214,7 @@
           "settings": {
             "highlight": false,
             "reload_enabled": true,
-            "custom_dividing_line": false,
+            "custom_dividing_line": true,
             "dividing_line_999": false,
             "dividing_line_740": false,
             "subheading": "5000 Points",
@@ -170,64 +224,7 @@
             "link_url": "#joy-open",
             "link_style": "button",
             "text_position": "middle_center",
-            "background": "#ffffff",
-            "text_color": "#000000",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "product_reward_BpAKXY": {
-          "type": "product-reward",
-          "settings": {
-            "reward_image": "shopify://shop_images/00_Melume_Pack_Roller_frei.png",
-            "reload_enabled": true,
-            "custom_dividing_line": false,
-            "dividing_line_999": false,
-            "dividing_line_740": false,
-            "subheading": "3500 Points",
-            "title": "CONTOURING FACIAL ROLLER",
-            "link_text": "REDEEM",
-            "link_url": "#joy-open",
-            "text_position": "middle_center",
-            "background": "#ffffff",
-            "text_color": "#000000",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "product_reward_JKqHYE": {
-          "type": "product-reward",
-          "settings": {
-            "reward_image": "shopify://shop_images/00_Melume_Pack_Peel_Cloth_Frei.png",
-            "reload_enabled": true,
-            "custom_dividing_line": false,
-            "dividing_line_999": false,
-            "dividing_line_740": false,
-            "subheading": "1500 Points",
-            "title": "PHENOMENAL MICRO PEELING CLOTH",
-            "link_text": "REDEEM",
-            "link_url": "#joy-open",
-            "text_position": "middle_center",
-            "background": "#ffffff",
-            "text_color": "#000000",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff"
-          }
-        },
-        "product_reward_DRK7P7": {
-          "type": "product-reward",
-          "settings": {
-            "reward_image": "shopify://shop_images/00_Melume_Pack_Balmy_Oily_Cleanser_frei.png",
-            "reload_enabled": true,
-            "custom_dividing_line": false,
-            "dividing_line_999": false,
-            "dividing_line_740": false,
-            "subheading": "3500 Points",
-            "title": "BALMY OILY MILKY CLEANSER",
-            "link_text": "REDEEM",
-            "link_url": "#joy-open",
-            "text_position": "middle_center",
-            "background": "#ffffff",
+            "background": "#f5f2f0",
             "text_color": "#000000",
             "button_background": "#000000",
             "button_text_color": "#ffffff"
@@ -235,27 +232,29 @@
         }
       },
       "block_order": [
+        "product_reward_BpAKXY",
+        "product_reward_JKqHYE",
+        "product_reward_DRK7P7",
         "b0f6fd78-8abf-4dc0-9a9d-80dc6688d32c",
         "96a08da5-6fe6-4233-831c-f6eb9756775d",
         "d4d4b41c-9f66-4f6d-9e83-e1e8894a8f89",
         "b4cadcb8-9c12-4f5d-9b0f-109c9fd75da1",
         "df5f8365-a5f9-4fea-a63e-be537ab3a8e2",
-        "df3e4d57-8b1f-48de-9b28-8bddb595c559",
-        "product_reward_BpAKXY",
-        "product_reward_JKqHYE",
-        "product_reward_DRK7P7"
+        "df3e4d57-8b1f-48de-9b28-8bddb595c559"
       ],
       "custom_css": [
-        "h1 {text-transform: uppercase;}",
-        "@media screen and (min-width: 741px) {.promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)) !important; margin-right: calc(var(--grid-column-width) + var(--grid-gap)) !important; }}",
-        ".promotion-block {border: 1.2px solid #d0d0d0;}"
+        ".promotion-block {margin: 0px; padding-left: 0px; padding-right: 0px; min-height: auto;}",
+        ".heading {margin-bottom: 0px;}",
+        "@media screen and (min-width: 741px) {.promotion-block__content-wrapper {padding: 0 20px 0 20px; }}",
+        "@media screen and (max-width: 740px) {.promotion-block {padding: 32px; } .text-container {padding-bottom: 32px; } img {padding-top: 25px; }}",
+        ".custom-button-wrapper {display: none;}"
       ],
       "settings": {
         "subheading": "",
         "title": "Rewards",
         "section_size": "large",
         "stack_on_mobile": true,
-        "background": "rgba(0,0,0,0)",
+        "background": "#f5f2f0",
         "text_color": "rgba(0,0,0,0)"
       }
     }
