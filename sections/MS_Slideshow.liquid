@@ -3,19 +3,30 @@
     --progress-bar-color: {{ section.blocks.first.settings.text_color.red }}, {{ section.blocks.first.settings.text_color.green }}, {{ section.blocks.first.settings.text_color.blue }};
     --section-autoplay-duration: {% if section.settings.autoplay %}{{ section.settings.cycle_speed }}s{% else %}0s{% endif %};
     --section-animation-play-state: paused;
-    background-color: {{ section.settings.background }}; /* Allows to set a placeholder color while loading */
+    background-color: {{ section.settings.background }};
   }
 
   {%- for block in section.blocks -%}
-    {%- assign text_position = block.settings.text_position | split: '_' | first -%}
 
-    {%- case text_position -%}
+    {%- assign desktop_vertical = block.settings.text_position_desktop | split: '_' | first -%}
+    {%- assign mobile_vertical = block.settings.text_position_mobile | split: '_' | first -%}
+
+    {%- case desktop_vertical -%}
       {%- when 'top' -%}
-        {%- assign section_items_alignment = 'flex-start' -%}
+        {%- assign desktop_alignment = 'flex-start' -%}
       {%- when 'middle' -%}
-        {%- assign section_items_alignment = 'center' -%}
+        {%- assign desktop_alignment = 'center' -%}
       {%- when 'bottom' -%}
-        {%- assign section_items_alignment = 'flex-end' -%}
+        {%- assign desktop_alignment = 'flex-end' -%}
+    {%- endcase -%}
+
+    {%- case mobile_vertical -%}
+      {%- when 'top' -%}
+        {%- assign mobile_alignment = 'flex-start' -%}
+      {%- when 'middle' -%}
+        {%- assign mobile_alignment = 'center' -%}
+      {%- when 'bottom' -%}
+        {%- assign mobile_alignment = 'flex-end' -%}
     {%- endcase -%}
 
     #block-{{ section.id }}-{{ block.id }} {
@@ -23,13 +34,85 @@
       --text-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
       --primary-button-background: {{ block.settings.button_background.red }}, {{ block.settings.button_background.green }}, {{ block.settings.button_background.blue }};
       --primary-button-text-color: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }};
-
-      --section-blocks-alignment: {{ section_items_alignment }};
       --section-blocks-overlay-color: {{ block.settings.overlay_color.red }}, {{ block.settings.overlay_color.green }}, {{ block.settings.overlay_color.blue }};
       --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
     }
+
+    /* Desktop Alignment */
+    @media screen and (min-width: 750px) {
+      .slideshow__text-wrapper--{{ block.settings.text_position_desktop }}.block-{{ block.id }} {
+        align-items: {{ desktop_alignment }};
+      }
+    }
+
+    /* Mobile Alignment */
+    @media screen and (max-width: 749px) {
+      .slideshow__text-wrapper--{{ block.settings.text_position_mobile }}.block-{{ block.id }} {
+        align-items: {{ mobile_alignment }};
+      }
+    }
+
   {%- endfor -%}
+
+  .gradient-overlay {
+    display: none;
+  }
+
+  @media screen and (max-width: 999px) {
+    .gradient-overlay {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 50%;
+      margin: 0 auto auto auto;
+    }
+
+    .promo-content {
+      font-size: 18px !important;
+      line-height: 25px;
+      font-weight: 300;
+      margin: -10px 0 -15px 0;
+    }
+
+    .hide-on-mobile { display: none !important; }
+    .show-on-mobile { display: block !important; height: 50%}
+
+  .mobile-content-adjustment {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+  }
+
+  @media screen and (min-width: 1000px) {
+    .hide-on-mobile { display: block !important; }
+    .show-on-mobile { display: none !important; }
+  
+
+  .slideshow__text-wrapper--bottom {
+      position: absolute;
+      bottom: 0;
+    }
+   .slideshow__text-wrapper--middle {
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+   .slideshow__text-wrapper--top {
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  
+
+.slideshow__slide-inner {
+  position: relative; /* WICHTIG: gibt Kontext für absolute Positionierung */
+}
+
 </style>
+
 
 <section class="section section--flush">
   <slide-show reveal-on-scroll {% if section.settings.autoplay %}auto-play{% endif %} transition-type="{{ section.settings.transition_type | escape }}" class="slideshow slideshow--{{ section.settings.section_height }}">
@@ -64,7 +147,7 @@
 
         {%- capture slide_content -%}
           <div class="slideshow__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-            {%- assign video_source_url = block.settings.video_source_url -%}
+          {%- assign video_source_url = block.settings.video_source_url -%}
             {%- if video_source_url != blank -%}
                 <video preload="auto" id="myVideo" mute autoplay loop style="width: 100%; height: 100%; object-fit: cover; align-content: center; overflow: hidden;">
                     <source src="{{ video_source_url }}" type="video/mp4" />
@@ -128,6 +211,50 @@
             </div>
           {%- endif -%}
 
+
+          {%- comment -%}
+          ----------------------------------------------------------------------------------------------------------------
+          GRADIENT
+          ----------------------------------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          
+          {% assign hex = block.settings.gradient_color | remove: "#" | upcase %}
+          
+          {% assign hex_r = hex | slice: 0, 2 %}
+          {% assign hex_g = hex | slice: 2, 2 %}
+          {% assign hex_b = hex | slice: 4, 2 %}
+          
+          {% assign r1 = hex_r | slice: 0, 1 %}
+          {% assign r2 = hex_r | slice: 1, 1 %}
+          {% assign g1 = hex_g | slice: 0, 1 %}
+          {% assign g2 = hex_g | slice: 1, 1 %}
+          {% assign b1 = hex_b | slice: 0, 1 %}
+          {% assign b2 = hex_b | slice: 1, 1 %}
+          
+          {% capture r1_val %}{% case r1 %}{% when '0' %}0{% when '1' %}1{% when '2' %}2{% when '3' %}3{% when '4' %}4{% when '5' %}5{% when '6' %}6{% when '7' %}7{% when '8' %}8{% when '9' %}9{% when 'A' %}10{% when 'B' %}11{% when 'C' %}12{% when 'D' %}13{% when 'E' %}14{% when 'F' %}15{% endcase %}{% endcapture %}
+          {% capture r2_val %}{% case r2 %}{% when '0' %}0{% when '1' %}1{% when '2' %}2{% when '3' %}3{% when '4' %}4{% when '5' %}5{% when '6' %}6{% when '7' %}7{% when '8' %}8{% when '9' %}9{% when 'A' %}10{% when 'B' %}11{% when 'C' %}12{% when 'D' %}13{% when 'E' %}14{% when 'F' %}15{% endcase %}{% endcapture %}
+          {% assign r = r1_val | times: 16 | plus: r2_val %}
+          
+          {% capture g1_val %}{% case g1 %}{% when '0' %}0{% when '1' %}1{% when '2' %}2{% when '3' %}3{% when '4' %}4{% when '5' %}5{% when '6' %}6{% when '7' %}7{% when '8' %}8{% when '9' %}9{% when 'A' %}10{% when 'B' %}11{% when 'C' %}12{% when 'D' %}13{% when 'E' %}14{% when 'F' %}15{% endcase %}{% endcapture %}
+          {% capture g2_val %}{% case g2 %}{% when '0' %}0{% when '1' %}1{% when '2' %}2{% when '3' %}3{% when '4' %}4{% when '5' %}5{% when '6' %}6{% when '7' %}7{% when '8' %}8{% when '9' %}9{% when 'A' %}10{% when 'B' %}11{% when 'C' %}12{% when 'D' %}13{% when 'E' %}14{% when 'F' %}15{% endcase %}{% endcapture %}
+          {% assign g = g1_val | times: 16 | plus: g2_val %}
+          
+          {% capture b1_val %}{% case b1 %}{% when '0' %}0{% when '1' %}1{% when '2' %}2{% when '3' %}3{% when '4' %}4{% when '5' %}5{% when '6' %}6{% when '7' %}7{% when '8' %}8{% when '9' %}9{% when 'A' %}10{% when 'B' %}11{% when 'C' %}12{% when 'D' %}13{% when 'E' %}14{% when 'F' %}15{% endcase %}{% endcapture %}
+          {% capture b2_val %}{% case b2 %}{% when '0' %}0{% when '1' %}1{% when '2' %}2{% when '3' %}3{% when '4' %}4{% when '5' %}5{% when '6' %}6{% when '7' %}7{% when '8' %}8{% when '9' %}9{% when 'A' %}10{% when 'B' %}11{% when 'C' %}12{% when 'D' %}13{% when 'E' %}14{% when 'F' %}15{% endcase %}{% endcapture %}
+          {% assign b = b1_val | times: 16 | plus: b2_val %}
+          
+          {% assign alpha_percentage = block.settings.gradient_opacity | default: 100 %}
+          {% assign alpha = alpha_percentage | times: 0.01 %}
+          
+          <div class="gradient-overlay" style="background: linear-gradient(
+              180deg,
+              rgba({{ r }}, {{ g }}, {{ b }}, {{ alpha }}) 0%,
+              rgba({{ r }}, {{ g }}, {{ b }}, 0) 100%
+            );">
+          </div>
+
+
           {%- comment -%}
           ----------------------------------------------------------------------------------------------------------------
           CONTENT PART
@@ -153,7 +280,7 @@
 
     
             {%- if block.settings.title_promo != blank -%}
-              <h2 class="promo-heading heading h2" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <h2 class="promo-heading heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.title_promo != blank-%}
                 {{- block.settings.title_promo -}}
               {%- endif -%}
@@ -167,16 +294,7 @@
               {%- endif -%}
               </div>
             {%- endif -%}
-           
-            {%- comment -%}
-            {%- if block.settings.html != blank -%}
-              <div class="heading h2" style="font-family: montserrat, sans-serif; font-size: 15px; letter-spacing: 0.5px; font-weight: 500; text-font-style: normal; margin-top: 35px; margin-bottom: 40px">
-                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.html | escape }}</split-lines>
-              </div>
-            {%- endif -%}
-           {%- endcomment -%}
 
-            
             {%- if block.settings.content_promo != blank -%}
               <h4 class="promo-content heading" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content_promo != blank-%}
@@ -211,27 +329,40 @@
  
           </div>
            {%- if block.settings.content_notice!= blank -%}
-              <div class="promo-notice" style="color: {{ block.settings.text_color }}; letter-spacing: 1; opacity: 0.8;"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+              <div class="promo-notice" style="color: {{ block.settings.text_color }}; letter-spacing: 1"{% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
                {%- if block.settings.content_notice != blank-%}
                 {{- block.settings.content_notice -}}
               {%- endif -%}
               </div>
             {%- endif -%}
-           
          {%- endcapture -%}
+          
 
-          {%- if section_content != blank -%}
-            <div class="container">
-              {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
-              {%- assign text_position = block.settings.text_position | split: '_' | last -%}
+{%- if section_content != blank -%}
+  <div class="container">
 
-              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather">
-                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
-                  {{- section_content -}}
-                </div>
-              </div>
-            </div>
-          {%- endif -%}
+    {%- assign desktop_vertical = block.settings.text_position_desktop | split: '_' | first -%}
+    {%- assign desktop_horizontal = block.settings.text_position_desktop | split: '_' | last -%}
+    <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ desktop_vertical }} block-{{ block.id }} vertical-breather hide-on-mobile">
+      <div class="content-box content-box--medium content-box--text-{{ desktop_horizontal }} content-box--{{ desktop_horizontal }} text-container">
+        {{ section_content }}
+      </div>
+    </div>
+
+    {%- assign mobile_vertical = block.settings.text_position_mobile | split: '_' | first -%}
+    {%- assign mobile_horizontal = block.settings.text_position_mobile | split: '_' | last -%}
+    <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ mobile_vertical }} block-{{ block.id }} vertical-breather show-on-mobile">
+      <div class="content-box mobile-content-adjustment content-box--medium content-box--text-{{ mobile_horizontal }} content-box--{{ mobile_horizontal }} text-container">
+        {{ section_content }}
+      </div>
+    </div>
+
+  </div>
+{%- endif -%}
+
+
+
+
         {%- endcapture -%}
 
         {%- comment -%}If only the button 1 link is filled, then we make the whole slide clickable{%- endcomment -%}
@@ -386,45 +517,29 @@
         },
         {
           "type": "select",
-          "id": "text_position",
-          "label": "Text position",
+          "id": "text_position_desktop",
+          "label": "Textposition (Desktop)",
           "options": [
-            {
-              "value": "top_left",
-              "label": "Top left"
-            },
-            {
-              "value": "top_center",
-              "label": "Top center"
-            },
-            {
-              "value": "top_right",
-              "label": "Top right"
-            },
-            {
-              "value": "middle_left",
-              "label": "Middle left"
-            },
-            {
-              "value": "middle_center",
-              "label": "Middle center"
-            },
-            {
-              "value": "middle_right",
-              "label": "Middle right"
-            },
-            {
-              "value": "bottom_left",
-              "label": "Bottom left"
-            },
-            {
-              "value": "bottom_center",
-              "label": "Bottom center"
-            },
-            {
-              "value": "bottom_right",
-              "label": "Bottom right"
-            }
+            { "value": "top_left", "label": "Oben Links" },
+            { "value": "top_center", "label": "Oben Mitte" },
+            { "value": "top_right", "label": "Oben Rechts" },
+            { "value": "middle_left", "label": "Mitte Links" },
+            { "value": "middle_center", "label": "Mitte Mitte" },
+            { "value": "middle_right", "label": "Mitte Rechts" },
+            { "value": "bottom_left", "label": "Unten Links" },
+            { "value": "bottom_center", "label": "Unten Mitte" },
+            { "value": "bottom_right", "label": "Unten Rechts" }
+          ],
+          "default": "middle_left"
+        },
+        {
+          "type": "select",
+          "id": "text_position_mobile",
+          "label": "Textposition (Mobil)",
+          "options": [
+            { "value": "middle_left", "label": "Links" },
+            { "value": "middle_center", "label": "Mitte" },
+            { "value": "middle_right", "label": "Rechts" }
           ],
           "default": "middle_center"
         },
@@ -507,6 +622,25 @@
         },
         {
           "type": "header",
+          "content": "Hintergrundverlauf"
+        },
+        {
+          "type": "range",
+          "id": "gradient_opacity",
+          "label": "Gradient Opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 100
+        },
+        {
+          "type": "color",
+          "id": "gradient_color",
+          "label": "Verlaufsstartfarbe",
+          "default": "#35414f"
+        },
+        {
+          "type": "header",
           "content": "Colors"
         },
         {
@@ -541,7 +675,7 @@
           "max": 100,
           "step": 1,
           "unit": "%",
-          "default": 30
+          "default": 0
         }
       ]
     }
