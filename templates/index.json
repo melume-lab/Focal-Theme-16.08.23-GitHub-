@@ -174,7 +174,7 @@
         "p {line-height: 1.0833333333 !important;}"
       ],
       "settings": {
-        "section_height": "medium",
+        "section_height": "large",
         "transition_type": "fade",
         "autoplay": true,
         "cycle_speed": 5,
