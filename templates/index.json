@@ -168,8 +168,9 @@
         "image_hLzeNL"
       ],
       "custom_css": [
-        "h2 {font-size: 40px; font-weight: 400;}",
-        "@media (max-width: 999px) {.content-box {width: 100%; }}",
+        "h2 {font-size: 44px;}",
+        "@media screen and (max-width: 999px) {.content-box {width: 100%; }}",
+        "@media screen and (max-width: 740px) {h2 {font-size: 32px !important; }}",
         "p {line-height: 1.0833333333 !important;}"
       ],
       "settings": {
