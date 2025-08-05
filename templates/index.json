@@ -94,7 +94,7 @@
             "button_2_link": "",
             "content_notice": "",
             "topMarginControl": 0,
-            "bottomMarginControl": 0,
+            "bottomMarginControl": 250,
             "gradient_opacity": 0,
             "gradient_color": "#35414f",
             "text_color": "#000000",
