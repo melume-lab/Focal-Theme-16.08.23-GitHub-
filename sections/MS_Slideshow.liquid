@@ -104,6 +104,11 @@
       top: 0;
     }
   }
+    @media screen and (max-width: 740px) {
+  .promo-heading {
+    font-size: var(--mobile-font-size)!important;
+  }
+}
 
   
 
@@ -554,6 +559,15 @@
           "id": "title",
           "label": "Heading",
           "default": "Slide title"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "label": "Mobile Font Size Promo Heading",
+          "min": 15,
+          "max": 44,
+          "step": 1,
+          "default": 32
         },
         {
           "type": "richtext",
