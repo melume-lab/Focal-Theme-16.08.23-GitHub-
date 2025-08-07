@@ -2813,7 +2813,7 @@ p + .button-group,
 .label-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: end;
   pointer-events: none;
 }
 
