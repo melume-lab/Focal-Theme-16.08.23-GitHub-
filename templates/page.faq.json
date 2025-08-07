@@ -473,7 +473,7 @@
           "type": "question",
           "settings": {
             "title": "What are my points worth?",
-            "answer": "<p>This is how much discount you get for your points:</p><ul><li>500 points<br/>5 Euro discount     <br/> </li><li>1000 points<br/>10 Euro discount         <br/></li><li>2000 points<br/>20 Euro discount         <br/></li><li>3000 points<br/>30 Euro discount         <br/></li><li>4000 points<br/>40 Euro discount        <br/></li><li>5000 points<br/>50 Euro discount   </li></ul>"
+            "answer": "<p>This is how much discount you get for your points:</p><ul><li>1000 points<br/>10 Euro discount     <br/> </li><li>1500 points<br/>15 Euro discount         <br/></li><li>2000 points<br/>20 Euro discount         <br/></li><li>3000 points<br/>30 Euro discount         <br/></li><li>4000 points<br/>40 Euro discount        <br/></li><li>5000 points<br/>50 Euro discount   </li></ul>"
           }
         },
         "316d92ac-4106-4a1f-9e48-e085d138795c": {
