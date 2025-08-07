@@ -59,7 +59,7 @@
             "content": "",
             "content_promo": "<p><strong>SELECT AMAZING DISCOUNTS &GIFTS </strong>– <br/>AND DOUBLE YOUR REWARD POINTS</p>",
             "button_1_text": "PICK A GIFT",
-            "button_1_link": "shopify://collections/skincare-products",
+            "button_1_link": "#gift-button",
             "button_2_text": "",
             "button_2_link": "",
             "content_notice": "<p>*Discount offers are valid only with a minimum order value of $60.</p>",
