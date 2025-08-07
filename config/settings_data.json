@@ -134,6 +134,7 @@
           },
           "message_ikn9hK": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>Auto-replenish your favorite products<br/>and save 25% on your order</p>",
               "learn_more_text": "Learn more",
@@ -145,6 +146,7 @@
           },
           "message_PGBLtg": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>Join our newsletter &<br/>get 15$ off on your order now</p>",
               "learn_more_text": "Learn more",
