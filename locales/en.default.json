@@ -119,7 +119,7 @@
       "free_shipping_remaining_html": "You are {{ remaining_amount }} away from the free delivery.",
       "free": "Free!",
       "no_more_stock": "No more stock",
-      "shipping_tax_note": "Shipping & taxes calculated at checkout",
+      "shipping_tax_note": "Shipping calculated at checkout, Buyer is responsible for duties, taxes and fees",
       "product": "Product",
       "quantity": "Quantity",
       "decrease_quantity": "Decrease quantity",
