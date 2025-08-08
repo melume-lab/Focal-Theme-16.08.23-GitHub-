@@ -100,6 +100,7 @@
           },
           "message_FDhhaL": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>Choose 1 luxury samples & 2 sachets<br/>with every order</p>",
               "learn_more_text": "Learn more",
