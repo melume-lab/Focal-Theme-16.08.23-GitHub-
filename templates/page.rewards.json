@@ -94,7 +94,7 @@
             "dividing_line_999": false,
             "dividing_line_740": true,
             "subheading": "3500 Points",
-            "title": "BALMY OILY MILKY CLEANSER",
+            "title": "BALMY, OILY, MILKY CLEANSER",
             "link_text": "REDEEM",
             "link_url": "#joy-open",
             "text_position": "middle_center",
@@ -245,8 +245,8 @@
       "custom_css": [
         ".promotion-block {margin: 0px; padding-left: 0px; padding-right: 0px; min-height: auto;}",
         ".heading {margin-bottom: 0px;}",
-        "@media screen and (min-width: 741px) {.promotion-block__content-wrapper {padding: 0 20px 0 20px; }}",
-        "@media screen and (max-width: 740px) {.promotion-block {padding: 32px; } .text-container {padding-bottom: 32px; } img {padding-top: 25px; }}",
+        "@media screen and (min-width: 741px) {.promotion-block__content-wrapper {padding: 0 20px 0 20px; } .promotion-block-list {margin-left: calc(var(--grid-column-width) + var(--grid-gap)); margin-right: calc(var(--grid-column-width) + var(--grid-gap)); }}",
+        "@media screen and (max-width: 740px) {.promotion-block {padding: 22px; } .text-container {padding-bottom: 32px; }}",
         ".custom-button-wrapper {display: none;}"
       ],
       "settings": {
