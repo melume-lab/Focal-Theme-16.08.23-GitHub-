@@ -90,7 +90,7 @@
           "message-1": {
             "type": "message",
             "settings": {
-              "text": "<p>2.ANNIVERSARY SPECIAL: PICK A GIFT AND <br/>DOUBLE YOUR REWARD POINTS. LIMITED OFFER. <a href=\"#gift-button\" title=\"PICK A GIFT\">PICK MY GIFT</a></p>",
+              "text": "<p>2.ANNIVERSARY SPECIAL: PICK A GIFT AND <br/>DOUBLE YOUR REWARD POINTS. LIMITED OFFER. <a href=\"#sp-game\" title=\"#sp-game\">PICK MY GIFT</a></p>",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "",
