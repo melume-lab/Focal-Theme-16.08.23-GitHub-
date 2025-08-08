@@ -519,6 +519,11 @@
       },
       "contact": {
         "address1_label": "Street and house number"
+      },
+      "shipping": {
+        "duties_and_taxes_options": {
+          "ddu_caption": "Buyer is responsible for duties, taxes and fees"
+        }
       }
     }
   }
