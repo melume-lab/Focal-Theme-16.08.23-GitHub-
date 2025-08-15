@@ -167,7 +167,8 @@
         ".collapsible-toggle {font-weight: 600;}",
         ".jdgm-star {font-weight: normal;}",
         "h1 {text-transform: uppercase;}",
-        ".payment-methods-list--auto {grid-auto-flow: unset;}"
+        ".payment-methods-list--auto {grid-auto-flow: unset;}",
+        ".price-list {lign-items: center;}"
       ],
       "settings": {
         "show_vendor": false,
