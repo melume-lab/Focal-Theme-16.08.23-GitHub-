@@ -168,7 +168,7 @@
         ".jdgm-star {font-weight: normal;}",
         "h1 {text-transform: uppercase;}",
         ".payment-methods-list--auto {grid-auto-flow: unset;}",
-        ".price-list {lign-items: center;}"
+        ".price-list {align-items: center;}"
       ],
       "settings": {
         "show_vendor": false,
