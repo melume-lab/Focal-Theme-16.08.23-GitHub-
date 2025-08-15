@@ -2709,8 +2709,7 @@ p + .button-group,
 .price-list {
   display: inline-flex;
   flex-wrap: wrap;
-  align-items: center;
-  /*align-items: baseline;*/
+  align-items: baseline;
 }
 
 .price-list--centered {
