@@ -56,8 +56,15 @@
             "textsize": 13
           }
         },
+        "liquid_M4CRTq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span class=\"footer__payment-methods-label text--xsmall text--subdued\" style=\"padding-bottom: 10px;\">{{ 'footer.general.we_accept' | t }}:</span>\n<div class=\"payment-methods-list payment-methods-list--auto\">\n              <div class=\"list-payment__item\">\n                <img src=\"{{ 'payment-klarna.svg' | asset_url }}\" class=\"icon icon--full-color\" width=\"38\" height=\"24\" style=\"width: auto; height: 23px;\"/>\n              </div>\n              \n              {% for type in shop.enabled_payment_types %}\n                {{ type | payment_type_svg_tag }}\n              {% endfor %}\n              \n            </div>"
+          }
+        },
         "c6843306-a389-4746-a9bd-174bdeb77b8a": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Pay within 30 days using <strong>Klarna. </strong><a href=\"https://www.klarna.com/de/kundenservice/wie-funktioniert-der-ratenkauf-mit-klarna/\" target=\"_blank\" title=\"Klarna Ratenkauf\">Learn more</a></p>",
             "textsize": 13
@@ -65,12 +72,14 @@
         },
         "d748b0dc-b1b1-4e8e-9f64-c6a06488fb8a": {
           "type": "html",
+          "disabled": true,
           "settings": {
             "html": "Auto-replenishment:<ul style=\"list-style-type: '→ ';\nmargin-left: -20px;\">\n<li>\n<p>Exclusively payable with Paypal.</p>\n</li>\n<li>\n<p>You can pause or cancel the delivery and change the frequency from the third delivery.</p>\n</li>\n<li>\n<p>You determine your delivery times.</p>\n</li>\n<li>\n<p>You will be notified before each delivery.</p>\n</li>\n<li>\n<p>You can cancel your subscription at any time after receiving at least two delivery cycles.</p>\n</li>\n</ul>"
           }
         },
         "6104bf44-3c8a-45ac-9448-0b6a23fda608": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><a href=\"https://www.sealsubscriptions.com/articles/how-subscriptions-work\" target=\"_blank\" title=\"https://www.sealsubscriptions.com/articles/how-subscriptions-work\">Learn more</a></p>",
             "textsize": 13
@@ -143,6 +152,7 @@
         "9b02b676-ac6c-418d-9f39-0212831b8811",
         "bbdb1d99-abb2-4642-9ed5-63ef0c07cafe",
         "9a8c4975-6d37-42e8-a6e5-bf8bce86c5bc",
+        "liquid_M4CRTq",
         "c6843306-a389-4746-a9bd-174bdeb77b8a",
         "d748b0dc-b1b1-4e8e-9f64-c6a06488fb8a",
         "6104bf44-3c8a-45ac-9448-0b6a23fda608",
@@ -156,7 +166,8 @@
       "custom_css": [
         ".collapsible-toggle {font-weight: 600;}",
         ".jdgm-star {font-weight: normal;}",
-        "h1 {text-transform: uppercase;}"
+        "h1 {text-transform: uppercase;}",
+        ".payment-methods-list--auto {grid-auto-flow: unset;}"
       ],
       "settings": {
         "show_vendor": false,
@@ -282,7 +293,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_CkgiEA": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
