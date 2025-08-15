@@ -84,16 +84,25 @@
     <div class="container">
       <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb text--xsmall text--subdued hidden-phone">
         <ol class="breadcrumb__list" role="list">
+          <!-- Home -->
           <li class="breadcrumb__item">
             <a class="breadcrumb__link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a>
           </li>
 
-          {%- if collection -%}
-            <li class="breadcrumb__item">
-              <a class="breadcrumb__link" href="{{ collection.url }}">{{- collection.title -}}</a>
-            </li>
-          {%- endif -%}
+          {%- comment -%} Breadcrumb Collection bestimmen {%- endcomment -%}
+          {% assign metafield_collection = product.metafields.custom.breadcrumb_collection.value %}
+          {% assign breadcrumb_collection = metafield_collection | default: collection | default: product.collections.first %}
 
+
+          {% if breadcrumb_collection %}
+            <li class="breadcrumb__item">
+              <a class="breadcrumb__link" href="{{ breadcrumb_collection.url }}">
+                {{ breadcrumb_collection.title }}
+              </a>
+            </li>
+          {% endif %}
+
+          <!-- Aktuelles Produkt -->
           <li class="breadcrumb__item">
             <span class="breadcrumb__link" aria-current="page">{{ product.title }}</span>
           </li>
@@ -104,10 +113,8 @@
       <div class="product product--thumbnails-{{ section.settings.desktop_thumbnails_position }}">
         {%- render 'product-media', product: product -%}
         {%- render 'product-info', product: product, update_url: true -%}
-        
-    
-        </div>
       </div>
+    </div>
   </section>
 {%- else -%}
 
