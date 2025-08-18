@@ -89,6 +89,7 @@
         "blocks": {
           "message-1": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>2.ANNIVERSARY SPECIAL: PICK A GIFT AND <br/>DOUBLE YOUR REWARD POINTS. LIMITED OFFER. <a href=\"#sp-game\" title=\"#sp-game\">PICK MY GIFT</a></p>",
               "learn_more_text": "Learn more",
