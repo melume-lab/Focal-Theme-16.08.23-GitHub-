@@ -167,8 +167,13 @@
         ".collapsible-toggle {font-weight: 600;}",
         ".jdgm-star {font-weight: normal;}",
         "h1 {text-transform: uppercase;}",
+        ".product-form__quantity-label {text-transform: uppercase;}",
+        "img {object-fit: cover; height: 100%;}",
         ".payment-methods-list--auto {grid-auto-flow: unset;}",
-        ".price-list {align-items: center;}"
+        ".price-list {align-items: center;}",
+        "product-media {max-width: 550px;}",
+        ".product-form__quantity-label {display: none;}",
+        ".sls-purchase-options-label {display: none;}"
       ],
       "settings": {
         "show_vendor": false,
@@ -181,8 +186,8 @@
         "enable_video_autoplay": true,
         "enable_video_looping": false,
         "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "left",
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "bottom",
         "transition_effect": "slide"
       }
     },
