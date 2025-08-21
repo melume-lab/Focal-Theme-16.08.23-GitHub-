@@ -209,7 +209,7 @@
       "need_help": "Need help?",
       "view_details": "View details",
       "include_taxes": "Tax included.",
-      "promo-patch": "SUMMER SALE",
+      "promo-patch": "PROMO",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated</a> at checkout",
       "reviews_count": {
         "zero": "No reviews",
