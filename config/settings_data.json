@@ -29,7 +29,7 @@
     "secondary_button_text_color": "#000000",
     "product_rating_color": "#000000",
     "product_on_sale_accent": "#de2a2a",
-    "product_sold_out_accent": "#20c7c0",
+    "product_sold_out_accent": "#000000",
     "product_custom_label_background": "#000000",
     "product_custom_label_2_background": "#282828",
     "product_in_stock_text_color": "#2e9e7b",
