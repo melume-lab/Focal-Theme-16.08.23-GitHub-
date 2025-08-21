@@ -11997,7 +11997,7 @@ input:checked + .popover__choice-label::after,
 .product__thumbnail,
 .product__thumbnail > img {
   border-radius: min(var(--block-border-radius), 4px);
-  height: 130px;
+  /*height: 130px;*/
   width: auto;
 }
 
