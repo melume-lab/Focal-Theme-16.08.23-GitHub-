@@ -30,8 +30,7 @@
         ".concern-desktop {display: flex;}",
         ".concern-toggle-content {gap: 0px; max-width: 1350px;}",
         ".concern-img-frame {border: 0px;}",
-        "p {font-weight: 700; text-align: center;}",
-        "section {margin-bottom: 0px;}"
+        "p {font-weight: 700; text-align: center;}"
       ],
       "settings": {
         "subheading": "",
@@ -202,7 +201,6 @@
       "settings": {
         "subheading": "",
         "title": "SHOP BY INGREDIENTS",
-        "h_value": 3,
         "section_size": "medium",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
