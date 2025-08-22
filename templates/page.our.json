@@ -44,7 +44,7 @@
             "subheading": "",
             "title": "﻿﻿SKINCARE BORN FROM PASSION",
             "content": "",
-            "html": "<p> <span style=\"font-size: calc(var(--heading-h3-font-size) - 8px); line-height: 1.1\">OUR FOUNDER, HARRIËT PLOEGER, </span><br>is a seasoned and passionate cosmetics industry professional from the Netherlands, boasting 40 years of experience in various leadership roles across multiple categories. She has a proven track record of successfully creating global products and brands, overseeing their development from initial concept to launch and beyond.<br><br>\nThrough her extensive industry knowledge, Harriët uncovered a troubling reality: if we closely examined the ingredients and their concentrations in skin care products, many consumers would be surprised. Often, brands' claims do not match the actual levels of active ingredients present, resulting in products that fail to meet their promises.<br><br>\nFrustrated by misleading promises and exaggerated claims and driven by her passion for transparency and truth, our founder mobilized her network of trusted industry professionals, dedicated researchers, and experts specializing in high-performance skincare to start Melumé Skinscience.\n<br><br>\nHer vision is to create a line of skincare products that provide everything necessary to achieve remarkable results for the skin, focusing on visible changes rather than empty promises.</p>",
+            "html": "<p> <span style=\"font-size: calc(var(--heading-h3-font-size) - 8px); line-height: 1.8\">HARRIËT PLOEGER </span><br> She is a dedicated and experienced veteran in the cosmetics industry from the Netherlands. She has 40 years of leadership experience across various categories and a successful track record of creating global products and brands, overseeing their development from initial concept to launch and beyond.<br><br>\nThrough her extensive industry knowledge, Harriët uncovered a troubling reality: if we closely examined the ingredients and their concentrations in skincare products, many consumers would be surprised. Often, the claims made by brands do not align with the actual levels of active ingredients present, leading to products that do not deliver on their promises. <br><br>\nFrustrated by these misleading claims and driven by a passion for transparency and truth, Harriët mobilized her network of trusted industry professionals, dedicated researchers, and experts in high-performance skincare to establish Melumé Skinscience.\n<br><br>\nHer vision is to create a line of skincare products that provide everything necessary to achieve remarkable results for the skin, focusing on visible changes rather than empty promises. </p>",
             "button_text": "",
             "button_link": ""
           }
@@ -159,7 +159,6 @@
         "@media screen and (min-width: 741px) {p {font-size: 20px; } .image-container {margin-bottom: 88px; } .image-overlay__text-container {margin-top: 0px; margin-bottom: 88px; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Melume_Model_II5107_1_small_bb726ceb-8fab-4deb-85a1-3c1bdc9247ca.png",
         "title": "",
         "content": "<p>JOIN OUR FOUNDER IN ADVOCATING FOR TRANSPARENCY, HONESTY, AND EFFECTIVENESS IN SKINCARE. DISCOVER THE TRUE POTENTIAL OF SKINCARE AND ENVISION ITS FUTURE.</p>",
         "html": "",
