@@ -322,11 +322,14 @@ US SHOP DEAKTIVATION
 {%- endcomment -%}
 <style>
 
-.product-form__payment-container,
+.product-form__payment-container {
+display: none;
+}
+
 .product-item__cta {
-display: none;}
-
-
+ pointer-events: none;
+ cursor: not-allowed;
+}
 </style>
 
 
