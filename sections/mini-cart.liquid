@@ -61,7 +61,7 @@
     </button>
   </header>
 
-  {%- if cart.item_count == 0 -%}
+  {%- if cart.item_count < 99999 -%}
     <div class="drawer__content drawer__content--center">
       <p>{{ 'cart.general.empty' | t }}</p>
 
