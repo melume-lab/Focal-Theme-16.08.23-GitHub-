@@ -21,12 +21,13 @@
       "type": "image-with-text-block",
       "custom_css": [
         "h1 {font-size: 40px; text-transform: uppercase;}",
-        ".content-box--left {background-color: rgba(1, 1, 1, 0);}",
-        ".content-box-custom-width {max-width: 500px;}"
+        ".content-box-custom-width {max-width: 700px;}",
+        "@media screen and (max-width: 740px) {.content-box {text-align: center; }}",
+        ".image-with-text-block__content:not(.image-with-text-block__content--tight) {padding: 48px;}"
       ],
       "settings": {
         "reveal_on_scroll": true,
-        "image": "shopify://shop_images/2.0_Banner_2000x980_3_Edit.png",
+        "image": "shopify://shop_images/4.0_Rotating_Banner_2160x1018_CLUB.jpg",
         "mobile_image": "shopify://shop_images/2.0_Banner_2000x980_3_Mobile.png",
         "subheading": "",
         "title": "The Melumé Skin Club",
@@ -165,7 +166,7 @@
         "show_dot": true,
         "maintitle": "This is how it works",
         "button_text": "Sign up",
-        "button_link": "#smile-home",
+        "button_link": "/account",
         "background": "#ffffff",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "#000000",
