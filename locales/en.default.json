@@ -114,7 +114,7 @@
     "general": {
       "title": "SHOPPING CART",
       "empty": "Your cart is empty",
-      "start_shopping": "Start shopping",
+      "start_shopping": "GO TO KNOCKOUT BEAUTY",
       "free_shipping": "Great news! Your order now qualifies for free shipping.",
       "free_shipping_remaining_html": "You are {{ remaining_amount }} away from the free delivery.",
       "free": "Free!",
