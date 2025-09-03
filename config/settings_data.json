@@ -114,6 +114,7 @@
           },
           "ca03ee42-1f42-4bdd-bce4-16a162ac045e": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>Free shipping & return over $ 100 &<br/>100% money back guarantee</p>",
               "learn_more_text": "Learn more",
@@ -125,6 +126,7 @@
           },
           "26764d66-98b4-412f-be3c-586927d4f7cb": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "text": "<p>Join our Skin Club today and<br/>unlock a world of benefits.  <a href=\"https://melume-skinscience.us.com/account/login?country=US\">Join now.</a></p>",
               "learn_more_text": "Learn more",
@@ -148,10 +150,9 @@
           },
           "message_PGBLtg": {
             "type": "message",
-            "disabled": true,
             "settings": {
-              "text": "<p>Join our newsletter &<br/>get 15$ off on your order now</p>",
-              "learn_more_text": "Learn more",
+              "text": "<p>US shipping has been paused due to new customs regulations. Please visit our trusted retailer Knockout Beauty <a href=\"https://knockoutbeauty.com/\" title=\"https://knockoutbeauty.com/\">HERE</a>. </p>",
+              "learn_more_text": "",
               "title": "",
               "content": "",
               "button_text": "",
