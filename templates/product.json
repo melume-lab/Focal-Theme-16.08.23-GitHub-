@@ -37,10 +37,12 @@
         },
         "9b02b676-ac6c-418d-9f39-0212831b8811": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "bbdb1d99-abb2-4642-9ed5-63ef0c07cafe": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_payment_button": false,
             "atc_button_background": "rgba(0,0,0,0)",
@@ -51,6 +53,7 @@
         },
         "9a8c4975-6d37-42e8-a6e5-bf8bce86c5bc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Delivery: {{ product.metafields.custom.delivery.value }} business days</p>",
             "textsize": 13
@@ -58,6 +61,7 @@
         },
         "liquid_M4CRTq": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<span class=\"footer__payment-methods-label text--xsmall text--subdued\" style=\"padding-bottom: 10px;\">{{ 'footer.general.we_accept' | t }}:</span>\n<div class=\"payment-methods-list payment-methods-list--auto\">\n              \n              \n              {% for type in shop.enabled_payment_types %}\n                {{ type | payment_type_svg_tag }}\n              {% endfor %}\n              \n            </div>"
           }
