@@ -238,7 +238,7 @@ setTimeout(() => {
 <section>
 <div class="page-overlay"></div>
   <div class="container container--medium">
-    {%- if cart.total_price > 9999999 -%} 
+    {%- if cart.total_price > 9999999 -%} {%- comment -%} US SHOP DISABLE {%- endcomment -%}
       <div class="page-header">
         <div class="page-header__text-wrapper text-container">
           <h1 class="heading h2">{{ 'cart.general.title' | t }}</h1>
@@ -298,7 +298,7 @@ setTimeout(() => {
       </div>
     {%- endif -%}
 
-    {%- if cart.total_price > 9999999 -%}
+    {%- if cart.total_price > 9999999 -%} {%- comment -%} US SHOP DISABLE {%- endcomment -%}
       <div class="page-content page-content--fluid">
         <div class="cart">
           <div class="cart__content">
