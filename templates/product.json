@@ -11,6 +11,7 @@
   "sections": {
     "rich_text_ppLGTY": {
       "type": "rich-text",
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "subheading": "Subheading",
@@ -34,7 +35,6 @@
       "blocks": {
         "e48aaa0e-d9ec-417c-bf54-6dfac516772c": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>{{ product.metafields.custom.ml_angaben | metafield_tag }}</p>",
             "textsize": 13
