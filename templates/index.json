@@ -117,7 +117,7 @@
         "section_height": "large",
         "transition_type": "fade",
         "autoplay": true,
-        "cycle_speed": 5,
+        "cycle_speed": 10,
         "background": "#ffffff"
       }
     },
