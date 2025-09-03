@@ -52,6 +52,7 @@
     "search_unavailable_products": "show",
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
+    "cart_empty_button_link": "https://knockoutbeauty.com/collections/melume",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "100",
     "social_facebook": "https://www.facebook.com/melumeskinscience",
