@@ -58,10 +58,9 @@
         },
         "text_EXB3fG": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>IMPORTANT INFORMATION</strong></p><p>Due to new customs regulations and extremely <strong>high additional charges</strong>, we are no longer able to <strong>ship directly</strong> to the United States. <br/><br/>You can continue to explore our full collection, learn more about our products, and stay connected with our customer service team.</p><p> For purchases within the U.S., please visit our trusted retail partner <a href=\"https://knockoutbeauty.com/collections/melume\">Knockout Beauty</a><br/></p>",
-            "textsize": 20
+            "text": "<p><strong>IMPORTANT INFORMATION</strong><br/>US shipping has been paused due to new customs regulations. Please visit our trusted retailer Knockout Beauty <a href=\"https://knockoutbeauty.com/\" title=\"https://knockoutbeauty.com/\">HERE</a>. <br/></p>",
+            "textsize": 15
           }
         },
         "9b02b676-ac6c-418d-9f39-0212831b8811": {
