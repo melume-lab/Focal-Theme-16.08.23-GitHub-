@@ -59,7 +59,7 @@
         "text_EXB3fG": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>IMPORTANT INFORMATION</strong><br/>US shipping has been paused due to new customs regulations. Please visit our trusted retailer Knockout Beauty <a href=\"https://knockoutbeauty.com/\" title=\"https://knockoutbeauty.com/\">HERE</a>. <br/></p>",
+            "text": "<p><strong>IMPORTANT INFORMATION</strong><br/><strong>US shipping has been paused due to new customs regulations. Please visit our trusted retailer Knockout Beauty </strong><a href=\"https://knockoutbeauty.com/\" title=\"https://knockoutbeauty.com/\"><strong>HERE</strong></a><strong>. <br/></strong></p>",
             "textsize": 15
           }
         },
