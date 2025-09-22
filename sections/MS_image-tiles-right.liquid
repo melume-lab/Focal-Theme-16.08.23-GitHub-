@@ -152,7 +152,7 @@
 <section class="section">
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign first_block = section.blocks.first -%}
-    <div class="split-container">
+    <div class="split-container" style="background-color: {{ section.settings.accent_background }};>
       
       <div class="image-tiles-text-main-container-right">
         <div class="image-tiles-text-container-left">
