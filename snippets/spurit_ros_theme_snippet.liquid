@@ -40,11 +40,11 @@
   {% if pageType == 'product' %}
   {% render 'spurit_ros_product_details_snippet', product: product %}
   {% elsif pageType == 'search' %}
-  {% paginate search.results %}
+  {% paginate search.results by nil %}
   {% render 'spurit_ros_products_list_snippet', products: search.results %}
   {% endpaginate %}
   {% elsif pageType == 'collection' %}
-  {% paginate collection.products %}
+  {% paginate collection.products by nil %}
   {% render 'spurit_ros_products_list_snippet', products: collection.products %}
   {% endpaginate %}
   {%endif%}
@@ -54,3 +54,16 @@
 <script src="https://cdn-spurit.com/all-apps/spurit.global-2.x.min.js" async></script>
 <script src="https://cdn-spurit.com/shopify-apps/recurring-order-and-subscriptions/common.js" async></script>
 <link href="https://cdn-spurit.com/shopify-apps/recurring-order-and-subscriptions/common.css" rel="stylesheet" type="text/css" media="all">
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% paginate search.results %}"
+  to: "{% paginate search.results by nil %}"
+  position: 1617..1653
+- from: "{% paginate collection.products %}"
+  to: "{% paginate collection.products by nil %}"
+  position: 1791..1832
+{% endcomment %}
